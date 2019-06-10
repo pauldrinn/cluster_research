@@ -11,6 +11,7 @@ for allfiles in os.listdir('./clustersfasta/hmmed'):
             stringy1 = stringy.replace('\n', '')
             stringy2 = stringy1.replace('>','\n>')
             stringy3 = stringy2.replace('.1','.1\n')
+            stringy4 = stringy3.replace('.2','.2\n')
             a.seek(0)
             a.truncate()
-            a.write(stringy3)
+            a.write(stringy4)
