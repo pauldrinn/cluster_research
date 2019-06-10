@@ -21,4 +21,15 @@ for alnfile in alnfilelist:
 for afile, alen in alnlendic.iteritems():
         table.loc[afile,'Alignment length'] = alen
 
+#adds tot # of seq. elements
+totseqelements = {}
+for alnfile in alnfilelist:
+    with open('./clustersfasta/hmmed/'+alnfile+'.fa aligned','r') as f:
+        stringy = f.read()
+        seqele = stringy.count('>')
+        totseqelements.update({alnfile:seqele})
+for afile, totseq in totseqelements.iteritems():
+        table.loc[afile,'Total #seq. elements'] = totseq
+
+
 table.to_csv('./finaltable.csv')
