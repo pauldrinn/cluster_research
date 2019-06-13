@@ -13,23 +13,31 @@ table = pandas.DataFrame(index=alnfilelist,columns=ddata)
 #adds alignment length
 alnlendic = {}
 for alnfile in alnfilelist:
-    with open('./clustersfasta/hmmed/'+alnfile+'.fa aligned','r') as f:
-        for i, line in enumerate(f):
-            if i==2:
-             	alnlen = len(line)-1
-                alnlendic.update({alnfile:alnlen})
+	with open('./clustersfasta/hmmed/'+alnfile+'.fa aligned','r') as f:
+		for i, line in enumerate(f):
+			if i==2:
+				alnlen = len(line)-1
+		alnlendic.update({alnfile:alnlen})
 for afile, alen in alnlendic.iteritems():
-        table.loc[afile,'Alignment length'] = alen
+	table.loc[afile,'Alignment length'] = alen
 
 #adds tot # of seq. elements
 totseqelements = {}
 for alnfile in alnfilelist:
-    with open('./clustersfasta/hmmed/'+alnfile+'.fa aligned','r') as f:
-        stringy = f.read()
-        seqele = stringy.count('>')
-        totseqelements.update({alnfile:seqele})
+	with open('./clustersfasta/hmmed/'+alnfile+'.fa aligned','r') as f:
+		stringy = f.read()
+		seqele = stringy.count('>')
+		totseqelements.update({alnfile:seqele})
 for afile, totseq in totseqelements.iteritems():
-        table.loc[afile,'Total #seq. elements'] = totseq
+	table.loc[afile,'Total #seq. elements'] = totseq
 
+#adds # of unk annotations
+unkannotations = {}
+gdtunk = []
+with open('Sep18p.i2.curated.arch.Ad44') as gdtfile:
+	reader = csv.reader(gdtfile, delimiter='\t')
+	for row in reader:
+		if (row[1] == "unk"):
+			gdtunk.append(row[0])
 
 table.to_csv('./finaltable.csv')
