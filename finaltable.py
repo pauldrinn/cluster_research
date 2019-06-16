@@ -39,5 +39,19 @@ with open('Sep18p.i2.curated.arch.Ad44') as gdtfile:
 	for row in reader:
 		if (row[1] == "unk"):
 			gdtunk.append(row[0])
+for alnfile in alnfilelist:
+	with open('./clustersfasta/hmmed/'+alnfile+'.fa aligned','r') as f:
+		newf = f.read().split('\n')
+		anninfile = []
+		unkcount = 0
+		for uid in newf:
+			if uid.startswith('>'):
+				anninfile.append(uid.split('>')[1])
+		for i in anninfile:
+			if i in gdtunk:
+				unkcount +=1
+		unkannotations.update({alnfile:unkcount})
+for afile, nounk in unkannotations.iteritems():
+	table.loc[afile,'# of unknowns'] = nounk
 
 table.to_csv('./finaltable.csv')
