@@ -4,7 +4,7 @@ Improving the coverage of annotations for N-terminal domains of NLR proteins.
 ## Approach
 
 ### Through remote homologues (HMMER)
-The relevant profiles were searched against our database and 1589 new domain annotations were obtained.
+The relevant profiles were searched against our database and **1574** new domain annotations were obtained.
 
 - [x] Pfam HMM library obtained ([ftp://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz](http://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz))
 - [x] Relevant families retrieved from https://doi.org/10.1007/978-3-030-49924-2_6 ([relevant_family_names.txt](remote_homology/relevant_family_names.txt))
@@ -16,7 +16,8 @@ hmmfetch -f Pfam-A.hmm relevant_family_names.txt > relevant_pHMMs.hmm
 ```sh
 hmmsearch --tblout homologies.csv relevant_pHMMs.hmm ../Sep18p.curated.Ntm_env20_le10.fa
 ```
-- [x] Added new domain annotations to [w_remhom_Sep18p.i2.curated.arch.Ad44](w_remhom_Sep18p.i2.curated.arch.Ad44) (inclusion threshold e-value: 0.01)
+- [x] Families matched to annotations into [remote_homologue_annotations_001.tsv](remote_homology/remote_homologue_annotations_001.tsv) (inclusion threshold e-value: 0.01) with [annotate_homologues.py](remote_homology/annotate_homologues.py)
+- [x] Added new domain annotations to the ground truth file to obtain [w_remhom_Sep18p.i2.curated.arch.Ad44](remote_homology/w_remhom_Sep18p.i2.curated.arch.Ad44) 
 
 ### Through clustering
 - [x] Selecting the best method of clustering
