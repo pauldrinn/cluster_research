@@ -27,4 +27,4 @@ hmmsearch --tblout homologies.csv relevant_pHMMs.hmm ../Sep18p.curated.Ntm_env20
     - [x] Analysis of clusters and obtaining a score ([cluster_analysis.py](cluster_evaluation/cluster_analysis.py))
 - [x] Each cluster extracted into [separated_clusters](cluster_alignment/separated_clusters/) with [extract_clusters.py](cluster_alignment/extract_clusters.py)
 - [x] Clusters aligned into [aligned_clusters](cluster_alignment/separated_clusters/aligned_clusters/) using Clustal Omega ([batch_alignment.sh](cluster_alignment/batch_alignment.sh)
-- [] jackhmmer or hhsuite
+- [ ] jackhmmer or hhsuite
