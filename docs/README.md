@@ -17,6 +17,12 @@ Trimmed the 20 residue envelope from every sequence and created 2 new FASTA file
 ```sh
 cat Sep18p.curated.Ntm_env20_le10.fa | seqkit mutate -w 0 -d -20:-1 --quiet | seqkit seq -w 0 -m 20 > Sep18p.curated.Ntm_minlen20.fa
 ```
+A comparison:
+|file                             | format |   type  | num_seqs |  sum_len  | min_len | avg_len | max_len |
+|---------------------------------|--------|---------|----------|-----------|---------|---------|---------|
+|Sep18p.curated.Ntm_env20_le10.fa | FASTA  | Protein |  36,134  | 9,187,203 |   20    |  254.3  |  5,731  |
+|Sep18p.curated.Ntm_minlen20.fa   | FASTA  | Protein |  32,532  | 8,453,035 |   20    |  259.8  |  5,711  |
+|Sep18p.curated.Ntm_minlen30.fa   | FASTA  | Protein |  31,756  | 8,433,921 |   30    |  265.6  |  5,711  |
 
 ---
 
