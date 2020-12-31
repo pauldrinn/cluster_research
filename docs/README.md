@@ -16,6 +16,7 @@ Trimmed the 20 residue envelope from every sequence and created 2 new FASTA file
 
 ```sh
 cat Sep18p.curated.Ntm_env20_le10.fa | seqkit mutate -w 0 -d -20:-1 --quiet | seqkit seq -w 0 -m 20 > Sep18p.curated.Ntm_minlen20.fa
+cat Sep18p.curated.Ntm_env20_le10.fa | seqkit mutate -w 0 -d -20:-1 --quiet | seqkit seq -w 0 -m 30 > Sep18p.curated.Ntm_minlen30.fa
 ```
 A comparison:
 |file                             | format |   type  | num_seqs |  sum_len  | min_len | avg_len | max_len |
@@ -51,7 +52,13 @@ Attempted to switch to aforementioned structure (half-assed)
 
 ---
 
-To-do for tomorrow:
+To-do for ~~tomorrow~~ later:
 - Integrate mmseqs databases
 - Build better pipeline for multiple mmeqs databases and fix evaluation module (parameters and file naming).
 - Basically complete the structural reform
+
+## 31.12.2020
+
+Procrastinated a lot. Learned about what a Makefile is. Loved it. Decided to use it. Currently trying to write one big Makefile to execute the pipeline I have in hand.
+
+Making progress. Although not really necessary, I'm prompting the user to download Pfam-A.hmm to fetch profile HMMs from it for approach #1.
