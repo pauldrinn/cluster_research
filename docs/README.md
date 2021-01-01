@@ -1,5 +1,15 @@
 # Notebook
 
+## 01.01.2020
+
+Happy new year! Day off. (Fixed ordering in this notebook phew)
+
+## 31.12.2020
+
+Procrastinated a lot. Learned about what a Makefile is. Loved it. Decided to use it. Currently trying to write one big Makefile to execute the pipeline I have in hand.
+
+Making progress. Although not really necessary, I'm prompting the user to download Pfam-A.hmm to fetch profile HMMs from it for approach #1.
+
 ## 30.12.2020
 
 Confused about why easy-cluster and cluster give me different results.
@@ -56,9 +66,3 @@ To-do for ~~tomorrow~~ later:
 - Integrate mmseqs databases
 - Build better pipeline for multiple mmeqs databases and fix evaluation module (parameters and file naming).
 - Basically complete the structural reform
-
-## 31.12.2020
-
-Procrastinated a lot. Learned about what a Makefile is. Loved it. Decided to use it. Currently trying to write one big Makefile to execute the pipeline I have in hand.
-
-Making progress. Although not really necessary, I'm prompting the user to download Pfam-A.hmm to fetch profile HMMs from it for approach #1.
