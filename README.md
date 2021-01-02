@@ -25,8 +25,7 @@ hmmsearch --tblout homologies.csv relevant_pHMMs.hmm ../Sep18p.curated.Ntm_env20
 
 ### Through clustering and iterative search (jackhmmer)
 - [x] Selected the best method of clustering (mmseqs2 --cluster-mode 1)
-    - [x] Preprocessing of clustering results ([cluster_preprocess.py](nterm_annot/cluster_evaluation/cluster_preprocess.py))
-    - [x] Analysis of clusters and obtaining a score ([cluster_analysis.py](nterm_annot/cluster_evaluation/cluster_analysis.py))
+    - [x] Preprocessing of clustering results and analysis of clusters -- obtaining a score ([cluster_analysis.py](nterm_annot/cluster_evaluation/cluster_analysis.py))
 - [x] Each cluster extracted into [separated_clusters](data/cluster_alignment/separated_clusters/) ([extract_clusters.py](nterm_annot/cluster_alignment/extract_clusters.py))
 - [x] Clusters aligned into [aligned_clusters](data/cluster_alignment/aligned_clusters/) using Clustal Omega ([batch_alignment.sh](data/cluster_alignment/batch_alignment.sh))
 - [ ] jackhmmer or hhsuite

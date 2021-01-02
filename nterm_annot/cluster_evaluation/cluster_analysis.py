@@ -3,13 +3,22 @@ import numpy as np
 import pandas as pd
 import sys
 
-mem_clu_ann = sys.argv[1]
+gdt_file_name = sys.argv[1] # Ground truth
+clu_file_name = sys.argv[2] # Cluster file (.tsv)
 
-df = pd.read_csv(mem_clu_ann, sep='\t', header=None)
-df.drop(0, inplace=True, axis=1)
-df.rename(columns={1: 'Cluster', 2: 'TA'}, inplace=True)
+gdt_file = pd.read_csv(gdt_file_name, sep='\t', names=["Representative no", "Nterm", "NOD", "Cterm"], header=None)
+gdt_file = gdt_file.drop(["NOD", "Cterm"], axis = 1) # Dropping NOD and C-terminal
 
-table = pd.crosstab(df['Cluster'],df['TA'])
+clu_file = pd.read_csv(clu_file_name, sep='\t', names=["Cluster no", "Representative no"], header=None)
+
+gdt_file_wo_unk = gdt_file[~(gdt_file.Nterm.str.contains("unk"))].sort_values(by = 'Nterm', ignore_index = True) # Removing unknown entries
+gdt_clu = pd.merge(gdt_file_wo_unk, clu_file) # Merging the ground truth and cluster file
+gdt_clu = gdt_clu[['Representative no', 'Cluster no', 'Nterm']] # Reordering columns
+gdt_clu['Nterm'] = gdt_clu['Nterm'].str.split().str[0] # Removing multiple annotations
+
+df = gdt_clu.drop("Representative no", axis=1)
+
+table = pd.crosstab(df['Cluster no'],df['Nterm'])
 
 colmax = table.max(axis=0)				#max of columns (series)
 colmax.name = 'colmax'
@@ -28,7 +37,7 @@ tempcolwavg = (colpercent * colsum).sum() / colsum.sum()
 rowwavg = pd.Series(temprowwavg, name='rowweightedavg', index=[table.index[0]])
 colwavg = pd.Series(tempcolwavg, name='colweightedavg', index=[table.columns[0]])
 
-table.assign(rowmax = rowmax).append(colmax).assign(rowsum = rowsum).append(colsum).assign(rowpercent = rowpercent).append(colpercent).assign(rowweightedavg = rowwavg).append(colwavg).to_csv(mem_clu_ann.rsplit('.',1)[0] + '_anal.tsv', sep='\t')
+table.assign(rowmax = rowmax).append(colmax).assign(rowsum = rowsum).append(colsum).assign(rowpercent = rowpercent).append(colpercent).assign(rowweightedavg = rowwavg).append(colwavg).to_csv(clu_file_name.rsplit('.',1)[0] + '_anal.tsv', sep='\t')
 
 precision = rowwavg.iloc[0]
 recall = colwavg.iloc[0]

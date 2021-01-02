@@ -22,9 +22,13 @@ with open(clu_all_seq, 'r') as f:
 		else:
 			w.write(identifier + line)
 
+"""
+# Found out createseqfiledb does this with --min-sequences 20
+
 # This part removes clusters with less than 20 members
 filelist = os.listdir('separated_clusters')
 for clufile in filelist:
 	num_lines = sum(1 for line in open('separated_clusters/' + clufile))
 	if num_lines < 42:
 		os.remove('separated_clusters/' + clufile)
+"""

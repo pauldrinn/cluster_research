@@ -23,3 +23,5 @@ endif
 fetch_profile:
 	@hmmfetch --index $(DATA_DIR)/remote_homology/Pfam-A.hmm
 	@hmmfetch -f $(DATA_DIR)/remote_homology/Pfam-A.hmm $(DATA_DIR)/remote_homology/relevant_family_names.txt > $(DATA_DIR)/remote_homology/relevant_pHMMs.hmm
+
+# INCOMPLETE
