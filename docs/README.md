@@ -1,6 +1,45 @@
 # Notebook
 
-## 02.01.2020
+## 03.01.2021
+
+Fixed the dates on this notebook :p
+
+---
+Started clustering minimum sequence identity = 0.85 sets.
+```sh
+mkdir -p dbs/env20_le10_DB/out/minseqid_085_cluster_mode_1_out dbs/minlen20_DB/out/minseqid_085_cluster_mode_1_out dbs/minlen30_DB/out/minseqid_085_cluster_mode_1_out
+mmseqs cluster dbs/env20_le10_DB/env20_le10_DB dbs/env20_le10_DB/out/minseqid_085_cluster_mode_1_out/minseqid_085_cluster_mode_1_out_DB dbs/env20_le10_DB/out/minseqid_085_cluster_mode_1_out/tmp --cluster-mode 1 --min-seq-id 0.85
+mmseqs cluster dbs/minlen20_DB/minlen20_DB dbs/minlen20_DB/out/minseqid_085_cluster_mode_1_out/minseqid_085_cluster_mode_1_out_DB dbs/minlen20_DB/out/minseqid_085_cluster_mode_1_out/tmp --cluster-mode 1 --min-seq-id 0.85
+mmseqs cluster dbs/minlen30_DB/minlen30_DB dbs/minlen30_DB/out/minseqid_085_cluster_mode_1_out/minseqid_085_cluster_mode_1_out_DB dbs/minlen30_DB/out/minseqid_085_cluster_mode_1_out/tmp --cluster-mode 1 --min-seq-id 0.85
+```
+Generated TSV formatted output of the clusterings.
+```sh
+mkdir -p clustering_outputs/env20_le10/minseqid_085_cluster_mode_1 clustering_outputs/minlen20/minseqid_085_cluster_mode_1 clustering_outputs/minlen30/minseqid_085_cluster_mode_1
+mmseqs createtsv dbs/env20_le10_DB/env20_le10_DB dbs/env20_le10_DB/env20_le10_DB dbs/env20_le10_DB/out/minseqid_085_cluster_mode_1_out/minseqid_085_cluster_mode_1_out_DB clustering_outputs/env20_le10/minseqid_085_cluster_mode_1/clusters.tsv
+mmseqs createtsv dbs/minlen20_DB/minlen20_DB dbs/minlen20_DB/minlen20_DB dbs/minlen20_DB/out/minseqid_085_cluster_mode_1_out/minseqid_085_cluster_mode_1_out_DB clustering_outputs/minlen20/minseqid_085_cluster_mode_1/clusters.tsv
+mmseqs createtsv dbs/minlen30_DB/minlen30_DB dbs/minlen30_DB/minlen30_DB dbs/minlen30_DB/out/minseqid_085_cluster_mode_1_out/minseqid_085_cluster_mode_1_out_DB clustering_outputs/minlen30/minseqid_085_cluster_mode_1/clusters.tsv
+```
+Created sequence DBs of the clusterings for FASTA-like output. Clusters with less than 20 sequences are discarded.
+```sh
+mkdir -p dbs/env20_le10_DB/out/minseqid_085_cluster_mode_1_out/seqdb dbs/minlen20_DB/out/minseqid_085_cluster_mode_1_out/seqdb dbs/minlen30_DB/out/minseqid_085_cluster_mode_1_out/seqdb
+mmseqs createseqfiledb dbs/env20_le10_DB/env20_le10_DB dbs/env20_le10_DB/out/minseqid_085_cluster_mode_1_out/minseqid_085_cluster_mode_1_out_DB dbs/env20_le10_DB/out/minseqid_085_cluster_mode_1_out/seqdb/minseqid_085_cluster_mode_1_out_seq_DB --min-sequences 20
+mmseqs createseqfiledb dbs/minlen20_DB/minlen20_DB dbs/minlen20_DB/out/minseqid_085_cluster_mode_1_out/minseqid_085_cluster_mode_1_out_DB dbs/minlen20_DB/out/minseqid_085_cluster_mode_1_out/seqdb/minseqid_085_cluster_mode_1_out_seq_DB --min-sequences 20
+mmseqs createseqfiledb dbs/minlen30_DB/minlen30_DB dbs/minlen30_DB/out/minseqid_085_cluster_mode_1_out/minseqid_085_cluster_mode_1_out_DB dbs/minlen30_DB/out/minseqid_085_cluster_mode_1_out/seqdb/minseqid_085_cluster_mode_1_out_seq_DB --min-sequences 20
+```
+Generated FASTA-like output for the clusterings.
+```sh
+mmseqs result2flat dbs/env20_le10_DB/env20_le10_DB dbs/env20_le10_DB/env20_le10_DB dbs/env20_le10_DB/out/minseqid_085_cluster_mode_1_out/seqdb/minseqid_085_cluster_mode_1_out_seq_DB clustering_outputs/env20_le10/minseqid_085_cluster_mode_1/clusters_all_seq.fasta
+mmseqs result2flat dbs/minlen20_DB/minlen20_DB dbs/minlen20_DB/minlen20_DB dbs/minlen20_DB/out/minseqid_085_cluster_mode_1_out/seqdb/minseqid_085_cluster_mode_1_out_seq_DB clustering_outputs/minlen20/minseqid_085_cluster_mode_1/clusters_all_seq.fasta
+mmseqs result2flat dbs/minlen30_DB/minlen30_DB dbs/minlen30_DB/minlen30_DB dbs/minlen30_DB/out/minseqid_085_cluster_mode_1_out/seqdb/minseqid_085_cluster_mode_1_out_seq_DB clustering_outputs/minlen30/minseqid_085_cluster_mode_1/clusters_all_seq.fasta
+```
+Obtained some results from --cluster-mode 1 --min-seq-id 0.85 clustering of env20_le10.
+Out of 1017 sequences left after filtering small clusters (<20 sequences) and 39 remaining clusters, only 2 clusters had mixed results (unk + !unk) resulting in 27 new annotations (a mix of PNP-UDP and Goodbye-like).
+There are 14762 unk annotations in the GDT file so 27 is just a drop in the ocean compared to the rest of the unknowns.
+
+Need to investigate further, maybe with minimum sequence identity below 0.85 (around 0.75-0.8).
+Also need to automate these results since I just counted them manually to check whether if it's similar to what was expected and it seems like it works well.
+
+## 02.01.2021
 Minor script edits. Pausing progress on Makefile for a while to focus on integrating mmseqs databases and obtaining results from minseqid 0.85.
 
 ---
@@ -52,9 +91,10 @@ Combined cluster_analysis.py and cluster_preprocess.py into a single script (clu
 
 ---
 To-do:
-- [] ~~Write a better way to discard clusters with less than n sequences.~~ Turns out, createseqfiledb does this already with --min-sequences while generating a FASTA-like output. 
+- ~~[ ] Write a better way to discard clusters with less than n sequences.~~ Turns out, createseqfiledb does this already with --min-sequences while generating a FASTA-like output.
+- [ ] Take _all_seq.fasta and ground truth file as input and output a new ground truth file in which the annotation from one sequence of a cluster is extended to other sequences of the cluster.
 
-## 01.01.2020
+## 01.01.2021
 Happy new year! Day off. (Fixed ordering in this notebook phew)
 
 ## 31.12.2020
