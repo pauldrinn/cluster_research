@@ -1,5 +1,31 @@
 # Notebook
 
+## 05.01.2021
+
+After spending an unhealthy amount of time with trying to read from FASTA-like output to create a table, I realized that I didn't need that AT ALL and that tsv output of mmseqs is even easier to work with since it comes somewhat tabular out of the box.
+
+This is what the end result looks like. It's only the mmseqs tsv output inner merged with ground truth so what took me so long? I think I need to put more thought into things before diving headfirst. Also, pandas is **soooooooo** much faster compared to the native Python I/O. What a beautiful package.
+
+|Cluster no	|Representative no|	  Nterm   |
+|-----------|-----------------|-----------|
+|ELR08403.1	|    ELR08403.1   | HELO-LIKE |
+|ELR08403.1	|    ELR10080.1   | HELO-LIKE |
+|ELR08403.1	|    KFY02009.1   | HELO-LIKE |
+|ELR08403.1	|    KFY06076.1   | HELO-LIKE |
+|   ...     |       ...       |    ...    |
+
+---
+To-do:
+- [ ] Still need to automate my mmseqs usage (somewhat like easy-cluster). Need a mix of createdb, cluster, createtsv (and createseqfiledb + result2flat if I need FASTA-like output at some point in the future).
+- [ ] Create function to add annotations found with extend_annot.py to a new ground truth (maybe not so true) file.
+- [ ] Start homology searching. This should be interesting. (HHblits against Pfam and Uniclust30 with -M 50)
+
+(I want to get all of these done by Thursday if not tomorrow!)
+
+## 04.01.2021
+
+Zoom call and no work.
+
 ## 03.01.2021
 
 Fixed the dates on this notebook :p
@@ -92,7 +118,7 @@ Combined cluster_analysis.py and cluster_preprocess.py into a single script (clu
 ---
 To-do:
 - ~~[ ] Write a better way to discard clusters with less than n sequences.~~ Turns out, createseqfiledb does this already with --min-sequences while generating a FASTA-like output.
-- [ ] Take _all_seq.fasta and ground truth file as input and output a new ground truth file in which the annotation from one sequence of a cluster is extended to other sequences of the cluster.
+- [x] Take _all_seq.fasta and ground truth file as input and output a new ground truth file in which the annotation from one sequence of a cluster is extended to other sequences of the cluster. (05.01.2021 --I guess?--)
 
 ## 01.01.2021
 Happy new year! Day off. (Fixed ordering in this notebook phew)
@@ -152,5 +178,5 @@ Attempted to switch to aforementioned structure (half-assed)
 ---
 To-do for ~~tomorrow~~ later:
 - [x] Integrate mmseqs databases (02.01.2021)
-- [] Build better pipeline for multiple mmeqs databases and fix evaluation module (parameters and file naming).
+- [x] Build better pipeline for multiple mmeqs databases and fix evaluation module (parameters and file naming). (03.01.2021)
 - [x] Basically complete the structural reform (02.01.2021)
