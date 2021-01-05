@@ -2,17 +2,20 @@ import os
 import sys
 import pandas as pd
 
-clu_all_seq = "/home/paul/nterm_annot_project/data/clustering_outputs/env20_le10/minseqid_085_cluster_mode_1/clusters_all_seq.fasta" #sys.argv[1]
-gdt = "/home/paul/nterm_annot_project/data/Sep18p.i2.curated.arch.Ad44" #sys.argv[2]
+gdt =  sys.argv[1] #"/home/paul/nterm_annot_project/data/Sep18p.i2.curated.arch.Ad44"
+clu =  sys.argv[2] #"/home/paul/nterm_annot_project/data/clustering_outputs/minlen20/cluster_mode_1/clusters.tsv"
+save_dir = os.path.dirname(os.path.abspath(clu))
+save_name = save_dir + '/' + os.path.basename(clu).rsplit('.', 1)[0] + '_table.tsv'
 
-gdt_file = pd.read_csv(gdt, sep='\t', names=["Representative no", "Nterm", "NOD", "Cterm"], header=None)
-gdt_file = gdt_file.drop(["NOD", "Cterm"], axis = 1) # Dropping NOD and C-terminal
+gdt_file = pd.read_csv(gdt, sep='\t', names=['Representative no', 'Nterm', 'NOD', 'Cterm'], header=None)
+gdt_file = gdt_file.drop(['NOD', 'Cterm'], axis = 1) # Dropping NOD and C-terminal
 
-#df = pd.DataFrame()
+clu_file = pd.read_csv(clu, sep='\t', header=None, names=['Cluster no', 'Representative no'])
 
-#previous = ''
-with open(clu_all_seq, 'r') as f:
-	for line in f:
-		if line.startswith('>'): # /^'>/
-			line_annot = gdt_file['Nterm'].loc[gdt_file['Representative no'] == line[1:].strip()].values[0]
-			print(line[1:].strip(), "\t", line_annot)
+clu_ann = clu_file.merge(gdt_file)
+clu_ann['Cluster size'] = clu_ann.groupby('Cluster no')['Cluster no'].transform('count')
+clu_ann = clu_ann[clu_ann['Cluster size'] >= 20].reset_index(drop=True).drop('Cluster size', axis=1)
+
+clu_ann.to_csv(save_name, sep='\t', index=False)
+
+print('File saved to {0}'.format(save_name),'\nThere are {0} clusters.'.format(clu_ann['Cluster no'].unique().shape[0]))
