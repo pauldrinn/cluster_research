@@ -1,5 +1,12 @@
 # Notebook
 
+## 06.01.2021
+
+Downloading Pfam and UniRef30 for HH-suite.
+
+---
+The download is quite large so I wrote clust_pipeline.sh in the meanwhile (still extracting though). To-do item #1 done!
+
 ## 05.01.2021
 
 After spending an unhealthy amount of time with trying to read from FASTA-like output to create a table, I realized that I didn't need that AT ALL and that tsv output of mmseqs is even easier to work with since it comes somewhat tabular out of the box.
