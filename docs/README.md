@@ -7,6 +7,23 @@ Downloading Pfam and UniRef30 for HH-suite.
 ---
 The download is quite large so I wrote clust_pipeline.sh in the meanwhile (still extracting though). To-do item #1 done!
 
+---
+Still extracting UniRef30 after 45 minutes.
+
+---
+Took about 1.5 hours. It's now 180GB x| (from 46GB)
+Ready to search but now I have to deal with extracting cluster sequences and aligning them. Will make new shell script called align_pipeline.
+
+---
+Wrote extraction & alignment pipeline, now trying searching.
+
+Local HHblits against Pfam works well and quite fast, most likely because it's only 4GB big. BUT, just the prefiltering step alone takes longer than 20 minutes against UniRef30.
+
+---
+After about more than an hour, the search was complete and the results were indeed the same as the results from HHblits inside the MPI toolkit.
+The slowness might be because of the database's location (HDD).
+I will take care of the rest tomorrow.
+
 ## 05.01.2021
 
 After spending an unhealthy amount of time with trying to read from FASTA-like output to create a table, I realized that I didn't need that AT ALL and that tsv output of mmseqs is even easier to work with since it comes somewhat tabular out of the box.
@@ -23,9 +40,9 @@ This is what the end result looks like. It's only the mmseqs tsv output inner me
 
 ---
 To-do:
-- [ ] Still need to automate my mmseqs usage (somewhat like easy-cluster). Need a mix of createdb, cluster, createtsv (and createseqfiledb + result2flat if I need FASTA-like output at some point in the future).
+- [x] Still need to automate my mmseqs usage (somewhat like easy-cluster). Need a mix of createdb, cluster, createtsv (and createseqfiledb + result2flat if I need FASTA-like output at some point in the future). (06.01.2021)
+- [x] Start homology searching. This should be interesting. (HHblits against Pfam and Uniclust30 with -M 50) (06.01.2021)
 - [ ] Create function to add annotations found with extend_annot.py to a new ground truth (maybe not so true) file.
-- [ ] Start homology searching. This should be interesting. (HHblits against Pfam and Uniclust30 with -M 50)
 
 (I want to get all of these done by Thursday if not tomorrow!)
 

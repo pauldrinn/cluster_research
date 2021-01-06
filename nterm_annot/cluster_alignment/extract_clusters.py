@@ -2,9 +2,10 @@ import os
 import sys
 
 clu_all_seq = sys.argv[1]
+clus_dir = os.path.dirname(clu_all_seq)+ '/separated_clusters'
 
-if not os.path.exists('separated_clusters'):
-    os.makedirs('separated_clusters')
+if not os.path.exists(clus_dir):
+    os.makedirs(clus_dir)
 
 previous = ''
 with open(clu_all_seq, 'r') as f:
@@ -16,7 +17,7 @@ with open(clu_all_seq, 'r') as f:
 					w.close()
 				except:
 					pass
-				w = open('separated_clusters/' + previous[1:].strip() + '.fa', 'w')
+				w = open(clus_dir + '/' + previous[1:].strip() + '.fa', 'w')
 			
 			previous = identifier
 		else:
