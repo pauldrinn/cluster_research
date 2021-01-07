@@ -1,5 +1,9 @@
 # Notebook
 
+## 07.01.2021
+
+I went over some of the results and I have so many questions.
+
 ## 06.01.2021
 
 Downloading Pfam and UniRef30 for HH-suite.
