@@ -1,5 +1,14 @@
 # Notebook
 
+## 08.01.2021
+
+Had a meeting with Dr. Dyrka. We discussed the results and what to do next. I will be working with HHblits, searching cluster_mode_1 clustering of the minlen20 database against UniRef to obtain initial alignments which I will then run against Pfam for (possible) discovery of annotations. We are aware that some of the clusters won't have annotations so we are trying to extend the coverage of the annotations as much as we can and note what percentage we increased the coverage to.
+
+I will create a new folder for HHblits searches I do and store all the alignments from the search against UniRef30.
+
+---
+Okay, so I have a bunch of subfolders and a pipeline script now. It all seems to work well EXCEPT how long HHblits takes. I will either buy a new SSD (I need a new NVMe drive anyway) or empty ~100GB from my current SSD which is a long shot. Apart from that, I just have to wait.
+
 ## 07.01.2021
 
 I went over some of the results and I have so many questions.
