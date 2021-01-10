@@ -5,7 +5,7 @@ clu_all_seq = sys.argv[1]
 clus_dir = os.path.dirname(clu_all_seq)+ '/separated_clusters'
 
 if not os.path.exists(clus_dir):
-    os.makedirs(clus_dir)
+	os.makedirs(clus_dir)
 
 previous = ''
 with open(clu_all_seq, 'r') as f:
@@ -18,7 +18,6 @@ with open(clu_all_seq, 'r') as f:
 				except:
 					pass
 				w = open(clus_dir + '/' + previous[1:].strip() + '.fa', 'w')
-			
 			previous = identifier
 		else:
 			w.write(identifier + line)

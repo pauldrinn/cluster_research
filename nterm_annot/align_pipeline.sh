@@ -10,7 +10,7 @@ python ${BIN_DIR}/extract_clusters.py ${CLU_ALL_DIR}/clusters_all_seq.fasta
 
 for FILE in ${CLU_ALL_DIR}/separated_clusters/*.fa; do
 	NAME="${FILE##*/}"
-    OUTPUT="${CLU_ALL_DIR}/aligned_clusters/${NAME%%.*}_aligned.fa"
+	OUTPUT="${CLU_ALL_DIR}/aligned_clusters/${NAME%%.*}_aligned.fa"
 	clustalo -i ${FILE} -o "${OUTPUT}" --auto
-    echo "${NAME} aligned"
+	echo "${NAME} aligned"
 done

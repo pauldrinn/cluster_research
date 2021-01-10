@@ -14,7 +14,7 @@ OUT_FILE_DIR=${DATA_DIR}/clustering_outputs/$2
 mkdir -p ${DB_DIR} ${OUT_DB_DIR} ${OUT_FILE_DIR}/$3 ${OUT_DB_DIR}/seqdb
 if [ ! -s ${DB} ]
 then
-    mmseqs createdb $(realpath $1) ${DB} --shuffle 0
+	mmseqs createdb $(realpath $1) ${DB} --shuffle 0
 fi
 mmseqs cluster ${DB} ${OUT_DB_DIR}/$3_out_DB ${OUT_DB_DIR}/tmp $4
 rm -r ${OUT_DB_DIR}/tmp

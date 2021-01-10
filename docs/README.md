@@ -1,5 +1,25 @@
 # Notebook
 
+## 10.01.2021
+
+10.20am: 105 out of 127 done.
+
+---
+11.50am: 111 out of 127 done. (Twice as fast? I guess there are a lot of factors at play here.)
+
+## 09.01.2021
+
+Left HHblits pipeline running last night and so far at 12.28pm, 43 out of the 127 clusters went through the pipeline. I think RAM (I have 16GB of it) is the bottleneck here.
+
+---
+4.20pm: 57 out of 127 done. Results are starting to make sense, just need to run em against Pfam for some proper annotations -- UniProt names alone don't tell us anything.
+
+---
+7.20pm: 63 out of 127 done.
+
+---
+10.20pm: 69 out of 127 done. Assuming the speed is somewhat constant, it should be done in 9 to 10 hours, so around 8-9am. Great!
+
 ## 08.01.2021
 
 Had a meeting with Dr. Dyrka. We discussed the results and what to do next. I will be working with HHblits, searching cluster_mode_1 clustering of the minlen20 database against UniRef to obtain initial alignments which I will then run against Pfam for (possible) discovery of annotations. We are aware that some of the clusters won't have annotations so we are trying to extend the coverage of the annotations as much as we can and note what percentage we increased the coverage to.
