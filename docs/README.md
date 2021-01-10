@@ -7,6 +7,25 @@
 ---
 11.50am: 111 out of 127 done. (Twice as fast? I guess there are a lot of factors at play here.)
 
+As I get closer to the end, I am now starting to wonder if the output alignments will work for a second round of HHblits against Pfam. The reason I'm wondering is because the MPI toolkit version won't take my output file as input.
+
+After a quick look at the HH-suite documentation, I'm fairly certain that it will work.
+
+---
+1.30pm: 115/127 done.
+
+---
+3.30pm: 117/127 done.
+
+---
+7.35pm: 122/127 done.
+
+---
+10.45pm: Iteration 2 prefiltering for Cluster XP_024735629 has been running since 6pm so that's about 5 hours (???)
+
+---
+I guess I'll leave it on for another night. That same cluster is still not done btw.
+
 ## 09.01.2021
 
 Left HHblits pipeline running last night and so far at 12.28pm, 43 out of the 127 clusters went through the pipeline. I think RAM (I have 16GB of it) is the bottleneck here.
