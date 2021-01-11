@@ -1,0 +1,150 @@
+Query         OSS51700.1
+Match_columns 106
+No_of_seqs    1078 out of 1103
+Neff          5.68802
+Searched_HMMs 100
+Date          Mon Jan 11 21:29:38 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/OSS51700_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/OSS51700_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/OSS51700_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17046.5 ; Ses_B ; SesB domai  69.4    0.22 4.3E-05   22.9   0.0   23   19-41      4-27  (28)
+  2 PF15184.6 ; TOM6p ; Mitochondr  15.1     9.2  0.0018   20.5   0.0   26   72-97     17-42  (74)
+  3 PF16496.5 ; SWIRM-assoc_2 ; SW  14.1     9.5  0.0019   26.1   0.0   25   79-103   222-246 (405)
+  4 PF04386.13 ; SspB ; Stringent   13.5     9.9  0.0021   22.0   0.0   17   78-94      2-18  (149)
+  5 PF07533.16 ; BRK ; BRK domain   12.7      11  0.0023   17.1   0.0   25   73-97     16-40  (44)
+  6 PF09907.9 ; HigB_toxin ; HigB_  10.3      14  0.0031   18.0   0.0   13   87-99     62-74  (74)
+  7 PF06531.11 ; DUF1108 ; Protein   9.3      18  0.0035   19.4   0.0   24   72-95     51-74  (84)
+  8 PF16546.5 ; SGTA_dimer ; Homod   5.9      30  0.0064   16.4   0.0   20   56-75     33-52  (66)
+  9 PF04316.13 ; FlgM ; Anti-sigma   4.1      46    0.01   14.8   0.0   22   67-88     22-43  (55)
+ 10 PF02446.17 ; Glyco_hydro_77 ;    3.3      60   0.013   20.9   0.0   35   67-101    86-120 (464)
+
+No 1
+>PF17046.5 ; Ses_B ; SesB domain on fungal death-pathway protein
+Probab=69.45  E-value=0.22  Score=22.93  Aligned_cols=23  Identities=4%  Similarity=-0.045  Sum_probs=18.1  Template_Neff=4.200
+
+Q OSS51700.1        1 ----------MTTFQINGNVAKEY   14 (81)
+Q Consensus        19 ~~~~~~~~~-~~g~~i~~n~~~~~   41 (106)
+                      ..+++|.+. ++|.|++.|.+.++
+T Consensus         4 ~~~~~FsGs~N~GlQ~G~N~G~i~   27 (28)
+T U1I097_ENDPU/3    4 GHNATFSGDRNQGLQVGISSGTIN   27 (28)
+T ss_pred             cceeEeecCCCceEeeEEEecccc
+Confidence            345677776 99999999988764
+
+
+No 2
+>PF15184.6 ; TOM6p ; Mitochondrial import receptor subunit TOM6 homolog
+Probab=15.08  E-value=9.2  Score=20.50  Aligned_cols=26  Identities=8%  Similarity=0.319  Sum_probs=20.7  Template_Neff=3.400
+
+Q OSS51700.1       49 KNSLKE-KDKLLNGLTKWVIQDAQYA   73 (81)
+Q Consensus        72 k~rIe~tKGgLL~dsy~WIL~~~~f~   97 (106)
+                      ..++....++.|+..|+.+.++.+|+
+T Consensus        17 ~p~~p~~v~~~l~~iYRfaT~~n~F~   42 (74)
+T H2RCC7_PANTR/1   17 TPEIPDNVGDWLRGVYRFATDRNDFR   42 (74)
+T ss_pred             CCCCCCCHHHHHHHHHhhhccCChHH
+Confidence            44566778888889999888888886
+
+
+No 3
+>PF16496.5 ; SWIRM-assoc_2 ; SWIRM-associated domain at the N-terminal
+Probab=14.11  E-value=9.5  Score=26.06  Aligned_cols=25  Identities=24%  Similarity=0.518  Sum_probs=21.1  Template_Neff=5.700
+
+Q OSS51700.1       55 KDKLLNGLTKWVIQDAQYARWQNDE   79 (81)
+Q Consensus        79 KGgLL~dsy~WIL~~~~f~~Wr~~~  103 (106)
+                      .++...=+.+||++...|..|-+..
+T Consensus       222 ~~~pw~V~arWl~Ds~~fNEWMNEe  246 (405)
+T E0VYN8_PEDHC/5  222 HVGPWRVAATWVLELEQYNEWMTEE  246 (405)
+T ss_pred             CCCCeEEeeehhhcHHHHcCCCCHH
+Confidence            4667778899999999999998754
+
+
+No 4
+>PF04386.13 ; SspB ; Stringent starvation protein B
+Probab=13.49  E-value=9.9  Score=22.00  Aligned_cols=17  Identities=18%  Similarity=0.532  Sum_probs=14.3  Template_Neff=6.500
+
+Q OSS51700.1       55 -KDKLLNGLTKWVIQDA   70 (81)
+Q Consensus        78 tKGgLL~dsy~WIL~~~   94 (106)
+                      .|..||+..|+|++++.
+T Consensus         2 ~~~y~lrav~~w~ld~g   18 (149)
+T Q47VT8_COLP3/1    2 NKPYLVKAFYEWISDND   18 (149)
+T ss_pred             cHHHHHHHHHHHHHhCC
+Confidence            46788999999999974
+
+
+No 5
+>PF07533.16 ; BRK ; BRK domain
+Probab=12.68  E-value=11  Score=17.05  Aligned_cols=25  Identities=20%  Similarity=0.332  Sum_probs=18.2  Template_Neff=6.700
+
+Q OSS51700.1       50 NSLKE-KDKLLNGLTKWVIQDAQYA   73 (81)
+Q Consensus        73 ~rIe~tKGgLL~dsy~WIL~~~~f~   97 (106)
+                      +.+...+...+++-..|+.+|+.|.
+T Consensus        16 ~~l~g~~aP~~~~L~~WL~~hP~~~   40 (44)
+T W4ZBX3_STRPU/9   16 QVLSGEAAPRSSQLEAWLEMNPGYA   40 (44)
+T ss_pred             CEEecccCCchhhHHHHHHHCCCce
+Confidence            3444556677788888999998874
+
+
+No 6
+>PF09907.9 ; HigB_toxin ; HigB_toxin, RelE-like toxic component of a toxin-antitoxin system
+Probab=10.26  E-value=14  Score=18.02  Aligned_cols=13  Identities=8%  Similarity=0.289  Sum_probs=10.5  Template_Neff=7.700
+
+Q OSS51700.1       63 TKWVIQDAQYARW   75 (81)
+Q Consensus        87 y~WIL~~~~f~~W   99 (106)
+                      ..||+.|.+|.+|
+T Consensus        62 i~~i~tH~eYdk~   74 (74)
+T Q3SMY4_NITWN/2   62 IRFFGSHEEYDKV   74 (74)
+T ss_pred             EEEeeCHHHHccC
+Confidence            6788888888765
+
+
+No 7
+>PF06531.11 ; DUF1108 ; Protein of unknown function (DUF1108)
+Probab=9.31  E-value=18  Score=19.39  Aligned_cols=24  Identities=21%  Similarity=0.445  Sum_probs=18.9  Template_Neff=4.400
+
+Q OSS51700.1       49 KNSLKE-KDKLLNGLTKWVIQDAQ   71 (81)
+Q Consensus        72 k~rIe~tKGgLL~dsy~WIL~~~~   95 (106)
+                      -.-++...+-|.+..|.||-++.+
+T Consensus        51 ~s~l~~A~e~l~~~i~~WIEenTD   74 (84)
+T Q2FWQ7_STAA8/1   51 ENDLYTALDILNQSIYEWIEENTD   74 (84)
+T ss_pred             cchhHHHHHHHHHHHHHHHHhccc
+Confidence            445667778889999999988764
+
+
+No 8
+>PF16546.5 ; SGTA_dimer ; Homodimerisation domain of SGTA
+Probab=5.91  E-value=30  Score=16.36  Aligned_cols=20  Identities=10%  Similarity=-0.064  Sum_probs=15.2  Template_Neff=7.200
+
+Q OSS51700.1       33 RWACLDALQCPDTLIIKNSL   52 (81)
+Q Consensus        56 ~~~CL~dL~~tDP~~Dk~rI   75 (106)
+                      ..+||..-+..+|.+.....
+T Consensus        33 AiqCl~~aF~v~~~~~~~~~   52 (66)
+T B2VSW0_PYRTR/5   33 ATNCIAEAFKVDATDEAAKK   52 (66)
+T ss_pred             HHHHHHHHhCCCcccHHHHH
+Confidence            46799999999987765543
+
+
+No 9
+>PF04316.13 ; FlgM ; Anti-sigma-28 factor, FlgM
+Probab=4.15  E-value=46  Score=14.81  Aligned_cols=22  Identities=14%  Similarity=0.079  Sum_probs=17.7  Template_Neff=7.300
+
+Q OSS51700.1       44 DTLIIKNSLKE-KDKLLNGLTK   64 (81)
+Q Consensus        67 DP~~Dk~rIe~tKGgLL~dsy~   88 (106)
+                      -|..+.++|+.-|..+-.++|.
+T Consensus        22 ~p~v~~~kV~~ik~~i~~G~Y~   43 (55)
+T B5EDX1_GEOBB/4   22 LPEVRLDRVALAKQQVQNGGYR   43 (55)
+T ss_pred             CccccHHHHHHHHHHHHcCCCC
+Confidence            4667888999888888888885
+
+
+No 10
+>PF02446.17 ; Glyco_hydro_77 ; 4-alpha-glucanotransferase
+Probab=3.31  E-value=60  Score=20.86  Aligned_cols=35  Identities=6%  Similarity=0.013  Sum_probs=25.7  Template_Neff=7.900
+
+Q OSS51700.1       44 DTLIIKNSLKE-KDKLLNGLTKWVIQDAQYARWQN   77 (81)
+Q Consensus        67 DP~~Dk~rIe~tKGgLL~dsy~WIL~~~~f~~Wr~  101 (106)
+                      .+..|-..+...|..+|+..|.-..+..+|++|..
+T Consensus        86 ~~~vdy~~v~~~K~~~L~~~~~~f~~~~~f~~F~~  120 (464)
+T D1CE10_THET1/1   86 HQRTDYALARRIKSLILQKAFSRFTPTKDFESFCE  120 (464)
+T ss_pred             CCCCCHHHHHHHHHHHHHHHHHhcCCcHHHHHHHH
+Confidence            45567777888899999999887766555666654
+
+

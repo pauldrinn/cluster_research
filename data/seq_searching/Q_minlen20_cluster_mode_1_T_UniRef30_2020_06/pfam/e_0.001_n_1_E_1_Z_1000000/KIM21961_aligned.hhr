@@ -1,0 +1,150 @@
+Query         KIM21961.1
+Match_columns 61
+No_of_seqs    1003 out of 1030
+Neff          7.20553
+Searched_HMMs 100
+Date          Mon Jan 11 21:27:36 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KIM21961_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KIM21961_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KIM21961_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF11043.8 ; DUF2856 ; Protein   75.5    0.13 2.4E-05   25.7   0.0   29   26-56      4-32  (97)
+  2 PF15894.5 ; SgrT ; Inhibitor o  46.8       1  0.0002   19.2   0.0   16   40-55     25-40  (49)
+  3 PF18385.1 ; Tiam_CC_Ex ; T-lym  34.3     2.2 0.00042   20.7   0.0   19   38-56     21-39  (98)
+  4 PF13124.6 ; DUF3963 ; Protein   29.1     3.3 0.00059   16.8   0.0   11   46-56     12-22  (40)
+  5 PF13050.6 ; DUF3911 ; Protein   17.5     7.7  0.0014   17.6   0.0   12   40-51      7-18  (77)
+  6 PF14063.6 ; DUF4254 ; Protein   12.5      12  0.0023   18.3   0.0   17   40-56     42-58  (146)
+  7 PF17861.1 ; Laterosporulin ; L  12.1      14  0.0024   14.9   0.0   10   36-45     31-40  (49)
+  8 PF17063.5 ; Psm4 ; Phenol-solu  10.3      17   0.003   12.0   0.0   13   40-52      4-16  (20)
+  9 PF07223.11 ; DUF1421 ; UBA-lik   9.2      19  0.0035   14.4   0.0   20    5-24     22-41  (45)
+ 10 PF11165.8 ; DUF2949 ; Protein    7.3      25  0.0048   14.5   0.0    8   47-54     48-55  (56)
+
+No 1
+>PF11043.8 ; DUF2856 ; Protein of unknown function (DUF2856)
+Probab=75.53  E-value=0.13  Score=25.70  Aligned_cols=29  Identities=10%  Similarity=0.099  Sum_probs=22.5  Template_Neff=3.900
+
+Q KIM21961.1        3 PSNLECGSHVAECMQGTRKKILAEMHSWMED   33 (37)
+Q Consensus        26 ~~~~a~~~~~~~Cl~gTR~~iL~~I~~W~~~   56 (61)
+                      |..+|.| .+. |..||-.+||..+.+-+..
+T Consensus         4 Pl~ga~y-~r~-~~~~TKeEVLa~~~~~~~~   32 (97)
+T ABC2_BPP22/1-9    4 PLYGADD-PRR-CSGNSVSEVLDKFRKNYDL   32 (97)
+T ss_pred             CCCCCCC-CCc-CCCCCHHHHHHHHHHHHHH
+Confidence            4456776 555 9999999999998876654
+
+
+No 2
+>PF15894.5 ; SgrT ; Inhibitor of glucose uptake transporter SgrT
+Probab=46.80  E-value=1  Score=19.21  Aligned_cols=16  Identities=25%  Similarity=0.505  Sum_probs=13.7  Template_Neff=4.400
+
+Q KIM21961.1       17 QGTRKKILAEMHSWME   32 (37)
+Q Consensus        40 ~gTR~~iL~~I~~W~~   55 (61)
+                      .+.|.++|+++..|=-
+T Consensus        25 ~~qRl~mL~~lmQW~~   40 (49)
+T A7MQ55_CROS8/1   25 GKTPQRMLDEIMQWDV   40 (49)
+T ss_pred             cchHHHHHHHHhcccC
+Confidence            3789999999999943
+
+
+No 3
+>PF18385.1 ; Tiam_CC_Ex ; T-lymphoma invasion and metastasis CC-Ex domain
+Probab=34.34  E-value=2.2  Score=20.66  Aligned_cols=19  Identities=21%  Similarity=0.503  Sum_probs=15.0  Template_Neff=3.600
+
+Q KIM21961.1       15 CMQGTRKKILAEMHSWMED   33 (37)
+Q Consensus        38 Cl~gTR~~iL~~I~~W~~~   56 (61)
+                      --+-+|..|+++|..|=.+
+T Consensus        21 tD~~~r~~i~~QI~~ween   39 (98)
+T G7P1J8_MACFA/5   21 TDSKKKKTILDQIFVWEQN   39 (98)
+T ss_pred             CCHHHHHHHHHHHHHHHHH
+Confidence            3457789999999999654
+
+
+No 4
+>PF13124.6 ; DUF3963 ; Protein of unknown function (DUF3963)
+Probab=29.06  E-value=3.3  Score=16.82  Aligned_cols=11  Identities=9%  Similarity=0.797  Sum_probs=8.3  Template_Neff=1.900
+
+Q KIM21961.1       23 ILAEMHSWMED   33 (37)
+Q Consensus        46 iL~~I~~W~~~   56 (61)
+                      -.++|+.|+.+
+T Consensus        12 YFdDIQKWiRN   22 (40)
+T Q81YQ1_BACAN/4   12 YFHDIQKWIRN   22 (40)
+T ss_pred             HhHHHHHHHHH
+Confidence            45788999875
+
+
+No 5
+>PF13050.6 ; DUF3911 ; Protein of unknown function (DUF3911)
+Probab=17.53  E-value=7.7  Score=17.64  Aligned_cols=12  Identities=25%  Similarity=0.697  Sum_probs=9.1  Template_Neff=2.000
+
+Q KIM21961.1       17 QGTRKKILAEMH   28 (37)
+Q Consensus        40 ~gTR~~iL~~I~   51 (61)
+                      .|||.+|.+-+.
+T Consensus         7 kGTrqEV~EmLq   18 (77)
+T Q81T73_BACAN/1    7 EGTRQEVVEMLQ   18 (77)
+T ss_pred             cccHHHHHHHHH
+Confidence            599999877554
+
+
+No 6
+>PF14063.6 ; DUF4254 ; Protein of unknown function (DUF4254)
+Probab=12.47  E-value=12  Score=18.26  Aligned_cols=17  Identities=6%  Similarity=0.321  Sum_probs=14.3  Template_Neff=6.500
+
+Q KIM21961.1       17 QGTRKKILAEMHSWMED   33 (37)
+Q Consensus        40 ~gTR~~iL~~I~~W~~~   56 (61)
+                      .-.|.+++++|..|+..
+T Consensus        42 nq~R~~lie~ID~~~~~   58 (146)
+T B0SMI4_LEPBP/4   42 NQDRTDTVEKLDDFVIE   58 (146)
+T ss_pred             HHHHHHHHHHHHHHHHH
+Confidence            45699999999999964
+
+
+No 7
+>PF17861.1 ; Laterosporulin ; Laterosporulin defensin-like peptide
+Probab=12.12  E-value=14  Score=14.93  Aligned_cols=10  Identities=50%  Similarity=0.767  Sum_probs=7.8  Template_Neff=1.000
+
+Q KIM21961.1       13 AECMQGTRKK   22 (37)
+Q Consensus        36 ~~Cl~gTR~~   45 (61)
+                      ..|+.||.+-
+T Consensus        31 aicmngtqvy   40 (49)
+T A0A075R4X6_BRE   31 AICMNGTQVY   40 (49)
+T ss_pred             EEeecCeEEE
+Confidence            5799999764
+
+
+No 8
+>PF17063.5 ; Psm4 ; Phenol-soluble modulin alpha 4 peptide
+Probab=10.29  E-value=17  Score=12.00  Aligned_cols=13  Identities=31%  Similarity=0.348  Sum_probs=7.2  Template_Neff=1.000
+
+Q KIM21961.1       17 QGTRKKILAEMHS   29 (37)
+Q Consensus        40 ~gTR~~iL~~I~~   52 (61)
+                      -||-.+|++.|.+
+T Consensus         4 vgtiikiikaiid   16 (20)
+T PSMA4_STAA8/1-    4 VGTIIKIIKAIID   16 (20)
+T ss_pred             HHHHHHHHHHHHH
+Confidence            3566666665543
+
+
+No 9
+>PF07223.11 ; DUF1421 ; UBA-like domain (DUF1421)
+Probab=9.23  E-value=19  Score=14.36  Aligned_cols=20  Identities=0%  Similarity=0.047  Sum_probs=8.5  Template_Neff=4.200
+
+Q KIM21961.1        1 -------------------M    1 (37)
+Q Consensus         5 v~~i~~~v~~~~~~~~L~~L   24 (61)
+                      +.++.+.-+....+..|++|
+T Consensus        22 v~rm~esGQ~vD~N~vlDkL   41 (45)
+T B9DHK3_ARATH/4   22 VRTLTENGQAVDLNVVLDKL   41 (45)
+T ss_pred             HHHHHHcCCcccHHHHHHHH
+Confidence            33333333333444455555
+
+
+No 10
+>PF11165.8 ; DUF2949 ; Protein of unknown function (DUF2949)
+Probab=7.32  E-value=25  Score=14.50  Aligned_cols=8  Identities=25%  Similarity=1.012  Sum_probs=3.7  Template_Neff=4.400
+
+Q KIM21961.1       24 LAEMHSWM   31 (37)
+Q Consensus        47 L~~I~~W~   54 (61)
+                      |+.|.+|.
+T Consensus        48 Ld~ifDWl   55 (56)
+T K8GLP1_9CYAN/1   48 LERIFDWL   55 (56)
+T ss_pred             HHHHHHhh
+Confidence            34455553
+
+

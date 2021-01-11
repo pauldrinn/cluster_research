@@ -1,0 +1,159 @@
+Query         KFY60362.1
+Match_columns 194
+No_of_seqs    1657 out of 1755
+Neff          9.19739
+Searched_HMMs 192
+Date          Mon Jan 11 21:27:19 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KFY60362_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KFY60362_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KFY60362_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF01734.22 ; Patatin ; Patatin  99.0 1.6E-14 3.1E-18  103.9   0.0   99   35-141     1-110 (221)
+  2 PF01735.18 ; PLA2_B ; Lysophos  96.9 8.5E-07 1.6E-10   70.4   0.0   68   34-101     2-71  (488)
+  3 PF06361.11 ; RTBV_P12 ; Rice t  70.9    0.21 3.8E-05   27.9   0.0   43   42-88     47-89  (110)
+  4 PF07812.12 ; TfuA ; TfuA-like   61.7    0.42 7.7E-05   28.7   0.0   32   73-104    23-55  (120)
+  5 PF04301.13 ; DUF452 ; Protein   51.7    0.74 0.00015   28.0   0.0   18   74-91     59-76  (212)
+  6 PF05728.12 ; UPF0227 ; Unchara  51.3    0.76 0.00015   27.0   0.0   18   74-91     64-81  (190)
+  7 PF08840.11 ; BAAT_C ; BAAT / A  47.2    0.97 0.00019   27.2   0.0   18   74-91     24-41  (210)
+  8 PF00326.21 ; Peptidase_S9 ; Pr  44.4     1.1 0.00023   26.8   0.0   19   73-91     65-83  (219)
+  9 PF00561.20 ; Abhydrolase_1 ; a  43.8     1.2 0.00024   26.6   0.0   16   76-91     72-87  (237)
+ 10 PF05705.14 ; DUF829 ; Eukaryot  43.1     1.2 0.00025   26.7   0.0   19   73-91     67-85  (238)
+
+No 1
+>PF01734.22 ; Patatin ; Patatin-like phospholipase
+Probab=99.03  E-value=1.6e-14  Score=103.90  Aligned_cols=99  Identities=22%  Similarity=0.242  Sum_probs=77.1  Template_Neff=11.700
+
+Q KFY60362.1       10 LSLDGGGIR-GISELVILEEIMHRVSQELNVPAPLPADYFDMIGGTSTGGLIALLLGRLRLSVSEAINTYRALAKQVFSE   88 (147)
+Q Consensus        35 L~ldGGG~r-G~~~l~iL~~l~~~~~~~~~~~~~~~~~~fd~i~GtS~Gaiia~~la~~~~s~~e~~~~~~~~~~~iF~~  113 (194)
+                      |+++|||.| |++++++|++|++.+.       ....+.||+|+|||+||++|++++ .+++.+++.+.+.++..+.+..
+T Consensus         1 l~l~GGG~~~~~~~~g~l~~l~~~~~-------~~~~~~~~~i~G~S~Gai~a~~~~-~~~~~~~~~~~~~~~~~~~~~~   72 (221)
+T B8GC44_CHLAD/8    1 LVLAGGGVAGAAYEIGALCAIDQVLD-------HLSVNEFDIYVGTSAGALINACLA-NNMSPRTLISVLERSLLGIDQL   72 (221)
+T ss_pred             CcccCchHHHHHHHHHHHHHHHHHHh-------hcccccceEEEEcCHHHHHHHHHH-CCCCHHHHHHHHHHhhcccccC
+Confidence            689999999 9999999999988861       235688999999999999999999 5778888887777765544332
+
+
+Q KFY60362.1       89 KN----------STGKdGTFKASNLERAIKETIELKLGE  117 (147)
+Q Consensus       114 ~~----------~~~~.~~y~~~~l~~~l~~~l~~~~~~  141 (194)
+                      ..          .... ..++.+.+++.|++.+.+....
+T Consensus        73 ~~~~~~~~~~~~~~~~.~~~~~~~~~~~l~~~~~~~~~~  110 (221)
+T B8GC44_CHLAD/8   73 EPHHLYQLNLADLVRR.GLQLPGAVVQALRRWLREGQEA  110 (221)
+T ss_pred             Ccchhhhccccccccc.ccCChHHHHHHHHHHHHhcchh
+Confidence            21          1235 6788899999998887765543
+
+
+No 2
+>PF01735.18 ; PLA2_B ; Lysophospholipase catalytic domain
+Probab=96.89  E-value=8.5e-07  Score=70.42  Aligned_cols=68  Identities=21%  Similarity=0.205  Sum_probs=48.9  Template_Neff=8.900
+
+Q KFY60362.1        9 LLSLDGGGIRGI-SELVILEEIMHRVSQELNVPAPLPADYFDMIGGTSTGGLIALLLGRLR-LSVSEAIN   76 (147)
+Q Consensus        34 ~L~ldGGG~rG~-~~l~iL~~l~~~~~~~~~~~~~~~~~~fd~i~GtS~Gaiia~~la~~~-~s~~e~~~  101 (194)
+                      .|+++|||.|+. +++|+|++|..+.....+.....+.+.+++|+|+|.|+++++.|+..+ .+.++..+
+T Consensus         2 gla~SGGG~RA~l~~~G~L~aL~~~~~~~~~~~~~Gll~~v~yisgvSGGsw~~~~l~~~~~~~~~~~~~   71 (488)
+T PLB_KLULA/102-    2 AIACSGGGYRAMLSGAGMISAMDNRTDGANDHGLGGLLQSSTYLAGLSGGNWLVGTLAYNNWTSVQAIIN   71 (488)
+T ss_pred             eEEECCHHHHHHHHHHHHHHHHhcCCCCcccccccchHHHHhhheeechhHHHHHHHHhcCCCCHHHHHh
+Confidence            589999999995 999999999954322110001346788999999999999999887322 44445443
+
+
+No 3
+>PF06361.11 ; RTBV_P12 ; Rice tungro bacilliform virus P12 protein
+Probab=70.85  E-value=0.21  Score=27.93  Aligned_cols=43  Identities=19%  Similarity=0.302  Sum_probs=26.4  Template_Neff=1.100
+
+Q KFY60362.1       17 IRGISELVILEEIMHRVSQELNVPAPLPADYFDMIGGTSTGGLIALL   63 (147)
+Q Consensus        42 ~rG~~~l~iL~~l~~~~~~~~~~~~~~~~~~fd~i~GtS~Gaiia~~   88 (194)
+                      .+|++++..|+++.+.+.+...    .......--+..|+|+|+-+.
+T Consensus        47 skglvqlyalqeidkkinnl~~----qv~k~pttsgsssagaivpag   89 (110)
+T P2_RTBVP/1-110   47 SKGLVQLYALQEIDKKINNLTT----QVSKLPTTSGSSSAGAIVPAG   89 (110)
+T ss_pred             hhhHHHHHHHHHHHHHHHhhhh----hhccCCCCCCCCCcceeeccc
+Confidence            4789999999999988754321    122222333345667776554
+
+
+No 4
+>PF07812.12 ; TfuA ; TfuA-like protein
+Probab=61.66  E-value=0.42  Score=28.70  Aligned_cols=32  Identities=22%  Similarity=0.397  Sum_probs=22.7  Template_Neff=5.000
+
+Q KFY60362.1       48 FDMIGGTSTGGLIALLLGRLRLS-VSEAINTYR   79 (147)
+Q Consensus        73 fd~i~GtS~Gaiia~~la~~~~s-~~e~~~~~~  104 (194)
+                      +.+++..|+||+-|+-|...||- +-.+.+.|.
+T Consensus        23 v~V~GasSMGALRAaEl~~~GM~G~G~Iy~~y~   55 (120)
+T S5XTV6_PARAH/5   23 IPVFGASSMGALRAAELAAFGMEGVGQIFADFA   55 (120)
+T ss_pred             CCEEeecChhHHHHHHhhhcCcEehhHHHHHHH
+Confidence            57899999999999988866653 234444443
+
+
+No 5
+>PF04301.13 ; DUF452 ; Protein of unknown function (DUF452)
+Probab=51.74  E-value=0.74  Score=27.97  Aligned_cols=18  Identities=17%  Similarity=-0.224  Sum_probs=15.4  Template_Neff=12.300
+
+Q KFY60362.1       49 DMIGGTSTGGLIALLLGR   66 (147)
+Q Consensus        74 d~i~GtS~Gaiia~~la~   91 (194)
+                      -++.|.|.||.+|+.++.
+T Consensus        59 v~l~G~S~Gg~~a~~~a~   76 (212)
+T Q9K0T9_NEIMB/1   59 IRLVAWSMGVWAAERALQ   76 (212)
+T ss_pred             eEEEEEcHHHHHHHHHHc
+Confidence            367899999999999873
+
+
+No 6
+>PF05728.12 ; UPF0227 ; Uncharacterised protein family (UPF0227)
+Probab=51.30  E-value=0.76  Score=26.99  Aligned_cols=18  Identities=33%  Similarity=0.440  Sum_probs=15.4  Template_Neff=12.800
+
+Q KFY60362.1       49 DMIGGTSTGGLIALLLGR   66 (147)
+Q Consensus        74 d~i~GtS~Gaiia~~la~   91 (194)
+                      -.+.|.|.||.+|+.++.
+T Consensus        64 i~l~G~S~Gg~~a~~~~~   81 (190)
+T Q8XVP9_RALSO/4   64 PALIGSSLGGYYATWLAE   81 (190)
+T ss_pred             eEEEEECHHHHHHHHHHH
+Confidence            368899999999998883
+
+
+No 7
+>PF08840.11 ; BAAT_C ; BAAT / Acyl-CoA thioester hydrolase C terminal
+Probab=47.19  E-value=0.97  Score=27.21  Aligned_cols=18  Identities=22%  Similarity=0.252  Sum_probs=15.5  Template_Neff=12.400
+
+Q KFY60362.1       49 DMIGGTSTGGLIALLLGR   66 (147)
+Q Consensus        74 d~i~GtS~Gaiia~~la~   91 (194)
+                      =.+.|.|.||.+|+.++.
+T Consensus        24 i~l~G~S~Gg~~a~~~a~   41 (210)
+T ACOT5_MOUSE/20   24 VGLLGISKGAELSLSMAS   41 (210)
+T ss_pred             EEEEEECHHHHHHHHHHh
+Confidence            368899999999999883
+
+
+No 8
+>PF00326.21 ; Peptidase_S9 ; Prolyl oligopeptidase family
+Probab=44.42  E-value=1.1  Score=26.78  Aligned_cols=19  Identities=32%  Similarity=0.249  Sum_probs=15.9  Template_Neff=12.800
+
+Q KFY60362.1       48 FDMIGGTSTGGLIALLLGR   66 (147)
+Q Consensus        73 fd~i~GtS~Gaiia~~la~   91 (194)
+                      --++.|-|+||.+|+.++.
+T Consensus        65 ~~~l~G~S~Gg~~a~~~a~   83 (219)
+T Q9I440_PSEAE/4   65 GLAISGGSAGGLLIGAVLN   83 (219)
+T ss_pred             CEEEEEECHHHHHHHHHHh
+Confidence            3567899999999999873
+
+
+No 9
+>PF00561.20 ; Abhydrolase_1 ; alpha/beta hydrolase fold
+Probab=43.76  E-value=1.2  Score=26.60  Aligned_cols=16  Identities=31%  Similarity=0.364  Sum_probs=14.6  Template_Neff=13.500
+
+Q KFY60362.1       51 IGGTSTGGLIALLLGR   66 (147)
+Q Consensus        76 i~GtS~Gaiia~~la~   91 (194)
+                      +.|.|.||.+|+.++.
+T Consensus        72 l~G~S~Gg~~a~~~a~   87 (237)
+T YPT1_CAEEL/226   72 LFGWSIGGFPVAWLAS   87 (237)
+T ss_pred             EEEEcHHHHHHHHHHH
+Confidence            8999999999999884
+
+
+No 10
+>PF05705.14 ; DUF829 ; Eukaryotic protein of unknown function (DUF829)
+Probab=43.11  E-value=1.2  Score=26.67  Aligned_cols=19  Identities=16%  Similarity=-0.069  Sum_probs=16.0  Template_Neff=13.300
+
+Q KFY60362.1       48 FDMIGGTSTGGLIALLLGR   66 (147)
+Q Consensus        73 fd~i~GtS~Gaiia~~la~   91 (194)
+                      --++.|.|.||.+|+.++.
+T Consensus        67 ~~~l~G~S~Gg~~a~~~a~   85 (238)
+T Q16RZ9_AEDAE/5   67 PLIFHVFSNGGAFLYQHVA   85 (238)
+T ss_pred             CEEEEEEechHHHHHHHHH
+Confidence            3478899999999998883
+
+

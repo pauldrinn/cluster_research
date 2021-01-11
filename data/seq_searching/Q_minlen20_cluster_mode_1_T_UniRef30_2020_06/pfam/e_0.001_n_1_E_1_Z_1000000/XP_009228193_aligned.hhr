@@ -1,0 +1,150 @@
+Query         XP_009228193.1
+Match_columns 53
+No_of_seqs    330 out of 330
+Neff          6.81635
+Searched_HMMs 100
+Date          Mon Jan 11 21:32:27 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/XP_009228193_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_009228193_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_009228193_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17046.5 ; Ses_B ; SesB domai  95.8 3.6E-05 6.9E-09   31.6   0.0   23    6-28      5-27  (28)
+  2 PF08259.11 ; Periviscerokin ;   68.0    0.27 4.8E-05   15.2   0.0    7   45-51      4-10  (11)
+  3 PF18601.1 ; EZH2_N ; EZH2 N-te  18.5     6.9  0.0013   17.8   0.0   14   39-52     51-64  (81)
+  4 PF06967.11 ; Mo-nitro_C ; Mo-d   7.6      25  0.0046   15.7   0.0    6   47-52     30-35  (82)
+  5 PF16188.5 ; Peptidase_M24_C ;    6.5      27  0.0056   13.6   0.0    9   44-52      8-16  (63)
+  6 PF14365.6 ; Neprosin_AP ; Nepr   5.3      35  0.0073   14.7   0.0   12   41-52     68-79  (123)
+  7 PF00796.18 ; PSI_8 ; Photosyst   4.5      48   0.009   11.1   0.0    7   43-49      2-8   (24)
+  8 PF17624.2 ; US30 ; Family of u   4.5      50   0.009   17.6   0.0   15   34-48    266-280 (282)
+  9 PF16602.5 ; USP19_linker ; Lin   4.1      57    0.01   15.3   0.0   15   34-48     81-95  (123)
+ 10 PF11135.8 ; DUF2888 ; Protein    4.0      58    0.01   15.5   0.0    8   44-51     10-17  (144)
+
+No 1
+>PF17046.5 ; Ses_B ; SesB domain on fungal death-pathway protein
+Probab=95.82  E-value=3.6e-05  Score=31.56  Aligned_cols=23  Identities=30%  Similarity=0.413  Sum_probs=18.5  Template_Neff=4.200
+
+Q XP_009228193.1    1 -MEVTFGSKNRGMQVGQIFGNAY   22 (39)
+Q Consensus         6 ~~~~~fg~~n~G~q~g~~~g~i~   28 (53)
+                      .+..++|+.|+|+|+|.+.|.|+
+T Consensus         5 ~~~~FsGs~N~GlQ~G~N~G~i~   27 (28)
+T U1I097_ENDPU/3    5 HNATFSGDRNQGLQVGISSGTIN   27 (28)
+T ss_pred             ceeEeecCCCceEeeEEEecccc
+Confidence            34556677799999999999875
+
+
+No 2
+>PF08259.11 ; Periviscerokin ; Periviscerokinin family
+Probab=68.03  E-value=0.27  Score=15.20  Aligned_cols=7  Identities=0%  Similarity=0.024  Sum_probs=5.2  Template_Neff=1.900
+
+Q XP_009228193.1   39 A------   39 (39)
+Q Consensus        45 ~~IPF~R   51 (53)
+                      -.|||+|
+T Consensus         4 Gli~fpR   10 (11)
+T PVK1_RHYMA/1-1    4 GLIPFGR   10 (11)
+T ss_pred             CcccCCC
+Confidence            4688887
+
+
+No 3
+>PF18601.1 ; EZH2_N ; EZH2 N-terminal domain
+Probab=18.46  E-value=6.9  Score=17.81  Aligned_cols=14  Identities=14%  Similarity=0.186  Sum_probs=10.8  Template_Neff=3.300
+
+Q XP_009228193.1   33 TPPRPFA-------   39 (39)
+Q Consensus        39 tpP~P~~~IPF~RD   52 (53)
+                      +|-..+..|||-||
+T Consensus        51 tPnt~L~FvPhlrD   64 (81)
+T A0A0C4DKX4_MAG   51 TPNAMLKFIPHLRD   64 (81)
+T ss_pred             CCCCceecceeccc
+Confidence            44557889999888
+
+
+No 4
+>PF06967.11 ; Mo-nitro_C ; Mo-dependent nitrogenase C-terminus
+Probab=7.58  E-value=25  Score=15.67  Aligned_cols=6  Identities=0%  Similarity=0.000  Sum_probs=3.3  Template_Neff=3.300
+
+Q XP_009228193.1   40 ------   39 (39)
+Q Consensus        47 IPF~RD   52 (53)
+                      -||.||
+T Consensus        30 CPFeRd   35 (82)
+T K9YC28_HALP7/1   30 CPFEQD   35 (82)
+T ss_pred             CCCcce
+Confidence            356665
+
+
+No 5
+>PF16188.5 ; Peptidase_M24_C ; C-terminal region of peptidase_M24
+Probab=6.54  E-value=27  Score=13.57  Aligned_cols=9  Identities=0%  Similarity=0.096  Sum_probs=5.3  Template_Neff=7.200
+
+Q XP_009228193.1   38 FA-------   39 (39)
+Q Consensus        44 ~~~IPF~RD   52 (53)
+                      ...|||.++
+T Consensus         8 LT~vP~~~~   16 (63)
+T K4L3Y8_SIMAS/5    8 LTMVPMDTR   16 (63)
+T ss_pred             cccCccChh
+Confidence            456676653
+
+
+No 6
+>PF14365.6 ; Neprosin_AP ; Neprosin activation peptide
+Probab=5.31  E-value=35  Score=14.66  Aligned_cols=12  Identities=8%  Similarity=0.040  Sum_probs=9.3  Template_Neff=8.300
+
+Q XP_009228193.1   35 PRPFA-------   39 (39)
+Q Consensus        41 P~P~~~IPF~RD   52 (53)
+                      -.|.-+||.+|.
+T Consensus        68 ~CP~GTVPI~R~   79 (123)
+T D7SLL3_VITVI/4   68 KCPEGTIPIRRT   79 (123)
+T ss_pred             CCCCCeEeEEec
+Confidence            378889998873
+
+
+No 7
+>PF00796.18 ; PSI_8 ; Photosystem I reaction centre subunit VIII
+Probab=4.51  E-value=48  Score=11.11  Aligned_cols=7  Identities=14%  Similarity=0.215  Sum_probs=3.7  Template_Neff=3.400
+
+Q XP_009228193.1   37 PFA----   39 (39)
+Q Consensus        43 P~~~IPF   49 (53)
+                      |+..||+
+T Consensus         2 Psi~VPl    8 (24)
+T PSAI_PHATC/6-2    2 PAILVPI    8 (24)
+T ss_pred             CcchHhH
+Confidence            4555653
+
+
+No 8
+>PF17624.2 ; US30 ; Family of unknown function
+Probab=4.51  E-value=50  Score=17.57  Aligned_cols=15  Identities=27%  Similarity=0.538  Sum_probs=9.1  Template_Neff=1.900
+
+Q XP_009228193.1   28 PERPETPPRPFA---   39 (39)
+Q Consensus        34 perpetpP~P~~~IP   48 (53)
+                      |+-|.+||+-+++.|
+T Consensus       266 p~~psqPPeYSsvfP  280 (282)
+T US30_HCMVM/68-  266 PAVPSQPPEYSSVFP  280 (282)
+T ss_pred             CCCCCCCCccccCCC
+Confidence            455666777665544
+
+
+No 9
+>PF16602.5 ; USP19_linker ; Linker region of USP19 deubiquitinase
+Probab=4.05  E-value=57  Score=15.26  Aligned_cols=15  Identities=20%  Similarity=0.343  Sum_probs=11.2  Template_Neff=1.900
+
+Q XP_009228193.1   28 PERPETPPRPFA---   39 (39)
+Q Consensus        34 perpetpP~P~~~IP   48 (53)
+                      +|..-|-|+|.|+||
+T Consensus        81 ~ep~vtsPKPTCMV~   95 (123)
+T G1N7R0_MELGA/4   81 QEPHIPSPKPTCMVP   95 (123)
+T ss_pred             CCCCCCCCCCceecC
+Confidence            466667788888886
+
+
+No 10
+>PF11135.8 ; DUF2888 ; Protein of unknown function (DUF2888)
+Probab=4.02  E-value=58  Score=15.48  Aligned_cols=8  Identities=0%  Similarity=0.104  Sum_probs=5.8  Template_Neff=1.500
+
+Q XP_009228193.1   38 FA------   39 (39)
+Q Consensus        44 ~~~IPF~R   51 (53)
+                      .+.|||.|
+T Consensus        10 ~~~iPFgr   17 (144)
+T ICP18_FRG3G/14   10 LCEIPFNR   17 (144)
+T ss_pred             eeEecCCC
+Confidence            56788876
+
+

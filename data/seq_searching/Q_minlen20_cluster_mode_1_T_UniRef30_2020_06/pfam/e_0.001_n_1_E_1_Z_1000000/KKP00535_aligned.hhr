@@ -1,0 +1,150 @@
+Query         KKP00535.1
+Match_columns 62
+No_of_seqs    1233 out of 1339
+Neff          9.68349
+Searched_HMMs 100
+Date          Mon Jan 11 21:27:59 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KKP00535_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KKP00535_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KKP00535_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF08043.12 ; Xin ; Xin repeat   76.8    0.12 2.1E-05   15.3   0.0   11   39-49      4-14  (16)
+  2 PF16496.5 ; SWIRM-assoc_2 ; SW  68.9    0.24 4.5E-05   26.6   0.0   19   39-57    228-246 (405)
+  3 PF13120.6 ; DUF3974 ; Domain o  31.0     2.9 0.00052   18.3   0.0   19   42-60     59-77  (126)
+  4 PF05003.12 ; DUF668 ; Protein   30.2       3 0.00054   17.4   0.0   14   12-25     74-87  (92)
+  5 PF11806.8 ; DUF3327 ; Domain o  19.5     6.3  0.0012   16.3   0.0   16   33-48     38-53  (121)
+  6 PF18532.1 ; DUF5621 ; Domain o  19.3     6.6  0.0012   17.6   0.0   23   29-51     61-83  (140)
+  7 PF15256.6 ; SPATIAL ; SPATIAL   17.9     7.4  0.0014   18.5   0.0   19    6-24    167-185 (202)
+  8 PF09119.10 ; SicP-binding ; Si  16.9     8.2  0.0015   15.6   0.0   12   14-25      6-17  (81)
+  9 PF04320.14 ; DUF469 ; Protein   13.0      12  0.0022   15.4   0.0   17    9-25     71-87  (101)
+ 10 PF11463.8 ; R-HINP1I ; R.HinP1  10.8      16  0.0028   17.3   0.0   35   12-46    104-138 (205)
+
+No 1
+>PF08043.12 ; Xin ; Xin repeat
+Probab=76.85  E-value=0.12  Score=15.33  Aligned_cols=11  Identities=18%  Similarity=0.872  Sum_probs=7.7  Template_Neff=3.000
+
+Q KKP00535.1       22 GTCEWFMRHGD   32 (42)
+Q Consensus        39 gT~~Wll~~~~   49 (62)
+                      .|+.|+++...
+T Consensus         4 ~~~~wlFETqp   14 (16)
+T F6SLD1_XENTR/7    4 KMCKWLFETQQ   14 (16)
+T ss_pred             cceeEeEeccc
+Confidence            47788887653
+
+
+No 2
+>PF16496.5 ; SWIRM-assoc_2 ; SWIRM-associated domain at the N-terminal
+Probab=68.91  E-value=0.24  Score=26.64  Aligned_cols=19  Identities=11%  Similarity=0.569  Sum_probs=16.5  Template_Neff=5.700
+
+Q KKP00535.1       22 GTCEWFMRHGDFRRWRENT   40 (42)
+Q Consensus        39 gT~~Wll~~~~f~~W~~~~   57 (62)
+                      -++.||++...|..|++..
+T Consensus       228 V~arWl~Ds~~fNEWMNEe  246 (405)
+T E0VYN8_PEDHC/5  228 VAATWVLELEQYNEWMTEE  246 (405)
+T ss_pred             EeeehhhcHHHHcCCCCHH
+Confidence            4789999999999998753
+
+
+No 3
+>PF13120.6 ; DUF3974 ; Domain of unknown function (DUF3974)
+Probab=30.96  E-value=2.9  Score=18.28  Aligned_cols=19  Identities=26%  Similarity=0.569  Sum_probs=13.8  Template_Neff=1.800
+
+Q KKP00535.1       25 EWFMRHGDFRRWRENTSS-   42 (42)
+Q Consensus        42 ~Wll~~~~f~~W~~~~~s~   60 (62)
+                      +=|.+++-|..|....+..
+T Consensus        59 qeFtqhpLfyRWirtEG~~   77 (126)
+T A0A073JVF8_9BA   59 KEFTKHPVFYRWARTEGEK   77 (126)
+T ss_pred             HHHhcChhHHHHHhccccc
+Confidence            3467889999998865543
+
+
+No 4
+>PF05003.12 ; DUF668 ; Protein of unknown function (DUF668)
+Probab=30.23  E-value=3  Score=17.37  Aligned_cols=14  Identities=7%  Similarity=0.096  Sum_probs=10.4  Template_Neff=5.400
+
+Q KKP00535.1        1 ------MQALYTSP    8 (42)
+Q Consensus        12 ~~~~~il~wL~~~~   25 (62)
+                      ....++++||.|.-
+T Consensus        74 ~~~~~iL~WL~P~A   87 (92)
+T M0TQV8_MUSAM/1   74 ATVTGMLERLAPLA   87 (92)
+T ss_pred             HHHHHHHHHHhhhc
+Confidence            44678999998864
+
+
+No 5
+>PF11806.8 ; DUF3327 ; Domain of unknown function (DUF3327)
+Probab=19.46  E-value=6.3  Score=16.26  Aligned_cols=16  Identities=38%  Similarity=0.628  Sum_probs=12.1  Template_Neff=8.500
+
+Q KKP00535.1       16 NPDRVPGTCEWFMRHG   31 (42)
+Q Consensus        33 ~~~r~~gT~~Wll~~~   48 (62)
+                      .-.+.+||.-|++.-.
+T Consensus        38 ~m~rl~gTdvW~~t~~   53 (121)
+T B1VMU0_STRGG/7   38 LMERVAGTGVWAISHR   53 (121)
+T ss_pred             hcEecCCCceEEEEEE
+Confidence            3467889999988654
+
+
+No 6
+>PF18532.1 ; DUF5621 ; Domain of unknown function (DUF5621)
+Probab=19.32  E-value=6.6  Score=17.61  Aligned_cols=23  Identities=13%  Similarity=0.215  Sum_probs=18.2  Template_Neff=4.400
+
+Q KKP00535.1       12 RKNRNPDRVPGTCEWFMRHGDFR   34 (42)
+Q Consensus        29 ~~~~~~~r~~gT~~Wll~~~~f~   51 (62)
+                      +.+..+...|.|-.||++...+.
+T Consensus        61 HRELFk~~YP~~ynwfFE~n~~d   83 (140)
+T A0A098FZ64_9GA   61 ERELFKIAYPRTFNYLFEKNVFD   83 (140)
+T ss_pred             HHHHHHHHhHHHHHHHHhcCCCC
+Confidence            34566788999999999988654
+
+
+No 7
+>PF15256.6 ; SPATIAL ; SPATIAL
+Probab=17.91  E-value=7.4  Score=18.49  Aligned_cols=19  Identities=5%  Similarity=-0.053  Sum_probs=11.0  Template_Neff=4.700
+
+Q KKP00535.1        1 ------------MQALYTS    7 (42)
+Q Consensus         6 ~~~~~~~~~~~il~wL~~~   24 (62)
+                      -++...+...+|..||...
+T Consensus       167 CqILQTDSL~aVq~WLl~A  185 (202)
+T I3NDI0_ICTTR/7  167 CQILQTDSLSAVQYWLLYA  185 (202)
+T ss_pred             HHHhcCCCHHHHHHHHHcC
+Confidence            3444555666677776543
+
+
+No 8
+>PF09119.10 ; SicP-binding ; SicP binding
+Probab=16.93  E-value=8.2  Score=15.64  Aligned_cols=12  Identities=17%  Similarity=0.154  Sum_probs=8.3  Template_Neff=3.800
+
+Q KKP00535.1        1 ----MQALYTSP    8 (42)
+Q Consensus        14 ~~~il~wL~~~~   25 (62)
+                      ..+|+.||+...
+T Consensus         6 ~~rvLs~L~~vP   17 (81)
+T SPTP_SALTY/41-    6 SSKVLTWLGKMP   17 (81)
+T ss_pred             HHHHHHHHhcCc
+Confidence            356888887654
+
+
+No 9
+>PF04320.14 ; DUF469 ; Protein with unknown function (DUF469)
+Probab=13.04  E-value=12  Score=15.35  Aligned_cols=17  Identities=6%  Similarity=-0.100  Sum_probs=12.2  Template_Neff=6.200
+
+Q KKP00535.1        1 ---------MQALYTSP    8 (42)
+Q Consensus         9 ~~~~~~~~il~wL~~~~   25 (62)
+                      ..++.+..+.+||..-+
+T Consensus        71 ~teedR~av~~WL~~~~   87 (101)
+T M1S6W1_MORMO/7   71 CTDEHRKLVGDWLKAKG   87 (101)
+T ss_pred             CCHHHHHHHHHHHHhcC
+Confidence            34567888999997543
+
+
+No 10
+>PF11463.8 ; R-HINP1I ; R.HinP1I restriction endonuclease
+Probab=10.81  E-value=16  Score=17.29  Aligned_cols=35  Identities=14%  Similarity=0.132  Sum_probs=16.8  Template_Neff=4.400
+
+Q KKP00535.1        1 ------MQALYTSPYLQRKNRNPDRVPGTCEWFMR   29 (42)
+Q Consensus        12 ~~~~~il~wL~~~~~~~~~~~~~~r~~gT~~Wll~   46 (62)
+                      ..+.++++|+......--.+.++.+-+-..+|+|-
+T Consensus       104 ~~q~~i~~ff~~nk~lIv~dilkgrg~f~aew~Lv  138 (205)
+T B0USN9_HISS2/4  104 QEQRLILDWFKQSKILVLTDIIRGRGDFSAEWVLV  138 (205)
+T ss_pred             HHHHHHHHHHHHChHHHHHHHHhCCCCCCcceeEE
+Confidence            45556666665432222233444444444555553
+
+

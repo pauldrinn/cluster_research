@@ -1,0 +1,150 @@
+Query         ORY16324.1
+Match_columns 275
+No_of_seqs    1874 out of 1905
+Neff          8.95657
+Searched_HMMs 100
+Date          Mon Jan 11 21:29:37 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/ORY16324_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/ORY16324_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/ORY16324_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF06985.11 ; HET ; Heterokaryo  97.4 7.4E-08 1.5E-11   67.3   0.0   57   46-102    63-127 (127)
+  2 PF02258.16 ; SLT_beta ; Shiga-  10.6      16  0.0029   19.4   0.0   22   88-109    25-46  (70)
+  3 PF15031.6 ; DUF4528 ; Domain o  10.5      16   0.003   22.4   0.0   25  164-188    72-97  (123)
+  4 PF10303.9 ; DUF2408 ; Protein    4.8      45  0.0084   21.5   0.0   12   60-71    121-132 (174)
+  5 PF11644.8 ; DUF3256 ; Protein    3.9      57   0.011   21.3   0.0   16  107-122   106-121 (203)
+  6 PF07154.11 ; DUF1392 ; Protein   3.2      74   0.014   19.8   0.0   30   40-69     19-48  (150)
+  7 PF09932.9 ; DUF2164 ; Uncharac   3.0      80   0.015   16.6   0.0   19  181-199    43-61  (72)
+  8 PF08285.11 ; DPM3 ; Dolichol-p   2.7      90   0.017   17.0   0.0   17  190-206    68-84  (90)
+  9 PF06820.12 ; Phage_fiber_C ; P   2.1 1.2E+02   0.022   15.5   0.0   21  101-121    40-60  (62)
+ 10 PF04611.12 ; AalphaY_MDB ; Mat   2.1 1.3E+02   0.023   18.1   0.0   31   40-72     57-87  (145)
+
+No 1
+>PF06985.11 ; HET ; Heterokaryon incompatibility protein (HET)
+Probab=97.36  E-value=7.4e-08  Score=67.29  Aligned_cols=57  Identities=21%  Similarity=0.334  Sum_probs=40.7  Template_Neff=10.800
+
+Q ORY16324.1        1 -----MFRWYRNATRCYVYLSDVSKAPPNSEDET--------DPPRWELEFRKSEWFSRGWTLQE   52 (201)
+Q Consensus        46 eaI~sM~~wY~~a~~c~v~L~dv~~~~~~~~~~~--------~~~~~~~~~~~s~WftRgWTLQE  102 (275)
+                      ++|..|..+|++|..|++++++.+..........        ........+..++||+|+|||||
+T Consensus        63 ~~i~~m~~iy~~a~~~iv~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~w~~R~WtlQE  127 (127)
+T Q0TVU4_PHANO/4   63 SQVQLMGRIYSSATTVLIWLGCGDEDEVKAMQMITSREHWNLEMRQILTRIFQGPWFRRVWVVQE  127 (127)
+T ss_pred             HHHHHHHHHHhcCCEEEEeCCCCChhHHHHHHHHHhhhhcchhhHHHHHHHHCCCCcCceeeecC
+Confidence            7899999999999999999998875432111000        00012345667899999999998
+
+
+No 2
+>PF02258.16 ; SLT_beta ; Shiga-like toxin beta subunit
+Probab=10.62  E-value=16  Score=19.44  Aligned_cols=22  Identities=32%  Similarity=0.643  Sum_probs=16.7  Template_Neff=1.400
+
+Q ORY16324.1       38 FRKSEWFSRGWTLQELLAPSMV   59 (201)
+Q Consensus        88 ~~~s~WftRgWTLQEllap~~v  109 (275)
+                      ......|+--|.||-|++..++
+T Consensus        25 v~~~e~~tnrwnlq~ll~saql   46 (70)
+T STXB_SHIDS/20-   25 VGDKELFTNRWNLQSLLLSAQI   46 (70)
+T ss_pred             ECCeeeeecccchHHHHHHhee
+Confidence            3455678888999999987554
+
+
+No 3
+>PF15031.6 ; DUF4528 ; Domain of unknown function (DUF4528)
+Probab=10.48  E-value=16  Score=22.45  Aligned_cols=25  Identities=24%  Similarity=0.479  Sum_probs=21.0  Template_Neff=2.900
+
+Q ORY16324.1      114 KAVDRAYALLGIFDVNMM-LNYDEGI  138 (201)
+Q Consensus       164 r~eD~aY~llgif~v~~~-~~ygeg~  188 (275)
+                      ..||+.|.++-+.+..+| +.||-+.
+T Consensus        72 ~~ed~ff~~ikv~NLGiPcL~YGlaa   97 (123)
+T H2YEA0_CIOSA/3   72 SRDDKFFRVLKILNLGIPCLAYGVGS   97 (123)
+T ss_pred             chHhHHHHHHHHHhcccchHHHHHHH
+Confidence            358999999999999999 4798764
+
+
+No 4
+>PF10303.9 ; DUF2408 ; Protein of unknown function (DUF2408)
+Probab=4.77  E-value=45  Score=21.55  Aligned_cols=12  Identities=33%  Similarity=0.556  Sum_probs=9.3  Template_Neff=5.100
+
+Q ORY16324.1       10 RCYVYLSDVSKA   21 (201)
+Q Consensus        60 ~c~v~L~dv~~~   71 (275)
+                      .|+.++.|+...
+T Consensus       121 dC~~lv~dL~~~  132 (174)
+T J7SB39_KAZNA/2  121 DCNDLVSDLSHQ  132 (174)
+T ss_pred             HHHHHHHHHHhh
+Confidence            688888888765
+
+
+No 5
+>PF11644.8 ; DUF3256 ; Protein of unknown function (DUF3256)
+Probab=3.90  E-value=57  Score=21.29  Aligned_cols=16  Identities=25%  Similarity=0.843  Sum_probs=12.9  Template_Neff=6.700
+
+Q ORY16324.1       57 SMVEFFSQHWERIGDK   72 (201)
+Q Consensus       107 ~~v~f~~~~w~~~g~k  122 (275)
+                      ..+.||+.+|+.+...
+T Consensus       106 S~I~FY~~~W~~l~~~  121 (203)
+T R5GB35_9PORP/1  106 SVLIFYDKQWRRLDTS  121 (203)
+T ss_pred             cEEEEECCCCcccChh
+Confidence            4678999999988653
+
+
+No 6
+>PF07154.11 ; DUF1392 ; Protein of unknown function (DUF1392)
+Probab=3.24  E-value=74  Score=19.80  Aligned_cols=30  Identities=23%  Similarity=0.319  Sum_probs=26.4  Template_Neff=3.300
+
+Q ORY16324.1        1 -----------MFRWYRNATRCYVYLSDVS   19 (201)
+Q Consensus        40 ~~~~p~eaI~sM~~wY~~a~~c~v~L~dv~   69 (275)
+                      +..+||-+||..-+.|-.+...+.|...|.
+T Consensus        19 Gq~iPpl~V~llErVyl~~t~~fGYCcGV~   48 (150)
+T B2JAS1_NOSP7/1   19 GKTLPPVEVNLLERVYLKTTRTFGYCSGVQ   48 (150)
+T ss_pred             cCCCCchHhheeeeeeeccCccceEEcceE
+Confidence            567888999999999999999999988875
+
+
+No 7
+>PF09932.9 ; DUF2164 ; Uncharacterized conserved protein (DUF2164)
+Probab=2.97  E-value=80  Score=16.64  Aligned_cols=19  Identities=32%  Similarity=0.482  Sum_probs=12.0  Template_Neff=5.900
+
+Q ORY16324.1      131 MLNYDEGIESAFRRLQEEI  149 (201)
+Q Consensus       181 ~~~ygeg~~~a~~rL~~~i  199 (275)
+                      |..|..|...|...+.+.+
+T Consensus        43 p~~YNqgi~DA~~~l~~r~   61 (72)
+T B9JXS6_AGRVS/1   43 VHFYNRGLADAQTLLAEQI   61 (72)
+T ss_pred             HHHHHHHHHHHHHHHHHHH
+Confidence            6678877666655555443
+
+
+No 8
+>PF08285.11 ; DPM3 ; Dolichol-phosphate mannosyltransferase subunit 3 (DPM3)
+Probab=2.68  E-value=90  Score=17.05  Aligned_cols=17  Identities=41%  Similarity=0.477  Sum_probs=11.1  Template_Neff=6.600
+
+Q ORY16324.1      140 SAFRRLQEEIDKLKRCL  156 (201)
+Q Consensus       190 ~a~~rL~~~i~~~~~~l  206 (275)
+                      +|...|+++|.+...++
+T Consensus        68 eA~~eL~~eI~eAk~dL   84 (90)
+T T0LT01_COLGC/1   68 EAHKELMAEIDEAKADL   84 (90)
+T ss_pred             HHHHHHHHHHHHHHHHH
+Confidence            46777887777655444
+
+
+No 9
+>PF06820.12 ; Phage_fiber_C ; Putative prophage tail fibre C-terminus
+Probab=2.15  E-value=1.2e+02  Score=15.54  Aligned_cols=21  Identities=29%  Similarity=0.491  Sum_probs=15.2  Template_Neff=2.500
+
+Q ORY16324.1       51 QELLAPSMVEFFSQHWERIGD   71 (201)
+Q Consensus       101 QEllap~~v~f~~~~w~~~g~  121 (275)
+                      |-..-|-.|.|-+++|+.++.
+T Consensus        40 q~~fqplQV~f~DG~Wqdik~   60 (62)
+T Q6H9S8_9CAUD/6   40 QCVVRPLQILRADGRWENIGG   60 (62)
+T ss_pred             EEEEeeeeEEecCCCccccCC
+Confidence            445567788888999987653
+
+
+No 10
+>PF04611.12 ; AalphaY_MDB ; Mating type protein A alpha Y mating type dependent binding region
+Probab=2.07  E-value=1.3e+02  Score=18.07  Aligned_cols=31  Identities=16%  Similarity=0.266  Sum_probs=24.2  Template_Neff=2.100
+
+Q ORY16324.1        1 -----------MFRWYRNATRCYVYLSDVSKAP   22 (201)
+Q Consensus        40 ~~~~p~eaI~sM~~wY~~a~~c~v~L~dv~~~~   72 (275)
+                      +-.+||.+|.+-..-|..|  |--|..|+...-
+T Consensus        57 ~a~LP~k~iksal~aYe~A--C~RWr~~l~e~F   87 (145)
+T D8PR89_SCHCM/1   57 EARLPPKAIKGTLSAYESA--CARWKHDLEEAF   87 (145)
+T ss_pred             HCCCChHHHHHHHHHHHHH--HHHHHHhHHHHH
+Confidence            3456778899988888876  888999987653
+
+

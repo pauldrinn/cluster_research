@@ -1,0 +1,150 @@
+Query         EWZ01003.1
+Match_columns 136
+No_of_seqs    1019 out of 1045
+Neff          5.59875
+Searched_HMMs 100
+Date          Mon Jan 11 21:26:15 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/EWZ01003_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/EWZ01003_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/EWZ01003_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF08043.12 ; Xin ; Xin repeat   27.4     3.5 0.00066   16.9   0.0   10  103-112     4-13  (16)
+  2 PF18532.1 ; DUF5621 ; Domain o  22.2     4.8 0.00095   25.3   0.0   18   96-113    64-81  (140)
+  3 PF17671.1 ; DUF5531 ; Family o   9.1      19  0.0036   22.5   0.0   18   75-92     84-101 (152)
+  4 PF18385.1 ; Tiam_CC_Ex ; T-lym   6.5      29  0.0056   20.0   0.0   17    4-20     82-98  (98)
+  5 PF12163.8 ; HobA ; DNA replica   3.9      55   0.011   20.4   0.0   22   91-112   120-141 (180)
+  6 PF15821.5 ; DUF4709 ; Domain o   3.5      62   0.012   18.5   0.0   19   86-104    71-89  (109)
+  7 PF18596.1 ; Sld7_C ; Sld7 C-te   3.2      65   0.014   16.2   0.0   33   75-111     6-38  (71)
+  8 PF18196.1 ; Cdh1_DBD_1 ; Chrom   2.9      74   0.015   17.9   0.0   18   82-99     11-28  (122)
+  9 PF15673.5 ; Ciart ; Circadian-   2.4 1.1E+02    0.02   20.3   0.0   28   72-99     64-91  (278)
+ 10 PF17503.2 ; DUF5435 ; Family o   2.1 1.3E+02   0.023   18.9   0.0   33   73-105    24-56  (205)
+
+No 1
+>PF08043.12 ; Xin ; Xin repeat
+Probab=27.41  E-value=3.5  Score=16.94  Aligned_cols=10  Identities=30%  Similarity=0.966  Sum_probs=7.7  Template_Neff=3.000
+
+Q EWZ01003.1      103 KTLDWIFDNS  112 (136)
+Q Consensus       103 ~TFeWIF~~~  112 (136)
+                      +|..|+|+..
+T Consensus         4 ~~~~wlFETq   13 (16)
+T F6SLD1_XENTR/7    4 KMCKWLFETQ   13 (16)
+T ss_pred             cceeEeEecc
+Confidence            5788999753
+
+
+No 2
+>PF18532.1 ; DUF5621 ; Domain of unknown function (DUF5621)
+Probab=22.25  E-value=4.8  Score=25.35  Aligned_cols=18  Identities=17%  Similarity=0.379  Sum_probs=14.4  Template_Neff=4.400
+
+Q EWZ01003.1       96 QVTEAHGKTLDWIFDNSP  113 (136)
+Q Consensus        96 ~I~eAH~~TFeWIF~~~~  113 (136)
+                      --..++++||.|+|+...
+T Consensus        64 LFk~~YP~~ynwfFE~n~   81 (140)
+T A0A098FZ64_9GA   64 LFKIAYPRTFNYLFEKNV   81 (140)
+T ss_pred             HHHHHhHHHHHHHHhcCC
+Confidence            346789999999998753
+
+
+No 3
+>PF17671.1 ; DUF5531 ; Family of unknown function (DUF5531)
+Probab=9.14  E-value=19  Score=22.52  Aligned_cols=18  Identities=33%  Similarity=0.349  Sum_probs=15.2  Template_Neff=2.300
+
+Q EWZ01003.1       75 GLINDFILESLSYKSMHD   92 (136)
+Q Consensus        75 ~~~~~~IL~SL~F~~M~~   92 (136)
+                      -+.++.||+.|-|.+|.-
+T Consensus        84 FALQDKilERLmfsEMKL  101 (152)
+T G1QCS6_MYOLU/1   84 FALQDKILERLMFSEMKL  101 (152)
+T ss_pred             HHHHHHHHHHHhhchHhH
+Confidence            356899999999999964
+
+
+No 4
+>PF18385.1 ; Tiam_CC_Ex ; T-lymphoma invasion and metastasis CC-Ex domain
+Probab=6.52  E-value=29  Score=20.02  Aligned_cols=17  Identities=24%  Similarity=0.233  Sum_probs=12.7  Template_Neff=3.600
+
+Q EWZ01003.1        4 HLSVVTVSSVDFTGCSP   20 (136)
+Q Consensus         4 ~~~~~~~~~~~~~~~~~   20 (136)
+                      .|.|++|||.....|.|
+T Consensus        82 rLGvfsvssfha~v~aR   98 (98)
+T G7P1J8_MACFA/5   82 RLGIFSVSSFHALVAAR   98 (98)
+T ss_pred             cccCcchhhHHHHhhcC
+Confidence            46788898887777654
+
+
+No 5
+>PF12163.8 ; HobA ; DNA replication regulator
+Probab=3.88  E-value=55  Score=20.44  Aligned_cols=22  Identities=27%  Similarity=0.687  Sum_probs=19.6  Template_Neff=4.400
+
+Q EWZ01003.1       91 HDRESQVTEAHGKTLDWIFDNS  112 (136)
+Q Consensus        91 ~~R~e~I~eAH~~TFeWIF~~~  112 (136)
+                      ++++..|.....+.|=|||++.
+T Consensus       120 ~~~~a~iA~~~~~sflWi~De~  141 (180)
+T Q30Q05_SULDN/1  120 DDRRADIAKRKDTSYFWIFDEE  141 (180)
+T ss_pred             CCccchhhhcCCCceEEeeccc
+Confidence            5688899999999999999986
+
+
+No 6
+>PF15821.5 ; DUF4709 ; Domain of unknown function (DUF4709)
+Probab=3.51  E-value=62  Score=18.50  Aligned_cols=19  Identities=16%  Similarity=0.274  Sum_probs=16.2  Template_Neff=4.400
+
+Q EWZ01003.1       86 SYKSMHDRESQVTEAHGKT  104 (136)
+Q Consensus        86 ~F~~M~~R~e~I~eAH~~T  104 (136)
+                      -|..|++|...|...|.+-
+T Consensus        71 Ly~~~ndri~~lE~~hkq~   89 (109)
+T C3ZX22_BRAFL/3   71 LYCRVNDKLEDLEKIHLDK   89 (109)
+T ss_pred             HHHHHHHHHHHHHHHHHHH
+Confidence            4788999999999999854
+
+
+No 7
+>PF18596.1 ; Sld7_C ; Sld7 C-terminal domain
+Probab=3.24  E-value=65  Score=16.23  Aligned_cols=33  Identities=21%  Similarity=0.372  Sum_probs=19.3  Template_Neff=6.400
+
+Q EWZ01003.1       75 GLINDFILESLSYKSMHDRESQVTEAHGKTLDWIFDN  111 (136)
+Q Consensus        75 ~~~~~~IL~SL~F~~M~~R~e~I~eAH~~TFeWIF~~  111 (136)
+                      ..+.+.++..|+-..+...+.    -+..-|.|++..
+T Consensus         6 ~~ikk~i~~~Lr~rgi~k~~~----efk~ly~~~yrg   38 (71)
+T SLD7_ZYGRC/171    6 ETLSKLILGGLRLRGIPNTQS----GFQKLYKITFDA   38 (71)
+T ss_pred             HHHHHHHHHHHHHcCCCCCCH----HHHHHHHHHHHH
+Confidence            345666777777666655532    344566666654
+
+
+No 8
+>PF18196.1 ; Cdh1_DBD_1 ; Chromodomain helicase DNA-binding domain 1
+Probab=2.91  E-value=74  Score=17.86  Aligned_cols=18  Identities=6%  Similarity=0.025  Sum_probs=13.8  Template_Neff=6.100
+
+Q EWZ01003.1       82 LESLSYKSMHDRESQVTE   99 (136)
+Q Consensus        82 L~SL~F~~M~~R~e~I~e   99 (136)
+                      -.-|+|..+..|++.|..
+T Consensus        11 RailrfGd~~~R~d~ii~   28 (122)
+T I2H6B0_TETBL/1   11 KSILKKGDIRNIIGELIA   28 (122)
+T ss_pred             HHHHhhCCHHHHHHHHHH
+Confidence            334789999999988754
+
+
+No 9
+>PF15673.5 ; Ciart ; Circadian-associated transcriptional repressor
+Probab=2.39  E-value=1.1e+02  Score=20.29  Aligned_cols=28  Identities=14%  Similarity=-0.135  Sum_probs=19.3  Template_Neff=2.300
+
+Q EWZ01003.1       72 APVGLINDFILESLSYKSMHDRESQVTE   99 (136)
+Q Consensus        72 ~~~~~~~~~IL~SL~F~~M~~R~e~I~e   99 (136)
+                      .....+.++|+.-|.=+.|.+||-.+--
+T Consensus        64 SvAmdriqri~gvlqkp~mgeryl~~ll   91 (278)
+T H0WQS8_OTOGA/8   64 SVAMDRIQRIVGVLQKPYMGERYLGTLL   91 (278)
+T ss_pred             HHHHHHHHHHHHHhhCCccchhHHHHHH
+Confidence            3345566778888888888888765543
+
+
+No 10
+>PF17503.2 ; DUF5435 ; Family of unknown function (DUF5435)
+Probab=2.11  E-value=1.3e+02  Score=18.88  Aligned_cols=33  Identities=15%  Similarity=0.159  Sum_probs=24.0  Template_Neff=1.800
+
+Q EWZ01003.1       73 PVGLINDFILESLSYKSMHDRESQVTEAHGKTL  105 (136)
+Q Consensus        73 ~~~~~~~~IL~SL~F~~M~~R~e~I~eAH~~TF  105 (136)
+                      +.....+++|..|.|..|..=+..-..|-..|.
+T Consensus        24 rreslr~qLLsqlffk~MaqlFkKKR~~rpstV   56 (205)
+T A0A0A7D8P7_9AL   24 RRESLRRQLLSQLFFKKMSQLFKKKRQTRPSTV   56 (205)
+T ss_pred             CcHHHHHHHHHHHHHHHHHHHHHHhcCCCCCce
+Confidence            345567889999999999887666555555553
+
+

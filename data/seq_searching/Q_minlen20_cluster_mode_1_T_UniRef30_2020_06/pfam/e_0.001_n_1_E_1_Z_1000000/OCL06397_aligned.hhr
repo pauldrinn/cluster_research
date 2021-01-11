@@ -1,0 +1,186 @@
+Query         OCL06397.1
+Match_columns 399
+No_of_seqs    2730 out of 2814
+Neff          9.22668
+Searched_HMMs 939
+Date          Mon Jan 11 21:28:59 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/OCL06397_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/OCL06397_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/OCL06397_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17111.5 ; Helo_like_N ; Fung  98.0 8.2E-10 1.6E-13   91.1   0.0  127   66-197     1-133 (209)
+  2 PF17107.5 ; SesA ; N-terminal   96.7 1.9E-06 3.7E-10   64.7   0.0  116   75-192     1-132 (133)
+  3 PF14516.6 ; AAA_35 ; AAA-like   81.9   0.054 1.1E-05   43.7   0.0   28  367-394   125-152 (330)
+  4 PF05729.12 ; NACHT ; NACHT dom  68.5    0.23 4.6E-05   34.3   0.0   18  366-383    74-91  (170)
+  5 PF15967.5 ; Nucleoporin_FG2 ;   43.1     1.3 0.00025   38.9   0.0   19  176-194   349-367 (605)
+  6 PF01637.18 ; ATPase_2 ; ATPase  39.5     1.5 0.00031   30.6   0.0   13  369-381   106-118 (209)
+  7 PF00931.22 ; NB-ARC ; NB-ARC d  31.2     2.6 0.00051   29.8   0.0   15  368-382    98-112 (240)
+  8 PF00599.17 ; Flu_M2 ; Influenz  25.5     4.2 0.00075   25.2   0.0   24   65-91     22-45  (97)
+  9 PF08919.10 ; F_actin_bind ; F-  20.6     5.8  0.0011   25.5   0.0   77   76-154    24-101 (103)
+ 10 PF15778.5 ; UNC80 ; Cation cha  13.1      12  0.0022   26.8   0.0   16  369-384   107-122 (194)
+
+No 1
+>PF17111.5 ; Helo_like_N ; Fungal N-terminal domain of STAND proteins
+Probab=98.03  E-value=8.2e-10  Score=91.05  Aligned_cols=127  Identities=13%  Similarity=0.175  Sum_probs=100.3  Template_Neff=11.200
+
+Q OCL06397.1        1 MDPLSALGLAGNIVQFVDFSCKIVTAGSDIYNSAsgmt---Ak-HEQLEKATQRLYDLTR-n-LDESrkhiva--sRRLT   72 (281)
+Q Consensus        66 mDplsalglaasIiq~v~~~~kv~~~~~~~~~s~....~--~-~~~~L~~~~~~L~~~l~~.L~~~~......~~.~~~~  130 (399)
+                      |||+   |++++|+++++++.+++..++++++++    +  + ++..+..++..+..++.. ++...      ..  ...
+T Consensus         1 md~l---~~~asii~l~~~~~~~~~~~~~~~~~~....~~a~~~~~~l~~~l~~l~~~l~~.l~~~~......~~.-~~~   64 (209)
+T Q5B3N2_EMENI/2    1 AEPI---SLASGLLALATFAFQSSVSLYDTVKSF....HSHPTRVRQLIEELEALSGVLGP.LVDRV......QA.-TND   64 (209)
+T ss_pred             CCcc---hHHHHHHHHHHHHHHHHHHHHHHHHHH....hcCCHHHHHHHHHHHHHHHHHHH.HHHHH......hc.-CCC
+Confidence            7888   799999999999999999999988766    5  5 888888889999999988 87765      42  222
+
+
+Q OCL06397.1       73 PADTAQGVILQDCQNIASELLAALSSLKSQGRlG--KLeslRQALINLWS-QGRIEEMDKRLERLRQLLVtnI--lismq  147 (281)
+Q Consensus       131 ~~~~~l~~~~~~C~~~l~eL~~~L~~~~~~~~-~--k~...~~~~r~~w~~~~~i~~l~~~L~~~~~~L~..~~l.....  197 (399)
+                      .....+...+..|...+++|...++++..... +  .+   +.+.+..| .+++++++..+|..++..+.  ..+     
+T Consensus        65 ~~~~~l~~~~~~c~~~l~~l~~~l~~~~~~~~~~~~~~...~~~~~~~~-~~~~i~~l~~~l~~~~~~l~..~~l.....  133 (209)
+T Q5B3N2_EMENI/2   65 TDLSALNLPLLSCGKACKLFQKEIMKCAGRSSATRTSF...RDWAKLKY-MGDDVDGFRRVLAAYKSTIT..IAL.....  133 (209)
+T ss_pred             CChHHhHHHHHHHHHHHHHHHHHHHHHhcCCCCCCCcH...HHHHhHhh-chhhHHHHHHHHHHHHHHHH..HHH.....
+Confidence            33445788899999999999999998865432 1  11   33555666 48889999999999999988  766     
+
+
+Q OCL06397.1      148 eqveevsadriakdkllr  165 (281)
+Q Consensus       198 ..................  197 (399)
+                                        
+T Consensus       134 ..................  133 (209)
+T Q5B3N2_EMENI/2  134 ..................  133 (209)
+T ss_pred             ..................
+Confidence                              
+
+
+No 2
+>PF17107.5 ; SesA ; N-terminal domain on NACHT_NTPase and P-loop NTPases
+Probab=96.71  E-value=1.9e-06  Score=64.66  Aligned_cols=116  Identities=11%  Similarity=0.018  Sum_probs=80.6  Template_Neff=10.000
+
+Q OCL06397.1       10 AGNIVQFVDFSCKIVTAGSDIYNSAsgmt-Ak-HEQLEKATQRLYDLTR-n-LDESrkhiva--sRR-LTPADTA--QGV   80 (281)
+Q Consensus        75 aasIiq~v~~~~kv~~~~~~~~~s~....~~-~~~~L~~~~~~L~~~l~~.L~~~~......~~.~~-~~~~~~~--l~~  138 (399)
+                      +++|+++++++.++++.+.++++ .     | ++.++..++..+..++.. +....      .. .. .......  +..
+T Consensus         1 ~~~i~~~~~~~~~~~~~~~~~~~-~....-p~~~~~l~~~l~~l~~~l~~.~~~~~......~~.~~~~~~~~~~~~i~~   66 (133)
+T U7PRR7_SPOS1/7    1 VASSRALARAIYETYTTIHTIKG-R....-PEAFDRINKSLQLIQLALWK.IQTHR......SG.PRASDDALLANAIRP   66 (133)
+T ss_pred             ChHHHHHHHHHHHHHHHHHhhcC-C....-CHHHHHHHHHHHHHHHHHHH.HHHHh......cC.CCCChhHHHHHhHHH
+Confidence            46888999999998888877433 2     4 777887788888888888 87766      43 11 1122334  888
+
+
+Q OCL06397.1       81 ILQDCQNIASELLAALSSLKSQGRlGKLeslRQ--A----L--INLWS--QGRIEEMDKRLERLRQL  137 (281)
+Q Consensus       139 ~~~~C~~~l~eL~~~L~~~~~~~~-~k~--.~~--~----~--r~~w~-~~~~i~~l~~~L~~~~~~  192 (399)
+                      .+..|...+++|...++++..... +++   +.  .    .  +..|+ .+++++++.++|.++...
+T Consensus        67 ~~~~C~~~~~~l~~~l~~~~~~~~~~~~~~.~~~~~~~~~~~~~~~~~~~~~~v~~l~~~l~~~~~~  132 (133)
+T U7PRR7_SPOS1/7   67 ITRRCEHKIRVLHDIFVNLQHGLGSESWQR.QTWADLGHNCRNALLELAEGNKVETLMQEILVDLAI  132 (133)
+T ss_pred             HHHHHHHHHHHHHHHHHHhcCCCCChhhhH.HhHhchhhhhHhhHHHhcCCcHHHHHHHHHHHHhhc
+Confidence            999999999999999988764322 122   11  1    1  23336 688899999998887653
+
+
+No 3
+>PF14516.6 ; AAA_35 ; AAA-like domain
+Probab=81.93  E-value=0.054  Score=43.70  Aligned_cols=28  Identities=0%  Similarity=0.000  Sum_probs=18.9  Template_Neff=11.900
+
+Q OCL06397.1      282 ----------------------------  281 (281)
+Q Consensus       367 ~~~~~i~~dalde~~~~~~~~~~~~~~~  394 (399)
+                      ...++|++|.+|++.........|+..|
+T Consensus       125 ~~~~viviD~~d~~~~~~~~~~~~~~~l  152 (330)
+T B0JKB2_MICAN/2  125 DRPLVLAIDNFDRIFKYADIETDLCGLL  152 (330)
+T ss_pred             CCCEEEEEeCccHHhcChhHHHHHHHHH
+Confidence            4579999999999976333333455444
+
+
+No 4
+>PF05729.12 ; NACHT ; NACHT domain
+Probab=68.48  E-value=0.23  Score=34.26  Aligned_cols=18  Identities=0%  Similarity=0.000  Sum_probs=14.6  Template_Neff=12.700
+
+Q OCL06397.1      282 ------------------  281 (281)
+Q Consensus       366 ~~~~~~i~~dalde~~~~  383 (399)
+                      ...+.++++|.+|++...
+T Consensus        74 ~~~~~vlviD~~d~~~~~   91 (170)
+T NALP4_HUMAN/14   74 QPERLLFVIDSFEELQGG   91 (170)
+T ss_pred             CCCeEEEEEechhhhcCC
+Confidence            445789999999999763
+
+
+No 5
+>PF15967.5 ; Nucleoporin_FG2 ; Nucleoporin FG repeated region
+Probab=43.09  E-value=1.3  Score=38.94  Aligned_cols=19  Identities=21%  Similarity=0.459  Sum_probs=11.3  Template_Neff=6.100
+
+Q OCL06397.1      121 QGRIEEMDKRLERLRQLLVtn  141 (281)
+Q Consensus       176 ~~~i~~l~~~L~~~~~~L~..  194 (399)
+                      .+.++++..+|+.|+++|+  
+T Consensus       349 ~~LveefE~rL~~yrqqIe..  367 (605)
+T H2LRF1_ORYLA/3  349 RSLVEQFEVQLQQYRQQIE..  367 (605)
+T ss_pred             HHHHHHHHHHHHHHHHHHH..
+Confidence            3455666666666666555  
+
+
+No 6
+>PF01637.18 ; ATPase_2 ; ATPase domain predominantly from Archaea
+Probab=39.50  E-value=1.5  Score=30.56  Aligned_cols=13  Identities=0%  Similarity=0.000  Sum_probs=11.5  Template_Neff=12.600
+
+Q OCL06397.1      282 -------------  281 (281)
+Q Consensus       369 ~~~i~~dalde~~  381 (399)
+                      +++|+||..|++.
+T Consensus       106 ~~~lviD~~~~~~  118 (209)
+T A8M928_CALMQ/1  106 RVAVIVDDAFQVI  118 (209)
+T ss_pred             cEEEEEeCHHHhc
+Confidence            4799999999997
+
+
+No 7
+>PF00931.22 ; NB-ARC ; NB-ARC domain
+Probab=31.24  E-value=2.6  Score=29.84  Aligned_cols=15  Identities=0%  Similarity=0.000  Sum_probs=12.8  Template_Neff=12.800
+
+Q OCL06397.1      282 ---------------  281 (281)
+Q Consensus       368 ~~~~i~~dalde~~~  382 (399)
+                      .++++++|.+|++..
+T Consensus        98 ~~~llviD~~~~~~~  112 (240)
+T K4BY49_SOLLC/1   98 KRFLILIDDVWDYKV  112 (240)
+T ss_pred             CeEEEEecCCCCHHH
+Confidence            478999999999865
+
+
+No 8
+>PF00599.17 ; Flu_M2 ; Influenza Matrix protein (M2)
+Probab=25.53  E-value=4.2  Score=25.24  Aligned_cols=24  Identities=25%  Similarity=0.375  Sum_probs=18.7  Template_Neff=2.000
+
+Q OCL06397.1        1 -MDPLSALGLAGNIVQFVDFSCKIVTA   26 (281)
+Q Consensus        65 mmDplsalglaasIiq~v~~~~kv~~~   91 (399)
+                      --|||   .+||||++++-+..-++..
+T Consensus        22 ssdpL---v~AA~IIGIlHLiLWIlDR   45 (97)
+T M2_I96A0/1-97    22 SSDPL---VVAASIIGILHLILWILDR   45 (97)
+T ss_pred             CCCHH---HHHHHHHHHHHHHHHHHHH
+Confidence            45888   4899999999988766553
+
+
+No 9
+>PF08919.10 ; F_actin_bind ; F-actin binding
+Probab=20.61  E-value=5.8  Score=25.45  Aligned_cols=77  Identities=10%  Similarity=0.149  Sum_probs=41.0  Template_Neff=6.500
+
+Q OCL06397.1       11 GNIVQFVDFSCKIVTAGSDIYNSAsgmt-Ak-HEQLEKATQRLYDLTR-n-LDESrkhiva--sRRLTPADTAQGVILQD   84 (281)
+Q Consensus        76 asIiq~v~~~~kv~~~~~~~~~s~....~~-~~~~L~~~~~~L~~~l~~.L~~~~......~~.~~~~~~~~~l~~~~~~  142 (399)
+                      ++.+++.+....+...|..|.++.    ++ .--.+.+.+..|+....+ |+...      .. ++  .....-..++.+
+T Consensus        24 ~~~~~Lsd~~~~l~~~C~~yad~i....~ph~KF~fREllsrLe~~~r~.Lr~~~......~~.~~--~~~~~~~~~l~~   89 (103)
+T E9GB52_DAPPU/7   24 ATPNQWMELLSNVHSLCQTYADCI....APHGRFHFRQLIAKLETQTKE.MKQTS......CG.PL--RNSSEHSRLVGD   89 (103)
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHhc....ChhHHHHHHHHHHHHHHHHHH.HHhhc......CC.CC--CCchHhhHHHHH
+Confidence            445567777777777777766655    43 222456666667777777 76433      21 00  001112344555
+
+
+Q OCL06397.1       85 CQNIASELLAAL   96 (281)
+Q Consensus       143 C~~~l~eL~~~L  154 (399)
+                      +...+.++...+
+T Consensus        90 l~~tlk~I~~~V  101 (103)
+T E9GB52_DAPPU/7   90 VKNTVRDVANAL  101 (103)
+T ss_pred             HHHHHHHHHHHH
+Confidence            555555554443
+
+
+No 10
+>PF15778.5 ; UNC80 ; Cation channel complex component UNC80
+Probab=13.08  E-value=12  Score=26.81  Aligned_cols=16  Identities=0%  Similarity=0.000  Sum_probs=12.7  Template_Neff=4.100
+
+Q OCL06397.1      282 ----------------  281 (281)
+Q Consensus       369 ~~~i~~dalde~~~~~  384 (399)
+                      -=+|.+||.+||...+
+T Consensus       107 LHWiLLDAa~EC~d~~  122 (194)
+T J9M970_ACYPI/1  107 LHWIIQDAPDECADSD  122 (194)
+T ss_pred             HHHHHHhChHHHhccc
+Confidence            3488999999997643
+
+

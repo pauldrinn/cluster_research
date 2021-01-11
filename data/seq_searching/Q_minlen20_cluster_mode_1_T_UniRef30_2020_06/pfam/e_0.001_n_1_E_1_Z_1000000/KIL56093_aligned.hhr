@@ -1,0 +1,150 @@
+Query         KIL56093.1
+Match_columns 141
+No_of_seqs    1489 out of 1521
+Neff          6.08953
+Searched_HMMs 100
+Date          Mon Jan 11 21:27:33 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KIL56093_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KIL56093_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KIL56093_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF11043.8 ; DUF2856 ; Protein   39.0     1.7 0.00032   26.1   0.0   25  111-136    10-34  (97)
+  2 PF15894.5 ; SgrT ; Inhibitor o  19.8     5.9  0.0012   20.3   0.0   15  118-132    25-39  (49)
+  3 PF13663.6 ; DUF4148 ; Domain o  14.5     9.1  0.0019   19.1   0.0   18  118-135    27-44  (53)
+  4 PF18385.1 ; Tiam_CC_Ex ; T-lym  12.6      12  0.0023   21.8   0.0   20  116-135    21-40  (98)
+  5 PF03931.15 ; Skp1_POZ ; Skp1 f   6.2      27   0.006   16.1   0.0   21  114-134    40-60  (63)
+  6 PF06330.11 ; TRI5 ; Trichodien   5.7      29  0.0066   22.1   0.0   24  111-134    20-43  (359)
+  7 PF17528.2 ; DUF5449 ; Family o   5.5      38   0.007   21.3   0.0   46   90-136   110-156 (174)
+  8 PF09508.10 ; Lact_bio_phlase ;   5.1      41  0.0077   24.1   0.0   21  115-135   178-198 (433)
+  9 PF01120.17 ; Alpha_L_fucos ; A   5.1      35  0.0077   22.2   0.0   46   89-134   300-345 (348)
+ 10 PF00388.19 ; PI-PLC-X ; Phosph   4.5      39   0.009   17.7   0.0   18  118-135    66-83  (145)
+
+No 1
+>PF11043.8 ; DUF2856 ; Protein of unknown function (DUF2856)
+Probab=38.95  E-value=1.7  Score=26.13  Aligned_cols=25  Identities=4%  Similarity=-0.066  Sum_probs=20.3  Template_Neff=3.900
+
+Q KIL56093.1       80 GAPTKCHPGTRKTSCNSIGEWMLDPA  105 (107)
+Q Consensus       111 ~~~P~ChpgTR~~vl~~I~~Wi~~~~  136 (141)
+                      +..+ |..||..+||..+.+-++...
+T Consensus        10 y~r~-~~~~TKeEVLa~~~~~~~~~~   34 (97)
+T ABC2_BPP22/1-9   10 DPRR-CSGNSVSEVLDKFRKNYDLIM   34 (97)
+T ss_pred             CCCc-CCCCCHHHHHHHHHHHHHHHc
+Confidence            4456 999999999999998876543
+
+
+No 2
+>PF15894.5 ; SgrT ; Inhibitor of glucose uptake transporter SgrT
+Probab=19.81  E-value=5.9  Score=20.33  Aligned_cols=15  Identities=20%  Similarity=0.293  Sum_probs=13.0  Template_Neff=4.400
+
+Q KIL56093.1       87 PGTRKTSCNSIGEWM  101 (107)
+Q Consensus       118 pgTR~~vl~~I~~Wi  132 (141)
+                      ..-|.++|++++.|=
+T Consensus        25 ~~qRl~mL~~lmQW~   39 (49)
+T A7MQ55_CROS8/1   25 GKTPQRMLDEIMQWD   39 (49)
+T ss_pred             cchHHHHHHHHhccc
+Confidence            368999999999994
+
+
+No 3
+>PF13663.6 ; DUF4148 ; Domain of unknown function (DUF4148)
+Probab=14.49  E-value=9.1  Score=19.09  Aligned_cols=18  Identities=17%  Similarity=0.076  Sum_probs=15.2  Template_Neff=6.400
+
+Q KIL56093.1       87 PGTRKTSCNSIGEWMLDP  104 (107)
+Q Consensus       118 pgTR~~vl~~I~~Wi~~~  135 (141)
+                      +-||.+|..||..+-..+
+T Consensus        27 ~~TRaqV~aEL~~a~~~G   44 (53)
+T B4EKY6_BURCJ/1   27 PLTRAQVHAEVKALKQAG   44 (53)
+T ss_pred             CCCHHHHHHHHHHHHHcC
+Confidence            789999999999876554
+
+
+No 4
+>PF18385.1 ; Tiam_CC_Ex ; T-lymphoma invasion and metastasis CC-Ex domain
+Probab=12.56  E-value=12  Score=21.83  Aligned_cols=20  Identities=20%  Similarity=0.238  Sum_probs=16.0  Template_Neff=3.600
+
+Q KIL56093.1       85 CHPGTRKTSCNSIGEWMLDP  104 (107)
+Q Consensus       116 ChpgTR~~vl~~I~~Wi~~~  135 (141)
+                      ..+.+|..|+++|..|=++-
+T Consensus        21 tD~~~r~~i~~QI~~weenl   40 (98)
+T G7P1J8_MACFA/5   21 TDSKKKKTILDQIFVWEQNL   40 (98)
+T ss_pred             CCHHHHHHHHHHHHHHHHHH
+Confidence            35678999999999997653
+
+
+No 5
+>PF03931.15 ; Skp1_POZ ; Skp1 family, tetramerisation domain
+Probab=6.21  E-value=27  Score=16.09  Aligned_cols=21  Identities=5%  Similarity=-0.206  Sum_probs=16.0  Template_Neff=9.300
+
+Q KIL56093.1       83 TKCHPGTRKTSCNSIGEWMLD  103 (107)
+Q Consensus       114 P~ChpgTR~~vl~~I~~Wi~~  134 (141)
+                      +--.|+-...+|+.|.+|...
+T Consensus        40 ~i~l~~v~~~~L~~ii~~~~~   60 (63)
+T ELOC_YEAST/4-6   40 RIELKQFDSHILEKAVEYLNY   60 (63)
+T ss_pred             eEECCCCCHHHHHHHHHHHHH
+Confidence            344566778899999999864
+
+
+No 6
+>PF06330.11 ; TRI5 ; Trichodiene synthase (TRI5)
+Probab=5.74  E-value=29  Score=22.12  Aligned_cols=24  Identities=4%  Similarity=-0.181  Sum_probs=16.1  Template_Neff=9.700
+
+Q KIL56093.1       80 GAPTKCHPGTRKTSCNSIGEWMLD  103 (107)
+Q Consensus       111 ~~~P~ChpgTR~~vl~~I~~Wi~~  134 (141)
+                      +..|.+.+..|++.|++|..|+.+
+T Consensus        20 y~~~~~~~~~~~~~L~~v~~~~~~   43 (359)
+T TRI5_GIBZE/3-3   20 YRDSNYTREERIENLHYAYNKAAH   43 (359)
+T ss_pred             CCCCCCCHHHHHHHHHHHHHHHHH
+Confidence            444556677777777777776643
+
+
+No 7
+>PF17528.2 ; DUF5449 ; Family of unknown function (DUF5449)
+Probab=5.51  E-value=38  Score=21.30  Aligned_cols=46  Identities=13%  Similarity=0.135  Sum_probs=33.6  Template_Neff=2.600
+
+Q KIL56093.1       53 YaapedgneLDKVLYHSISDDALHYSE--GAPTKC-HPGTRKTSCNSIGEWMLDPA  105 (107)
+Q Consensus        90 ~........~l~~L~~~~a~gA~~dS~~r~~~P~C-hpgTR~~vl~~I~~Wi~~~~  136 (141)
+                      +        ..+.|.+....-|-||...|..-|.- .|+--++| ++|+.|+.++.
+T Consensus       110 D........FiQdvkP~~in~AgYdnTiRGEfpqLldpDHaeEi-DrLR~wMQdG~  156 (174)
+T A5VMJ6_LACRD/1  110 D........FIQDIKPKEINHAGYDNTIRGEFPQLLDPDHAEEI-DRLRRWMQDGH  156 (174)
+T ss_pred             H........HHHhcCCccccccCcccccccCCccccCcchHHHH-HHHHHHHHhCC
+Confidence            3        45555566666789999999888876 66666665 49999998753
+
+
+No 8
+>PF09508.10 ; Lact_bio_phlase ; Lacto-N-biose phosphorylase N-terminal TIM barrel domain
+Probab=5.11  E-value=41  Score=24.09  Aligned_cols=21  Identities=10%  Similarity=0.241  Sum_probs=18.3  Template_Neff=3.300
+
+Q KIL56093.1       84 KCHPGTRKTSCNSIGEWMLDP  104 (107)
+Q Consensus       115 ~ChpgTR~~vl~~I~~Wi~~~  135 (141)
+                      .-||.||.-+++.+.+|+.+.
+T Consensus       178 ~r~p~t~~~~~~~l~~Wl~~h  198 (433)
+T F4LM96_TREBD/8  178 VRQPKTHEYTMRRLRTFIAEH  198 (433)
+T ss_pred             CCCHHHHHHHHHHHHHHHHHC
+Confidence            359999999999999999764
+
+
+No 9
+>PF01120.17 ; Alpha_L_fucos ; Alpha-L-fucosidase
+Probab=5.08  E-value=35  Score=22.17  Aligned_cols=46  Identities=11%  Similarity=0.063  Sum_probs=29.8  Template_Neff=8.500
+
+Q KIL56093.1       52 TYaapedgneLDKVLYHSISDDALHYSE--GAPTKCHPGTRKTSCNSIGEWMLD  103 (107)
+Q Consensus        89 ~~........~l~~L~~~~a~gA~~dS~~r~~~P~ChpgTR~~vl~~I~~Wi~~  134 (141)
+                      +.        +++.|...++.|+.+-=..-..+--..+.-.+++|++|.+|+..
+T Consensus       300 ~~........l~~~~~~~v~~ggn~llnv~p~~dG~i~~~~~~~l~~ig~~l~~  345 (348)
+T H3APB6_LATCH/1  300 PS........IVKDLVQVVSYGGNYLLNIGPTKDGVIAPVFQERLLGVGQWLSI  345 (348)
+T ss_pred             HH........HHHHHHHHHhcCCEEEEEcCCCCCCCCCHHHHHHHHHHHHHHHH
+Confidence            34        56666666776666633322223345677788999999999964
+
+
+No 10
+>PF00388.19 ; PI-PLC-X ; Phosphatidylinositol-specific phospholipase C, X domain
+Probab=4.51  E-value=39  Score=17.66  Aligned_cols=18  Identities=6%  Similarity=0.071  Sum_probs=14.2  Template_Neff=10.500
+
+Q KIL56093.1       87 PGTRKTSCNSIGEWMLDP  104 (107)
+Q Consensus       118 pgTR~~vl~~I~~Wi~~~  135 (141)
+                      ..+-.++|++|.+|+...
+T Consensus        66 ~~~~~~~l~~i~~~l~~~   83 (145)
+T PLCD4_RAT/292-   66 RILFKDVLATLAQYAFQS   83 (145)
+T ss_pred             cccHHHHHHHHHHhcccC
+Confidence            346678999999998764
+
+

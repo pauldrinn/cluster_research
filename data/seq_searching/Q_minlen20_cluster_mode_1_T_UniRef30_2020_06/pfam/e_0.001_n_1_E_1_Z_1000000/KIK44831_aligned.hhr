@@ -1,0 +1,150 @@
+Query         KIK44831.1
+Match_columns 81
+No_of_seqs    1041 out of 1102
+Neff          5.89174
+Searched_HMMs 100
+Date          Mon Jan 11 21:27:28 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KIK44831_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KIK44831_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KIK44831_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF11043.8 ; DUF2856 ; Protein   28.6     3.1  0.0006   22.4   0.0   21   56-77     12-32  (97)
+  2 PF15894.5 ; SgrT ; Inhibitor o  23.5     4.4 0.00087   18.9   0.0   15   61-75     25-39  (49)
+  3 PF02037.27 ; SAP ; SAP domain   21.0     4.5   0.001   14.8   0.0   15   61-75     21-35  (35)
+  4 PF13124.6 ; DUF3963 ; Protein   18.3     7.2  0.0013   17.6   0.0   11   67-77     12-22  (40)
+  5 PF18385.1 ; Tiam_CC_Ex ; T-lym  16.1     8.4  0.0016   20.5   0.0   18   60-77     22-39  (98)
+  6 PF13663.6 ; DUF4148 ; Domain o  10.9      13  0.0028   16.5   0.0   17   61-77     27-43  (53)
+  7 PF14203.6 ; TTRAP ; Putative t  10.7      14  0.0029   17.0   0.0   16   59-74     12-27  (60)
+  8 PF17528.2 ; DUF5449 ; Family o   9.0      20  0.0036   20.7   0.0   37   42-79    119-156 (174)
+  9 PF03931.15 ; Skp1_POZ ; Skp1 f   8.7      17  0.0038   15.2   0.0   21   57-77     40-60  (63)
+ 10 PF15805.5 ; SCNM1_acidic ; Aci   7.5      24  0.0047   15.7   0.0   14   43-56     30-43  (46)
+
+No 1
+>PF11043.8 ; DUF2856 ; Protein of unknown function (DUF2856)
+Probab=28.63  E-value=3.1  Score=22.37  Aligned_cols=21  Identities=5%  Similarity=-0.132  Sum_probs=17.2  Template_Neff=3.900
+
+Q KIK44831.1       27 HPRRLEGPWLDLTNCIHGLLDD   48 (52)
+Q Consensus        56 ~p~ClpgTR~~lL~~I~~Wi~~   77 (81)
+                      .+ |..||..+||..+.+-++.
+T Consensus        12 r~-~~~~TKeEVLa~~~~~~~~   32 (97)
+T ABC2_BPP22/1-9   12 RR-CSGNSVSEVLDKFRKNYDL   32 (97)
+T ss_pred             Cc-CCCCCHHHHHHHHHHHHHH
+Confidence            35 9999999999998876643
+
+
+No 2
+>PF15894.5 ; SgrT ; Inhibitor of glucose uptake transporter SgrT
+Probab=23.46  E-value=4.4  Score=18.93  Aligned_cols=15  Identities=7%  Similarity=-0.241  Sum_probs=13.0  Template_Neff=4.400
+
+Q KIK44831.1       32 EGPWLDLTNCIHGLL   46 (52)
+Q Consensus        61 pgTR~~lL~~I~~Wi   75 (81)
+                      ..-|.++|++++.|=
+T Consensus        25 ~~qRl~mL~~lmQW~   39 (49)
+T A7MQ55_CROS8/1   25 GKTPQRMLDEIMQWD   39 (49)
+T ss_pred             cchHHHHHHHHhccc
+Confidence            368999999999994
+
+
+No 3
+>PF02037.27 ; SAP ; SAP domain
+Probab=20.97  E-value=4.5  Score=14.77  Aligned_cols=15  Identities=13%  Similarity=-0.245  Sum_probs=10.5  Template_Neff=10.000
+
+Q KIK44831.1       32 EGPWLDLTNCIHGLL   46 (52)
+Q Consensus        61 pgTR~~lL~~I~~Wi   75 (81)
+                      .|++.++.+.|..|+
+T Consensus        21 ~g~k~~l~~rl~~~~   35 (35)
+T A7EUI5_SCLS1/5   21 LGLKGVLIQRLVDHE   35 (35)
+T ss_pred             CCCHHHHHHHHHHcC
+Confidence            367777777777764
+
+
+No 4
+>PF13124.6 ; DUF3963 ; Protein of unknown function (DUF3963)
+Probab=18.33  E-value=7.2  Score=17.62  Aligned_cols=11  Identities=9%  Similarity=0.120  Sum_probs=8.2  Template_Neff=1.900
+
+Q KIK44831.1       38 LTNCIHGLLDD   48 (52)
+Q Consensus        67 lL~~I~~Wi~~   77 (81)
+                      -.++|++|+++
+T Consensus        12 YFdDIQKWiRN   22 (40)
+T Q81YQ1_BACAN/4   12 YFHDIQKWIRN   22 (40)
+T ss_pred             HhHHHHHHHHH
+Confidence            45688999875
+
+
+No 5
+>PF18385.1 ; Tiam_CC_Ex ; T-lymphoma invasion and metastasis CC-Ex domain
+Probab=16.06  E-value=8.4  Score=20.49  Aligned_cols=18  Identities=6%  Similarity=-0.174  Sum_probs=14.8  Template_Neff=3.600
+
+Q KIK44831.1       31 LEGPWLDLTNCIHGLLDD   48 (52)
+Q Consensus        60 lpgTR~~lL~~I~~Wi~~   77 (81)
+                      -+.+|..|+++|..|=.+
+T Consensus        22 D~~~r~~i~~QI~~ween   39 (98)
+T G7P1J8_MACFA/5   22 DSKKKKTILDQIFVWEQN   39 (98)
+T ss_pred             CHHHHHHHHHHHHHHHHH
+Confidence            456888999999999654
+
+
+No 6
+>PF13663.6 ; DUF4148 ; Domain of unknown function (DUF4148)
+Probab=10.95  E-value=13  Score=16.46  Aligned_cols=17  Identities=6%  Similarity=-0.033  Sum_probs=13.7  Template_Neff=6.400
+
+Q KIK44831.1       32 EGPWLDLTNCIHGLLDD   48 (52)
+Q Consensus        61 pgTR~~lL~~I~~Wi~~   77 (81)
+                      +-||.+|..++..+-..
+T Consensus        27 ~~TRaqV~aEL~~a~~~   43 (53)
+T B4EKY6_BURCJ/1   27 PLTRAQVHAEVKALKQA   43 (53)
+T ss_pred             CCCHHHHHHHHHHHHHc
+Confidence            78999999998876543
+
+
+No 7
+>PF14203.6 ; TTRAP ; Putative tranposon-transfer assisting protein
+Probab=10.72  E-value=14  Score=16.96  Aligned_cols=16  Identities=13%  Similarity=-0.109  Sum_probs=11.5  Template_Neff=6.100
+
+Q KIK44831.1       30 RLEGPWLDLTNCIHGL   45 (52)
+Q Consensus        59 ClpgTR~~lL~~I~~W   74 (81)
+                      ..++||.+++++|..=
+T Consensus        12 y~~~~R~~~i~~l~~~   27 (60)
+T D6DKQ8_CLOSC/5   12 YAEDSRETTLENILAA   27 (60)
+T ss_pred             HcCCCHHHHHHHHHHH
+Confidence            4567888888877653
+
+
+No 8
+>PF17528.2 ; DUF5449 ; Family of unknown function (DUF5449)
+Probab=9.04  E-value=20  Score=20.70  Aligned_cols=37  Identities=16%  Similarity=0.183  Sum_probs=25.6  Template_Neff=2.600
+
+Q KIK44831.1       13 SVKGAEYDSRECQPHPRRL-EGPWLDLTNCIHGLLDDRE   50 (52)
+Q Consensus        42 ~a~gA~fdS~~r~~~p~Cl-pgTR~~lL~~I~~Wi~~~~   79 (81)
+                      ...-|.||...|...|.-+ |+--+ =++.++.|+.++.
+T Consensus       119 ~in~AgYdnTiRGEfpqLldpDHae-EiDrLR~wMQdG~  156 (174)
+T A5VMJ6_LACRD/1  119 EINHAGYDNTIRGEFPQLLDPDHAE-EIDRLRRWMQDGH  156 (174)
+T ss_pred             cccccCcccccccCCccccCcchHH-HHHHHHHHHHhCC
+Confidence            3455789998888888764 44444 4468999997754
+
+
+No 9
+>PF03931.15 ; Skp1_POZ ; Skp1 family, tetramerisation domain
+Probab=8.70  E-value=17  Score=15.16  Aligned_cols=21  Identities=10%  Similarity=-0.156  Sum_probs=16.3  Template_Neff=9.300
+
+Q KIK44831.1       28 PRRLEGPWLDLTNCIHGLLDD   48 (52)
+Q Consensus        57 p~ClpgTR~~lL~~I~~Wi~~   77 (81)
+                      +--+|+-...+|+.|.+|...
+T Consensus        40 ~i~l~~v~~~~L~~ii~~~~~   60 (63)
+T ELOC_YEAST/4-6   40 RIELKQFDSHILEKAVEYLNY   60 (63)
+T ss_pred             eEECCCCCHHHHHHHHHHHHH
+Confidence            345677778899999999864
+
+
+No 10
+>PF15805.5 ; SCNM1_acidic ; Acidic C-terminal region of sodium channel modifier 1 SCNM1
+Probab=7.46  E-value=24  Score=15.70  Aligned_cols=14  Identities=36%  Similarity=0.546  Sum_probs=10.1  Template_Neff=4.300
+
+Q KIK44831.1       14 VKGAEYDSRECQPH   27 (52)
+Q Consensus        43 a~gA~fdS~~r~~~   56 (81)
+                      -..+.|||.+..++
+T Consensus        30 DenvEFdSdee~p~   43 (46)
+T M3W498_FELCA/1   30 DENVEFDSDEEEPP   43 (46)
+T ss_pred             CCCcccCCCCCCCC
+Confidence            45788999876554
+
+

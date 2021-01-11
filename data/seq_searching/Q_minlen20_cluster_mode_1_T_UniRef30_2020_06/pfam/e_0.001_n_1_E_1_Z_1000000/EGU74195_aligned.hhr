@@ -1,0 +1,150 @@
+Query         EGU74195.1
+Match_columns 147
+No_of_seqs    280 out of 280
+Neff          4.64061
+Searched_HMMs 100
+Date          Mon Jan 11 21:24:57 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/EGU74195_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/EGU74195_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/EGU74195_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF10737.9 ; GerPC ; Spore germ  21.4     4.8   0.001   26.6   0.0   14   62-75     31-44  (174)
+  2 PF09058.10 ; L27_1 ; L27_1      11.7      12  0.0025   20.1   0.0   43   18-61     10-52  (58)
+  3 PF16934.5 ; Mersacidin ; Two-c  10.4      15   0.003   20.8   0.0   28   10-37     11-38  (71)
+  4 PF06855.12 ; YozE_SAM_like ; Y  10.1      14  0.0031   19.1   0.0   29   18-46     37-65  (67)
+  5 PF14731.6 ; Staphopain_pro ; S   7.1      25  0.0051   22.6   0.0   51   24-74      5-55  (170)
+  6 PF02216.16 ; B ; B domain        6.7      28  0.0054   18.7   0.0   23   14-36     18-40  (53)
+  7 PF16065.5 ; DUF4807 ; Domain o   6.2      28  0.0059   21.0   0.0   46   45-90     26-80  (126)
+  8 PF15330.6 ; SIT ; SHP2-interac   5.4      34  0.0071   20.0   0.0   16   76-91     41-56  (106)
+  9 PF09916.9 ; DUF2145 ; Uncharac   5.3      36  0.0073   22.4   0.0   38   33-70    122-161 (202)
+ 10 PF07176.11 ; DUF1400 ; Alpha/b   4.4      42  0.0094   19.3   0.0   30   11-40     10-39  (127)
+
+No 1
+>PF10737.9 ; GerPC ; Spore germination protein GerPC
+Probab=21.38  E-value=4.8  Score=26.58  Aligned_cols=14  Identities=43%  Similarity=0.710  Sum_probs=11.9  Template_Neff=5.600
+
+Q EGU74195.1       62 YVKENLEIERLSGE   75 (147)
+Q Consensus        62 y~~~rLkIeRLSGd   75 (147)
+                      |.-+.|+|++|+|.
+T Consensus        31 Y~fdqLkie~L~GT   44 (174)
+T C0ZG73_BREBN/2   31 YKFDLLKVERLEGT   44 (174)
+T ss_pred             EEeeeceeeEEeee
+Confidence            44689999999996
+
+
+No 2
+>PF09058.10 ; L27_1 ; L27_1
+Probab=11.70  E-value=12  Score=20.07  Aligned_cols=43  Identities=14%  Similarity=-0.066  Sum_probs=30.1  Template_Neff=5.300
+
+Q EGU74195.1       18 SLEELRQYAKSSEESPETRRLAAARLEDKLACLKAADDWLLQHC   61 (147)
+Q Consensus        18 ~~~~~~~~~~~~~~~~~~~~l~~~~~k~~ls~l~~AD~~Ir~~y   61 (147)
+                      .++.+..|... ..+.+.+.-++..+..+.+.|++|=--|.+.|
+T Consensus        10 AL~lLe~y~~~-~~d~~Lr~aiervi~~fks~Lf~aLldIqefY   52 (58)
+T W5N8A6_LEPOC/4   10 ALRLMEECQSE-TGDEGFRARAEKLLNIFQSDLFQALLDIQEFY   52 (58)
+T ss_pred             HHHHHHHHHhc-cCCHHHHHHHHHHHHHHhcchhHHHHHHHHHH
+Confidence            34566677766 55666677777778888888888876676655
+
+
+No 3
+>PF16934.5 ; Mersacidin ; Two-component Enterococcus faecalis cytolysin (EFC)
+Probab=10.38  E-value=15  Score=20.78  Aligned_cols=28  Identities=29%  Similarity=0.207  Sum_probs=23.1  Template_Neff=4.500
+
+Q EGU74195.1       10 PGPLPHNLSLEELRQYAKSSEESPETRR   37 (147)
+Q Consensus        10 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~   37 (147)
+                      -|.-+..||.+|+.+-.+...|.|++--
+T Consensus        11 vG~sfeeLs~eEM~~iqG~gDV~pettp   38 (71)
+T D5WV03_KYRT2/1   11 AGDALAGLSEEELLAVYGGGDVQAETTP   38 (71)
+T ss_pred             cchhcCCCCHHHHHHHhcCCCCCCCcCC
+Confidence            4567889999999999999888888654
+
+
+No 4
+>PF06855.12 ; YozE_SAM_like ; YozE SAM-like fold
+Probab=10.07  E-value=14  Score=19.15  Aligned_cols=29  Identities=10%  Similarity=0.188  Sum_probs=22.1  Template_Neff=7.600
+
+Q EGU74195.1       18 SLEELRQYAKSSEESPETRRLAAARLEDK   46 (147)
+Q Consensus        18 ~~~~~~~~~~~~~~~~~~~~l~~~~~k~~   46 (147)
+                      +.+++..|+......++....+..+|+..
+T Consensus        37 ~~~~i~~YL~~~~a~~~~~~~f~~aw~~Y   65 (67)
+T J9W1E7_LACBU/4   37 EFDALSKYLEENASYLPTMEIFDSVWKEY   65 (67)
+T ss_pred             CHHHHHHHHHHcCCchHHHHHHHHHHHHH
+Confidence            46677888887777888888888888764
+
+
+No 5
+>PF14731.6 ; Staphopain_pro ; Staphopain proregion
+Probab=7.06  E-value=25  Score=22.64  Aligned_cols=51  Identities=16%  Similarity=0.191  Sum_probs=41.7  Template_Neff=5.200
+
+Q EGU74195.1       24 QYAKSSEESPETRRLAAARLEDKLACLKAADDWLLQHCYVKENLEIERLSG   74 (147)
+Q Consensus        24 ~~~~~~~~~~~~~~l~~~~~k~~ls~l~~AD~~Ir~~yy~~~rLkIeRLSG   74 (147)
+                      -|++..+++++..++|..-|...+..+...+..-...|+=+.-..|-...+
+T Consensus         5 l~V~s~evp~ev~~yAk~~~~~yl~~l~~~~~~~~~~y~LGePF~Iy~~~~   55 (170)
+T SSPB_STAA8/41-    5 INVKSDKVPQKVKDLAQQQFAGYAKALDKQSNAKTGKYELGEAFKIYKFNG   55 (170)
+T ss_pred             EEEecCCCCHHHHHHHHHHHHHHHHHHHhccCcCCCceeccCCeEEEecCC
+Confidence            477888999999999999999999988777766677777777788877654
+
+
+No 6
+>PF02216.16 ; B ; B domain
+Probab=6.69  E-value=28  Score=18.65  Aligned_cols=23  Identities=17%  Similarity=0.340  Sum_probs=19.7  Template_Neff=3.500
+
+Q EGU74195.1       14 PHNLSLEELRQYAKSSEESPETR   36 (147)
+Q Consensus        14 ~~~~~~~~~~~~~~~~~~~~~~~   36 (147)
+                      |.+||.++-.+|.++..+.|...
+T Consensus        18 l~~Lte~QRn~yI~~Lke~P~~s   40 (53)
+T SPA_STAA8/36-8   18 MPNLNADQRNGFIQSLKDDPSQS   40 (53)
+T ss_pred             CCCCCHHHHHHHHHHHHhChhHH
+Confidence            56799999999999999888754
+
+
+No 7
+>PF16065.5 ; DUF4807 ; Domain of unknown function (DUF4807)
+Probab=6.24  E-value=28  Score=21.02  Aligned_cols=46  Identities=17%  Similarity=0.066  Sum_probs=30.6  Template_Neff=5.600
+
+Q EGU74195.1       45 DKLACLKAADDWLLQHCY---------VKENLEIERLSGERLPLEQCYINLIIIP   90 (147)
+Q Consensus        45 ~~ls~l~~AD~~Ir~~yy---------~~~rLkIeRLSGd~LpMdqCYINLAIVE   90 (147)
+                      ..++.|-.|-..+.+++.         .-..++|-.--|++.-..+|+|++|+=-
+T Consensus        26 awlSTLGGaysaLgd~~~~~A~~A~~is~~Ql~lA~~lgDp~l~~rC~ly~a~sl   80 (126)
+T B5DJC2_DROPS/8   26 SWLSTLGGGFSALGEQFERCAKTAGRISLQQLKIGLRLGDPCLQARCKLYYGISL   80 (126)
+T ss_pred             HHHhhhhHHHHHhHHhHHHHHHHHHHHHHHHHHHHHHHCCHHHHHHHHHHHHHHH
+Confidence            344455555555555333         2234667777899999999999998754
+
+
+No 8
+>PF15330.6 ; SIT ; SHP2-interacting transmembrane adaptor protein, SIT
+Probab=5.42  E-value=34  Score=20.01  Aligned_cols=16  Identities=31%  Similarity=0.659  Sum_probs=14.1  Template_Neff=5.500
+
+Q EGU74195.1       76 RLPLEQCYINLIIIPH   91 (147)
+Q Consensus        76 ~LpMdqCYINLAIVE~   91 (147)
+                      ++.-|-||-||.....
+T Consensus        41 P~~~~~~YgNL~l~~~   56 (106)
+T G1TBE6_RABIT/1   41 SLESDLCYVNLTLPQT   56 (106)
+T ss_pred             cCCcCCcccccccCCc
+Confidence            5778999999999986
+
+
+No 9
+>PF09916.9 ; DUF2145 ; Uncharacterized protein conserved in bacteria (DUF2145)
+Probab=5.31  E-value=36  Score=22.38  Aligned_cols=38  Identities=21%  Similarity=0.209  Sum_probs=28.5  Template_Neff=5.000
+
+Q EGU74195.1       33 PETRRLAAAR--LEDKLACLKAADDWLLQHCYVKENLEIE   70 (147)
+Q Consensus        33 ~~~~~l~~~~--~k~~ls~l~~AD~~Ir~~yy~~~rLkIe   70 (147)
+                      +=+-++++++  |..-.....+|-+|++..-|+...++|-
+T Consensus       122 qwvLe~laaA~~~~~~~~~r~~aqawL~~~gy~P~~i~i~  161 (202)
+T Q7P1Z9_CHRVO/4  122 VWVLEQLAAAESHETAIRSREQAQMWLKLNGYQPTELKLG  161 (202)
+T ss_pred             HHHHHHHHHHHhhcchhHHHHHHHHHHHHCCCCCeEEEcC
+Confidence            3345667777  7765445678999999999999888864
+
+
+No 10
+>PF07176.11 ; DUF1400 ; Alpha/beta hydrolase of unknown function (DUF1400)
+Probab=4.36  E-value=42  Score=19.35  Aligned_cols=30  Identities=17%  Similarity=0.320  Sum_probs=23.9  Template_Neff=7.100
+
+Q EGU74195.1       11 GPLPHNLSLEELRQYAKSSEESPETRRLAA   40 (147)
+Q Consensus        11 ~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~   40 (147)
+                      |++...++.+|+..|++..+.++..+.++.
+T Consensus        10 g~~~~si~v~dLe~fa~tG~~~~~L~~~~~   39 (127)
+T D4ZWI8_ARTPN/3   10 GIANTSIAIADLEKFVESGESTPLLFVYGY   39 (127)
+T ss_pred             CCeeEEEEHHHHHHHHHhCCCCHHHHHHHH
+Confidence            456788999999999998888877666654
+
+

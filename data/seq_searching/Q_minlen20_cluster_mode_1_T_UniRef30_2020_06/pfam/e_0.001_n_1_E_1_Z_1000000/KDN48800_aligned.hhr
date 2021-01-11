@@ -1,0 +1,177 @@
+Query         KDN48800.1
+Match_columns 418
+No_of_seqs    1268 out of 1310
+Neff          7.43964
+Searched_HMMs 1902
+Date          Mon Jan 11 21:26:54 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KDN48800_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KDN48800_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KDN48800_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17111.5 ; Helo_like_N ; Fung  88.6   0.012 2.6E-06   46.1   0.0  120  234-353     5-135 (209)
+  2 PF17100.5 ; NACHT_N ; N-termin  87.9   0.015 3.3E-06   47.2   0.0  124  223-346    88-225 (229)
+  3 PF17109.5 ; Goodbye ; fungal S  78.3   0.085 1.8E-05   38.3   0.0   62  221-282    59-121 (123)
+  4 PF17107.5 ; SesA ; N-terminal   54.0     0.6 0.00013   32.9   0.0   26  258-283    19-44  (133)
+  5 PF05659.11 ; RPW8 ; Arabidopsi  30.3     2.7 0.00054   30.4   0.0   86  259-345    26-113 (140)
+  6 PF15967.5 ; Nucleoporin_FG2 ;   23.5     4.4 0.00087   36.7   0.0   17  263-279   306-322 (605)
+  7 PF10805.8 ; DUF2730 ; Protein   21.9     4.8 0.00097   26.5   0.0   27  257-283    25-51  (95)
+  8 PF11585.8 ; Stomoxyn ; Insect   20.0     6.3  0.0011   22.1   0.0   23   50-72      2-24  (42)
+  9 PF16560.5 ; SAPI ; Putative mo  17.6     7.6  0.0014   29.4   0.0   42  238-279   165-206 (213)
+ 10 PF11043.8 ; DUF2856 ; Protein   11.6      14  0.0026   24.8   0.0   21  392-413    12-32  (97)
+
+No 1
+>PF17111.5 ; Helo_like_N ; Fungal N-terminal domain of STAND proteins
+Probab=88.62  E-value=0.012  Score=46.15  Aligned_cols=120  Identities=13%  Similarity=-0.046  Sum_probs=67.4  Template_Neff=11.200
+
+Q KDN48800.1      177 APVTNLFGPIREMAELFVECVDKCEMAGEAKTEYEALRVRIEELFEDLNRHFGE---G---PSLVMTSSMESLCKSIQAE  250 (364)
+Q Consensus       234 ~~~A~v~PpLK~Av~~L~~~idiie~v~~n~ed~~~L~~~L~~l~~~L~~~~~~---~---~s~~l~~~I~~l~~~L~e~  307 (418)
+                      ..++.++..+..++..+..+++++..+++...++..|..++..+...+......   .   ....+...+..+...+.++
+T Consensus         5 ~~~asii~l~~~~~~~~~~~~~~~~~~~~a~~~~~~l~~~l~~l~~~l~~l~~~~~~~~~~~~~~l~~~~~~c~~~l~~l   84 (209)
+T Q5B3N2_EMENI/2    5 SLASGLLALATFAFQSSVSLYDTVKSFHSHPTRVRQLIEELEALSGVLGPLVDRVQATNDTDLSALNLPLLSCGKACKLF   84 (209)
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCChHHhHHHHHHHHHHHHHH
+Confidence            334455555666666677777788777888888888888888777666543221   1   1122344444444444444
+
+
+Q KDN48800.1      251 LNYIKKQQDRN-----MGERDLSAADDSDKALACYRRIEGHIQR-lSLNTNL  296 (364)
+Q Consensus       308 ~~~I~~~~~r~-----~~~R~l~a~~d~~~I~~~~rrI~~a~q~f.ql~~~l  353 (418)
+                      ...+.++....     .++..++..-..++|.++..+|..+...+ .+.+.+
+T Consensus        85 ~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~i~~l~~~l~~~~~~l.~~~l~~  135 (209)
+T Q5B3N2_EMENI/2   85 QKEIMKCAGRSSATRTSFRDWAKLKYMGDDVDGFRRVLAAYKSTI.TIALTD  135 (209)
+T ss_pred             HHHHHHHhcCCCCCCCcHHHHHhHhhchhhHHHHHHHHHHHHHHH.HHHHHH
+Confidence            44444443211     11111111113377888888888887777 655443
+
+
+No 2
+>PF17100.5 ; NACHT_N ; N-terminal domain of NWD NACHT-NTPase
+Probab=87.87  E-value=0.015  Score=47.18  Aligned_cols=124  Identities=6%  Similarity=-0.076  Sum_probs=61.7  Template_Neff=10.000
+
+Q KDN48800.1      166 WKELKEFARVLAPVTNLFGPIREMAELFVECVDKCEMAGEAKTEYEALRVRIEELFEDLN---RH-FGEGP---------  232 (364)
+Q Consensus       223 w~~Lk~~L~~L~~~A~v~PpLK~Av~~L~~~idiie~v~~n~ed~~~L~~~L~~l~~~L~---~~-~~~~~---------  289 (418)
+                      ...+..+..+++.+....|+...+|+++..++.++.......+.+..-...+...+....   .. .....         
+T Consensus        88 ~~~i~~~~~~i~~~~~~~P~aal~W~~v~~~l~~~~~~~~~~~~~~~~l~~i~~~l~~y~~~~~~~~~~~~~~~~~~~~~  167 (229)
+T B8NEA4_ASPFN/5   88 FGVVQNLKPIFNAVLSNTPHTALPWAIVSSTLDILANPVRSTKALYDGVSHVVGRMQWYSKITDNLLQTGSENGHQKLEE  167 (229)
+T ss_pred             HHHHHHHHHHHHHHHhcCcccHHHHHHHHHHHHHHhChHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccCCcCCchhHHH
+Confidence            344444555555555666888888888888877665544333333222222222221111   11 11100         
+
+
+Q KDN48800.1      233 -SLVMTSSMESLCKSIQAELNYIKKQQDRNMGERDLSAADDSDKALACYRRIEGHIQR  289 (364)
+Q Consensus       290 -s~~l~~~I~~l~~~L~e~~~~I~~~~~r~~~~R~l~a~~d~~~I~~~~rrI~~a~q~  346 (418)
+                       ...+.+.+..+...|-.....+..+..++.+.|++++....++...+.+.|..+-+.
+T Consensus       168 ~~~~l~~~l~~LY~~iL~f~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~e~~  225 (229)
+T B8NEA4_ASPFN/5  168 VRKQLETGMLDMYKCMLFYEIKSVCFYHKNQLAVFVRGLFNIDDWDGGLTKLNEQENA  225 (229)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHhhchHHHHHHHhhccCChhHHHHHHHHHHHH
+Confidence             134555555555555554444444445566666666544445555555555554443
+
+
+No 3
+>PF17109.5 ; Goodbye ; fungal STAND N-terminal Goodbye domain
+Probab=78.25  E-value=0.085  Score=38.34  Aligned_cols=62  Identities=6%  Similarity=0.064  Sum_probs=44.5  Template_Neff=8.800
+
+Q KDN48800.1      164 TNWKELKEFARVLAPVTN-LFGPIREMAELFVECVDKCEMAGEAKTEYEALRVRIEELFEDLN  225 (364)
+Q Consensus       221 ~aw~~Lk~~L~~L~~~A~-v~PpLK~Av~~L~~~idiie~v~~n~ed~~~L~~~L~~l~~~L~  282 (418)
+                      ..+..++.+..++..++. .+||.+.+++++..+++..+.+...-+.+.+|.++|..++..+.
+T Consensus        59 ~~l~~i~~~~~~~~~~~s~~~~pa~~i~~av~~ll~~~~~~~~~~d~i~~lf~~l~~~l~rl~  121 (123)
+T S8AD61_DACHA/1   59 KFLRPALLFSDIIGTAVSIAYPPAQAIFAATSFLIKAADGLSSIYDAIAELLMEMSYSSQRLA  121 (123)
+T ss_pred             HhhHHHHHHHHHHHHHhhccCchHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHHhh
+Confidence            344445555555555443 58899999999999999999888887777777777776665543
+
+
+No 4
+>PF17107.5 ; SesA ; N-terminal domain on NACHT_NTPase and P-loop NTPases
+Probab=53.98  E-value=0.6  Score=32.88  Aligned_cols=26  Identities=4%  Similarity=0.081  Sum_probs=17.6  Template_Neff=10.000
+
+Q KDN48800.1      201 EMAGEAKTEYEALRVRIEELFEDLNR  226 (364)
+Q Consensus       258 e~v~~n~ed~~~L~~~L~~l~~~L~~  283 (418)
+                      ..+++..+++.++..++..+...|..
+T Consensus        19 ~~~~~~p~~~~~l~~~l~~l~~~l~~   44 (133)
+T U7PRR7_SPOS1/7   19 HTIKGRPEAFDRINKSLQLIQLALWK   44 (133)
+T ss_pred             HhhcCCCHHHHHHHHHHHHHHHHHHH
+Confidence            34555677777777777777766654
+
+
+No 5
+>PF05659.11 ; RPW8 ; Arabidopsis broad-spectrum mildew resistance protein RPW8
+Probab=30.29  E-value=2.7  Score=30.38  Aligned_cols=86  Identities=8%  Similarity=-0.053  Sum_probs=38.2  Template_Neff=7.400
+
+Q KDN48800.1      202 MAGEAKTEYEALRVRIEELFEDLNRHFGEG-PSLVMTSSMESLCKSIQAELNYIKKQQDRN-MGERDLSAADDSDKALAC  279 (364)
+Q Consensus       259 ~v~~n~ed~~~L~~~L~~l~~~L~~~~~~~-~s~~l~~~I~~l~~~L~e~~~~I~~~~~r~-~~~R~l~a~~d~~~I~~~  336 (418)
+                      .....+..++.|...|+.+.-.+.+..... ....-.+-++.|...+++-.+.+.+..+-+ +| .+++......++.++
+T Consensus        26 k~~~fk~~l~~L~sTL~~l~P~i~eI~~ln~~l~~~~ee~~~l~~~l~~G~~LV~kcski~~~~-n~~kk~~y~~kL~~L  104 (140)
+T B9S8L2_RICCO/3   26 RTFMFKSILKRMECTLETVTPIVKEIEELNKVLDRRNEEMGIIMKEIRKGKKLVLECSGMQWYY-ACWRTPKYAGKLIKL  104 (140)
+T ss_pred             HHhccHHHHHHHHHHHHHHHHHHHHHHHHHhhhcchHHHHHHHHHHHHHHHHHHHHHhcCHHHh-hHhcCHHHHHHHHHH
+Confidence            333344444455555554444443322111 011122335666666666666666655433 22 222222344556665
+
+
+Q KDN48800.1      280 YRRIEGHIQ  288 (364)
+Q Consensus       337 ~rrI~~a~q  345 (418)
+                      .+.|..+++
+T Consensus       105 d~sl~~f~~  113 (140)
+T B9S8L2_RICCO/3  105 EKSLKLFFQ  113 (140)
+T ss_pred             HHHHHHHHH
+Confidence            555554443
+
+
+No 6
+>PF15967.5 ; Nucleoporin_FG2 ; Nucleoporin FG repeated region
+Probab=23.47  E-value=4.4  Score=36.72  Aligned_cols=17  Identities=6%  Similarity=0.135  Sum_probs=7.5  Template_Neff=6.100
+
+Q KDN48800.1      206 AKTEYEALRVRIEELFE  222 (364)
+Q Consensus       263 n~ed~~~L~~~L~~l~~  279 (418)
+                      +...+++|.+++...+.
+T Consensus       306 d~~ai~~LK~ev~qdl~  322 (605)
+T H2LRF1_ORYLA/3  306 QALAIDKLKQETAQELK  322 (605)
+T ss_pred             HHHHHHHHHHHHHHHHH
+Confidence            33444444444444433
+
+
+No 7
+>PF10805.8 ; DUF2730 ; Protein of unknown function (DUF2730)
+Probab=21.91  E-value=4.8  Score=26.49  Aligned_cols=27  Identities=7%  Similarity=0.028  Sum_probs=16.6  Template_Neff=7.900
+
+Q KDN48800.1      200 CEMAGEAKTEYEALRVRIEELFEDLNR  226 (364)
+Q Consensus       257 ie~v~~n~ed~~~L~~~L~~l~~~L~~  283 (418)
+                      +.....+++++.++..++..+-..+..
+T Consensus        25 l~~~~~~~~~~~~l~~Rv~~lE~~l~~   51 (95)
+T C4LBC8_TOLAT/3   25 LVKTYAKREDVILLQNRMTSAEQKISG   51 (95)
+T ss_pred             HHcCCCCHHHHHHHHHHHHHHHHHHhc
+Confidence            334446677888877777666554443
+
+
+No 8
+>PF11585.8 ; Stomoxyn ; Insect antimicrobial peptide, stomoxyn
+Probab=20.03  E-value=6.3  Score=22.11  Aligned_cols=23  Identities=13%  Similarity=0.303  Sum_probs=17.4  Template_Neff=1.700
+
+Q KDN48800.1        2 SFQIGAKQALQQIEGDIKRPGHN   24 (364)
+Q Consensus        50 ~~~~~~~~~~~~~~~~~~~~~~~   72 (418)
+                      +||+++++..|+.|.-+|...+.
+T Consensus         2 sfRK~fnk~vKkikhTikeTa~v   24 (42)
+T STMX_STOCA/25-    2 GFRKHFNKLVKKVKHTISETAHV   24 (42)
+T ss_pred             cHHHHHHHHHHHHHHHHHHHhhH
+Confidence            58999988888888877754443
+
+
+No 9
+>PF16560.5 ; SAPI ; Putative mobile pathogenicity island
+Probab=17.64  E-value=7.6  Score=29.36  Aligned_cols=42  Identities=21%  Similarity=0.283  Sum_probs=36.5  Template_Neff=2.100
+
+Q KDN48800.1      181 NLFGPIREMAELFVECVDKCEMAGEAKTEYEALRVRIEELFE  222 (364)
+Q Consensus       238 ~v~PpLK~Av~~L~~~idiie~v~~n~ed~~~L~~~L~~l~~  279 (418)
+                      .+.-|.+.++.+|..+-+.++.-+.++++++.|..+|.++..
+T Consensus       165 gInePa~elVegLKlvtefvq~e~at~~D~k~Le~~Lnelk~  206 (213)
+T A0A0E1VGY0_STA  165 GINEPAPELVEGLKLVTGFVQDEHATQDDYKALERKLNELKE  206 (213)
+T ss_pred             cCCCCCHHHHHHHHHHHHHHccCCCCHHHHHHHHHHHHHHHH
+Confidence            345688889999999999999999999999999999988754
+
+
+No 10
+>PF11043.8 ; DUF2856 ; Protein of unknown function (DUF2856)
+Probab=11.61  E-value=14  Score=24.81  Aligned_cols=21  Identities=24%  Similarity=0.237  Sum_probs=17.5  Template_Neff=3.900
+
+Q KDN48800.1      339 RRECTPATRVNVLANPLDWAHS  360 (364)
+Q Consensus       392 r~~ClpGTRv~IL~~I~~Wa~d  413 (418)
+                      +. |..||-.+||+.+..-+..
+T Consensus        12 r~-~~~~TKeEVLa~~~~~~~~   32 (97)
+T ABC2_BPP22/1-9   12 RR-CSGNSVSEVLDKFRKNYDL   32 (97)
+T ss_pred             Cc-CCCCCHHHHHHHHHHHHHH
+Confidence            55 9999999999999876654
+
+

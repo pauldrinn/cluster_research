@@ -1,0 +1,177 @@
+Query         XP_024755941.1
+Match_columns 218
+No_of_seqs    1904 out of 2019
+Neff          11.3661
+Searched_HMMs 547
+Date          Mon Jan 11 21:34:21 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/XP_024755941_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_024755941_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_024755941_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17111.5 ; Helo_like_N ; Fung  99.4   2E-17 3.4E-21  112.5   0.0  170    7-179     1-177 (209)
+  2 PF17107.5 ; SesA ; N-terminal   98.5 2.2E-11 3.9E-15   75.7   0.0  115   13-131     1-132 (133)
+  3 PF14479.6 ; HeLo ; Prion-inhib  92.7  0.0025 4.3E-07   40.2   0.0   33  105-137   137-170 (199)
+  4 PF00599.17 ; Flu_M2 ; Influenz  79.2   0.089 1.6E-05   27.2   0.0   24    6-29     22-45  (97)
+  5 PF15967.5 ; Nucleoporin_FG2 ;   77.2    0.11   2E-05   37.8   0.0   15  118-132   352-366 (605)
+  6 PF05659.11 ; RPW8 ; Arabidopsi  64.7    0.36 6.2E-05   27.6   0.0   24   39-62     29-52  (140)
+  7 PF06103.11 ; DUF948 ; Bacteria  59.2    0.53 9.2E-05   24.0   0.0   25   26-50     16-40  (87)
+  8 PF18005.1 ; eIF3m_C_helix ; eI  36.2     2.1 0.00037   16.4   0.0   24  113-136     3-26  (29)
+  9 PF16496.5 ; SWIRM-assoc_2 ; SW  34.9     2.3 0.00041   28.7   0.0   17  198-214   229-245 (405)
+ 10 PF15967.5 ; Nucleoporin_FG2 ;   26.7     3.9 0.00069   29.1   0.0   23   71-93    354-376 (605)
+
+No 1
+>PF17111.5 ; Helo_like_N ; Fungal N-terminal domain of STAND proteins
+Probab=99.37  E-value=2e-17  Score=112.47  Aligned_cols=170  Identities=11%  Similarity=0.107  Sum_probs=129.1  Template_Neff=11.200
+
+Q XP_024755941.1    4 VELLGVAAAAEQFGKVALETAKFIKSVVGEIQDAPARIQQQIERIDSLASLATQIKGTKTL----QTVEFENILTRCESH   79 (191)
+Q Consensus         7 ~~~l~~aasi~~li~~~~~~~~~~~~~~~~~k~a~~~~~~l~~~l~~l~~~l~~l~~~~~~----~~~~l~~~l~~c~~~   82 (218)
+                      |||+|++++++++++++.+++..+++++++++++|.++..+..++..+..++..+......    ....+...+..|...
+T Consensus         1 md~l~~~asii~l~~~~~~~~~~~~~~~~~~~~a~~~~~~l~~~l~~l~~~l~~l~~~~~~~~~~~~~~l~~~~~~c~~~   80 (209)
+T Q5B3N2_EMENI/2    1 AEPISLASGLLALATFAFQSSVSLYDTVKSFHSHPTRVRQLIEELEALSGVLGPLVDRVQATNDTDLSALNLPLLSCGKA   80 (209)
+T ss_pred             CCcchHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCChHHhHHHHHHHHHH
+Confidence            7899999999999999999999999999999999999999999999999999988765431    224577889999999
+
+
+Q XP_024755941.1   80 IRELQTLLDKISFEPTNSLPRKTSKAICSLNEAENITRLFNILDHEYSTLNTLINLL-----------------------  136 (191)
+Q Consensus        83 l~~L~~~l~~~~~~~~~~~~~~~~~~l~~~~~~~~i~~~~~~l~~~~~~l~~~l~~~~~~~~~~---~~~~~~~~~~~~~  159 (218)
+                      +.+|...++++.....++ ......+.+|+|.+++++++..+|..++..|...+...+......   .+..+...+..+.
+T Consensus        81 l~~l~~~l~~~~~~~~~~-~~~~~~~~~~~~~~~~i~~l~~~l~~~~~~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~  159 (209)
+T Q5B3N2_EMENI/2   81 CKLFQKEIMKCAGRSSAT-RTSFRDWAKLKYMGDDVDGFRRVLAAYKSTITIALTDANLQKSTVTAETLKNYESLIKTAK  159 (209)
+T ss_pred             HHHHHHHHHHHhcCCCCC-CCcHHHHHhHhhchhhHHHHHHHHHHHHHHHHHHHHHHhhhcccCCHHHHHHHHHHHHHHH
+Confidence            999999998886543222 222333567777789999999999999999998888776543321   2222333333333
+
+
+Q XP_024755941.1  137 --GQTADSSKKCVQALFITD  154 (191)
+Q Consensus       160 ~~~~~~~~~~~il~wl~~~~  179 (218)
+                      ..  .......+.+||.+..
+T Consensus       160 ~~--~~~~~~~i~~~l~~~~  177 (209)
+T Q5B3N2_EMENI/2  160 ED--LEDHLAAIDEKLEFML  177 (209)
+T ss_pred             HH--HHHHHHHHHHHHHHHH
+Confidence            22  3445678899998754
+
+
+No 2
+>PF17107.5 ; SesA ; N-terminal domain on NACHT_NTPase and P-loop NTPases
+Probab=98.45  E-value=2.2e-11  Score=75.72  Aligned_cols=115  Identities=17%  Similarity=0.233  Sum_probs=88.2  Template_Neff=10.000
+
+Q XP_024755941.1   10 AAAAEQFGKVALETAKFIKSVVGEIQDAPARIQQQIERIDSLASLATQIKGTKTL------QTVE--FENILTRCESHIR   81 (191)
+Q Consensus        13 aasi~~li~~~~~~~~~~~~~~~~~k~a~~~~~~l~~~l~~l~~~l~~l~~~~~~------~~~~--l~~~l~~c~~~l~   84 (218)
+                      +++++++++++.+++..+.+    ++++|.++..+..++..+..++..+......      ....  +...+..|...+.
+T Consensus         1 ~~~i~~~~~~~~~~~~~~~~----~~~~p~~~~~l~~~l~~l~~~l~~~~~~~~~~~~~~~~~~~~~i~~~~~~C~~~~~   76 (133)
+T U7PRR7_SPOS1/7    1 VASSRALARAIYETYTTIHT----IKGRPEAFDRINKSLQLIQLALWKIQTHRSGPRASDDALLANAIRPITRRCEHKIR   76 (133)
+T ss_pred             ChHHHHHHHHHHHHHHHHHh----hcCCCHHHHHHHHHHHHHHHHHHHHHHHhcCCCCChhHHHHHhHHHHHHHHHHHHH
+Confidence            46788888888887777655    5899999999999999999999988776532      1234  8888999999999
+
+
+Q XP_024755941.1   82 ELQTLLDKISFEPTNSLP-RKTSKA----ICS----LNEAENITRLFNILDHEYST  128 (191)
+Q Consensus        85 ~L~~~l~~~~~~~~~~~~-~~~~~~----l~~----~~~~~~i~~~~~~l~~~~~~  131 (218)
+                      .|...+.++.+...+++. .+.+..    ++|    ++++++++++.+.|..+...
+T Consensus        77 ~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~v~~l~~~l~~~~~~  132 (133)
+T U7PRR7_SPOS1/7   77 VLHDIFVNLQHGLGSESWQRQTWADLGHNCRNALLELAEGNKVETLMQEILVDLAI  132 (133)
+T ss_pred             HHHHHHHHhcCCCCChhhhHHhHhchhhhhHhhHHHhcCCcHHHHHHHHHHHHhhc
+Confidence            999999987654433333 344444    555    89999999999998877654
+
+
+No 3
+>PF14479.6 ; HeLo ; Prion-inhibition and propagation
+Probab=92.67  E-value=0.0025  Score=40.16  Aligned_cols=33  Identities=9%  Similarity=0.047  Sum_probs=24.7  Template_Neff=9.600
+
+Q XP_024755941.1  102 TSKAICSLN-EAENITRLFNILDHEYSTLNTLIN  134 (191)
+Q Consensus       105 ~~~~l~~~~-~~~~i~~~~~~l~~~~~~l~~~l~  137 (218)
+                      .+++++|.. .+++++.++++|..+...|...+.
+T Consensus       137 ~~~r~~Wa~~dk~~~~~li~~l~~~n~~L~~ll~  170 (199)
+T G4N4E3_MAGO7/6  137 VWKTTRWAVHDAAAFKATVDQIKQLVDGLESITG  170 (199)
+T ss_pred             HHHHhhHHHhcHHHHHHHHHHHHHHHHHHHHHhC
+Confidence            345677765 468888888888888888877766
+
+
+No 4
+>PF00599.17 ; Flu_M2 ; Influenza Matrix protein (M2)
+Probab=79.19  E-value=0.089  Score=27.17  Aligned_cols=24  Identities=21%  Similarity=-0.015  Sum_probs=19.8  Template_Neff=2.000
+
+Q XP_024755941.1    3 GVELLGVAAAAEQFGKVALETAKF   26 (191)
+Q Consensus         6 ~~~~l~~aasi~~li~~~~~~~~~   29 (218)
+                      --||+.+||+|+|++.++.-++..
+T Consensus        22 ssdpLv~AA~IIGIlHLiLWIlDR   45 (97)
+T M2_I96A0/1-97    22 SSDPLVVAASIIGILHLILWILDR   45 (97)
+T ss_pred             CCCHHHHHHHHHHHHHHHHHHHHH
+Confidence            468999999999999988766554
+
+
+No 5
+>PF15967.5 ; Nucleoporin_FG2 ; Nucleoporin FG repeated region
+Probab=77.24  E-value=0.11  Score=37.83  Aligned_cols=15  Identities=7%  Similarity=0.071  Sum_probs=6.1  Template_Neff=6.100
+
+Q XP_024755941.1  115 ITRLFNILDHEYSTL  129 (191)
+Q Consensus       118 i~~~~~~l~~~~~~l  132 (218)
+                      ++++..+|+.++..|
+T Consensus       352 veefE~rL~~yrqqI  366 (605)
+T H2LRF1_ORYLA/3  352 VEQFEVQLQQYRQQI  366 (605)
+T ss_pred             HHHHHHHHHHHHHHH
+Confidence            333444444444433
+
+
+No 6
+>PF05659.11 ; RPW8 ; Arabidopsis broad-spectrum mildew resistance protein RPW8
+Probab=64.71  E-value=0.36  Score=27.64  Aligned_cols=24  Identities=4%  Similarity=0.160  Sum_probs=11.7  Template_Neff=7.400
+
+Q XP_024755941.1   36 DAPARIQQQIERIDSLASLATQIK   59 (191)
+Q Consensus        39 ~a~~~~~~l~~~l~~l~~~l~~l~   62 (218)
+                      .....+..|...+..+.-+++.+.
+T Consensus        29 ~fk~~l~~L~sTL~~l~P~i~eI~   52 (140)
+T B9S8L2_RICCO/3   29 MFKSILKRMECTLETVTPIVKEIE   52 (140)
+T ss_pred             ccHHHHHHHHHHHHHHHHHHHHHH
+Confidence            334444555555555555554443
+
+
+No 7
+>PF06103.11 ; DUF948 ; Bacterial protein of unknown function (DUF948)
+Probab=59.19  E-value=0.53  Score=24.02  Aligned_cols=25  Identities=4%  Similarity=0.155  Sum_probs=10.1  Template_Neff=8.700
+
+Q XP_024755941.1   23 TAKFIKSVVGEIQDAPARIQQQIER   47 (191)
+Q Consensus        26 ~~~~~~~~~~~~k~a~~~~~~l~~~   50 (218)
+                      ++..+.++.+.++.....+..+..+
+T Consensus        16 li~~l~~l~~~l~~~~~~l~~~~~~   40 (87)
+T D6XYX0_BACIE/7   16 LIPVMKNLAQTLGNVADTVETANKS   40 (87)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            3333444433344444444444433
+
+
+No 8
+>PF18005.1 ; eIF3m_C_helix ; eIF3 subunit M, C-terminal helix
+Probab=36.22  E-value=2.1  Score=16.36  Aligned_cols=24  Identities=21%  Similarity=-0.003  Sum_probs=15.3  Template_Neff=6.400
+
+Q XP_024755941.1  110 NEAENITRLFNILDHEYSTLNTLI  133 (191)
+Q Consensus       113 ~~~~~i~~~~~~l~~~~~~l~~~l  136 (218)
+                      |.+++.+.+..+|...+..+...+
+T Consensus         3 Fg~~qW~~L~~~L~~Wk~~l~~~~   26 (29)
+T A0A0C9XZH7_9AG    3 FERKQWEVLEKRLVAWKSGLAGIL   26 (29)
+T ss_pred             CcHHHHHHHHHHHHHHHHHHHHHH
+Confidence            445666677777777776665443
+
+
+No 9
+>PF16496.5 ; SWIRM-assoc_2 ; SWIRM-associated domain at the N-terminal
+Probab=34.90  E-value=2.3  Score=28.71  Aligned_cols=17  Identities=18%  Similarity=0.874  Sum_probs=15.5  Template_Neff=5.700
+
+Q XP_024755941.1  173 TCDWITQKDEFVKWITS  189 (191)
+Q Consensus       198 Tg~W~l~~~~f~~W~~~  214 (218)
+                      +..||+++..|.+|++.
+T Consensus       229 ~arWl~Ds~~fNEWMNE  245 (405)
+T E0VYN8_PEDHC/5  229 AATWVLELEQYNEWMTE  245 (405)
+T ss_pred             eeehhhcHHHHcCCCCH
+Confidence            78999999999999875
+
+
+No 10
+>PF15967.5 ; Nucleoporin_FG2 ; Nucleoporin FG repeated region
+Probab=26.68  E-value=3.9  Score=29.13  Aligned_cols=23  Identities=30%  Similarity=0.429  Sum_probs=12.2  Template_Neff=6.100
+
+Q XP_024755941.1   68 EFENILTRCESHIRELQTLLDKI   90 (191)
+Q Consensus        71 ~l~~~l~~c~~~l~~L~~~l~~~   93 (218)
+                      .+..-+..|+..+++|+..|...
+T Consensus       354 efE~rL~~yrqqIeeLE~~L~Sl  376 (605)
+T H2LRF1_ORYLA/3  354 QFEVQLQQYRQQIEELENHLTTQ  376 (605)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhhc
+Confidence            34445555555555555555543
+
+

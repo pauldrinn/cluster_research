@@ -1,0 +1,150 @@
+Query         XP_007693719.1
+Match_columns 130
+No_of_seqs    1087 out of 1119
+Neff          6.57352
+Searched_HMMs 100
+Date          Mon Jan 11 21:32:15 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/XP_007693719_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_007693719_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_007693719_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17108.5 ; HET-S ; N-terminal  65.5    0.32 5.8E-05   21.5   0.0   20   33-52      2-21  (23)
+  2 PF11558.8 ; HET-s_218-289 ; He  25.8     3.6 0.00073   21.3   0.0   23   31-53     42-64  (64)
+  3 PF16496.5 ; SWIRM-assoc_2 ; SW  16.2     7.9  0.0016   27.1   0.0   24   95-118   224-247 (405)
+  4 PF09907.9 ; HigB_toxin ; HigB_  12.5      11  0.0023   18.9   0.0   14  100-113    61-74  (74)
+  5 PF06616.11 ; BsuBI_PstI_RE ; B  10.6      15  0.0029   22.1   0.0   28   82-109   118-145 (153)
+  6 PF05083.13 ; LST1 ; LST-1 prot   5.1      42  0.0077   17.8   0.0   14   80-93     65-78  (79)
+  7 PF04316.13 ; FlgM ; Anti-sigma   3.5      59   0.012   14.6   0.0   22   81-102    22-43  (55)
+  8 PF13120.6 ; DUF3974 ; Domain o   2.5   1E+02   0.019   17.2   0.0   19  101-119    58-76  (126)
+  9 PF14492.6 ; EFG_II ; Elongatio   2.2      99   0.022   13.7   0.0   19   68-86     19-37  (74)
+ 10 PF02446.17 ; Glyco_hydro_77 ;    1.4 1.7E+02   0.036   18.7   0.0   31   84-114    89-119 (464)
+
+No 1
+>PF17108.5 ; HET-S ; N-terminal small S protein of HET, non-prionic
+Probab=65.55  E-value=0.32  Score=21.52  Aligned_cols=20  Identities=20%  Similarity=0.207  Sum_probs=16.5  Template_Neff=2.400
+
+Q XP_007693719.1   10 QNIDRVSAQKNSLAVAGNVR   29 (99)
+Q Consensus        33 ~~i~~~~a~~~~~~~~G~~~   52 (130)
+                      +++...++.+.+++++|+.|
+T Consensus         2 Nsv~sl~A~gsSRVqVGNny   21 (23)
+T I1RV79_GIBZE/6    2 NTLQSLSVAGASRVQVGNNY   21 (23)
+T ss_pred             CcceeeecCCCceeeecccc
+Confidence            34677889999999999976
+
+
+No 2
+>PF11558.8 ; HET-s_218-289 ; Het-s 218-289
+Probab=25.82  E-value=3.6  Score=21.35  Aligned_cols=23  Identities=9%  Similarity=0.128  Sum_probs=18.9  Template_Neff=5.900
+
+Q XP_007693719.1    8 HQQNIDRVSAQKNSLAVAGNVR-   29 (99)
+Q Consensus        31 ~~~~i~~~~a~~~~~~~~G~~~g   53 (130)
+                      ..+.|..+.+.+.+.++.|+.||
+T Consensus        42 t~n~~~~i~akG~srV~iGn~YG   64 (64)
+T F0XBA7_GROCL/2   42 ANNTVHGLDAKGSAKVQIGSRFG   64 (64)
+T ss_pred             ceeEEeeEEeeCceEEEcccccC
+Confidence            46778888999999999998764
+
+
+No 3
+>PF16496.5 ; SWIRM-assoc_2 ; SWIRM-associated domain at the N-terminal
+Probab=16.22  E-value=7.9  Score=27.13  Aligned_cols=24  Identities=17%  Similarity=0.490  Sum_probs=19.1  Template_Neff=5.700
+
+Q XP_007693719.1   74 KRVAGTCEWITHNESYCAWLNGDG   97 (99)
+Q Consensus        95 ~rl~gTc~WIL~~~~F~~W~~~~~  118 (130)
+                      ....=++.||++...|..|.+...
+T Consensus       224 ~pw~V~arWl~Ds~~fNEWMNEeD  247 (405)
+T E0VYN8_PEDHC/5  224 GPWRVAATWVLELEQYNEWMTEED  247 (405)
+T ss_pred             CCeEEeeehhhcHHHHcCCCCHHH
+Confidence            344457899999999999987654
+
+
+No 4
+>PF09907.9 ; HigB_toxin ; HigB_toxin, RelE-like toxic component of a toxin-antitoxin system
+Probab=12.52  E-value=11  Score=18.94  Aligned_cols=14  Identities=14%  Similarity=0.207  Sum_probs=11.3  Template_Neff=7.700
+
+Q XP_007693719.1   79 TCEWITHNESYCAW   92 (99)
+Q Consensus       100 Tc~WIL~~~~F~~W  113 (130)
+                      ...||+.|.+|.+|
+T Consensus        61 ~i~~i~tH~eYdk~   74 (74)
+T Q3SMY4_NITWN/2   61 MIRFFGSHEEYDKV   74 (74)
+T ss_pred             EEEEeeCHHHHccC
+Confidence            36789999998876
+
+
+No 5
+>PF06616.11 ; BsuBI_PstI_RE ; BsuBI/PstI restriction endonuclease domain
+Probab=10.57  E-value=15  Score=22.05  Aligned_cols=28  Identities=11%  Similarity=0.254  Sum_probs=21.9  Template_Neff=5.300
+
+Q XP_007693719.1   61 PYIDREKVISEKGKRVAGTCEWITHNES   88 (99)
+Q Consensus        82 P~~D~~~i~~~kg~rl~gTc~WIL~~~~  109 (130)
+                      ...|++..++....+.-+|+-||.+.++
+T Consensus       118 AF~dr~~~rk~~~~iAWeTevW~a~~P~  145 (153)
+T K9ZAU9_ANACC/6  118 AFLNRKAMKEYLPEISWETDVWVAEDGT  145 (153)
+T ss_pred             cCCCHHHHHHhhhhcccCCEEEEecCCC
+Confidence            3446666677788899999999988775
+
+
+No 6
+>PF05083.13 ; LST1 ; LST-1 protein
+Probab=5.10  E-value=42  Score=17.85  Aligned_cols=14  Identities=29%  Similarity=0.377  Sum_probs=9.3  Template_Neff=2.600
+
+Q XP_007693719.1   59 TDPYIDREKVISEK   72 (99)
+Q Consensus        80 tdP~~D~~~i~~~k   93 (130)
+                      .||..|+.+|-+.|
+T Consensus        65 EDps~DYAcIAknk   78 (79)
+T L9KGI0_TUPCH/1   65 ADPSSDYACIAKNK   78 (79)
+T ss_pred             CCCCccccchhcCC
+Confidence            56777777776544
+
+
+No 7
+>PF04316.13 ; FlgM ; Anti-sigma-28 factor, FlgM
+Probab=3.51  E-value=59  Score=14.63  Aligned_cols=22  Identities=18%  Similarity=0.194  Sum_probs=14.9  Template_Neff=7.300
+
+Q XP_007693719.1   60 DPYIDREKVISEKGKRVAGTCE   81 (99)
+Q Consensus        81 dP~~D~~~i~~~kg~rl~gTc~  102 (130)
+                      -|..+.+++...|.....|+|.
+T Consensus        22 ~p~v~~~kV~~ik~~i~~G~Y~   43 (55)
+T B5EDX1_GEOBB/4   22 LPEVRLDRVALAKQQVQNGGYR   43 (55)
+T ss_pred             CccccHHHHHHHHHHHHcCCCC
+Confidence            3445666777777777777775
+
+
+No 8
+>PF13120.6 ; DUF3974 ; Domain of unknown function (DUF3974)
+Probab=2.47  E-value=1e+02  Score=17.21  Aligned_cols=19  Identities=16%  Similarity=0.450  Sum_probs=13.5  Template_Neff=1.800
+
+Q XP_007693719.1   80 CEWITHNESYCAWLNGDGN   98 (99)
+Q Consensus       101 c~WIL~~~~F~~W~~~~~s  119 (130)
+                      .+=|.+|+-|.+|...++.
+T Consensus        58 lqeFtqhpLfyRWirtEG~   76 (126)
+T A0A073JVF8_9BA   58 LKEFTKHPVFYRWARTEGE   76 (126)
+T ss_pred             HHHHhcChhHHHHHhcccc
+Confidence            4457788999999875443
+
+
+No 9
+>PF14492.6 ; EFG_II ; Elongation Factor G, domain II
+Probab=2.19  E-value=99  Score=13.66  Aligned_cols=19  Identities=5%  Similarity=-0.193  Sum_probs=11.5  Template_Neff=9.200
+
+Q XP_007693719.1   47 QAASKCRKDLFLTDPYIDR   65 (99)
+Q Consensus        68 ~~~~~cL~~L~~tdP~~D~   86 (130)
+                      .+..+.|+.|...||....
+T Consensus        19 ~~l~~al~~l~~edp~l~~   37 (74)
+T G0GEQ9_SPITZ/3   19 DKLGELLHREAEEDLTFTL   37 (74)
+T ss_pred             HHHHHHHHHHHHHCCcEEE
+Confidence            3344566777777776544
+
+
+No 10
+>PF02446.17 ; Glyco_hydro_77 ; 4-alpha-glucanotransferase
+Probab=1.42  E-value=1.7e+02  Score=18.73  Aligned_cols=31  Identities=10%  Similarity=0.034  Sum_probs=15.1  Template_Neff=7.900
+
+Q XP_007693719.1   63 IDREKVISEKGKRVAGTCEWITHNESYCAWL   93 (99)
+Q Consensus        84 ~D~~~i~~~kg~rl~gTc~WIL~~~~F~~W~  114 (130)
+                      .|++.+...|...+...++-+.+..+|++|.
+T Consensus        89 vdy~~v~~~K~~~L~~~~~~f~~~~~f~~F~  119 (464)
+T D1CE10_THET1/1   89 TDYALARRIKSLILQKAFSRFTPTKDFESFC  119 (464)
+T ss_pred             CCHHHHHHHHHHHHHHHHHhcCCcHHHHHHH
+Confidence            4444455555555555555444433444444
+
+

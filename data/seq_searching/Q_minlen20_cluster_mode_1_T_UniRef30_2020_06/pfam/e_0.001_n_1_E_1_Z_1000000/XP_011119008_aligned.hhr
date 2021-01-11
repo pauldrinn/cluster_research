@@ -1,0 +1,150 @@
+Query         XP_011119008.1
+Match_columns 121
+No_of_seqs    1087 out of 1127
+Neff          8.10935
+Searched_HMMs 100
+Date          Mon Jan 11 21:32:34 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/XP_011119008_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_011119008_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_011119008_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF08043.12 ; Xin ; Xin repeat   41.8     1.5 0.00027   15.9   0.0   10   93-102     4-13  (16)
+  2 PF17106.5 ; NACHT_sigma ; Sigm  40.4     1.5 0.00029   19.8   0.0   16   26-41      7-22  (43)
+  3 PF09069.11 ; EF-hand_3 ; EF-ha  31.5     2.6  0.0005   21.8   0.0   20  100-119    67-86  (92)
+  4 PF16496.5 ; SWIRM-assoc_2 ; SW  19.6     6.1  0.0012   26.2   0.0   45   67-111   189-246 (405)
+  5 PF14144.6 ; DOG1 ; Seed dorman  12.3      12  0.0024   18.3   0.0   14  107-120    52-65  (77)
+  6 PF05003.12 ; DUF668 ; Protein    7.8      23  0.0045   17.9   0.0   15   65-79     73-87  (92)
+  7 PF03325.13 ; Herpes_PAP ; Herp   4.4      52  0.0094   18.4   0.0   13   67-79     37-49  (166)
+  8 PF09119.10 ; SicP-binding ; Si   3.9      58   0.011   15.9   0.0   12   68-79      6-17  (81)
+  9 PF05385.11 ; Adeno_E4 ; Mastad   3.0      80   0.015   16.3   0.0   37   63-99     46-85  (108)
+ 10 PF11463.8 ; R-HINP1I ; R.HinP1   2.6      96   0.018   17.7   0.0   14   88-101   126-139 (205)
+
+No 1
+>PF08043.12 ; Xin ; Xin repeat
+Probab=41.81  E-value=1.5  Score=15.88  Aligned_cols=10  Identities=40%  Similarity=0.976  Sum_probs=7.1  Template_Neff=3.000
+
+Q XP_011119008.1   69 GTCKWFTTHQ   78 (89)
+Q Consensus        93 gTc~Wil~~~  102 (121)
+                      .++.|+++..
+T Consensus         4 ~~~~wlFETq   13 (16)
+T F6SLD1_XENTR/7    4 KMCKWLFETQ   13 (16)
+T ss_pred             cceeEeEecc
+Confidence            4678888764
+
+
+No 2
+>PF17106.5 ; NACHT_sigma ; Sigma domain on NACHT-NTPases
+Probab=40.37  E-value=1.5  Score=19.82  Aligned_cols=16  Identities=6%  Similarity=0.015  Sum_probs=7.0  Template_Neff=5.500
+
+Q XP_011119008.1    3 PV-LGTFHNREASVGL   17 (89)
+Q Consensus        26 ~~~~~~~~~~g~~~~~   41 (121)
+                      .+++.++++++.+.|.
+T Consensus         7 ~GsG~Q~n~~g~G~Qn   22 (43)
+T I1RXU5_GIBZE/3    7 SGFGDQFNASGGAMQT   22 (43)
+T ss_pred             ccccccCccCCceeEE
+Confidence            3444444444444443
+
+
+No 3
+>PF09069.11 ; EF-hand_3 ; EF-hand
+Probab=31.46  E-value=2.6  Score=21.78  Aligned_cols=20  Identities=15%  Similarity=0.299  Sum_probs=14.5  Template_Neff=7.200
+
+Q XP_011119008.1   76 THQTFRDWKFSPSS------   89 (89)
+Q Consensus       100 ~~~~f~~W~~~~~s~lLWi~  119 (121)
+                      ....|.+|+......++|+.
+T Consensus        67 ~~~~Fl~Wl~~ePq~lvWLp   86 (92)
+T C3YXT6_BRAFL/1   67 EAAHFLDWMKQEPQSMVWLP   86 (92)
+T ss_pred             eHHHHHHHHHhCcchhchHh
+Confidence            34678889876666888874
+
+
+No 4
+>PF16496.5 ; SWIRM-assoc_2 ; SWIRM-associated domain at the N-terminal
+Probab=19.56  E-value=6.1  Score=26.19  Aligned_cols=45  Identities=7%  Similarity=0.196  Sum_probs=28.3  Template_Neff=5.700
+
+Q XP_011119008.1   43 KEIKVLSALYKST-NKNRKDRN------------PDRVPGTCKWFTTHQTFRDWKFSP   87 (89)
+Q Consensus        67 ~~~~il~wL~~~~-~~~~~~~~------------~~r~~gTc~Wil~~~~f~~W~~~~  111 (121)
+                      ....++.|...++ |+.+....            ...-.-++.||++...|.+|....
+T Consensus       189 d~~vLVHw~y~PDSYD~Wv~~~~~~~~p~~~~~~~~pw~V~arWl~Ds~~fNEWMNEe  246 (405)
+T E0VYN8_PEDHC/5  189 DKNVLVHWYYFPDSHDSWIQADLPIDPPDSPPVHVGPWRVAATWVLELEQYNEWMTEE  246 (405)
+T ss_pred             CCcEEEEeeecCcccceeecCCCCCCCCCCCCCCCCCeEEeeehhhcHHHHcCCCCHH
+Confidence            3455677777654 54433110            112234799999999999998753
+
+
+No 5
+>PF14144.6 ; DOG1 ; Seed dormancy control
+Probab=12.34  E-value=12  Score=18.33  Aligned_cols=14  Identities=7%  Similarity=0.360  Sum_probs=8.1  Template_Neff=6.000
+
+Q XP_011119008.1   83 WKFSPSS-------   89 (89)
+Q Consensus       107 W~~~~~s~lLWi~G  120 (121)
+                      |...-...+|||.|
+T Consensus        52 W~t~~E~~~lWigG   65 (77)
+T M0U8H2_MUSAM/2   52 WMMPAERCFLWLGG   65 (77)
+T ss_pred             CCCHHHHHHHHHhc
+Confidence            55443346777766
+
+
+No 6
+>PF05003.12 ; DUF668 ; Protein of unknown function (DUF668)
+Probab=7.76  E-value=23  Score=17.87  Aligned_cols=15  Identities=13%  Similarity=0.029  Sum_probs=10.8  Template_Neff=5.400
+
+Q XP_011119008.1   41 REKEIKVLSALYKST   55 (89)
+Q Consensus        65 ~~~~~~il~wL~~~~   79 (121)
+                      .+..+++|+||.+.-
+T Consensus        73 ~~~~~~iL~WL~P~A   87 (92)
+T M0TQV8_MUSAM/1   73 TATVTGMLERLAPLA   87 (92)
+T ss_pred             HHHHHHHHHHHhhhc
+Confidence            445678999998753
+
+
+No 7
+>PF03325.13 ; Herpes_PAP ; Herpesvirus polymerase accessory protein
+Probab=4.36  E-value=52  Score=18.41  Aligned_cols=13  Identities=15%  Similarity=-0.026  Sum_probs=9.9  Template_Neff=2.500
+
+Q XP_011119008.1   43 KEIKVLSALYKST   55 (89)
+Q Consensus        67 ~~~~il~wL~~~~   79 (121)
+                      ...+|++||.|..
+T Consensus        37 vV~dliKWlaP~t   49 (166)
+T VPAP_HCMVM/116   37 VVADLLKWIGPHT   49 (166)
+T ss_pred             HHHHHHHHHcccc
+Confidence            4568999999854
+
+
+No 8
+>PF09119.10 ; SicP-binding ; SicP binding
+Probab=3.88  E-value=58  Score=15.95  Aligned_cols=12  Identities=42%  Similarity=0.246  Sum_probs=8.7  Template_Neff=3.800
+
+Q XP_011119008.1   44 EIKVLSALYKST   55 (89)
+Q Consensus        68 ~~~il~wL~~~~   79 (121)
+                      ..+||.||...+
+T Consensus         6 ~~rvLs~L~~vP   17 (81)
+T SPTP_SALTY/41-    6 SSKVLTWLGKMP   17 (81)
+T ss_pred             HHHHHHHHhcCc
+Confidence            457888888755
+
+
+No 9
+>PF05385.11 ; Adeno_E4 ; Mastadenovirus early E4 13 kDa protein
+Probab=3.04  E-value=80  Score=16.28  Aligned_cols=37  Identities=22%  Similarity=0.417  Sum_probs=18.4  Template_Neff=3.200
+
+Q XP_011119008.1   39 SQREKEIKVLSALYKSTNKNRKDRNPDRVPGTC---KWFT   75 (89)
+Q Consensus        63 ~~~~~~~~il~wL~~~~~~~~~~~~~~r~~gTc---~Wil   99 (121)
+                      +.+.....+.+||...-+..+..+...+..+.|   .||.
+T Consensus        46 ~Ae~lL~~LrEWL~~a~~tEr~rrrdrrrr~vc~~Rt~FC   85 (108)
+T E4RF4_ADE02/1-   46 EARGRLDALREWIYYNYYTERAKRRDRRRRSVCHARTWFC   85 (108)
+T ss_pred             HHHHHHHHHHHHHHHHHHhHHhhhcCcccccchhhhhhHH
+Confidence            344555667778876544443333333333333   4554
+
+
+No 10
+>PF11463.8 ; R-HINP1I ; R.HinP1I restriction endonuclease
+Probab=2.55  E-value=96  Score=17.71  Aligned_cols=14  Identities=14%  Similarity=0.242  Sum_probs=6.4  Template_Neff=4.400
+
+Q XP_011119008.1   64 PDRVPGTCKWFTTH   77 (89)
+Q Consensus        88 ~~r~~gTc~Wil~~  101 (121)
+                      +.|-+-..+|+|--
+T Consensus       126 kgrg~f~aew~Lv~  139 (205)
+T B0USN9_HISS2/4  126 RGRGDFSAEWVLVA  139 (205)
+T ss_pred             hCCCCCCcceeEEE
+Confidence            33334445565543
+
+

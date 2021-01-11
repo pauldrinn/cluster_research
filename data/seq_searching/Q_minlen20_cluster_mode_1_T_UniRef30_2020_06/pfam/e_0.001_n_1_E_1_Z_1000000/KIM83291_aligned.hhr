@@ -1,0 +1,150 @@
+Query         KIM83291.1
+Match_columns 92
+No_of_seqs    1221 out of 1238
+Neff          7.59904
+Searched_HMMs 100
+Date          Mon Jan 11 21:27:51 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KIM83291_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KIM83291_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KIM83291_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF11043.8 ; DUF2856 ; Protein   57.3    0.56  0.0001   24.8   0.0   23   62-85     11-33  (97)
+  2 PF15894.5 ; SgrT ; Inhibitor o  36.8     1.9 0.00036   19.6   0.0   15   68-82     25-39  (49)
+  3 PF05576.11 ; Peptidase_S37 ; P  32.6     2.3 0.00047   26.6   0.0   33   52-86    383-415 (448)
+  4 PF18385.1 ; Tiam_CC_Ex ; T-lym  26.9     3.7 0.00068   21.3   0.0   18   67-84     22-39  (98)
+  5 PF09508.10 ; Lact_bio_phlase ;  13.1      12  0.0022   24.0   0.0   21   65-85    178-198 (433)
+  6 PF14455.6 ; Metal_CEHH ; Predi  11.8      13  0.0025   20.4   0.0   13   62-74    128-140 (177)
+  7 PF02998.14 ; Lentiviral_Tat ;    8.9      20  0.0037   17.5   0.0   14   70-83     51-64  (86)
+  8 PF02520.17 ; DUF148 ; Domain o   8.9      18  0.0037   17.0   0.0   17   69-85     10-26  (103)
+  9 PF00618.20 ; RasGEF_N ; RasGEF   7.9      20  0.0043   15.8   0.0   15   70-84     72-86  (104)
+ 10 PF18161.1 ; ISP1_C ; ISP1 C-te   7.9      23  0.0044   17.7   0.0   26   65-90     38-63  (107)
+
+No 1
+>PF11043.8 ; DUF2856 ; Protein of unknown function (DUF2856)
+Probab=57.25  E-value=0.56  Score=24.83  Aligned_cols=23  Identities=13%  Similarity=0.237  Sum_probs=18.9  Template_Neff=3.900
+
+Q KIM83291.1       56 NVARCLPCTREGVINEIKQSIDSN   79 (83)
+Q Consensus        62 ~~p~C~pgTR~~vl~~i~~W~~~~   85 (92)
+                      ..+ |..||..+||..+.+-+...
+T Consensus        11 ~r~-~~~~TKeEVLa~~~~~~~~~   33 (97)
+T ABC2_BPP22/1-9   11 PRR-CSGNSVSEVLDKFRKNYDLI   33 (97)
+T ss_pred             CCc-CCCCCHHHHHHHHHHHHHHH
+Confidence            445 99999999999998877643
+
+
+No 2
+>PF15894.5 ; SgrT ; Inhibitor of glucose uptake transporter SgrT
+Probab=36.85  E-value=1.9  Score=19.59  Aligned_cols=15  Identities=27%  Similarity=0.142  Sum_probs=12.9  Template_Neff=4.400
+
+Q KIM83291.1       62 PCTREGVINEIKQSI   76 (83)
+Q Consensus        68 pgTR~~vl~~i~~W~   82 (92)
+                      ..-|.++|++++.|=
+T Consensus        25 ~~qRl~mL~~lmQW~   39 (49)
+T A7MQ55_CROS8/1   25 GKTPQRMLDEIMQWD   39 (49)
+T ss_pred             cchHHHHHHHHhccc
+Confidence            357999999999994
+
+
+No 3
+>PF05576.11 ; Peptidase_S37 ; PS-10 peptidase S37
+Probab=32.61  E-value=2.3  Score=26.59  Aligned_cols=33  Identities=6%  Similarity=-0.040  Sum_probs=23.0  Template_Neff=9.000
+
+Q KIM83291.1       46 VHEAEYTRSENVARCLPCTREGVINEIKQSIDSNT   80 (83)
+Q Consensus        52 ~~~A~~~s~~~~p~C~pgTR~~vl~~i~~W~~~~~   86 (92)
+                      |.++.|.+.-.  ...+..|..|++.|..|+....
+T Consensus       383 I~g~~Hc~Dl~--~~~~~~r~~i~~~i~~Wl~~~~  415 (448)
+T Q9RDG7_STRCO/2  383 APGMNHGANVA--GLVPDQKARATARILDWAGVAP  415 (448)
+T ss_pred             eCCCCCccccc--cCCHHHHHHHHHHHHHHhcCCC
+Confidence            45777766521  1235679999999999997643
+
+
+No 4
+>PF18385.1 ; Tiam_CC_Ex ; T-lymphoma invasion and metastasis CC-Ex domain
+Probab=26.86  E-value=3.7  Score=21.29  Aligned_cols=18  Identities=6%  Similarity=0.026  Sum_probs=14.9  Template_Neff=3.600
+
+Q KIM83291.1       61 LPCTREGVINEIKQSIDS   78 (83)
+Q Consensus        67 ~pgTR~~vl~~i~~W~~~   84 (92)
+                      .+.+|..|+++|..|=.+
+T Consensus        22 D~~~r~~i~~QI~~ween   39 (98)
+T G7P1J8_MACFA/5   22 DSKKKKTILDQIFVWEQN   39 (98)
+T ss_pred             CHHHHHHHHHHHHHHHHH
+Confidence            456899999999999654
+
+
+No 5
+>PF09508.10 ; Lact_bio_phlase ; Lacto-N-biose phosphorylase N-terminal TIM barrel domain
+Probab=13.08  E-value=12  Score=23.97  Aligned_cols=21  Identities=19%  Similarity=0.203  Sum_probs=18.3  Template_Neff=3.300
+
+Q KIM83291.1       59 RCLPCTREGVINEIKQSIDSN   79 (83)
+Q Consensus        65 ~C~pgTR~~vl~~i~~W~~~~   85 (92)
+                      .-+|.||.-+++.+.+|+...
+T Consensus       178 ~r~p~t~~~~~~~l~~Wl~~h  198 (433)
+T F4LM96_TREBD/8  178 VRQPKTHEYTMRRLRTFIAEH  198 (433)
+T ss_pred             CCCHHHHHHHHHHHHHHHHHC
+Confidence            348999999999999999764
+
+
+No 6
+>PF14455.6 ; Metal_CEHH ; Predicted metal binding domain
+Probab=11.75  E-value=13  Score=20.40  Aligned_cols=13  Identities=23%  Similarity=0.240  Sum_probs=9.8  Template_Neff=6.200
+
+Q KIM83291.1       56 NVARCLPCTREGV   68 (83)
+Q Consensus        62 ~~p~C~pgTR~~v   74 (92)
+                      .+=-|+||+|+--
+T Consensus       128 ~pflC~~G~REYH  140 (177)
+T Y4JH_SINFN/7-1  128 QPFLCMAGVREYH  140 (177)
+T ss_pred             CCeEEeeCceeee
+Confidence            4568999999643
+
+
+No 7
+>PF02998.14 ; Lentiviral_Tat ; Lentiviral Tat protein
+Probab=8.94  E-value=20  Score=17.49  Aligned_cols=14  Identities=21%  Similarity=0.226  Sum_probs=12.0  Template_Neff=2.100
+
+Q KIM83291.1       64 TREGVINEIKQSID   77 (83)
+Q Consensus        70 TR~~vl~~i~~W~~   83 (92)
+                      -|.+|+++...|+=
+T Consensus        51 ~RrkV~rEmQkWmW   64 (86)
+T Q9W8F7_9RETR/2   51 NRGKVYREMQKWMW   64 (86)
+T ss_pred             hHHHHHHHHHHHHH
+Confidence            57889999999984
+
+
+No 8
+>PF02520.17 ; DUF148 ; Domain of unknown function DUF148
+Probab=8.87  E-value=18  Score=16.99  Aligned_cols=17  Identities=24%  Similarity=0.352  Sum_probs=12.8  Template_Neff=8.400
+
+Q KIM83291.1       63 CTREGVINEIKQSIDSN   79 (83)
+Q Consensus        69 gTR~~vl~~i~~W~~~~   85 (92)
+                      =|+.++-+.|.+|+...
+T Consensus        10 lT~~e~~~~l~~Wa~k~   26 (103)
+T A8XAY4_CAEBR/1   10 LTVEQVIEKLTKLLKGK   26 (103)
+T ss_pred             CCHHHHHHHHHHHHHcC
+Confidence            36778888889998653
+
+
+No 9
+>PF00618.20 ; RasGEF_N ; RasGEF N-terminal motif
+Probab=7.92  E-value=20  Score=15.83  Aligned_cols=15  Identities=20%  Similarity=0.308  Sum_probs=12.9  Template_Neff=10.400
+
+Q KIM83291.1       64 TREGVINEIKQSIDS   78 (83)
+Q Consensus        70 TR~~vl~~i~~W~~~   84 (92)
+                      .|..|+.-|..|+..
+T Consensus        72 ~~~~i~~~l~~Wi~~   86 (104)
+T GEFM_DICDI/393   72 IRQNILIIISVWVDC   86 (104)
+T ss_pred             HHHHHHHHHHHHHHh
+Confidence            778899999999964
+
+
+No 10
+>PF18161.1 ; ISP1_C ; ISP1 C-terminal
+Probab=7.87  E-value=23  Score=17.74  Aligned_cols=26  Identities=15%  Similarity=0.212  Sum_probs=19.7  Template_Neff=5.400
+
+Q KIM83291.1       59 RCLPCTREGVINEIKQSIDSNTGNA-   83 (83)
+Q Consensus        65 ~C~pgTR~~vl~~i~~W~~~~~~~~~   90 (92)
+                      .|..-.|.-=+.+|.+|+..++.-.|
+T Consensus        38 ~~~~K~R~Ipl~dI~~vL~~~~~l~r   63 (107)
+T L0AY73_THEEQ/3   38 ACDRQVREIKFKSVKKILHTKEELSR   63 (107)
+T ss_pred             EeCCEEEEEcHHHhhhhcCChhHhcc
+Confidence            56777788889999999987755444
+
+

@@ -1,0 +1,150 @@
+Query         CVK90509.1
+Match_columns 163
+No_of_seqs    12 out of 12
+Neff          2.52875
+Searched_HMMs 100
+Date          Mon Jan 11 21:24:51 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/CVK90509_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/CVK90509_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/CVK90509_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF18521.1 ; TAD2 ; Transactiva   6.6      31  0.0055   17.1   0.0    8  145-152    17-24  (25)
+  2 PF07573.11 ; AreA_N ; Nitrogen   5.1      39  0.0077   20.9   0.0   15  145-159    69-83  (94)
+  3 PF17834.1 ; GHD ; Beta-sandwic   4.7      36  0.0085   18.1   0.0   16   30-45     39-54  (72)
+  4 PF00976.18 ; ACTH_domain ; Cor   2.7      81   0.017   13.4   0.0   14   37-50      1-14  (19)
+  5 PF03441.14 ; FAD_binding_7 ; F   2.5      76   0.019   19.1   0.0   19  145-163    33-51  (201)
+  6 PF14830.6 ; Haemocyan_bet_s ;    2.0 1.1E+02   0.024   18.2   0.0   34  113-146    55-94  (109)
+  7 PF03273.13 ; Baculo_gp64 ; Bac   1.9 1.2E+02   0.026   22.5   0.0   27  125-151   398-424 (489)
+  8 PF03467.15 ; Smg4_UPF3 ; Smg-4   1.8 1.1E+02   0.027   18.0   0.0   20  111-130   105-124 (162)
+  9 PF04824.16 ; Rad21_Rec8 ; Cons   1.7 1.1E+02   0.029   13.0   0.0   23  118-140    21-43  (55)
+ 10 PF12266.8 ; DUF3613 ; Protein    1.7 1.4E+02    0.03   16.1   0.0   24  106-129    34-57  (65)
+
+No 1
+>PF18521.1 ; TAD2 ; Transactivation domain 2
+Probab=6.59  E-value=31  Score=17.08  Aligned_cols=8  Identities=25%  Similarity=0.991  Sum_probs=6.6  Template_Neff=1.300
+
+Q CVK90509.1      144 SQWLVQEA  151 (161)
+Q Consensus       145 s~WL~qd~  152 (163)
+                      .|||.+||
+T Consensus        17 aqw~~edp   24 (25)
+T S4R334_HUMAN/3   17 EQWFTEDP   24 (25)
+T ss_pred             HHHHhcCC
+Confidence            78998887
+
+
+No 2
+>PF07573.11 ; AreA_N ; Nitrogen regulatory protein AreA N terminus
+Probab=5.08  E-value=39  Score=20.85  Aligned_cols=15  Identities=40%  Similarity=0.900  Sum_probs=12.0  Template_Neff=3.100
+
+Q CVK90509.1      144 SQWLVQEALFTKWRT  158 (161)
+Q Consensus       145 s~WL~qd~lF~~Wkt  159 (163)
+                      ..=|.+|++|-.||.
+T Consensus        69 R~gLLrDS~FPeWKd   83 (94)
+T AREA_EMENI/1-9   69 HDNLLQDALFPEWKA   83 (94)
+T ss_pred             chhhhhcccChhHhc
+Confidence            445678999999996
+
+
+No 3
+>PF17834.1 ; GHD ; Beta-sandwich domain in beta galactosidase
+Probab=4.73  E-value=36  Score=18.07  Aligned_cols=16  Identities=31%  Similarity=0.586  Sum_probs=13.6  Template_Neff=6.900
+
+Q CVK90509.1       31 SSRVDFSDQSYDMPYF   46 (161)
+Q Consensus        30 SStVDFSDqSYdMPYF   45 (163)
+                      .-+|+|.+.+|..|-.
+T Consensus        39 ~~~V~f~g~~y~Lp~w   54 (72)
+T A0A0K9PWM9_ZOS   39 NAVVLFNNRSYELPKE   54 (72)
+T ss_pred             ceEEEECCEEEEeCCc
+Confidence            6789999999998854
+
+
+No 4
+>PF00976.18 ; ACTH_domain ; Corticotropin ACTH domain
+Probab=2.67  E-value=81  Score=13.37  Aligned_cols=14  Identities=29%  Similarity=0.486  Sum_probs=9.3  Template_Neff=4.600
+
+Q CVK90509.1       38 DQSYDMPYFTGSDV   51 (161)
+Q Consensus        37 DqSYdMPYF~~~d~   50 (163)
+                      |.+|.|.-|.-...
+T Consensus         1 ~~~Y~m~HFRW~~p   14 (19)
+T I3K788_ORENI/2    1 DRTYKMSHFRWGSP   14 (19)
+T ss_pred             CCceeccccCCCCC
+Confidence            46788888765443
+
+
+No 5
+>PF03441.14 ; FAD_binding_7 ; FAD binding domain of DNA photolyase
+Probab=2.47  E-value=76  Score=19.11  Aligned_cols=19  Identities=16%  Similarity=0.396  Sum_probs=14.4  Template_Neff=7.800
+
+Q CVK90509.1      144 SQWLVQEALFTKWRTSSG-  161 (161)
+Q Consensus       145 s~WL~qd~lF~~WktSk~G  163 (163)
+                      -.|-..+.+|..|+..++|
+T Consensus        33 ~~~~~~~~~~~~w~~G~TG   51 (201)
+T F8J515_HYPSM/2   33 FPWAKSSANLKAWQRGLTG   51 (201)
+T ss_pred             CCcccChHHHHHHHcCCcC
+Confidence            3465567799999998876
+
+
+No 6
+>PF14830.6 ; Haemocyan_bet_s ; Haemocyanin beta-sandwich
+Probab=2.03  E-value=1.1e+02  Score=18.24  Aligned_cols=34  Identities=9%  Similarity=-0.095  Sum_probs=24.9  Template_Neff=4.500
+
+Q CVK90509.1      112 KPKIDFTEFLESLEFPSIAE------NKIGQGSGDLITSQ  145 (161)
+Q Consensus       113 s~K~d~~aFLeS~EFPsi~~------~~Iep~s~~~~ss~  146 (163)
+                      -||.|.+.-|+.|.+..-.+      |.|+-.-.+.+...
+T Consensus        55 lykyDIT~al~~lgl~~dd~~~~~~~f~i~v~i~~vnGt~   94 (109)
+T B5RHQ6_9MOLL/8   55 LYKADITDAIVKAGLRVEDVFNAEAPFTLKVEIVGVDGTS   94 (109)
+T ss_pred             cchhhhHHHHHHCCCCccccCCCCCCEEEEEEEEeeCCCc
+Confidence            37889999999999987666      77766555555443
+
+
+No 7
+>PF03273.13 ; Baculo_gp64 ; Baculovirus gp64 envelope glycoprotein family
+Probab=1.91  E-value=1.2e+02  Score=22.46  Aligned_cols=27  Identities=15%  Similarity=0.212  Sum_probs=23.2  Template_Neff=4.700
+
+Q CVK90509.1      124 LEFPSIAENKIGQGSGDLITSQWLVQE  150 (161)
+Q Consensus       125 ~EFPsi~~~~Iep~s~~~~ss~WL~qd  151 (163)
+                      |.+|.|.+..++....|-+.-.||.|.
+T Consensus       398 ~w~p~~~~~~~~g~~~D~~GWsfia~~  424 (489)
+T Q8B9D4_NPVR1/3  398 FWIPTIGNTTYHDSWKDASGWSFIAQQ  424 (489)
+T ss_pred             eeecCCCCccccccccccchHHHHHHH
+Confidence            388999999999999988888888875
+
+
+No 8
+>PF03467.15 ; Smg4_UPF3 ; Smg-4/UPF3 family
+Probab=1.85  E-value=1.1e+02  Score=18.03  Aligned_cols=20  Identities=30%  Similarity=0.406  Sum_probs=14.1  Template_Neff=7.000
+
+Q CVK90509.1      110 PLKPKIDFTEFLESLEFPSI  129 (161)
+Q Consensus       111 ~~s~K~d~~aFLeS~EFPsi  130 (163)
+                      |+.=-++|-+||+.|+=|.-
+T Consensus       105 TIe~D~~Y~~Fle~l~~~~~  124 (162)
+T E4X0R0_OIKDI/4  105 TIEDDEDFKEFKEAYEADKP  124 (162)
+T ss_pred             ccccCHHHHHHHHHHHcCCc
+Confidence            33444689999999986543
+
+
+No 9
+>PF04824.16 ; Rad21_Rec8 ; Conserved region of Rad21 / Rec8 like protein
+Probab=1.73  E-value=1.1e+02  Score=13.04  Aligned_cols=23  Identities=13%  Similarity=0.160  Sum_probs=17.2  Template_Neff=9.500
+
+Q CVK90509.1      117 FTEFLESLEFPSIAENKIGQGSG  139 (161)
+Q Consensus       118 ~~aFLeS~EFPsi~~~~Iep~s~  140 (163)
+                      ...||.-|++-......+.+...
+T Consensus        21 ~~~Fla~L~l~~~~~i~~~Q~~~   43 (55)
+T SCC1_CAEEL/561   21 AEQFYSLLTLAKSQAISVDQSEP   43 (55)
+T ss_pred             HHHHHHHHHHHHCCCEEEEeCCC
+Confidence            35688888888888888877544
+
+
+No 10
+>PF12266.8 ; DUF3613 ; Protein of unknown function (DUF3613)
+Probab=1.68  E-value=1.4e+02  Score=16.12  Aligned_cols=24  Identities=17%  Similarity=0.332  Sum_probs=16.0  Template_Neff=4.600
+
+Q CVK90509.1      105 SQPSQPLKPKIDFTEFLESLEFPS  128 (161)
+Q Consensus       106 ~~P~r~~s~K~d~~aFLeS~EFPs  129 (163)
+                      .+|-.......-+..+|+||+.|-
+T Consensus        34 ~q~l~g~~a~~a~qRyL~SF~hpI   57 (65)
+T Q63TS7_BURPS/3   34 AQPMIGEAASLAYARYIESFRTKI   57 (65)
+T ss_pred             CCCCCHHHHHHHHHHHHHhcCCCC
+Confidence            344444455666788999998774
+
+

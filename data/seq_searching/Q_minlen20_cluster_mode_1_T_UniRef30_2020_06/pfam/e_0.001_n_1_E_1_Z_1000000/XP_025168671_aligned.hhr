@@ -1,0 +1,150 @@
+Query         XP_025168671.1
+Match_columns 256
+No_of_seqs    1316 out of 1331
+Neff          9.05044
+Searched_HMMs 100
+Date          Mon Jan 11 21:34:22 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/XP_025168671_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_025168671_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_025168671_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF18396.1 ; TBK1_ULD ; TANK bi  32.6     2.4 0.00047   23.0   0.0   24   47-70     13-36  (88)
+  2 PF18037.1 ; Ubiquitin_5 ; Ubiq  22.6     4.7 0.00092   21.9   0.0   37   33-70     15-51  (94)
+  3 PF11543.8 ; UN_NPL4 ; Nuclear   20.7     5.4  0.0011   20.4   0.0   22   49-70     14-35  (75)
+  4 PF00240.23 ; ubiquitin ; Ubiqu  17.8     6.8  0.0014   19.2   0.0   24   47-70      9-32  (73)
+  5 PF11470.8 ; TUG-UBL1 ; TUG ubi  14.6     9.2  0.0018   17.9   0.0   23   47-69      5-27  (63)
+  6 PF14560.6 ; Ubiquitin_2 ; Ubiq  13.8      10   0.002   19.3   0.0   33   48-85     15-47  (85)
+  7 PF13881.6 ; Rad60-SLD_2 ; Ubiq  12.5      12  0.0023   21.4   0.0   23   48-70     15-37  (112)
+  8 PF08817.10 ; YukD ; WXG100 pro  11.6      13  0.0026   19.5   0.0   25   46-70     10-34  (81)
+  9 PF14533.6 ; USP7_C2 ; Ubiquiti  11.4      14  0.0026   23.7   0.0   40   47-88     33-72  (204)
+ 10 PF11931.8 ; DUF3449 ; Domain o  11.1      15  0.0027   24.1   0.0   37  203-241    62-109 (183)
+
+No 1
+>PF18396.1 ; TBK1_ULD ; TANK binding kinase 1 ubiquitin-like domain
+Probab=32.58  E-value=2.4  Score=22.99  Aligned_cols=24  Identities=4%  Similarity=-0.067  Sum_probs=19.8  Template_Neff=11.100
+
+Q XP_025168671.1   13 STFEVTGQAGMSISALREIIYDKN   36 (223)
+Q Consensus        47 ~~F~V~I~~~~tV~~LK~~Ik~~~   70 (256)
+                      ..|.+.+....++++||..|....
+T Consensus        13 ~~~~i~v~~~~tv~~lk~~i~~~~   36 (88)
+T A0A0P7V826_9TE   13 TVHRIYIHFYNTASIFFDEVEKQT   36 (88)
+T ss_pred             EEEEEEEecCccHHHHHHHHHHHH
+Confidence            457888888899999999997753
+
+
+No 2
+>PF18037.1 ; Ubiquitin_5 ; Ubiquitin-like domain
+Probab=22.64  E-value=4.7  Score=21.88  Aligned_cols=37  Identities=16%  Similarity=-0.025  Sum_probs=23.5  Template_Neff=11.000
+
+Q XP_025168671.1    1 --MAFCFVVGTLIESTFEVTGQAGMSISALREIIYDKN   36 (223)
+Q Consensus        33 ~i~L~C~v~G~~~~~~F~V~I~~~~tV~~LK~~Ik~~~   70 (256)
+                      .+.+.+...+.. +..+.+.++...+|+.||..|....
+T Consensus        15 ~~~v~~~~~~~~-~~~~~~~~~~~~tv~~lk~~~~~~~   51 (94)
+T G5AMU1_HETGA/7   15 TVEVFLPSRLKK-DKKNMLETQLHISGRDLRSKIAETF   51 (94)
+T ss_pred             EEEEEeecCCCC-CcEEEEEEeCCCcHHHHHHHHHHHH
+Confidence            344444444321 2346677788889999999887553
+
+
+No 3
+>PF11543.8 ; UN_NPL4 ; Nuclear pore localisation protein NPL4
+Probab=20.69  E-value=5.4  Score=20.43  Aligned_cols=22  Identities=5%  Similarity=0.001  Sum_probs=18.3  Template_Neff=10.900
+
+Q XP_025168671.1   15 FEVTGQAGMSISALREIIYDKN   36 (223)
+Q Consensus        49 F~V~I~~~~tV~~LK~~Ik~~~   70 (256)
+                      +.++++...++.+|++.|....
+T Consensus        14 ~~~~~~~~~t~~~l~~~i~~~~   35 (75)
+T NPL4_DROME/32-   14 KRIEISPKSNLKHLYDSVQNAL   35 (75)
+T ss_pred             EEEEeCCCCcHHHHHHHHHHHh
+Confidence            7788888899999999887653
+
+
+No 4
+>PF00240.23 ; ubiquitin ; Ubiquitin family
+Probab=17.76  E-value=6.8  Score=19.19  Aligned_cols=24  Identities=8%  Similarity=0.032  Sum_probs=18.9  Template_Neff=11.900
+
+Q XP_025168671.1   13 STFEVTGQAGMSISALREIIYDKN   36 (223)
+Q Consensus        47 ~~F~V~I~~~~tV~~LK~~Ik~~~   70 (256)
+                      ..+.+.+..+.+|++||+.|....
+T Consensus         9 ~~~~~~~~~~~tv~~l~~~~~~~~   32 (73)
+T Q9VEC8_DROME/3    9 KDCTIEVAPTSTILEVKHQIEAEL   32 (73)
+T ss_pred             cEEEEEeCCCCcHHHHHHHHHHHh
+Confidence            346777888899999999887653
+
+
+No 5
+>PF11470.8 ; TUG-UBL1 ; TUG ubiquitin-like domain
+Probab=14.64  E-value=9.2  Score=17.94  Aligned_cols=23  Identities=9%  Similarity=0.231  Sum_probs=18.0  Template_Neff=11.700
+
+Q XP_025168671.1   13 STFEVTGQAGMSISALREIIYDK   35 (223)
+Q Consensus        47 ~~F~V~I~~~~tV~~LK~~Ik~~   69 (256)
+                      ..+.+.+..+.+++.|+..+..+
+T Consensus         5 ~~~~~~v~~~~~~~~l~~~~~~~   27 (63)
+T L8G0J8_PSED2/9    5 QRYQIKVVPETPMSDVRNQACTR   27 (63)
+T ss_pred             cEEEeeeCCCCCHHHHHHHHHHH
+Confidence            34667788888999999888765
+
+
+No 6
+>PF14560.6 ; Ubiquitin_2 ; Ubiquitin-like domain
+Probab=13.77  E-value=10  Score=19.30  Aligned_cols=33  Identities=21%  Similarity=0.264  Sum_probs=23.6  Template_Neff=11.600
+
+Q XP_025168671.1   14 TFEVTGQAGMSISALREIIYDKNKNYFEEIkvDANKLHLW   53 (223)
+Q Consensus        48 ~F~V~I~~~~tV~~LK~~Ik~~~~~~~~~~..da~~L~Lw   85 (256)
+                      .+.+.+....+|.+|+..|....     ++  +++.+.|+
+T Consensus        15 ~~~~~~~~~~~v~~l~~~i~~~~-----~~..~~~~~~l~   47 (85)
+T A4HXS1_LEIIN/3   15 VPEKAYGLAQTVQSIREDMYSRF-----GI..PAEQIRLE   47 (85)
+T ss_pred             ccEEEeCCCCcHHHHHHHHHHHH-----CC..CHHHEEEE
+Confidence            68888889999999999886543     34  44555544
+
+
+No 7
+>PF13881.6 ; Rad60-SLD_2 ; Ubiquitin-2 like Rad60 SUMO-like
+Probab=12.47  E-value=12  Score=21.36  Aligned_cols=23  Identities=13%  Similarity=0.018  Sum_probs=19.1  Template_Neff=9.400
+
+Q XP_025168671.1   14 TFEVTGQAGMSISALREIIYDKN   36 (223)
+Q Consensus        48 ~F~V~I~~~~tV~~LK~~Ik~~~   70 (256)
+                      .+.+.++...+|.+||..|....
+T Consensus        15 ~~~i~~~~~~ti~~lk~~i~~~~   37 (112)
+T B9RJE5_RICCO/5   15 IGPNKYTPATTVVTLKEKIIAQW   37 (112)
+T ss_pred             ecceecCCCCcHHHHHHHHHHhC
+Confidence            57778888899999999987764
+
+
+No 8
+>PF08817.10 ; YukD ; WXG100 protein secretion system (Wss), protein YukD
+Probab=11.56  E-value=13  Score=19.46  Aligned_cols=25  Identities=4%  Similarity=-0.001  Sum_probs=21.2  Template_Neff=9.700
+
+Q XP_025168671.1   12 ESTFEVTGQAGMSISALREIIYDKN   36 (223)
+Q Consensus        46 ~~~F~V~I~~~~tV~~LK~~Ik~~~   70 (256)
+                      +..|.+.++.+.+|.+|+..|.+..
+T Consensus        10 ~~~~d~~vp~~~~v~~l~~~l~~~~   34 (81)
+T K0F048_9NOCA/1   10 TYQVDVVIPTKFTVETFIDDLLVVL   34 (81)
+T ss_pred             CEEEEEEeeCCCcHHHHHHHHHHHH
+Confidence            3678999999999999999997654
+
+
+No 9
+>PF14533.6 ; USP7_C2 ; Ubiquitin-specific protease C-terminal
+Probab=11.41  E-value=14  Score=23.72  Aligned_cols=40  Identities=15%  Similarity=0.233  Sum_probs=27.8  Template_Neff=9.700
+
+Q XP_025168671.1   13 STFEVTGQAGMSISALREIIYDKNKNYFEEIkvDANKLHLWKVD   56 (223)
+Q Consensus        47 ~~F~V~I~~~~tV~~LK~~Ik~~~~~~~~~~..da~~L~Lwkv~   88 (256)
+                      ..+.|.+..+.+|.+|++.|.++..  +..-  +...|.+|.+.
+T Consensus        33 ~~~~i~v~k~~tv~dL~~~l~~~~~--~~~~..~~~~l~l~ev~   72 (204)
+T C1GJX2_PARBD/9   33 QPYDILVAKNGNISDLILGFQKRAN--LDDE..TAQHLRVYEVY   72 (204)
+T ss_pred             EEEEEEECCCCcHHHHHHHHHHHcC--CCcc..ccCeEEEEEEE
+Confidence            4688889999999999999987642  1111  23577777653
+
+
+No 10
+>PF11931.8 ; DUF3449 ; Domain of unknown function (DUF3449)
+Probab=11.15  E-value=15  Score=24.12  Aligned_cols=37  Identities=32%  Similarity=0.617  Sum_probs=22.1  Template_Neff=5.400
+
+Q XP_025168671.1  171 KILLLPFPYPGQKKPVDRF-----------AINNDGFFTYMGRKEFRNVL  209 (223)
+Q Consensus       203 ~~~~l~~~~~~~~~pi~~f-----------~~~~~~~~~~~~r~~f~~~~  241 (256)
+                      ++..||....|  +|||.+           ....-|.+.|.||++|..=+
+T Consensus        62 np~~lPlG~DG--kPIP~WLyKl~gL~~~y~CEICGn~~y~Grk~fe~HF  109 (183)
+T D7G993_ECTSI/2   62 NPLNLPLGWDG--KPIPYWLYKLHGLGVEFKCEICGDFSYKGRRNFDRHF  109 (183)
+T ss_pred             CcCcCCCCCCC--CcCCHHHHHHcCCCCEEEeeecCCccccchHHHHHHc
+Confidence            33456666666  555544           22233567899999997433
+
+

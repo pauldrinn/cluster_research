@@ -1,0 +1,167 @@
+Query         OCT51778.1
+Match_columns 340
+No_of_seqs    2314 out of 2368
+Neff          10.7822
+Searched_HMMs 502
+Date          Mon Jan 11 21:29:03 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/OCT51778_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/OCT51778_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/OCT51778_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17111.5 ; Helo_like_N ; Fung  98.3 7.3E-11 1.3E-14   90.3   0.0  136   36-186     1-136 (209)
+  2 PF17107.5 ; SesA ; N-terminal   97.4 5.3E-08 9.5E-12   68.0   0.0  121   45-178     1-132 (133)
+  3 PF04772.12 ; Flu_B_M2 ; Influe  33.3     2.5 0.00045   24.2   0.0   32   35-66      1-32  (109)
+  4 PF15967.5 ; Nucleoporin_FG2 ;   27.4     3.7 0.00066   33.1   0.0   21  162-182   349-369 (605)
+  5 PF15967.5 ; Nucleoporin_FG2 ;   10.5      17   0.003   28.8   0.0   19  215-233   353-371 (605)
+  6 PF17705.1 ; DUF5551 ; Family o   7.0      29  0.0051   20.8   0.0   16  319-334    80-95  (155)
+  7 PF08566.10 ; Pam17 ; Mitochond   6.9      29  0.0052   22.1   0.0   21   34-54     80-100 (175)
+  8 PF15981.5 ; EAV_GP5 ; Envelope   6.7      30  0.0054   17.5   0.0   46    1-49      1-46  (80)
+  9 PF11190.8 ; DUF2976 ; Protein    6.2      33   0.006   18.8   0.0   36   30-65     18-53  (86)
+ 10 PF05162.13 ; Ribosomal_L41 ; R   4.7      48  0.0085   13.1   0.0   16  156-171     1-16  (24)
+
+No 1
+>PF17111.5 ; Helo_like_N ; Fungal N-terminal domain of STAND proteins
+Probab=98.33  E-value=7.3e-11  Score=90.29  Aligned_cols=136  Identities=13%  Similarity=0.112  Sum_probs=99.3  Template_Neff=11.200
+
+Q OCT51778.1        3 LEAIGAFALACNVLQVVEYGAKIVAKAGSLHRPSRESTTEI---------TDLDAITQQLNNLNNDLGSSAVPApSQACP   73 (288)
+Q Consensus        36 mdplsalglaa~iiq~v~~~~kl~~~~~~~~~s~~~~~~~~~~~~~~~~~~~l~~~~~~l~~l~~~~~~~~~~~.~~~~~  114 (340)
+                      |||+   |++++|+++++++.+++..+++++++.++++.++..+..++.     .+...+..+.....  .... .....
+T Consensus         1 md~l---~~~asii~l~~~~~~~~~~~~~~~~~~~~a~~~~~~l~~~l~-----~l~~~l~~l~~~~~--~~~~.~~~~~   69 (209)
+T Q5B3N2_EMENI/2    1 AEPI---SLASGLLALATFAFQSSVSLYDTVKSFHSHPTRVRQLIEELE-----ALSGVLGPLVDRVQ--ATND.TDLSA   69 (209)
+T ss_pred             CCcc---hHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCHHHHHHHHHHH-----HHHHHHHHHHHHHh--cCCC.CChHH
+Confidence            7898   778999999999999999999999999999988765555443     34444444433222  1112 23446
+
+
+Q OCT51778.1       74 LyarlAECNAESLQLSQKFIDFVQKLRPKTTASQGNPSWAaSFRERPPS-------------------PSFDLLLSL  131 (288)
+Q Consensus       115 L....~~l~~~C~~~~~~L~~~l~~l~~~~~~~~~~~~~~.~~~~~lk~~~~~~~i~~l~~rL~~~~~~L~~~l~~~  186 (340)
+                      +    ...+..|...+.+|...++++......+     .. .++.+.++.|.+++|+++..+|..++..|.+.+...
+T Consensus        70 l....~~~~~~c~~~l~~l~~~l~~~~~~~~~~-----~~.~~~~~~~~~~~~~~i~~l~~~l~~~~~~l~~~l~~~  136 (209)
+T Q5B3N2_EMENI/2   70 L....NLPLLSCGKACKLFQKEIMKCAGRSSAT-----RT.SFRDWAKLKYMGDDVDGFRRVLAAYKSTITIALTDA  136 (209)
+T ss_pred             h....HHHHHHHHHHHHHHHHHHHHHhcCCCCC-----CC.cHHHHHhHhhchhhHHHHHHHHHHHHHHHHHHHHHH
+Confidence            7    8889999999999999999885432211     12 233356788888999999999999999988877654
+
+
+No 2
+>PF17107.5 ; SesA ; N-terminal domain on NACHT_NTPase and P-loop NTPases
+Probab=97.44  E-value=5.3e-08  Score=67.96  Aligned_cols=121  Identities=5%  Similarity=0.025  Sum_probs=75.9  Template_Neff=10.000
+
+Q OCT51778.1       12 ACNVLQVVEYGAKIVAKAGSLHRPSRESTTEI---------TDLDAITQQLNNLNNDLGSSAVPApSQACP--LyarlAE   80 (288)
+Q Consensus        45 aa~iiq~v~~~~kl~~~~~~~~~s~~~~~~~~~~~~~~~~~~~l~~~~~~l~~l~~~~~~~~~~~.~~~~~--L....~~  117 (340)
+                      +++++++++++.+++..+.++    +++|.++.++..++.     .+...+..+........... +....  +    ..
+T Consensus         1 ~~~i~~~~~~~~~~~~~~~~~----~~~p~~~~~l~~~l~-----~l~~~l~~~~~~~~~~~~~~.~~~~~~~i....~~   66 (133)
+T U7PRR7_SPOS1/7    1 VASSRALARAIYETYTTIHTI----KGRPEAFDRINKSLQ-----LIQLALWKIQTHRSGPRASD.DALLANAI....RP   66 (133)
+T ss_pred             ChHHHHHHHHHHHHHHHHHhh----cCCCHHHHHHHHHHH-----HHHHHHHHHHHHhcCCCCCh.hHHHHHhH....HH
+Confidence            468899999998888776554    456666544444443     33334443333222111111 22334  8    89
+
+
+Q OCT51778.1       81 CNAESLQLSQKFIDFVQKLRPKTTASQGNPSW-AaSFRER----PPS-----------------------P  123 (288)
+Q Consensus       118 l~~~C~~~~~~L~~~l~~l~~~~~~~~~~~~~-~.~~~~~----lk~----~~~~~~i~~l~~rL~~~~~~  178 (340)
+                      ++..|...+++|...++++.+....+    .+ . .++..    +++    ++++++++++.++|..+...
+T Consensus        67 ~~~~C~~~~~~l~~~l~~~~~~~~~~----~~~~.~~~~~~~~~~~~~~~~~~~~~~v~~l~~~l~~~~~~  132 (133)
+T U7PRR7_SPOS1/7   67 ITRRCEHKIRVLHDIFVNLQHGLGSE----SWQR.QTWADLGHNCRNALLELAEGNKVETLMQEILVDLAI  132 (133)
+T ss_pred             HHHHHHHHHHHHHHHHHHhcCCCCCh----hhhH.HhHhchhhhhHhhHHHhcCCcHHHHHHHHHHHHhhc
+Confidence            99999999999999999885432211    12 2 33333    444    88999999999999887654
+
+
+No 3
+>PF04772.12 ; Flu_B_M2 ; Influenza B matrix protein 2 (BM2)
+Probab=33.34  E-value=2.5  Score=24.17  Aligned_cols=32  Identities=13%  Similarity=0.318  Sum_probs=22.8  Template_Neff=1.700
+
+Q OCT51778.1        2 VLEAIGAFALACNVLQVVEYGAKIVAKAGSLH   33 (288)
+Q Consensus        35 mmdplsalglaa~iiq~v~~~~kl~~~~~~~~   66 (340)
+                      |.+|+-++++.+-++....|..-++...+++.
+T Consensus         1 mlep~qil~i~sf~lsalHF~aWtiG~L~QiK   32 (109)
+T BM2_INBLE/1-10    1 MLEPLQILSICSFILSALHFMAWTIGHLNQIK   32 (109)
+T ss_pred             CCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+Confidence            57888887776667777777777766666654
+
+
+No 4
+>PF15967.5 ; Nucleoporin_FG2 ; Nucleoporin FG repeated region
+Probab=27.36  E-value=3.7  Score=33.08  Aligned_cols=21  Identities=5%  Similarity=0.013  Sum_probs=14.5  Template_Neff=6.100
+
+Q OCT51778.1      123 ----------------PSFDL  127 (288)
+Q Consensus       162 ~~~i~~l~~rL~~~~~~L~~~  182 (340)
+                      .+.+++++.+|+.|+++|...
+T Consensus       349 ~~LveefE~rL~~yrqqIeeL  369 (605)
+T H2LRF1_ORYLA/3  349 RSLVEQFEVQLQQYRQQIEEL  369 (605)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHH
+Confidence            356777777787777776543
+
+
+No 5
+>PF15967.5 ; Nucleoporin_FG2 ; Nucleoporin FG repeated region
+Probab=10.49  E-value=17  Score=28.81  Aligned_cols=19  Identities=5%  Similarity=0.183  Sum_probs=7.5  Template_Neff=6.100
+
+Q OCT51778.1      165 NKLHSDIAAvlQQLDHLKLQD  185 (288)
+Q Consensus       215 ~~l~~~~~~..~~~~l~~l~~  233 (340)
+                      ++++.+++.  +++.|+++.+
+T Consensus       353 eefE~rL~~..yrqqIeeLE~  371 (605)
+T H2LRF1_ORYLA/3  353 EQFEVQLQQ..YRQQIEELEN  371 (605)
+T ss_pred             HHHHHHHHH..HHHHHHHHHH
+Confidence            333333333  3334444443
+
+
+No 6
+>PF17705.1 ; DUF5551 ; Family of unknown function (DUF5551)
+Probab=7.05  E-value=29  Score=20.79  Aligned_cols=16  Identities=13%  Similarity=0.363  Sum_probs=12.8  Template_Neff=1.900
+
+Q OCT51778.1      273 ---GRSAFHSWLDAPA  285 (288)
+Q Consensus       319 ~~~~~~~F~~WL~~~~  334 (340)
+                      +.+.|..|..||++-.
+T Consensus        80 rlqswp~~arwl~~~s   95 (155)
+T A0A0D9RJC2_CHL   80 RLQSWPTLARWLRRVS   95 (155)
+T ss_pred             hhhchHHHHHHHHhCC
+Confidence            4568999999998654
+
+
+No 7
+>PF08566.10 ; Pam17 ; Mitochondrial import protein Pam17
+Probab=6.93  E-value=29  Score=22.11  Aligned_cols=21  Identities=14%  Similarity=0.101  Sum_probs=12.9  Template_Neff=4.600
+
+Q OCT51778.1        1 MVLEAIGAFALACNVLQVVEY   21 (288)
+Q Consensus        34 ~mmdplsalglaa~iiq~v~~   54 (340)
+                      +.|||+-++|++.-..+.+.+
+T Consensus        80 ~GlDP~~~~gl~~~~~g~~G~  100 (175)
+T A7S783_NEMVE/5   80 LGMDPLIFCGLCGVASAGVGY  100 (175)
+T ss_pred             cCCCHHHHHHHHHHHHHHHHH
+Confidence            567888777765544444443
+
+
+No 8
+>PF15981.5 ; EAV_GP5 ; Envelope glycoprotein GP 5 of equine arteritis virus
+Probab=6.74  E-value=30  Score=17.46  Aligned_cols=46  Identities=7%  Similarity=0.098  Sum_probs=29.3  Template_Neff=1.100
+
+Q OCT51778.1        1 ---------------------------------MVLEAIGAFALACNVL   16 (288)
+Q Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~mmdplsalglaa~ii   49 (340)
+                      |++.|.+.+.+-+...++.+|..-.+.+......|..--   |+.++.+
+T Consensus         1 mlsmivllfllwgapshayfsyytaqrftdftlcmltdr---gvianll   46 (80)
+T GP5_EAVBU/1-80    1 MLSMIVLLFLLWGAPSHAYFSYYTAQRFTDFTLCMLTDR---GVIANLL   46 (80)
+T ss_pred             ChhHHHHHHHHHCCCchhhHhHHhccccCceeeEeeecc---cHHhHhc
+Confidence            567777777777777777777776666665555554433   4444443
+
+
+No 9
+>PF11190.8 ; DUF2976 ; Protein of unknown function (DUF2976)
+Probab=6.23  E-value=33  Score=18.79  Aligned_cols=36  Identities=3%  Similarity=0.154  Sum_probs=26.3  Template_Neff=5.300
+
+Q OCT51778.1        1 ----MVLEAIGAFALACNVLQVVEYGAKIVAKAGSL   32 (288)
+Q Consensus        30 ~~~~~mmdplsalglaa~iiq~v~~~~kl~~~~~~~   65 (340)
+                      .+....-|.+..+|++-+.+.|+-.+...+...+++
+T Consensus        18 ~i~~y~~dg~~l~gli~~a~afl~Va~~~i~~y~e~   53 (86)
+T X2H871_9GAMM/2   18 TIRGYIYDGAVVIGLLIAAAALLAVAKNVIVEFNNI   53 (86)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            344455677778888888888888888777776666
+
+
+No 10
+>PF05162.13 ; Ribosomal_L41 ; Ribosomal protein L41
+Probab=4.73  E-value=48  Score=13.13  Aligned_cols=16  Identities=0%  Similarity=-0.025  Sum_probs=0.0  Template_Neff=2.400
+
+Q OCT51778.1      120 PPS-------------  122 (288)
+Q Consensus       156 lk~~~~~~~i~~l~~r  171 (340)
+                      .++.|.++.+..+...
+T Consensus         1 Mr~KW~kKRmrrlKrk   16 (24)
+T L9LA14_TUPCH/1    1 MTAKWRKKQMCRLKCE   16 (24)
+T ss_pred             CchHHHHHHHHHHHHH
+
+

@@ -1,0 +1,150 @@
+Query         XP_013424499.1
+Match_columns 69
+No_of_seqs    1087 out of 1125
+Neff          7.4384
+Searched_HMMs 100
+Date          Mon Jan 11 21:33:16 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/XP_013424499_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_013424499_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_013424499_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF08043.12 ; Xin ; Xin repeat   73.2    0.17 3.1E-05   17.6   0.0   11   44-54      3-13  (16)
+  2 PF18532.1 ; DUF5621 ; Domain o  42.9     1.3 0.00025   23.2   0.0   20   37-56     63-82  (140)
+  3 PF16496.5 ; SWIRM-assoc_2 ; SW  34.1     2.2 0.00043   25.7   0.0   22   44-65    227-248 (405)
+  4 PF17671.1 ; DUF5531 ; Family o  18.0     7.4  0.0013   20.3   0.0   16   19-34     86-101 (152)
+  5 PF16514.5 ; NADH-UOR_E ; putat  15.3     9.4  0.0017   17.5   0.0   16   18-33     52-67  (74)
+  6 PF02315.16 ; MDH ; Methanol de  11.6      14  0.0026   17.2   0.0   25   28-52     58-82  (85)
+  7 PF02248.16 ; Como_SCP ; Small   10.9      15  0.0028   19.5   0.0   40   14-53     86-125 (184)
+  8 PF11332.8 ; DUF3134 ; Protein    7.5      25  0.0047   15.4   0.0    9   55-63     23-31  (69)
+  9 PF14088.6 ; DUF4268 ; Domain o   6.3      28  0.0058   15.4   0.0   24   27-50     64-87  (134)
+ 10 PF12163.8 ; HobA ; DNA replica   6.3      31  0.0059   17.9   0.0   22   33-54    120-141 (180)
+
+No 1
+>PF08043.12 ; Xin ; Xin repeat
+Probab=73.16  E-value=0.17  Score=17.59  Aligned_cols=11  Identities=27%  Similarity=0.900  Sum_probs=8.4  Template_Neff=3.000
+
+Q XP_013424499.1   22 AATCEWLLSKF   32 (47)
+Q Consensus        44 ~~T~~Wi~~~~   54 (69)
+                      -.|+.|+|+..
+T Consensus         3 V~~~~wlFETq   13 (16)
+T F6SLD1_XENTR/7    3 VKMCKWLFETQ   13 (16)
+T ss_pred             ccceeEeEecc
+Confidence            36889999864
+
+
+No 2
+>PF18532.1 ; DUF5621 ; Domain of unknown function (DUF5621)
+Probab=42.86  E-value=1.3  Score=23.23  Aligned_cols=20  Identities=25%  Similarity=0.308  Sum_probs=15.7  Template_Neff=4.400
+
+Q XP_013424499.1   15 ATIKTAHAATCEWLLSKFEY   34 (47)
+Q Consensus        37 ~~I~~a~~~T~~Wi~~~~~f   56 (69)
+                      +--+.+++.|+.|+|+...+
+T Consensus        63 ELFk~~YP~~ynwfFE~n~~   82 (140)
+T A0A098FZ64_9GA   63 ELFKIAYPRTFNYLFEKNVF   82 (140)
+T ss_pred             HHHHHHhHHHHHHHHhcCCC
+Confidence            44578899999999997543
+
+
+No 3
+>PF16496.5 ; SWIRM-assoc_2 ; SWIRM-associated domain at the N-terminal
+Probab=34.08  E-value=2.2  Score=25.73  Aligned_cols=22  Identities=27%  Similarity=0.729  Sum_probs=18.3  Template_Neff=5.700
+
+Q XP_013424499.1   22 AATCEWLLSKFEYRDWQDEEKL   43 (47)
+Q Consensus        44 ~~T~~Wi~~~~~f~~Wl~~~~~   65 (69)
+                      .-+..||++...|.+|++..+.
+T Consensus       227 ~V~arWl~Ds~~fNEWMNEeDY  248 (405)
+T E0VYN8_PEDHC/5  227 RVAATWVLELEQYNEWMTEEDY  248 (405)
+T ss_pred             EEeeehhhcHHHHcCCCCHHHh
+Confidence            3489999999999999986653
+
+
+No 4
+>PF17671.1 ; DUF5531 ; Family of unknown function (DUF5531)
+Probab=18.03  E-value=7.4  Score=20.25  Aligned_cols=16  Identities=19%  Similarity=0.450  Sum_probs=13.5  Template_Neff=2.300
+
+Q XP_013424499.1    1 ----LLDALNFEQLDT   12 (47)
+Q Consensus        19 ~~~~~L~sL~F~~m~~   34 (69)
+                      .++.+|+.|-|.+|.-
+T Consensus        86 LQDKilERLmfsEMKL  101 (152)
+T G1QCS6_MYOLU/1   86 LQDKILERLMFSEMKL  101 (152)
+T ss_pred             HHHHHHHHHhhchHhH
+Confidence            3788999999999864
+
+
+No 5
+>PF16514.5 ; NADH-UOR_E ; putative NADH-ubiquinone oxidoreductase chain E
+Probab=15.31  E-value=9.4  Score=17.52  Aligned_cols=16  Identities=25%  Similarity=0.645  Sum_probs=11.2  Template_Neff=2.600
+
+Q XP_013424499.1    1 -----LLDALNFEQLD   11 (47)
+Q Consensus        18 ~~~~~~L~sL~F~~m~   33 (69)
+                      +.-..+|.||.|.+.+
+T Consensus        52 e~g~eLmNSlkFNevD   67 (74)
+T E6WYR3_NITSE/1   52 EHGHELMNSLKFNEVD   67 (74)
+T ss_pred             HhCCeeeeeecccccC
+Confidence            3445688899887754
+
+
+No 6
+>PF02315.16 ; MDH ; Methanol dehydrogenase beta subunit
+Probab=11.60  E-value=14  Score=17.18  Aligned_cols=25  Identities=12%  Similarity=0.292  Sum_probs=18.4  Template_Neff=2.100
+
+Q XP_013424499.1    6 NFEQLDTRHATIKTAHAATCEWLLS   30 (47)
+Q Consensus        28 ~F~~m~~R~~~I~~a~~~T~~Wi~~   52 (69)
+                      ....|+.|-..-......|-.|+++
+T Consensus        58 si~aMe~RN~kR~~~fkkTGkf~yd   82 (85)
+T J7Q4V7_METSZ/9   58 SIQGMEERNKKRVENFKKTGKWEYD   82 (85)
+T ss_pred             HHHHHHHHHHHHHHHHHHhCcceee
+Confidence            4456888876666667789999876
+
+
+No 7
+>PF02248.16 ; Como_SCP ; Small coat protein
+Probab=10.88  E-value=15  Score=19.48  Aligned_cols=40  Identities=13%  Similarity=0.087  Sum_probs=28.4  Template_Neff=4.200
+
+Q XP_013424499.1    1 ---------LLDALNFEQLDTRHATIKTAHAATCEWLLSK   31 (47)
+Q Consensus        14 ~~~~~~~~~~L~sL~F~~m~~R~~~I~~a~~~T~~Wi~~~   53 (69)
+                      ......+-.+-++..-..+..+...+..++.++|+|-.+-
+T Consensus        86 d~~S~~~I~lhes~~~~s~~~~~~~~s~P~sg~~eFs~~i  125 (184)
+T Q66179_APMV/2-   86 EWSSTSRIDVRRAPGTEYLNAITVFTAEPHADEINFEIEI  125 (184)
+T ss_pred             hccceEEEEEEeCCCccceeEEEEEecCCCCcEEEEEEEE
+Confidence            3334444556666666667788888999999999988763
+
+
+No 8
+>PF11332.8 ; DUF3134 ; Protein of unknown function (DUF3134)
+Probab=7.48  E-value=25  Score=15.45  Aligned_cols=9  Identities=22%  Similarity=0.612  Sum_probs=5.8  Template_Neff=4.400
+
+Q XP_013424499.1   33 EYRDWQDEE   41 (47)
+Q Consensus        55 ~f~~Wl~~~   63 (69)
+                      ++.+||.+.
+T Consensus        23 SiLdWLe~t   31 (69)
+T K9XT91_STAC7/3   23 SLIDWLKAN   31 (69)
+T ss_pred             cHHHHHHHc
+Confidence            566777654
+
+
+No 9
+>PF14088.6 ; DUF4268 ; Domain of unknown function (DUF4268)
+Probab=6.33  E-value=28  Score=15.37  Aligned_cols=24  Identities=21%  Similarity=0.409  Sum_probs=14.2  Template_Neff=9.800
+
+Q XP_013424499.1    5 LNFEQLDTRHATIKTAHAATCEWL   28 (47)
+Q Consensus        27 L~F~~m~~R~~~I~~a~~~T~~Wi   50 (69)
+                      -.|..+..+++.|.........|-
+T Consensus        64 ~~~~~L~~~~~~ie~~~g~~l~W~   87 (134)
+T Q2NHY3_METST/1   64 ELFDYLSSQKDEIEKEMGITLDWK   87 (134)
+T ss_pred             HHHHHHHHCHHHHHHHhCCCCeee
+Confidence            334455556666776666666664
+
+
+No 10
+>PF12163.8 ; HobA ; DNA replication regulator
+Probab=6.28  E-value=31  Score=17.93  Aligned_cols=22  Identities=23%  Similarity=0.460  Sum_probs=18.6  Template_Neff=4.400
+
+Q XP_013424499.1   11 DTRHATIKTAHAATCEWLLSKF   32 (47)
+Q Consensus        33 ~~R~~~I~~a~~~T~~Wi~~~~   54 (69)
+                      +..+..|....++.|-|+|+.+
+T Consensus       120 ~~~~a~iA~~~~~sflWi~De~  141 (180)
+T Q30Q05_SULDN/1  120 DDRRADIAKRKDTSYFWIFDEE  141 (180)
+T ss_pred             CCccchhhhcCCCceEEeeccc
+Confidence            5577888888899999999975
+
+

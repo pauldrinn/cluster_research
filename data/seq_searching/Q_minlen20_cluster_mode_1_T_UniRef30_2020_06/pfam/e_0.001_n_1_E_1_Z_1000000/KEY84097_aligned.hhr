@@ -1,0 +1,177 @@
+Query         KEY84097.1
+Match_columns 586
+No_of_seqs    384 out of 384
+Neff          5.63548
+Searched_HMMs 293
+Date          Mon Jan 11 21:27:04 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KEY84097_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KEY84097_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KEY84097_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF05918.11 ; API5 ; Apoptosis   31.3     2.4 0.00051   40.3   0.0  104  274-385    46-157 (540)
+  2 PF13998.6 ; MgrB ; MgrB protei  22.0     5.1 0.00097   23.5   0.0   16  348-363     7-22  (29)
+  3 PF14071.6 ; YlbD_coat ; Putati  15.3     8.5  0.0017   28.9   0.0   40  259-298    61-100 (114)
+  4 PF14098.6 ; SSPI ; Small, acid  14.3     9.7  0.0019   26.0   0.0   49  337-385    13-61  (64)
+  5 PF12039.8 ; DUF3525 ; Protein   10.8      15  0.0028   32.9   0.0   94   93-197   246-341 (364)
+  6 PF12460.8 ; MMS19_C ; RNAPII t  10.6      13  0.0029   31.9   0.0   32  206-240   194-225 (426)
+  7 PF02232.15 ; Alpha_TIF ; Alpha   9.2      19  0.0036   31.9   0.0   61   81-145   160-220 (346)
+  8 PF12530.8 ; DUF3730 ; Protein    6.4      26  0.0057   28.0   0.0   85  136-237   150-234 (234)
+  9 PF13251.6 ; DUF4042 ; Domain o   6.4      26  0.0058   26.4   0.0   47  176-226   109-155 (176)
+ 10 PF00523.18 ; Fusion_gly ; Fusi   5.5      35   0.007   31.4   0.0   61  251-311   107-171 (513)
+
+No 1
+>PF05918.11 ; API5 ; Apoptosis inhibitory protein 5 (API5)
+Probab=31.28  E-value=2.4  Score=40.34  Aligned_cols=104  Identities=14%  Similarity=0.291  Sum_probs=57.6  Template_Neff=7.500
+
+Q KEY84097.1      236 SKLMDAIPDLMNVPDLIKSVIDVATDVYNVYN-GIGM-MAKGMKPLPKQKNWYVALRYTDMLIQAKAF------RKLEEF  307 (509)
+Q Consensus       274 ~kllea~~~l~e~~~~~~~i~~~~~~l~~~~~-~~~~-~~~~~~~~~k~~~WY~ALR~td~LI~~g~~------~~Le~l  345 (586)
+                      .+++.-|+++.+      ++++++-++-+-.. .+.- .++++....+....| .-|.+|.|+|-=+-      ...+.-
+T Consensus        46 ~~ff~~Fp~l~~------~ai~a~~dLced~d~~vR~~aik~L~~l~k~~~~~-v~riaDVL~QLLqsdd~~E~~~V~~s  118 (540)
+T Q8GXH2_ARATH/1   46 PRYFKFFTSLAT------EAFDAYLDIFDEVEVGVRVQAIRGLPLFCKDTPDF-ISKIIDVLVQCLNTEEFVERDAVHKA  118 (540)
+T ss_pred             HHHHhhcHHHHH------HHHHHHHHHhcCCCHHHHHHHHhhhHHHHhhCHHH-HHHHHHHHHHHhcCCCHHHHHHHHHH
+Confidence            466677777764      33333333333211 1222 455555555554444 56799999764332      222222
+
+
+Q KEY84097.1      308 IRGVPCCQGKEFLCGLYAQLEQAWKAGDSSMKAQVVELLqlmnQ  351 (509)
+Q Consensus       346 v~~~pcr~d~~FlcGLc~qLEqi~~~~d~~~r~~ai~fL....~  385 (586)
+                      +...--.+-+.++.|||.|+...-.. ++..|..++.||    .
+T Consensus       119 L~~ll~~dpk~tL~~lf~qi~~~~~~-~~~~R~~~l~Fl....~  157 (540)
+T Q8GXH2_ARATH/1  119 LMSLFRQDTKASLTALFKHTEATLST-DEQIREKVLHFI....R  157 (540)
+T ss_pred             HHHHHccChHHHHHHHHHHHhcCCCC-cHHHHHHHHHHH....H
+Confidence            22222235667999999999876221 256899999997    3
+
+
+No 2
+>PF13998.6 ; MgrB ; MgrB protein
+Probab=21.97  E-value=5.1  Score=23.48  Aligned_cols=16  Identities=31%  Similarity=0.659  Sum_probs=14.0  Template_Neff=3.600
+
+Q KEY84097.1      310 GVPCCQGKEFLCGLYA  325 (509)
+Q Consensus       348 ~~pcr~d~~FlcGLc~  363 (586)
+                      +.-|.++.+|..|+|.
+T Consensus         7 ~~~cdQ~~~F~~GiC~   22 (29)
+T W0HSM0_9GAMM/2    7 NSFCDQGGDFFSGMCL   22 (29)
+T ss_pred             HhhccCCCCceeeeee
+Confidence            5679999999999996
+
+
+No 3
+>PF14071.6 ; YlbD_coat ; Putative coat protein
+Probab=15.29  E-value=8.5  Score=28.94  Aligned_cols=40  Identities=8%  Similarity=0.132  Sum_probs=31.4  Template_Neff=5.500
+
+Q KEY84097.1      221 QGAAKVAGAVPTMDLSKLMDAIPDLMNVPDLIKSVIDVAT  260 (509)
+Q Consensus       259 ~g~akiasAV~~lDp~kllea~~~l~e~~~~~~~i~~~~~  298 (586)
+                      ..+.+|.+.|.+||++++-..+..+..+++.+.+++...+
+T Consensus        61 ~~~~~l~~~lkniD~~~vq~~i~~~~~ai~~vQ~ll~qfq  100 (114)
+T K0IYX0_AMPXN/1   61 KWSDQLKNLLDKIELDNIDQHLKQADSAITELKKLITHFS  100 (114)
+T ss_pred             HHHHHHHHHHHhCCHHHHHHHHHHHHHHHHHHHHHHHHHh
+Confidence            3456788899999999999988888887777777765433
+
+
+No 4
+>PF14098.6 ; SSPI ; Small, acid-soluble spore protein I
+Probab=14.32  E-value=9.7  Score=25.95  Aligned_cols=49  Identities=16%  Similarity=0.174  Sum_probs=41.5  Template_Neff=4.300
+
+Q KEY84097.1      299 KAFRKLEEFIRGVPCCQGKEFLCGLYAQLEQAWKAGDSSMKAQVVELLqlmnQ  351 (509)
+Q Consensus       337 g~~~~Le~lv~~~pcr~d~~FlcGLc~qLEqi~~~~d~~~r~~ai~fL....~  385 (586)
+                      ..-..|+..|..+--..++..|=||--.+|-+|...+++.|+..++-|    .
+T Consensus        13 ~s~~el~~~I~daI~~~eE~~LPGLGVlFE~iW~~s~~~~k~~~~~~L....~   61 (64)
+T R6T0M2_9CLOT/4   13 DSEESIYDAIDESVKNGEEVTLPGLGVFMSIIWENSNDEDKEKLVKCL....K   61 (64)
+T ss_pred             CCHHHHHHHHHHHHHcCccccccchHHHHHHHHHcCCHHHHHHHHHHH....H
+Confidence            345678888888777789999999999999999999988998888766    3
+
+
+No 5
+>PF12039.8 ; DUF3525 ; Protein of unknown function (DUF3525)
+Probab=10.84  E-value=15  Score=32.88  Aligned_cols=94  Identities=12%  Similarity=0.106  Sum_probs=50.3  Template_Neff=3.600
+
+Q KEY84097.1       53 LYVPEAAELSSAVTGEDYHNLVVAFANAIIKGTSDGNILD--QKLLMNYAYVLQHAKGILSAATAQLGPVVVSLQKRLEG  130 (509)
+Q Consensus        93 ~~i~E~v~La~v~d~e~yr~Ll~~f~nai~~~t~d~~lLd--~~LL~gl~~~lr~~~~~~~~~~~dL~~vL~~L~~RL~~  170 (586)
+                      +...||+.+.|.-. +.+-+++..+..+|.      .+=+  +..+..|+..|+.....+.   .-+-.++..|..-++.
+T Consensus       246 ~~~~~i~~mpp~~~-~~wA~~ld~~h~~Ls------~~s~~~~r~~~~~i~WLk~~~~~l~---~~~~pL~~~L~~~~~~  315 (364)
+T Q80L37_9VIRU/1  246 PKGTRILVMPNWKP-DNWARLIDETHRVLS------QFTHYTPRVLNELVVWLKGLGENLY---RVAEPILMLLVRAMRA  315 (364)
+T ss_pred             CCCceeeeCCCCCC-ChHHHHHHHHHHHHH------HHhccchHHHHHHHHHHHHHHHHHH---HHHHHHHHHHHHHHHH
+Confidence            34455555544333 445555555555442      1222  5666666666666444432   1234455555555555
+
+
+Q KEY84097.1      131 AINQAGNGTQYQlqLVCTLSAVLDAMIDL  159 (509)
+Q Consensus       171 a~~~~~~e~~y~..Ll~tlS~vLDaMvd~  197 (586)
+                      +...+ ...-+.  +..+++.+||.|-..
+T Consensus       316 ~~tvs-~~~~r~..l~~~~~~lld~~~g~  341 (364)
+T Q80L37_9VIRU/1  316 AKSVS-DRATRS..IYHCLCHWLDVMYGG  341 (364)
+T ss_pred             HHHHH-HHHHHH..HHHHHHHHHHHHhCC
+Confidence            54433 336666  778888888887553
+
+
+No 6
+>PF12460.8 ; MMS19_C ; RNAPII transcription regulator C-terminal
+Probab=10.57  E-value=13  Score=31.91  Aligned_cols=32  Identities=13%  Similarity=-0.002  Sum_probs=13.7  Template_Neff=10.100
+
+Q KEY84097.1      168 ALHEPLREQLDNLASHQEIRLAQAATYAREALVGL  202 (509)
+Q Consensus       206 ~lhePL~~~L~~L~~~~ep~LaqqA~YA~QAL~~I  240 (586)
+                      .+...|.+.+....++.++....+|   .++|..+
+T Consensus       194 ~~l~~l~~~~~~~~~~~~~~~r~~a---~~~l~~l  225 (426)
+T C4R6W9_KOMPG/5  194 DVLSSLVEITRDSKHFESLFERMGF---LELICLL  225 (426)
+T ss_pred             HHHHHHHHHHhccCCCCCHHHHHHH---HHHHHHH
+Confidence            3344444422223344555554443   4444444
+
+
+No 7
+>PF02232.15 ; Alpha_TIF ; Alpha trans-inducing protein (Alpha-TIF)
+Probab=9.18  E-value=19  Score=31.88  Aligned_cols=61  Identities=10%  Similarity=0.046  Sum_probs=46.8  Template_Neff=3.400
+
+Q KEY84097.1       41 SMIKVFQDNRRLLYVPEAAELSSAVTGEDYHNLVVAFANAIIKGTSDGNILDQKLLMNYAYVLQH  105 (509)
+Q Consensus        81 ~mVe~F~~~~~~~~i~E~v~La~v~d~e~yr~Ll~~f~nai~~~t~d~~lLd~~LL~gl~~~lr~  145 (586)
+                      .+-+.|+..-...|++|++.|+.++=--.|-.+.+.+.-.+    -......+++..+|.+-..+
+T Consensus       160 ~~~~~~r~~i~~rYYRE~arlArllyLHLYL~~~RevSwrl----~a~Q~~~q~lF~~L~y~w~q  220 (346)
+T VP16_GAHVM/65-  160 GACSKARQYIAERYYREAARFAKLLYVHLYLSTTRDVSQRL----EASQMGRQNIFVYLKCEWLQ  220 (346)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH----HHHHccCcchhhheeeeehh
+Confidence            44455555556789999999999999999999998888777    55667777777777665544
+
+
+No 8
+>PF12530.8 ; DUF3730 ; Protein of unknown function (DUF3730)
+Probab=6.41  E-value=26  Score=27.99  Aligned_cols=85  Identities=15%  Similarity=0.117  Sum_probs=47.3  Template_Neff=8.000
+
+Q KEY84097.1       96 LMNYAYVLQHAKGILSAATAQLGPVVVSLQKRLEGAINQAGNGTQYQlqLVCTLSAVLDAMIDLKIYGLDRVALHEPLRE  175 (509)
+Q Consensus       136 L~gl~~~lr~~~~~~~~~~~dL~~vL~~L~~RL~~a~~~~~~e~~y~..Ll~tlS~vLDaMvd~kV~GIdRe~lhePL~~  213 (586)
+                      |+++..+...       +--|+.+++..+.+++....+..         ++..+..++-.-....+..-..+++....+.
+T Consensus       150 le~l~~Lc~~-------evld~~s~w~vl~~~l~~~~~p~-------..v~~~lc~ll~~~~~~~~~~e~~~~~~~~il~  213 (234)
+T C3YQ50_BRAFL/1  150 LQGLTALCQA-------EVVDVRTAWSVLASKLEADQRPL-------..VLSHVCELFSLVPALAVNTPEYEKFQEQVTF  213 (234)
+T ss_pred             HHHHHHHHHC-------CCCCHHHHHHHHHHHhccCCCHH-------..HHHHHHHHHHHHhHhcCCCHHHHHHHHHHHH
+Confidence            5555555444       23468889999999888654322         2222223332222222333345556666677
+
+
+Q KEY84097.1      176 QLDNLASHQEIRLAQAATYAREAL  199 (509)
+Q Consensus       214 ~L~~L~~~~ep~LaqqA~YA~QAL  237 (586)
+                      .|=.+..+++++.   ++.||+||
+T Consensus       214 ~LW~~~~~~~~~V---~~aA~~aL  234 (234)
+T C3YQ50_BRAFL/1  214 LLWQLIKSKSPVV---AGAAFAAL  234 (234)
+T ss_pred             HHHHHHcCCCHHH---HHHHHHhC
+Confidence            7777777777554   55556554
+
+
+No 9
+>PF13251.6 ; DUF4042 ; Domain of unknown function (DUF4042)
+Probab=6.40  E-value=26  Score=26.37  Aligned_cols=47  Identities=15%  Similarity=0.094  Sum_probs=25.0  Template_Neff=8.600
+
+Q KEY84097.1      136 GNGTQYQlqLVCTLSAVLDAMIDLKIYGLDRVALHEPLREQLDNLASHQEIRL  188 (509)
+Q Consensus       176 ~~e~~y~..Ll~tlS~vLDaMvd~kV~GIdRe~lhePL~~~L~~L~~~~ep~L  226 (586)
+                      +....++  ++.+++.+....-..+   +.+ .+-.++.+.+..+-.+.|+..
+T Consensus       109 ~~~v~~~..~lk~l~~lv~~~py~~---l~~-~ll~~l~~~~~~~l~~~d~~~  155 (176)
+T B4MSL8_DROWI/3  109 VPPVLTQ..CLKCLAVLVQATPFEQ---LEM-GFVYEFVPYVKKLAKHNDTPV  155 (176)
+T ss_pred             CHHHHHH..HHHHHHHHHHcCCHHH---cCC-chHHHHHHHHHHHHhCCCHHH
+Confidence            4557777  8888888877665432   111 222334444444444444433
+
+
+No 10
+>PF00523.18 ; Fusion_gly ; Fusion glycoprotein F0
+Probab=5.47  E-value=35  Score=31.41  Aligned_cols=61  Identities=8%  Similarity=0.028  Sum_probs=35.9  Template_Neff=4.700
+
+Q KEY84097.1      213 LRHAYTIAQGAAKVAGAVPTMDLSKLMDAIPDLMNVP----DLIKSVIDVATDVYNVYNGIGMMA  273 (509)
+Q Consensus       251 lR~s~~vi~g~akiasAV~~lDp~kllea~~~l~e~~----~~~~~i~~~~~~l~~~~~~~~~~~  311 (586)
+                      -|.++.+++.++.|++||.-....+....+..+.+.+    +++.++-+++..+.-+.+++++++
+T Consensus       107 ~Rf~G~iiGtaAqITAgvAL~~a~~na~~I~~lk~ai~~TN~AV~~l~~~~~~l~~aV~~lQd~I  171 (513)
+T FUS_HRSVB/29-5  107 RRFLGFLLGVGSAIASGIAVSKVLHLEGEVNKIKNALLSTNKAVVSLSNGVSVLTSKVLDLKNYI  171 (513)
+T ss_pred             eeEEeehHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            3555556667888888887666655555555555443    344444455555555555665543
+
+

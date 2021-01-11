@@ -1,0 +1,159 @@
+Query         RDW63506.1
+Match_columns 200
+No_of_seqs    2527 out of 2567
+Neff          8.93131
+Searched_HMMs 100
+Date          Mon Jan 11 21:31:04 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/RDW63506_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/RDW63506_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/RDW63506_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF06985.11 ; HET ; Heterokaryo  99.8 5.5E-26 1.1E-29  157.1   0.0  116   55-173     1-127 (127)
+  2 PF03139.15 ; AnfG_VnfG ; Vanad  12.4      13  0.0023   21.4   0.0   16   97-112    51-66  (111)
+  3 PF09045.10 ; L27_2 ; L27_2      12.0      13  0.0025   18.5   0.0   19  157-175    32-50  (58)
+  4 PF06708.11 ; DUF1195 ; Protein  11.7      14  0.0025   22.2   0.0   20  114-133    80-99  (147)
+  5 PF01099.17 ; Uteroglobin ; Ute  11.5      14  0.0026   19.7   0.0   24  107-130    64-87  (89)
+  6 PF02258.16 ; SLT_beta ; Shiga-   8.3      23  0.0041   17.8   0.0   24  157-180    23-46  (70)
+  7 PF09252.10 ; Feld-I_B ; Allerg   7.9      23  0.0044   17.6   0.0   23  108-130    42-64  (67)
+  8 PF15834.5 ; THEG4 ; Testis hig   6.2      33  0.0059   21.2   0.0   22    2-23     34-55  (201)
+  9 PF17395.2 ; DUF5403 ; Family o   3.0      79   0.015   16.7   0.0   19  124-142     1-19  (93)
+ 10 PF03139.15 ; AnfG_VnfG ; Vanad   2.9      85   0.015   17.4   0.0   27  164-190    19-48  (111)
+
+No 1
+>PF06985.11 ; HET ; Heterokaryon incompatibility protein (HET)
+Probab=99.82  E-value=5.5e-26  Score=157.06  Aligned_cols=116  Identities=23%  Similarity=0.391  Sum_probs=86.9  Template_Neff=10.800
+
+Q RDW63506.1       25 YAILSHTWGDDnQEVTFKDLTEGSGESKAGYQKIRFCGEQAA-RDGLRYFWVDTCCIDKSDAVELQRAINSMFRWYQDAA  103 (150)
+Q Consensus        55 Y~ALSy~WG~~.~~~~~~~~~~~~~~~~~~~~~l~~a~~~~~-~~~~~~lWIDalCI~Q~d~~e~~~qv~~M~~IY~~A~  132 (200)
+                      |.||||+||+.  ........++..  ...+..+.+++..++ ..|.+|+|||.+||+|++..|+..++..|+.||++|.
+T Consensus         1 Y~alSy~Wg~~.-~~~~~i~~~~~~--~~~~~~~~~~l~~~~~~~~~~~~WiD~~Ci~q~~~~~~~~~i~~m~~iy~~a~   76 (127)
+T Q0TVU4_PHANO/4    1 FEAISYVWGNE.-QFPHTIQINGNT--MPIGLTLDHALHQSRCLDKERVFWVDALCINQADTFERNSQVQLMGRIYSSAT   76 (127)
+T ss_pred             CEEEEeeeCCC.-CCCeEEEECCEE--EEcChhHHHHHHHHhhcCCCCEEEEEEEEeCCCCHHHHHHHHHHHHHHHhcCC
+Confidence            89999999986  222222223322  234566788887778 8899999999999999999999999999999999999
+
+
+Q RDW63506.1      104 KCYVYLSDVWMPSHDQveSD----------SNLGFEATFRTSRWFRRGWTLQE  146 (150)
+Q Consensus       133 ~~iv~l~~~~~~~~~~..~~----------~~~~~~~~~~~~~w~~R~W~~QE  173 (200)
+                      .|+++++.........  ..          ........+...+||+|+|++||
+T Consensus        77 ~~iv~~~~~~~~~~~~..~~~~~~~~~~~~~~~~~~~~~~~~~w~~R~WtlQE  127 (127)
+T Q0TVU4_PHANO/4   77 TVLIWLGCGDEDEVKA..MQMITSREHWNLEMRQILTRIFQGPWFRRVWVVQE  127 (127)
+T ss_pred             EEEEeCCCCChhHHHH..HHHHHhhhhcchhhHHHHHHHHCCCCcCceeeecC
+Confidence            9999998776543211  00          00123345678999999999998
+
+
+No 2
+>PF03139.15 ; AnfG_VnfG ; Vanadium/alternative nitrogenase delta subunit
+Probab=12.44  E-value=13  Score=21.42  Aligned_cols=16  Identities=19%  Similarity=0.522  Sum_probs=12.6  Template_Neff=3.700
+
+Q RDW63506.1       68 DGLRYFWVDTCCIDKS   83 (150)
+Q Consensus        97 ~~~~~lWIDalCI~Q~  112 (200)
+                      ...++.|+||.|..-+
+T Consensus        51 p~drcy~~DA~~la~~   66 (111)
+T H6LJU0_ACEWD/6   51 LEDKCYWVDAVYLADA   66 (111)
+T ss_pred             hhhhhHHHHHHHHHHH
+Confidence            4468999999997654
+
+
+No 3
+>PF09045.10 ; L27_2 ; L27_2
+Probab=11.99  E-value=13  Score=18.50  Aligned_cols=19  Identities=26%  Similarity=0.225  Sum_probs=16.2  Template_Neff=5.300
+
+Q RDW63506.1      130 ATFRTSRWFRRGWTLQELL  148 (150)
+Q Consensus       157 ~~~~~~~w~~R~W~~QE~~  175 (200)
+                      ..++.+|.|.+.-++|+.+
+T Consensus        32 i~~L~sPlF~~Il~lQdSl   50 (58)
+T MPDZ_RAT/6-63    32 KSVLQSPLFSQILSLQTSL   50 (58)
+T ss_pred             HHHHhCHHHHHHHHHHHHH
+Confidence            4678899999999999964
+
+
+No 4
+>PF06708.11 ; DUF1195 ; Protein of unknown function (DUF1195)
+Probab=11.70  E-value=14  Score=22.19  Aligned_cols=20  Identities=15%  Similarity=0.423  Sum_probs=17.7  Template_Neff=2.800
+
+Q RDW63506.1       85 AVELQRAINSMFRWYQDAAK  104 (150)
+Q Consensus       114 ~~e~~~qv~~M~~IY~~A~~  133 (200)
+                      .+||..-|..|-++|.+...
+T Consensus        80 vEEREKvVrhMWDVYt~s~~   99 (147)
+T Q8LFK6_ARATH/7   80 MEEREKVVKHMWDVYNNGRR   99 (147)
+T ss_pred             hhhHHHHHHHHHhccccCCC
+Confidence            57999999999999999864
+
+
+No 5
+>PF01099.17 ; Uteroglobin ; Uteroglobin family
+Probab=11.51  E-value=14  Score=19.69  Aligned_cols=24  Identities=4%  Similarity=0.004  Sum_probs=20.1  Template_Neff=7.600
+
+Q RDW63506.1       78 CCIDKSDAVELQRAINSMFRWYQD  101 (150)
+Q Consensus       107 lCI~Q~d~~e~~~qv~~M~~IY~~  130 (200)
+                      -|+++-..+++..-...|..||..
+T Consensus        64 ~C~d~ls~e~k~~v~~ll~~i~~s   87 (89)
+T F1RPW6_PIG/1-8   64 QCANGISFKKKILLTKTLVEILVK   87 (89)
+T ss_pred             HHHHcCCHHHHHHHHHHHHHHHhc
+Confidence            388888888888888899888865
+
+
+No 6
+>PF02258.16 ; SLT_beta ; Shiga-like toxin beta subunit
+Probab=8.26  E-value=23  Score=17.76  Aligned_cols=24  Identities=25%  Similarity=0.473  Sum_probs=18.3  Template_Neff=1.400
+
+Q RDW63506.1      130 ATFRTSRWFRRGWTLQELLAP---  150 (150)
+Q Consensus       157 ~~~~~~~w~~R~W~~QE~~l~r~~  180 (200)
+                      .......+|+--|-+|-++++..+
+T Consensus        23 vkv~~~e~~tnrwnlq~ll~saql   46 (70)
+T STXB_SHIDS/20-   23 VKVGDKELFTNRWNLQSLLLSAQI   46 (70)
+T ss_pred             EEECCeeeeecccchHHHHHHhee
+Confidence            345567889999999998776544
+
+
+No 7
+>PF09252.10 ; Feld-I_B ; Allergen Fel d I-B chain
+Probab=7.90  E-value=23  Score=17.61  Aligned_cols=23  Identities=9%  Similarity=0.052  Sum_probs=18.4  Template_Neff=6.900
+
+Q RDW63506.1       79 CIDKSDAVELQRAINSMFRWYQD  101 (150)
+Q Consensus       108 CI~Q~d~~e~~~qv~~M~~IY~~  130 (200)
+                      |+|+....+|..-...|..|..+
+T Consensus        42 C~D~~~~~~k~~~~~~l~~i~~s   64 (67)
+T M3Y7S1_MUSPF/2   42 CYNEKGLEAKGLDLIVMTTITTS   64 (67)
+T ss_pred             HHhhcCHHHHHHHHHHHHHHHhc
+Confidence            88888788888888888887754
+
+
+No 8
+>PF15834.5 ; THEG4 ; Testis highly expressed protein 4
+Probab=6.24  E-value=33  Score=21.19  Aligned_cols=22  Identities=0%  Similarity=0.000  Sum_probs=18.1  Template_Neff=2.200
+
+Q RDW63506.1        1 ----------------------    0 (150)
+Q Consensus         2 ~~i~~~~~~~~~~~~~y~~l~~   23 (200)
+                      +|-|.+.+-+....|.|.||.-
+T Consensus        34 erAq~WVevmrAatFtysPLLy   55 (201)
+T G1Q8I9_MYOLU/1   34 ERAQEWVKVMRATTFTYSPLLY   55 (201)
+T ss_pred             HHHHHHHHHHHHHhcccCHHHH
+Confidence            4667888888889999999973
+
+
+No 9
+>PF17395.2 ; DUF5403 ; Family of unknown function (DUF5403)
+Probab=3.02  E-value=79  Score=16.69  Aligned_cols=19  Identities=21%  Similarity=0.293  Sum_probs=13.6  Template_Neff=5.400
+
+Q RDW63506.1       95 MFRWYQDAAKCYVYLSDVW  113 (150)
+Q Consensus       124 M~~IY~~A~~~iv~l~~~~  142 (200)
+                      |..+|+++..+++-+.+..
+T Consensus         1 Ma~v~~~~~~~vA~~~gV~   19 (93)
+T A0A0H5CNC9_9PS    1 MAKVYDGTDDFVAHLPEVR   19 (93)
+T ss_pred             CceecCChHHHHhcCHHHH
+Confidence            7788888877777665543
+
+
+No 10
+>PF03139.15 ; AnfG_VnfG ; Vanadium/alternative nitrogenase delta subunit
+Probab=2.90  E-value=85  Score=17.38  Aligned_cols=27  Identities=7%  Similarity=0.223  Sum_probs=20.1  Template_Neff=3.700
+
+Q RDW63506.1      137 WFRRGWTLQE---LLAP-------------  150 (150)
+Q Consensus       164 w~~R~W~~QE---~~l~r~~~~~~~~~~~~  190 (200)
+                      .++|+|--+|   .++.+...++||+....
+T Consensus        19 F~SR~WDRe~qn~gIL~~t~qlL~ge~~~~   48 (111)
+T H6LJU0_ACEWD/6   19 FHSRTWDRERQNENILGMTTQILCDEPVTA   48 (111)
+T ss_pred             HhchHhHHHHHHHHHHHHHHHHhcCCCCCC
+Confidence            4788998776   47888888888866543
+
+

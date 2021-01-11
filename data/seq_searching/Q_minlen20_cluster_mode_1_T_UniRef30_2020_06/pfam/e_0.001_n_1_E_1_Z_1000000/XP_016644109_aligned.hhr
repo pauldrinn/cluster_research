@@ -1,0 +1,177 @@
+Query         XP_016644109.1
+Match_columns 511
+No_of_seqs    2827 out of 2918
+Neff          8.37841
+Searched_HMMs 347
+Date          Mon Jan 11 21:33:21 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/XP_016644109_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_016644109_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_016644109_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF01734.22 ; Patatin ; Patatin  99.6   2E-20 4.2E-24  169.3   0.0  190  117-316     1-221 (221)
+  2 PF01735.18 ; PLA2_B ; Lysophos  96.0   2E-05   4E-09   77.2   0.0   68  116-183     2-71  (488)
+  3 PF01735.18 ; PLA2_B ; Lysophos  37.7     1.7 0.00034   39.2   0.0   20  299-318   301-321 (488)
+  4 PF07812.12 ; TfuA ; TfuA-like   32.8     2.5 0.00046   30.5   0.0   23  155-177    23-45  (120)
+  5 PF06361.11 ; RTBV_P12 ; Rice t  23.4     4.9 0.00087   26.4   0.0   43  124-170    47-89  (110)
+  6 PF05728.12 ; UPF0227 ; Unchara  21.3     4.8   0.001   28.2   0.0   17  157-173    65-81  (190)
+  7 PF08840.11 ; BAAT_C ; BAAT / A  18.7       6  0.0013   28.5   0.0   17  157-173    25-41  (210)
+  8 PF00561.20 ; Abhydrolase_1 ; a  16.5     7.2  0.0015   27.8   0.0   16  158-173    72-87  (237)
+  9 PF05705.14 ; DUF829 ; Eukaryot  16.4     7.3  0.0016   27.9   0.0   18  156-173    68-85  (238)
+ 10 PF03583.14 ; LIP ; Secretory l  14.2       9  0.0019   28.4   0.0   17  157-173    74-90  (291)
+
+No 1
+>PF01734.22 ; Patatin ; Patatin-like phospholipase
+Probab=99.59  E-value=2e-20  Score=169.34  Aligned_cols=190  Identities=14%  Similarity=0.090  Sum_probs=120.7  Template_Neff=11.700
+
+Q XP_016644109.1    1 ---------------------------M-DyeTEDVGDPVFLLSLGGTSTGGLMAIMLGRLRMNTQEVIDEYEKLAKKVF   52 (257)
+Q Consensus       117 LsLdGGG~R-G~~~lgvL~~L~~~l~~~~~..~~~~~p~~~fD~I~GTStGaiiA~~la~~g~s~~e~~~~~~~~~~~iF  193 (511)
+                      |+|+|||.| |++++++|++|++.+..         .....||+|+|||+||++|++++ .+++.+++.+.+.++....+
+T Consensus         1 l~l~GGG~~~~~~~~g~l~~l~~~~~~---..----~~~~~~~~i~G~S~Gai~a~~~~-~~~~~~~~~~~~~~~~~~~~   70 (221)
+T B8GC44_CHLAD/8    1 LVLAGGGVAGAAYEIGALCAIDQVLDH---..----LSVNEFDIYVGTSAGALINACLA-NNMSPRTLISVLERSLLGID   70 (221)
+T ss_pred             CcccCchHHHHHHHHHHHHHHHHHHhh---..----cccccceEEEEcCHHHHHHHHHH-CCCCHHHHHHHHHHhhcccc
+Confidence            689999999 99999999999888621         24568999999999999999999 57788888877777665544
+
+
+Q XP_016644109.1   53 KKKNR----R------FDRSFRESALEACIKETVDAHQRGTHMld----LEN--EKETG--------------------S   96 (257)
+Q Consensus       194 ~~~~~----~---~~~~~~~~~~~~L~~~l~~~l~~~~~~~~~..~~~l~~~~-~~~~~--------------------~  243 (511)
+                      .....    .   .......++...+++.+++.+.........  ........ .....                    .
+T Consensus        71 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~..~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  148 (221)
+T B8GC44_CHLAD/8   71 QLEPHHLYQLNLADLVRRGLQLPGAVVQALRRWLREGQEASLL..DLLETLAVGLPTGIYDSQALERYVRVALEQPGRSN  148 (221)
+T ss_pred             cCCcchhhhcccccccccccCChHHHHHHHHHHHHhcchhHHH..HHHHHhhcCCCCCccchhHHHHHHHhcccCCCccc
+Confidence            33320    0   113456777888888888777655433210  00000000 00000                    0
+
+
+Q XP_016644109.1   97 AFVVAMRKGGde-NTPTLFR--TYKGPG-e-VMDCQIWEAARATTAAPIIFKPAKLGSGnhVQTFIDGAVKWNNPSKIVL  171 (257)
+Q Consensus       244 v~V~at~~~~..~~~~~~f~--sy~~~~~.~~~~~~l~~AvrASsAaP~~F~Pv~i~~~..~~~yvDGGl~~NnP~~~a~  316 (511)
+                      ..........  ........  ....... ...+..+++|++||+|+|++|+|+++.+    ..|+|||+.+|+|+..++
+T Consensus       149 ~~~~~~~~~~..~~~~~~~~~~~~~~~~~.~~~~~~l~~a~~AS~a~P~~~~~~~i~~-..-~~~~DGg~~~n~P~~~~~  221 (221)
+T B8GC44_CHLAD/8  149 RFHDLDRELL..IIATDLDSGERAVFGLP.PLDQVPISLAVCASAAIPIFYRPVRIGD-..-RDYIDGGLRGTASLDIAI  221 (221)
+T ss_pred             ccCCCCceEE..EEEEEccCCCceecCCC.CccCCcHHHHHHHHccCccccCCEEECC-..-ceeecCcccCCCcchhcC
+Confidence            0000000000  00000000  0000111 3467899999999999999999999999    899999999999997653
+
+
+Q XP_016644109.1  172 neak  175 (257)
+Q Consensus       317 ....  316 (511)
+                          
+T Consensus       222 ....  221 (221)
+T B8GC44_CHLAD/8  222 ....  221 (221)
+T ss_pred             ....
+Confidence                
+
+
+No 2
+>PF01735.18 ; PLA2_B ; Lysophospholipase catalytic domain
+Probab=96.02  E-value=2e-05  Score=77.19  Aligned_cols=68  Identities=13%  Similarity=0.068  Sum_probs=46.9  Template_Neff=8.900
+
+Q XP_016644109.1    1 ----------------------------M-DyeTEDVGDPVFLLSLGGTSTGGLMAIMLGRLR-MNTQEVID   42 (257)
+Q Consensus       116 ~LsLdGGG~RG~-~~lgvL~~L~~~l~~~~~..~~~~~p~~~fD~I~GTStGaiiA~~la~~g-~s~~e~~~  183 (511)
+                      +|+++|||.|++ +++|+|++|..+......  .....+.+.+++|+|+|.|+++++.|+..+ .+.++..+
+T Consensus         2 gla~SGGG~RA~l~~~G~L~aL~~~~~~~~~..~~~~Gll~~v~yisgvSGGsw~~~~l~~~~~~~~~~~~~   71 (488)
+T PLB_KLULA/102-    2 AIACSGGGYRAMLSGAGMISAMDNRTDGAND..HGLGGLLQSSTYLAGLSGGNWLVGTLAYNNWTSVQAIIN   71 (488)
+T ss_pred             eEEECCHHHHHHHHHHHHHHHHhcCCCCccc..ccccchHHHHhhheeechhHHHHHHHHhcCCCCHHHHHh
+Confidence            689999999996 899999999844211000  001134567899999999999998887322 44444443
+
+
+No 3
+>PF01735.18 ; PLA2_B ; Lysophospholipase catalytic domain
+Probab=37.74  E-value=1.7  Score=39.17  Aligned_cols=20  Identities=25%  Similarity=0.320  Sum_probs=17.7  Template_Neff=8.900
+
+Q XP_016644109.1  154 QTFIDGAVK-WNNPSKIVLneak--  175 (257)
+Q Consensus       299 ~~yvDGGl~-~NnP~~~a~....~e  318 (511)
+                      ..++|||+. .|.|+..++    ..
+T Consensus       301 l~LvDGG~~~~NlPl~pLl....~~  321 (488)
+T PLB_KLULA/102-  301 LYLVDGGEDGQNIPLTPLL....QT  321 (488)
+T ss_pred             EEEeecccCCCCCCchHHc....cc
+Confidence            578999999 899999998    74
+
+
+No 4
+>PF07812.12 ; TfuA ; TfuA-like protein
+Probab=32.82  E-value=2.5  Score=30.46  Aligned_cols=23  Identities=30%  Similarity=0.447  Sum_probs=19.1  Template_Neff=5.000
+
+Q XP_016644109.1   14 LLSLGGTSTGGLMAIMLGRLRMN   36 (257)
+Q Consensus       155 fD~I~GTStGaiiA~~la~~g~s  177 (511)
+                      +.+++..|+||+-|+=|...||-
+T Consensus        23 v~V~GasSMGALRAaEl~~~GM~   45 (120)
+T S5XTV6_PARAH/5   23 IPVFGASSMGALRAAELAAFGME   45 (120)
+T ss_pred             CCEEeecChhHHHHHHhhhcCcE
+Confidence            46899999999999988766653
+
+
+No 5
+>PF06361.11 ; RTBV_P12 ; Rice tungro bacilliform virus P12 protein
+Probab=23.37  E-value=4.9  Score=26.35  Aligned_cols=43  Identities=7%  Similarity=0.111  Sum_probs=24.9  Template_Neff=1.100
+
+Q XP_016644109.1    1 -------------------M-DyeTEDVGDPVFLLSLGGTSTGGLMAIM   29 (257)
+Q Consensus       124 ~RG~~~lgvL~~L~~~l~~~~~..~~~~~p~~~fD~I~GTStGaiiA~~  170 (511)
+                      .+|+.++..|++|.+.++...      ........--+.+|+|+|+-+.
+T Consensus        47 skglvqlyalqeidkkinnl~-..---~qv~k~pttsgsssagaivpag   89 (110)
+T P2_RTBVP/1-110   47 SKGLVQLYALQEIDKKINNLT-..---TQVSKLPTTSGSSSAGAIVPAG   89 (110)
+T ss_pred             hhhHHHHHHHHHHHHHHHhhh-..---hhhccCCCCCCCCCcceeeccc
+Confidence            578999999999988765320      0111111223345677776544
+
+
+No 6
+>PF05728.12 ; UPF0227 ; Uncharacterised protein family (UPF0227)
+Probab=21.31  E-value=4.8  Score=28.24  Aligned_cols=17  Identities=41%  Similarity=0.556  Sum_probs=15.1  Template_Neff=12.800
+
+Q XP_016644109.1   16 SLGGTSTGGLMAIMLGR   32 (257)
+Q Consensus       157 ~I~GTStGaiiA~~la~  173 (511)
+                      .+.|.|+||.+|+.++.
+T Consensus        65 ~l~G~S~Gg~~a~~~~~   81 (190)
+T Q8XVP9_RALSO/4   65 ALIGSSLGGYYATWLAE   81 (190)
+T ss_pred             EEEEECHHHHHHHHHHH
+Confidence            68999999999998873
+
+
+No 7
+>PF08840.11 ; BAAT_C ; BAAT / Acyl-CoA thioester hydrolase C terminal
+Probab=18.70  E-value=6  Score=28.49  Aligned_cols=17  Identities=24%  Similarity=0.413  Sum_probs=15.2  Template_Neff=12.400
+
+Q XP_016644109.1   16 SLGGTSTGGLMAIMLGR   32 (257)
+Q Consensus       157 ~I~GTStGaiiA~~la~  173 (511)
+                      .+.|.|+||.+|+.++.
+T Consensus        25 ~l~G~S~Gg~~a~~~a~   41 (210)
+T ACOT5_MOUSE/20   25 GLLGISKGAELSLSMAS   41 (210)
+T ss_pred             EEEEECHHHHHHHHHHh
+Confidence            68999999999999883
+
+
+No 8
+>PF00561.20 ; Abhydrolase_1 ; alpha/beta hydrolase fold
+Probab=16.47  E-value=7.2  Score=27.79  Aligned_cols=16  Identities=38%  Similarity=0.395  Sum_probs=14.7  Template_Neff=13.500
+
+Q XP_016644109.1   17 LGGTSTGGLMAIMLGR   32 (257)
+Q Consensus       158 I~GTStGaiiA~~la~  173 (511)
+                      +.|.|.||.+|+.++.
+T Consensus        72 l~G~S~Gg~~a~~~a~   87 (237)
+T YPT1_CAEEL/226   72 LFGWSIGGFPVAWLAS   87 (237)
+T ss_pred             EEEEcHHHHHHHHHHH
+Confidence            8999999999999884
+
+
+No 9
+>PF05705.14 ; DUF829 ; Eukaryotic protein of unknown function (DUF829)
+Probab=16.37  E-value=7.3  Score=27.94  Aligned_cols=18  Identities=22%  Similarity=0.093  Sum_probs=15.6  Template_Neff=13.300
+
+Q XP_016644109.1   15 LSLGGTSTGGLMAIMLGR   32 (257)
+Q Consensus       156 D~I~GTStGaiiA~~la~  173 (511)
+                      -++.|.|+||.+|+.++.
+T Consensus        68 ~~l~G~S~Gg~~a~~~a~   85 (238)
+T Q16RZ9_AEDAE/5   68 LIFHVFSNGGAFLYQHVA   85 (238)
+T ss_pred             EEEEEEechHHHHHHHHH
+Confidence            378999999999998883
+
+
+No 10
+>PF03583.14 ; LIP ; Secretory lipase
+Probab=14.20  E-value=9  Score=28.36  Aligned_cols=17  Identities=29%  Similarity=0.128  Sum_probs=14.9  Template_Neff=13.400
+
+Q XP_016644109.1   16 SLGGTSTGGLMAIMLGR   32 (257)
+Q Consensus       157 ~I~GTStGaiiA~~la~  173 (511)
+                      .+.|.|+||.+|+.++.
+T Consensus        74 ~l~G~S~Gg~~a~~~a~   90 (291)
+T LIP10_CANAL/11   74 ALWGYSGGSLATGWAIS   90 (291)
+T ss_pred             EEEEEcHHHHHHHHHHH
+Confidence            57899999999998873
+
+

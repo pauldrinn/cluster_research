@@ -1,0 +1,150 @@
+Query         KIK59341.1
+Match_columns 58
+No_of_seqs    1003 out of 1065
+Neff          8.40885
+Searched_HMMs 100
+Date          Mon Jan 11 21:27:31 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KIK59341_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KIK59341_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KIK59341_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF15894.5 ; SgrT ; Inhibitor o  58.2    0.53 9.8E-05   18.9   0.0   16   32-47     25-40  (49)
+  2 PF11043.8 ; DUF2856 ; Protein   48.7    0.96 0.00018   20.6   0.0   23   27-50     12-34  (97)
+  3 PF13124.6 ; DUF3963 ; Protein   47.5     1.1 0.00019   17.1   0.0   11   38-48     12-22  (40)
+  4 PF18385.1 ; Tiam_CC_Ex ; T-lym  41.4     1.5 0.00027   19.9   0.0   17   32-48     23-39  (98)
+  5 PF02037.27 ; SAP ; SAP domain   35.2       2  0.0004   13.6   0.0   15   32-46     21-35  (35)
+  6 PF13050.6 ; DUF3911 ; Protein   25.3     4.2 0.00076   17.3   0.0   14   31-44      6-19  (77)
+  7 PF06945.13 ; DUF1289 ; Protein  21.3     5.3   0.001   14.8   0.0   18   38-55     22-39  (47)
+  8 PF16727.5 ; REV1_C ; DNA repai  18.1     6.7  0.0013   16.2   0.0   12   38-49      2-13  (104)
+  9 PF02520.17 ; DUF148 ; Domain o  17.1     7.3  0.0015   16.2   0.0   17   33-49     10-26  (103)
+ 10 PF06531.11 ; DUF1108 ; Protein  16.6     8.1  0.0015   16.5   0.0   22   35-56     58-79  (84)
+
+No 1
+>PF15894.5 ; SgrT ; Inhibitor of glucose uptake transporter SgrT
+Probab=58.21  E-value=0.53  Score=18.87  Aligned_cols=16  Identities=19%  Similarity=0.605  Sum_probs=13.8  Template_Neff=4.400
+
+Q KIK59341.1       28 EGTRVKIIEDIQKWAS   43 (49)
+Q Consensus        32 ~gTR~~iL~~I~~W~~   47 (58)
+                      .+-|.++|+++..|=-
+T Consensus        25 ~~qRl~mL~~lmQW~~   40 (49)
+T A7MQ55_CROS8/1   25 GKTPQRMLDEIMQWDV   40 (49)
+T ss_pred             cchHHHHHHHHhcccC
+Confidence            4789999999999953
+
+
+No 2
+>PF11043.8 ; DUF2856 ; Protein of unknown function (DUF2856)
+Probab=48.70  E-value=0.96  Score=20.57  Aligned_cols=23  Identities=17%  Similarity=0.302  Sum_probs=18.7  Template_Neff=3.900
+
+Q KIK59341.1       23 RRSCHEGTRVKIIEDIQKWASDPN   46 (49)
+Q Consensus        27 ~~~Cl~gTR~~iL~~I~~W~~~~~   50 (58)
+                      +. |..||..+||..+.+-+....
+T Consensus        12 r~-~~~~TKeEVLa~~~~~~~~~~   34 (97)
+T ABC2_BPP22/1-9   12 RR-CSGNSVSEVLDKFRKNYDLIM   34 (97)
+T ss_pred             Cc-CCCCCHHHHHHHHHHHHHHHc
+Confidence            45 999999999999988776543
+
+
+No 3
+>PF13124.6 ; DUF3963 ; Protein of unknown function (DUF3963)
+Probab=47.49  E-value=1.1  Score=17.10  Aligned_cols=11  Identities=45%  Similarity=0.930  Sum_probs=8.5  Template_Neff=1.900
+
+Q KIK59341.1       34 IIEDIQKWASD   44 (49)
+Q Consensus        38 iL~~I~~W~~~   48 (58)
+                      -.++|+.|+.+
+T Consensus        12 YFdDIQKWiRN   22 (40)
+T Q81YQ1_BACAN/4   12 YFHDIQKWIRN   22 (40)
+T ss_pred             HhHHHHHHHHH
+Confidence            45789999876
+
+
+No 4
+>PF18385.1 ; Tiam_CC_Ex ; T-lymphoma invasion and metastasis CC-Ex domain
+Probab=41.41  E-value=1.5  Score=19.91  Aligned_cols=17  Identities=18%  Similarity=0.530  Sum_probs=14.3  Template_Neff=3.600
+
+Q KIK59341.1       28 EGTRVKIIEDIQKWASD   44 (49)
+Q Consensus        32 ~gTR~~iL~~I~~W~~~   48 (58)
+                      +.+|..|+++|..|-.+
+T Consensus        23 ~~~r~~i~~QI~~ween   39 (98)
+T G7P1J8_MACFA/5   23 SKKKKTILDQIFVWEQN   39 (98)
+T ss_pred             HHHHHHHHHHHHHHHHH
+Confidence            46788999999999755
+
+
+No 5
+>PF02037.27 ; SAP ; SAP domain
+Probab=35.23  E-value=2  Score=13.63  Aligned_cols=15  Identities=13%  Similarity=0.211  Sum_probs=10.8  Template_Neff=10.000
+
+Q KIK59341.1       28 EGTRVKIIEDIQKWA   42 (49)
+Q Consensus        32 ~gTR~~iL~~I~~W~   46 (58)
+                      .|++.++.+.|..|+
+T Consensus        21 ~g~k~~l~~rl~~~~   35 (35)
+T A7EUI5_SCLS1/5   21 LGLKGVLIQRLVDHE   35 (35)
+T ss_pred             CCCHHHHHHHHHHcC
+Confidence            467777887777764
+
+
+No 6
+>PF13050.6 ; DUF3911 ; Protein of unknown function (DUF3911)
+Probab=25.26  E-value=4.2  Score=17.29  Aligned_cols=14  Identities=43%  Similarity=0.598  Sum_probs=10.2  Template_Neff=2.000
+
+Q KIK59341.1       27 HEGTRVKIIEDIQK   40 (49)
+Q Consensus        31 l~gTR~~iL~~I~~   44 (58)
+                      ..|||.+|.+-++-
+T Consensus         6 IkGTrqEV~EmLql   19 (77)
+T Q81T73_BACAN/1    6 IEGTRQEVVEMLQL   19 (77)
+T ss_pred             ecccHHHHHHHHHH
+Confidence            36999998776543
+
+
+No 7
+>PF06945.13 ; DUF1289 ; Protein of unknown function (DUF1289)
+Probab=21.35  E-value=5.3  Score=14.78  Aligned_cols=18  Identities=22%  Similarity=0.423  Sum_probs=11.8  Template_Neff=6.400
+
+Q KIK59341.1       34 IIEDIQKWASDPNSTS--   49 (49)
+Q Consensus        38 iL~~I~~W~~~~~~~~~~   55 (58)
+                      -+++|..|..-.+.....
+T Consensus        22 t~~Ei~~W~~~~~~~k~~   39 (47)
+T B6IUB6_RHOCS/1   22 SLEEITLWGSMSPDERRA   39 (47)
+T ss_pred             CHHHHHHHHhCCHHHHHH
+Confidence            468889998765544433
+
+
+No 8
+>PF16727.5 ; REV1_C ; DNA repair protein REV1 C-terminal domain
+Probab=18.10  E-value=6.7  Score=16.23  Aligned_cols=12  Identities=17%  Similarity=0.479  Sum_probs=9.3  Template_Neff=8.800
+
+Q KIK59341.1       34 IIEDIQKWASDP   45 (49)
+Q Consensus        38 iL~~I~~W~~~~   49 (58)
+                      |...|.+|+...
+T Consensus         2 ir~~l~~Wv~s~   13 (104)
+T R7Z190_CONA1/1    2 LRQAIRQWYDAF   13 (104)
+T ss_pred             HHHHHHHHHHHH
+Confidence            556788999876
+
+
+No 9
+>PF02520.17 ; DUF148 ; Domain of unknown function DUF148
+Probab=17.11  E-value=7.3  Score=16.20  Aligned_cols=17  Identities=24%  Similarity=0.210  Sum_probs=13.3  Template_Neff=8.400
+
+Q KIK59341.1       29 GTRVKIIEDIQKWASDP   45 (49)
+Q Consensus        33 gTR~~iL~~I~~W~~~~   49 (58)
+                      =|+.++-+.|.+|+..-
+T Consensus        10 lT~~e~~~~l~~Wa~k~   26 (103)
+T A8XAY4_CAEBR/1   10 LTVEQVIEKLTKLLKGK   26 (103)
+T ss_pred             CCHHHHHHHHHHHHHcC
+Confidence            37778888999999754
+
+
+No 10
+>PF06531.11 ; DUF1108 ; Protein of unknown function (DUF1108)
+Probab=16.64  E-value=8.1  Score=16.53  Aligned_cols=22  Identities=9%  Similarity=0.223  Sum_probs=15.2  Template_Neff=4.400
+
+Q KIK59341.1       31 RVKIIEDIQKWASDPNSTS---   49 (49)
+Q Consensus        35 R~~iL~~I~~W~~~~~~~~~~i   56 (58)
+                      +..+.+.|.+|+.......-+|
+T Consensus        58 ~e~l~~~i~~WIEenTDE~Dri   79 (84)
+T Q2FWQ7_STAA8/1   58 LDILNQSIYEWIEENTDERDRL   79 (84)
+T ss_pred             HHHHHHHHHHHHHhccchHHHH
+Confidence            4456677999998766555444
+
+

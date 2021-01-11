@@ -1,0 +1,218 @@
+Query         KIK07581.1
+Match_columns 44
+No_of_seqs    103 out of 166
+Neff          6.1054
+Searched_HMMs 164
+Date          Sat Jan  9 11:23:54 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/clustering_outputs/minlen20/cluster_mode_1/aligned_clusters/KIK07581_aligned.fa -o /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KIK07581_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KIK07581_aligned.a3m -d /mnt/d/hhsuite_databases/UniRef30_2020_06 -cpu 12 -e 0.001 -n 2 -E 0.01 -Z 1000000 -M 50 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 UniRef100_A0A067T5N1 Uncharact  99.5 7.2E-17 1.9E-22   96.2   0.0   44    1-44      1-45  (121)
+  2 UniRef100_A0A0C9WH67 Unplaced   98.6   2E-10 4.8E-16   72.1   0.0   44    1-44      4-50  (164)
+  3 UniRef100_A0A0C9WH57 Unplaced   98.6   2E-10 5.5E-16   85.9   0.0   44    1-44     63-106 (970)
+  4 UniRef100_A0A0C2W7F3 Uncharact  98.6 5.3E-10 1.4E-15   86.0   0.0   44    1-44    151-195 (1556)
+  5 UniRef100_A0A0C9XU35 Unplaced   98.5 9.8E-10 2.2E-15   59.6   0.0   43    1-43      1-44  (61)
+  6 UniRef100_A0A0C9XUB9 Unplaced   98.5 1.2E-09 2.6E-15   82.5   0.0   43    1-43      1-43  (1675)
+  7 UniRef100_A0A0C9WR06 Unplaced   98.5 1.3E-09   3E-15   61.9   0.0   44    1-44      1-46  (82)
+  8 UniRef100_A0A0C9WI00 Unplaced   97.9 1.7E-07 4.2E-13   61.4   0.0   42    1-44      1-44  (205)
+  9 UniRef100_A0A0C2WF00 Uncharact  97.3 9.4E-06 2.3E-11   52.9   0.0   44    1-44      4-48  (172)
+ 10 UniRef100_A0A0C9WSB8 Unplaced   96.4 0.00047 1.1E-09   46.7   0.0   34    3-36     48-82  (225)
+ 11 UniRef100_A0A0C9WLR6 Unplaced   96.3 0.00062 1.5E-09   48.9   0.0   44    1-44      1-49  (355)
+ 12 UniRef100_B0DCI7 Predicted pro  96.3 0.00078 1.8E-09   50.2   0.0   28    1-28     40-68  (561)
+ 13 UniRef100_B0E541 Predicted pro  96.1  0.0015 3.4E-09   41.4   0.0   25    1-25      1-25  (130)
+ 14 UniRef100_A0A0C9X440 Unplaced   95.5  0.0062 1.4E-08   42.2   0.0   40    3-42     50-90  (254)
+ 15 UniRef100_A0A0C9WT75 Unplaced   95.5  0.0065 1.6E-08   43.2   0.0   35    2-36      3-38  (280)
+ 16 UniRef100_A0A0C9WRT4 Unplaced   95.4  0.0068 1.7E-08   37.6   0.0   18   27-44     11-28  (98)
+
+No 1
+>UniRef100_A0A067T5N1 Uncharacterized protein n=1 Tax=Galerina marginata (strain CBS 339.88) TaxID=685588 RepID=A0A067T5N1_GALM3
+Probab=99.48  E-value=7.2e-17  Score=96.17  Aligned_cols=44  Identities=55%  Similarity=0.576  Sum_probs=42.3  Template_Neff=2.400
+
+Q KIK07581.1        1 MRRTSVLNGARNVVMSGSTVNTANTI-N-YNVVNAMTSDAV----   39 (39)
+Q Consensus         1 ms~~~vf~gA~~~~is~~t~~~a~~i-~~~~~~nr~~sd~vIPl~   44 (44)
+                      ||+.++|+|||||+++|++|++++++ ++++++||++||++||||
+T Consensus         1 Ms~~~vf~gA~~~v~s~~tf~~a~tin~~~~~gNrttsd~vIPl~   45 (121)
+T UniRef100_A0A0    1 MSGASVFAGAHNFVISGSTFNTANTINIHNNYGNRTTSDAVIPLM   45 (121)
+Confidence            89999999999999999999999998 777999999999999996
+
+
+No 2
+>UniRef100_A0A0C9WH67 Unplaced genomic scaffold K443scaffold_598, whole genome shotgun sequence (Fragment) n=1 Tax=Laccaria amethystina LaAM-08-1 TaxID=1095629 RepID=A0A0C9WH67_9AGAR
+Probab=98.65  E-value=2e-10  Score=72.09  Aligned_cols=44  Identities=18%  Similarity=0.171  Sum_probs=40.6  Template_Neff=1.600
+
+Q KIK07581.1        1 MRRTSVLNGARNVVMSGSTVNTANTI---N-YNVVNAMTSDAV----   39 (39)
+Q Consensus         1 ms~~~vf~gA~~~~is~~t~~~a~~i---~~~~~~nr~~sd~vIPl~   44 (44)
+                      |++.++++++|||.|+.++...++..   +|++|+||++||++||||
+T Consensus         4 ~~~~~~~~~~~hv~i~~~~~~~~~l~q~~ihnn~gnrttsdgvipLm   50 (164)
+T UniRef100_A0A0    4 MSGSPMFTNGYHVNIPVNQTDSVDLGQIHIHNNYGNRTTSDGVIPLM   50 (164)
+Confidence            78999999999999999999998864   678999999999999997
+
+
+No 3
+>UniRef100_A0A0C9WH57 Unplaced genomic scaffold K443scaffold_609, whole genome shotgun sequence (Fragment) n=1 Tax=Laccaria amethystina LaAM-08-1 TaxID=1095629 RepID=A0A0C9WH57_9AGAR
+Probab=98.64  E-value=2e-10  Score=85.95  Aligned_cols=44  Identities=41%  Similarity=0.480  Sum_probs=41.4  Template_Neff=3.119
+
+Q KIK07581.1        1 MRRTSVLNGARNVVMSGSTVNTANTIN-YNVVNAMTSDAV----   39 (39)
+Q Consensus         1 ms~~~vf~gA~~~~is~~t~~~a~~i~~~~~~nr~~sd~vIPl~   44 (44)
+                      ||++++|+|||||+|++++|+++..+.+++|+||++++++||||
+T Consensus        63 ms~~~~~~~a~~~~~~~~~~~~~~~~~i~~~~~~~~~~~~ipl~  106 (970)
+T UniRef100_A0A0   63 MSGTSVFAGAHHFVISNSTFNAASRMQINNYQNRTTSDPVIPLM  106 (970)
+Confidence            89999999999999999999999988557899999999999996
+
+
+No 4
+>UniRef100_A0A0C2W7F3 Uncharacterized protein n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2W7F3_AMAMU
+Probab=98.55  E-value=5.3e-10  Score=86.04  Aligned_cols=44  Identities=45%  Similarity=0.501  Sum_probs=41.8  Template_Neff=2.600
+
+Q KIK07581.1        1 MRRTSVLNGARNVVMSGSTVNTANTI-N-YNVVNAMTSDAV----   39 (39)
+Q Consensus         1 ms~~~vf~gA~~~~is~~t~~~a~~i-~~~~~~nr~~sd~vIPl~   44 (44)
+                      |++++||+|||+|+++|++|+.++++ ++++++|+++|+++||++
+T Consensus       151 ms~~~vl~gAhnfv~~~~t~~~a~tI~i~~~~~n~~~s~~~IPl~  195 (1556)
+T UniRef100_A0A0  151 MSGLNVLQGAHNFVISGSTFNAAQTINIHNSYGNRTTSDGVIPLK  195 (1556)
+Confidence            78999999999999999999999988 888999999999999985
+
+
+No 5
+>UniRef100_A0A0C9XU35 Unplaced genomic scaffold K443scaffold_27, whole genome shotgun sequence n=1 Tax=Laccaria amethystina LaAM-08-1 TaxID=1095629 RepID=A0A0C9XU35_9AGAR
+Probab=98.51  E-value=9.8e-10  Score=59.65  Aligned_cols=43  Identities=37%  Similarity=0.451  Sum_probs=39.9  Template_Neff=1.000
+
+Q KIK07581.1        1 MRRTSVLNGARNVVMSGSTVNTANTI-N-YNVVNAMTSDAV---   39 (39)
+Q Consensus         1 ms~~~vf~gA~~~~is~~t~~~a~~i-~~~~~~nr~~sd~vIPl   43 (44)
+                      ||..+|++||++|.|++++|.+++.. ++...+.|.+||..||-
+T Consensus         1 msrkhvlqgaqnvnisggtfiaadsvkyyagagdratsdapipe   44 (61)
+T UniRef100_A0A0    1 MSRKHVLQGAQNVNISGGTFIAADSVKYYAGAGDRATSDAPIPE   44 (61)
+Confidence            88999999999999999999999987 77788999999999984
+
+
+No 6
+>UniRef100_A0A0C9XUB9 Unplaced genomic scaffold K443scaffold_74, whole genome shotgun sequence n=1 Tax=Laccaria amethystina LaAM-08-1 TaxID=1095629 RepID=A0A0C9XUB9_9AGAR
+Probab=98.49  E-value=1.2e-09  Score=82.45  Aligned_cols=43  Identities=40%  Similarity=0.430  Sum_probs=41.0  Template_Neff=1.000
+
+Q KIK07581.1        1 MRRTSVLNGARNVVMSGSTVNTANTIN-YNVVNAMTSDAV---   39 (39)
+Q Consensus         1 ms~~~vf~gA~~~~is~~t~~~a~~i~~~~~~nr~~sd~vIPl   43 (44)
+                      |||.++|+||+||+.+.++|++++++..++||||+.||++|||
+T Consensus         1 msgasvfagaqhfvashntfytantmhinnygnrtasdgvipl   43 (1675)
+T UniRef100_A0A0    1 MSGASVFAGAQHFVASHNTFYTANTMHINNYGNRTASDGVIPL   43 (1675)
+Confidence            8999999999999999999999999855799999999999998
+
+
+No 7
+>UniRef100_A0A0C9WR06 Unplaced genomic scaffold K443scaffold_293, whole genome shotgun sequence (Fragment) n=1 Tax=Laccaria amethystina LaAM-08-1 TaxID=1095629 RepID=A0A0C9WR06_9AGAR
+Probab=98.48  E-value=1.3e-09  Score=61.94  Aligned_cols=44  Identities=39%  Similarity=0.464  Sum_probs=38.6  Template_Neff=1.000
+
+Q KIK07581.1        1 MRRTSVLNGARNVVMSGSTVNTANTI-N-Y-NVVNAMTSDAV----   39 (39)
+Q Consensus         1 ms~~~vf~gA~~~~is~~t~~~a~~i-~~~-~~~nr~~sd~vIPl~   44 (44)
+                      ||+..||.+||++.|++++|+.++.+ +.+ +..|.++||++|.||
+T Consensus         1 msgaqvftnahdiaisggtfntaniihinninnnntttsdgvialm   46 (82)
+T UniRef100_A0A0    1 MSGAQVFTNAHDIAISGGTFNTANIIHINNINNNNTTTSDGVIALM   46 (82)
+Confidence            89999999999999999999999977 433 567789999999886
+
+
+No 8
+>UniRef100_A0A0C9WI00 Unplaced genomic scaffold K443scaffold_404, whole genome shotgun sequence (Fragment) n=1 Tax=Laccaria amethystina LaAM-08-1 TaxID=1095629 RepID=A0A0C9WI00_9AGAR
+Probab=97.91  E-value=1.7e-07  Score=61.43  Aligned_cols=42  Identities=29%  Similarity=0.266  Sum_probs=36.5  Template_Neff=1.778
+
+Q KIK07581.1        1 MRRTSVLNGARNVVMSGSTVNTANTI--N-YNVVNAMTSDAV----   39 (39)
+Q Consensus         1 ms~~~vf~gA~~~~is~~t~~~a~~i--~~~~~~nr~~sd~vIPl~   44 (44)
+                      ||.+|+|+.|..++.+|+  .+.+.+  ++++++||++||++||||
+T Consensus         1 mseah~~~~~~~~~~~~~--~~l~~~qI~~~n~~~r~~sdgvI~lm   44 (205)
+T UniRef100_A0A0    1 MSEAHVFQNARGTTQSDG--MDLDQIQIINNNNGNRTTSDGVIPLM   44 (205)
+Confidence            899999999999999998  555555  456899999999999996
+
+
+No 9
+>UniRef100_A0A0C2WF00 Uncharacterized protein (Fragment) n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2WF00_AMAMU
+Probab=97.28  E-value=9.4e-06  Score=52.86  Aligned_cols=44  Identities=16%  Similarity=0.205  Sum_probs=38.1  Template_Neff=2.012
+
+Q KIK07581.1        1 MRRTSVLNGARNVVMSGSTVNTANTI-N-YNVVNAMTSDAV----   39 (39)
+Q Consensus         1 ms~~~vf~gA~~~~is~~t~~~a~~i-~~~~~~nr~~sd~vIPl~   44 (44)
+                      |+..++|++|++|.++++.++.++.+ .+...++++++++.+|++
+T Consensus         4 ~~~~~~f~~ar~~~~~~~~i~~a~~~~~~~~~~~~~~~~~~~~~~   48 (172)
+T UniRef100_A0A0    4 MSQVHIFQNARNFSITDSSIYIAGRDQFNIITQNPSQHEPAKPIK   48 (172)
+Confidence            57789999999999999999999987 444678899999999873
+
+
+No 10
+>UniRef100_A0A0C9WSB8 Unplaced genomic scaffold K443scaffold_68, whole genome shotgun sequence n=1 Tax=Laccaria amethystina LaAM-08-1 TaxID=1095629 RepID=A0A0C9WSB8_9AGAR
+Probab=96.43  E-value=0.00047  Score=46.69  Aligned_cols=34  Identities=26%  Similarity=0.367  Sum_probs=27.7  Template_Neff=1.264
+
+Q KIK07581.1        3 RTSVLNGARNVVMSGSTVNTANTI-N-YNVVNAMT   35 (39)
+Q Consensus         3 ~~~vf~gA~~~~is~~t~~~a~~i-~~~~~~nr~~   36 (44)
+                      ..+++||||+|+++|+||+.++.| .|.+.+..+.
+T Consensus        48 slni~qgahnfvmrd~tfyva~nievh~h~s~gq~   82 (225)
+T UniRef100_A0A0   48 SLNIMQGAHNFIMRDSTFYVAQNIEVHQHVSRGQD   82 (225)
+Confidence            478999999999999999999998 6655544443
+
+
+No 11
+>UniRef100_A0A0C9WLR6 Unplaced genomic scaffold K443scaffold_630, whole genome shotgun sequence n=1 Tax=Laccaria amethystina LaAM-08-1 TaxID=1095629 RepID=A0A0C9WLR6_9AGAR
+Probab=96.34  E-value=0.00062  Score=48.91  Aligned_cols=44  Identities=18%  Similarity=0.216  Sum_probs=36.9  Template_Neff=1.875
+
+Q KIK07581.1        1 MRRTSVLNGARNVVMSGSTVNTANTI----N-YNV-VNAMTSDAV----   39 (39)
+Q Consensus         1 ms~~~vf~gA~~~~is~~t~~~a~~i----~~~~~-~nr~~sd~vIPl~   44 (44)
+                      |+++++|++|++|.+++++.++.+..    +.++| +.++.+++.+|||
+T Consensus         1 m~~~~if~~a~~~sv~~~~~~~~~~~q~~~v~n~y~~~~~~~~~~m~l~   49 (355)
+T UniRef100_A0A0    1 MSMANIFQGASDFSVSGGTLTAVAANQVVQVNNNYPGPLQKSPPAMVLR   49 (355)
+Confidence            88999999999999999998777653    23455 8899999999985
+
+
+No 12
+>UniRef100_B0DCI7 Predicted protein n=1 Tax=Laccaria bicolor (strain S238N-H82 / ATCC MYA-4686) TaxID=486041 RepID=B0DCI7_LACBS
+Probab=96.28  E-value=0.00078  Score=50.24  Aligned_cols=28  Identities=43%  Similarity=0.513  Sum_probs=26.4  Template_Neff=1.422
+
+Q KIK07581.1        1 MRRTSVLNGARNVVMSGSTVNTANTI-N-   27 (39)
+Q Consensus         1 ms~~~vf~gA~~~~is~~t~~~a~~i-~~   28 (44)
+                      |+|+++|.|||+|+.++++.++++++ +|
+T Consensus        40 m~gt~~f~gah~fvas~~~~naa~~inih   68 (561)
+T UniRef100_B0DC   40 MSGTNFFAGAHGFVASNNTMNAANTINIH   68 (561)
+Confidence            89999999999999999999999987 65
+
+
+No 13
+>UniRef100_B0E541 Predicted protein (Fragment) n=1 Tax=Laccaria bicolor (strain S238N-H82 / ATCC MYA-4686) TaxID=486041 RepID=B0E541_LACBS
+Probab=96.09  E-value=0.0015  Score=41.36  Aligned_cols=25  Identities=48%  Similarity=0.550  Sum_probs=22.7  Template_Neff=1.000
+
+Q KIK07581.1        1 MRRTSVLNGARNVVMSGSTVNTANT   25 (39)
+Q Consensus         1 ms~~~vf~gA~~~~is~~t~~~a~~   25 (44)
+                      |||++||.|||+|+.+|-+.+++..
+T Consensus         1 msgtnvfagahnfvasditvnaaki   25 (130)
+T UniRef100_B0E5    1 MSGTNVFAGAHNFVASDITVNAAKI   25 (130)
+Confidence            8999999999999999988887764
+
+
+No 14
+>UniRef100_A0A0C9X440 Unplaced genomic scaffold K443scaffold_490, whole genome shotgun sequence n=1 Tax=Laccaria amethystina LaAM-08-1 TaxID=1095629 RepID=A0A0C9X440_9AGAR
+Probab=95.53  E-value=0.0062  Score=42.17  Aligned_cols=40  Identities=18%  Similarity=0.191  Sum_probs=29.1  Template_Neff=1.000
+
+Q KIK07581.1        3 RTSVLNGARNVVMSGSTVNTANTI-N-YNVVNAMTSDAV--   39 (39)
+Q Consensus         3 ~~~vf~gA~~~~is~~t~~~a~~i-~~~~~~nr~~sd~vIP   42 (44)
+                      +.+|+||||+|.|-|+.|+-++.+ .|.+.+..+..-..+|
+T Consensus        50 alnvlqgahnfiikdsnfyiaqnmefhqhsssgqddvlpvp   90 (254)
+T UniRef100_A0A0   50 ALNVLQGAHNFIIKDSNFYIAQNMEFHQHSSSGQDDVLPVP   90 (254)
+Confidence            468999999999999999999988 5544444443333333
+
+
+No 15
+>UniRef100_A0A0C9WT75 Unplaced genomic scaffold K443scaffold_61, whole genome shotgun sequence n=1 Tax=Laccaria amethystina LaAM-08-1 TaxID=1095629 RepID=A0A0C9WT75_9AGAR
+Probab=95.46  E-value=0.0065  Score=43.18  Aligned_cols=35  Identities=20%  Similarity=0.282  Sum_probs=26.3  Template_Neff=2.020
+
+Q KIK07581.1        2 RRTSVLNGARNVVMSGSTVNTANTI-N-YNVVNAMT   35 (39)
+Q Consensus         2 s~~~vf~gA~~~~is~~t~~~a~~i-~~~~~~nr~~   36 (44)
+                      |..++|.|||+|+|++++|+.+... .++..+.|++
+T Consensus         3 ~~mp~fEGA~~~~i~GGsfNdVsG~MtINDsS~~tT   38 (280)
+T UniRef100_A0A0    3 STMPMFEGASGVNISGGSFNDVSGNMTINDSSRRTT   38 (280)
+Confidence            4578999999999999999999865 3334444443
+
+
+No 16
+>UniRef100_A0A0C9WRT4 Unplaced genomic scaffold K443scaffold_606, whole genome shotgun sequence (Fragment) n=1 Tax=Laccaria amethystina LaAM-08-1 TaxID=1095629 RepID=A0A0C9WRT4_9AGAR
+Probab=95.43  E-value=0.0068  Score=37.62  Aligned_cols=18  Identities=33%  Similarity=0.227  Sum_probs=16.1  Template_Neff=2.074
+
+Q KIK07581.1       27 N-YNVVNAMTSDAV----   39 (39)
+Q Consensus        27 ~~~~~~nr~~sd~vIPl~   44 (44)
+                      ++++.+||++||++||+|
+T Consensus        11 ~~~~~gnrttsd~~i~l~   28 (98)
+T UniRef100_A0A0   11 YYTSAGNRTTSDAVIPLK   28 (98)
+Confidence            667889999999999986
+
+

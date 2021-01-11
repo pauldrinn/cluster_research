@@ -1,0 +1,1237 @@
+Query         XP_024741356.1
+Match_columns 433
+No_of_seqs    2504 out of 2567
+Neff          8.94384
+Searched_HMMs 154
+Date          Mon Jan 11 21:34:18 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/XP_024741356_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_024741356_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_024741356_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF01083.22 ; Cutinase ; Cutina  98.1   7E-10 1.4E-13   94.6   0.0  125  131-265     4-142 (207)
+  2 PF05057.14 ; DUF676 ; Putative  97.8 4.8E-09 9.6E-13   89.2   0.0  123  131-267     4-145 (218)
+  3 PF06259.12 ; Abhydrolase_8 ; A  97.7 7.5E-09 1.5E-12   86.4   0.0   68  190-264    93-160 (190)
+  4 PF02089.15 ; Palm_thioest ; Pa  97.7   1E-08 2.1E-12   89.0   0.0  110  134-264     1-112 (271)
+  5 PF03096.14 ; Ndr ; Ndr family   97.6 1.9E-08 3.9E-12   86.3   0.0  106  131-261    22-136 (283)
+  6 PF02129.18 ; Peptidase_S15 ; X  97.6 2.3E-08 4.6E-12   84.2   0.0  114  130-263    16-129 (267)
+  7 PF12146.8 ; Hydrolase_4 ; Seri  97.6 2.3E-08 4.7E-12   82.7   0.0  106  131-261     3-113 (239)
+  8 PF00975.20 ; Thioesterase ; Th  97.5 3.3E-08 6.7E-12   80.4   0.0  103  134-261     2-105 (221)
+  9 PF05990.12 ; DUF900 ; Alpha/be  97.4   7E-08 1.4E-11   80.5   0.0  125  130-266    11-138 (213)
+ 10 PF05705.14 ; DUF829 ; Eukaryot  97.3 9.1E-08 1.9E-11   78.7   0.0  111  134-263     1-111 (238)
+ 11 PF06057.11 ; VirJ ; Bacterial   97.3 1.3E-07 2.6E-11   76.2   0.0  107  133-261     3-109 (191)
+ 12 PF10230.9 ; LIDHydrolase ; Lip  97.3 1.3E-07 2.7E-11   78.4   0.0  108  132-261     2-114 (250)
+ 13 PF01674.18 ; Lipase_2 ; Lipase  97.2 1.4E-07 2.8E-11   77.1   0.0  118  133-265     2-127 (213)
+ 14 PF07819.13 ; PGAP1 ; PGAP1-lik  97.2 1.7E-07 3.4E-11   78.1   0.0  115  131-264     3-137 (245)
+ 15 PF06821.13 ; Ser_hydrolase ; S  97.2 1.8E-07 3.6E-11   74.3   0.0   91  135-260     1-91  (169)
+ 16 PF02273.15 ; Acyl_transf_2 ; A  97.1 2.7E-07 5.4E-11   79.7   0.0  105  131-261    29-136 (294)
+ 17 PF00561.20 ; Abhydrolase_1 ; a  97.1 2.7E-07 5.6E-11   75.2   0.0   96  134-257     2-100 (237)
+ 18 PF03583.14 ; LIP ; Secretory l  97.1 2.8E-07 5.7E-11   77.9   0.0   89  170-260    25-114 (291)
+ 19 PF00151.19 ; Lipase ; Lipase    97.1 3.4E-07 6.7E-11   82.8   0.0  111  130-258    67-179 (336)
+ 20 PF07082.11 ; DUF1350 ; Protein  97.0 4.9E-07 9.7E-11   77.2   0.0  112  133-261    15-126 (248)
+ 21 PF08538.10 ; DUF1749 ; Protein  97.0 4.8E-07 9.9E-11   77.7   0.0  112  131-261    35-152 (303)
+ 22 PF04301.13 ; DUF452 ; Protein   97.0 5.4E-07 1.1E-10   73.5   0.0   72  129-237     8-79  (212)
+ 23 PF10503.9 ; Esterase_phd ; Est  96.9 6.7E-07 1.4E-10   72.4   0.0   99  130-237    16-122 (217)
+ 24 PF06028.11 ; DUF915 ; Alpha/be  96.9 6.8E-07 1.4E-10   74.7   0.0  117  130-264     9-146 (252)
+ 25 PF07859.13 ; Abhydrolase_3 ; a  96.9 7.1E-07 1.4E-10   72.0   0.0  106  135-261     1-112 (212)
+ 26 PF12695.7 ; Abhydrolase_5 ; Al  96.9 7.5E-07 1.5E-10   69.7   0.0   90  135-259     2-91  (165)
+ 27 PF06342.12 ; DUF1057 ; Alpha/b  96.9 8.8E-07 1.8E-10   76.0   0.0  101  131-259    34-137 (296)
+ 28 PF05448.12 ; AXE1 ; Acetyl xyl  96.9 9.3E-07 1.9E-10   77.0   0.0  106  130-258    81-212 (321)
+ 29 PF05277.12 ; DUF726 ; Protein   96.8 1.3E-06 2.4E-10   79.1   0.0   64  192-263   197-260 (340)
+ 30 PF06500.11 ; DUF1100 ; Alpha/b  96.7 1.6E-06 3.2E-10   80.1   0.0  108  130-260   188-297 (411)
+ 31 PF11339.8 ; DUF3141 ; Protein   96.7 1.8E-06 3.4E-10   83.5   0.0  110  130-259    66-175 (573)
+ 32 PF11288.8 ; DUF3089 ; Protein   96.6   3E-06 5.7E-10   71.6   0.0   87  132-235    24-133 (221)
+ 33 PF11144.8 ; DUF2920 ; Protein   96.6 2.9E-06 5.7E-10   78.1   0.0   36  215-259   185-220 (399)
+ 34 PF02450.15 ; LCAT ; Lecithin:c  96.6 3.4E-06 6.7E-10   78.3   0.0   88  174-265    78-169 (423)
+ 35 PF03959.13 ; FSH1 ; Serine hyd  96.5 3.8E-06 7.7E-10   69.2   0.0   23  215-237   107-129 (221)
+ 36 PF05677.12 ; DUF818 ; Chlamydi  96.5 3.9E-06 7.8E-10   74.9   0.0  102  130-237   132-234 (361)
+ 37 PF02230.16 ; Abhydrolase_2 ; P  96.5 3.9E-06   8E-10   67.9   0.0   58  191-258    88-145 (225)
+ 38 PF00326.21 ; Peptidase_S9 ; Pr  96.4 5.4E-06 1.1E-09   66.8   0.0   83  171-262    14-102 (219)
+ 39 PF10142.9 ; PhoPQ_related ; Ph  96.4 6.9E-06 1.4E-09   73.0   0.0   36  214-259   174-209 (375)
+ 40 PF01738.18 ; DLH ; Dienelacton  96.3 7.7E-06 1.6E-09   66.4   0.0  105  131-257    15-131 (226)
+ 41 PF09752.9 ; DUF2048 ; Abhydrol  96.3   8E-06 1.6E-09   74.3   0.0  108  130-258    90-210 (442)
+ 42 PF05728.12 ; UPF0227 ; Unchara  96.3 8.3E-06 1.7E-09   63.9   0.0   82  135-236     2-83  (190)
+ 43 PF10340.9 ; Say1_Mug180 ; Ster  96.3 8.5E-06 1.7E-09   73.0   0.0  114  130-260   119-235 (375)
+ 44 PF12740.7 ; Chlorophyllase2 ;   96.2 1.2E-05 2.4E-09   67.6   0.0  113  131-259    16-131 (258)
+ 45 PF12048.8 ; DUF3530 ; Protein   96.2 1.2E-05 2.4E-09   70.8   0.0   41  213-261   212-252 (328)
+ 46 PF12697.7 ; Abhydrolase_6 ; Al  96.1 1.6E-05 3.1E-09   64.2   0.0   80  135-231     1-84  (204)
+ 47 PF05576.11 ; Peptidase_S37 ; P  96.1 1.7E-05 3.2E-09   73.9   0.0  105  131-261    62-171 (448)
+ 48 PF03403.13 ; PAF-AH_p_II ; Pla  95.9   3E-05   6E-09   69.2   0.0   22  214-235   215-236 (367)
+ 49 PF05577.12 ; Peptidase_S28 ; S  95.4 9.7E-05 1.9E-08   67.5   0.0  113  132-261    29-147 (431)
+ 50 PF07224.11 ; Chlorophyllase ;   95.4 9.6E-05 1.9E-08   63.6   0.0   95  130-236    43-146 (311)
+ 51 PF00756.20 ; Esterase ; Putati  95.1 0.00014 2.9E-08   58.8   0.0   32  217-257   128-159 (246)
+ 52 PF12715.7 ; Abhydrolase_7 ; Ab  93.9 0.00082 1.6E-07   59.7   0.0   24  213-236   223-246 (388)
+ 53 PF16929.5 ; Asp2 ; Accessory S  93.7 0.00095 1.8E-07   61.9   0.0   90  131-236   273-363 (495)
+ 54 PF00450.22 ; Peptidase_S10 ; S  93.7 0.00095 1.9E-07   61.4   0.0   68  191-258   112-182 (467)
+ 55 PF08840.11 ; BAAT_C ; BAAT / A  93.7 0.00098   2E-07   52.1   0.0   39  214-262    21-59  (210)
+ 56 PF01764.25 ; Lipase_3 ; Lipase  91.3  0.0047 9.3E-07   47.7   0.0   49  213-262    94-142 (177)
+ 57 PF08237.11 ; PE-PPE ; PE-PPE d  84.7   0.034 6.6E-06   44.7   0.0   67  190-261    26-92  (225)
+ 58 PF11187.8 ; DUF2974 ; Protein   84.0    0.04 7.7E-06   45.4   0.0   22  214-235    94-115 (260)
+ 59 PF09757.9 ; Arb2 ; Arb2 domain  65.0    0.31 6.1E-05   38.9   0.0   37  214-257   132-169 (246)
+ 60 PF04083.16 ; Abhydro_lipase ;   48.0    0.94 0.00018   26.3   0.0   19  131-150    40-58  (61)
+
+No 1
+>PF01083.22 ; Cutinase ; Cutinase
+Probab=98.06  E-value=7e-10  Score=94.59  Aligned_cols=125  Identities=10%  Similarity=-0.017  Sum_probs=81.9  Template_Neff=9.000
+
+Q XP_024741356.1  117 AKTDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDS-----TTLVTMESCAQSLLRGVNE  191 (418)
+Q Consensus       131 ~~~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~-----~~~~~i~~~a~~L~~~L~~  205 (433)
+                      ..+.||++||.+......|..     .++.+.|...   ++.+++.+.|++.....     ....++.+.++.+.+.|..
+T Consensus         4 ~~~~vv~v~Gt~e~~~~g~~~-----~~~~~~l~~~---~~~~~~~v~Ypa~~~~~~~~~~~~~~s~~~g~~~l~~~i~~   75 (207)
+T Q1K583_NEUCR/3    4 PSIHVFGARETTVSPGFGTAG-----VVVNLILQAY---PGATSEAIVYPACGGQSSCGGVQYGDSARQGTNAVATAVNS   75 (207)
+T ss_pred             CcEEEEEEccCCCCCCCccHH-----HHHHHHHHhC---CCCcEEEeecCCCCCCcccCCcchHHHHHHHHHHHHHHHHH
+Confidence            456799999988765322221     1234445432   36677888898865431     1234566677777777776
+
+
+Q XP_024741356.1  192 VRNSDEARNRPLLFVCHSLGGLITRKAMELLPIM---------ASYTNIELAKCGLLFLATPHLGSKRA  251 (418)
+Q Consensus       206 ~r~~~~~~~~pii~VgHSlGGlv~k~al~~~~~~---------~~~~~i~~~~~givflgtPh~Gs~~a  265 (433)
+                      .+..  +..++++|+||||||++++.++......         +........+.++|++|+|+++....
+T Consensus        76 ~~~~--~p~~~ivlvG~S~Ga~v~~~~l~~~~~~~~~~~~~~~~~~~~~~~~v~~vv~~g~P~~~~~~~  142 (207)
+T Q1K583_NEUCR/3   76 LNAR--CPDTQIVLVGYSQGGQIMDNAVCGGPDSGAGITTSTPGINASALNQVKAVIMMGNPRYRAGLS  142 (207)
+T ss_pred             HHHh--CCCCeEEEEEeChHHHHHHHHhhCCCCCCCcccCCCCCCCHHHHhheEEEEEecCCcccCCCc
+Confidence            6543  4568999999999999999998773211         01112335688999999999998653
+
+
+No 2
+>PF05057.14 ; DUF676 ; Putative serine esterase (DUF676)
+Probab=97.79  E-value=4.8e-09  Score=89.21  Aligned_cols=123  Identities=24%  Similarity=0.340  Sum_probs=69.8  Template_Neff=10.400
+
+Q XP_024741356.1  117 AKTDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDS-TTLVTMESCAQSLLRGVNEVRNS  195 (418)
+Q Consensus       131 ~~~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~-~~~~~i~~~a~~L~~~L~~~r~~  209 (433)
+                      ....||+|||++++. ..|..       +...|..     ++.++.+.+....... .....+...++.+.+.+......
+T Consensus         4 ~~~~ii~vHG~~~~~-~~~~~-------~~~~l~~-----~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~   70 (218)
+T Q8RWD3_ARATH/9    4 PDHLLVLVHGILASP-SDWLY-------VEAELKR-----RLGRRFLIYASSSNTFTKTFGGIDGAGKRLAEEVRQVVQK   70 (218)
+T ss_pred             CcEEEEEECCCCCCH-HHHHH-------HHHHHHH-----HHCCCeEEEEcCCCccccccCCHHHHHHHHHHHHHHHHHh
+Confidence            345699999999986 45644       2334432     3344444443322111 11123333344444444443322
+
+
+Q XP_024741356.1  196 DEARNRPLLFVCHSLGGLITRKAMELLPIMAS------------YTNIEL------AKCGLLFLATPHLGSKRADW  253 (418)
+Q Consensus       210 ~~~~~~pii~VgHSlGGlv~k~al~~~~~~~~------------~~~i~~------~~~givflgtPh~Gs~~a~~  267 (433)
+                      . ....+++++||||||+++..++........            ...+..      .+.++|++++|+.|......
+T Consensus        71 ~-~~~~~i~lvGhS~Gg~ia~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~p~~g~~~~~~  145 (218)
+T Q8RWD3_ARATH/9   71 S-KSLKKISFLAHSLGGLFSRHAVAVLYSAAMAQVSDVAVSQSGNSNLLRGRIAGLEPINFITLATPHLGVRGRKQ  145 (218)
+T ss_pred             c-CCCCeEEEEEEcHHHHHHHHHHHHHHHHhhhcccccccccccccccccccccCeEEeeeEeecCCCCCCCCCCC
+Confidence            1 123599999999999999998887653210            001111      56789999999999876543
+
+
+No 3
+>PF06259.12 ; Abhydrolase_8 ; Alpha/beta hydrolase
+Probab=97.73  E-value=7.5e-09  Score=86.45  Aligned_cols=68  Identities=22%  Similarity=0.227  Sum_probs=48.5  Template_Neff=9.400
+
+Q XP_024741356.1  176 VTMESCAQSLLRGVNEVRNSDEARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPHLGSKR  250 (418)
+Q Consensus       190 ~~i~~~a~~L~~~L~~~r~~~~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh~Gs~~  264 (433)
+                      ....+.+.++...+..++..  ...++++++||||||.++..++......     ....+.++|++++|..+...
+T Consensus        93 ~~~~~~~~~l~~~i~~l~~~--~~~~~v~liGhS~Gg~~a~~~a~~~~~~-----~~~~v~~~vl~~~p~~~~~~  160 (190)
+T P71654_MYCTU/2   93 GQAHAGAADLSRYLQQVRAN--NPSGHLTVLGHSYGSLTASLALQDLDAQ-----SAHPVNDVVFYGSPGLELYS  160 (190)
+T ss_pred             HHHHHHHHHHHHHHHHHHHh--CCCCcEEEEEECHHHHHHHHHHhhcccc-----cCCCccEEEEECCCCCCCCC
+Confidence            34556666777777666543  2467999999999999999888763210     11257899999999887754
+
+
+No 4
+>PF02089.15 ; Palm_thioest ; Palmitoyl protein thioesterase
+Probab=97.68  E-value=1e-08  Score=89.00  Aligned_cols=110  Identities=20%  Similarity=0.285  Sum_probs=68.8  Template_Neff=11.700
+
+Q XP_024741356.1  120 DICFVHGLGGNAFDT-WTVSNGGSMWPRDFLPSPKHFLN-SRIMTFGYDSDLTDSTTLVTMESCAQSLLRGVNEVRNSDE  197 (418)
+Q Consensus       134 ~IV~VHGl~g~~~~t-W~~~~~~~~Wl~d~L~~~~~~~~-~ri~~~gY~s~~~~~~~~~~i~~~a~~L~~~L~~~r~~~~  211 (433)
+                      .||+|||++++.... |..       +.+.|.+.    + +++++++|..............+.++.+...+....   .
+T Consensus         1 pvl~vhG~~~~~~~~~~~~-------~~~~l~~~----g~~~v~~~d~g~~~~~~~~~~~~~~~~~~~~~~~~~~~---~   66 (271)
+T R9AII4_WALI9/3    1 PILVWGGLGDSVLSSGMEE-------LMGELSER----YDTRVYGVSIGDTPSEDRRLSGLSDANYNVQVACSKLS---Q   66 (271)
+T ss_pred             CEEEECCCCccccchhHHH-------HHHHHHhh----cCeEEEEEEeCCCchhHhhhccccCHHHHHHHHHHhcc---c
+Confidence            389999999887322 443       34455432    4 888888876544222222334444444444443311   1
+
+
+Q XP_024741356.1  198 ARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPHLGSKR  250 (418)
+Q Consensus       212 ~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh~Gs~~  264 (433)
+                      ....+++++||||||.++..++...+..       ..++++|++++|..+...
+T Consensus        67 ~~~~~~~l~G~S~Gg~~a~~~a~~~~~~-------~~v~~~i~~~~~~~~~~~  112 (271)
+T R9AII4_WALI9/3   67 LDNTPVNAIGLSQGGLFLRAVIEQCPEA-------PPLRHLVTFGTPHMGIER  112 (271)
+T ss_pred             cCCCCEEEEEEcHHHHHHHHHHHHCCCC-------CCccEEEEeCCCCCCccC
+Confidence            2457999999999999999888765421       017899999998887643
+
+
+No 5
+>PF03096.14 ; Ndr ; Ndr family
+Probab=97.58  E-value=1.9e-08  Score=86.32  Aligned_cols=106  Identities=14%  Similarity=0.121  Sum_probs=70.4  Template_Neff=12.800
+
+Q XP_024741356.1  117 AKTDICFVHGLGGNAFDT-WTVSNGGSMWP--RDFLPSPKHFLNSRIMTFGYDSDLTDST--T----LVTMESCAQSLLR  187 (418)
+Q Consensus       131 ~~~~IV~VHGl~g~~~~t-W~~~~~~~~Wl--~d~L~~~~~~~~~ri~~~gY~s~~~~~~--~----~~~i~~~a~~L~~  201 (433)
+                      ..+.||++||++++. .. |...    .+.  ...|.     .+++|++++|.+...+..  .    ..++.+.++++..
+T Consensus        22 ~~p~il~~hG~~~~~-~~~~~~~----~~~~~~~~l~-----~~~~v~~~d~~G~g~s~~~~~~~~~~~~~~~~~~~~~~   91 (283)
+T NDRG4_RAT/8-29   22 NRPAILTYHDVGLNH-KLCFNTL----FNLEDMQEIT-----KHFVVCHVDAPGQQVGASQFPQGYQFPSMEQLATMLPN   91 (283)
+T ss_pred             CCCeEEEecCCCCCh-hHhHHHH----hcCccHHHHH-----HhceEEEecCCCCccccCcCCCCCCCCCHHHHHHHHHH
+Confidence            367799999999877 34 5431    000  12232     388999999887643321  1    1266777777777
+
+
+Q XP_024741356.1  188 GVNEVRNSDEARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPHLG  247 (418)
+Q Consensus       202 ~L~~~r~~~~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh~G  261 (433)
+                      .++.+      ...+++++|||+||.++..++...+.         .+.++|+++++...
+T Consensus        92 ~~~~~------~~~~~~l~G~S~Gg~~a~~~a~~~~~---------~v~~lil~~~~~~~  136 (283)
+T NDRG4_RAT/8-29   92 VVQHF------GFKYVIGIGVGAGAYVLAKFALIFPD---------LVEGLVLMNIDPNG  136 (283)
+T ss_pred             HHHHh------CCcEEEEEEeCHHHHHHHHHHHhCcc---------cEEEEEEecCCCCC
+Confidence            66654      34689999999999999887776532         46788888776543
+
+
+No 6
+>PF02129.18 ; Peptidase_S15 ; X-Pro dipeptidyl-peptidase (S15 family)
+Probab=97.56  E-value=2.3e-08  Score=84.21  Aligned_cols=114  Identities=5%  Similarity=-0.128  Sum_probs=72.0  Template_Neff=13.300
+
+Q XP_024741356.1  116 EAKTDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDSTTLVTMESCAQSLLRGVNEVRNS  195 (418)
+Q Consensus       130 ~~~~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~~~~~~i~~~a~~L~~~L~~~r~~  209 (433)
+                      .....||++||++++. ..|...     .....+..    .+++|+++++++...+........+.++++.+.++.+...
+T Consensus        16 ~~~p~vv~~hG~~~~~-~~~~~~-----~~~~~~~~----~g~~v~~~d~~g~g~s~~~~~~~~~~~~~~~~~~~~l~~~   85 (267)
+T P73052_SYNY3/5   16 GPWPALLMRQPYGRRL-ASTLVY-----AHPHWYAA----QGYLVIIQDVRGRGSSEGEFDLFAHEVEDGQDCLDWVSKL   85 (267)
+T ss_pred             CCCcEEEEeCCCCccc-ccccee-----ccHHHHHH----cCcEEEEECCCCCCCCcccccchhHHHHHHHHHHHHHhcC
+Confidence            4567799999999665 344331     11111222    3889999999876544322112455566666666655432
+
+
+Q XP_024741356.1  196 DEARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPHLGSK  249 (418)
+Q Consensus       210 ~~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh~Gs~  263 (433)
+                       .....+++++|||+||.++..++...+.         .+.++|+++++.....
+T Consensus        86 -~~~~~~~~l~G~S~Gg~~a~~~a~~~~~---------~v~~~v~~~~~~~~~~  129 (267)
+T P73052_SYNY3/5   86 -PQCEGSVATYGFSYQGMTQLYAAANHHP---------SLKTICPAMIAWDLYQ  129 (267)
+T ss_pred             -CcccCcEEEEEEchHHHHHHHHHHhcCc---------cceEEEeeccccchhH
+Confidence             1234689999999999999888776432         5678888888655544
+
+
+No 7
+>PF12146.8 ; Hydrolase_4 ; Serine aminopeptidase, S33
+Probab=97.56  E-value=2.3e-08  Score=82.67  Aligned_cols=106  Identities=17%  Similarity=0.268  Sum_probs=70.3  Template_Neff=13.300
+
+Q XP_024741356.1  117 AKTDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDS--TTLVTMESCAQSLLRGVNEVRN  194 (418)
+Q Consensus       131 ~~~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~--~~~~~i~~~a~~L~~~L~~~r~  208 (433)
+                      .+..||++||++++. ..|..       +.+.|..    .+++|++++|++...+.  ....++.+.++++.+.++.+..
+T Consensus         3 ~~~~vv~~hG~~~~~-~~~~~-------~~~~l~~----~g~~v~~~d~~g~g~s~~~~~~~~~~~~~~~~~~~i~~l~~   70 (239)
+T B0T4S9_CAUSK/6    3 VTHVVVALHGMNDYS-NAFHL-------AGPFWAG----QGIATYALDIRGFGRSPDRGVWAPIELSVEDVRTAVSLVRE   70 (239)
+T ss_pred             CccEEEEEcCCCCcc-hHHHH-------HHHHHHh----CCcEEEEEeCCCCCCCCCCCCCCcHHHHHHHHHHHHHHHHH
+Confidence            356799999999876 45643       3444443    27899999988754432  1233566666777776665543
+
+
+Q XP_024741356.1  195 SDEARNRPLLFVCHSLGGLITRKAM--ELLPIMASYTNIELAKC-GLLFLATPHLG  247 (418)
+Q Consensus       209 ~~~~~~~pii~VgHSlGGlv~k~al--~~~~~~~~~~~i~~~~~-givflgtPh~G  261 (433)
+                      .  ....+++++|||+||.++..++  ...+          . . ++|+++++...
+T Consensus        71 ~--~~~~~~~l~G~S~Gg~~a~~~a~~~~~~----------~-~~~~vl~~~~~~~  113 (239)
+T B0T4S9_CAUSK/6   71 A--HPEAKVSIAGESMGGAVTIAAMTSDRPP----------A-ADSILLFAPAVWG  113 (239)
+T ss_pred             H--CCCCeEEEEEECHHHHHHHHHHhcCCCC----------C-CceEEEECCcccc
+Confidence            2  2445899999999999998887  5432          1 5 67777765543
+
+
+No 8
+>PF00975.20 ; Thioesterase ; Thioesterase domain
+Probab=97.50  E-value=3.3e-08  Score=80.39  Aligned_cols=103  Identities=16%  Similarity=0.231  Sum_probs=68.0  Template_Neff=13.400
+
+Q XP_024741356.1  120 DICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDL-TDSTTLVTMESCAQSLLRGVNEVRNSDEA  198 (418)
+Q Consensus       134 ~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~-~~~~~~~~i~~~a~~L~~~L~~~r~~~~~  212 (433)
+                      .||++||.+++. ..|..       +...|..     +++++++++++.. .......++.+.++.+.+.+....     
+T Consensus         2 ~iv~~hg~~~~~-~~~~~-------~~~~l~~-----~~~v~~~d~~g~g~~~~~~~~~~~~~~~~~~~~i~~~~-----   63 (221)
+T SRFAD_BACSU/14    2 QLICFPFAGGYS-ASFRP-------LHAFLQG-----ECEMLAAEPPGHGTNQTSAIEDLEELTDLYKQELNLRP-----   63 (221)
+T ss_pred             cEEEeCCCCccH-HhHHH-------HHHhccC-----CcEEEEecCCCCCCCCCcccccHHHHHHHHHHHHHcCC-----
+Confidence            489999999876 45543       2333432     6788888887665 111234567777777777776542     
+
+
+Q XP_024741356.1  199 RNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPHLG  247 (418)
+Q Consensus       213 ~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh~G  261 (433)
+                       ..+++++||||||.++..++......      ...+.++++++++...
+T Consensus        64 -~~~~~l~G~S~Gg~~a~~~a~~~~~~------~~~v~~~v~~~~~~~~  105 (221)
+T SRFAD_BACSU/14   64 -DRPFVLFGHSMGGMITFRLAQKLERE------GIFPQAVIISAIQPPH  105 (221)
+T ss_pred             -CCCeEEEEECHHHHHHHHHHHHHHHC------CCCCCEEEEeCCCCcc
+Confidence             23999999999999998877665421      1236778888775443
+
+
+No 9
+>PF05990.12 ; DUF900 ; Alpha/beta hydrolase of unknown function (DUF900)
+Probab=97.37  E-value=7e-08  Score=80.46  Aligned_cols=125  Identities=13%  Similarity=0.072  Sum_probs=71.6  Template_Neff=11.300
+
+Q XP_024741356.1  116 EAKTDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDS---TTLVTMESCAQSLLRGVNEV  192 (418)
+Q Consensus       130 ~~~~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~---~~~~~i~~~a~~L~~~L~~~  206 (433)
+                      .....||++||.+++....|..       ...+.... . ....++.++|+......   ..........+++...+..+
+T Consensus        11 ~~~~~vv~~hG~~~~~~~~~~~-------~~~~~~~~-~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l   81 (213)
+T C5AP94_METEA/1   11 FGRDVLIYVHGYRESFESAAIS-------AARLSDGI-R-FNGASALFTWPSAAATFDYGYDRESALWSRDAFEDLLKTV   81 (213)
+T ss_pred             cCCcEEEEEeCCCCCHHHHHHH-------HHHHHHHc-C-CCCeEEEEeCCCCCcccchHHHHHHHHHHHHHHHHHHHHH
+Confidence            4566799999999875322221       12222111 0 13456777776543221   11223344455555555555
+
+
+Q XP_024741356.1  193 RNSDEARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPHLGSKRAD  252 (418)
+Q Consensus       207 r~~~~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh~Gs~~a~  266 (433)
+                      ...  ....+|+++||||||.++..++....... .......+.++++++++........
+T Consensus        82 ~~~--~~~~~i~l~G~S~Gg~~a~~~~~~~~~~~-~~~~~~~i~~~i~~~~~~~~~~~~~  138 (213)
+T C5AP94_METEA/1   82 ATT--PSGGRIHIVAHSMGTLLTLETLRMLRAEA-GEAAVARIGAVVLAAPDIDIDLFTN  138 (213)
+T ss_pred             HcC--CCCCeEEEEEEcHHHHHHHHHHHHHHHHh-cHHHHHcccEEEEeCCCCCHHHHHh
+Confidence            432  24678999999999999999888754310 0011225678888888777655443
+
+
+No 10
+>PF05705.14 ; DUF829 ; Eukaryotic protein of unknown function (DUF829)
+Probab=97.32  E-value=9.1e-08  Score=78.67  Aligned_cols=111  Identities=15%  Similarity=0.198  Sum_probs=69.7  Template_Neff=13.300
+
+Q XP_024741356.1  120 DICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDSTTLVTMESCAQSLLRGVNEVRNSDEAR  199 (418)
+Q Consensus       134 ~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~~~~~~i~~~a~~L~~~L~~~r~~~~~~  213 (433)
+                      .||++||.++.....|..       +.+.|.+    .++++++++|+........ .++.+.++.+.+.+....    ..
+T Consensus         1 pvv~~hg~~~~~~~~~~~-------~~~~l~~----~g~~v~~~d~~g~g~s~~~-~~~~~~~~~~~~~l~~~~----~~   64 (238)
+T Q16RZ9_AEDAE/5    1 PIVLLLGWAGCQDKYLMK-------YSKIYED----RGLITIRYTAPVDNLFWKR-TSMSQIGEKILKLIYDMN----FD   64 (238)
+T ss_pred             CeEEEEecCCCChHhHHH-------HHHHHHh----CCCEEEEEeCCcchhcCCc-hhhHHHHHHHHHHHHhcC----CC
+Confidence            378999998776444433       2444443    3889999998876543322 345555566666555431    12
+
+
+Q XP_024741356.1  200 NRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPHLGSK  249 (418)
+Q Consensus       214 ~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh~Gs~  263 (433)
+                      ..+++++|||+||.++..++.........   ...+.++|+.+++.....
+T Consensus        65 ~~~~~l~G~S~Gg~~a~~~a~~~~~~~~~---~~~~~~~v~~~~~~~~~~  111 (238)
+T Q16RZ9_AEDAE/5   65 SHPLIFHVFSNGGAFLYQHVALANRRSKK---PVQICGMIFDSAPGDRRV  111 (238)
+T ss_pred             CCCEEEEEEechHHHHHHHHHHcCCcCCC---CcceeEEEEcCCCCChhH
+Confidence            23999999999999998888754321011   113678888887665544
+
+
+No 11
+>PF06057.11 ; VirJ ; Bacterial virulence protein (VirJ)
+Probab=97.26  E-value=1.3e-07  Score=76.18  Aligned_cols=107  Identities=18%  Similarity=0.140  Sum_probs=65.9  Template_Neff=12.300
+
+Q XP_024741356.1  119 TDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDSTTLVTMESCAQSLLRGVNEVRNSDEA  198 (418)
+Q Consensus       133 ~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~~~~~~i~~~a~~L~~~L~~~r~~~~~  212 (433)
+                      ..||++||.++.. ..|..       +...+..    .++.++.+++.+......   .......++...+..+...  .
+T Consensus         3 ~~vv~~hG~~~~~-~~~~~-------~~~~l~~----~g~~v~~~~~~g~~~~~~---~~~~~~~~~~~~~~~~~~~--~   65 (191)
+T Q9I538_PSEAE/2    3 IVTLFYSGDGGWR-DLDKD-------SAEHMAS----MGYPVVGIDTLRYYWQHK---SPEQSAADLSKLMQHYREK--W   65 (191)
+T ss_pred             ceEEEEcCCCccc-chhHH-------HHHHHHh----cCCCEEEEeCccccccCC---CHHHHHHHHHHHHHHHHHH--h
+Confidence            4589999998875 44543       2333432    267788887765433221   2334444555555544332  2
+
+
+Q XP_024741356.1  199 RNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPHLG  247 (418)
+Q Consensus       213 ~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh~G  261 (433)
+                      ...+++++||||||.++..++......     ....+.++++++++...
+T Consensus        66 ~~~~i~l~G~S~Gg~~a~~~~~~~~~~-----~~~~~~~~i~~~~~~~~  109 (191)
+T Q9I538_PSEAE/2   66 GAKRFVLAGYSFGADILPAIYNRLPGK-----DQQQVKAMLLLALARTG  109 (191)
+T ss_pred             CCCCEEEEEEehHHhHHHHHHhcCCCc-----chHhceEEEEEeccCCC
+Confidence            457999999999999998888765421     11236778888876554
+
+
+No 12
+>PF10230.9 ; LIDHydrolase ; Lipid-droplet associated hydrolase
+Probab=97.25  E-value=1.3e-07  Score=78.38  Aligned_cols=108  Identities=14%  Similarity=0.169  Sum_probs=70.5  Template_Neff=13.200
+
+Q XP_024741356.1  118 KTDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDST---TLVTMESCAQSLLRGVNEVRN  194 (418)
+Q Consensus       132 ~~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~~---~~~~i~~~a~~L~~~L~~~r~  208 (433)
+                      ++.||++||.+++. ..|..       +...|.+    .++++++++|.+...+..   ...++.+.++++.+.+..+..
+T Consensus         2 ~p~iv~~hG~~~~~-~~~~~-------~~~~l~~----~g~~v~~~d~~g~g~s~~~~~~~~~~~~~~~~~~~~~~~~~~   69 (250)
+T Q4Q9G9_LEIMA/4    2 RKLLFFFPGNPGLV-QFYEP-------LCAFLET----NKFDVLVMGYAGHSLTELNEGRVFSLADQVDIAESFVATLMN   69 (250)
+T ss_pred             eeEEEEeCCCcchH-HHHHH-------HHHHHHh----CCCEEEEeCCCCCCCccccCCCccCHHHHHHHHHHHHHHHHh
+Confidence            35699999998876 34443       2344443    278999998887544321   245667777777777766532
+
+
+Q XP_024741356.1  195 S--DEARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPHLG  247 (418)
+Q Consensus       209 ~--~~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh~G  261 (433)
+                      .  ......+++++|||+||.++..++...+.          +.++|+++.+...
+T Consensus        70 ~~~~~~~~~~i~l~G~S~Gg~~a~~~a~~~~~----------~~~~v~~~~~~~~  114 (250)
+T Q4Q9G9_LEIMA/4   70 KNTERKYNGNIYAAGHSIGGFVALQMVARYSV----------IKKCFGLCPVMSH  114 (250)
+T ss_pred             hccccccCCcEEEEEecHHHHHHHHHHHHccc----------CCeEEEEecccHH
+Confidence            1  00145789999999999998887765431          5677777765443
+
+
+No 13
+>PF01674.18 ; Lipase_2 ; Lipase (class 2)
+Probab=97.25  E-value=1.4e-07  Score=77.05  Aligned_cols=118  Identities=14%  Similarity=0.059  Sum_probs=68.4  Template_Neff=12.600
+
+Q XP_024741356.1  119 TDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDS----TTLVTMESCAQSLLRGVNEVRN  194 (418)
+Q Consensus       133 ~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~----~~~~~i~~~a~~L~~~L~~~r~  208 (433)
+                      ..||++||.+++.. .|..       +.+.|..    .++.++.+.+.......    .......+.++++.+.+..+..
+T Consensus         2 ~~vv~~hG~~~~~~-~~~~-------~~~~l~~----~G~~v~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~~   69 (213)
+T O76556_CAEEL/6    2 NPVIIVHGITNKAS-RFGG-------TVAYLKS----KGYKNSEIYGTTWGDSGRTPVGLVDMKCNYVKQIRAMIIAVRQ   69 (213)
+T ss_pred             CCEEEECCCCcccc-cchh-------hHHHHHH----CCCCeeEEEeecCCCCCCCCccchhchhhHHHHHHHHHHHHHH
+Confidence            45899999998873 5543       2344443    26676555554432211    1122334455566666665543
+
+
+Q XP_024741356.1  195 SDEARNRPLLFVCHSLGGLITRKAMELLPIMAS----YTNIELAKCGLLFLATPHLGSKRA  251 (418)
+Q Consensus       209 ~~~~~~~pii~VgHSlGGlv~k~al~~~~~~~~----~~~i~~~~~givflgtPh~Gs~~a  265 (433)
+                      ..  .. +++++||||||.++..++........    .......+.+++.++.+..+....
+T Consensus        70 ~~--~~-~i~l~G~S~Gg~~a~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~~~~~~~~~  127 (213)
+T O76556_CAEEL/6   70 YT--GQ-KVDVIGYSMGSPLARKAILGGQCVDTREILGAPLTELVDTFLSVAGANYGSVLC  127 (213)
+T ss_pred             hh--CC-eEEEEEEcchHHHHHHHHhcCCCCCCccccCCchhHHhceeeeecccccccccc
+Confidence            31  22 99999999999999888775421100    001123567788888777666543
+
+
+No 14
+>PF07819.13 ; PGAP1 ; PGAP1-like protein
+Probab=97.21  E-value=1.7e-07  Score=78.10  Aligned_cols=115  Identities=17%  Similarity=0.087  Sum_probs=66.0  Template_Neff=12.800
+
+Q XP_024741356.1  117 AKTDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRI---MTFGYDSDLTD---S-----------TTLVTME  179 (418)
+Q Consensus       131 ~~~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri---~~~gY~s~~~~---~-----------~~~~~i~  193 (433)
+                      ..+.||++||.+++. ..|..       +...+..     ++.+   +.++|......   .           .....+.
+T Consensus         3 ~~p~vi~~HG~~~~~-~~~~~-------~~~~l~~-----~~~v~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   69 (245)
+T BST1_DEBHA/94-    3 GGIPILFIPGNAGSY-RQVRS-------IAAETSD-----IYFDHYLDQPDGLNPNAKNYDFFTADFNEDFTAFHGRTLL   69 (245)
+T ss_pred             CCCcEEEecCCCCCH-HHHHh-------HHHHHHH-----HhhhccccCCCCCCCCccceeEEEeccccchhhhchhHHH
+Confidence            346799999998876 45533       1222321     3344   44444432210   0           0123344
+
+
+Q XP_024741356.1  180 SCAQSLLRGVNEVRNSD---EARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPHLGSKR  250 (418)
+Q Consensus       194 ~~a~~L~~~L~~~r~~~---~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh~Gs~~  264 (433)
+                      +.+.++...+..++...   .....+|+++||||||.+++.++..+...      ...+.+++++++|..+...
+T Consensus        70 ~~~~~~~~~i~~l~~~~~~~~~~~~~i~l~G~S~Gg~~a~~~~~~~~~~------~~~v~~~i~~~~~~~~~~~  137 (245)
+T BST1_DEBHA/94-   70 DQAEYLNEAIKFILGLYANSEHPPRSVVVLGHSMGGVVSRVMVSLPNYI------PDSINTIITLASPHAAAPL  137 (245)
+T ss_pred             HHHHHHHHHHHHHHhhccCCCCCCceEEEEEECHHHHHHHHHHhCCccC------hhheeeEEEcCCCccCCCc
+Confidence            44555555555544321   12347899999999999997766544321      1256789999998877654
+
+
+No 15
+>PF06821.13 ; Ser_hydrolase ; Serine hydrolase
+Probab=97.20  E-value=1.8e-07  Score=74.31  Aligned_cols=91  Identities=23%  Similarity=0.329  Sum_probs=57.7  Template_Neff=11.700
+
+Q XP_024741356.1  121 ICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDSTTLVTMESCAQSLLRGVNEVRNSDEARN  200 (418)
+Q Consensus       135 IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~~~~~~i~~~a~~L~~~L~~~r~~~~~~~  214 (433)
+                      ||++||++++....|..      ++...++.     +++++.+++.        ...+.+.++.+...+...       .
+T Consensus         1 vv~~HG~~~~~~~~~~~------~~~~~~~~-----~~~~~~~d~~--------~~~~~~~~~~~~~~l~~~-------~   54 (169)
+T Q7VYN0_BORPE/5    1 PIIVPGWQGSGPGHWQT------HWSRTLPH-----AVRLQQRDWH--------QPQRAEWVAALAAAVDAA-------P   54 (169)
+T ss_pred             CEEecCCCCCCCcchHH------HHHHhCCc-----CeecccCCCC--------CCCHHHHHHHHHHHHhcC-------C
+Confidence            68999999887434543      12333332     5677777771        123445555555544432       2
+
+
+Q XP_024741356.1  201 RPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPHL  246 (418)
+Q Consensus       215 ~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh~  260 (433)
+                      .+++++||||||.++..++...+         ..+.++|+++++..
+T Consensus        55 ~~~~l~G~S~Gg~~~~~~~~~~~---------~~~~~~i~~~~~~~   91 (169)
+T Q7VYN0_BORPE/5   55 TPVLLVAHSLGCLVSAALPIALR---------AKVAGALLVAPADV   91 (169)
+T ss_pred             CCeEEEEeCHHHHHHHHHHHHCh---------hcccEEEEECCCCC
+Confidence            67999999999999988776532         24677888877654
+
+
+No 16
+>PF02273.15 ; Acyl_transf_2 ; Acyl transferase
+Probab=97.12  E-value=2.7e-07  Score=79.70  Aligned_cols=105  Identities=16%  Similarity=0.098  Sum_probs=68.2  Template_Neff=12.300
+
+Q XP_024741356.1  117 AKTDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSD-LTDS--TTLVTMESCAQSLLRGVNEVR  193 (418)
+Q Consensus       131 ~~~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~-~~~~--~~~~~i~~~a~~L~~~L~~~r  207 (433)
+                      ....||++||.+++. ..|..       +...|..    .+++|++++|... ..+.  ....++.+.++++...+..+.
+T Consensus        29 ~~~~iv~~hG~~~~~-~~~~~-------~~~~l~~----~g~~v~~~d~~~~~g~s~~~~~~~~~~~~~~~~~~~i~~l~   96 (294)
+T C7BN06_PHOAA/8   29 RKNTLIIASGFARRM-DHFAG-------LAEYLSQ----NGFHVIRYDSLHHVGLSSGTIDEFTMSIGKQSLLAVVDWLN   96 (294)
+T ss_pred             CCceEEEECCccchh-HHHHH-------HHHHHHH----CCCEEEEEeCCCCCCCCCCCccccchhHHHHHHHHHHHHHH
+Confidence            466799999999877 45644       2344443    2788999886433 2211  122345566667776666654
+
+
+Q XP_024741356.1  194 NSDEARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPHLG  247 (418)
+Q Consensus       208 ~~~~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh~G  261 (433)
+                      ..   ...+++++||||||.++..++.. +          .+.++|+++++...
+T Consensus        97 ~~---~~~~~~l~G~S~Gg~~a~~~a~~-p----------~~~~~vl~~~~~~~  136 (294)
+T C7BN06_PHOAA/8   97 TR---KINNLGMLASSLSARIAYASLSE-I----------NVSFLITAVGVVNL  136 (294)
+T ss_pred             hc---CCcceEEEEEcHHHHHHHHHHcc-C----------CccceEEccccccH
+Confidence            22   15789999999999999887765 2          35677777765443
+
+
+No 17
+>PF00561.20 ; Abhydrolase_1 ; alpha/beta hydrolase fold
+Probab=97.12  E-value=2.7e-07  Score=75.21  Aligned_cols=96  Identities=14%  Similarity=0.048  Sum_probs=58.5  Template_Neff=13.500
+
+Q XP_024741356.1  120 DICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDSTTLV---TMESCAQSLLRGVNEVRNSD  196 (418)
+Q Consensus       134 ~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~~~~~---~i~~~a~~L~~~L~~~r~~~  210 (433)
+                      .||++||.++     |..     ..+.+.|.+    .++.++.++|.+.........   .+.+.    .+.+..+....
+T Consensus         2 ~vv~~hG~~~-----~~~-----~~~~~~l~~----~g~~v~~~d~~g~g~s~~~~~~~~~~~d~----~~~~~~~~~~~   63 (237)
+T YPT1_CAEEL/226    2 LIICFEGNAG-----FYE-----IGVMNSPAQ----LGYTTLGFNLPGFGESTGLPYAVNTLAAA----DAVMQYAIQVL   63 (237)
+T ss_pred             eEEEECCCch-----hhh-----hccccChhH----cCeEEEeecCCCCCCCCCCChhhhhHHHH----HHHHHHHHHHc
+Confidence            4899999998     332     012344543    288999998887654322111   33333    33333331111
+
+
+Q XP_024741356.1  197 EARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLAT  243 (418)
+Q Consensus       211 ~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgt  257 (433)
+                      .....+++++|||+||.++..++...+         . +.+++++++
+T Consensus        64 ~~~~~~i~l~G~S~Gg~~a~~~a~~~~---------~-v~~~i~~~~  100 (237)
+T YPT1_CAEEL/226   64 GYRQENIVLFGWSIGGFPVAWLASNYP---------N-VKAVVLDAT  100 (237)
+T ss_pred             CcCcccEEEEEEcHHHHHHHHHHHhCC---------C-ccEEEEEcC
+Confidence            134678999999999999988776542         2 567777776
+
+
+No 18
+>PF03583.14 ; LIP ; Secretory lipase
+Probab=97.11  E-value=2.8e-07  Score=77.91  Aligned_cols=89  Identities=12%  Similarity=-0.008  Sum_probs=54.0  Template_Neff=13.400
+
+Q XP_024741356.1  156 LNSRIMTFGYDSDLTDST-TLVTMESCAQSLLRGVNEVRNSDEARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELA  234 (418)
+Q Consensus       170 ~~~ri~~~gY~s~~~~~~-~~~~i~~~a~~L~~~L~~~r~~~~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~  248 (433)
+                      .+++|+++++++...+.. ......+.++++...++.+.........+++++||||||.++..++...++.  ...+...
+T Consensus        25 ~g~~v~~~d~~g~G~s~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~l~G~S~Gg~~a~~~a~~~~~~--~~~l~~~  102 (291)
+T LIP10_CANAL/11   25 NGYYVIIPDYEGPKSTFTVGRQSGKATLNSIRAALQTGAFSGIKKTAKVALWGYSGGSLATGWAISLQSKY--APELKEN  102 (291)
+T ss_pred             CCCEEEecCCCCCCCCccCcchhHHHHHHHHHHHHHHhhhcCCcCCCcEEEEEEcHHHHHHHHHHHhccCC--CHHHccc
+Confidence            389999999987654321 1222355666666666554321112347999999999999998887765431  0111111
+
+
+Q XP_024741356.1  235 KCGLLFLATPHL  246 (418)
+Q Consensus       249 ~~givflgtPh~  260 (433)
+                      +.++++++++..
+T Consensus       103 ~~~~i~~~~~~~  114 (291)
+T LIP10_CANAL/11  103 LIGAAVGGFATN  114 (291)
+T ss_pred             eeEEeEeccccc
+Confidence            567777776544
+
+
+No 19
+>PF00151.19 ; Lipase ; Lipase
+Probab=97.08  E-value=3.4e-07  Score=82.78  Aligned_cols=111  Identities=11%  Similarity=0.118  Sum_probs=68.8  Template_Neff=9.500
+
+Q XP_024741356.1  116 EAKTDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDS--TTLVTMESCAQSLLRGVNEVR  193 (418)
+Q Consensus       130 ~~~~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~--~~~~~i~~~a~~L~~~L~~~r  207 (433)
+                      ..+..||++||++++....|...     +...++..    .++.|++++|.......  ....++...++.+.+.|..+.
+T Consensus        67 ~~~~~vv~iHG~~~~~~~~~~~~-----~~~~~l~~----~~~~vi~vD~~~~~~~~~~~~~~~~~~~~~~l~~~l~~l~  137 (336)
+T LIPP_RAT/17-35   67 TNRKTRIIIHGFIDKGEENWLSD-----MCKNMFKV----ESVNCICVDWKGGSRATYTQATQNVRVVGAEVALLVNVLK  137 (336)
+T ss_pred             CCCCEEEEECCCCCCCCcchHHH-----HHHHHHhc----CCeEEEEEeCccccccchhHHHHcHHHHHHHHHHHHHHHH
+Confidence            34567999999988764444321     12333332    37888888887653321  123345566666666666654
+
+
+Q XP_024741356.1  194 NSDEARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATP  244 (418)
+Q Consensus       208 ~~~~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtP  258 (433)
+                      ........++++|||||||.++..++.....         .+.+++.++.+
+T Consensus       138 ~~~~i~~~~i~liGhSlGg~va~~~~~~~~~---------~i~~iv~ldpa  179 (336)
+T LIPP_RAT/17-35  138 SDLGHPPDNVHLIGHSLGSHVAGEAGKRTFG---------AIGRITGLDAA  179 (336)
+T ss_pred             HhHCCCHHHeEEEEeCHHHHHHHHHHHHhhc---------CcCEEEeeCCC
+Confidence            3222235789999999999999887765432         34566666553
+
+
+No 20
+>PF07082.11 ; DUF1350 ; Protein of unknown function (DUF1350)
+Probab=97.01  E-value=4.9e-07  Score=77.18  Aligned_cols=112  Identities=14%  Similarity=0.109  Sum_probs=60.7  Template_Neff=10.900
+
+Q XP_024741356.1  119 TDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDSTTLVTMESCAQSLLRGVNEVRNSDEA  198 (418)
+Q Consensus       133 ~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~~~~~~i~~~a~~L~~~L~~~r~~~~~  212 (433)
+                      ..+++|||++|.....+..  ....++...|.+    .++.|+.+.|...........+....+.++.+.+......  .
+T Consensus        15 ~~~~~v~g~~g~~~~~~~~--~~~~~~~~~l~~----~g~~v~~~~~~~~~d~~~~g~s~~~~~~~~~~~~~~~~~~--~   86 (248)
+T Q8DG48_THEEB/2   15 RPLGWIHFLGGAFVAAAPQ--LTYRRLLEHLAE----ANYGIIATPFVNSFDHGAIALDALNKLDYALDWLVHRQGY--P   86 (248)
+T ss_pred             CCcEEEEEeCchhhccCch--HHHHHHHHHHHH----CCCEEEEecCCCCCChhHHHHHHHHHHHHHHHHHHHhcCC--C
+Confidence            5699999999853211111  011123444543    2788888666543211111112223333333333332111  1
+
+
+Q XP_024741356.1  199 RNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPHLG  247 (418)
+Q Consensus       213 ~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh~G  261 (433)
+                      ..++++++||||||.++..++...+.         .+.+++.++++...
+T Consensus        87 ~~~~i~l~G~S~Gg~~a~~~a~~~~~---------~~~~~v~i~~~~~~  126 (248)
+T Q8DG48_THEEB/2   87 PALPIYGLGHSMGCKLHLLINSLYDG---------DRAGNMFMAFNNYP  126 (248)
+T ss_pred             CCCCEEEEecchHHHHHHHHhhhCCC---------CCceEEEEccCCCC
+Confidence            24689999999999999887776532         35677777765543
+
+
+No 21
+>PF08538.10 ; DUF1749 ; Protein of unknown function (DUF1749)
+Probab=97.00  E-value=4.8e-07  Score=77.67  Aligned_cols=112  Identities=13%  Similarity=0.054  Sum_probs=62.7  Template_Neff=12.800
+
+Q XP_024741356.1  117 AKTDICFVHGLGGNAFD--TWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDSTTLVTMESCAQSLLRGVNEVRN  194 (418)
+Q Consensus       131 ~~~~IV~VHGl~g~~~~--tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~~~~~~i~~~a~~L~~~L~~~r~  208 (433)
+                      ....||++||.+++...  .|..       +.+.|..    .++.+++++|.+...+.. .........++...+..+..
+T Consensus        35 ~~p~vv~~hG~~~~~~~~~~~~~-------~~~~l~~----~g~~v~~~d~~g~~~g~g-~~~~~~~~~d~~~~~~~l~~  102 (303)
+T Q6C6P7_YARLI/1   35 HTNTVVFIGGLGDGITTVPYVKP-------LADALDK----AGWGVVELLTTSSFGGWG-TGSLERDAEEVEKAVEYLTT  102 (303)
+T ss_pred             CCeEEEEECCCCCCcccCcchHH-------HHHHHHH----CCCEEEEEeCCCCCCCCC-CCchhHHHHHHHHHHHHHHH
+Confidence            55679999999987621  1222       2334433    378899998843221110 11122233333333333222
+
+
+Q XP_024741356.1  195 SD----EARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPHLG  247 (418)
+Q Consensus       209 ~~----~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh~G  261 (433)
+                      ..    .....+++++|||+||.++..++.....       ...+.++|+++++...
+T Consensus       103 ~~~~~~~~~~~~~~l~G~S~Gg~~a~~~a~~~~~-------~~~v~~~v~~~~~~~~  152 (303)
+T Q6C6P7_YARLI/1  103 KLEAGGLPNKQKVVLLGHSTGCQDIMYYLTRGKE-------RAKIDGAILQAGVSDR  152 (303)
+T ss_pred             HHHcCCCCCCceEEEEEECHHHHHHHHHHHhCCC-------cccccEEEEecCCCCh
+Confidence            10    0145789999999999999888766510       0146777877776443
+
+
+No 22
+>PF04301.13 ; DUF452 ; Protein of unknown function (DUF452)
+Probab=96.98  E-value=5.4e-07  Score=73.54  Aligned_cols=72  Identities=17%  Similarity=0.229  Sum_probs=47.2  Template_Neff=12.300
+
+Q XP_024741356.1  116 -EAKTDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDSTTLVTMESCAQSLLRGVNEVRN  194 (418)
+Q Consensus       129 ~~~~~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~~~~~~i~~~a~~L~~~L~~~r~  208 (433)
+                      ...+..||++||++++. ..|...       .  |.     .+++++++            .++.+.++.+    ..   
+T Consensus         8 ~~~~~~vv~~hG~~~~~-~~~~~~-------~--l~-----~~~~v~~~------------~~~~~~~~~~----~~---   53 (212)
+T Q9K0T9_NEIMB/1    8 HQGGHLILYFAGWGTPP-DAVNHL-------I--LP-----ENHDLLIC------------YDYQDLNLDF----DF---   53 (212)
+T ss_pred             cCCCcEEEEECCCCCCH-HHHhhc-------c--CC-----CCceEEEE------------EeHHHhcHHH----hh---
+Confidence            34566899999999987 456542       2  32     26677666            1222333333    11   
+
+
+Q XP_024741356.1  195 SDEARNRPLLFVCHSLGGLITRKAMELLP  223 (418)
+Q Consensus       209 ~~~~~~~pii~VgHSlGGlv~k~al~~~~  237 (433)
+                         ....+++++||||||.++..++...+
+T Consensus        54 ---~~~~~v~l~G~S~Gg~~a~~~a~~~~   79 (212)
+T Q9K0T9_NEIMB/1   54 ---SAYRHIRLVAWSMGVWAAERALQGIR   79 (212)
+T ss_pred             ---ccCCceEEEEEcHHHHHHHHHHccCC
+Confidence               24578999999999999988887654
+
+
+No 23
+>PF10503.9 ; Esterase_phd ; Esterase PHB depolymerase
+Probab=96.93  E-value=6.7e-07  Score=72.42  Aligned_cols=99  Identities=8%  Similarity=0.086  Sum_probs=56.3  Template_Neff=12.900
+
+Q XP_024741356.1  116 EAKTDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDST--------TLVTMESCAQSLLR  187 (418)
+Q Consensus       130 ~~~~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~~--------~~~~i~~~a~~L~~  201 (433)
+                      .....||++||.+++. ..|...    .++...+..    .++.++.++|........        ..........++.+
+T Consensus        16 ~~~p~vi~~hG~~~~~-~~~~~~----~~~~~~~~~----~g~~v~~~d~~g~g~~~~~~~~~~~~~~~~~~~~~~~~~~   86 (217)
+T A1TUD0_ACIAC/1   16 APRPMVVMLHGCTQHA-EDFAAG----TRMNALARE----LGVVVLYPEQTQRANAQKCWNWFKPQHQQRGRGEPAVIAA   86 (217)
+T ss_pred             CCccEEEEEcCCCcCh-HHhhhc----ccHHHHHHH----hCeEEEeecccccccccccccccccccccCCCCCHHHHHH
+Confidence            3456799999998876 344321    112333332    277888887765432211        11112233444444
+
+
+Q XP_024741356.1  188 GVNEVRNSDEARNRPLLFVCHSLGGLITRKAMELLP  223 (418)
+Q Consensus       202 ~L~~~r~~~~~~~~pii~VgHSlGGlv~k~al~~~~  237 (433)
+                      .+..+.........+++++|||+||.++..++...+
+T Consensus        87 ~~~~~~~~~~~~~~~i~l~G~S~Gg~~a~~~~~~~~  122 (217)
+T A1TUD0_ACIAC/1   87 LARSIATAHRVDPARVYVAGLSAGGAMADVVGHCYP  122 (217)
+T ss_pred             HHHHHHHhcCCCHhhEEEEEeCHHHHHHHHHHHHCC
+Confidence            444443322223458999999999999888776543
+
+
+No 24
+>PF06028.11 ; DUF915 ; Alpha/beta hydrolase of unknown function (DUF915)
+Probab=96.93  E-value=6.8e-07  Score=74.66  Aligned_cols=117  Identities=20%  Similarity=0.190  Sum_probs=68.1  Template_Neff=12.600
+
+Q XP_024741356.1  116 EAKTDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSR--IMTFGYDSDLTDST-------------------T  174 (418)
+Q Consensus       130 ~~~~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~r--i~~~gY~s~~~~~~-------------------~  188 (433)
+                      .....||++||.+++. ..|..       +...|...    ++.  ++.++|........                   .
+T Consensus         9 ~~~p~vi~~HG~~~~~-~~~~~-------~~~~l~~~----g~~~~v~~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~   76 (252)
+T Q8Y8F4_LISMO/4    9 EIAIPTLFVHGYSGTA-NSFGG-------MINRLAED----GDVTKSLVMNVAADGTVSSKGDYDKFSHNPTIQVIFEDN   76 (252)
+T ss_pred             CccccEEEEcCCCCCh-hhhHH-------HHHHHHHc----CCccEEEEEEecCCCeecccccccccCCCCceEEeecCC
+Confidence            3456799999999876 34543       22333321    444  55555544321100                   0
+
+
+Q XP_024741356.1  175 LVTMESCAQSLLRGVNEVRNSDEARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPHLGSKR  250 (418)
+Q Consensus       189 ~~~i~~~a~~L~~~L~~~r~~~~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh~Gs~~  264 (433)
+                      ...+.+.+.++...+..+...  ....+|+++||||||.++..++.......    ....+.++|.++++......
+T Consensus        77 ~~~~~~~~~~~~~~i~~l~~~--~~~~~i~l~G~S~Gg~~a~~~~~~~~~~~----~~~~~~~~v~~~~~~~~~~~  146 (252)
+T Q8Y8F4_LISMO/4   77 KSSAANQTQWIQNVMKELKNN--YHIEKVYAVGHSMGGVSLTSYIEKVGNDK----TYPVLEKLVLIGAPLNGLVI  146 (252)
+T ss_pred             ccchHHHHHHHHHHHHHHHHh--cCCCeEEEEEEChHHHHHHHHHHHhccCC----CchhhceEEEEccccccccC
+Confidence            014555566666666655432  23468999999999999988877654211    01146778888887665543
+
+
+No 25
+>PF07859.13 ; Abhydrolase_3 ; alpha/beta hydrolase fold
+Probab=96.92  E-value=7.1e-07  Score=71.97  Aligned_cols=106  Identities=9%  Similarity=-0.034  Sum_probs=58.5  Template_Neff=12.900
+
+Q XP_024741356.1  121 ICFVHGL---GGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDSTTLVTMESCAQSLLRGVNEVRNS--  195 (418)
+Q Consensus       135 IV~VHGl---~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~~~~~~i~~~a~~L~~~L~~~r~~--  209 (433)
+                      ||++||.   +++. ..|..       +...+...   .++.+++++|++...... ...+.+    +...+..+...  
+T Consensus         1 vv~~hG~g~~~~~~-~~~~~-------~~~~l~~~---~g~~v~~~d~~g~g~s~~-~~~~~d----~~~~~~~~~~~~~   64 (212)
+T C0ZU15_RHOE4/8    1 LLWIHGGGFAIGTA-ESSDP-------FCVEVARE---LGFAVANVEYRLAPETSF-PGPVND----CYAALLYIHAHAE   64 (212)
+T ss_pred             CeEEeCCCccCCCc-cccch-------HHHHHHHH---hCcEEEEEeccCCCCCCC-CCcHHH----HHHHHHHHHHHHH
+Confidence            6899994   4443 34432       22333321   278888888876543321 112222    22222222211  
+
+
+Q XP_024741356.1  196 -DEARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPHLG  247 (418)
+Q Consensus       210 -~~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh~G  261 (433)
+                       ......+++++||||||.++..++...+...     ...+.++|+++++...
+T Consensus        65 ~~~~~~~~i~l~G~S~Gg~~a~~~~~~~~~~~-----~~~v~~~v~~~~~~~~  112 (212)
+T C0ZU15_RHOE4/8   65 ELGVDPSRIAVGGQSAGGGLAAGTVLKARDEG-----VVPVAFQFLEIPELDD  112 (212)
+T ss_pred             HhCCCHhhEEEEecCHHHHHHHHHHHHHHhcC-----CCCCeEEEEeCCcccc
+Confidence             0123578999999999999988887654210     0126788888776543
+
+
+No 26
+>PF12695.7 ; Abhydrolase_5 ; Alpha/beta hydrolase family
+Probab=96.91  E-value=7.5e-07  Score=69.65  Aligned_cols=90  Identities=17%  Similarity=0.134  Sum_probs=57.2  Template_Neff=12.100
+
+Q XP_024741356.1  121 ICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDSTTLVTMESCAQSLLRGVNEVRNSDEARN  200 (418)
+Q Consensus       135 IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~~~~~~i~~~a~~L~~~L~~~r~~~~~~~  214 (433)
+                      ||++||.+++. ..|..       +.+.+..    .+++++.++|+.....        ...+.+.+.+...      ..
+T Consensus         2 iv~lhg~~~~~-~~~~~-------~~~~l~~----~~~~v~~~~~~~~~~~--------~~~~~~~~~~~~~------~~   55 (165)
+T Q8Y715_LISMO/6    2 VILYPGAFVDA-LSYAP-------LANKLAS----SGYKTYIVEMPLNLAV--------FGKNRAADIIDEA------PD   55 (165)
+T ss_pred             eEEeCCCCCCH-HHHHH-------HHHHHHH----CCCeEEEEeCCccccc--------cCHhHHHHHHHHC------CC
+Confidence            79999999887 45643       2334443    2788888888743221        1122333333332      22
+
+
+Q XP_024741356.1  201 RPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPH  245 (418)
+Q Consensus       215 ~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh  259 (433)
+                      ++++++|||+||.++..++...+.         .+.++++++++.
+T Consensus        56 ~~~~l~G~S~Gg~~a~~~~~~~~~---------~~~~~i~~~~~~   91 (165)
+T Q8Y715_LISMO/6   56 EKFVIGGHSLGGVMSSRFAHDNEN---------EIEGAFFLASYP   91 (165)
+T ss_pred             CCEEEEEECHHHHHHHHHHhhCCC---------ceeEEEEEccCC
+Confidence            789999999999999887776432         456777777643
+
+
+No 27
+>PF06342.12 ; DUF1057 ; Alpha/beta hydrolase of unknown function (DUF1057)
+Probab=96.88  E-value=8.8e-07  Score=75.99  Aligned_cols=101  Identities=15%  Similarity=0.105  Sum_probs=63.0  Template_Neff=12.500
+
+Q XP_024741356.1  117 AKTDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDST---TLVTMESCAQSLLRGVNEVR  193 (418)
+Q Consensus       131 ~~~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~~---~~~~i~~~a~~L~~~L~~~r  207 (433)
+                      ..+.||++||.+++. ..|..       +...|..    .++.+++++|++......   ....+.+.+..+...+..+.
+T Consensus        34 ~~p~iv~~hG~~~~~-~~~~~-------~~~~l~~----~g~~v~~~d~~g~g~s~~~~~~~~~~~~~~~~~~~~~~~~~  101 (296)
+T Q9N4E0_CAEEL/1   34 PLGTVIGFHGTPGSH-KDFKY-------VRQRLEH----MNIRFIGINYPGFKQTPAYPGQHFGNWERNSYSEALLNELD  101 (296)
+T ss_pred             ceeEEEEECCCCCCH-HHHHH-------HHHHHHh----CCCEEEEeCCCCcCCCCCCCCCCCCHHHHHHHHHHHHHHcC
+Confidence            456799999999876 34432       2344443    278899998887543321   12234444444444444331
+
+
+Q XP_024741356.1  194 NSDEARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPH  245 (418)
+Q Consensus       208 ~~~~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh  259 (433)
+                           ...+++++|||+||.++..++...           .+.++|+++++.
+T Consensus       102 -----~~~~i~l~G~S~Gg~~a~~~a~~~-----------~~~~~v~~~~~~  137 (296)
+T Q9N4E0_CAEEL/1  102 -----VQGKVIIMGHSRGCESALITATNR-----------KPHGLVMVNPTG  137 (296)
+T ss_pred             -----CCCcEEEEEeChHHHHHHHHHhcC-----------CCCeEEEECCcc
+Confidence                 125899999999999988876653           246677776643
+
+
+No 28
+>PF05448.12 ; AXE1 ; Acetyl xylan esterase (AXE1)
+Probab=96.87  E-value=9.3e-07  Score=76.96  Aligned_cols=106  Identities=12%  Similarity=-0.002  Sum_probs=64.7  Template_Neff=12.400
+
+Q XP_024741356.1  116 EAKTDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDL------TDST----------------  173 (418)
+Q Consensus       130 ~~~~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~------~~~~----------------  187 (433)
+                      .....||++||.+++. ..|..       +..++.     .++.+++++|.+..      ....                
+T Consensus        81 ~~~~~vl~~hG~~~~~-~~~~~-------~~~~~~-----~g~~v~~~d~~g~g~~~~~~~s~~~~~~~~~~~~~~~~~~  147 (321)
+T Q9FC27_STRCO/1   81 EPLPLVVEFVGYGGGR-GLPHE-------HLLWAS-----TGRAHFVMDTRGQGSAWGGGGGTADPVGGTPAYPGFMTRG  147 (321)
+T ss_pred             CCcCEEEEeCCCCCCC-CCcHH-------HHHHHh-----cCcEEEEEcCCCCccccCCCCCCCCCCCCCCCCCCccccC
+Confidence            4567799999999885 45543       122222     37888888887554      1100                
+
+
+Q XP_024741356.1  174 ----TLVTMESCAQSLLRGVNEVRNSDEARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATP  244 (418)
+Q Consensus       188 ----~~~~i~~~a~~L~~~L~~~r~~~~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtP  258 (433)
+                          ........+.++...+..+.........+++++||||||.++..++...+          .+.++|+++++
+T Consensus       148 ~~~~~~~~~~~~~~d~~~~~~~l~~~~~~~~~~i~l~G~S~Gg~~a~~~a~~~p----------~~~~~v~~~~~  212 (321)
+T Q9FC27_STRCO/1  148 LDAPENYYYRRVFTDAVRAVEAARSHPLTDPSRTVALGASQGGGITIAVGGLVR----------DLAAVAPDVPF  212 (321)
+T ss_pred             CCCCcccchHHHHHHHHHHHHHHHhCCCCChhcEEEEEeCHHHHHHHHHHhhCc----------CceEEeecCcc
+Confidence                01234445555555555544322223478999999999999988776543          23566666653
+
+
+No 29
+>PF05277.12 ; DUF726 ; Protein of unknown function (DUF726)
+Probab=96.81  E-value=1.3e-06  Score=79.09  Aligned_cols=64  Identities=17%  Similarity=0.102  Sum_probs=44.1  Template_Neff=8.700
+
+Q XP_024741356.1  178 MESCAQSLLRGVNEVRNSDEARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPHLGSK  249 (418)
+Q Consensus       192 i~~~a~~L~~~L~~~r~~~~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh~Gs~  263 (433)
+                      ..+.++.|.+.|...    ....+|+++|||||||.++.+++.......    ....+..++++++|.....
+T Consensus       197 a~~~~~~La~~l~~~----~~~~~~v~LvGHSmG~~v~~~~l~~l~~~~----~~~~i~~vvll~~~~~~~~  260 (340)
+T YFD4_YEAST/536  197 AWSAGKILADTLIAR----NLGARPITLVGFSIGARVIFSCLIELCKKK----ALGLIENVYLFGTPAVMKK  260 (340)
+T ss_pred             HHHHHHHHHHHHHHh----cCCCCCEEEEEECHHHHHHHHHHHHHHHhh----ccCCcCEEEEECCCCCCCH
+Confidence            344455555555442    124689999999999999999998765321    1235778999999887653
+
+
+No 30
+>PF06500.11 ; DUF1100 ; Alpha/beta hydrolase of unknown function (DUF1100)
+Probab=96.74  E-value=1.6e-06  Score=80.09  Aligned_cols=108  Identities=15%  Similarity=0.118  Sum_probs=67.1  Template_Neff=10.000
+
+Q XP_024741356.1  116 EAKTDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDST--TLVTMESCAQSLLRGVNEVR  193 (418)
+Q Consensus       130 ~~~~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~~--~~~~i~~~a~~L~~~L~~~r  207 (433)
+                      ...+.||++||+++.....|..       +.+.|..    .++.|++++|++......  ......+....+++.|....
+T Consensus       188 ~~~p~Vi~~hG~~~~~~~~~~~-------~~~~l~~----~G~~vl~~d~pG~G~s~~~~~~~~~~~~~~~v~~~l~~~~  256 (411)
+T Y674_VIBPA/4-4  188 KQLPVVMVSAGLDSLQTDMWRL-------FRNHFAP----KDIAMLTVDMPSVGHSSHWPLTEDSSCLHQAVLNELYSIP  256 (411)
+T ss_pred             CCCCEEEEeCCCcccHHHHHHH-------HHHHhhc----CCeEEEEEcCCCCCCCCCCCCCCChHHHHHHHHHHHhcCC
+Confidence            4567899999998776333332       2333432    388999999987544321  12233344444444444321
+
+
+Q XP_024741356.1  194 NSDEARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPHL  246 (418)
+Q Consensus       208 ~~~~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh~  260 (433)
+                         .....+|+++||||||.++..++...+         ..++++|+++++..
+T Consensus       257 ---~~d~~~i~l~G~S~GG~~A~~~a~~~p---------~ri~avv~~~~~~~  297 (411)
+T Y674_VIBPA/4-4  257 ---YVDHHKVGLVGFRFGGNAMVRLSFLEQ---------EKIKACVALGAPVH  297 (411)
+T ss_pred             ---CcCcceEEEEEECHHHHHHHHHHhhcc---------cceeEEEEeCCCch
+Confidence               123468999999999999987776532         25678888887643
+
+
+No 31
+>PF11339.8 ; DUF3141 ; Protein of unknown function (DUF3141)
+Probab=96.73  E-value=1.8e-06  Score=83.46  Aligned_cols=110  Identities=8%  Similarity=-0.000  Sum_probs=68.9  Template_Neff=7.600
+
+Q XP_024741356.1  116 EAKTDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDSTTLVTMESCAQSLLRGVNEVRNS  195 (418)
+Q Consensus       130 ~~~~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~~~~~~i~~~a~~L~~~L~~~r~~  209 (433)
+                      ..+..||+|||.+|+.. .|.... .... ...|..    .+++|+.++|......   ..++.+.++.+...++.+...
+T Consensus        66 ~~~~Pvvivhg~~G~g~-g~~~~~-~~sl-~~~ll~----~G~~V~~vDf~g~~~~---~~tl~dv~~~l~~~ie~V~~~  135 (573)
+T Q0K0Q7_CUPNH/6   66 DSRRPYVIIDPRAGHGP-GIGGFK-DDSQ-VGVAMR----AGHPVYFVIFFRDPEP---GQTLLDVCEAEQQFIKRVREL  135 (573)
+T ss_pred             CCCCeEEEECCCCCCCC-CCCCCC-CchH-HHHHHH----CCCCEEEEeCCCCCCC---CCCHHHHHHHHHHHHHHHHHH
+Confidence            34667889999999852 332110 0011 222222    3889999988754332   256667776666666655432
+
+
+Q XP_024741356.1  196 DEARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPH  245 (418)
+Q Consensus       210 ~~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh  259 (433)
+                      . ....++++||||+||.++..++...++         .+.++|++|+|.
+T Consensus       136 ~-~~~~k~~liGhS~GG~~Al~lAa~~Pd---------~v~~lVL~gsPl  175 (573)
+T Q0K0Q7_CUPNH/6  136 H-PHSAKPAIIGNCQGGWAAMMLGASDPG---------DTGPIVINGAPM  175 (573)
+T ss_pred             C-CCCCCcEEEEECHHHHHHHHHHHhCCc---------ccccEEEEcCCC
+Confidence            1 123488999999999998777665432         467888888874
+
+
+No 32
+>PF11288.8 ; DUF3089 ; Protein of unknown function (DUF3089)
+Probab=96.60  E-value=3e-06  Score=71.56  Aligned_cols=87  Identities=13%  Similarity=0.072  Sum_probs=53.3  Template_Neff=8.100
+
+Q XP_024741356.1  118 KTDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDL------------------TD-----STT  174 (418)
+Q Consensus       132 ~~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~------------------~~-----~~~  188 (433)
+                      ...+.+.+|+.+++ ..|..       +.+.+.     ++++++++++.+..                  ..     ...
+T Consensus        24 ~~~~~~~~g~~~~~-~~~~~-------~~~~la-----~~y~~~~~d~~g~~~~~~~~~~p~~~~~~~~~g~~~~~~~~~   90 (221)
+T F0YR72_AURAN/7   24 EGAAYAAWKIARQT-SCFTH-------RCRVFA-----PKYRQARVANYHCFEGHAAPDGPRLPGYQGRLFSEPCGEAAF   90 (221)
+T ss_pred             hHHHHHHHHHHHHH-HHhhH-------hhhhhh-----ccceEeehHHhhcccCCCCCCCCCCCCcccccCCCccchhHH
+Confidence            33445677777754 56654       133333     36788877765331                  10     112
+
+
+Q XP_024741356.1  175 LVTMESCAQSLLRGVNEVRNSDEARNRPLLFVCHSLGGLITRKAMEL  221 (418)
+Q Consensus       189 ~~~i~~~a~~L~~~L~~~r~~~~~~~~pii~VgHSlGGlv~k~al~~  235 (433)
+                      ..++.++++.+.+.++.+.    ...+|++++||||||.++..++..
+T Consensus        91 ~~s~~d~~~~l~~~l~~~~----~~~~~vvlvGhS~Gg~ia~~~a~~  133 (221)
+T F0YR72_AURAN/7   91 DVAFADVAAALELFLTKHR----RPGRPWILAGHSQGAGHVTRWLNE  133 (221)
+T ss_pred             HhhHHHHHHHHHHHHHHcc----CCCCCEEEEEECHHHHHHHHHHHH
+Confidence            3456666666666665530    125799999999999999988876
+
+
+No 33
+>PF11144.8 ; DUF2920 ; Protein of unknown function (DUF2920)
+Probab=96.60  E-value=2.9e-06  Score=78.11  Aligned_cols=36  Identities=17%  Similarity=0.217  Sum_probs=28.3  Template_Neff=9.600
+
+Q XP_024741356.1  201 RPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPH  245 (418)
+Q Consensus       215 ~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh  259 (433)
+                      .+++++||||||.++..++...+.         .+.++|+++++.
+T Consensus       185 ~~i~lvG~S~Gg~~a~~~a~~~p~---------~v~~lvl~s~~~  220 (399)
+T Q0P8V2_CAMJE/5  185 LPKIYGGGSYGGYLSLLIAKIAPW---------YVDGVIDNSGSA  220 (399)
+T ss_pred             CCEEEEEECHHHHHHHHHHHHCcc---------ccCEEEEeCCCC
+Confidence            689999999999999888876542         456777777643
+
+
+No 34
+>PF02450.15 ; LCAT ; Lecithin:cholesterol acyltransferase
+Probab=96.56  E-value=3.4e-06  Score=78.31  Aligned_cols=88  Identities=11%  Similarity=0.167  Sum_probs=54.2  Template_Neff=9.200
+
+Q XP_024741356.1  160 IMTFGYDSDLTDSTTLVTMESCAQSLLRGVNEVRNSDEARNRPLLFVCHSLGGLITRKAMELLPIMA---SYTNI-ELAK  235 (418)
+Q Consensus       174 i~~~gY~s~~~~~~~~~~i~~~a~~L~~~L~~~r~~~~~~~~pii~VgHSlGGlv~k~al~~~~~~~---~~~~i-~~~~  249 (433)
+                      +..++|+-..... ..........+|...++.+..   ...+++++|||||||++++.++.......   ..... ...+
+T Consensus        78 l~~~~ydwr~~~~-~~~~~~~~~~~l~~~i~~~~~---~~~~~v~lvgHSmGg~v~~~~l~~~~~~~~~~~~~~w~~~~i  153 (423)
+T PDAT_SCHPO/171   78 MLSASYDWRLSYA-NLEERDKYFSKLKMFIEYSNI---VHKKKVVLISHSMGSQVTYYFFKWVEAEGYGNGGPTWVNDHI  153 (423)
+T ss_pred             eeecCCCCCcCcC-CHHHHHHHHHHHHHHHHHhhH---hCCCcEEEEEeChHHHHHHHHHHHHHHccCCCCCchhHHHhh
+Confidence            4455665443211 122344555566666665443   24679999999999999999887632110   00001 1467
+
+
+Q XP_024741356.1  236 CGLLFLATPHLGSKRA  251 (418)
+Q Consensus       250 ~givflgtPh~Gs~~a  265 (433)
+                      .++|++|+|+.|+..+
+T Consensus       154 ~~~i~i~~p~~g~~~~  169 (423)
+T PDAT_SCHPO/171  154 EAFINISGSLIGAPKT  169 (423)
+T ss_pred             ceEEeeccccCChHHH
+Confidence            8999999999998653
+
+
+No 35
+>PF03959.13 ; FSH1 ; Serine hydrolase (FSH1)
+Probab=96.53  E-value=3.8e-06  Score=69.21  Aligned_cols=23  Identities=17%  Similarity=0.008  Sum_probs=19.2  Template_Neff=11.600
+
+Q XP_024741356.1  201 RPLLFVCHSLGGLITRKAMELLP  223 (418)
+Q Consensus       215 ~pii~VgHSlGGlv~k~al~~~~  237 (433)
+                      .+++++|||+||.++..++...+
+T Consensus       107 ~~i~l~G~S~Gg~~a~~~a~~~~  129 (221)
+T A0A0D1E2Z7_UST  107 PFDGIVGFSQGGCLAGILASAFE  129 (221)
+T ss_pred             CCcEEEEeCHHHHHHHHHHHHcc
+Confidence            37999999999999988776643
+
+
+No 36
+>PF05677.12 ; DUF818 ; Chlamydia CHLPS protein (DUF818)
+Probab=96.52  E-value=3.9e-06  Score=74.91  Aligned_cols=102  Identities=15%  Similarity=0.162  Sum_probs=58.1  Template_Neff=11.500
+
+Q XP_024741356.1  116 EAKTDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDSTTLVTMESCAQSLLRGVNEVRNS  195 (418)
+Q Consensus       130 ~~~~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~~~~~~i~~~a~~L~~~L~~~r~~  209 (433)
+                      .....||++||.+++.. .|........++...+.+    .++.++.++|.+...+.. ........+++.+.++.+...
+T Consensus       132 ~~~p~vi~~hG~~~~~~-~~~~~~~~~~~~~~~l~~----~g~~vv~~d~~g~g~s~~-~~~~~~~~~~~~~~i~~l~~~  205 (361)
+T H2VFU0_CHLCV/1  132 EKDRWMLVSLGNSECFE-TRAMVYSRNDWILNVAKQ----ARANVVVFNYPGVMHSKG-PITRESLGKAYQACVHYLRDH  205 (361)
+T ss_pred             CCCcEEEEECCCccccc-chhhccCCChHHHHHHHH----CCCEEEEEcCCCCCcCCC-CCCHHHHHHHHHHHHHHHHhC
+Confidence            45678999999998873 332100001123344433    388999999876543321 112223333333333333221
+
+
+Q XP_024741356.1  196 D-EARNRPLLFVCHSLGGLITRKAMELLP  223 (418)
+Q Consensus       210 ~-~~~~~pii~VgHSlGGlv~k~al~~~~  237 (433)
+                      . .....+++++||||||.++..++...+
+T Consensus       206 ~~~~~~~~i~l~G~S~Gg~~a~~~a~~~~  234 (361)
+T H2VFU0_CHLCV/1  206 PDGPKAKQIIAYGYSLGTLVQALGLSKEV  234 (361)
+T ss_pred             CCCCCcceEEEEEECHHHHHHHHHHccCc
+Confidence            1 124578999999999999988877654
+
+
+No 37
+>PF02230.16 ; Abhydrolase_2 ; Phospholipase/Carboxylesterase
+Probab=96.52  E-value=3.9e-06  Score=67.89  Aligned_cols=58  Identities=14%  Similarity=0.157  Sum_probs=37.4  Template_Neff=12.900
+
+Q XP_024741356.1  177 TMESCAQSLLRGVNEVRNSDEARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATP  244 (418)
+Q Consensus       191 ~i~~~a~~L~~~L~~~r~~~~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtP  258 (433)
+                      .+....+++...+..+.... ....+++++|||+||.++..++...+.         .+.+++.++..
+T Consensus        88 ~~~~~~~~~~~~i~~~~~~~-~~~~~i~l~G~S~Gg~~a~~~~~~~~~---------~~~~~i~~~~~  145 (225)
+T APTH1_YEAST/1-   88 GFMNSLNSIEKTVKQEIDKG-IKPEQIIIGGFSQGAALALATSVTLPW---------KIGGIVALSGF  145 (225)
+T ss_pred             chhHHHHHHHHHHHHHHHcC-CCHHHEEEEEecHHHHHHHHHHhcCCC---------cccEEEEEccc
+Confidence            34455555655555544321 245789999999999999887765432         35666766654
+
+
+No 38
+>PF00326.21 ; Peptidase_S9 ; Prolyl oligopeptidase family
+Probab=96.43  E-value=5.4e-06  Score=66.78  Aligned_cols=83  Identities=8%  Similarity=-0.059  Sum_probs=54.2  Template_Neff=12.800
+
+Q XP_024741356.1  157 NSRIMTFGYDSDLTDSTT-L-----VTMESCAQSLLRGVNEVRNSDEARNRPLLFVCHSLGGLITRKAMELLPIMASYTN  230 (418)
+Q Consensus       171 ~~ri~~~gY~s~~~~~~~-~-----~~i~~~a~~L~~~L~~~r~~~~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~  244 (433)
+                      +++|+++++++...+... .     ......++++...+..+.........+++++||||||.++..++...+.      
+T Consensus        14 g~~v~~~d~~g~g~s~~~~~~~~~~~~~~~~~~~~~~~i~~~~~~~~~~~~~~~l~G~S~Gg~~a~~~a~~~~~------   87 (219)
+T Q9I440_PSEAE/4   14 GFVFAIAHVRGGGELGEAWYRAGKLEHKQNSFDDFIACAEHLLAEGYCRPEGLAISGGSAGGLLIGAVLNQRPQ------   87 (219)
+T ss_pred             CcEEEEEecCcCCcccchHhhcCccccccccHHHHHHHHHHHHHcCCCCCCCEEEEEECHHHHHHHHHHhhChh------
+Confidence            888999988765543211 1     1344556666666665543211245799999999999999888775432      
+
+
+Q XP_024741356.1  231 IELAKCGLLFLATPHLGS  248 (418)
+Q Consensus       245 i~~~~~givflgtPh~Gs  262 (433)
+                         .+.++|+++++....
+T Consensus        88 ---~~~~~v~~~~~~~~~  102 (219)
+T Q9I440_PSEAE/4   88 ---LFGAAIAEVPFVDVL  102 (219)
+T ss_pred             ---heeEEEEEcCccccc
+Confidence               457788887755444
+
+
+No 39
+>PF10142.9 ; PhoPQ_related ; PhoPQ-activated pathogenicity-related protein
+Probab=96.36  E-value=6.9e-06  Score=72.98  Aligned_cols=36  Identities=11%  Similarity=-0.162  Sum_probs=26.3  Template_Neff=12.100
+
+Q XP_024741356.1  200 NRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPH  245 (418)
+Q Consensus       214 ~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh  259 (433)
+                      ..+++++||||||.++..++. .+.         .+.++|.++.+.
+T Consensus       174 ~~~i~l~G~S~Gg~~a~~~a~-~~~---------~v~~~v~~~~~~  209 (375)
+T Q63P57_BURPS/4  174 IHRFVVSGISKRAWTTWLALI-GDQ---------RVDAIAPFAIDL  209 (375)
+T ss_pred             CCcEEEEEEcHHHHHHHHHHh-ccc---------cccEEEEEEecc
+Confidence            578999999999999988776 322         456666665543
+
+
+No 40
+>PF01738.18 ; DLH ; Dienelactone hydrolase family
+Probab=96.33  E-value=7.7e-06  Score=66.40  Aligned_cols=105  Identities=11%  Similarity=0.049  Sum_probs=61.0  Template_Neff=12.600
+
+Q XP_024741356.1  117 AKTDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDST----T--------LVTMESCAQS  184 (418)
+Q Consensus       131 ~~~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~~----~--------~~~i~~~a~~  198 (433)
+                      ..+.||++||.++.. ..|..      + ...|.+    .++.++.+++........    .        .....+..++
+T Consensus        15 ~~p~vv~~hG~~~~~-~~~~~------~-~~~l~~----~g~~v~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   82 (226)
+T Q18926_CAEEL/1   15 KVPAVLIFPAFRGIT-HFEKD------K-GQQIAE----LGFVAFVADVYGKGVRPTERADAFATMGPLVSNRVEKLKPR   82 (226)
+T ss_pred             CccEEEEecCCCCCc-hhhhh------H-HHHHHh----CCcEEEEeCCCCCCCCcccccchhhcchhhHHHHHHHHHHH
+Confidence            456799999999876 34443      1 233332    267788877665433110    0        0012344445
+
+
+Q XP_024741356.1  185 LLRGVNEVRNSDEARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLAT  243 (418)
+Q Consensus       199 L~~~L~~~r~~~~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgt  257 (433)
+                      +...+..+.........+++++|||+||.++..++...          ..+.+++.++.
+T Consensus        83 ~~~~~~~~~~~~~~~~~~i~l~G~S~Gg~~a~~~~~~~----------~~~~~~i~~~~  131 (226)
+T Q18926_CAEEL/1   83 LFAAVNTLKTFSEVDTSKIAAIGYCFGGLCVLDLARYN----------AGLKGVVSYHG  131 (226)
+T ss_pred             HHHHHHHHHhcCCCCccceEEEEECHHHHHHHHHHHhC----------CCCCEEEEeCC
+Confidence            55555544332212357899999999999988776653          13456666655
+
+
+No 41
+>PF09752.9 ; DUF2048 ; Abhydrolase domain containing 18
+Probab=96.32  E-value=8e-06  Score=74.31  Aligned_cols=108  Identities=10%  Similarity=0.021  Sum_probs=58.6  Template_Neff=12.100
+
+Q XP_024741356.1  116 EAKTDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDSTT---LV---TMES-------CA  182 (418)
+Q Consensus       130 ~~~~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~~~---~~---~i~~-------~a  196 (433)
+                      .....||++||.+++. ..|...    ..+..++..    .++.|+++++.+...+...   ..   ...+       .+
+T Consensus        90 ~~~p~vl~~hG~g~~~-~~~~~~----~~~~~~~~~----~g~~vi~~D~rG~G~s~~~~~~~~~~~~~~~~~~~~~~~~  160 (442)
+T ABD18_RAT/16-4   90 RYRPVCIHLAGTGDHH-YWRRRT----LMARPMIKE----ARMASLLLENPYYILLKPKDQVRSSLKNVSDLFVMGGALI  160 (442)
+T ss_pred             CCccEEEEeCCCCCcc-hhHhhh----hhhHHHHHH----CCcEEEEECCCCcccCCcccccccccccHHHHHHHhhHHH
+Confidence            4567899999996654 222210    012233321    1788999988765433210   01   1111       22
+
+
+Q XP_024741356.1  183 QSLLRGVNEVRNSDEARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATP  244 (418)
+Q Consensus       197 ~~L~~~L~~~r~~~~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtP  258 (433)
+                      .++...+..+..   ....+++++||||||.++..++...+.         .+.++++++..
+T Consensus       161 ~d~~~~~~~l~~---~~~~~i~l~G~S~Gg~~a~~~a~~~p~---------~~~~~vl~~~~  210 (442)
+T ABD18_RAT/16-4  161 LESAALLHWLER---EGYGPLGMTGISMGGHMASLAVSNWPK---------PMPLIPCLSWS  210 (442)
+T ss_pred             HHHHHHHHHHHH---hCCCCEEEEEECHHHHHHHHHHHhCCC---------cccEEeecCCc
+Confidence            222222222221   134789999999999999888776542         34456655553
+
+
+No 42
+>PF05728.12 ; UPF0227 ; Uncharacterised protein family (UPF0227)
+Probab=96.31  E-value=8.3e-06  Score=63.95  Aligned_cols=82  Identities=12%  Similarity=0.190  Sum_probs=46.9  Template_Neff=12.800
+
+Q XP_024741356.1  121 ICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDSTTLVTMESCAQSLLRGVNEVRNSDEARN  200 (418)
+Q Consensus       135 IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~~~~~~i~~~a~~L~~~L~~~r~~~~~~~  214 (433)
+                      ||++||.+++. ..|...     ++.+.+...    +. +  +.|+...    ...++.+..+++...++.+..   ...
+T Consensus         2 vi~~HG~~~~~-~~~~~~-----~~~~~l~~~----~~-~--~~~~~~~----~~~~~~~~~~~~~~~~~~~~~---~~~   61 (190)
+T Q8XVP9_RALSO/4    2 ILYLHGFRSSP-RSFKAQ-----LLGQRMAAV----GL-A--HAYACPM----LPVSPRQAMAEIEALIADLSS---RDG   61 (190)
+T ss_pred             eEEEcCCCCCc-chhhHH-----HHHHHHHHc----Cc-E--EEEeCCC----CCCCHHHHHHHHHHHHHHhcc---cCC
+Confidence            79999999876 445431     123344321    21 1  2222111    112345555566655555432   134
+
+
+Q XP_024741356.1  201 RPLLFVCHSLGGLITRKAMELL  222 (418)
+Q Consensus       215 ~pii~VgHSlGGlv~k~al~~~  236 (433)
+                      .+++++||||||.++..++...
+T Consensus        62 ~~i~l~G~S~Gg~~a~~~~~~~   83 (190)
+T Q8XVP9_RALSO/4   62 VAPALIGSSLGGYYATWLAERH   83 (190)
+T ss_pred             ceeEEEEECHHHHHHHHHHHHh
+Confidence            6899999999999988777654
+
+
+No 43
+>PF10340.9 ; Say1_Mug180 ; Steryl acetyl hydrolase
+Probab=96.30  E-value=8.5e-06  Score=73.00  Aligned_cols=114  Identities=14%  Similarity=0.043  Sum_probs=62.9  Template_Neff=11.400
+
+Q XP_024741356.1  116 EAKTDICFVHGLG---GNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDSTTLVTMESCAQSLLRGVNEV  192 (418)
+Q Consensus       130 ~~~~~IV~VHGl~---g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~~~~~~i~~~a~~L~~~L~~~  206 (433)
+                      ..+..||++||.+   ++. ..|..      | ...+...  ..++.|++++|.+...+.. ........+++.+.+..+
+T Consensus       119 ~~~p~iv~~HGgg~~~~~~-~~~~~------~-~~~l~~~--~~g~~v~~~d~~g~g~s~~-~~~~~~~~~d~~~~i~~l  187 (375)
+T Q6FTV9_CANGA/4  119 EIDPILIYYHGGGYALQLT-PTTLS------F-LTNTGKY--FPDMPILISDYATTASKLD-SNKYPRQLLDILAVYDYV  187 (375)
+T ss_pred             CCCCEEEEECCCCccCCCC-HHHHH------H-HHHHHHH--CCCceEEEEcCCCCCCccc-cCcCCHHHHHHHHHHHHH
+Confidence            3567899999965   322 22322      1 1223221  1278899999987653321 111222233333344333
+
+
+Q XP_024741356.1  193 RNSDEARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPHL  246 (418)
+Q Consensus       207 r~~~~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh~  260 (433)
+                      ...  ....+++++||||||.++..++....... .   ...+.++|+++++..
+T Consensus       188 ~~~--~~~~~i~l~G~S~Gg~~al~~a~~~~~~~-~---~~~v~~~il~sp~~~  235 (375)
+T Q6FTV9_CANGA/4  188 TQS--LGCKNVIVMGDSAGGNAVLVLLLYLHKHN-R---PLLPRKAIPISPWLN  235 (375)
+T ss_pred             HHh--cCCceEEEEEcCHHHHHHHHHHHHHHHcC-C---CCCCCeEEEECCCCC
+Confidence            322  23468999999999999988777532210 0   124567787776543
+
+
+No 44
+>PF12740.7 ; Chlorophyllase2 ; Chlorophyllase enzyme
+Probab=96.19  E-value=1.2e-05  Score=67.57  Aligned_cols=113  Identities=12%  Similarity=-0.008  Sum_probs=62.4  Template_Neff=11.700
+
+Q XP_024741356.1  117 AKTDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDS--TTLVTMESCAQSLLRGVNEVRN  194 (418)
+Q Consensus       131 ~~~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~--~~~~~i~~~a~~L~~~L~~~r~  208 (433)
+                      ....||++||.+++. ..|..       +...|.+    .++.|++++|.......  .....+.+..+.+...+.....
+T Consensus        16 ~~p~vi~~hG~~~~~-~~~~~-------~~~~l~~----~G~~vi~~d~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   83 (258)
+T M4F4K0_BRARP/4   16 EYPVVMLLHGYLLYN-SFYSQ-------LMLHVSS----YGFIVIAPQLYNIAGPDTMDEIKSTAEIIDWLSVGLNHFLP   83 (258)
+T ss_pred             CccEEEEECCCccch-hHHHH-------HHHHHHh----cCcEEEeecccccCCCCcchhHHHHHHHHHHHHHHHHhhCC
+Confidence            456799999999765 33432       2333443    27888888887643321  1112233333333333332211
+
+
+Q XP_024741356.1  195 S-DEARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPH  245 (418)
+Q Consensus       209 ~-~~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh  259 (433)
+                      . ......+++++||||||.++..++...++.    .....+.++|+++++.
+T Consensus        84 ~~~~~~~~~i~~~G~S~Gg~~a~~~a~~~~~~----~~~~~~~~~i~~~~~~  131 (258)
+T M4F4K0_BRARP/4   84 PQVTPNLSKFALTGHSRGGKTAFAVALKKFGY----SSELKISALIGVDPVD  131 (258)
+T ss_pred             CCCCCCcccEEEEEECHHHHHHHHHHHhhcCC----CCcccEEEEEEecCCC
+Confidence            1 012346899999999999998877654320    0011356677766543
+
+
+No 45
+>PF12048.8 ; DUF3530 ; Protein of unknown function (DUF3530)
+Probab=96.19  E-value=1.2e-05  Score=70.76  Aligned_cols=41  Identities=10%  Similarity=0.185  Sum_probs=28.9  Template_Neff=11.000
+
+Q XP_024741356.1  199 RNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPHLG  247 (418)
+Q Consensus       213 ~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh~G  261 (433)
+                      ...+|+++|||+||.++..++.....        ..+.++|+++++...
+T Consensus       212 ~~~~i~l~G~S~Gg~~a~~~~~~~~~--------~~i~~~v~~~~~~~~  252 (328)
+T A4VHI7_PSEU5/5  212 QAPTITLLGHGTGAYWAARYLAQTPS--------KEIAQLVLIDPRAPA  252 (328)
+T ss_pred             CCCCEEEEeecHHHHHHHHHHhcCCC--------CCccEEEEEcCCCCh
+Confidence            35789999999999999887765211        245677777765443
+
+
+No 46
+>PF12697.7 ; Abhydrolase_6 ; Alpha/beta hydrolase family
+Probab=96.11  E-value=1.6e-05  Score=64.18  Aligned_cols=80  Identities=16%  Similarity=0.256  Sum_probs=41.2  Template_Neff=11.700
+
+Q XP_024741356.1  121 ICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDSTTL----VTMESCAQSLLRGVNEVRNSD  196 (418)
+Q Consensus       135 IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~~~~----~~i~~~a~~L~~~L~~~r~~~  210 (433)
+                      |||+||++++. ..|..      .+...+.     .+++++++++++..  ....    .++.+  .++...+...... 
+T Consensus         1 vvl~HG~~~~~-~~w~~------~l~~~~~-----~~~~~~~~d~~G~G--~~~~~~~~~~~~~--~d~~~~~~~~~~~-   63 (204)
+T B0SNR8_LEPBP/1    1 VIFVHGGGSDR-REFSR------FIPFYLH-----QGFDIISFDLSCHG--EAPCLFPGLSFGS--REFRDVLSAYLYT-   63 (204)
+T ss_pred             eEEeCCCCCCH-HHHHH------HHHHHHh-----CCcEEEEEcCCCCC--CCCcCCCCCCCCH--HHHHHHHHHHHhh-
+Confidence            68999988764 45611      1222222     24556777776552  1111    22222  2233333322110 
+
+
+Q XP_024741356.1  197 EARNRPLLFVCHSLGGLITRK  217 (418)
+Q Consensus       211 ~~~~~pii~VgHSlGGlv~k~  231 (433)
+                      ....++++++||||||.++..
+T Consensus        64 ~~~~~~~~lvGhS~Gg~~a~~   84 (204)
+T B0SNR8_LEPBP/1   64 EKKYQNIIMVGSSVGASSLLI   84 (204)
+T ss_pred             CCCCCcEEEEEeCHHHHHHHH
+Confidence            013467799999999997655
+
+
+No 47
+>PF05576.11 ; Peptidase_S37 ; PS-10 peptidase S37
+Probab=96.10  E-value=1.7e-05  Score=73.95  Aligned_cols=105  Identities=10%  Similarity=0.114  Sum_probs=66.5  Template_Neff=9.000
+
+Q XP_024741356.1  117 AKTDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDST-----TLVTMESCAQSLLRGVNE  191 (418)
+Q Consensus       131 ~~~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~~-----~~~~i~~~a~~L~~~L~~  205 (433)
+                      ..+.||++||.++... .         |...+...    .++.++.+++.....+..     ...++.+.++++...++.
+T Consensus        62 ~~pvil~~~G~~~~~~-~---------~~~~~a~~----~g~~vv~~d~rg~G~S~~~~~~~~~~t~~q~~~Dl~~~i~~  127 (448)
+T Q9RDG7_STRCO/2   62 NRPTVFYTGGYNVSTN-P---------SRREPTQI----VDGNQVSMEYRYFTPSRPAPADWSKLDIWQAASDQHRIFKA  127 (448)
+T ss_pred             CCcEEEEeCCCCCCCC-c---------ccccchhh----cCCeEEEEecCCCCCCCCCCCChHhCCHHHHHHHHHHHHHH
+Confidence            4556888999887652 1         22333332    277888887766443211     223556667777777666
+
+
+Q XP_024741356.1  192 VRNSDEARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPHLG  247 (418)
+Q Consensus       206 ~r~~~~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh~G  261 (433)
+                      +...   ...+++++||||||.++..+....+.         .+.++|..++|..-
+T Consensus       128 ~~~~---~~~~~il~G~S~GG~la~~~~~~~p~---------~v~~~v~~s~~~~~  171 (448)
+T Q9RDG7_STRCO/2  128 LKPL---YSKNWISTGGSKGGMTATYYERFYPR---------DMDGVVAYVAPNDV  171 (448)
+T ss_pred             hhHH---hCCCEEEEeEcHHHHHHHHHHHHCCc---------cEEEEEEecCCchh
+Confidence            5321   13799999999999999887766542         35677777777553
+
+
+No 48
+>PF03403.13 ; PAF-AH_p_II ; Platelet-activating factor acetylhydrolase, isoform II
+Probab=95.88  E-value=3e-05  Score=69.23  Aligned_cols=22  Identities=18%  Similarity=0.360  Sum_probs=18.4  Template_Neff=10.900
+
+Q XP_024741356.1  200 NRPLLFVCHSLGGLITRKAMEL  221 (418)
+Q Consensus       214 ~~pii~VgHSlGGlv~k~al~~  235 (433)
+                      ..+++++|||+||.++..++..
+T Consensus       215 ~~~i~~~GhS~GG~~a~~~~~~  236 (367)
+T PAFA_CAVPO/48-  215 RSKVAIIGHSFGGATVIQTLSE  236 (367)
+T ss_pred             hhheEEEEeCchHHHHHHHhhc
+Confidence            3689999999999998876654
+
+
+No 49
+>PF05577.12 ; Peptidase_S28 ; Serine carboxypeptidase S28
+Probab=95.37  E-value=9.7e-05  Score=67.49  Aligned_cols=113  Identities=11%  Similarity=0.123  Sum_probs=65.0  Template_Neff=10.400
+
+Q XP_024741356.1  118 KTDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTDST-TL-----VTMESCAQSLLRGVNE  191 (418)
+Q Consensus       132 ~~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~~~-~~-----~~i~~~a~~L~~~L~~  205 (433)
+                      .+.||++||.++.. ..|...  +..++.++..+    .++.++.+.+.....+.. ..     .++.+..+++...+..
+T Consensus        29 ~p~vl~~~G~~~~~-~~~~~~--~~~~~~~la~~----~g~~vv~~e~r~~G~s~~~~~~~~~~~~~~~~~~D~~~~i~~  101 (431)
+T O02252_CAEEL/5   29 GPNFLMIGGEGPES-ARWVLN--ENITYLTWAKK----YGATVYLLEHRFYGDSVVGDNTNFKLLNSLQMLYDLAEFIKA  101 (431)
+T ss_pred             ceEEEEEcCCCCCc-hhhHhc--CchHHHHHHHH----hCCEEEEEeecCCCCCCCCCCCcccccCHHHHHHHHHHHHHH
+Confidence            45689999998765 344331  00022232221    266777776654332211 01     2445555666666655
+
+
+Q XP_024741356.1  192 VRNSDEARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPHLG  247 (418)
+Q Consensus       206 ~r~~~~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh~G  261 (433)
+                      +... .....+++++|||+||.++..++...+.         .+.++|..++|...
+T Consensus       102 ~~~~-~~~~~~~~~~G~S~GG~la~~~~~~~p~---------~~~~~v~~s~p~~~  147 (431)
+T O02252_CAEEL/5  102 VNIR-TGTSNPWITFGGSYSGAMSAWMREVFPD---------LVVGAVASSGPVYA  147 (431)
+T ss_pred             HHhh-cCCCCCEEEEeccHHHHHHHHHHHHChh---------heeEEeecccceee
+Confidence            4321 1234799999999999999888776542         34566666666544
+
+
+No 50
+>PF07224.11 ; Chlorophyllase ; Chlorophyllase
+Probab=95.37  E-value=9.6e-05  Score=63.55  Aligned_cols=95  Identities=14%  Similarity=0.050  Sum_probs=54.3  Template_Neff=11.500
+
+Q XP_024741356.1  116 EAKTDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTFGYDSDLTD--S---TTLVTMESCAQSLLRGVN  190 (418)
+Q Consensus       130 ~~~~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~gY~s~~~~--~---~~~~~i~~~a~~L~~~L~  204 (433)
+                      ...+.||++||.+++. ..|..       +...|..    .++.|+.+++......  .   .......+....+.+.+.
+T Consensus        43 ~~~p~vv~~hG~~~~~-~~~~~-------~~~~l~~----~G~~v~~~d~~g~g~~~~~~~~~~~~~~~~~~~~~~~~~~  110 (311)
+T CLH0_CHEAL/30-   43 GVYPVLLFIHGTMLSN-EDYSL-------FFNYIAS----HGFIVVAPKLFRLFPPKLPSQQDEIDMAASVANWMPLYLQ  110 (311)
+T ss_pred             CCeeEEEEECCCCCCh-HHHHH-------HHHHHHh----cCeEEEEecccccCCCCCCChhhHHHHHHHHHHHhHHHHH
+Confidence            3456799999999876 34432       3344443    2788888887654432  1   111222233333333333
+
+
+Q XP_024741356.1  191 EVRN----SDEARNRPLLFVCHSLGGLITRKAMELL  222 (418)
+Q Consensus       205 ~~r~----~~~~~~~pii~VgHSlGGlv~k~al~~~  236 (433)
+                      ....    .......+++++|||+||.++..++...
+T Consensus       111 ~~~~~~~~~~~~~~~~i~l~G~S~Gg~~a~~~a~~~  146 (311)
+T CLH0_CHEAL/30-  111 VVLQRYVTGVEGDLEKLAISGHSRGGKSAFALALGF  146 (311)
+T ss_pred             HHHHHHhhcCccccceEEEEEECHHHHHHHHHHccC
+Confidence            2211    0112357899999999999988776654
+
+
+No 51
+>PF00756.20 ; Esterase ; Putative esterase
+Probab=95.15  E-value=0.00014  Score=58.80  Aligned_cols=32  Identities=16%  Similarity=0.180  Sum_probs=23.6  Template_Neff=12.700
+
+Q XP_024741356.1  203 LLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLAT  243 (418)
+Q Consensus       217 ii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgt  257 (433)
+                      ++++||||||.++..++...++         .+.++|.++.
+T Consensus       128 i~l~G~S~Gg~~a~~~~~~~p~---------~~~~~i~~~~  159 (246)
+T Q9RW90_DEIRA/1  128 TSVIGSSMGGVVSLHALLTRPD---------VFGHAGLMSP  159 (246)
+T ss_pred             eeEEEeeHHHHHHHHHHHHCCc---------ccCceEEeCc
+Confidence            9999999999999887765432         2455666654
+
+
+No 52
+>PF12715.7 ; Abhydrolase_7 ; Abhydrolase family
+Probab=93.86  E-value=0.00082  Score=59.67  Aligned_cols=24  Identities=21%  Similarity=0.050  Sum_probs=19.7  Template_Neff=10.600
+
+Q XP_024741356.1  199 RNRPLLFVCHSLGGLITRKAMELL  222 (418)
+Q Consensus       213 ~~~pii~VgHSlGGlv~k~al~~~  236 (433)
+                      ...+|+++|||+||.++..++...
+T Consensus       223 d~~ri~v~G~S~GG~~al~~a~~~  246 (388)
+T Q5LEF1_BACFN/2  223 RKDRIVVSGFSLGTEPMMVLGTLD  246 (388)
+T ss_pred             ChhhEEEEEeCchHHHHHHHHhhC
+Confidence            457899999999999988776653
+
+
+No 53
+>PF16929.5 ; Asp2 ; Accessory Sec system GspB-transporter
+Probab=93.73  E-value=0.00095  Score=61.93  Aligned_cols=90  Identities=9%  Similarity=0.067  Sum_probs=47.3  Template_Neff=8.800
+
+Q XP_024741356.1  117 AKTDICFVHGLGGNAFDTWTVSNGGSMWPRDFLPSPKHFLNSRIMTF-GYDSDLTDSTTLVTMESCAQSLLRGVNEVRNS  195 (418)
+Q Consensus       131 ~~~~IV~VHGl~g~~~~tW~~~~~~~~Wl~d~L~~~~~~~~~ri~~~-gY~s~~~~~~~~~~i~~~a~~L~~~L~~~r~~  209 (433)
+                      ..+.||++||.++..  .|..        ...+..    .+..++.+ ++........  .......+.+.+.+..+...
+T Consensus       273 ~~PliV~~HG~~~~~--~~~~--------~~~l~~----~g~~~i~v~D~rg~g~s~~--~~~~~~~~~i~~~I~~~~~~  336 (495)
+T C4ZG35_AGARV/4  273 KPPLAIYFSGYRKQE--GFEG--------YNMMRK----LGCPFMLITDPRLEGGAFY--IDNADLEEKLFNNIEKTINE  336 (495)
+T ss_pred             CCcEEEEECCCCCCC--Cchh--------HHHHHH----hCCCEEEEECCCccCCccC--CCCHHHHHHHHHHHHHHHHH
+Confidence            556799999999764  2322        122222    13444444 3432221110  01112333344444443322
+
+
+Q XP_024741356.1  196 DEARNRPLLFVCHSLGGLITRKAMELL  222 (418)
+Q Consensus       210 ~~~~~~pii~VgHSlGGlv~k~al~~~  236 (433)
+                      ......+++++||||||.++..++...
+T Consensus       337 ~~~d~~~i~l~G~SmGG~~Al~~a~~~  363 (495)
+T C4ZG35_AGARV/4  337 MRFKKSDVIISGMSMGTFGSLYFGSKL  363 (495)
+T ss_pred             cCCCcccEEEEEECHHHHHHHHHHHhC
+Confidence            222347899999999999998877654
+
+
+No 54
+>PF00450.22 ; Peptidase_S10 ; Serine carboxypeptidase
+Probab=93.73  E-value=0.00095  Score=61.37  Aligned_cols=68  Identities=15%  Similarity=0.050  Sum_probs=39.0  Template_Neff=9.200
+
+Q XP_024741356.1  177 TMESCAQSLLRGVNEVRNS--DEARNRPLLFVCHSLGGLITRKAMELLPIMA-SYTNIELAKCGLLFLATP  244 (418)
+Q Consensus       191 ~i~~~a~~L~~~L~~~r~~--~~~~~~pii~VgHSlGGlv~k~al~~~~~~~-~~~~i~~~~~givflgtP  258 (433)
+                      +..+.++++...|..+...  .....++++++|||+||.++-.++....... ........++++++.++.
+T Consensus       112 ~~~~~a~d~~~~l~~~~~~~~p~~~~~~~~l~G~S~Gg~~~~~la~~~~~~~~~~~~~~~~l~giil~~~~  182 (467)
+T YXD2_CAEEL/27-  112 NDDSIAEQNFNSVIDFFQRKHSSYVNHDFFIAAESYGGVYGPMLSALVVDSISKREFPNENFKGLIIGNGF  182 (467)
+T ss_pred             ChHHHHHHHHHHHHHHHHhhCHHHhcCCEEEEEecccccHHHHHHHHHHHhhhcCCCCCCCceEEEEEccc
+Confidence            6777778887777765432  1123469999999999966655444332110 000012345677766553
+
+
+No 55
+>PF08840.11 ; BAAT_C ; BAAT / Acyl-CoA thioester hydrolase C terminal
+Probab=93.65  E-value=0.00098  Score=52.10  Aligned_cols=39  Identities=8%  Similarity=0.066  Sum_probs=29.3  Template_Neff=12.400
+
+Q XP_024741356.1  200 NRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPHLGS  248 (418)
+Q Consensus       214 ~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh~Gs  262 (433)
+                      ..+|+++|||+||.++..++...+          .+.++|+++++....
+T Consensus        21 ~~~i~l~G~S~Gg~~a~~~a~~~~----------~i~~~i~~~~~~~~~   59 (210)
+T ACOT5_MOUSE/20   21 GPGVGLLGISKGAELSLSMASFLK----------GITAAVVINGATVNV   59 (210)
+T ss_pred             CCcEEEEEECHHHHHHHHHHhhCC----------CcCEEEEecCCccce
+Confidence            468999999999999988776542          356778877765443
+
+
+No 56
+>PF01764.25 ; Lipase_3 ; Lipase (class 3)
+Probab=91.35  E-value=0.0047  Score=47.75  Aligned_cols=49  Identities=24%  Similarity=0.347  Sum_probs=29.4  Template_Neff=10.200
+
+Q XP_024741356.1  199 RNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPHLGS  248 (418)
+Q Consensus       213 ~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh~Gs  262 (433)
+                      ...+++|+||||||.++..++.......... .......++.+++|..+.
+T Consensus        94 ~~~~i~l~GHSlGg~~a~~~a~~~~~~~~~~-~~~~~~~~~~~~~p~~~~  142 (177)
+T F4JFU8_ARATH/2   94 ENARFVVTGHSLGGALAILFPTLLVLNEETE-IMKRLLGVYTFGQPRIGN  142 (177)
+T ss_pred             CCCcEEEEEcCHHHHHHHHHHHHHhhCCchh-hhhceEEEEecCCCCcCC
+Confidence            3468999999999999887766543221000 001233456677776543
+
+
+No 57
+>PF08237.11 ; PE-PPE ; PE-PPE domain
+Probab=84.73  E-value=0.034  Score=44.70  Aligned_cols=67  Identities=12%  Similarity=0.102  Sum_probs=44.8  Template_Neff=8.300
+
+Q XP_024741356.1  176 VTMESCAQSLLRGVNEVRNSDEARNRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLLFLATPHLG  247 (418)
+Q Consensus       190 ~~i~~~a~~L~~~L~~~r~~~~~~~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~givflgtPh~G  261 (433)
+                      .++.+-++.|.+.|....    +...+++++|+|+|+.|+..++.+......... .....++|++|.|.+.
+T Consensus        26 ~Sv~~G~~~l~~~i~~~~----~~~~~~vv~GySqGA~v~~~~l~~l~~~~~~~~-~~~~~~~vl~gdP~r~   92 (225)
+T B2HLV2_MYCMM/1   26 QSVAQGVTLLNDAINTQL----ALGNKVVAFGYSQSATIVNNEILALMAMGTGAP-DPGDLSFIMVGAPNNP   92 (225)
+T ss_pred             HHHHHHHHHHHHHHHHhh----cCCCcEEEEEEchHHHHHHHHHHHHHHcCCCCC-CCCceEEEEEcCCCCC
+Confidence            345555566666665532    356789999999999999998887654211000 0245679999999775
+
+
+No 58
+>PF11187.8 ; DUF2974 ; Protein of unknown function (DUF2974)
+Probab=83.97  E-value=0.04  Score=45.39  Aligned_cols=22  Identities=23%  Similarity=0.220  Sum_probs=18.5  Template_Neff=8.200
+
+Q XP_024741356.1  200 NRPLLFVCHSLGGLITRKAMEL  221 (418)
+Q Consensus       214 ~~pii~VgHSlGGlv~k~al~~  235 (433)
+                      ..+|+++||||||.++..++..
+T Consensus        94 ~~~i~vtGHSLGG~lA~l~a~~  115 (260)
+T A0ZZU1_BIFAA/8   94 SPAVMLGGHSKGGNMAVYAAMR  115 (260)
+T ss_pred             CCcEEEEeeCHHHHHHHHHHHH
+Confidence            4689999999999998776655
+
+
+No 59
+>PF09757.9 ; Arb2 ; Arb2 domain
+Probab=65.01  E-value=0.31  Score=38.86  Aligned_cols=37  Identities=8%  Similarity=0.012  Sum_probs=26.4  Template_Neff=8.500
+
+Q XP_024741356.1  200 NRPLLFVCHSLGGLITRKAMELLPIMASYTNIELAKCGLL-FLAT  243 (418)
+Q Consensus       214 ~~pii~VgHSlGGlv~k~al~~~~~~~~~~~i~~~~~giv-flgt  257 (433)
+                      .+.|+||||+.||..+...+...       .+..+++++| |++.
+T Consensus       132 a~~I~~Ia~g~g~~~v~~ll~~~-------~~~~rv~avi~~~~~  169 (246)
+T G8BRW5_TETPH/4  132 LEKLCFIGIGEATSGIVHLLGKR-------DTRTVTKAAINFVGS  169 (246)
+T ss_pred             cCcEEEEEechHHHHHHHHHccc-------chhhceeEEEEecCC
+Confidence            57899999999999888777542       2334677764 4444
+
+
+No 60
+>PF04083.16 ; Abhydro_lipase ; Partial alpha/beta-hydrolase lipase region
+Probab=48.01  E-value=0.94  Score=26.25  Aligned_cols=19  Identities=42%  Similarity=0.719  Sum_probs=14.5  Template_Neff=9.700
+
+Q XP_024741356.1  117 AKTDICFVHGLGGNAFDTWT  136 (418)
+Q Consensus       131 ~~~~IV~VHGl~g~~~~tW~  150 (433)
+                      .+..||++||+.++. ..|.
+T Consensus        40 ~~~~vll~HG~~~~~-~~w~   58 (61)
+T H9J3S0_BOMMO/1   40 KKPVALLMHGLLGSA-DDWL   58 (61)
+T ss_pred             CCCEEEEeCCCCCCH-HHHh
+Confidence            456799999999876 4553
+
+

@@ -1,0 +1,148 @@
+Query         PGH12591.1
+Match_columns 39
+No_of_seqs    339 out of 339
+Neff          7.90256
+Searched_HMMs 100
+Date          Mon Jan 11 21:29:48 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/PGH12591_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/PGH12591_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/PGH12591_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17046.5 ; Ses_B ; SesB domai  96.8 1.1E-06 2.1E-10   32.1   0.0   23    5-27      5-27  (28)
+  2 PF17108.5 ; HET-S ; N-terminal  14.4      10  0.0019   11.6   0.0   12   12-23     10-21  (23)
+  3 PF05931.11 ; AgrD ; Staphyloco  11.9      13  0.0025   12.2   0.0    9   30-38     29-37  (44)
+  4 PF12721.7 ; RHIM ; RIP homotyp   7.8      23  0.0044   12.4   0.0   10   14-23     39-48  (52)
+  5 PF05968.11 ; Bacillus_PapR ; B   6.8      29  0.0053   12.1   0.0   10    3-12     13-22  (45)
+  6 PF17153.4 ; CHASE9 ; Periplasm   5.9      35  0.0064   14.2   0.0   14   24-37    101-114 (116)
+  7 PF10783.9 ; DUF2599 ; Protein    5.2      38  0.0075   12.5   0.0    9   30-38     76-84  (98)
+  8 PF08995.10 ; NIP_1 ; Necrosis    4.2      55  0.0098   12.2   0.0   12    8-19     64-75  (82)
+  9 PF07921.12 ; Fibritin_C ; Fibr   4.2      52  0.0098   12.5   0.0   12   11-22     16-27  (86)
+ 10 PF05906.11 ; DUF865 ; Herpesvi   4.0      59    0.01   10.2   0.0    4   35-38      9-12  (35)
+
+No 1
+>PF17046.5 ; Ses_B ; SesB domain on fungal death-pathway protein
+Probab=96.84  E-value=1.1e-06  Score=32.11  Aligned_cols=23  Identities=35%  Similarity=0.432  Sum_probs=18.3  Template_Neff=4.200
+
+Q PGH12591.1        2 ASTISFADANAGLQIGNSNALIT   24 (30)
+Q Consensus         5 ~~~~~fg~~N~G~Q~G~~~G~i~   27 (39)
+                      .+..++|+.|+|+|+|.+.|.|+
+T Consensus         5 ~~~~FsGs~N~GlQ~G~N~G~i~   27 (28)
+T U1I097_ENDPU/3    5 HNATFSGDRNQGLQVGISSGTIN   27 (28)
+T ss_pred             ceeEeecCCCceEeeEEEecccc
+Confidence            34455677799999999999875
+
+
+No 2
+>PF17108.5 ; HET-S ; N-terminal small S protein of HET, non-prionic
+Probab=14.40  E-value=10  Score=11.59  Aligned_cols=12  Identities=25%  Similarity=0.487  Sum_probs=6.9  Template_Neff=2.400
+
+Q PGH12591.1        9 DANAGLQIGNSN   20 (30)
+Q Consensus        12 ~~N~G~Q~G~~~   23 (39)
+                      +.++-.|+|.++
+T Consensus        10 ~gsSRVqVGNny   21 (23)
+T I1RV79_GIBZE/6   10 AGASRVQVGNNY   21 (23)
+T ss_pred             CCCceeeecccc
+Confidence            345566776643
+
+
+No 3
+>PF05931.11 ; AgrD ; Staphylococcal AgrD protein
+Probab=11.93  E-value=13  Score=12.22  Aligned_cols=9  Identities=0%  Similarity=0.019  Sum_probs=4.8  Template_Neff=6.700
+
+Q PGH12591.1       27 FHLP-----   30 (30)
+Q Consensus        30 ~~~~peRp~   38 (39)
+                      +++.||-|+
+T Consensus        29 ~~yqPk~P~   37 (44)
+T Q5HMY4_STAEQ/3   29 YFDEPEVPE   37 (44)
+T ss_pred             HhcCCCCCH
+Confidence            334666554
+
+
+No 4
+>PF12721.7 ; RHIM ; RIP homotypic interaction motif
+Probab=7.85  E-value=23  Score=12.37  Aligned_cols=10  Identities=60%  Similarity=0.939  Sum_probs=5.9  Template_Neff=5.000
+
+Q PGH12591.1       11 NAGLQIGNSN   20 (30)
+Q Consensus        14 N~G~Q~G~~~   23 (39)
+                      .+++|+|.++
+T Consensus        39 a~~VQIG~~N   48 (52)
+T E1BKA8_BOVIN/4   39 CQGVQIGNNN   48 (52)
+T ss_pred             CCeEEeCCCc
+Confidence            4566776643
+
+
+No 5
+>PF05968.11 ; Bacillus_PapR ; Bacillus PapR protein
+Probab=6.80  E-value=29  Score=12.07  Aligned_cols=10  Identities=20%  Similarity=0.398  Sum_probs=8.1  Template_Neff=2.500
+
+Q PGH12591.1        1 -MASTISFAD    9 (30)
+Q Consensus         3 ~~~~~~~fg~   12 (39)
+                      .|.+.++||+
+T Consensus        13 Aml~giSf~~   22 (45)
+T A7GV97_BACCN/1   13 AMLAGVAFGV   22 (45)
+T ss_pred             HHHHhhhccC
+Confidence            4677899998
+
+
+No 6
+>PF17153.4 ; CHASE9 ; Periplasmic sensor domain, extracellular
+Probab=5.91  E-value=35  Score=14.17  Aligned_cols=14  Identities=7%  Similarity=0.073  Sum_probs=7.8  Template_Neff=2.800
+
+Q PGH12591.1       21 ALITAQFHLP----   30 (30)
+Q Consensus        24 G~i~~~~~~~peRp   37 (39)
+                      |.+...++.|.+||
+T Consensus       101 g~v~~~~F~p~~RP  114 (116)
+T F0JLY6_ESCFE/3  101 GEVIDENFNPLSRP  114 (116)
+T ss_pred             CCcccccCCCccCC
+Confidence            44544445466777
+
+
+No 7
+>PF10783.9 ; DUF2599 ; Protein of unknown function (DUF2599)
+Probab=5.19  E-value=38  Score=12.48  Aligned_cols=9  Identities=11%  Similarity=0.307  Sum_probs=4.2  Template_Neff=7.700
+
+Q PGH12591.1       27 FHLP-----   30 (30)
+Q Consensus        30 ~~~~peRp~   38 (39)
+                      +.|.|.||.
+T Consensus        76 WnLE~~Rp~   84 (98)
+T V5X7T5_MYCNE/3   76 WNLEPWRPV   84 (98)
+T ss_pred             eeCCCCCCC
+Confidence            344445553
+
+
+No 8
+>PF08995.10 ; NIP_1 ; Necrosis inducing protein-1
+Probab=4.22  E-value=55  Score=12.21  Aligned_cols=12  Identities=25%  Similarity=0.562  Sum_probs=7.8  Template_Neff=1.000
+
+Q PGH12591.1        5 ISFADANAGLQI   16 (30)
+Q Consensus         8 ~~fg~~N~G~Q~   19 (39)
+                      -++|....|+|-
+T Consensus        64 csygeggngfqc   75 (82)
+T Q5DS10_RHYSE/1   64 CSYGEGGNGFQC   75 (82)
+T ss_pred             ccccCCCCcccC
+Confidence            356777677764
+
+
+No 9
+>PF07921.12 ; Fibritin_C ; Fibritin C-terminal region
+Probab=4.22  E-value=52  Score=12.53  Aligned_cols=12  Identities=33%  Similarity=0.529  Sum_probs=0.0  Template_Neff=4.900
+
+Q PGH12591.1        8 ADANAGLQIGNS   19 (30)
+Q Consensus        11 g~~N~G~Q~G~~   22 (39)
+                      |+.++|++..++
+T Consensus        16 Gn~~sGLkg~v~   27 (86)
+T Q76XH8_9CAUD/3   16 GDRESGLTAGVI   27 (86)
+T ss_pred             cCCccccchhee
+
+
+No 10
+>PF05906.11 ; DUF865 ; Herpesvirus-7 repeat of unknown function (DUF865)
+Probab=3.99  E-value=59  Score=10.25  Aligned_cols=4  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=1.000
+
+Q PGH12591.1       31 ----   30 (30)
+Q Consensus        35 eRp~   38 (39)
+                      |||+
+T Consensus         9 erpq   12 (35)
+T Q69517_HHV7J/3    9 ERPQ   12 (35)
+T ss_pred             CCCC
+
+

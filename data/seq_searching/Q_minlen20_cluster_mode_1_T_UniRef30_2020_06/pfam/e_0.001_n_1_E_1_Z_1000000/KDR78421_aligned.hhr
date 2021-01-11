@@ -1,0 +1,150 @@
+Query         KDR78421.1
+Match_columns 60
+No_of_seqs    1073 out of 1114
+Neff          7.20113
+Searched_HMMs 100
+Date          Mon Jan 11 21:26:56 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KDR78421_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KDR78421_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KDR78421_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF11043.8 ; DUF2856 ; Protein   55.5    0.62 0.00012   22.8   0.0   22   30-52     12-33  (97)
+  2 PF15894.5 ; SgrT ; Inhibitor o  45.0     1.2 0.00022   19.0   0.0   15   35-49     25-39  (49)
+  3 PF13124.6 ; DUF3963 ; Protein   33.1     2.5 0.00045   17.2   0.0   11   41-51     12-22  (40)
+  4 PF18385.1 ; Tiam_CC_Ex ; T-lym  32.2     2.6 0.00048   20.4   0.0   20   33-52     21-40  (98)
+  5 PF02037.27 ; SAP ; SAP domain   30.5     2.5 0.00053   14.1   0.0   15   35-49     21-35  (35)
+  6 PF14203.6 ; TTRAP ; Putative t  21.1     5.2   0.001   16.8   0.0   16   33-48     12-27  (60)
+  7 PF13663.6 ; DUF4148 ; Domain o  18.5     6.5  0.0013   15.9   0.0   18   35-52     27-44  (53)
+  8 PF03931.15 ; Skp1_POZ ; Skp1 f  15.4       8  0.0017   14.9   0.0   21   31-51     40-60  (63)
+  9 PF13050.6 ; DUF3911 ; Protein   14.2      11  0.0019   17.0   0.0   13   34-46      6-18  (77)
+ 10 PF06667.12 ; PspB ; Phage shoc  11.2      13  0.0027   15.5   0.0   12   35-46     53-64  (73)
+
+No 1
+>PF11043.8 ; DUF2856 ; Protein of unknown function (DUF2856)
+Probab=55.46  E-value=0.62  Score=22.80  Aligned_cols=22  Identities=9%  Similarity=0.048  Sum_probs=18.2  Template_Neff=3.900
+
+Q KDR78421.1       22 PPKCHPETRVAVIQAIIDWIEDG   44 (49)
+Q Consensus        30 ~p~C~pgTR~~iL~~I~~W~~~~   52 (60)
+                      .+ |..||..+||..+.+-+...
+T Consensus        12 r~-~~~~TKeEVLa~~~~~~~~~   33 (97)
+T ABC2_BPP22/1-9   12 RR-CSGNSVSEVLDKFRKNYDLI   33 (97)
+T ss_pred             Cc-CCCCCHHHHHHHHHHHHHHH
+Confidence            45 99999999999998877543
+
+
+No 2
+>PF15894.5 ; SgrT ; Inhibitor of glucose uptake transporter SgrT
+Probab=45.01  E-value=1.2  Score=18.97  Aligned_cols=15  Identities=20%  Similarity=0.494  Sum_probs=13.2  Template_Neff=4.400
+
+Q KDR78421.1       27 PETRVAVIQAIIDWI   41 (49)
+Q Consensus        35 pgTR~~iL~~I~~W~   49 (60)
+                      ..-|.++|++++.|=
+T Consensus        25 ~~qRl~mL~~lmQW~   39 (49)
+T A7MQ55_CROS8/1   25 GKTPQRMLDEIMQWD   39 (49)
+T ss_pred             cchHHHHHHHHhccc
+Confidence            468999999999994
+
+
+No 3
+>PF13124.6 ; DUF3963 ; Protein of unknown function (DUF3963)
+Probab=33.09  E-value=2.5  Score=17.16  Aligned_cols=11  Identities=27%  Similarity=0.733  Sum_probs=8.3  Template_Neff=1.900
+
+Q KDR78421.1       33 VIQAIIDWIED   43 (49)
+Q Consensus        41 iL~~I~~W~~~   51 (60)
+                      -.++|+.|+.+
+T Consensus        12 YFdDIQKWiRN   22 (40)
+T Q81YQ1_BACAN/4   12 YFHDIQKWIRN   22 (40)
+T ss_pred             HhHHHHHHHHH
+Confidence            35689999875
+
+
+No 4
+>PF18385.1 ; Tiam_CC_Ex ; T-lymphoma invasion and metastasis CC-Ex domain
+Probab=32.23  E-value=2.6  Score=20.35  Aligned_cols=20  Identities=10%  Similarity=0.383  Sum_probs=15.8  Template_Neff=3.600
+
+Q KDR78421.1       25 CHPETRVAVIQAIIDWIEDG   44 (49)
+Q Consensus        33 C~pgTR~~iL~~I~~W~~~~   52 (60)
+                      -.+.+|..|+++|..|=.+-
+T Consensus        21 tD~~~r~~i~~QI~~weenl   40 (98)
+T G7P1J8_MACFA/5   21 TDSKKKKTILDQIFVWEQNL   40 (98)
+T ss_pred             CCHHHHHHHHHHHHHHHHHH
+Confidence            34678899999999996553
+
+
+No 5
+>PF02037.27 ; SAP ; SAP domain
+Probab=30.53  E-value=2.5  Score=14.14  Aligned_cols=15  Identities=20%  Similarity=0.226  Sum_probs=10.6  Template_Neff=10.000
+
+Q KDR78421.1       27 PETRVAVIQAIIDWI   41 (49)
+Q Consensus        35 pgTR~~iL~~I~~W~   49 (60)
+                      .|++.++++.|..|+
+T Consensus        21 ~g~k~~l~~rl~~~~   35 (35)
+T A7EUI5_SCLS1/5   21 LGLKGVLIQRLVDHE   35 (35)
+T ss_pred             CCCHHHHHHHHHHcC
+Confidence            467777887777764
+
+
+No 6
+>PF14203.6 ; TTRAP ; Putative tranposon-transfer assisting protein
+Probab=21.08  E-value=5.2  Score=16.77  Aligned_cols=16  Identities=13%  Similarity=0.270  Sum_probs=11.6  Template_Neff=6.100
+
+Q KDR78421.1       25 CHPETRVAVIQAIIDW   40 (49)
+Q Consensus        33 C~pgTR~~iL~~I~~W   48 (60)
+                      ..++||..++++|..=
+T Consensus        12 y~~~~R~~~i~~l~~~   27 (60)
+T D6DKQ8_CLOSC/5   12 YAEDSRETTLENILAA   27 (60)
+T ss_pred             HcCCCHHHHHHHHHHH
+Confidence            4567888888887653
+
+
+No 7
+>PF13663.6 ; DUF4148 ; Domain of unknown function (DUF4148)
+Probab=18.46  E-value=6.5  Score=15.89  Aligned_cols=18  Identities=28%  Similarity=0.350  Sum_probs=14.6  Template_Neff=6.400
+
+Q KDR78421.1       27 PETRVAVIQAIIDWIEDG   44 (49)
+Q Consensus        35 pgTR~~iL~~I~~W~~~~   52 (60)
+                      +-||.+|..++...-..+
+T Consensus        27 ~~TRaqV~aEL~~a~~~G   44 (53)
+T B4EKY6_BURCJ/1   27 PLTRAQVHAEVKALKQAG   44 (53)
+T ss_pred             CCCHHHHHHHHHHHHHcC
+Confidence            789999999998775543
+
+
+No 8
+>PF03931.15 ; Skp1_POZ ; Skp1 family, tetramerisation domain
+Probab=15.38  E-value=8  Score=14.86  Aligned_cols=21  Identities=0%  Similarity=0.099  Sum_probs=16.1  Template_Neff=9.300
+
+Q KDR78421.1       23 PKCHPETRVAVIQAIIDWIED   43 (49)
+Q Consensus        31 p~C~pgTR~~iL~~I~~W~~~   51 (60)
+                      +.-+|+-...+|+.|.+|...
+T Consensus        40 ~i~l~~v~~~~L~~ii~~~~~   60 (63)
+T ELOC_YEAST/4-6   40 RIELKQFDSHILEKAVEYLNY   60 (63)
+T ss_pred             eEECCCCCHHHHHHHHHHHHH
+Confidence            345677778899999999863
+
+
+No 9
+>PF13050.6 ; DUF3911 ; Protein of unknown function (DUF3911)
+Probab=14.17  E-value=11  Score=17.03  Aligned_cols=13  Identities=23%  Similarity=0.274  Sum_probs=9.6  Template_Neff=2.000
+
+Q KDR78421.1       26 HPETRVAVIQAII   38 (49)
+Q Consensus        34 ~pgTR~~iL~~I~   46 (60)
+                      ..|||.+|.+-++
+T Consensus         6 IkGTrqEV~EmLq   18 (77)
+T Q81T73_BACAN/1    6 IEGTRQEVVEMLQ   18 (77)
+T ss_pred             ecccHHHHHHHHH
+Confidence            3699999877654
+
+
+No 10
+>PF06667.12 ; PspB ; Phage shock protein B
+Probab=11.16  E-value=13  Score=15.52  Aligned_cols=12  Identities=17%  Similarity=0.504  Sum_probs=8.9  Template_Neff=7.000
+
+Q KDR78421.1       27 PETRVAVIQAII   38 (49)
+Q Consensus        35 pgTR~~iL~~I~   46 (60)
+                      -.-|+++|+.|.
+T Consensus        53 LeeRV~vLErIl   64 (73)
+T Q5E0R4_VIBF1/1   53 MQKRIETLEKIL   64 (73)
+T ss_pred             HHHHHHHHHHHH
+Confidence            356888888876
+
+

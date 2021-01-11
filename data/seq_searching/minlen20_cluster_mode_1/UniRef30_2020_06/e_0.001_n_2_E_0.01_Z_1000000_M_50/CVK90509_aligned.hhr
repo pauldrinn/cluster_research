@@ -1,0 +1,172 @@
+Query         CVK90509.1
+Match_columns 163
+No_of_seqs    12 out of 44
+Neff          2.52875
+Searched_HMMs 146
+Date          Sat Jan  9 01:26:34 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/clustering_outputs/minlen20/cluster_mode_1/aligned_clusters/CVK90509_aligned.fa -o /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/CVK90509_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/CVK90509_aligned.a3m -d /mnt/d/hhsuite_databases/UniRef30_2020_06 -cpu 12 -e 0.001 -n 2 -E 0.01 -Z 1000000 -M 50 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 UniRef100_A0A0I9XMV4 ANK_REP_R 100.0 2.9E-60 7.7E-66  468.1   0.0  160    1-163     1-161 (2078)
+  2 UniRef100_A0A366PGA5 ANK_REP_R 100.0 2.5E-49 5.8E-55  376.1   0.0  160    1-162     1-161 (1187)
+  3 UniRef100_A0A024RV66 NACHT dom  84.7       3 6.7E-06   44.1   0.0   41  122-162     1-41  (425)
+  4 UniRef100_C3XAA5 Uncharacteriz  83.0       4   9E-06   33.3   0.0   25   36-60     28-52  (55)
+  5 UniRef100_A0A0D2Y9H4 AAA_16 do  80.1     4.4 1.4E-05   47.6   0.0   45  115-161   411-457 (1154)
+  6 UniRef100_A0A6G1J5A6 Uncharact  76.7     9.5 2.1E-05   36.3   0.0   33  128-160    57-89  (145)
+  7 UniRef100_A0A2H2YYL5 Uncharact  76.4     9.5 2.2E-05   44.7   0.0   47  116-162   330-376 (1170)
+  8 UniRef100_A0A093YQN4 ANK_REP_R  76.0     6.2 2.3E-05   47.4   0.0   48  116-163   470-517 (1536)
+  9 UniRef100_A0A319DX95 Uncharact  73.1      14 3.1E-05   34.3   0.0   35  127-161    61-95  (114)
+ 10 UniRef100_A0A1Y3EVG3 Putative   70.7      17 3.8E-05   36.7   0.0   28  115-142   131-158 (219)
+
+No 1
+>UniRef100_A0A0I9XMV4 ANK_REP_REGION domain-containing protein n=1 Tax=Gibberella fujikuroi TaxID=5127 RepID=A0A0I9XMV4_GIBFU
+Probab=100.00  E-value=2.9e-60  Score=468.06  Aligned_cols=160  Identities=81%  Similarity=1.171  Sum_probs=158.4  Template_Neff=2.000
+
+Q CVK90509.1        1 MSFTSPTEQFKAYQAFSSGSSsSKQPAQSFSSRVDFSDQSYDMPYFTGSDVSVLNPPTNYASTAPKPPVADVSRGFTPKQ   80 (161)
+Q Consensus         1 MSfa~p~~~f~~Yqs~~s~ss-~qp~~ksFSStVDFSDqSYdMPYF~~~d~~~~k~~~v~~k~~a~Qp~a~~pr~~~pkq   79 (163)
+                      |||++|+++|++||+|++++| ++|++|+|||||||||||||||||+++|+++||++||+|+|+++||++++||+|+|||
+T Consensus         1 MSFa~p~~~f~syQ~fgs~ss~~~pakksFSStVdFSDqSYeMPYFv~~da~~mk~~gv~rkp~a~QP~a~~pr~~tpk~   80 (2078)
+T UniRef100_A0A0    1 MSFTSPTGQFKPYQAFGSGSSSTKPPAQSFSSRVDFSDQSYDMPYFVGSDASVMNPQTNYASTAAKQPVADAPRGFTPKQ   80 (2078)
+Confidence            999999999999999999966 9999999999999999999999999999999999999999999999999999999999
+
+
+Q CVK90509.1       81 LSDAPKTKSFDKKRLSSIP--STSQQSQPSQPLKPKIDFTEFLESLEFPSIAENKIGQGSGDLITSQWLVQEALFTKWRT  158 (161)
+Q Consensus        80 ~~d~~K~k~~~k~~~~si~kg~~~~~~~P~r~~s~K~d~~aFLeS~EFPsi~~~~Iep~s~~~~ss~WL~qd~lF~~Wkt  159 (163)
+                      ++||+|+|+++||++|+|+||+|++  +|||+++||+||++||||||||+|++|+|||+++|+++++||+|||||+|||+
+T Consensus        81 ~~dd~K~k~~~~n~~p~~~kg~e~~--lPp~~~s~K~n~~~Fl~SfeFPsi~~~~Iep~~~~~~ss~WL~qdpLF~nWks  158 (2078)
+T UniRef100_A0A0   81 LSDAPKTKSFDKKVLSSIPKGSQQA--QPSQPLKAKIDYTEFLESFEFPSIADSKIEPGSGDLNSSQWLVQEPLFTKWRT  158 (2078)
+Confidence            9999999999999999999999999  99999999999999999999999999999999999999999999999999999
+
+
+Q CVK90509.1      159 SSG-  161 (161)
+Q Consensus       160 Sk~G  163 (163)
+                      | ||
+T Consensus       159 S-hG  161 (2078)
+T UniRef100_A0A0  159 S-HG  161 (2078)
+Confidence            9 87
+
+
+No 2
+>UniRef100_A0A366PGA5 ANK_REP_REGION domain-containing protein n=1 Tax=Gibberella moniliformis TaxID=117187 RepID=A0A366PGA5_GIBMO
+Probab=100.00  E-value=2.5e-49  Score=376.09  Aligned_cols=160  Identities=84%  Similarity=1.203  Sum_probs=156.4  Template_Neff=1.083
+
+Q CVK90509.1        1 MSFTSPTEQFKAYQAFSSGSSsSKQPAQSFSSRVDFSDQSYDMPYFTGSDVSVLNPPTNYASTAPKPPVADVSRGFTPKQ   80 (161)
+Q Consensus         1 MSfa~p~~~f~~Yqs~~s~ss-~qp~~ksFSStVDFSDqSYdMPYF~~~d~~~~k~~~v~~k~~a~Qp~a~~pr~~~pkq   79 (163)
+                      |||++|+.+|+|||+|+++++ .+|++++|||+|||||||||||||++++++|.||+++|++++++||++++||||+-||
+T Consensus         1 msftsptgqfkpyqafgsgssstkppaqsfssrvdfsdqsydmpyfagsgvsvsnpqtnyastapkqpvadaprgftlkq   80 (1187)
+T UniRef100_A0A3    1 MSFTSPTGQFKPYQAFGSGSSSTKPPAQSFSSRVDFSDQSYDMPYFAGSGVSVSNPQTNYASTAPKQPVADAPRGFTLKQ   80 (1187)
+Confidence            999999999999999999977 9999999999999999999999999999999999999999999999999999999999
+
+
+Q CVK90509.1       81 LSDAPKTKSFDKKRLSSIP--STSQQSQPSQPLKPKIDFTEFLESLEFPSIAENKIGQGSGDLITSQWLVQEALFTKWRT  158 (161)
+Q Consensus        80 ~~d~~K~k~~~k~~~~si~kg~~~~~~~P~r~~s~K~d~~aFLeS~EFPsi~~~~Iep~s~~~~ss~WL~qd~lF~~Wkt  159 (163)
+                      ++|++|+|+++|+.+++||  ++.++++|+++++.||||+|||+|||||+|++.+|+.+++++..++||+||+||++||+
+T Consensus        81 lsdapktksfdkkglssip--ntsqqaqpsqppkakidyteflkslefpsiadskighgsgdlsksqwlvqealftkwrt  158 (1187)
+T UniRef100_A0A3   81 LSDAPKTKSFDKKGLSSIP--NTSQQAQPSQPPKAKIDYTEFLKSLEFPSIADSKIGHGSGDLSKSQWLVQEALFTKWRT  158 (1187)
+Confidence            9999999999999999999  66777899999999999999999999999999999999999999999999999999999
+
+
+Q CVK90509.1      159 SSG  161 (161)
+Q Consensus       160 Sk~  162 (163)
+                      |++
+T Consensus       159 sng  161 (1187)
+T UniRef100_A0A3  159 SNG  161 (1187)
+Confidence            964
+
+
+No 3
+>UniRef100_A0A024RV66 NACHT domain-containing protein (Fragment) n=1 Tax=Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) TaxID=1344414 RepID=A0A024RV66_HYPJR
+Probab=84.69  E-value=3  Score=44.11  Aligned_cols=41  Identities=32%  Similarity=0.496  Sum_probs=35.1  Template_Neff=1.000
+
+Q CVK90509.1      121 LESLEFPSIAENKIGQGSGDLITSQWLVQEALFTKWRTSSG  161 (161)
+Q Consensus       122 LeS~EFPsi~~~~Iep~s~~~~ss~WL~qd~lF~~WktSk~  162 (163)
+                      |||||||.+-+-.+--+++--.+..||.|||-+..|-...|
+T Consensus         1 leslefpqmyhrqlvirspckgtgnwlsqdpgyqawlngdh   41 (425)
+T UniRef100_A0A0    1 LESLEFPQMYHRQLVIRSPCKGTGNWLSQDPGYQAWLNGDH   41 (425)
+Confidence            68999999988877777777789999999999999976544
+
+
+No 4
+>UniRef100_C3XAA5 Uncharacterized protein n=1 Tax=Oxalobacter formigenes OXCC13 TaxID=556269 RepID=C3XAA5_OXAFO
+Probab=83.04  E-value=4  Score=33.35  Aligned_cols=25  Identities=44%  Similarity=0.622  Sum_probs=19.0  Template_Neff=1.000
+
+Q CVK90509.1       37 SDQSYDMPYFTGSDVSVLNPPTNYA   61 (161)
+Q Consensus        36 SDqSYdMPYF~~~d~~~~k~~~v~~   60 (163)
+                      .|-||||-||.+.|+.+..--+|.+
+T Consensus        28 admsydmdyfhggdvqastvlnvna   52 (55)
+T UniRef100_C3XA   28 ADMSYDMDYFHGGDVQASTVLNVNA   52 (55)
+Confidence            4889999999999987665544443
+
+
+No 5
+>UniRef100_A0A0D2Y9H4 AAA_16 domain-containing protein n=1 Tax=Fusarium oxysporum f. sp. lycopersici (strain 4287 / CBS 123668 / FGSC 9935 / NRRL 34936) TaxID=426428 RepID=A0A0D2Y9H4_FUSO4
+Probab=80.15  E-value=4.4  Score=47.60  Aligned_cols=45  Identities=29%  Similarity=0.527  Sum_probs=37.0  Template_Neff=3.000
+
+Q CVK90509.1      114 KIDFTEFLESLEFPSIAEN--KIGQGSGDLITSQWLVQEALFTKWRTSS  160 (161)
+Q Consensus       115 K~d~~aFLeS~EFPsi~~~--~Iep~s~~~~ss~WL~qd~lF~~WktSk  161 (163)
+                      +-...+||+||.||.|..-  .|++-+.  ++-+||-|++.|..|.++.
+T Consensus       411 ~~~~~~~L~sL~F~~Mn~RrqsI~~PA~--nTg~WLF~~~~y~~W~~~t  457 (1154)
+T UniRef100_A0A0  411 QKVLDACLASLRFPGMNTRRQSIEPPAD--NTGQWLFQNETYRLWFTTT  457 (1154)
+Confidence            3456899999999999765  4666665  8899999999999998763
+
+
+No 6
+>UniRef100_A0A6G1J5A6 Uncharacterized protein n=1 Tax=Lentithecium fluviatile CBS 122367 TaxID=1168545 RepID=A0A6G1J5A6_9PLEO
+Probab=76.67  E-value=9.5  Score=36.32  Aligned_cols=33  Identities=30%  Similarity=0.596  Sum_probs=26.0  Template_Neff=1.000
+
+Q CVK90509.1      127 PSIAENKIGQGSGDLITSQWLVQEALFTKWRTS  159 (161)
+Q Consensus       128 Psi~~~~Iep~s~~~~ss~WL~qd~lF~~WktS  160 (163)
+                      |+|++-+-.-..--+.+.|||..||.|.+||..
+T Consensus        57 pyiqhhkqtrqgiltktrqwllsdpifkkwkdd   89 (145)
+T UniRef100_A0A6   57 PYIQHHKQTRQGILTKTRQWLLSDPIFKKWKDD   89 (145)
+Confidence            677776655555556789999999999999863
+
+
+No 7
+>UniRef100_A0A2H2YYL5 Uncharacterized protein n=1 Tax=Trichoderma parareesei TaxID=858221 RepID=A0A2H2YYL5_9HYPO
+Probab=76.40  E-value=9.5  Score=44.70  Aligned_cols=47  Identities=26%  Similarity=0.462  Sum_probs=40.2  Template_Neff=1.142
+
+Q CVK90509.1      115 IDFTEFLESLEFPSIAENKIGQGSGDLITSQWLVQEALFTKWRTSSG  161 (161)
+Q Consensus       116 ~d~~aFLeS~EFPsi~~~~Iep~s~~~~ss~WL~qd~lF~~WktSk~  162 (163)
+                      -|-...|.|||||.+-+-.+--++.--.+..||.|||.+..|-+..|
+T Consensus       330 tnc~kvldslefpqmfhrqlvirspckgtgnwlsqdpsyqawl~g~h  376 (1170)
+T UniRef100_A0A2  330 TNCQKVLDSLEFPQMFHRQLVIRSPCKGTGNWLSQDPSYQAWLSGEH  376 (1170)
+Confidence            35667899999999988888888887889999999999999987654
+
+
+No 8
+>UniRef100_A0A093YQN4 ANK_REP_REGION domain-containing protein (Fragment) n=1 Tax=Pseudogymnoascus sp. VKM F-4246 TaxID=1420902 RepID=A0A093YQN4_9PEZI
+Probab=76.02  E-value=6.2  Score=47.38  Aligned_cols=48  Identities=23%  Similarity=0.434  Sum_probs=44.1  Template_Neff=3.855
+
+Q CVK90509.1      115 IDFTEFLESLEFPSIAENKIGQGSGDLITSQWLVQEALFTKWRTSSG-  161 (161)
+Q Consensus       116 ~d~~aFLeS~EFPsi~~~~Iep~s~~~~ss~WL~qd~lF~~WktSk~G  163 (163)
+                      .+-.+.|+||-||.|..-..|-.....++-.||-+..-|.+|..+.||
+T Consensus       470 ~~~~~cl~sLaFp~m~~R~~~v~~a~~~Tc~Wil~h~~y~~W~~~~~g  517 (1536)
+T UniRef100_A0A0  470 QDDQDCLQSLAFPEMRYRQNEVQDAHKGTCKWILQHETYQSWAASNHG  517 (1536)
+Confidence            567899999999999999888887778999999999999999999887
+
+
+No 9
+>UniRef100_A0A319DX95 Uncharacterized protein n=1 Tax=Aspergillus ellipticus CBS 707.79 TaxID=1448320 RepID=A0A319DX95_9EURO
+Probab=73.08  E-value=14  Score=34.29  Aligned_cols=35  Identities=31%  Similarity=0.513  Sum_probs=26.6  Template_Neff=1.000
+
+Q CVK90509.1      126 FPSIAENKIGQGSGDLITSQWLVQEALFTKWRTSS  160 (161)
+Q Consensus       127 FPsi~~~~Iep~s~~~~ss~WL~qd~lF~~WktSk  161 (163)
+                      +|--.+|.-+-.+..+++..||.|.|-|..||.|.
+T Consensus        61 ipveshyteglaslqpdsgawllqtpefvewrdss   95 (114)
+T UniRef100_A0A3   61 IPVESHYTEGLASLQPDSGAWLLQTPEFVEWRDSS   95 (114)
+Confidence            34444555555666788999999999999999875
+
+
+No 10
+>UniRef100_A0A1Y3EVG3 Putative PH domain protein n=1 Tax=Trichinella nativa TaxID=6335 RepID=A0A1Y3EVG3_9BILA
+Probab=70.73  E-value=17  Score=36.70  Aligned_cols=28  Identities=32%  Similarity=0.353  Sum_probs=25.1  Template_Neff=1.000
+
+Q CVK90509.1      114 KIDFTEFLESLEFPSIAENKIGQGSGDL  141 (161)
+Q Consensus       115 K~d~~aFLeS~EFPsi~~~~Iep~s~~~  142 (163)
+                      -+|.++||-||.|-+..+|.|||.+..-
+T Consensus       131 lpdlaeflpslgfssadnfsiepaaete  158 (219)
+T UniRef100_A0A1  131 LPDLAEFLPSLGFSSADNFSIEPAAETE  158 (219)
+Confidence            3799999999999999999999987654
+
+

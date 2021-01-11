@@ -1,0 +1,150 @@
+Query         POR31696.1
+Match_columns 135
+No_of_seqs    1171 out of 1189
+Neff          7.53422
+Searched_HMMs 100
+Date          Mon Jan 11 21:29:55 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/POR31696_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/POR31696_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/POR31696_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17100.5 ; NACHT_N ; N-termin  95.4 9.3E-05   2E-08   49.5   0.0   40    2-41    185-226 (229)
+  2 PF17108.5 ; HET-S ; N-terminal  31.4     2.8  0.0005   17.4   0.0   16   53-68      7-22  (23)
+  3 PF16496.5 ; SWIRM-assoc_2 ; SW  16.0     8.3  0.0016   26.6   0.0   26  102-127   222-247 (405)
+  4 PF09907.9 ; HigB_toxin ; HigB_   9.8      16  0.0033   17.8   0.0   13  110-122    62-74  (74)
+  5 PF07867.11 ; DUF1654 ; Protein   5.6      36  0.0069   16.9   0.0   15   25-39     36-50  (70)
+  6 PF04316.13 ; FlgM ; Anti-sigma   4.0      53   0.011   14.5   0.0   23   89-111    21-43  (55)
+  7 PF06616.11 ; BsuBI_PstI_RE ; B   3.3      70   0.013   18.1   0.0   22   97-118   124-145 (153)
+  8 PF16546.5 ; SGTA_dimer ; Homod   3.2      69   0.014   14.7   0.0   18   79-96     33-50  (66)
+  9 PF04532.12 ; DUF587 ; Protein    2.8      89   0.016   18.9   0.0   21   14-34    144-164 (220)
+ 10 PF17046.5 ; Ses_B ; SesB domai   2.5      98   0.018   12.2   0.0   15   56-70     12-26  (28)
+
+No 1
+>PF17100.5 ; NACHT_N ; N-terminal domain of NWD NACHT-NTPase
+Probab=95.36  E-value=9.3e-05  Score=49.51  Aligned_cols=40  Identities=0%  Similarity=0.000  Sum_probs=36.4  Template_Neff=10.000
+
+Q POR31696.1        1 ------------------------------------------    0 (77)
+Q Consensus         2 ~fQ~rSvc~~~--~~~~~~rd~~~~d~W~~~l~~I~~~e~~~   41 (135)
+                      +|+++++++|+  ++.+++++++++++|.+++.+|+++++.+
+T Consensus       185 ~f~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~e~~~  226 (229)
+T B8NEA4_ASPFN/5  185 FYEIKSVCFYHKNQLAVFVRGLFNIDDWDGGLTKLNEQENAL  226 (229)
+T ss_pred             HHHHHHHHHHhhchHHHHHHHhhccCChhHHHHHHHHHHHHH
+Confidence            68999999998  78999999999999999999999987764
+
+
+No 2
+>PF17108.5 ; HET-S ; N-terminal small S protein of HET, non-prionic
+Probab=31.43  E-value=2.8  Score=17.35  Aligned_cols=16  Identities=25%  Similarity=0.547  Sum_probs=11.3  Template_Neff=2.400
+
+Q POR31696.1        8 INARNNAEVQIGDRIN   23 (77)
+Q Consensus        53 ~~~~~~~~~~~g~~~~   68 (135)
+                      +...+.+++++|+++.
+T Consensus         7 l~A~gsSRVqVGNny~   22 (23)
+T I1RV79_GIBZE/6    7 LSVAGASRVQVGNNYN   22 (23)
+T ss_pred             eecCCCceeeeccccC
+Confidence            3446778888888763
+
+
+No 3
+>PF16496.5 ; SWIRM-assoc_2 ; SWIRM-associated domain at the N-terminal
+Probab=15.98  E-value=8.3  Score=26.55  Aligned_cols=26  Identities=23%  Similarity=0.556  Sum_probs=21.1  Template_Neff=5.700
+
+Q POR31696.1       51 KGGLLQDSYRWVLAHDDFLRWRDDES   76 (77)
+Q Consensus       102 Kg~ll~~s~~Wil~~~~f~~W~~~~~  127 (135)
+                      .++...=+..||++...|..|.+..+
+T Consensus       222 ~~~pw~V~arWl~Ds~~fNEWMNEeD  247 (405)
+T E0VYN8_PEDHC/5  222 HVGPWRVAATWVLELEQYNEWMTEED  247 (405)
+T ss_pred             CCCCeEEeeehhhcHHHHcCCCCHHH
+Confidence            34666678999999999999988654
+
+
+No 4
+>PF09907.9 ; HigB_toxin ; HigB_toxin, RelE-like toxic component of a toxin-antitoxin system
+Probab=9.77  E-value=16  Score=17.82  Aligned_cols=13  Identities=15%  Similarity=0.437  Sum_probs=9.7  Template_Neff=7.700
+
+Q POR31696.1       59 YRWVLAHDDFLRW   71 (77)
+Q Consensus       110 ~~Wil~~~~f~~W  122 (135)
+                      ..||+.|.||.+|
+T Consensus        62 i~~i~tH~eYdk~   74 (74)
+T Q3SMY4_NITWN/2   62 IRFFGSHEEYDKV   74 (74)
+T ss_pred             EEEeeCHHHHccC
+Confidence            6688888887665
+
+
+No 5
+>PF07867.11 ; DUF1654 ; Protein of unknown function (DUF1654)
+Probab=5.58  E-value=36  Score=16.86  Aligned_cols=15  Identities=0%  Similarity=0.000  Sum_probs=11.6  Template_Neff=5.300
+
+Q POR31696.1        1 ---------------    0 (77)
+Q Consensus        25 d~W~~~l~~I~~~e~   39 (135)
+                      ++|..+++.|.+.+.
+T Consensus        36 ~dW~~ll~el~e~dg   50 (70)
+T Q88G25_PSEPK/1   36 EDWGALVEAMEGTEG   50 (70)
+T ss_pred             HHHHHHHHHHhccCC
+Confidence            789999988876544
+
+
+No 6
+>PF04316.13 ; FlgM ; Anti-sigma-28 factor, FlgM
+Probab=3.96  E-value=53  Score=14.55  Aligned_cols=23  Identities=22%  Similarity=0.258  Sum_probs=16.9  Template_Neff=7.300
+
+Q POR31696.1       38 TDPRHDKVRIEDTKGGLLQDSYR   60 (77)
+Q Consensus        89 tdP~~dk~rIe~~Kg~ll~~s~~  111 (135)
+                      .-|..+.++|+.-|..+-.|+|.
+T Consensus        21 ~~p~v~~~kV~~ik~~i~~G~Y~   43 (55)
+T B5EDX1_GEOBB/4   21 SLPEVRLDRVALAKQQVQNGGYR   43 (55)
+T ss_pred             cCccccHHHHHHHHHHHHcCCCC
+Confidence            34567777888888777777775
+
+
+No 7
+>PF06616.11 ; BsuBI_PstI_RE ; BsuBI/PstI restriction endonuclease domain
+Probab=3.26  E-value=70  Score=18.11  Aligned_cols=22  Identities=9%  Similarity=0.210  Sum_probs=16.4  Template_Neff=5.300
+
+Q POR31696.1       46 RIEDTKGGLLQDSYRWVLAHDD   67 (77)
+Q Consensus        97 rIe~~Kg~ll~~s~~Wil~~~~  118 (135)
+                      .....-..+--+|+-||.+.|+
+T Consensus       124 ~~rk~~~~iAWeTevW~a~~P~  145 (153)
+T K9ZAU9_ANACC/6  124 AMKEYLPEISWETDVWVAEDGT  145 (153)
+T ss_pred             HHHHhhhhcccCCEEEEecCCC
+Confidence            3344555888999999988775
+
+
+No 8
+>PF16546.5 ; SGTA_dimer ; Homodimerisation domain of SGTA
+Probab=3.20  E-value=69  Score=14.71  Aligned_cols=18  Identities=22%  Similarity=0.429  Sum_probs=12.9  Template_Neff=7.200
+
+Q POR31696.1       28 AERCLADLRITDPRHDKV   45 (77)
+Q Consensus        79 ~~~cL~~L~~tdP~~dk~   96 (135)
+                      ..+||..-+..+|.+...
+T Consensus        33 AiqCl~~aF~v~~~~~~~   50 (66)
+T B2VSW0_PYRTR/5   33 ATNCIAEAFKVDATDEAA   50 (66)
+T ss_pred             HHHHHHHHhCCCcccHHH
+Confidence            456888888888766544
+
+
+No 9
+>PF04532.12 ; DUF587 ; Protein of unknown function (DUF587)
+Probab=2.77  E-value=89  Score=18.92  Aligned_cols=21  Identities=0%  Similarity=0.000  Sum_probs=13.5  Template_Neff=2.800
+
+Q POR31696.1        1 ---------------------    0 (77)
+Q Consensus        14 ~~~~~rd~~~~d~W~~~l~~I   34 (135)
+                      ..+.+|.+.+..+|...+..+
+T Consensus       144 ~THVfRGLLSL~EWN~~lp~~  164 (220)
+T UL87_HCMVM/8-2  144 ATHVLRGLLSLTEWNRELPSL  164 (220)
+T ss_pred             hhHHHHHhhhHHHHHhcCCcc
+Confidence            445667777777777765443
+
+
+No 10
+>PF17046.5 ; Ses_B ; SesB domain on fungal death-pathway protein
+Probab=2.51  E-value=98  Score=12.19  Aligned_cols=15  Identities=20%  Similarity=0.259  Sum_probs=9.9  Template_Neff=4.200
+
+Q POR31696.1       11 RNNAEVQIGDRINV-   24 (77)
+Q Consensus        56 ~~~~~~~~g~~~~~~   70 (135)
+                      +.+.+.|+|.+.+.+
+T Consensus        12 s~N~GlQ~G~N~G~i   26 (28)
+T U1I097_ENDPU/3   12 DRNQGLQVGISSGTI   26 (28)
+T ss_pred             CCCceEeeEEEeccc
+Confidence            446678888776543
+
+

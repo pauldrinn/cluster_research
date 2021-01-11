@@ -1,0 +1,186 @@
+Query         EMT62740.1
+Match_columns 424
+No_of_seqs    3797 out of 3851
+Neff          8.94456
+Searched_HMMs 422
+Date          Mon Jan 11 21:26:06 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/EMT62740_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/EMT62740_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/EMT62740_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF00082.22 ; Peptidase_S8 ; Su  99.8   1E-25   2E-29  207.5   0.0  212   68-292     1-246 (286)
+  2 PF14097.6 ; SpoVAE ; Stage V s  48.8    0.97 0.00018   33.3   0.0   74  153-226    12-95  (177)
+  3 PF13940.6 ; Ldr_toxin ; Toxin   37.9     1.9 0.00034   22.4   0.0   14  274-287    14-27  (35)
+  4 PF15894.5 ; SgrT ; Inhibitor o   8.9      20  0.0037   19.6   0.0   14  404-417    26-39  (49)
+  5 PF17763.1 ; Asparaginase_C ; G   8.0      22  0.0043   22.2   0.0   33  168-200    27-59  (112)
+  6 PF13607.6 ; Succ_CoA_lig ; Suc   7.5      24  0.0046   23.0   0.0   40  153-192    42-81  (138)
+  7 PF02601.15 ; Exonuc_VII_L ; Ex   6.5      29  0.0057   26.3   0.0   67  134-204    45-115 (318)
+  8 PF07765.12 ; KIP1 ; KIP1-like    3.8      59   0.011   18.8   0.0   23  390-412     4-26  (74)
+  9 PF01924.16 ; HypD ; Hydrogenas   2.8      89   0.016   24.2   0.0   41  153-193   106-146 (348)
+ 10 PF11886.8 ; TOC159_MAD ; Trans   2.5      98   0.018   22.9   0.0   32  381-412     6-37  (267)
+
+No 1
+>PF00082.22 ; Peptidase_S8 ; Subtilase family
+Probab=99.82  E-value=1e-25  Score=207.50  Aligned_cols=212  Identities=16%  Similarity=0.131  Sum_probs=145.2  Template_Neff=10.500
+
+Q EMT62740.1       68 AGQVRIAVLDTGIDKSMLSS--AFHENIKDNMSF--LLADDAQDSGGLEGNH-HGTQVVALLLSL----------APWIH  132 (405)
+Q Consensus        68 g~~V~VaViDtGid~~h~~l~~~~~~~i~~~~~f--~~~~~~~~~~~~d~~g-HGT~vAgii~gv----------ap~a~  134 (424)
+                      |++|+|||||+|++..|++|....    .....+  ............+... |||+||++|++.          ||+++
+T Consensus         1 G~gv~vaiiD~G~~~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~~~~~~HGt~va~ii~~~~~~~~~~~Gvap~a~   76 (286)
+T NECB_HYDVU/193    1 GRGIVISVLDDGLDWTHPDLEANY----DQTASIVLNDNDNDPMPRDSDADNCHGTRCAGEAAAIANNGICGTGVAYNAK   76 (286)
+T ss_pred             CCCeEEEEeccCCCCCCHhHhhcc----ccCCceeecCCCCCCCCCCccccCCchhHHHHHHeeeccCCCceeeeecCCE
+Confidence            578999999999999999985432    111111  1111000111112222 999999999876          99999
+
+
+Q EMT62740.1      133 VYVARIGKDGDESMDPSCISKAIRYSVEYWDVHVISMSWGFRREH-----------ECISDAIRLAH-SKDKIMFAAASN  200 (405)
+Q Consensus       135 i~~~~v~~~~~~~~~~~~i~~ai~~a~~~~~~~IIn~S~g~~~~~-----------~~l~~ai~~a~-~~gvlvvaAAGN  202 (424)
+                      ++.+++.....     ..+.++|+|++++.+++|||||||.....           ..+.++++++. .+|+++|+++||
+T Consensus        77 ~~~~~~~~~~~-----~~~~~ai~~~~~~~~~~vi~~S~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~v~saGN  151 (286)
+T NECB_HYDVU/193   77 IGGVRMLDGQA-----TDALEASALGFRGDHIDIYINCWGPKDDGKTFGKPGPMAAKALRLGAEQGRNRLGSIFVWATGN  151 (286)
+T ss_pred             EEEEEcCCCCc-----chHHHHHHHHhccCCCeEEEeCCCCcccCCccCCCchHHHHHHHHHHHhhcccCCcEEEEeCCC
+Confidence            99999876432     67889999999844999999999932211           11234788888 889999999999
+
+
+Q EMT62740.1      201 EGAN----LPArVTFPASMQEVICVNSCDGYGNSSDFNPPPREGVF-NFSTLGEAVIAK---------KSTLEPKRLTGT  266 (405)
+Q Consensus       203 ~g~~----~~~.~~~Pa~~~~vi~Vga~~~~g~~~~~s~~~~~~~~-~~~a~G~~i~~~~~~~~----~~~~~~~~~sGT  272 (424)
+                      .+..    ... ..+|+..+  |+|++++..+....|+..+.  .. ++.+||...........    .....+...+||
+T Consensus       152 ~~~~~~~~~~~.~~~p~~~~--i~Vg~~~~~~~~~~~s~~g~--~~~d~~apg~~~~~~~~~~~~~~~~~~~~~~~~~Gt  226 (286)
+T NECB_HYDVU/193  152 GGLTDDDCNCD.GYTTSIFT--ISIGCIGDHGLSAYYTEKCS--STLAVTFNGASHKEGRENKMVTTDLYHQCTEEFKGT  226 (286)
+T ss_pred             CCCCCCccCCC.CCCCccee--EEEEEeCCCCceeeccccCC--ceEEEEeCCCCCCCCcccccCccccccCCccccCCc
+Confidence            9831    223 56787776  99999998888777776432  23 67778766321110000    001125578999
+
+
+Q EMT62740.1      267 SFATPAAAAIAASILEFATQ  286 (405)
+Q Consensus       273 S~AtP~vAG~aAll~~~~~~  292 (424)
+                      |+|||+|||++||+++..+.
+T Consensus       227 S~aap~vag~~al~~~~~p~  246 (286)
+T NECB_HYDVU/193  227 SASAPLAAGIIALTLEANPL  246 (286)
+T ss_pred             cchhHHHHHHHHHHHHHCCC
+Confidence            99999999999999987664
+
+
+No 2
+>PF14097.6 ; SpoVAE ; Stage V sporulation protein AE1
+Probab=48.77  E-value=0.97  Score=33.28  Aligned_cols=74  Identities=12%  Similarity=0.108  Sum_probs=48.6  Template_Neff=3.500
+
+Q EMT62740.1      151 ISKAIRYSVEYWDVHVISMSWGFRRE--HECISDAIRLAHSKDKIM-FAAASNEGANLP--ArVTFPASMQ-----EVIC  220 (405)
+Q Consensus       153 i~~ai~~a~~~~~~~IIn~S~g~~~~--~~~l~~ai~~a~~~gvlv-vaAAGN~g~~~~--~.~~~Pa~~~-----~vi~  221 (424)
+                      ..+|+++|..+.+.+.|+.|.|.+..  ..++-+.|.+|...-++| |=-.|+.+....  . ..|-+..|     ++|+
+T Consensus        12 A~~avE~aa~~iggrcIS~SaGNPT~lsG~elv~lI~~a~~dPV~VMfDD~G~~g~G~GE~a.l~~v~~h~~IeVlG~iA   90 (177)
+T C8WXD0_ALIAD/7   12 AARALAIAAKRTGCSFVAQSGGNPTRLSGVELVRCIESAQRDPVIVMLDDNGDPAEAAGESA.LRVLYAHPSVEIAAILA   90 (177)
+T ss_pred             HHHHHHHHHHHhCCEEeeccCCCCCCCCHHHHHHHHHhCCCCCEEEEEeCCCCCCCChhHHH.HHHHHhCCCeEEEEEEE
+Confidence            45789999888899999999997753  457778888876555544 445666554321  1 44555555     4566
+
+
+Q EMT62740.1      221 VNSCD  225 (405)
+Q Consensus       222 Vga~~  226 (424)
+                      |++-+
+T Consensus        91 VASnT   95 (177)
+T C8WXD0_ALIAD/7   91 VASHT   95 (177)
+T ss_pred             EecCC
+Confidence            65543
+
+
+No 3
+>PF13940.6 ; Ldr_toxin ; Toxin Ldr, type I toxin-antitoxin system
+Probab=37.95  E-value=1.9  Score=22.42  Aligned_cols=14  Identities=43%  Similarity=0.655  Sum_probs=11.0  Template_Neff=2.400
+
+Q EMT62740.1      268 FATPAAAAIAASIL  281 (405)
+Q Consensus       274 ~AtP~vAG~aAll~  287 (424)
+                      .|+|+.||+.+.++
+T Consensus        14 LAAPiiaGii~~~i   27 (35)
+T LDRD_ECOLI/1-3   14 LAAPVIAGILASMI   27 (35)
+T ss_pred             hHHHHHHHHHHHHH
+Confidence            58999999887543
+
+
+No 4
+>PF15894.5 ; SgrT ; Inhibitor of glucose uptake transporter SgrT
+Probab=8.87  E-value=20  Score=19.62  Aligned_cols=14  Identities=36%  Similarity=0.508  Sum_probs=12.0  Template_Neff=4.400
+
+Q EMT62740.1      394 NTRVKVLDEIRK--  405 (405)
+Q Consensus       404 ~Tr~~ll~~i~~W~  417 (424)
+                      .-|.++|+++..|-
+T Consensus        26 ~qRl~mL~~lmQW~   39 (49)
+T A7MQ55_CROS8/1   26 KTPQRMLDEIMQWD   39 (49)
+T ss_pred             chHHHHHHHHhccc
+Confidence            57899999999994
+
+
+No 5
+>PF17763.1 ; Asparaginase_C ; Glutaminase/Asparaginase C-terminal domain
+Probab=8.01  E-value=22  Score=22.18  Aligned_cols=33  Identities=15%  Similarity=0.205  Sum_probs=21.0  Template_Neff=9.300
+
+Q EMT62740.1      166 VISMSWGFRREHECISDAIRLAHSKDKIMFAAA  198 (405)
+Q Consensus       168 IIn~S~g~~~~~~~l~~ai~~a~~~gvlvvaAA  200 (424)
+                      ||--++|.......+.++++++.++|+.||...
+T Consensus        27 iVl~~~g~G~~p~~~~~~~~~~~~~~ipVv~~s   59 (112)
+T B5WQS5_9BURK/2   27 IVVAGTGNGSIHQTLQQALAEAVSRGVAVVRSS   59 (112)
+T ss_pred             EEEECCCCCCCCHHHHHHHHHHHHCCCEEEEEC
+Confidence            455566655444466677777777788777654
+
+
+No 6
+>PF13607.6 ; Succ_CoA_lig ; Succinyl-CoA ligase like flavodoxin domain
+Probab=7.54  E-value=24  Score=23.03  Aligned_cols=40  Identities=13%  Similarity=-0.055  Sum_probs=24.7  Template_Neff=9.200
+
+Q EMT62740.1      151 ISKAIRYSVEYWDVHVISMSWGFRREHECISDAIRLAHSK  190 (405)
+Q Consensus       153 i~~ai~~a~~~~~~~IIn~S~g~~~~~~~l~~ai~~a~~~  192 (424)
+                      +.+.+++..++.++++|-+.+........+.+++.++.++
+T Consensus        42 ~~~~l~~~~~d~~v~~i~~~~~~~~~~~~~~~~~~~~~~~   81 (138)
+T B1L605_KORCO/1   42 EVDVIEYLKDDPMTRVILVYAESIEKGREFLELAREVTRE   81 (138)
+T ss_pred             HHHHHHHHhhCCCCCEEEEEEeccccHHHHHHHHHHHhcC
+Confidence            5667777777667888877654433334455666665544
+
+
+No 7
+>PF02601.15 ; Exonuc_VII_L ; Exonuclease VII, large subunit
+Probab=6.48  E-value=29  Score=26.35  Aligned_cols=67  Identities=16%  Similarity=0.106  Sum_probs=39.5  Template_Neff=9.500
+
+Q EMT62740.1      132 HVYVARIGKDGDESMDPSCISKAIRYSVEYWDVHVISMSWGFRREHE--CI--SDAIRLAHSKDKIMFAAASNEG  202 (405)
+Q Consensus       134 ~i~~~~v~~~~~~~~~~~~i~~ai~~a~~~~~~~IIn~S~g~~~~~~--~l--~~ai~~a~~~gvlvvaAAGN~g  204 (424)
+                      .++.+.|-..    .....+++||+++-....+|+|-+-=|++...+  .+  +...+....-.+.||.+-|-+.
+T Consensus        45 ~~~~~~vQG~----~a~~~i~~al~~~~~~~~~D~ivi~RGGGs~~dL~~Fn~~~la~ai~~~~~PvisgIGHe~  115 (318)
+T H6NL84_9BACL/1   45 LLYPVLVQGK----GAAPSIVKAIKEMNARAEADVLIVGRGGGSLEELWAFNEEIVARAIAASRIPVISAVGHET  115 (318)
+T ss_pred             EEeccccCCC----CcHHHHHHHHHHHHHhCCCCEEEEECCCCCHHHHhccChHHHHHHHHcCCCCEEEEeCCCC
+Confidence            3444555432    235678999998876435799999988765321  11  1112222344677888878754
+
+
+No 8
+>PF07765.12 ; KIP1 ; KIP1-like protein
+Probab=3.80  E-value=59  Score=18.80  Aligned_cols=23  Identities=13%  Similarity=0.206  Sum_probs=15.6  Template_Neff=6.200
+
+Q EMT62740.1      380 FDAKSRQNTSSCLPNTRVKVLDE  402 (405)
+Q Consensus       390 f~s~~~~~~~~cl~~Tr~~ll~~  412 (424)
+                      |+|+.....+.||..|..++-+.
+T Consensus         4 ~~shi~p~~s~~L~~~~~e~e~k   26 (74)
+T B9GN47_POPTR/1    4 WASHIRTKHSKWLEENLQDMEEK   26 (74)
+T ss_pred             cccCCCCCCCHHHHHHHHHHHHH
+Confidence            56666666677887777766444
+
+
+No 9
+>PF01924.16 ; HypD ; Hydrogenase formation hypA family
+Probab=2.77  E-value=89  Score=24.19  Aligned_cols=41  Identities=12%  Similarity=0.136  Sum_probs=28.6  Template_Neff=4.500
+
+Q EMT62740.1      151 ISKAIRYSVEYWDVHVISMSWGFRREHECISDAIRLAHSKD  191 (405)
+Q Consensus       153 i~~ai~~a~~~~~~~IIn~S~g~~~~~~~l~~ai~~a~~~g  193 (424)
+                      ..+||+.|.++.+-.||=+..|+....+....+|.+|.+.+
+T Consensus       106 p~dal~~A~~~p~k~vVF~avGFETTaP~~A~~i~~a~~~~  146 (348)
+T B8DYP5_DICTD/3  106 PLEALNIAKENPNKKYLLVGIGFETTAPHLAYTLIKAKEEN  146 (348)
+T ss_pred             HHHHHHHHHHCCCCeEEEEecCCCChHHHHHHHHHHHHHcC
+Confidence            45677777765456788888888777666666677665544
+
+
+No 10
+>PF11886.8 ; TOC159_MAD ; Translocase of chloroplast 159/132, membrane anchor domain
+Probab=2.54  E-value=98  Score=22.90  Aligned_cols=32  Identities=22%  Similarity=0.231  Sum_probs=24.0  Template_Neff=4.900
+
+Q EMT62740.1      371 LPDRISSAAFDAKSRQNTSSCLPNTRVKVLDE  402 (405)
+Q Consensus       381 l~~~a~~a~f~s~~~~~~~~cl~~Tr~~ll~~  412 (424)
+                      ||.++-..+|||...-|.-+||+-+-.+|.+=
+T Consensus         6 lpd~~lPpSFDsD~p~hRYR~le~~~~~lvRP   37 (267)
+T M1AT63_SOLTU/5    6 LPDMALPPSFDSDNPAYRYRFLEPTSQFLARP   37 (267)
+T ss_pred             CCCCCCCCCCCCCCCccccccccCCCceEEEe
+Confidence            34335667899988888889998887777663
+
+

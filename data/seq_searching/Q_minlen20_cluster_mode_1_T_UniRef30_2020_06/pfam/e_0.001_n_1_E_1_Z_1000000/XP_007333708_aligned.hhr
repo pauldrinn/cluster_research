@@ -1,0 +1,150 @@
+Query         XP_007333708.1
+Match_columns 306
+No_of_seqs    1208 out of 1234
+Neff          4.78566
+Searched_HMMs 1018
+Date          Mon Jan 11 21:32:08 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/XP_007333708_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_007333708_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_007333708_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF11043.8 ; DUF2856 ; Protein   29.4     2.9 0.00057   29.0   0.0   26  277-303     9-34  (97)
+  2 PF05576.11 ; Peptidase_S37 ; P  12.2      10  0.0024   30.1   0.0   38  262-303   378-415 (448)
+  3 PF15894.5 ; SgrT ; Inhibitor o  10.9      14  0.0028   21.9   0.0   15  285-299    25-39  (49)
+  4 PF03392.13 ; OS-D ; Insect phe  10.7      13  0.0029   23.6   0.0   27    3-29     63-90  (93)
+  5 PF11868.8 ; DUF3388 ; Protein   10.4      16   0.003   27.5   0.0   32    3-34     27-64  (189)
+  6 PF10104.9 ; Brr6_like_C_C ; Di   8.0      20  0.0043   24.0   0.0   23  277-299    52-75  (127)
+  7 PF13663.6 ; DUF4148 ; Domain o   7.7      21  0.0045   20.4   0.0   18  285-302    27-44  (53)
+  8 PF10414.9 ; CysG_dimeriser ; S   6.3      24  0.0059   18.1   0.0   18    4-21     17-34  (58)
+  9 PF08735.10 ; DUF1786 ; Putativ   5.9      31  0.0064   26.4   0.0   20   11-30     98-118 (252)
+ 10 PF17528.2 ; DUF5449 ; Family o   4.7      46  0.0086   24.3   0.0   46  257-303   110-156 (174)
+
+No 1
+>PF11043.8 ; DUF2856 ; Protein of unknown function (DUF2856)
+Probab=29.41  E-value=2.9  Score=28.99  Aligned_cols=26  Identities=15%  Similarity=0.199  Sum_probs=20.9  Template_Neff=3.900
+
+Q XP_007333708.1  217 RDPPPRCLPGTRLAILERCIDFIANCE  243 (246)
+Q Consensus       277 R~ppPrCHPgTR~aVL~~I~~WI~d~~  303 (306)
+                      .+..+ |+.||.++||.+|.+-|+...
+T Consensus         9 ~y~r~-~~~~TKeEVLa~~~~~~~~~~   34 (97)
+T ABC2_BPP22/1-9    9 DDPRR-CSGNSVSEVLDKFRKNYDLIM   34 (97)
+T ss_pred             CCCCc-CCCCCHHHHHHHHHHHHHHHc
+Confidence            34556 999999999999998887543
+
+
+No 2
+>PF05576.11 ; Peptidase_S37 ; PS-10 peptidase S37
+Probab=12.24  E-value=10  Score=30.12  Aligned_cols=38  Identities=16%  Similarity=0.247  Sum_probs=27.9  Template_Neff=9.000
+
+Q XP_007333708.1  202 LLKETIPGAASDSSARDPPPRCLPGTRLAILERCIDFIANCE  243 (246)
+Q Consensus       262 L~~~ia~gA~hDS~eR~ppPrCHPgTR~aVL~~I~~WI~d~~  303 (306)
+                      ....+.+|+.|-+.-+..    .+..|+.|++.|.+||....
+T Consensus       378 ~~~~~I~g~~Hc~Dl~~~----~~~~r~~i~~~i~~Wl~~~~  415 (448)
+T Q9RDG7_STRCO/2  378 SYVLTAPGMNHGANVAGL----VPDQKARATARILDWAGVAP  415 (448)
+T ss_pred             eEEEEeCCCCCccccccC----CHHHHHHHHHHHHHHhcCCC
+Confidence            444566888887665543    35679999999999997643
+
+
+No 3
+>PF15894.5 ; SgrT ; Inhibitor of glucose uptake transporter SgrT
+Probab=10.91  E-value=14  Score=21.88  Aligned_cols=15  Identities=13%  Similarity=0.189  Sum_probs=13.0  Template_Neff=4.400
+
+Q XP_007333708.1  225 PGTRLAILERCIDFI  239 (246)
+Q Consensus       285 PgTR~aVL~~I~~WI  299 (306)
+                      ..-|.++|++|+.|=
+T Consensus        25 ~~qRl~mL~~lmQW~   39 (49)
+T A7MQ55_CROS8/1   25 GKTPQRMLDEIMQWD   39 (49)
+T ss_pred             cchHHHHHHHHhccc
+Confidence            468999999999994
+
+
+No 4
+>PF03392.13 ; OS-D ; Insect pheromone-binding family, A10/OS-D
+Probab=10.68  E-value=13  Score=23.64  Aligned_cols=27  Identities=0%  Similarity=0.000  Sum_probs=20.6  Template_Neff=7.100
+
+Q XP_007333708.1    1 ----------------------------    0 (246)
+Q Consensus         3 ~~~~~-~~~~~~~~~~~~~~~~~~~~~~   29 (306)
+                      ++|++ |+.+-+-+-|+++..|+|.+|-
+T Consensus        63 ~~~~~~~~~~~~P~~w~~l~~kydp~~~   90 (93)
+T E0W2K2_PEDHC/2   63 IKKAVTFLMKHKPEMWEGLLDKYDPKRE   90 (93)
+T ss_pred             HHHHHHHHHHHCHHHHHHHHHHHCCCCc
+Confidence            45553 5556788999999999998864
+
+
+No 5
+>PF11868.8 ; DUF3388 ; Protein of unknown function (DUF3388)
+Probab=10.36  E-value=16  Score=27.55  Aligned_cols=32  Identities=0%  Similarity=0.000  Sum_probs=22.6  Template_Neff=2.900
+
+Q XP_007333708.1    1 --------------------------------------    0 (246)
+Q Consensus         3 ~~~~~~~~~----~~~~~~~~~~~~~~--~~~~~~~~~   34 (306)
+                      =||.|.|.+    +.|||+.++|.|..  .-|++..++
+T Consensus        27 d~kTfRF~R~eLGlLVDFl~El~K~~gh~lIGiRGmPR   64 (189)
+T G2TNV1_BACCO/7   27 DRKTFRFVRDDLGILVDFMAEHFKQEGHKLIGIRGMPR   64 (189)
+T ss_pred             CCCceeeeHHHHHHHHHHHHHHHHhcCceEEEEcCCCC
+Confidence            378888876    88999999987754  335544443
+
+
+No 6
+>PF10104.9 ; Brr6_like_C_C ; Di-sulfide bridge nucleocytoplasmic transport domain
+Probab=7.99  E-value=20  Score=24.03  Aligned_cols=23  Identities=22%  Similarity=0.455  Sum_probs=15.9  Template_Neff=7.000
+
+Q XP_007333708.1  217 RDPPPRCLPGTRLA-ILERCIDFI  239 (246)
+Q Consensus       277 R~ppPrCHPgTR~a-VL~~I~~WI  299 (306)
+                      .|..=+|+|++|.- +.+...+|-
+T Consensus        52 ~Y~~N~C~~~~rvPal~~~C~eWe   75 (127)
+T U4LCT8_PYROM/2   52 NYLQNRCAPDFRVPAMELSCQEWE   75 (127)
+T ss_pred             HHHHcCCCcCcCChHHHHHHHHHH
+Confidence            34555999999954 455667775
+
+
+No 7
+>PF13663.6 ; DUF4148 ; Domain of unknown function (DUF4148)
+Probab=7.74  E-value=21  Score=20.43  Aligned_cols=18  Identities=17%  Similarity=0.106  Sum_probs=15.2  Template_Neff=6.400
+
+Q XP_007333708.1  225 PGTRLAILERCIDFIANC  242 (246)
+Q Consensus       285 PgTR~aVL~~I~~WI~d~  302 (306)
+                      +-||.+|+.+|..+-..+
+T Consensus        27 ~~TRaqV~aEL~~a~~~G   44 (53)
+T B4EKY6_BURCJ/1   27 PLTRAQVHAEVKALKQAG   44 (53)
+T ss_pred             CCCHHHHHHHHHHHHHcC
+Confidence            789999999999886554
+
+
+No 8
+>PF10414.9 ; CysG_dimeriser ; Sirohaem synthase dimerisation region
+Probab=6.32  E-value=24  Score=18.13  Aligned_cols=18  Identities=0%  Similarity=0.000  Sum_probs=11.9  Template_Neff=10.000
+
+Q XP_007333708.1    1 ------------------    0 (246)
+Q Consensus         4 ~~~~~~~~~~~~~~~~~~   21 (306)
+                      |+.+...+.|..||++++
+T Consensus        17 ~~~~~~~~~Rr~~~~~~~   34 (58)
+T C5BIK5_TERTT/1   17 KSRFSDGEQRRRFWESVL   34 (58)
+T ss_pred             HHHCCCHHHHHHHHHHHH
+Confidence            444445556788999874
+
+
+No 9
+>PF08735.10 ; DUF1786 ; Putative pyruvate format-lyase activating enzyme (DUF1786)
+Probab=5.92  E-value=31  Score=26.44  Aligned_cols=20  Identities=0%  Similarity=0.000  Sum_probs=12.8  Template_Neff=5.000
+
+Q XP_007333708.1    1 ---------------------    0 (246)
+Q Consensus        11 ~~~~~~~~~~~~~-~~~~~~~   30 (306)
+                      +|||++|+++..+ .+.+.|.
+T Consensus        98 ~fRF~~~~~~L~~g~~l~~l~  118 (252)
+T K4LGW2_THEPS/6   98 RFRFEHWERFLEAGGRLNGLI  118 (252)
+T ss_pred             HHHHHHHHHHHHhCCChhHcc
+Confidence            4899999997633 3444433
+
+
+No 10
+>PF17528.2 ; DUF5449 ; Family of unknown function (DUF5449)
+Probab=4.66  E-value=46  Score=24.30  Aligned_cols=46  Identities=20%  Similarity=0.291  Sum_probs=34.3  Template_Neff=2.600
+
+Q XP_007333708.1  197 QFMKELLKETIPGAASDSSARDPPPRC-LPGTRLAILERCIDFIANCE  243 (246)
+Q Consensus       257 ~~le~L~~~ia~gA~hDS~eR~ppPrC-HPgTR~aVL~~I~~WI~d~~  303 (306)
+                      ++++.|......-|-||...|..-|.- .|+--++|= +|+.|+.++.
+T Consensus       110 DFiQdvkP~~in~AgYdnTiRGEfpqLldpDHaeEiD-rLR~wMQdG~  156 (174)
+T A5VMJ6_LACRD/1  110 DFIQDIKPKEINHAGYDNTIRGEFPQLLDPDHAEEID-RLRRWMQDGH  156 (174)
+T ss_pred             HHHHhcCCccccccCcccccccCCccccCcchHHHHH-HHHHHHHhCC
+Confidence            445555555556688999999888876 778777764 9999998764
+
+

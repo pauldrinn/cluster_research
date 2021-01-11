@@ -1,0 +1,149 @@
+Query         CZR69583.1
+Match_columns 107
+No_of_seqs    1611 out of 1660
+Neff          10.1633
+Searched_HMMs 100
+Date          Mon Jan 11 21:24:56 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/CZR69583_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/CZR69583_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/CZR69583_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF16496.5 ; SWIRM-assoc_2 ; SW  50.9    0.86 0.00015   27.5   0.0   19   83-101   228-246 (405)
+  2 PF13120.6 ; DUF3974 ; Domain o  24.6     4.5  0.0008   19.5   0.0   43   57-101    30-74  (126)
+  3 PF11806.8 ; DUF3327 ; Domain o  17.0       8  0.0015   18.0   0.0   18   76-93     37-54  (121)
+  4 PF08946.10 ; Osmo_CC ; Osmosen  11.9      14  0.0025   14.6   0.0    8    6-13      5-12  (46)
+  5 PF17705.1 ; DUF5551 ; Family o   9.7      19  0.0033   17.7   0.0   31   58-88     85-115 (155)
+  6 PF10136.9 ; SpecificRecomb ; S   9.4      19  0.0034   22.5   0.0   12    1-12    384-395 (638)
+  7 PF02177.16 ; APP_N ; Amyloid A   5.6      38  0.0069   15.6   0.0    7   83-89     29-35  (111)
+  8 PF10081.9 ; Abhydrolase_9 ; Al   5.5      39   0.007   18.6   0.0   26   63-88    142-167 (288)
+  9 PF17839.1 ; CNP_C_terminal ; C   3.2      76   0.014   13.5   0.0   12   88-99     75-86  (106)
+ 10 PF09638.10 ; Ph1570 ; Ph1570 p   3.1      81   0.014   15.2   0.0   19    6-24     56-74  (155)
+
+No 1
+>PF16496.5 ; SWIRM-assoc_2 ; SWIRM-associated domain at the N-terminal
+Probab=50.93  E-value=0.86  Score=27.54  Aligned_cols=19  Identities=21%  Similarity=0.861  Sum_probs=16.4  Template_Neff=5.700
+
+Q CZR69583.1       74 GTGQWLLDSAEFKEWIESD   92 (93)
+Q Consensus        83 gTg~Wll~~~~f~~W~~~~  101 (107)
+                      -++.|++++..|.+|++..
+T Consensus       228 V~arWl~Ds~~fNEWMNEe  246 (405)
+T E0VYN8_PEDHC/5  228 VAATWVLELEQYNEWMTEE  246 (405)
+T ss_pred             EeeehhhcHHHHcCCCCHH
+Confidence            3789999999999999754
+
+
+No 2
+>PF13120.6 ; DUF3974 ; Domain of unknown function (DUF3974)
+Probab=24.59  E-value=4.5  Score=19.47  Aligned_cols=43  Identities=16%  Similarity=0.345  Sum_probs=22.1  Template_Neff=1.800
+
+Q CZR69583.1       48 HNSILNWLTPTDYADQQHDFITRRQEGT--GQWLLDSAEFKEWIESD   92 (93)
+Q Consensus        57 ~~~il~wL~~~~~~~~~~~~~~~r~~gT--g~Wll~~~~f~~W~~~~  101 (107)
+                      ++-+++|-.|..  ..+...-+..++.+  -+=|-++|-|.+|....
+T Consensus        30 rk~~~swtkPYk--R~~~S~eqLsh~s~pflqeFtqhpLfyRWirtE   74 (126)
+T A0A073JVF8_9BA   30 RKFILSWTKPYK--RGTESIQQLSHQSTPFLKEFTKHPVFYRWARTE   74 (126)
+T ss_pred             hhhhhhcCCcch--hhHHHHHHHhcCchHHHHHHhcChhHHHHHhcc
+Confidence            345666665422  22222222233332  24466888999998743
+
+
+No 3
+>PF11806.8 ; DUF3327 ; Domain of unknown function (DUF3327)
+Probab=17.01  E-value=8  Score=18.00  Aligned_cols=18  Identities=28%  Similarity=0.604  Sum_probs=13.0  Template_Neff=8.500
+
+Q CZR69583.1       67 FITRRQEGTGQWLLDSAE   84 (93)
+Q Consensus        76 ~~~~r~~gTg~Wll~~~~   93 (107)
+                      ..-.|.+||+-|++.-.-
+T Consensus        37 ~~m~rl~gTdvW~~t~~l   54 (121)
+T B1VMU0_STRGG/7   37 HLMERVAGTGVWAISHRL   54 (121)
+T ss_pred             hhcEecCCCceEEEEEEe
+Confidence            344578899999987543
+
+
+No 4
+>PF08946.10 ; Osmo_CC ; Osmosensory transporter coiled coil
+Probab=11.92  E-value=14  Score=14.58  Aligned_cols=8  Identities=38%  Similarity=0.538  Sum_probs=5.0  Template_Neff=3.200
+
+Q CZR69583.1        6 YAKDLLCR   13 (93)
+Q Consensus         6 yAKeLL~~   13 (107)
+                      =||+||..
+T Consensus         5 EAkelL~e   12 (46)
+T B4F186_PROMH/4    5 EAKEILSE   12 (46)
+T ss_pred             HHHHHHHH
+Confidence            36777765
+
+
+No 5
+>PF17705.1 ; DUF5551 ; Family of unknown function (DUF5551)
+Probab=9.68  E-value=19  Score=17.72  Aligned_cols=31  Identities=13%  Similarity=0.446  Sum_probs=17.7  Template_Neff=1.900
+
+Q CZR69583.1       49 NSILNWLTPTDYADQQHDFITRRQEGTGQWL   79 (93)
+Q Consensus        58 ~~il~wL~~~~~~~~~~~~~~~r~~gTg~Wl   88 (107)
+                      -.+.+||....+....-.+...-.|+-|.|-
+T Consensus        85 p~~arwl~~~s~s~~~psiqa~pepdpg~wa  115 (155)
+T A0A0D9RJC2_CHL   85 PTLARWLRRVSFSLYKPSIQAAPEPDPGNWA  115 (155)
+T ss_pred             HHHHHHHHhCCCccCCCcccccCCCCCCccc
+Confidence            3466788765554433333444567777774
+
+
+No 6
+>PF10136.9 ; SpecificRecomb ; Site-specific recombinase
+Probab=9.44  E-value=19  Score=22.47  Aligned_cols=12  Identities=33%  Similarity=0.202  Sum_probs=9.5  Template_Neff=5.800
+
+Q CZR69583.1        1 MVAAAYAKDLLC   12 (93)
+Q Consensus         1 ~tAAAyAKeLL~   12 (107)
+                      ||||+.|+.|=.
+T Consensus       384 MTAa~lA~~l~~  395 (638)
+T D3SAV5_THISK/2  384 MTAARLAAAIEE  395 (638)
+T ss_pred             HHHHHHHHHHHh
+Confidence            799999987653
+
+
+No 7
+>PF02177.16 ; APP_N ; Amyloid A4 N-terminal heparin-binding
+Probab=5.55  E-value=38  Score=15.62  Aligned_cols=7  Identities=29%  Similarity=1.094  Sum_probs=2.8  Template_Neff=5.400
+
+Q CZR69583.1       74 GTGQWLL   80 (93)
+Q Consensus        83 gTg~Wll   89 (107)
+                      .+|.|.-
+T Consensus        29 ~~G~W~~   35 (111)
+T E0VLF5_PEDHC/1   29 EQGKWIT   35 (111)
+T ss_pred             CCCCEEe
+Confidence            3444433
+
+
+No 8
+>PF10081.9 ; Abhydrolase_9 ; Alpha/beta-hydrolase family
+Probab=5.51  E-value=39  Score=18.64  Aligned_cols=26  Identities=15%  Similarity=0.374  Sum_probs=18.2  Template_Neff=4.800
+
+Q CZR69583.1       54 WLTPTDYADQQHDFITRRQEGTGQWL   79 (93)
+Q Consensus        63 wL~~~~~~~~~~~~~~~r~~gTg~Wl   88 (107)
+                      |..++.++..+......|.+|+-+|.
+T Consensus       142 w~G~P~~s~~~~~~~~~R~~GSp~~~  167 (288)
+T V9XLY1_9NOCA/2  142 FVGPPNSNQLWRSIVDHRDPGSPEVL  167 (288)
+T ss_pred             EeCCCCCChHHHHHHhcCCCCCCceE
+Confidence            55566676667777777888877763
+
+
+No 9
+>PF17839.1 ; CNP_C_terminal ; C-terminal domain of cyclic nucleotide phosphodiesterase
+Probab=3.16  E-value=76  Score=13.52  Aligned_cols=12  Identities=25%  Similarity=0.443  Sum_probs=7.9  Template_Neff=8.300
+
+Q CZR69583.1       79 LLDSAEFKEWIE   90 (93)
+Q Consensus        88 ll~~~~f~~W~~   99 (107)
+                      +..++.|+-|..
+T Consensus        75 ~~~s~gY~lw~~   86 (106)
+T R5X5K0_9CLOT/3   75 IEVSDNYKVWSL   86 (106)
+T ss_pred             HHhCHHHHHHHh
+Confidence            445667777765
+
+
+No 10
+>PF09638.10 ; Ph1570 ; Ph1570 protein
+Probab=3.09  E-value=81  Score=15.17  Aligned_cols=19  Identities=16%  Similarity=0.305  Sum_probs=0.0  Template_Neff=2.000
+
+Q CZR69583.1        6 YAKDLLCR-IAPNRVEAEK   23 (93)
+Q Consensus         6 yAKeLL~~~i~~~~v~~~~   24 (107)
+                      ||||+-..-+.|+++..+.
+T Consensus        56 CAKEFWgIymD~sEi~~Ee   74 (155)
+T Q5JE92_THEKO/1   56 CAKEFWGIYMDASEIRGEE   74 (155)
+T ss_pred             hhHhheeEeeCHHHccCCC
+
+

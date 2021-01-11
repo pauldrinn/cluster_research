@@ -1,0 +1,150 @@
+Query         KIK07581.1
+Match_columns 44
+No_of_seqs    113 out of 113
+Neff          6.33555
+Searched_HMMs 100
+Date          Mon Jan 11 21:27:27 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KIK07581_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KIK07581_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KIK07581_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF05580.12 ; Peptidase_S55 ; S  24.3     4.1 0.00082   21.0   0.0   11    1-11    180-190 (215)
+  2 PF12758.7 ; DUF3813 ; Protein   21.4     5.2   0.001   17.0   0.0   15    3-17      2-16  (66)
+  3 PF08259.11 ; Periviscerokin ;   13.7      11   0.002   10.8   0.0    6   38-43      3-8   (11)
+  4 PF10636.9 ; hemP ; Hemin uptak  13.6      11   0.002   14.1   0.0   16    3-18      4-19  (37)
+  5 PF01531.16 ; Glyco_transf_11 ;  12.5      10  0.0023   18.2   0.0   21    5-25    227-247 (281)
+  6 PF17597.2 ; DUF5493 ; Family o   6.5      31  0.0056   14.9   0.0   16    8-23     44-59  (82)
+  7 PF06849.12 ; DUF1246 ; Protein   5.8      34  0.0065   15.7   0.0    9    3-11      9-17  (126)
+  8 PF18105.1 ; PGM1_C ; PGM1 C-te   5.5      33   0.007   12.2   0.0    7   37-43     18-24  (53)
+  9 PF11691.8 ; DUF3288 ; Protein    5.2      39  0.0076   14.6   0.0    7    7-13     40-46  (89)
+ 10 PF16318.5 ; DUF4957 ; Domain o   5.0      36   0.008   13.8   0.0    9   12-20    127-135 (138)
+
+No 1
+>PF05580.12 ; Peptidase_S55 ; SpoIVB peptidase S55
+Probab=24.29  E-value=4.1  Score=20.99  Aligned_cols=11  Identities=9%  Similarity=0.462  Sum_probs=9.0  Template_Neff=5.000
+
+Q KIK07581.1        1 MRRTSVLNGAR   11 (39)
+Q Consensus         1 ms~~~vf~gA~   11 (44)
+                      ||++|++++-+
+T Consensus       180 MSGSPI~q~gK  190 (215)
+T A9KMA5_LACP7/2  180 MSGSPIIQNGK  190 (215)
+T ss_pred             CCCCcEEECCE
+Confidence            89999998654
+
+
+No 2
+>PF12758.7 ; DUF3813 ; Protein of unknown function (DUF3813)
+Probab=21.43  E-value=5.2  Score=16.98  Aligned_cols=15  Identities=20%  Similarity=0.226  Sum_probs=10.7  Template_Neff=4.600
+
+Q KIK07581.1        3 RTSVLNGARNVVMSG   17 (39)
+Q Consensus         3 ~~~vf~gA~~~~i~~   17 (44)
+                      +-++|+.|+++|-.-
+T Consensus         2 ~N~LFQqAR~aV~~a   16 (66)
+T E6TXY5_BACCJ/1    2 GNRYFQQARSAVEEA   16 (66)
+T ss_pred             CcHHHHHHHHHHHHH
+Confidence            357889999887543
+
+
+No 3
+>PF08259.11 ; Periviscerokin ; Periviscerokinin family
+Probab=13.66  E-value=11  Score=10.75  Aligned_cols=6  Identities=0%  Similarity=0.156  Sum_probs=3.4  Template_Neff=1.900
+
+Q KIK07581.1       37 DAV---   39 (39)
+Q Consensus        38 d~~IPl   43 (44)
+                      .+.||+
+T Consensus         3 sGli~f    8 (11)
+T PVK1_RHYMA/1-1    3 SGLIPF    8 (11)
+T ss_pred             CCcccC
+Confidence            456664
+
+
+No 4
+>PF10636.9 ; hemP ; Hemin uptake protein hemP
+Probab=13.64  E-value=11  Score=14.12  Aligned_cols=16  Identities=19%  Similarity=0.190  Sum_probs=11.5  Template_Neff=4.300
+
+Q KIK07581.1        3 RTSVLNGARNVVMSGS   18 (39)
+Q Consensus         3 ~~~vf~gA~~~~i~~~   18 (44)
+                      ...+|++++.+.|...
+T Consensus         4 s~~L~~~~~~i~I~H~   19 (37)
+T D3RW00_ALLVD/2    4 VRSLLGNDPFVMIEHG   19 (37)
+T ss_pred             HHHHhCCCCEEEEEEC
+Confidence            4567888888877654
+
+
+No 5
+>PF01531.16 ; Glyco_transf_11 ; Glycosyl transferase family 11
+Probab=12.50  E-value=10  Score=18.19  Aligned_cols=21  Identities=24%  Similarity=0.183  Sum_probs=16.0  Template_Neff=9.400
+
+Q KIK07581.1        5 SVLNGARNVVMSGSTVNTANT   25 (39)
+Q Consensus         5 ~vf~gA~~~~i~~~t~~~a~~   25 (44)
+                      -+++.++++.++++||.--..
+T Consensus       227 ~lls~c~~~I~s~STFswwaa  247 (281)
+T Q56870_YEREN/2  227 IGLMCCQDYILSGSTFSWWAA  247 (281)
+T ss_pred             HHHhcCCCEEECCChHHHHHH
+Confidence            356889999999998875554
+
+
+No 6
+>PF17597.2 ; DUF5493 ; Family of unknown function (DUF5493)
+Probab=6.50  E-value=31  Score=14.90  Aligned_cols=16  Identities=25%  Similarity=0.358  Sum_probs=10.6  Template_Neff=1.600
+
+Q KIK07581.1        8 NGARNVVMSGSTVNTA   23 (39)
+Q Consensus         8 ~gA~~~~i~~~t~~~a   23 (44)
+                      |+--+++.+.+||+.+
+T Consensus        44 ~~~TDItFS~StFYla   59 (82)
+T A82_SSV1/1-82    44 QGYTDIAFSSSTFYLG   59 (82)
+T ss_pred             cCCCcccccccHHHHh
+Confidence            5556677777777654
+
+
+No 7
+>PF06849.12 ; DUF1246 ; Protein of unknown function (DUF1246)
+Probab=5.80  E-value=34  Score=15.72  Aligned_cols=9  Identities=22%  Similarity=0.604  Sum_probs=4.4  Template_Neff=4.500
+
+Q KIK07581.1        3 RTSVLNGAR   11 (39)
+Q Consensus         3 ~~~vf~gA~   11 (44)
+                      +..++.||+
+T Consensus         9 ALqI~~GAk   17 (126)
+T A8AB21_IGNH4/2    9 ALDLFDGAK   17 (126)
+T ss_pred             HHHHHHHHH
+Confidence            344555554
+
+
+No 8
+>PF18105.1 ; PGM1_C ; PGM1 C-terminal domain
+Probab=5.52  E-value=33  Score=12.23  Aligned_cols=7  Identities=14%  Similarity=0.177  Sum_probs=3.7  Template_Neff=7.600
+
+Q KIK07581.1       36 SDAV---   39 (39)
+Q Consensus        37 sd~~IPl   43 (44)
+                      ..|+||+
+T Consensus        18 ~~GVi~~   24 (53)
+T A4X5N1_SALTO/3   18 RTGVVIT   24 (53)
+T ss_pred             CeEEEEe
+Confidence            3456554
+
+
+No 9
+>PF11691.8 ; DUF3288 ; Protein of unknown function (DUF3288)
+Probab=5.15  E-value=39  Score=14.60  Aligned_cols=7  Identities=43%  Similarity=0.833  Sum_probs=4.1  Template_Neff=4.100
+
+Q KIK07581.1        7 LNGARNV   13 (39)
+Q Consensus         7 f~gA~~~   13 (44)
+                      |.||+++
+T Consensus        40 FPGA~dI   46 (89)
+T P73959_SYNY3/5   40 FPGARSL   46 (89)
+T ss_pred             CCCHHHH
+Confidence            5666655
+
+
+No 10
+>PF16318.5 ; DUF4957 ; Domain of unknown function (DUF4957)
+Probab=4.96  E-value=36  Score=13.76  Aligned_cols=9  Identities=11%  Similarity=0.309  Sum_probs=3.8  Template_Neff=9.800
+
+Q KIK07581.1       12 NVVMSGSTV   20 (39)
+Q Consensus        12 ~~~i~~~t~   20 (44)
+                      ++++.+++|
+T Consensus       127 ~i~i~nntf  135 (138)
+T D5ETE2_PRER2/2  127 MLNITNNTI  135 (138)
+T ss_pred             EEEEEeceE
+Confidence            344444443
+
+

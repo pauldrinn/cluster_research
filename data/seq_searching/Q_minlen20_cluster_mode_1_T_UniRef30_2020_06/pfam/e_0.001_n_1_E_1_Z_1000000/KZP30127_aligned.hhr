@@ -1,0 +1,150 @@
+Query         KZP30127.1
+Match_columns 96
+No_of_seqs    1211 out of 1249
+Neff          8.53578
+Searched_HMMs 100
+Date          Mon Jan 11 21:28:09 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KZP30127_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KZP30127_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KZP30127_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF11043.8 ; DUF2856 ; Protein   64.2    0.35 6.5E-05   24.8   0.0   25   62-87      8-32  (97)
+  2 PF15894.5 ; SgrT ; Inhibitor o  38.0     1.8 0.00034   19.0   0.0   17   71-87     25-41  (49)
+  3 PF18385.1 ; Tiam_CC_Ex ; T-lym  23.5     4.7 0.00086   20.1   0.0   19   70-88     22-40  (98)
+  4 PF02478.16 ; Pneumo_phosprot ;  11.8      14  0.0025   21.2   0.0   26   61-86    199-224 (281)
+  5 PF17273.2 ; DUF5338 ; Family o  11.7      13  0.0026   15.9   0.0   12   76-87     28-39  (70)
+  6 PF09508.10 ; Lact_bio_phlase ;  10.3      17   0.003   22.6   0.0   21   68-88    178-198 (433)
+  7 PF14922.6 ; FWWh ; Protein of    8.1      22  0.0042   18.1   0.0   25   71-95    122-146 (150)
+  8 PF06330.11 ; TRI5 ; Trichodien   7.4      24  0.0048   19.8   0.0   21   67-87     23-43  (359)
+  9 PF14216.6 ; DUF4326 ; Domain o   7.3      25  0.0048   15.9   0.0   19   70-88     26-44  (85)
+ 10 PF16825.5 ; DUF5075 ; IGP fami   7.3      26  0.0049   18.5   0.0   24   64-87     61-84  (171)
+
+No 1
+>PF11043.8 ; DUF2856 ; Protein of unknown function (DUF2856)
+Probab=64.17  E-value=0.35  Score=24.84  Aligned_cols=25  Identities=12%  Similarity=0.104  Sum_probs=20.2  Template_Neff=3.900
+
+Q KZP30127.1       48 DRYYVPKCMQGTRHWIIDDIHRWLDD   73 (77)
+Q Consensus        62 ~~~~~~~C~pgTR~~il~~I~~W~~~   87 (96)
+                      ..+.++ |..||.++||..+.+-+..
+T Consensus         8 a~y~r~-~~~~TKeEVLa~~~~~~~~   32 (97)
+T ABC2_BPP22/1-9    8 ADDPRR-CSGNSVSEVLDKFRKNYDL   32 (97)
+T ss_pred             CCCCCc-CCCCCHHHHHHHHHHHHHH
+Confidence            345566 9999999999999887754
+
+
+No 2
+>PF15894.5 ; SgrT ; Inhibitor of glucose uptake transporter SgrT
+Probab=38.00  E-value=1.8  Score=18.98  Aligned_cols=17  Identities=24%  Similarity=0.458  Sum_probs=13.7  Template_Neff=4.400
+
+Q KZP30127.1       57 QGTRHWIIDDIHRWLDD   73 (77)
+Q Consensus        71 pgTR~~il~~I~~W~~~   87 (96)
+                      ..-|.++|++++.|=..
+T Consensus        25 ~~qRl~mL~~lmQW~~~   41 (49)
+T A7MQ55_CROS8/1   25 GKTPQRMLDEIMQWDVT   41 (49)
+T ss_pred             cchHHHHHHHHhcccCC
+Confidence            36799999999999543
+
+
+No 3
+>PF18385.1 ; Tiam_CC_Ex ; T-lymphoma invasion and metastasis CC-Ex domain
+Probab=23.49  E-value=4.7  Score=20.12  Aligned_cols=19  Identities=21%  Similarity=0.436  Sum_probs=15.5  Template_Neff=3.600
+
+Q KZP30127.1       56 MQGTRHWIIDDIHRWLDDY   74 (77)
+Q Consensus        70 ~pgTR~~il~~I~~W~~~~   88 (96)
+                      .+.+|..|++.|..|=.+-
+T Consensus        22 D~~~r~~i~~QI~~weenl   40 (98)
+T G7P1J8_MACFA/5   22 DSKKKKTILDQIFVWEQNL   40 (98)
+T ss_pred             CHHHHHHHHHHHHHHHHHH
+Confidence            4567899999999997653
+
+
+No 4
+>PF02478.16 ; Pneumo_phosprot ; Pneumovirus phosphoprotein
+Probab=11.85  E-value=14  Score=21.17  Aligned_cols=26  Identities=27%  Similarity=0.263  Sum_probs=20.6  Template_Neff=1.900
+
+Q KZP30127.1       48 -DRYYVPKCMQGTRHWIIDDIHRWLD   72 (77)
+Q Consensus        61 ~~~~~~~~C~pgTR~~il~~I~~W~~   86 (96)
+                      +.|..-+-.+-|+|.++|..|+.=+.
+T Consensus       199 aARDgIRDAmvG~REELI~~I~sEak  224 (281)
+T PHOSP_AMPV1/4-  199 AARDGIRDAMVGLREELIADIIKEAK  224 (281)
+T ss_pred             HHHHhHHHHHHhhHHHHHHHHHHHHH
+Confidence            46666777899999999999886553
+
+
+No 5
+>PF17273.2 ; DUF5338 ; Family of unknown function (DUF5338)
+Probab=11.65  E-value=13  Score=15.91  Aligned_cols=12  Identities=17%  Similarity=0.199  Sum_probs=7.1  Template_Neff=8.200
+
+Q KZP30127.1       62 WIIDDIHRWLDD   73 (77)
+Q Consensus        76 ~il~~I~~W~~~   87 (96)
+                      ...++|.+|+..
+T Consensus        28 ~~~~~I~~~l~~   39 (70)
+T C6BT70_DESAD/1   28 GLVKEIEQNLLA   39 (70)
+T ss_pred             HhHHHHHHHHHC
+Confidence            455566666654
+
+
+No 6
+>PF09508.10 ; Lact_bio_phlase ; Lacto-N-biose phosphorylase N-terminal TIM barrel domain
+Probab=10.32  E-value=17  Score=22.55  Aligned_cols=21  Identities=5%  Similarity=0.200  Sum_probs=18.5  Template_Neff=3.300
+
+Q KZP30127.1       54 KCMQGTRHWIIDDIHRWLDDY   74 (77)
+Q Consensus        68 ~C~pgTR~~il~~I~~W~~~~   88 (96)
+                      .-+|.||.-+++.+.+|+...
+T Consensus       178 ~r~p~t~~~~~~~l~~Wl~~h  198 (433)
+T F4LM96_TREBD/8  178 VRQPKTHEYTMRRLRTFIAEH  198 (433)
+T ss_pred             CCCHHHHHHHHHHHHHHHHHC
+Confidence            458999999999999999764
+
+
+No 7
+>PF14922.6 ; FWWh ; Protein of unknown function
+Probab=8.08  E-value=22  Score=18.06  Aligned_cols=25  Identities=4%  Similarity=0.167  Sum_probs=17.7  Template_Neff=6.900
+
+Q KZP30127.1       57 QGTRHWIIDDIHRWLDDYDAP----   77 (77)
+Q Consensus        71 pgTR~~il~~I~~W~~~~~~~~i~W   95 (96)
+                      +.=+.++.+.|.+|+.+..+....|
+T Consensus       122 ~~Fk~~L~~~~~~w~~G~~p~~~~~  146 (150)
+T B3RPT7_TRIAD/1  122 ENFKTELTNLVTLWMTGNKPYPRSW  146 (150)
+T ss_pred             HHHHHHHHHHHHHHHHCCCCCCCcc
+Confidence            3456788999999998765444444
+
+
+No 8
+>PF06330.11 ; TRI5 ; Trichodiene synthase (TRI5)
+Probab=7.38  E-value=24  Score=19.80  Aligned_cols=21  Identities=5%  Similarity=-0.168  Sum_probs=12.9  Template_Neff=9.700
+
+Q KZP30127.1       53 PKCMQGTRHWIIDDIHRWLDD   73 (77)
+Q Consensus        67 ~~C~pgTR~~il~~I~~W~~~   87 (96)
+                      +.+.+..|.+.|+++..|+.+
+T Consensus        23 ~~~~~~~~~~~L~~v~~~~~~   43 (359)
+T TRI5_GIBZE/3-3   23 SNYTREERIENLHYAYNKAAH   43 (359)
+T ss_pred             CCCCHHHHHHHHHHHHHHHHH
+Confidence            335566677777777776543
+
+
+No 9
+>PF14216.6 ; DUF4326 ; Domain of unknown function (DUF4326)
+Probab=7.34  E-value=25  Score=15.86  Aligned_cols=19  Identities=16%  Similarity=0.377  Sum_probs=16.0  Template_Neff=7.000
+
+Q KZP30127.1       56 MQGTRHWIIDDIHRWLDDY   74 (77)
+Q Consensus        70 ~pgTR~~il~~I~~W~~~~   88 (96)
+                      ..++|.++++.-..|+...
+T Consensus        26 ~~~~r~~~v~~y~~~l~~~   44 (85)
+T F6D6P9_METPW/8   26 TKGCKRKLNDQYKEYLKGL   44 (85)
+T ss_pred             CcCcHHHHHHHHHHHHhcC
+Confidence            5689999999999999764
+
+
+No 10
+>PF16825.5 ; DUF5075 ; IGP family C-type lectin domain
+Probab=7.28  E-value=26  Score=18.53  Aligned_cols=24  Identities=17%  Similarity=0.289  Sum_probs=19.9  Template_Neff=5.500
+
+Q KZP30127.1       50 YYVPKCMQGTRHWIIDDIHRWLDD   73 (77)
+Q Consensus        64 ~~~~~C~pgTR~~il~~I~~W~~~   87 (96)
+                      .+.++|.+|....-|+-|..|-..
+T Consensus        61 ~~~~rC~~g~~~aS~nCiyRWN~G   84 (171)
+T Q38FN7_TRYB2/6   61 EEKDRCKVGDLASSLNCVYRWNTG   84 (171)
+T ss_pred             cccccCCCCCccccccceeEeCCc
+Confidence            455799999888999999999754
+
+

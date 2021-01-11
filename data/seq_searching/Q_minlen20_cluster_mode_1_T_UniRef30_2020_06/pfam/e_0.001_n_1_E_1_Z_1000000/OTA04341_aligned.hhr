@@ -1,0 +1,150 @@
+Query         OTA04341.1
+Match_columns 106
+No_of_seqs    1295 out of 1347
+Neff          7.27905
+Searched_HMMs 100
+Date          Mon Jan 11 21:29:39 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/OTA04341_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/OTA04341_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/OTA04341_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF16496.5 ; SWIRM-assoc_2 ; SW  26.7     3.5 0.00069   27.5   0.0   19   83-101   228-246 (405)
+  2 PF05003.12 ; DUF668 ; Protein   17.7     7.1  0.0014   20.3   0.0   16   51-66     73-88  (92)
+  3 PF11806.8 ; DUF3327 ; Domain o  14.1     9.4   0.002   19.6   0.0   17   77-93     38-54  (121)
+  4 PF11061.8 ; DUF2862 ; Protein    9.8      17  0.0033   16.9   0.0   12   81-92     46-57  (59)
+  5 PF12785.7 ; VESA1_N ; Variant    7.5      24  0.0047   23.4   0.0   23   50-72    439-461 (470)
+  6 PF07304.11 ; SRA1 ; Steroid re   5.7      33  0.0067   18.3   0.0   35   55-89     89-123 (146)
+  7 PF09572.10 ; RE_XamI ; XamI re   5.6      35  0.0068   20.6   0.0   44   49-92    121-164 (256)
+  8 PF02177.16 ; APP_N ; Amyloid A   4.8      43  0.0084   17.3   0.0   18   77-94     23-40  (111)
+  9 PF09119.10 ; SicP-binding ; Si   4.3      50  0.0094   16.3   0.0   13   54-66      6-18  (81)
+ 10 PF15119.6 ; APOC4 ; Apolipopro   4.2      53  0.0098   16.8   0.0   22   72-93     55-76  (94)
+
+No 1
+>PF16496.5 ; SWIRM-assoc_2 ; SWIRM-associated domain at the N-terminal
+Probab=26.70  E-value=3.5  Score=27.47  Aligned_cols=19  Identities=21%  Similarity=0.756  Sum_probs=16.4  Template_Neff=5.700
+
+Q OTA04341.1       74 GTGRWLTSSDAYQKWLHSE   92 (94)
+Q Consensus        83 GTG~WlL~s~~F~~W~~~~  101 (106)
+                      =+..||+++..|.+|.+..
+T Consensus       228 V~arWl~Ds~~fNEWMNEe  246 (405)
+T E0VYN8_PEDHC/5  228 VAATWVLELEQYNEWMTEE  246 (405)
+T ss_pred             EeeehhhcHHHHcCCCCHH
+Confidence            4789999999999998754
+
+
+No 2
+>PF05003.12 ; DUF668 ; Protein of unknown function (DUF668)
+Probab=17.67  E-value=7.1  Score=20.32  Aligned_cols=16  Identities=19%  Similarity=0.266  Sum_probs=12.0  Template_Neff=5.400
+
+Q OTA04341.1       42 PEVIEKIRQWLQPTAY   57 (94)
+Q Consensus        51 ~~~~~~Il~WLsp~d~   66 (106)
+                      .....+|++||.|...
+T Consensus        73 ~~~~~~iL~WL~P~A~   88 (92)
+T M0TQV8_MUSAM/1   73 TATVTGMLERLAPLAH   88 (92)
+T ss_pred             HHHHHHHHHHHhhhcc
+Confidence            4456789999998754
+
+
+No 3
+>PF11806.8 ; DUF3327 ; Domain of unknown function (DUF3327)
+Probab=14.06  E-value=9.4  Score=19.65  Aligned_cols=17  Identities=47%  Similarity=0.702  Sum_probs=13.1  Template_Neff=8.500
+
+Q OTA04341.1       68 LSSHVAGTGRWLTSSDA   84 (94)
+Q Consensus        77 ~~~r~~GTG~WlL~s~~   93 (106)
+                      .-+|.+||+-|++.-.-
+T Consensus        38 ~m~rl~gTdvW~~t~~l   54 (121)
+T B1VMU0_STRGG/7   38 LMERVAGTGVWAISHRL   54 (121)
+T ss_pred             hcEecCCCceEEEEEEe
+Confidence            55678999999986543
+
+
+No 4
+>PF11061.8 ; DUF2862 ; Protein of unknown function (DUF2862)
+Probab=9.82  E-value=17  Score=16.87  Aligned_cols=12  Identities=8%  Similarity=0.412  Sum_probs=8.8  Template_Neff=5.800
+
+Q OTA04341.1       72 VAGTGRWLTSSD   83 (94)
+Q Consensus        81 ~~GTG~WlL~s~   92 (106)
+                      ..+|..|||+.+
+T Consensus        46 ~d~~riW~f~~E   57 (59)
+T K9VXP1_9CYAN/3   46 DDKSSTWFFEDE   57 (59)
+T ss_pred             cCCCeEEeehhh
+Confidence            367888988764
+
+
+No 5
+>PF12785.7 ; VESA1_N ; Variant erythrocyte surface antigen-1
+Probab=7.47  E-value=24  Score=23.37  Aligned_cols=23  Identities=30%  Similarity=0.502  Sum_probs=17.4  Template_Neff=5.100
+
+Q OTA04341.1       41 PPEVIEKIRQWLQPTAYDVAGGE   63 (94)
+Q Consensus        50 ~~~~~~~Il~WLsp~d~~~~~~~   72 (106)
+                      .+....++|-||+...|..-+..
+T Consensus       439 ~PcSIyEML~WLSGLPYNpVY~k  461 (470)
+T A7AX24_BABBO/5  439 TPKTIREILYWLSALPYSTAYPL  461 (470)
+T ss_pred             CCccHHHHHHHHhCCCCCcHHHH
+Confidence            45567899999999988875443
+
+
+No 6
+>PF07304.11 ; SRA1 ; Steroid receptor RNA activator (SRA1)
+Probab=5.67  E-value=33  Score=18.29  Aligned_cols=35  Identities=23%  Similarity=0.435  Sum_probs=17.6  Template_Neff=6.900
+
+Q OTA04341.1       46 EKIRQWLQPTAYDVAGGEFRRHLSSHVAGTGRWLT   80 (94)
+Q Consensus        55 ~~Il~WLsp~d~~~~~~~~~~~~~~r~~GTG~WlL   89 (106)
+                      .++.+-|...||..-..-|......+....|.|+.
+T Consensus        89 ~~l~~aL~~~d~~~A~~ih~~L~~~~~~e~~~Wl~  123 (146)
+T G3QCM5_GASAC/7   89 DTLSLELQSGRWDSADDIHRSLMVDHVTEVSQWMV  123 (146)
+T ss_pred             HHHHHHHHcCCHHHHHHHHHHHhcCCHHHHhcHHH
+Confidence            33444555556655433333333444455667765
+
+
+No 7
+>PF09572.10 ; RE_XamI ; XamI restriction endonuclease
+Probab=5.60  E-value=35  Score=20.58  Aligned_cols=44  Identities=20%  Similarity=0.312  Sum_probs=27.3  Template_Neff=4.900
+
+Q OTA04341.1       40 EPPEVIEKIRQWLQPTAYDVAGGEFRRHLSSHVAGTGRWLTSSD   83 (94)
+Q Consensus        49 ~~~~~~~~Il~WLsp~d~~~~~~~~~~~~~~r~~GTG~WlL~s~   92 (106)
+                      +...+...|.+||....|......-...+....||||..-.+.+
+T Consensus       121 terRQe~~V~~~L~~~Gy~~v~~~~i~~~~~~~pg~~~F~~~~~  164 (256)
+T K9W514_9CYAN/5  121 QERRQLATIRQWLEQRGYSYIGAGTGLSFERIQPGTFAFRLNIP  164 (256)
+T ss_pred             HHHHHHHHHHHHHHHCCCEEccCCCCCCHHHcCCCCeEEEEEee
+Confidence            33445678999999887765433222234466788888655544
+
+
+No 8
+>PF02177.16 ; APP_N ; Amyloid A4 N-terminal heparin-binding
+Probab=4.77  E-value=43  Score=17.32  Aligned_cols=18  Identities=22%  Similarity=0.501  Sum_probs=11.3  Template_Neff=5.400
+
+Q OTA04341.1       68 LSSHVAGTGRWLTSSDAY   85 (94)
+Q Consensus        77 ~~~r~~GTG~WlL~s~~F   94 (106)
+                      +..+...+|.|..+....
+T Consensus        23 ~~~ym~~~G~W~~D~~~~   40 (111)
+T E0VLF5_PEDHC/1   23 HSQYMTEQGKWITDINNK   40 (111)
+T ss_pred             ecEeeCCCCCEEeCCCcc
+Confidence            344556788887766544
+
+
+No 9
+>PF09119.10 ; SicP-binding ; SicP binding
+Probab=4.34  E-value=50  Score=16.34  Aligned_cols=13  Identities=23%  Similarity=0.483  Sum_probs=9.4  Template_Neff=3.800
+
+Q OTA04341.1       45 IEKIRQWLQPTAY   57 (94)
+Q Consensus        54 ~~~Il~WLsp~d~   66 (106)
+                      ..+|+.||+....
+T Consensus         6 ~~rvLs~L~~vPL   18 (81)
+T SPTP_SALTY/41-    6 SSKVLTWLGKMPL   18 (81)
+T ss_pred             HHHHHHHHhcCcc
+Confidence            4678999987543
+
+
+No 10
+>PF15119.6 ; APOC4 ; Apolipoprotein C4
+Probab=4.22  E-value=53  Score=16.77  Aligned_cols=22  Identities=32%  Similarity=0.451  Sum_probs=16.0  Template_Neff=2.800
+
+Q OTA04341.1       63 EFRRHLSSHVAGTGRWLTSSDA   84 (94)
+Q Consensus        72 ~~~~~~~~r~~GTG~WlL~s~~   93 (106)
+                      -|..|++...+-|-.|+.++..
+T Consensus        55 YYeDHLkdlg~rt~aWl~sskd   76 (94)
+T APOC4_RABIT/28   55 YYDDHLRDLGPRAQAWLTSSRD   76 (94)
+T ss_pred             HHHHHhhcccHHHHHHHHhhHH
+Confidence            3556688888888888887654
+
+

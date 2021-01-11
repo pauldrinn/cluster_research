@@ -1,0 +1,159 @@
+Query         PMD18044.1
+Match_columns 139
+No_of_seqs    1537 out of 1587
+Neff          9.26354
+Searched_HMMs 100
+Date          Mon Jan 11 21:29:54 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/PMD18044_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/PMD18044_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/PMD18044_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF06985.11 ; HET ; Heterokaryo  99.6 4.1E-21 8.1E-25  119.5   0.0   83   53-138     1-84  (127)
+  2 PF03139.15 ; AnfG_VnfG ; Vanad  18.9     6.8  0.0012   20.8   0.0   16   95-110    51-66  (111)
+  3 PF01099.17 ; Uteroglobin ; Ute  18.5     6.8  0.0013   19.3   0.0   24  105-128    64-87  (89)
+  4 PF06708.11 ; DUF1195 ; Protein  18.3     7.2  0.0013   21.7   0.0   21  111-131    79-99  (147)
+  5 PF09252.10 ; Feld-I_B ; Allerg  14.2      10  0.0019   17.5   0.0   24  105-128    41-64  (67)
+  6 PF10374.9 ; EST1 ; Telomerase   13.6      11   0.002   19.2   0.0   17  123-139    98-114 (122)
+  7 PF11900.8 ; DUF3420 ; Domain o   5.5      38  0.0069   14.1   0.0   21  103-123     3-23  (45)
+  8 PF09612.10 ; HtrL_YibB ; Bacte   4.9      42   0.008   19.3   0.0   14   95-108   139-152 (267)
+  9 PF17472.2 ; DUF5425 ; Family o   3.4      72   0.013   14.9   0.0   23  103-125    27-49  (76)
+ 10 PF15056.6 ; NRN1 ; Neuritin pr   2.8      89   0.016   15.1   0.0   16  123-138     2-17  (87)
+
+No 1
+>PF06985.11 ; HET ; Heterokaryon incompatibility protein (HET)
+Probab=99.64  E-value=4.1e-21  Score=119.48  Aligned_cols=83  Identities=17%  Similarity=0.316  Sum_probs=64.2  Template_Neff=10.800
+
+Q PMD18044.1       24 YAILSHTWGP-QEVTFGDMMDGNGTRKTGFDKIRFCGEQAR-RDGLQYFWVDTCCIDKSSSA------------------   83 (83)
+Q Consensus        53 Y~aLSy~Wg~~~~~~~~~~~~~~~~~~~l~~~l~~~~~~~~-~~~~~~lWiDalCI~Q~d~~e~~~qv~~M~~IY~~A~~  131 (139)
+                      |.||||+||+ ......+..++..  ..++..+.+++...+ ..+.+++|||.+||+|.+..|+..++..|+.||++|..
+T Consensus         1 Y~alSy~Wg~-~~~~~~i~~~~~~--~~~~~~~~~~l~~~~~~~~~~~~WiD~~Ci~q~~~~~~~~~i~~m~~iy~~a~~   77 (127)
+T Q0TVU4_PHANO/4    1 FEAISYVWGN-EQFPHTIQINGNT--MPIGLTLDHALHQSRCLDKERVFWVDALCINQADTFERNSQVQLMGRIYSSATT   77 (127)
+T ss_pred             CEEEEeeeCC-CCCCeEEEECCEE--EEcChhHHHHHHHHhhcCCCCEEEEEEEEeCCCCHHHHHHHHHHHHHHHhcCCE
+Confidence            8999999998 3322223333322  233444555555555 68899999999999999999999999999999999999
+
+
+Q PMD18044.1       84 -------   83 (83)
+Q Consensus       132 ~ivwLg~  138 (139)
+                      |++|+++
+T Consensus        78 ~iv~~~~   84 (127)
+T Q0TVU4_PHANO/4   78 VLIWLGC   84 (127)
+T ss_pred             EEEeCCC
+Confidence            9999985
+
+
+No 2
+>PF03139.15 ; AnfG_VnfG ; Vanadium/alternative nitrogenase delta subunit
+Probab=18.94  E-value=6.8  Score=20.83  Aligned_cols=16  Identities=19%  Similarity=0.497  Sum_probs=12.4  Template_Neff=3.700
+
+Q PMD18044.1       65 DGLQYFWVDTCCIDKS   80 (83)
+Q Consensus        95 ~~~~~lWiDalCI~Q~  110 (139)
+                      ...+..|+||.|+..+
+T Consensus        51 p~drcy~~DA~~la~~   66 (111)
+T H6LJU0_ACEWD/6   51 LEDKCYWVDAVYLADA   66 (111)
+T ss_pred             hhhhhHHHHHHHHHHH
+Confidence            3468899999998654
+
+
+No 3
+>PF01099.17 ; Uteroglobin ; Uteroglobin family
+Probab=18.53  E-value=6.8  Score=19.31  Aligned_cols=24  Identities=8%  Similarity=0.092  Sum_probs=19.8  Template_Neff=7.600
+
+Q PMD18044.1       75 CCIDKSSSA---------------   83 (83)
+Q Consensus       105 lCI~Q~d~~e~~~qv~~M~~IY~~  128 (139)
+                      -|+|+-..+++..-...|..||..
+T Consensus        64 ~C~d~ls~e~k~~v~~ll~~i~~s   87 (89)
+T F1RPW6_PIG/1-8   64 QCANGISFKKKILLTKTLVEILVK   87 (89)
+T ss_pred             HHHHcCCHHHHHHHHHHHHHHHhc
+Confidence            488888888888888899888865
+
+
+No 4
+>PF06708.11 ; DUF1195 ; Protein of unknown function (DUF1195)
+Probab=18.31  E-value=7.2  Score=21.67  Aligned_cols=21  Identities=0%  Similarity=-0.019  Sum_probs=17.8  Template_Neff=2.800
+
+Q PMD18044.1       81 SSA------------------   83 (83)
+Q Consensus       111 d~~e~~~qv~~M~~IY~~A~~  131 (139)
+                      ..+|+..-|..|-++|.+...
+T Consensus        79 EvEEREKvVrhMWDVYt~s~~   99 (147)
+T Q8LFK6_ARATH/7   79 EMEEREKVVKHMWDVYNNGRR   99 (147)
+T ss_pred             chhhHHHHHHHHHhccccCCC
+Confidence            357899999999999998754
+
+
+No 5
+>PF09252.10 ; Feld-I_B ; Allergen Fel d I-B chain
+Probab=14.15  E-value=10  Score=17.54  Aligned_cols=24  Identities=4%  Similarity=0.131  Sum_probs=18.6  Template_Neff=6.900
+
+Q PMD18044.1       75 CCIDKSSSA---------------   83 (83)
+Q Consensus       105 lCI~Q~d~~e~~~qv~~M~~IY~~  128 (139)
+                      -|+|+....+|..-...|..|..+
+T Consensus        41 ~C~D~~~~~~k~~~~~~l~~i~~s   64 (67)
+T M3Y7S1_MUSPF/2   41 DCYNEKGLEAKGLDLIVMTTITTS   64 (67)
+T ss_pred             HHHhhcCHHHHHHHHHHHHHHHhc
+Confidence            388888778888888888887754
+
+
+No 6
+>PF10374.9 ; EST1 ; Telomerase activating protein Est1
+Probab=13.64  E-value=11  Score=19.18  Aligned_cols=17  Identities=0%  Similarity=0.000  Sum_probs=12.3  Template_Neff=9.100
+
+Q PMD18044.1       84 -----------------   83 (83)
+Q Consensus       123 ~~IY~~A~~~ivwLg~v  139 (139)
+                      ..+..-+.+++++|||+
+T Consensus        98 ~~~~~~~~r~li~LGDL  114 (122)
+T K3X593_PYTUL/5   98 PRCRQSLHRCFIFLGDL  114 (122)
+T ss_pred             HHHHHHHHHHHHHHHHH
+Confidence            44555667899999985
+
+
+No 7
+>PF11900.8 ; DUF3420 ; Domain of unknown function (DUF3420)
+Probab=5.53  E-value=38  Score=14.10  Aligned_cols=21  Identities=10%  Similarity=0.144  Sum_probs=10.9  Template_Neff=5.500
+
+Q PMD18044.1       73 DTCCIDKSSSA----------   83 (83)
+Q Consensus       103 DalCI~Q~d~~e~~~qv~~M~  123 (139)
+                      |.+|+...=+.|-..+|....
+T Consensus         3 D~~~LEKeLP~ev~~~Ik~~R   23 (45)
+T NPR3_ORYSJ/222    3 DNRYLEKRLPDDLYAKLKEFR   23 (45)
+T ss_pred             CHHHHhhhCCHHHHHHHHHhc
+Confidence            555555555555555554333
+
+
+No 8
+>PF09612.10 ; HtrL_YibB ; Bacterial protein of unknown function (HtrL_YibB)
+Probab=4.93  E-value=42  Score=19.27  Aligned_cols=14  Identities=14%  Similarity=0.499  Sum_probs=10.7  Template_Neff=8.700
+
+Q PMD18044.1       65 DGLQYFWVDTCCID   78 (83)
+Q Consensus        95 ~~~~~lWiDalCI~  108 (139)
+                      ...-++|||+-|..
+T Consensus       139 ~s~~f~WiD~G~~r  152 (267)
+T G0P9P4_CAEBE/4  139 NSEHFVWLDAGYGH  152 (267)
+T ss_pred             CCCEEEEEeccCCC
+Confidence            34568999988876
+
+
+No 9
+>PF17472.2 ; DUF5425 ; Family of unknown function (DUF5425)
+Probab=3.38  E-value=72  Score=14.87  Aligned_cols=23  Identities=9%  Similarity=0.245  Sum_probs=15.4  Template_Neff=2.000
+
+Q PMD18044.1       73 DTCCIDKSSSA------------   83 (83)
+Q Consensus       103 DalCI~Q~d~~e~~~qv~~M~~I  125 (139)
+                      |--|+.+.....+..|+.+=...
+T Consensus        27 dykClskkEs~~~nsqiKLd~Nn   49 (76)
+T Y3020_BORBU/22   27 NYKCLSKNEAIVKNSKIKLGVNN   49 (76)
+T ss_pred             cchhcchhHHhHhcCeeeccCCC
+Confidence            55688888777777777654433
+
+
+No 10
+>PF15056.6 ; NRN1 ; Neuritin protein family
+Probab=2.81  E-value=89  Score=15.08  Aligned_cols=16  Identities=0%  Similarity=0.000  Sum_probs=10.9  Template_Neff=3.200
+
+Q PMD18044.1       84 ----------------   83 (83)
+Q Consensus       123 ~~IY~~A~~~ivwLg~  138 (139)
+                      ..||++=..|++-||+
+T Consensus         2 ~~iykgFs~Cll~LGd   17 (87)
+T B8JLP9_DANRE/3    2 ETIFKGFSDCLLSLGE   17 (87)
+T ss_pred             chhHhHHHHHHHHcch
+Confidence            3577776677777765
+
+

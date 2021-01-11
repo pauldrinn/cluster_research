@@ -1,5 +1,44 @@
 # Notebook
 
+## 11.01.2021
+
+9am: That one cluster is still not done. There's probably something wrong.
+
+---
+3.35pm: Still wasn't done so I stopped it manually to try and empty space in my SSD and transfer the databases there.
+
+Tried a test run of searching against Pfam with the HHblits output alignment from search against UniRef and cluster RFU34722.1 indeed found NACHT_N with 99.3% prob. and Goodbye with 99.2% prob. (ground truth annotation is GOODBYE-LIKE). Hit #3 was AAA with 82.8% prob. and looking at ground truth, some NOD annotations in this cluster are NACHT, AAA and unk so it's somewhat correct.
+
+Another interesting point: apart from the first 2 hits which are indeed correct N-terminal annotations, the rest of the hits cover only a small (around 15 residues) amount at the end whereas the first two hits cover a much larger part (position 8 to 192), showing us obviously which hits are relevant.
+
+---
+5.45pm: Found out multithread.pl exists within HH-suite so I'll try that if searching from SSD takes too long. At the least, memory would be shared so other clusters can be done (alas won't really matter in my case since only 5 clusters remain BUT the pipeline would be much more performant with it).
+
+One thing to note: [https://github.com/soedinglab/hh-suite/wiki#do-hhsearch-and-hhblits-work-fine-with-multi-domain-sequences](https://github.com/soedinglab/hh-suite/wiki#do-hhsearch-and-hhblits-work-fine-with-multi-domain-sequences)
+
+Cluster RFU34722.1 got through prefiltering in iteration 2 this time and it's probably because it was on the SSD but the script dies during the realignment step which is probably caused by lack of RAM (lots of probabilities here).
+
+---
+XP_025168671.1 is a **really** interesting cluster. Its taxonomy is uncertain *(incertae sedis)* and most of the hits are uncharacterized proteins. Let's see what Pfam shows us.
+
+---
+One more cluster left (XP_024735629.1) and the process kills itself during (INFO: Realigning 42445 HMM-HMM alignments using Maximum Accuracy algorithm).
+Found this issue: [https://github.com/soedinglab/hh-suite/issues/102](https://github.com/soedinglab/hh-suite/issues/102)
+Upgrading from 12GB mem and 4GB swap to 12GB mem and 16GB swap.
+Yep, turns out it's using all of the 12GB + 8GB out of the 16GB swap I allocated. Didn't take very long after this was solved.
+
+---
+Currently searching against Pfam. Some results make a lot of sense but some really don't. Looking forward to go through these with the professor.
+
+```sh
+bash nterm_annot/search_pipeline.sh minlen20_cluster_mode_1/UniRef30_2020_06 e_0.001_n_2_E_0.01_Z_1000000_M_50 pfam '-e 0.001 -n 1 -E 1 -Z 1000000' true
+```
+Search against Pfam was very fast, as expected.
+
+NEW FAMILY??? PF09235.10: SAM_Ste50p isn't in the ground truth but it's 95.8% the annotation for cluster OCK94306.1. WOOOOOO I SEE SOOO MANY INTERESTING RESULTS AS I GO THROUGH MORE CLUSTERS!!!
+
+The troublesome cluster (XP_024735629.1) has really weird annotations. They seem to be fungal but idk.
+
 ## 10.01.2021
 
 10.20am: 105 out of 127 done.
@@ -21,7 +60,7 @@ After a quick look at the HH-suite documentation, I'm fairly certain that it wil
 7.35pm: 122/127 done.
 
 ---
-10.45pm: Iteration 2 prefiltering for Cluster XP_024735629 has been running since 6pm so that's about 5 hours (???)
+10.45pm: Iteration 2 prefiltering for Cluster XP_024735629.1 has been running since 6pm so that's about 5 hours (???)
 
 ---
 I guess I'll leave it on for another night. That same cluster is still not done btw.
@@ -29,6 +68,10 @@ I guess I'll leave it on for another night. That same cluster is still not done 
 ## 09.01.2021
 
 Left HHblits pipeline running last night and so far at 12.28pm, 43 out of the 127 clusters went through the pipeline. I think RAM (I have 16GB of it) is the bottleneck here.
+
+```sh
+bash nterm_annot/search_pipeline.sh minlen20 cluster_mode_1 UniRef30_2020_06 '-e 0.001 -n 2 -E 0.01 -Z 1000000 -M 50'
+```
 
 ---
 4.20pm: 57 out of 127 done. Results are starting to make sense, just need to run em against Pfam for some proper annotations -- UniProt names alone don't tell us anything.

@@ -1,0 +1,150 @@
+Query         CVK97834.1
+Match_columns 151
+No_of_seqs    1069 out of 1086
+Neff          6.48226
+Searched_HMMs 100
+Date          Mon Jan 11 21:24:53 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/CVK97834_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/CVK97834_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/CVK97834_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17106.5 ; NACHT_sigma ; Sigm  97.1 3.5E-07 6.9E-11   51.5   0.0   39   52-90      3-42  (43)
+  2 PF08043.12 ; Xin ; Xin repeat   24.1     4.4 0.00083   16.2   0.0   10  131-140     4-13  (16)
+  3 PF18215.1 ; Rtt106_N ; Histone  10.5      15  0.0029   18.1   0.0   31    6-36      5-35  (47)
+  4 PF10964.8 ; DUF2766 ; Protein   10.5      16   0.003   20.1   0.0   27    9-35     47-74  (79)
+  5 PF17107.5 ; SesA ; N-terminal    6.1      28  0.0062   18.6   0.0   22   18-39     64-85  (133)
+  6 PF13120.6 ; DUF3974 ; Domain o   4.8      46  0.0083   19.6   0.0   17  133-149    58-74  (126)
+  7 PF08846.10 ; DUF1816 ; Domain    4.5      46   0.009   17.1   0.0   23    4-26     36-58  (64)
+  8 PF18430.1 ; DBD_HTH ; Putative   4.3      48  0.0095   14.6   0.0   21   12-32      2-22  (35)
+  9 PF06457.11 ; Ectatomin ; Ectat   4.2      55  0.0098   14.8   0.0   13   15-27     10-22  (34)
+ 10 PF02061.16 ; Lambda_CIII ; Lam   3.8      59   0.011   15.5   0.0   24   15-38     15-38  (42)
+
+No 1
+>PF17106.5 ; NACHT_sigma ; Sigma domain on NACHT-NTPases
+Probab=97.08  E-value=3.5e-07  Score=51.46  Aligned_cols=39  Identities=41%  Similarity=0.805  Sum_probs=36.5  Template_Neff=5.500
+
+Q CVK97834.1       52 DTPVSTWGNSFSVSG-GIQYNNTGNGNQFLGSQFHGDVNF   90 (151)
+Q Consensus        52 ~~~~~g~G~q~na~g-GtqnnntgsGnqf~g~~f~G~V~f   90 (151)
+                      .|+++|+|+|+++++ |+|++++++|+||.+..|+|++.|
+T Consensus         3 ~~~n~GsG~Q~n~~g~G~Qnnn~g~G~qf~g~~f~G~~~f   42 (43)
+T I1RXU5_GIBZE/3    3 TNHHSGFGDQFNASGGAMQTNNTGDGDQYVGVSFYGSAGF   42 (43)
+T ss_pred             CCccccccccCccCCceeEEecCCCCcccccceecccccC
+Confidence            589999999999999 999999999999999999898876
+
+
+No 2
+>PF08043.12 ; Xin ; Xin repeat
+Probab=24.10  E-value=4.4  Score=16.24  Aligned_cols=10  Identities=20%  Similarity=0.976  Sum_probs=7.4  Template_Neff=3.000
+
+Q CVK97834.1      131 GTCEWFISHH  140 (151)
+Q Consensus       131 GTCeW~l~h~  140 (151)
+                      -||.|+++..
+T Consensus         4 ~~~~wlFETq   13 (16)
+T F6SLD1_XENTR/7    4 KMCKWLFETQ   13 (16)
+T ss_pred             cceeEeEecc
+Confidence            4788988764
+
+
+No 3
+>PF18215.1 ; Rtt106_N ; Histone chaperone Rtt106 N-terminal domain
+Probab=10.55  E-value=15  Score=18.13  Aligned_cols=31  Identities=13%  Similarity=0.123  Sum_probs=20.6  Template_Neff=5.100
+
+Q CVK97834.1        6 LIENDPSPEKFRRDVIARKLVKSSTKLATQT   36 (151)
+Q Consensus         6 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   36 (151)
+                      ..+++|...+..|.-|+++.......+.+++
+T Consensus         5 fL~~LP~eLq~kI~~Ii~~~P~Sl~VF~~Ly   35 (47)
+T G0VI12_NAUCC/1    5 FIDKLPAELRSKITRITSVIPDSLSIFEELY   35 (47)
+T ss_pred             HHHhCCHHHHHHHHHHHhhCccHHHHHHHHH
+Confidence            3457888888888888886655544444443
+
+
+No 4
+>PF10964.8 ; DUF2766 ; Protein of unknown function (DUF2766)
+Probab=10.52  E-value=16  Score=20.15  Aligned_cols=27  Identities=11%  Similarity=0.074  Sum_probs=20.7  Template_Neff=1.700
+
+Q CVK97834.1        9 NDPSPEKFR-RDVIARKLVKSSTKLATQ   35 (151)
+Q Consensus         9 ~~~~~~~~~-~~~~~~~~~~~~~~~~~~   35 (151)
+                      +-++..+++ .+|+.++...|+-||-|+
+T Consensus        47 sIdF~~hpa~aDpvT~RavqKAiALIel   74 (79)
+T YECJ_ECOLI/1-7   47 NIDFTNHPAAADPVTMRAIQKAIALIEL   74 (79)
+T ss_pred             cccCCCCcccCCHhHHHHHHHHHHHHhc
+Confidence            445566555 999999999999888664
+
+
+No 5
+>PF17107.5 ; SesA ; N-terminal domain on NACHT_NTPase and P-loop NTPases
+Probab=6.05  E-value=28  Score=18.62  Aligned_cols=22  Identities=14%  Similarity=-0.019  Sum_probs=18.3  Template_Neff=10.000
+
+Q CVK97834.1       18 RDVIARKLVKSSTKLATQTTAT   39 (151)
+Q Consensus        18 ~~~~~~~~~~~~~~~~~~~~~~   39 (151)
+                      +..++..|......|..++..+
+T Consensus        64 i~~~~~~C~~~~~~l~~~l~~~   85 (133)
+T U7PRR7_SPOS1/7   64 IRPITRRCEHKIRVLHDIFVNL   85 (133)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHh
+Confidence            8888888998888888888765
+
+
+No 6
+>PF13120.6 ; DUF3974 ; Domain of unknown function (DUF3974)
+Probab=4.79  E-value=46  Score=19.56  Aligned_cols=17  Identities=18%  Similarity=0.522  Sum_probs=13.0  Template_Neff=1.800
+
+Q CVK97834.1      133 CEWFISHHLYHEWLGQD  149 (151)
+Q Consensus       133 CeW~l~h~~f~~W~~~~  149 (151)
+                      -+=|.+||.|.+|...+
+T Consensus        58 lqeFtqhpLfyRWirtE   74 (126)
+T A0A073JVF8_9BA   58 LKEFTKHPVFYRWARTE   74 (126)
+T ss_pred             HHHHhcChhHHHHHhcc
+Confidence            34588999999998643
+
+
+No 7
+>PF08846.10 ; DUF1816 ; Domain of unknown function (DUF1816)
+Probab=4.49  E-value=46  Score=17.14  Aligned_cols=23  Identities=9%  Similarity=-0.049  Sum_probs=16.1  Template_Neff=4.700
+
+Q CVK97834.1        4 TALIENDPSPEKFRRDVIARKLV   26 (151)
+Q Consensus         4 ~~~~~~~~~~~~~~~~~~~~~~~   26 (151)
+                      .+.++|+-..-...|...|++|.
+T Consensus        36 ~gYieDL~~Ega~~I~~~i~rc~   58 (64)
+T K9WMS7_9CYAN/4   36 SGYLEDLEQEGAQGIEVAILQDR   58 (64)
+T ss_pred             chhHHHHHHhcCCeEEEEEEEcC
+Confidence            34455666666777888888885
+
+
+No 8
+>PF18430.1 ; DBD_HTH ; Putative DNA-binding domain
+Probab=4.31  E-value=48  Score=14.58  Aligned_cols=21  Identities=10%  Similarity=0.044  Sum_probs=15.4  Template_Neff=5.700
+
+Q CVK97834.1       12 SPEKFRRDVIARKLVKSSTKL   32 (151)
+Q Consensus        12 ~~~~~~~~~~~~~~~~~~~~~   32 (151)
+                      ++++.+++-.++.|..+....
+T Consensus         2 st~r~ql~~lL~~~~e~eL~I   22 (35)
+T A0A0E4GC79_9FI    2 STRRRQLEKQLDELDEKDLII   22 (35)
+T ss_pred             cHHHHHHHHHHHcCCHHHhHH
+Confidence            466788888888888665443
+
+
+No 9
+>PF06457.11 ; Ectatomin ; Ectatomin
+Probab=4.21  E-value=55  Score=14.83  Aligned_cols=13  Identities=15%  Similarity=-0.125  Sum_probs=9.7  Template_Neff=1.400
+
+Q CVK97834.1       15 KFRRDVIARKLVK   27 (151)
+Q Consensus        15 ~~~~~~~~~~~~~   27 (151)
+                      -++++|..++|+-
+T Consensus        10 cpt~~~~akkc~g   22 (34)
+T ECAA_ECTTU/3-3   10 CPTVEPWAKKCSG   22 (34)
+T ss_pred             ccccHHHHHHcCc
+Confidence            3567888888874
+
+
+No 10
+>PF02061.16 ; Lambda_CIII ; Lambda Phage CIII
+Probab=3.78  E-value=59  Score=15.45  Aligned_cols=24  Identities=21%  Similarity=0.140  Sum_probs=15.9  Template_Neff=3.600
+
+Q CVK97834.1       15 KFRRDVIARKLVKSSTKLATQTTA   38 (151)
+Q Consensus        15 ~~~~~~~~~~~~~~~~~~~~~~~~   38 (151)
+                      .+.++-|+|+.......|.+++.+
+T Consensus        15 ES~Ldri~rrlr~~~r~l~d~Lnq   38 (42)
+T RPC3_LAMBD/2-4   15 ESLLERITRKLRDGWKRLIDILNQ   38 (42)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHcC
+Confidence            456777777776666666666654
+
+

@@ -1,0 +1,150 @@
+Query         KZZ99530.1
+Match_columns 34
+No_of_seqs    1012 out of 1098
+Neff          8.18981
+Searched_HMMs 100
+Date          Mon Jan 11 21:28:14 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KZZ99530_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KZZ99530_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KZZ99530_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF08043.12 ; Xin ; Xin repeat   84.2    0.04 7.3E-06   15.9   0.0   11   14-24      4-14  (16)
+  2 PF16496.5 ; SWIRM-assoc_2 ; SW  73.6    0.15 2.9E-05   25.0   0.0   18   14-31    228-245 (405)
+  3 PF08260.11 ; Kinin ; Insect ki  57.7    0.57  0.0001   10.9   0.0    6   23-28      2-7   (8)
+  4 PF07533.16 ; BRK ; BRK domain   52.9    0.71 0.00014   15.3   0.0   12   15-26     29-40  (44)
+  5 PF18532.1 ; DUF5621 ; Domain o  41.0     1.5 0.00028   18.5   0.0   20    7-26     64-83  (140)
+  6 PF09652.10 ; Cas_VVA1548 ; Put  39.2     1.7 0.00031   16.9   0.0   14   10-23      4-17  (90)
+  7 PF02315.16 ; MDH ; Methanol de  33.7     2.4 0.00044   16.5   0.0   21    1-21     62-82  (85)
+  8 PF09907.9 ; HigB_toxin ; HigB_  28.3     3.1 0.00062   14.6   0.0   13   16-28     62-74  (74)
+  9 PF12055.8 ; DUF3536 ; Domain o  25.6     3.9 0.00075   18.6   0.0   10   14-23     89-98  (284)
+ 10 PF11061.8 ; DUF2862 ; Protein   23.1     4.7 0.00089   14.0   0.0   12   12-23     46-57  (59)
+
+No 1
+>PF08043.12 ; Xin ; Xin repeat
+Probab=84.24  E-value=0.04  Score=15.93  Aligned_cols=11  Identities=27%  Similarity=0.800  Sum_probs=8.5  Template_Neff=3.000
+
+Q KZZ99530.1       14 GTCDWLSKHPT   24 (33)
+Q Consensus        14 gTc~Wll~~~~   24 (34)
+                      .|+.|+|+...
+T Consensus         4 ~~~~wlFETqp   14 (16)
+T F6SLD1_XENTR/7    4 KMCKWLFETQQ   14 (16)
+T ss_pred             cceeEeEeccc
+Confidence            57899998754
+
+
+No 2
+>PF16496.5 ; SWIRM-assoc_2 ; SWIRM-associated domain at the N-terminal
+Probab=73.56  E-value=0.15  Score=25.03  Aligned_cols=18  Identities=17%  Similarity=0.540  Sum_probs=16.0  Template_Neff=5.700
+
+Q KZZ99530.1       14 GTCDWLSKHPTYTGWAAC   31 (33)
+Q Consensus        14 gTc~Wll~~~~f~~W~~~   31 (34)
+                      -++.||++...|.+|++.
+T Consensus       228 V~arWl~Ds~~fNEWMNE  245 (405)
+T E0VYN8_PEDHC/5  228 VAATWVLELEQYNEWMTE  245 (405)
+T ss_pred             EeeehhhcHHHHcCCCCH
+Confidence            478999999999999875
+
+
+No 3
+>PF08260.11 ; Kinin ; Insect kinin peptide
+Probab=57.68  E-value=0.57  Score=10.90  Aligned_cols=6  Identities=33%  Similarity=1.625  Sum_probs=3.6  Template_Neff=1.500
+
+Q KZZ99530.1       23 PTYTGW   28 (33)
+Q Consensus        23 ~~f~~W   28 (34)
+                      +.|.+|
+T Consensus         2 ~~F~SW    7 (8)
+T KINI1_PERAM/1-    2 PSFNSW    7 (8)
+T ss_pred             CCcccC
+Confidence            456666
+
+
+No 4
+>PF07533.16 ; BRK ; BRK domain
+Probab=52.85  E-value=0.71  Score=15.33  Aligned_cols=12  Identities=33%  Similarity=0.791  Sum_probs=9.4  Template_Neff=6.700
+
+Q KZZ99530.1       15 TCDWLSKHPTYT   26 (33)
+Q Consensus        15 Tc~Wll~~~~f~   26 (34)
+                      =..||.+|+.|.
+T Consensus        29 L~~WL~~hP~~~   40 (44)
+T W4ZBX3_STRPU/9   29 LEAWLEMNPGYA   40 (44)
+T ss_pred             HHHHHHHCCCce
+Confidence            368999999874
+
+
+No 5
+>PF18532.1 ; DUF5621 ; Domain of unknown function (DUF5621)
+Probab=41.00  E-value=1.5  Score=18.51  Aligned_cols=20  Identities=15%  Similarity=0.150  Sum_probs=15.8  Template_Neff=4.400
+
+Q KZZ99530.1        7 DIEPAEKGTCDWLSKHPTYT   26 (33)
+Q Consensus         7 ~i~~~~~gTc~Wll~~~~f~   26 (34)
+                      -.+...|.|..||++...+.
+T Consensus        64 LFk~~YP~~ynwfFE~n~~d   83 (140)
+T A0A098FZ64_9GA   64 LFKIAYPRTFNYLFEKNVFD   83 (140)
+T ss_pred             HHHHHhHHHHHHHHhcCCCC
+Confidence            35678899999999987653
+
+
+No 6
+>PF09652.10 ; Cas_VVA1548 ; Putative CRISPR-associated protein (Cas_VVA1548)
+Probab=39.20  E-value=1.7  Score=16.94  Aligned_cols=14  Identities=14%  Similarity=0.601  Sum_probs=11.3  Template_Neff=5.000
+
+Q KZZ99530.1       10 PAEKGTCDWLSKHP   23 (33)
+Q Consensus        10 ~~~~gTc~Wll~~~   23 (34)
+                      .+|+|+-+|+.+..
+T Consensus         4 sRH~GaveW~~~qg   17 (90)
+T L0DXQ3_THIND/4    4 TRHPGAAEWAEQES   17 (90)
+T ss_pred             ecCHHHHHHHHHcC
+Confidence            57899999988754
+
+
+No 7
+>PF02315.16 ; MDH ; Methanol dehydrogenase beta subunit
+Probab=33.75  E-value=2.4  Score=16.46  Aligned_cols=21  Identities=24%  Similarity=0.196  Sum_probs=11.7  Template_Neff=2.100
+
+Q KZZ99530.1        1 MNSRFHDIEPAEKGTCDWLSK   21 (33)
+Q Consensus         1 m~~R~~~i~~~~~gTc~Wll~   21 (34)
+                      |+.|-..--.....|+.|..+
+T Consensus        62 Me~RN~kR~~~fkkTGkf~yd   82 (85)
+T J7Q4V7_METSZ/9   62 MEERNKKRVENFKKTGKWEYD   82 (85)
+T ss_pred             HHHHHHHHHHHHHHhCcceee
+Confidence            444544434445667777654
+
+
+No 8
+>PF09907.9 ; HigB_toxin ; HigB_toxin, RelE-like toxic component of a toxin-antitoxin system
+Probab=28.30  E-value=3.1  Score=14.63  Aligned_cols=13  Identities=15%  Similarity=0.365  Sum_probs=8.2  Template_Neff=7.700
+
+Q KZZ99530.1       16 CDWLSKHPTYTGW   28 (33)
+Q Consensus        16 c~Wll~~~~f~~W   28 (34)
+                      -.|+..|.+|..|
+T Consensus        62 i~~i~tH~eYdk~   74 (74)
+T Q3SMY4_NITWN/2   62 IRFFGSHEEYDKV   74 (74)
+T ss_pred             EEEeeCHHHHccC
+Confidence            4567777777544
+
+
+No 9
+>PF12055.8 ; DUF3536 ; Domain of unknown function (DUF3536)
+Probab=25.55  E-value=3.9  Score=18.57  Aligned_cols=10  Identities=20%  Similarity=0.790  Sum_probs=7.9  Template_Neff=6.200
+
+Q KZZ99530.1       14 GTCDWLSKHP   23 (33)
+Q Consensus        14 gTc~Wll~~~   23 (34)
+                      .+|-||+++.
+T Consensus        89 TSCGWFFdDi   98 (284)
+T E1QE87_DESB2/3   89 TSCGWFFDDI   98 (284)
+T ss_pred             cCccccccCC
+Confidence            4699999875
+
+
+No 10
+>PF11061.8 ; DUF2862 ; Protein of unknown function (DUF2862)
+Probab=23.05  E-value=4.7  Score=14.03  Aligned_cols=12  Identities=8%  Similarity=0.506  Sum_probs=8.3  Template_Neff=5.800
+
+Q KZZ99530.1       12 EKGTCDWLSKHP   23 (33)
+Q Consensus        12 ~~gTc~Wll~~~   23 (34)
+                      ..+|--|||+++
+T Consensus        46 ~d~~riW~f~~E   57 (59)
+T K9VXP1_9CYAN/3   46 DDKSSTWFFEDE   57 (59)
+T ss_pred             cCCCeEEeehhh
+Confidence            356778888764
+
+

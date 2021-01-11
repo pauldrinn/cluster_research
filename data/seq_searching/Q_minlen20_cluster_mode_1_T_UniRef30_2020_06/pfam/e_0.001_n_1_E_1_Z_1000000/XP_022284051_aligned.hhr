@@ -1,0 +1,159 @@
+Query         XP_022284051.1
+Match_columns 182
+No_of_seqs    2300 out of 2411
+Neff          9.81611
+Searched_HMMs 100
+Date          Mon Jan 11 21:33:37 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/XP_022284051_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_022284051_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_022284051_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF06516.11 ; NUP ; Purine nucl  98.4 5.7E-11 1.1E-14   87.8   0.0   69   21-89    201-290 (329)
+  2 PF01048.20 ; PNP_UDP_1 ; Phosp  97.7 9.7E-09 1.8E-12   69.9   0.0   67   23-89    126-198 (215)
+  3 PF16496.5 ; SWIRM-assoc_2 ; SW  24.4     4.4 0.00081   27.8   0.0   20  157-176   227-246 (405)
+  4 PF08515.12 ; TGF_beta_GS ; Tra   6.7      30  0.0054   12.9   0.0   13   63-75     15-27  (28)
+  5 PF07808.13 ; RED_N ; RED-like    5.6      37  0.0069   20.6   0.0   28   52-79    171-198 (234)
+  6 PF06906.11 ; DUF1272 ; Protein   4.5      50   0.009   15.2   0.0   10    7-16     49-58  (58)
+  7 PF12112.8 ; DUF3579 ; Protein    2.1 1.2E+02   0.023   14.9   0.0   31   68-98      4-34  (92)
+  8 PF00164.25 ; Ribosom_S12_S23 ;   0.9 3.2E+02   0.058   13.6   0.0   17   64-80     80-96  (112)
+  9 PF13022.6 ; HTH_Tnp_1_2 ; Heli   0.9 3.1E+02   0.059   12.3   0.0    9  161-170    44-52  (124)
+ 10 PF12161.8 ; HsdM_N ; HsdM N-te   0.9 3.4E+02   0.064   12.5   0.0   16   65-80     25-40  (129)
+
+No 1
+>PF06516.11 ; NUP ; Purine nucleoside permease (NUP)
+Probab=98.35  E-value=5.7e-11  Score=87.83  Aligned_cols=69  Identities=4%  Similarity=0.073  Sum_probs=57.2  Template_Neff=8.900
+
+Q XP_022284051.1    1 --------------------------------------------MEAAGVM-----NHF-------SCVVVRGICDYADS   24 (116)
+Q Consensus        21 ~~~~v~~g~i~sg~~~~~~~~~~~~l~~~~~--------~~~~emE~a~~~-----~~~-------p~~~ir~isD~~d~   80 (182)
+                      ..+.++.|.++|++.++.+...++.+.+..+        +.++|||++++.     .++       |+++||+|||+++.
+T Consensus       201 ~~~~v~~g~i~Sg~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~dME~~av~~~~~~~~~~~~~~~~p~~~ir~ISD~~~~  280 (329)
+T A7EFM5_SCLS1/6  201 HAPTIITCDTATSDVYYSGTLLGEAFENTTTLLTNGSGVYCMTAQEDNATLSALMRAALFKLVDFSRIIIMRTASDFDRP  280 (329)
+T ss_pred             CCCEEEEcCccccceeecChHHHHHHHHHhhhhcCCCCceEEEccHHHHHHHHHHHHHHcCCCCCceEEEEEecCCCCCC
+Confidence            4578999999999999999988888877664        489999999985     356       99999999999988
+
+
+Q XP_022284051.1   25 HKNK-EWQGY   33 (116)
+Q Consensus        81 ~~~~-~~~~~   89 (182)
+                      .... .|..+
+T Consensus       281 ~~~~~~~~~~  290 (329)
+T A7EFM5_SCLS1/6  281 YPGASVEYNL  290 (329)
+T ss_pred             CCCCCHHHHh
+Confidence            7654 45543
+
+
+No 2
+>PF01048.20 ; PNP_UDP_1 ; Phosphorylase superfamily
+Probab=97.70  E-value=9.7e-09  Score=69.94  Aligned_cols=67  Identities=12%  Similarity=0.068  Sum_probs=54.2  Template_Neff=10.700
+
+Q XP_022284051.1    1 ----------------------------------MEAAGVM-----NHFSCVVVRGICDYADSHKN-KEWQGY   33 (116)
+Q Consensus        23 ~~v~~g~i~sg~~~~~~~~~~~~l~~~~~~~~~emE~a~~~-----~~~p~~~ir~isD~~d~~~~-~~~~~~   89 (182)
+                      +.++.|.++|++.++.+......+....++.++|||++++.     .++||++||+|+|+.+.... ..|..+
+T Consensus       126 ~~~~~g~~~s~~~~~~~~~~~~~~~~~~~~~~~dme~~~~~~~~~~~~~~~~~i~~vsd~~~~~~~~~~~~~~  198 (215)
+T B3E1J7_GEOLS/6  126 LRTWQGSFITTGRIVTKSACAGTLPDNLPTPVLEMESAAVAQAATAAGIPFLGLRAISDDAAEELGFSLDELT  198 (215)
+T ss_pred             CCeeEEeEEeccchhcCHHHhccCchhCCCCEEecChHHHHHHHHHhCCCEEEEEEEecccchhcCccchHHH
+Confidence            56899999999999988866666666678889999999985     68999999999998887654 444443
+
+
+No 3
+>PF16496.5 ; SWIRM-assoc_2 ; SWIRM-associated domain at the N-terminal
+Probab=24.41  E-value=4.4  Score=27.81  Aligned_cols=20  Identities=25%  Similarity=0.702  Sum_probs=16.8  Template_Neff=5.700
+
+Q XP_022284051.1   95 RDSYKWVLSHDGFCQWRDDP  114 (116)
+Q Consensus       157 ~gT~~WlL~~~~f~~W~~~~  176 (182)
+                      .-+..||+++..|..|++..
+T Consensus       227 ~V~arWl~Ds~~fNEWMNEe  246 (405)
+T E0VYN8_PEDHC/5  227 RVAATWVLELEQYNEWMTEE  246 (405)
+T ss_pred             EEeeehhhcHHHHcCCCCHH
+Confidence            34789999999999998753
+
+
+No 4
+>PF08515.12 ; TGF_beta_GS ; Transforming growth factor beta type I GS-motif
+Probab=6.70  E-value=30  Score=12.88  Aligned_cols=13  Identities=23%  Similarity=0.225  Sum_probs=8.2  Template_Neff=6.400
+
+Q XP_022284051.1    7 MNHFSCVVVRGIC   19 (116)
+Q Consensus        63 ~~~~p~~~ir~is   75 (182)
+                      -.++|+++-|.|.
+T Consensus        15 GsGlp~lvqRTiA   27 (28)
+T W4YKG0_STRPU/1   15 GSGLPLLVQRTIA   27 (28)
+T ss_pred             CCchhhhhhhhcC
+Confidence            3567777776653
+
+
+No 5
+>PF07808.13 ; RED_N ; RED-like protein N-terminal region
+Probab=5.59  E-value=37  Score=20.59  Aligned_cols=28  Identities=7%  Similarity=0.169  Sum_probs=20.4  Template_Neff=6.000
+
+Q XP_022284051.1    1 -----MEAAGVMNHFSCVVVRGICDYAD   23 (116)
+Q Consensus        52 ~~~~emE~a~~~~~~p~~~ir~isD~~d   79 (182)
+                      +.+||++.......+|-.+||+..|...
+T Consensus       171 aYvfdL~~~~~~~dIPTTviRSK~D~p~  198 (234)
+T A0A158NPV2_ATT  171 AYVIELDDENADVDIPTTLIRSKADVPT  198 (234)
+T ss_pred             EEEEECCCCccccCCCeEEEeccccCCC
+Confidence            4566777654557899999999887653
+
+
+No 6
+>PF06906.11 ; DUF1272 ; Protein of unknown function (DUF1272)
+Probab=4.52  E-value=50  Score=15.24  Aligned_cols=10  Identities=0%  Similarity=0.000  Sum_probs=5.6  Template_Neff=3.900
+
+Q XP_022284051.1    1 ----------    0 (116)
+Q Consensus         7 ~~~~~~r~~r   16 (182)
+                      ...||.|+.|
+T Consensus        49 gGeLv~RP~R   58 (58)
+T A6VRM5_MARMS/1   49 GGNFAPRPIR   58 (58)
+T ss_pred             CCCCCCCCCC
+Confidence            3466666643
+
+
+No 7
+>PF12112.8 ; DUF3579 ; Protein of unknown function (DUF3579)
+Probab=2.11  E-value=1.2e+02  Score=14.90  Aligned_cols=31  Identities=13%  Similarity=0.341  Sum_probs=16.6  Template_Neff=5.200
+
+Q XP_022284051.1   12 CVVVRGICDYADSHKNKEWQGYAAMAAAAFA   42 (116)
+Q Consensus        68 ~~~ir~isD~~d~~~~~~~~~~aa~~aa~~~   98 (182)
+                      .++|.||..-...-...+|.+-.+...+.|.
+T Consensus         4 ~~iI~G~T~~G~~FRPSDWaERL~g~la~f~   34 (92)
+T Q8XWB9_RALSO/1    4 QFFIQGVTRDGKTFRPSDWADRLCGVMAQFR   34 (92)
+T ss_pred             eEEEEEEcCCCCeeChhhHHHHHhhhhhccC
+Confidence            4567777543333334567665555444443
+
+
+No 8
+>PF00164.25 ; Ribosom_S12_S23 ; Ribosomal protein S12/S23
+Probab=0.95  E-value=3.2e+02  Score=13.57  Aligned_cols=17  Identities=18%  Similarity=0.229  Sum_probs=11.9  Template_Neff=5.400
+
+Q XP_022284051.1    8 NHFSCVVVRGICDYADS   24 (116)
+Q Consensus        64 ~~~p~~~ir~isD~~d~   80 (182)
+                      .++.+-+|||..|.+.-
+T Consensus        80 pGVrykvvrg~~d~~~v   96 (112)
+T Q6R9F5_MAIZE/1   80 PGVKFHCIRGVKDLLGI   96 (112)
+T ss_pred             CCCceEEEcCccccCCC
+Confidence            35567789988887543
+
+
+No 9
+>PF13022.6 ; HTH_Tnp_1_2 ; Helix-turn-helix of insertion element transposase
+Probab=0.93  E-value=3.1e+02  Score=12.27  Aligned_cols=9  Identities=22%  Similarity=0.866  Sum_probs=3.8  Template_Neff=10.600
+
+Q XP_022284051.1   99 KWVLSHDGFC  108 (116)
+Q Consensus       161 ~WlL~~~~f~  170 (182)
+                      .|| .+++|.
+T Consensus        44 ~~~-~~~~~~   52 (124)
+T C8VXN7_DESAS/1   44 RWK-HDKAFV   52 (124)
+T ss_pred             HHH-hCHHHH
+Confidence            344 444443
+
+
+No 10
+>PF12161.8 ; HsdM_N ; HsdM N-terminal domain
+Probab=0.87  E-value=3.4e+02  Score=12.48  Aligned_cols=16  Identities=6%  Similarity=0.231  Sum_probs=11.8  Template_Neff=9.900
+
+Q XP_022284051.1    9 HFSCVVVRGICDYADS   24 (116)
+Q Consensus        65 ~~p~~~ir~isD~~d~   80 (182)
+                      -++.+.+|-++|....
+T Consensus        25 il~llflK~lsd~~~~   40 (129)
+T A9A373_NITMS/1   25 VLTLLFLKRLNDIFEE   40 (129)
+T ss_pred             HHHHHHHHHHHHHHHH
+Confidence            3578899999985443
+
+

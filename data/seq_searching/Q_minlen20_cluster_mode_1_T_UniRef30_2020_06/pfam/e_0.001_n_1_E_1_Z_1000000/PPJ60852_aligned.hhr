@@ -1,0 +1,175 @@
+Query         PPJ60852.1
+Match_columns 277
+No_of_seqs    1725 out of 1773
+Neff          11.0753
+Searched_HMMs 429
+Date          Mon Jan 11 21:29:58 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/PPJ60852_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/PPJ60852_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/PPJ60852_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17107.5 ; SesA ; N-terminal   98.7   1E-12 1.8E-16   88.4   0.0  120   10-129     1-132 (133)
+  2 PF17111.5 ; Helo_like_N ; Fung  98.6 3.4E-12 5.9E-16   92.3   0.0  130    4-135     1-134 (209)
+  3 PF14479.6 ; HeLo ; Prion-inhib  86.4   0.026 4.7E-06   37.5   0.0   49    6-55      3-51  (199)
+  4 PF18532.1 ; DUF5621 ; Domain o  29.1     3.3 0.00059   24.7   0.0   23  233-255    61-83  (140)
+  5 PF05659.11 ; RPW8 ; Arabidopsi  23.8     4.8 0.00084   23.8   0.0   19  110-128    95-113 (140)
+  6 PF17106.5 ; NACHT_sigma ; Sigm  23.5     4.9 0.00087   18.2   0.0   29  172-200     5-33  (43)
+  7 PF00599.17 ; Flu_M2 ; Influenz  22.5     5.3 0.00093   21.3   0.0   18    3-20     22-39  (97)
+  8 PF10776.9 ; DUF2600 ; Protein   20.6     6.1  0.0011   27.3   0.0   19   67-85    114-132 (329)
+  9 PF04344.13 ; CheZ ; Chemotaxis  11.7      14  0.0026   23.1   0.0    7  215-221   203-209 (211)
+ 10 PF10136.9 ; SpecificRecomb ; S  10.6      17  0.0029   27.5   0.0   87    2-90    144-230 (638)
+
+No 1
+>PF17107.5 ; SesA ; N-terminal domain on NACHT_NTPase and P-loop NTPases
+Probab=98.73  E-value=1e-12  Score=88.38  Aligned_cols=120  Identities=13%  Similarity=0.246  Sum_probs=96.0  Template_Neff=10.000
+
+Q PPJ60852.1       13 IGACIDITKAVNDIGRAAKDATGLPPKLKELFERLPAINDLLNSARERAEKdEISAESRKS--IKPILEHYS--------   82 (237)
+Q Consensus        10 aa~ii~~v~~~~~i~~~~~~~~~~~~~~~~~~~~l~~l~~~L~~~~~~~~~-~~~~~~~~~--l~~~~~~C~~~~~~L~~   86 (277)
+                      +++++++++++.+++..+.+++++|.++..+..++..+..+|..+...... .........  +..++..|...+++|..
+T Consensus         1 ~~~i~~~~~~~~~~~~~~~~~~~~p~~~~~l~~~l~~l~~~l~~~~~~~~~~~~~~~~~~~~~i~~~~~~C~~~~~~l~~   80 (133)
+T U7PRR7_SPOS1/7    1 VASSRALARAIYETYTTIHTIKGRPEAFDRINKSLQLIQLALWKIQTHRSGPRASDDALLANAIRPITRRCEHKIRVLHD   80 (133)
+T ss_pred             ChHHHHHHHHHHHHHHHHHhhcCCCHHHHHHHHHHHHHHHHHHHHHHHhcCCCCChhHHHHHhHHHHHHHHHHHHHHHHH
+Confidence            468899999999999999999999999999999999999999988776643 111222334  88999999999999999
+
+
+Q PPJ60852.1       83 ----------DNYG-ERLWKG----TKtvF----LGRDSRLQKHMSDIMENLKI  117 (237)
+Q Consensus        87 ~l~~~~~~~~~~~~-~~~~~~----l~..~----~~~~~~i~~l~~~L~~~~~~  129 (277)
+                      .++++.+....+++ .+++.+    ++  +    +++++++++++++|..++..
+T Consensus        81 ~l~~~~~~~~~~~~~~~~~~~~~~~~~..~~~~~~~~~~~v~~l~~~l~~~~~~  132 (133)
+T U7PRR7_SPOS1/7   81 IFVNLQHGLGSESWQRQTWADLGHNCR..NALLELAEGNKVETLMQEILVDLAI  132 (133)
+T ss_pred             HHHHhcCCCCChhhhHHhHhchhhhhH..hhHHHhcCCcHHHHHHHHHHHHhhc
+Confidence            99988765444445 555556    66  6    89999999999999887654
+
+
+No 2
+>PF17111.5 ; Helo_like_N ; Fungal N-terminal domain of STAND proteins
+Probab=98.63  E-value=3.4e-12  Score=92.33  Aligned_cols=130  Identities=8%  Similarity=0.100  Sum_probs=101.3  Template_Neff=11.200
+
+Q PPJ60852.1        7 ITIVQLIGACIDITKAVND----IGRAAKDATGLPPKLKELFERLPAINDLLNSARERAEKdEISAESRKSIKPILEHYS   82 (237)
+Q Consensus         4 ~~~l~~aa~ii~~v~~~~~----i~~~~~~~~~~~~~~~~~~~~l~~l~~~L~~~~~~~~~.~~~~~~~~~l~~~~~~C~   78 (277)
+                      |+|+|++++++++++++.+    +++++.+++++|.++..+..++..+...|..+......  ........+...+..|.
+T Consensus         1 md~l~~~asii~l~~~~~~~~~~~~~~~~~~~~a~~~~~~l~~~l~~l~~~l~~l~~~~~~.-~~~~~~~~l~~~~~~c~   78 (209)
+T Q5B3N2_EMENI/2    1 AEPISLASGLLALATFAFQSSVSLYDTVKSFHSHPTRVRQLIEELEALSGVLGPLVDRVQA.-TNDTDLSALNLPLLSCG   78 (209)
+T ss_pred             CCcchHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHhc.-CCCCChHHhHHHHHHHH
+Confidence            3455889999999887755    56777788999999999999999999999888765542  22233456788999999
+
+
+Q PPJ60852.1       83 ------------------DNYGERLWKGTKtvFLGRDSRLQKHMSDIMENLKILELKGI  123 (237)
+Q Consensus        79 ~~~~~L~~~l~~~~~~~~~~~~~~~~~~l~..~~~~~~~i~~l~~~L~~~~~~l~~~l~  135 (277)
+                      ..+.+|...++++......+ ....+.+.+  |.|.+++|+++..+|..++..|...+.
+T Consensus        79 ~~l~~l~~~l~~~~~~~~~~-~~~~~~~~~..~~~~~~~i~~l~~~l~~~~~~l~~~l~  134 (209)
+T Q5B3N2_EMENI/2   79 KACKLFQKEIMKCAGRSSAT-RTSFRDWAK..LKYMGDDVDGFRRVLAAYKSTITIALT  134 (209)
+T ss_pred             HHHHHHHHHHHHHhcCCCCC-CCcHHHHHh..HhhchhhHHHHHHHHHHHHHHHHHHHH
+Confidence            99999999999886543322 223344677  778889999999999999999887765
+
+
+No 3
+>PF14479.6 ; HeLo ; Prion-inhibition and propagation
+Probab=86.42  E-value=0.026  Score=37.55  Aligned_cols=49  Identities=14%  Similarity=0.032  Sum_probs=36.7  Template_Neff=9.600
+
+Q PPJ60852.1        9 IVQLIGACIDITKAVNDIGRAAKDATGLPPKLKELFERLPAINDLLNSAR   58 (237)
+Q Consensus         6 ~l~~aa~ii~~v~~~~~i~~~~~~~~~~~~~~~~~~~~l~~l~~~L~~~~   55 (277)
+                      ++|+++ +++++..+.++|+.+..+++.+.++..+...+..-...|....
+T Consensus         3 ~lg~~s-l~~l~~~~~~~~~~i~~~~~~~~d~~~l~~~l~~e~~Rl~~W~   51 (199)
+T G4N4E3_MAGO7/6    3 ALGVLG-VAGLFKSCIDNFDIVVRAKNFGEDFDLLCTQLALQRLRLVLWG   51 (199)
+T ss_pred             hhhHHH-HHHHHHHHHHHHHHHHHhhcchhhHHHHHHHHHHHHHHHHHHH
+Confidence            456666 7888888888999998888888888888777666555554433
+
+
+No 4
+>PF18532.1 ; DUF5621 ; Domain of unknown function (DUF5621)
+Probab=29.07  E-value=3.3  Score=24.68  Aligned_cols=23  Identities=17%  Similarity=0.323  Sum_probs=18.1  Template_Neff=4.400
+
+Q PPJ60852.1      210 -RSDINEKAEHTCEWIFEHEDYQ  231 (237)
+Q Consensus       233 ~~~~~~~~~~~T~~Wi~~~~~f~  255 (277)
+                      +.+..+...|.|+.|+|+...+.
+T Consensus        61 HRELFk~~YP~~ynwfFE~n~~d   83 (140)
+T A0A098FZ64_9GA   61 ERELFKIAYPRTFNYLFEKNVFD   83 (140)
+T ss_pred             HHHHHHHHhHHHHHHHHhcCCCC
+Confidence            34567789999999999987543
+
+
+No 5
+>PF05659.11 ; RPW8 ; Arabidopsis broad-spectrum mildew resistance protein RPW8
+Probab=23.81  E-value=4.8  Score=23.83  Aligned_cols=19  Identities=11%  Similarity=-0.022  Sum_probs=11.7  Template_Neff=7.400
+
+Q PPJ60852.1       98 LGRDSRLQKHMSDIMENLK  116 (237)
+Q Consensus       110 ~~~~~~i~~l~~~L~~~~~  128 (277)
+                      ....+++.+|.+.|.++.+
+T Consensus        95 ~~y~~kL~~Ld~sl~~f~~  113 (140)
+T B9S8L2_RICCO/3   95 PKYAGKLIKLEKSLKLFFQ  113 (140)
+T ss_pred             HHHHHHHHHHHHHHHHHHH
+Confidence            3345677777777766543
+
+
+No 6
+>PF17106.5 ; NACHT_sigma ; Sigma domain on NACHT-NTPases
+Probab=23.48  E-value=4.9  Score=18.24  Aligned_cols=29  Identities=28%  Similarity=0.289  Sum_probs=17.9  Template_Neff=5.500
+
+Q PPJ60852.1      150 AHSGSGNLNVHEGPGNQYNIgg-GSNNTFNqnF  181 (237)
+Q Consensus       172 ~~~~~~~~~~~~~~~~~~~~..~~~~~~~~..~  200 (277)
+                      .+.+++.|.+..+.+.|+++  ++.+.++.  +
+T Consensus         5 ~n~GsG~Q~n~~g~G~Qnnn..~g~G~qf~..g   33 (43)
+T I1RXU5_GIBZE/3    5 HHSGFGDQFNASGGAMQTNN..TGDGDQYV..G   33 (43)
+T ss_pred             ccccccccCccCCceeEEec..CCCCcccc..c
+Confidence            34556666666665667666  66666665  4
+
+
+No 7
+>PF00599.17 ; Flu_M2 ; Influenza Matrix protein (M2)
+Probab=22.45  E-value=5.3  Score=21.29  Aligned_cols=18  Identities=11%  Similarity=0.134  Sum_probs=14.6  Template_Neff=2.000
+
+Q PPJ60852.1        3 GveaITIVQLIGACIDITKAV   23 (237)
+Q Consensus         3 ~...~~~l~~aa~ii~~v~~~   20 (277)
+                      .   -+++.+||+||+++.++
+T Consensus        22 s...sdpLv~AA~IIGIlHLi   39 (97)
+T M2_I96A0/1-97    22 S...SDPLVVAASIIGILHLI   39 (97)
+T ss_pred             C...CCHHHHHHHHHHHHHHH
+Confidence            3   57888999999988765
+
+
+No 8
+>PF10776.9 ; DUF2600 ; Protein of unknown function (DUF2600)
+Probab=20.64  E-value=6.1  Score=27.26  Aligned_cols=19  Identities=0%  Similarity=0.078  Sum_probs=14.9  Template_Neff=4.900
+
+Q PPJ60852.1       71 RKSIKPILEHYS-------   82 (237)
+Q Consensus        67 ~~~l~~~~~~C~~~~~~L~   85 (277)
+                      ..-|..+++.|++.+..|-
+T Consensus       114 GGYL~~LV~~Cq~~l~~lP  132 (329)
+T D7CN14_SYNLT/1  114 KCYLPALVRACQKIAASLP  132 (329)
+T ss_pred             CcHHHHHHHHHHHHHHcCC
+Confidence            3458889999999888763
+
+
+No 9
+>PF04344.13 ; CheZ ; Chemotaxis phosphatase, CheZ
+Probab=11.69  E-value=14  Score=23.13  Aligned_cols=7  Identities=43%  Similarity=0.577  Sum_probs=2.9  Template_Neff=7.900
+
+Q PPJ60852.1      196 EQCLRSL  202 (237)
+Q Consensus       215 ~~il~~L  221 (277)
+                      ..+|..|
+T Consensus       203 D~LL~~l  209 (211)
+T G4QLV2_GLANF/4  203 DDLLSSL  209 (211)
+T ss_pred             HHHHHhc
+Confidence            3444443
+
+
+No 10
+>PF10136.9 ; SpecificRecomb ; Site-specific recombinase
+Probab=10.63  E-value=17  Score=27.53  Aligned_cols=87  Identities=6%  Similarity=0.029  Sum_probs=0.0  Template_Neff=5.800
+
+Q PPJ60852.1        2 SGveaITIVQLIGACIDITKAVNDIGRAAKDATGLPPKLKELFERLPAINDLLNSARERAEKdEISAESRKSIKPILEHY   81 (237)
+Q Consensus         2 d~...~~~l~~aa~ii~~v~~~~~i~~~~~~~~~~~~~~~~~~~~l~~l~~~L~~~~~~~~~.~~~~~~~~~l~~~~~~C   77 (277)
+                      +.   .+++-+.+.=|+-.....++.+..........-|-.+..++..+....+........   ...+...+..++++|
+T Consensus       144 ~l...l~Al~iLs~rIaa~gl~~el~~~~p~~~~~~SPF~~l~~e~~~~~~~~~~~~~~~~~.--~~~~~~~l~v~l~qC  217 (638)
+T D3SAV5_THISK/2  144 ET...LYALEMLSIWIAAEELEPELLRLDPSIAERNSAFVAQEREISAYVRDYRAWLQDPGH.--ERMDDAHARVLLEQC  217 (638)
+T ss_pred             HH...HHHHHHHHHHHHHcccCHHHHHhChhHhhcCCHHHHHHHHHHHHHHHHHHHhcCCCC.--ccccHHHHHHHHHHH
+
+
+Q PPJ60852.1       82 S------------   82 (237)
+Q Consensus        78 ~~~~~~L~~~l~~   90 (277)
+                      ++.++.+.+..++
+T Consensus       218 ~~~v~~i~~~~~~  230 (638)
+T D3SAV5_THISK/2  218 GDQILRLRRRAIT  230 (638)
+T ss_pred             HHHHHHHHHHHHH
+
+

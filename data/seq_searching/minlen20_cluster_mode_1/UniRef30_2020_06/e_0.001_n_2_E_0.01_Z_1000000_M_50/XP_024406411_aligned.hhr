@@ -1,0 +1,270 @@
+Query         XP_024406411.1
+Match_columns 32
+No_of_seqs    57 out of 117
+Neff          5.77103
+Searched_HMMs 161
+Date          Sun Jan 10 17:01:49 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/clustering_outputs/minlen20/cluster_mode_1/aligned_clusters/XP_024406411_aligned.fa -o /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/XP_024406411_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/XP_024406411_aligned.a3m -d /mnt/d/hhsuite_databases/UniRef30_2020_06 -cpu 12 -e 0.001 -n 2 -E 0.01 -Z 1000000 -M 50 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 UniRef100_A0A2K0UB25 Uncharact  98.4 2.2E-09 5.2E-15   58.9   0.0   32    1-32      2-37  (89)
+  2 UniRef100_A0A0D2YIK3 TPR_REGIO  98.3   1E-08 2.6E-14   70.5   0.0   32    1-32      2-37  (717)
+  3 UniRef100_A0A0D2YI42 TPR_REGIO  98.1   3E-08 8.1E-14   70.5   0.0   32    1-32     36-69  (1088)
+  4 UniRef100_A0A1B8AIB6 Uncharact  97.9   2E-07   5E-13   63.2   0.0   32    1-32      2-33  (562)
+  5 UniRef100_A0A0F9XLM9 Uncharact  97.8 4.4E-07 1.2E-12   63.8   0.0   30    1-30     19-49  (805)
+  6 UniRef100_A0A4Q2V298 AAA domai  97.8 5.6E-07 1.2E-12   55.8   0.0   32    1-32      1-32  (225)
+  7 UniRef100_A0A0B7KSV3 Uncharact  97.6 1.5E-06 3.6E-12   57.1   0.0   32    1-32      2-37  (374)
+  8 UniRef100_A0A2P4ZMI4 TPR_REGIO  97.3 9.7E-06 2.2E-11   57.9   0.0   31    1-31      1-31  (1130)
+  9 UniRef100_A0A0B7KJ57 Uncharact  96.9 5.4E-05 1.4E-10   51.9   0.0   27    1-27      1-27  (470)
+ 10 UniRef100_A0A420Q6Y2 Uncharact  96.6 0.00022   5E-10   42.9   0.0   31    2-32      3-37  (146)
+ 11 UniRef100_A0A2T4H4W8 Uncharact  96.5 0.00036 8.2E-10   38.3   0.0   25    6-30      2-26  (73)
+ 12 UniRef100_A0A1B8B7B2 NACHT dom  96.3 0.00073 1.6E-09   41.0   0.0   25    6-30      2-26  (149)
+ 13 UniRef100_A0A084R095 Uncharact  96.2   0.001 2.3E-09   45.2   0.0   31    1-31      1-35  (422)
+ 14 UniRef100_A0A084AJ17 Uncharact  96.1  0.0016 3.6E-09   42.4   0.0   27    4-30      4-30  (266)
+ 15 UniRef100_A0A2K0U5Z9 Uncharact  96.0   0.002 4.4E-09   42.5   0.0   24    7-30    265-288 (294)
+ 16 UniRef100_A0A2T4A249 NACHT dom  95.9  0.0028 6.3E-09   43.1   0.0   28    1-28      1-28  (401)
+ 17 UniRef100_A0A6M7Z8K0 Uncharact  95.8  0.0034 7.6E-09   46.3   0.0   25    3-27     60-84  (1141)
+ 18 UniRef100_A0A2P4ZPP0 Uncharact  95.6  0.0055 1.2E-08   38.3   0.0   20    8-27      6-25  (174)
+ 19 UniRef100_N4V0E4 Nephrocystin-  95.6  0.0058 1.3E-08   46.2   0.0   25    3-27      4-28  (1555)
+ 20 UniRef100_A0A0G0ARW1 Uncharact  95.4  0.0073 1.6E-08   43.4   0.0   24    7-30    694-717 (723)
+
+No 1
+>UniRef100_A0A2K0UB25 Uncharacterized protein n=1 Tax=Trichoderma harzianum TaxID=5544 RepID=A0A2K0UB25_TRIHA
+Probab=98.43  E-value=2.2e-09  Score=58.91  Aligned_cols=32  Identities=38%  Similarity=0.477  Sum_probs=28.1  Template_Neff=1.459
+
+Q XP_024406411.1    1 MEASGHERRYISNSQFGDNTIIYQGDF---------   27 (27)
+Q Consensus         1 m~~~~~~~r~i~~n~fgd~t~i~qg~~----~y~~p   32 (32)
+                      |..++.++|++++++|+|+|+|||||+    +|++|
+T Consensus         2 ~~~s~~~~r~v~~s~f~d~tvi~qgn~q~n~~~~lp   37 (89)
+T UniRef100_A0A2    2 MPHSEYHQRDVSHSQFRDYTVIHQGNVQRNVHFHLP   37 (89)
+Confidence            567788999999999999999999988    57765
+
+
+No 2
+>UniRef100_A0A0D2YIK3 TPR_REGION domain-containing protein n=1 Tax=Fusarium oxysporum f. sp. lycopersici (strain 4287 / CBS 123668 / FGSC 9935 / NRRL 34936) TaxID=426428 RepID=A0A0D2YIK3_FUSO4
+Probab=98.25  E-value=1e-08  Score=70.52  Aligned_cols=32  Identities=47%  Similarity=0.567  Sum_probs=30.0  Template_Neff=2.200
+
+Q XP_024406411.1    1 MEASGHERRYISNSQFGDNTIIYQGDF---------   27 (27)
+Q Consensus         1 m~~~~~~~r~i~~n~fgd~t~i~qg~~----~y~~p   32 (32)
+                      |..|+.++|++++|+|||||+|||||+    ||++|
+T Consensus         2 m~~~~~~~r~vt~s~F~D~t~i~qgdv~~nvhy~~P   37 (717)
+T UniRef100_A0A0    2 MPHSAYEQREVTNSQFRDNTRIHQGDVQGNVHYSLP   37 (717)
+Confidence            778999999999999999999999999    89876
+
+
+No 3
+>UniRef100_A0A0D2YI42 TPR_REGION domain-containing protein n=1 Tax=Fusarium oxysporum f. sp. lycopersici (strain 4287 / CBS 123668 / FGSC 9935 / NRRL 34936) TaxID=426428 RepID=A0A0D2YI42_FUSO4
+Probab=98.12  E-value=3e-08  Score=70.54  Aligned_cols=32  Identities=50%  Similarity=0.670  Sum_probs=29.4  Template_Neff=2.700
+
+Q XP_024406411.1    1 MEASGHERRYISNSQFGDNTIIYQGDF-------   27 (27)
+Q Consensus         1 m~~~~~~~r~i~~n~fgd~t~i~qg~~--~y~~p   32 (32)
+                      |++|++++|+|++|+|||||+|||||+  ||++|
+T Consensus        36 ~~~~~~~~r~is~n~Fgdnt~I~qG~v~nhy~~p   69 (1088)
+T UniRef100_A0A0   36 MAHPASERRDISHNQFGDNTRINQGDVGNHYHLP   69 (1088)
+Confidence            567888999999999999999999999  89854
+
+
+No 4
+>UniRef100_A0A1B8AIB6 Uncharacterized protein n=1 Tax=Fusarium poae TaxID=36050 RepID=A0A1B8AIB6_FUSPO
+Probab=97.89  E-value=2e-07  Score=63.21  Aligned_cols=32  Identities=38%  Similarity=0.494  Sum_probs=29.5  Template_Neff=1.716
+
+Q XP_024406411.1    1 MEASGHERRYISNSQFGDNTIIYQGDF-----   27 (27)
+Q Consensus         1 m~~~~~~~r~i~~n~fgd~t~i~qg~~~y~~p   32 (32)
+                      |..|+.+.|+|+.++||+|++|||||++|++|
+T Consensus         2 ~~~~a~~~~~i~~s~f~n~~~i~q~~~~y~~~   33 (562)
+T UniRef100_A0A1    2 MQRPALCQREISSSQFGNNNTINQGNNYYHLP   33 (562)
+Confidence            56789999999999999999999999999864
+
+
+No 5
+>UniRef100_A0A0F9XLM9 Uncharacterized protein n=1 Tax=Trichoderma harzianum TaxID=5544 RepID=A0A0F9XLM9_TRIHA
+Probab=97.76  E-value=4.4e-07  Score=63.84  Aligned_cols=30  Identities=43%  Similarity=0.583  Sum_probs=27.3  Template_Neff=2.883
+
+Q XP_024406411.1    1 MEASGH-ERRYISNSQFGDNTIIYQGDF---   27 (27)
+Q Consensus         1 m~~~~~-~~r~i~~n~fgd~t~i~qg~~~y~   30 (32)
+                      |.+|++ ++|++++|+||||++|||||.+|+
+T Consensus        19 m~~~a~~~~~~v~n~qf~d~~~ihqgn~~~~   49 (805)
+T UniRef100_A0A0   19 MNQPASHCNRQVGNSQFGDNTTIHQGNNNYN   49 (805)
+Confidence            677888 999999999999999999999755
+
+
+No 6
+>UniRef100_A0A4Q2V298 AAA domain-containing protein n=1 Tax=Fusarium oxysporum f. sp. narcissi TaxID=451672 RepID=A0A4Q2V298_FUSOX
+Probab=97.76  E-value=5.6e-07  Score=55.79  Aligned_cols=32  Identities=31%  Similarity=0.558  Sum_probs=30.6  Template_Neff=1.000
+
+Q XP_024406411.1    1 MEASGHERRYISNSQFGDNTIIYQGDF-----   27 (27)
+Q Consensus         1 m~~~~~~~r~i~~n~fgd~t~i~qg~~~y~~p   32 (32)
+                      |.+|+.++|+++.+.||||++.+.|++||++|
+T Consensus         1 mdqpalhrrdvtrsrfgdnarmnlgdihyhlp   32 (225)
+T UniRef100_A0A4    1 MDQPALHRRDVTRSRFGDNARMNLGDIHYHLP   32 (225)
+Confidence            78999999999999999999999999999976
+
+
+No 7
+>UniRef100_A0A0B7KSV3 Uncharacterized protein (Fragment) n=1 Tax=Bionectria ochroleuca TaxID=29856 RepID=A0A0B7KSV3_BIOOC
+Probab=97.59  E-value=1.5e-06  Score=57.13  Aligned_cols=32  Identities=41%  Similarity=0.472  Sum_probs=28.1  Template_Neff=1.463
+
+Q XP_024406411.1    1 MEASGHERRYISNSQFGDNTIIYQGDF---------   27 (27)
+Q Consensus         1 m~~~~~~~r~i~~n~fgd~t~i~qg~~----~y~~p   32 (32)
+                      |++|+.++|++.+++|+|+|.|||||+    +|++|
+T Consensus         2 ~~~~a~~~r~~~~s~f~d~t~i~~gnv~gnvyy~lp   37 (374)
+T UniRef100_A0A0    2 LPHSAYEQREVINSQFHDNTDIHQGNVQGNVYYSLP   37 (374)
+Confidence            568899999999999999999999776    67765
+
+
+No 8
+>UniRef100_A0A2P4ZMI4 TPR_REGION domain-containing protein n=1 Tax=Trichoderma gamsii TaxID=398673 RepID=A0A2P4ZMI4_9HYPO
+Probab=97.30  E-value=9.7e-06  Score=57.91  Aligned_cols=31  Identities=35%  Similarity=0.614  Sum_probs=29.5  Template_Neff=1.000
+
+Q XP_024406411.1    1 MEASGHERRYISNSQFGDNTIIYQGDF----   27 (27)
+Q Consensus         1 m~~~~~~~r~i~~n~fgd~t~i~qg~~~y~~   31 (32)
+                      |.+|.+++|++.+|.||++|+|.|||+||++
+T Consensus         1 mgqptshqrsinnnnfgnhtvisqgdihyhl   31 (1130)
+T UniRef100_A0A2    1 MGQPTSHQRSINNNNFGNHTVISQGDIHYHL   31 (1130)
+Confidence            7899999999999999999999999999985
+
+
+No 9
+>UniRef100_A0A0B7KJ57 Uncharacterized protein (Fragment) n=1 Tax=Bionectria ochroleuca TaxID=29856 RepID=A0A0B7KJ57_BIOOC
+Probab=96.93  E-value=5.4e-05  Score=51.93  Aligned_cols=27  Identities=37%  Similarity=0.517  Sum_probs=25.4  Template_Neff=2.420
+
+Q XP_024406411.1    1 MEASGHERRYISNSQFGDNTIIYQGDF   27 (27)
+Q Consensus         1 m~~~~~~~r~i~~n~fgd~t~i~qg~~   27 (32)
+                      |.-|++.++.+++|+||++|.|||||+
+T Consensus         1 ~~~~~~~~~~~~~n~fg~~~~ihqg~v   27 (470)
+T UniRef100_A0A0    1 MMDPMSSQHSITSNAFGDNTRIHQGNV   27 (470)
+Confidence            667889999999999999999999998
+
+
+No 10
+>UniRef100_A0A420Q6Y2 Uncharacterized protein (Fragment) n=1 Tax=Fusarium oxysporum TaxID=5507 RepID=A0A420Q6Y2_FUSOX
+Probab=96.64  E-value=0.00022  Score=42.94  Aligned_cols=31  Identities=42%  Similarity=0.416  Sum_probs=26.0  Template_Neff=1.000
+
+Q XP_024406411.1    2 EASGHERRYISNSQFGDNTIIYQGDF---------   27 (27)
+Q Consensus         2 ~~~~~~~r~i~~n~fgd~t~i~qg~~----~y~~p   32 (32)
+                      ..++.++|+.-+++|.|||-||||++    .|++|
+T Consensus         3 phsayeqreainsqfhdntdihqgnvqgnvyyslp   37 (146)
+T UniRef100_A0A4    3 PHSAYEQREAINSQFHDNTDIHQGNVQGNVYYSLP   37 (146)
+Confidence            35677999999999999999999988    46554
+
+
+No 11
+>UniRef100_A0A2T4H4W8 Uncharacterized protein n=1 Tax=Fusarium culmorum TaxID=5516 RepID=A0A2T4H4W8_FUSCU
+Probab=96.51  E-value=0.00036  Score=38.26  Aligned_cols=25  Identities=40%  Similarity=0.527  Sum_probs=22.7  Template_Neff=1.000
+
+Q XP_024406411.1    6 HERRYISNSQFGDNTIIYQGDF---   27 (27)
+Q Consensus         6 ~~~r~i~~n~fgd~t~i~qg~~~y~   30 (32)
+                      +..|.++-++|||.++||.|+.+|+
+T Consensus         2 sghrtitesqfgdsarihlgdnnyn   26 (73)
+T UniRef100_A0A2    2 SGHRTITESQFGDSARIHLGDNNYN   26 (73)
+Confidence            4678999999999999999999876
+
+
+No 12
+>UniRef100_A0A1B8B7B2 NACHT domain-containing protein n=1 Tax=Fusarium poae TaxID=36050 RepID=A0A1B8B7B2_FUSPO
+Probab=96.31  E-value=0.00073  Score=41.02  Aligned_cols=25  Identities=36%  Similarity=0.458  Sum_probs=22.5  Template_Neff=1.000
+
+Q XP_024406411.1    6 HERRYISNSQFGDNTIIYQGDF---   27 (27)
+Q Consensus         6 ~~~r~i~~n~fgd~t~i~qg~~~y~   30 (32)
+                      +..|.++-|.|.|+|+|||||..|+
+T Consensus         2 sghrtitennfrdgtrihqgdnyyn   26 (149)
+T UniRef100_A0A1    2 SGHRTITENNFRDGTRIHQGDNYYN   26 (149)
+Confidence            5678999999999999999999765
+
+
+No 13
+>UniRef100_A0A084R095 Uncharacterized protein n=1 Tax=Stachybotrys chlorohalonata (strain IBT 40285) TaxID=1283841 RepID=A0A084R095_STAC4
+Probab=96.21  E-value=0.001  Score=45.15  Aligned_cols=31  Identities=45%  Similarity=0.550  Sum_probs=27.2  Template_Neff=1.000
+
+Q XP_024406411.1    1 MEASGHERRYISNSQFGDNTIIYQGDF--------   27 (27)
+Q Consensus         1 m~~~~~~~r~i~~n~fgd~t~i~qg~~----~y~~   31 (32)
+                      |..+..+-|+++.|+|.|+|.++|||-    ||+-
+T Consensus         1 messtphcrdisgnqfrdhtivnqgdattinhyhp   35 (422)
+T UniRef100_A0A0    1 MESSTPHCRDISGNQFRDHTIVNQGDATTINHYHP   35 (422)
+Confidence            567778899999999999999999997    6774
+
+
+No 14
+>UniRef100_A0A084AJ17 Uncharacterized protein n=1 Tax=Stachybotrys chartarum (strain CBS 109288 / IBT 7711) TaxID=1280523 RepID=A0A084AJ17_STACB
+Probab=96.06  E-value=0.0016  Score=42.38  Aligned_cols=27  Identities=41%  Similarity=0.658  Sum_probs=24.4  Template_Neff=1.000
+
+Q XP_024406411.1    4 SGHERRYISNSQFGDNTIIYQGDF---   27 (27)
+Q Consensus         4 ~~~~~r~i~~n~fgd~t~i~qg~~~y~   30 (32)
+                      -+.-+|+|++|.|||.+.++|||.||.
+T Consensus         4 laplrrdissnrfgdyamvnqgdfhyq   30 (266)
+T UniRef100_A0A0    4 LAPLRRDISSNRFGDYAMVNQGDFHYQ   30 (266)
+Confidence            455789999999999999999999986
+
+
+No 15
+>UniRef100_A0A2K0U5Z9 Uncharacterized protein n=1 Tax=Trichoderma harzianum TaxID=5544 RepID=A0A2K0U5Z9_TRIHA
+Probab=95.99  E-value=0.002  Score=42.45  Aligned_cols=24  Identities=38%  Similarity=0.667  Sum_probs=21.9  Template_Neff=1.000
+
+Q XP_024406411.1    7 ERRYISNSQFGDNTIIYQGDF---   27 (27)
+Q Consensus         7 ~~r~i~~n~fgd~t~i~qg~~~y~   30 (32)
+                      .+|+++.|.||+-|.|||||.||-
+T Consensus       265 dqrdvtgnnfgnrtiihqgdnhyy  288 (294)
+T UniRef100_A0A2  265 DQRDVTGNNFGNRTIIHQGDNHYY  288 (294)
+Confidence            579999999999999999999864
+
+
+No 16
+>UniRef100_A0A2T4A249 NACHT domain-containing protein n=1 Tax=Trichoderma harzianum CBS 226.95 TaxID=983964 RepID=A0A2T4A249_TRIHA
+Probab=95.86  E-value=0.0028  Score=43.08  Aligned_cols=28  Identities=36%  Similarity=0.541  Sum_probs=24.7  Template_Neff=1.000
+
+Q XP_024406411.1    1 MEASGHERRYISNSQFGDNTIIYQGDF-   27 (27)
+Q Consensus         1 m~~~~~~~r~i~~n~fgd~t~i~qg~~~   28 (32)
+                      |+....+..++++|.||+|.+|||||+|
+T Consensus         1 mnsttphsyditnntfgnnvrihqgdih   28 (401)
+T UniRef100_A0A2    1 MNSTTPHSYDITNNTFGNNVRIHQGDIH   28 (401)
+Confidence            5566678889999999999999999995
+
+
+No 17
+>UniRef100_A0A6M7Z8K0 Uncharacterized protein n=1 Tax=Fusarium oxysporum Fo47 TaxID=660027 RepID=A0A6M7Z8K0_FUSOX
+Probab=95.79  E-value=0.0034  Score=46.35  Aligned_cols=25  Identities=48%  Similarity=0.651  Sum_probs=23.0  Template_Neff=1.000
+
+Q XP_024406411.1    3 ASGHERRYISNSQFGDNTIIYQGDF   27 (27)
+Q Consensus         3 ~~~~~~r~i~~n~fgd~t~i~qg~~   27 (32)
+                      .++.++|++-++.|.|||+|||||+
+T Consensus        60 hsayeqrevinshfrdntvihqgnv   84 (1141)
+T UniRef100_A0A6   60 HSAYEQREVINSHFRDNTVIHQGNV   84 (1141)
+Confidence            4667999999999999999999998
+
+
+No 18
+>UniRef100_A0A2P4ZPP0 Uncharacterized protein n=1 Tax=Trichoderma gamsii TaxID=398673 RepID=A0A2P4ZPP0_9HYPO
+Probab=95.59  E-value=0.0055  Score=38.31  Aligned_cols=20  Identities=45%  Similarity=0.808  Sum_probs=17.5  Template_Neff=1.000
+
+Q XP_024406411.1    8 RRYISNSQFGDNTIIYQGDF   27 (27)
+Q Consensus         8 ~r~i~~n~fgd~t~i~qg~~   27 (32)
+                      +--++.|.|||||+||||++
+T Consensus         6 qafvsdnvfgdntrihqgnv   25 (174)
+T UniRef100_A0A2    6 QAFVSDNVFGDNTRIHQGNV   25 (174)
+Confidence            34578999999999999998
+
+
+No 19
+>UniRef100_N4V0E4 Nephrocystin-3 n=1 Tax=Fusarium oxysporum f. sp. cubense (strain race 1) TaxID=1229664 RepID=N4V0E4_FUSC1
+Probab=95.56  E-value=0.0058  Score=46.16  Aligned_cols=25  Identities=44%  Similarity=0.638  Sum_probs=22.5  Template_Neff=1.000
+
+Q XP_024406411.1    3 ASGHERRYISNSQFGDNTIIYQGDF   27 (27)
+Q Consensus         3 ~~~~~~r~i~~n~fgd~t~i~qg~~   27 (32)
+                      .+...+|++++|+|.++|+||||++
+T Consensus         4 hsphkqreishnqfrghtvihqgnv   28 (1555)
+T UniRef100_N4V0    4 HSPHKQREISHNQFRGHTVIHQGNV   28 (1555)
+Confidence            4556899999999999999999998
+
+
+No 20
+>UniRef100_A0A0G0ARW1 Uncharacterized protein n=1 Tax=Trichoderma harzianum TaxID=5544 RepID=A0A0G0ARW1_TRIHA
+Probab=95.45  E-value=0.0073  Score=43.39  Aligned_cols=24  Identities=33%  Similarity=0.654  Sum_probs=21.9  Template_Neff=1.000
+
+Q XP_024406411.1    7 ERRYISNSQFGDNTIIYQGDF---   27 (27)
+Q Consensus         7 ~~r~i~~n~fgd~t~i~qg~~~y~   30 (32)
+                      .+|++++|.||+-|+|||||.||-
+T Consensus       694 dqrdvtgnnfgnrtvihqgdnhyy  717 (723)
+T UniRef100_A0A0  694 DQRDVTGNNFGNRTVIHQGDNHYY  717 (723)
+Confidence            579999999999999999999864
+
+

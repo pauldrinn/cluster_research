@@ -1,0 +1,167 @@
+Query         PMD15893.1
+Match_columns 274
+No_of_seqs    1697 out of 1771
+Neff          11.0936
+Searched_HMMs 475
+Date          Mon Jan 11 21:29:52 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/PMD15893_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/PMD15893_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/PMD15893_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17100.5 ; NACHT_N ; N-termin  99.6 1.6E-20 2.8E-24  140.3   0.0  141   34-175    79-228 (229)
+  2 PF17109.5 ; Goodbye ; fungal S  98.8 6.8E-13 1.2E-16   87.6   0.0   93    4-102    28-123 (123)
+  3 PF17111.5 ; Helo_like_N ; Fung  54.7     0.7 0.00012   29.4   0.0   28  153-180   109-136 (209)
+  4 PF06389.11 ; Filo_VP24 ; Filov  17.4       8  0.0014   24.2   0.0   38   61-99     88-125 (251)
+  5 PF16496.5 ; SWIRM-assoc_2 ; SW  17.0     8.3  0.0015   27.4   0.0   19  252-270   228-246 (405)
+  6 PF07870.11 ; DUF1657 ; Protein   6.3      33  0.0059   15.1   0.0    8  166-173     8-15  (49)
+  7 PF17705.1 ; DUF5551 ; Family o   4.7      48  0.0085   18.7   0.0   30  228-257    86-115 (155)
+  8 PF11855.8 ; DUF3375 ; Protein    4.5      51  0.0089   23.4   0.0   15   34-48     89-103 (483)
+  9 PF05829.12 ; Adeno_PX ; Adenov   4.2      56  0.0099   14.0   0.0   16   49-64     21-36  (42)
+ 10 PF04327.12 ; Peptidase_Prp ; C   3.5      69   0.012   16.4   0.0   31   54-85     22-52  (98)
+
+No 1
+>PF17100.5 ; NACHT_N ; N-terminal domain of NWD NACHT-NTPase
+Probab=99.60  E-value=1.6e-20  Score=140.33  Aligned_cols=141  Identities=9%  Similarity=0.057  Sum_probs=122.0  Template_Neff=10.000
+
+Q PMD15893.1        1 ---------------------------------------------------MGYLITATEKISCLISRGAIHERLYQPGA   29 (186)
+Q Consensus        34 ~~r~~~~~i~~~l~~---~~d~~~~~~p~~a~l~w~~v~~~l~~~~~~~~~~~~l~~~l~~i~~~l~~~~~~~~~~~~~~  110 (274)
+                      .+++.+++++.++..   +++.+++++|. ++++||+++++|+++.++.+..+.+.++++.|...+++|..|+.+|....
+T Consensus        79 ~~~~~~~~~~~~i~~~~~~i~~~~~~~P~-aal~W~~v~~~l~~~~~~~~~~~~~~~~l~~i~~~l~~y~~~~~~~~~~~  157 (229)
+T B8NEA4_ASPFN/5   79 KRIDSASEVFGVVQNLKPIFNAVLSNTPH-TALPWAIVSSTLDILANPVRSTKALYDGVSHVVGRMQWYSKITDNLLQTG  157 (229)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHhcCcc-cHHHHHHHHHHHHHHhChHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccC
+Confidence            456667777666655   78888999996 99999999999999999999999999999999999999999999887642
+
+
+Q PMD15893.1       30 ISA------DVLARFDQALVALYMVMLRMIALCHRLLAKNTAKRVVHAIFNPGDICELLDQCEKLEVQVEF   94 (186)
+Q Consensus       111 ~~~------~~~~~l~~~l~~lY~~il~f~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~i~~~~~~~~~  175 (274)
+                      ...      ...+.++.+++++|..||.|+.+++++|.++++.+++++++++++|.+.+.+|+.+++.+..
+T Consensus       158 ~~~~~~~~~~~~~~l~~~l~~LY~~iL~f~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~e~~~~~  228 (229)
+T B8NEA4_ASPFN/5  158 SENGHQKLEEVRKQLETGMLDMYKCMLFYEIKSVCFYHKNQLAVFVRGLFNIDDWDGGLTKLNEQENALRS  228 (229)
+T ss_pred             CcCCchhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhchHHHHHHHhhccCChhHHHHHHHHHHHHHhc
+Confidence            111      11378999999999999999999999999999999999999999999999999988876653
+
+
+No 2
+>PF17109.5 ; Goodbye ; fungal STAND N-terminal Goodbye domain
+Probab=98.76  E-value=6.8e-13  Score=87.61  Aligned_cols=93  Identities=3%  Similarity=0.001  Sum_probs=77.7  Template_Neff=8.800
+
+Q PMD15893.1        1 --------------------------------------------------------------------------------    0 (186)
+Q Consensus         4 s~~~l~~~v~~~~~~~~~~~~~~~~~g~~~~~r~~~~~i~~~l~~~~d---~~~~~~p~~a~l~w~~v~~~l~~~~~~~~   80 (274)
+                      |++++...++...+.+++.+.+      ..++++.+.+++.+++.+++   .+++.+|+|++++||+++++++++.++.+
+T Consensus        28 s~~~l~~~l~~~~~~f~~~r~~------~~~~~~~l~~~l~~i~~~~~~~~~~~s~~~~pa~~i~~av~~ll~~~~~~~~  101 (123)
+T S8AD61_DACHA/1   28 TLESFLRKIEDQNQKHREFCGR------SEHMRDSISKFLRPALLFSDIIGTAVSIAYPPAQAIFAATSFLIKAADGLSS  101 (123)
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHh------hHHHHHHHHHhhHHHHHHHHHHHHHhhccCchHHHHHHHHHHHHHHHHhHHH
+Confidence            7899999999988887764422      22677888888888887444   45566677899999999999999999999
+
+
+Q PMD15893.1        1 -MGYLITATEKISCLISRGAIH   21 (186)
+Q Consensus        81 ~~~~l~~~l~~i~~~l~~~~~~  102 (274)
+                      .++.+.+.|+.|...++|+..|
+T Consensus       102 ~~d~i~~lf~~l~~~l~rl~~Y  123 (123)
+T S8AD61_DACHA/1  102 IYDAIAELLMEMSYSSQRLALY  123 (123)
+T ss_pred             HHHHHHHHHHHHHHHHHHhhcC
+Confidence            9999999999999999998876
+
+
+No 3
+>PF17111.5 ; Helo_like_N ; Fungal N-terminal domain of STAND proteins
+Probab=54.66  E-value=0.7  Score=29.41  Aligned_cols=28  Identities=4%  Similarity=0.096  Sum_probs=15.4  Template_Neff=11.200
+
+Q PMD15893.1       72 IFNPGDICELLDQCEKLEVQVEFEVQNC   99 (186)
+Q Consensus       153 ~~~~~~~~~~l~~i~~~~~~~~~~~~~~  180 (274)
+                      .|...++..+..+|..+...+...+...
+T Consensus       109 ~~~~~~i~~l~~~l~~~~~~l~~~l~~~  136 (209)
+T Q5B3N2_EMENI/2  109 KYMGDDVDGFRRVLAAYKSTITIALTDA  136 (209)
+T ss_pred             hhchhhHHHHHHHHHHHHHHHHHHHHHH
+Confidence            3333455666666666666655544443
+
+
+No 4
+>PF06389.11 ; Filo_VP24 ; Filovirus membrane-associated protein VP24
+Probab=17.39  E-value=8  Score=24.16  Aligned_cols=38  Identities=13%  Similarity=0.009  Sum_probs=27.0  Template_Neff=1.900
+
+Q PMD15893.1        1 ---------------------MGYLITATEKISCLISRG   18 (186)
+Q Consensus        61 a~l~w~~v~~~l~~~~~~~~~~~~l~~~l~~i~~~l~~~   99 (274)
+                      -..+| +++++|.++..+...-..+.+.+..+...+..+
+T Consensus        88 ~~P~w-aLRviLaa~l~DQ~~~qSLI~pl~~~l~lisdW  125 (251)
+T VP24_EBOZM/1-2   88 ESPLW-ALRVILAAGIQDQLIDQSLIEPLAGALGLISDW  125 (251)
+T ss_pred             cchHH-HHHHHHHHHHHHHHHhccccHhHHHHHHHHHHH
+Confidence            44566 578888888887777777777777766666544
+
+
+No 5
+>PF16496.5 ; SWIRM-assoc_2 ; SWIRM-associated domain at the N-terminal
+Probab=16.98  E-value=8.3  Score=27.37  Aligned_cols=19  Identities=26%  Similarity=0.800  Sum_probs=16.4  Template_Neff=5.700
+
+Q PMD15893.1      167 ETCDWLLSHSRYKEWQENS  185 (186)
+Q Consensus       252 gT~~Wll~~~~f~~W~~~~  270 (274)
+                      =++.||++...|.+|++..
+T Consensus       228 V~arWl~Ds~~fNEWMNEe  246 (405)
+T E0VYN8_PEDHC/5  228 VAATWVLELEQYNEWMTEE  246 (405)
+T ss_pred             EeeehhhcHHHHcCCCCHH
+Confidence            4789999999999998753
+
+
+No 6
+>PF07870.11 ; DUF1657 ; Protein of unknown function (DUF1657)
+Probab=6.31  E-value=33  Score=15.10  Aligned_cols=8  Identities=0%  Similarity=0.048  Sum_probs=3.1  Template_Neff=7.100
+
+Q PMD15893.1       85 CEKLEVQV   92 (186)
+Q Consensus       166 i~~~~~~~  173 (274)
+                      ++..+..+
+T Consensus         8 Lk~~eA~L   15 (49)
+T A4J4J5_DESRM/7    8 LKSTQANF   15 (49)
+T ss_pred             HHHHHHHH
+Confidence            33333333
+
+
+No 7
+>PF17705.1 ; DUF5551 ; Family of unknown function (DUF5551)
+Probab=4.72  E-value=48  Score=18.65  Aligned_cols=30  Identities=13%  Similarity=0.562  Sum_probs=16.5  Template_Neff=1.900
+
+Q PMD15893.1      143 KILDWISNVLYGSNHQTVRKERTPETCDWL  172 (186)
+Q Consensus       228 ~il~wl~~~~~~~~~~~~~~~r~~gT~~Wl  257 (274)
+                      .+-+||....+...--.+.....|+.|.|-
+T Consensus        86 ~~arwl~~~s~s~~~psiqa~pepdpg~wa  115 (155)
+T A0A0D9RJC2_CHL   86 TLARWLRRVSFSLYKPSIQAAPEPDPGNWA  115 (155)
+T ss_pred             HHHHHHHhCCCccCCCcccccCCCCCCccc
+Confidence            455677655444333334445567777774
+
+
+No 8
+>PF11855.8 ; DUF3375 ; Protein of unknown function (DUF3375)
+Probab=4.54  E-value=51  Score=23.36  Aligned_cols=15  Identities=0%  Similarity=0.000  Sum_probs=7.8  Template_Neff=7.500
+
+Q PMD15893.1        1 ---------------    0 (186)
+Q Consensus        34 ~~r~~~~~i~~~l~~   48 (274)
+                      .+.....+.+.|+..
+T Consensus        89 eLT~~a~~Al~~v~~  103 (483)
+T W5WR70_9CORY/1   89 EPTREGLQALQLVEE  103 (483)
+T ss_pred             EeCHHHHHHHHHHHh
+Confidence            344455555555554
+
+
+No 9
+>PF05829.12 ; Adeno_PX ; Adenovirus late L2 mu core protein (Protein X)
+Probab=4.17  E-value=56  Score=13.98  Aligned_cols=16  Identities=0%  Similarity=0.000  Sum_probs=9.2  Template_Neff=2.000
+
+Q PMD15893.1        1 ----------------    0 (186)
+Q Consensus        49 ~~d~~~~~~p~~a~l~   64 (274)
+                      ++..++.+.|..|+.+
+T Consensus        21 iiaaaIgAiPgIAs~a   36 (42)
+T Q9IIH7_ADEF1/1   21 IIAAAISAAPGIAGAV   36 (42)
+T ss_pred             HHHHHHHhhhhHHHHH
+Confidence            4555566667655544
+
+
+No 10
+>PF04327.12 ; Peptidase_Prp ; Cysteine protease Prp
+Probab=3.55  E-value=69  Score=16.36  Aligned_cols=31  Identities=0%  Similarity=-0.118  Sum_probs=0.0  Template_Neff=7.800
+
+Q PMD15893.1        1 ----------------------------MGYL    4 (186)
+Q Consensus        54 ~~~~p~~a~l~w~~v~~~l~~~~~~~~~~~~l   85 (274)
+                      +.+++..--+++++|+.+.+.+.+..+ ....
+T Consensus        22 A~~~~~G~DIVCAAVS~l~~~~~~~l~-~~~~   52 (98)
+T F5WT89_ERYRF/1   22 AGSGDHGFDLVCAGVSSIMVGALNGFD-ALTD   52 (98)
+T ss_pred             CCCCCCCCccHHHHHHHHHHHHHHHHH-hcCC
+
+

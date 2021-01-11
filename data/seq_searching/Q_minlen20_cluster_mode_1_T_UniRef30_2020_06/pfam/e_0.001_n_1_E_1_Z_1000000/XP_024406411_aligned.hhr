@@ -1,0 +1,148 @@
+Query         XP_024406411.1
+Match_columns 32
+No_of_seqs    64 out of 64
+Neff          5.88421
+Searched_HMMs 100
+Date          Mon Jan 11 21:33:38 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/XP_024406411_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_024406411_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_024406411_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17108.5 ; HET-S ; N-terminal  12.9      12  0.0022   12.3   0.0   10   18-27     11-20  (23)
+  2 PF06376.12 ; AGP ; Arabinogala   9.7      17  0.0033   12.7   0.0   10   17-26      8-17  (33)
+  3 PF18649.1 ; EcpB_C ; EcpB C-te   8.7      19  0.0038   14.0   0.0   14   16-29      5-18  (72)
+  4 PF16211.5 ; Histone_H2A_C ; C-   7.0      24  0.0052   10.6   0.0   12   16-27      6-17  (35)
+  5 PF03095.15 ; PTPA ; Phosphotyr   6.8      26  0.0054   16.7   0.0   18   10-27    111-128 (291)
+  6 PF17834.1 ; GHD ; Beta-sandwic   4.3      45  0.0096   12.1   0.0   13   20-32     40-52  (72)
+  7 PF11558.8 ; HET-s_218-289 ; He   3.8      55   0.011   11.9   0.0   13   15-27     11-23  (64)
+  8 PF17546.2 ; Defb50 ; Beta defe   3.5      69   0.012   11.7   0.0    9   14-22     17-25  (50)
+  9 PF11567.8 ; PfUIS3 ; Plasmodiu   3.4      68   0.013   13.5   0.0    9   14-22     25-33  (101)
+ 10 PF14061.6 ; Mtf2_C ; Polycomb-   3.4      67   0.013   11.9   0.0   23    4-26      1-23  (52)
+
+No 1
+>PF17108.5 ; HET-S ; N-terminal small S protein of HET, non-prionic
+Probab=12.95  E-value=12  Score=12.27  Aligned_cols=10  Identities=10%  Similarity=0.152  Sum_probs=6.6  Template_Neff=2.400
+
+Q XP_024406411.1   18 DNTIIYQGDF   27 (27)
+Q Consensus        18 d~t~Ihqg~~   27 (32)
+                      +..+|+.||.
+T Consensus        11 gsSRVqVGNn   20 (23)
+T I1RV79_GIBZE/6   11 GASRVQVGNN   20 (23)
+T ss_pred             CCceeeeccc
+Confidence            4567777775
+
+
+No 2
+>PF06376.12 ; AGP ; Arabinogalactan peptide
+Probab=9.75  E-value=17  Score=12.66  Aligned_cols=10  Identities=50%  Similarity=0.465  Sum_probs=7.3  Template_Neff=3.100
+
+Q XP_024406411.1   17 GDNTIIYQGD   26 (27)
+Q Consensus        17 gd~t~Ihqg~   26 (32)
+                      .|+..|.||=
+T Consensus         8 ~Dg~aIDQGI   17 (33)
+T I1KIS0_SOYBN/3    8 SDGTAIDQGI   17 (33)
+T ss_pred             CchhHHHHHH
+Confidence            4678888873
+
+
+No 3
+>PF18649.1 ; EcpB_C ; EcpB C-terminal domain
+Probab=8.72  E-value=19  Score=13.95  Aligned_cols=14  Identities=7%  Similarity=0.301  Sum_probs=9.1  Template_Neff=5.600
+
+Q XP_024406411.1   16 FGDNTIIYQGDF--   27 (27)
+Q Consensus        16 fgd~t~Ihqg~~~y   29 (32)
+                      +.+++..+.||..|
+T Consensus         5 ~~~G~i~NtGNt~F   18 (72)
+T A0A0J6RGL0_9NE    5 YRPGHLENRGNVSF   18 (72)
+T ss_pred             eeCCEEEEcCceEE
+Confidence            34677778887643
+
+
+No 4
+>PF16211.5 ; Histone_H2A_C ; C-terminus of histone H2A
+Probab=6.95  E-value=24  Score=10.64  Aligned_cols=12  Identities=17%  Similarity=0.177  Sum_probs=7.2  Template_Neff=8.000
+
+Q XP_024406411.1   16 FGDNTIIYQGDF   27 (27)
+Q Consensus        16 fgd~t~Ihqg~~   27 (32)
+                      +-.+.+|-+|.+
+T Consensus         6 ll~~vtia~ggv   17 (35)
+T K0S6I8_THAOC/9    6 LLGGVTIASGGV   17 (35)
+T ss_pred             HcCCcEecCCcc
+Confidence            334566777765
+
+
+No 5
+>PF03095.15 ; PTPA ; Phosphotyrosyl phosphate activator (PTPA) protein
+Probab=6.76  E-value=26  Score=16.69  Aligned_cols=18  Identities=17%  Similarity=0.130  Sum_probs=14.0  Template_Neff=6.500
+
+Q XP_024406411.1   10 YISNSQFGDNTIIYQGDF   27 (27)
+Q Consensus        10 ~i~~n~fgd~t~Ihqg~~   27 (32)
+                      ..-.+.||+-++|.-|--
+T Consensus       111 ~Yl~~SFGn~~RiDYGTG  128 (291)
+T B6K078_SCHJY/3  111 DYLEGSFGNPQRMDFGTG  128 (291)
+T ss_pred             HHHHhccCCccccccCCc
+Confidence            344678999999988865
+
+
+No 6
+>PF17834.1 ; GHD ; Beta-sandwich domain in beta galactosidase
+Probab=4.28  E-value=45  Score=12.08  Aligned_cols=13  Identities=0%  Similarity=0.094  Sum_probs=6.0  Template_Neff=6.900
+
+Q XP_024406411.1   20 TIIYQGDF-----   27 (27)
+Q Consensus        20 t~Ihqg~~~y~~p   32 (32)
+                      +.|.+.+..|.+|
+T Consensus        40 ~~V~f~g~~y~Lp   52 (72)
+T A0A0K9PWM9_ZOS   40 AVVLFNNRSYELP   52 (72)
+T ss_pred             eEEEECCEEEEeC
+Confidence            3444444455543
+
+
+No 7
+>PF11558.8 ; HET-s_218-289 ; Het-s 218-289
+Probab=3.79  E-value=55  Score=11.89  Aligned_cols=13  Identities=23%  Similarity=0.271  Sum_probs=8.5  Template_Neff=5.900
+
+Q XP_024406411.1   15 QFGDNTIIYQGDF   27 (27)
+Q Consensus        15 ~fgd~t~Ihqg~~   27 (32)
+                      ..-+.+++++||.
+T Consensus        11 ~~~~~arv~~Gn~   23 (64)
+T F0XBA7_GROCL/2   11 KAADQADVQVGDQ   23 (64)
+T ss_pred             eeccceeEEeCCE
+Confidence            3446677777775
+
+
+No 8
+>PF17546.2 ; Defb50 ; Beta defensin 50
+Probab=3.50  E-value=69  Score=11.71  Aligned_cols=9  Identities=44%  Similarity=0.756  Sum_probs=5.8  Template_Neff=1.200
+
+Q XP_024406411.1   14 SQFGDNTII   22 (27)
+Q Consensus        14 n~fgd~t~I   22 (32)
+                      ..||||.-.
+T Consensus        17 avfgdnc~f   25 (50)
+T DFB50_MOUSE/24   17 AVFGDNCSF   25 (50)
+T ss_pred             eeecCCCcc
+Confidence            468887643
+
+
+No 9
+>PF11567.8 ; PfUIS3 ; Plasmodium falciparum UIS3 membrane protein
+Probab=3.43  E-value=68  Score=13.48  Aligned_cols=9  Identities=22%  Similarity=0.305  Sum_probs=0.0  Template_Neff=2.400
+
+Q XP_024406411.1   14 SQFGDNTII   22 (27)
+Q Consensus        14 n~fgd~t~I   22 (32)
+                      |.|-|+++|
+T Consensus        25 N~F~Dnari   33 (101)
+T Q8IEU1_PLAF7/1   25 NNFVDIARL   33 (101)
+T ss_pred             HHHHHHHHH
+
+
+No 10
+>PF14061.6 ; Mtf2_C ; Polycomb-like MTF2 factor 2
+Probab=3.41  E-value=67  Score=11.88  Aligned_cols=23  Identities=22%  Similarity=0.225  Sum_probs=0.0  Template_Neff=3.100
+
+Q XP_024406411.1    4 SGHERRYISNSQFGDNTIIYQGD   26 (27)
+Q Consensus         4 ~~~~~r~i~~n~fgd~t~Ihqg~   26 (32)
+                      ++..-++.-++.||.-.+|--|.
+T Consensus         1 ~~~~Lkssv~~YFGa~~Ria~GE   23 (52)
+T F6UZ84_CIOIN/3    1 AHEDLRKNIARYFGPEGRIACGE   23 (52)
+T ss_pred             ChhhHHhHHHHhhCccccccCCC
+
+

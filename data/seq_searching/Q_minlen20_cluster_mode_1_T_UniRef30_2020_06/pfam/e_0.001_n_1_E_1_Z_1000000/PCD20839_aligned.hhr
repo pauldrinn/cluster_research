@@ -1,0 +1,177 @@
+Query         PCD20839.1
+Match_columns 183
+No_of_seqs    1387 out of 1468
+Neff          11.7442
+Searched_HMMs 436
+Date          Mon Jan 11 21:29:47 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/PCD20839_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/PCD20839_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/PCD20839_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17111.5 ; Helo_like_N ; Fung  99.6 2.9E-21   5E-25  123.2   0.0  176    2-181     1-177 (209)
+  2 PF17107.5 ; SesA ; N-terminal   98.6 6.2E-12 1.1E-15   73.3   0.0  119    8-131     1-132 (133)
+  3 PF00599.17 ; Flu_M2 ; Influenz  83.9   0.044 7.7E-06   26.8   0.0   23    2-24     23-45  (97)
+  4 PF15967.5 ; Nucleoporin_FG2 ;   78.3     0.1 1.8E-05   35.8   0.0   17  116-132   350-366 (605)
+  5 PF06103.11 ; DUF948 ; Bacteria  70.1    0.24   4E-05   24.0   0.0   27   20-46     15-41  (87)
+  6 PF18005.1 ; eIF3m_C_helix ; eI  52.0    0.84 0.00015   16.7   0.0   24  113-136     3-26  (29)
+  7 PF05508.11 ; Ran-binding ; Ran  47.1     1.1 0.00019   27.9   0.0   29  115-143   131-159 (344)
+  8 PF05659.11 ; RPW8 ; Arabidopsi  42.2     1.5 0.00026   23.2   0.0   14  115-128    98-111 (140)
+  9 PF15967.5 ; Nucleoporin_FG2 ;   36.7     2.1 0.00036   28.9   0.0   21   74-94    355-375 (605)
+ 10 PF08285.11 ; DPM3 ; Dolichol-p  31.1       3 0.00051   20.0   0.0   23   31-53     62-84  (90)
+
+No 1
+>PF17111.5 ; Helo_like_N ; Fungal N-terminal domain of STAND proteins
+Probab=99.65  E-value=2.9e-21  Score=123.18  Aligned_cols=176  Identities=15%  Similarity=0.198  Sum_probs=145.7  Template_Neff=11.200
+
+Q PCD20839.1        1 ---MEVAASVAGLISLADLTFRVVYKYVRAAKEAEKDVKNLKREIEGLCSVLRTlqaLTDILVTEEE--KDNSALSTDIL   75 (170)
+Q Consensus         2 md~l~~aasi~~~~~~~~~~~~~~~~~~~~~~~a~~~~~~l~~~l~~l~~~l~~...l~~~~~~~~~~~~~~~~~l~~~l   78 (183)
+                      |||+|++++++++++++.++++.+++|+.+++++|.++..+..++..+..++..   +...+....   ......+...+
+T Consensus         1 md~l~~~asii~l~~~~~~~~~~~~~~~~~~~~a~~~~~~l~~~l~~l~~~l~~...l~~~~~~~~---~~~~~~l~~~~   74 (209)
+T Q5B3N2_EMENI/2    1 AEPISLASGLLALATFAFQSSVSLYDTVKSFHSHPTRVRQLIEELEALSGVLGP...LVDRVQATN---DTDLSALNLPL   74 (209)
+T ss_pred             CCcchHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCHHHHHHHHHHHHHHHHHHH...HHHHHhcCC---CCChHHhHHHH
+Confidence            899999999999999999999999999999999999999999999999999999   987765322   23345678889
+
+
+Q PCD20839.1       76 QQCKGTLEKIRTKVLDafasfEQKQNQ-ILKSTLQRLKWPFSAAETNEILNTLSRYKLTLSMATSADSLSKLhii-LNNQ  153 (170)
+Q Consensus        79 ~~c~~~l~~l~~~l~~.....~~~~~~-~~~~~~~~~~~~~~~~~i~~l~~~L~~~~~~l~~~l~~~~~~~~...~~i~~  149 (183)
+                      ..|...+.+|...+.+     +..... .....+.+.+|.|.+++++++..+|..++..|++.++..+....   ..+..
+T Consensus        75 ~~c~~~l~~l~~~l~~.....~~~~~~~~~~~~~~~~~~~~~~~~i~~l~~~l~~~~~~l~~~l~~~~~~~~...~~~~~  146 (209)
+T Q5B3N2_EMENI/2   75 LSCGKACKLFQKEIMK.....CAGRSSATRTSFRDWAKLKYMGDDVDGFRRVLAAYKSTITIALTDANLQKS...TVTAE  146 (209)
+T ss_pred             HHHHHHHHHHHHHHHH.....HhcCCCCCCCcHHHHHhHhhchhhHHHHHHHHHHHHHHHHHHHHHHhhhcc...cCCHH
+Confidence            9999999999999988     643221 11223346777888899999999999999999999999988888   88888
+
+
+Q PCD20839.1      154 VEHNIKIEEAVKNIDAs----------------  170 (170)
+Q Consensus       150 ~~~~~~l~~~~~a~~~.tr~ll~~I~~Wl~~pd  181 (183)
+                      .+..+...+......  +...+++|.+|+....
+T Consensus       147 ~~~~~~~~~~~~~~~-.~~~~~~~i~~~l~~~~  177 (209)
+T Q5B3N2_EMENI/2  147 TLKNYESLIKTAKED-.LEDHLAAIDEKLEFML  177 (209)
+T ss_pred             HHHHHHHHHHHHHHH-.HHHHHHHHHHHHHHHH
+Confidence            888777777766655  6677889999988754
+
+
+No 2
+>PF17107.5 ; SesA ; N-terminal domain on NACHT_NTPase and P-loop NTPases
+Probab=98.58  E-value=6.2e-12  Score=73.29  Aligned_cols=119  Identities=9%  Similarity=0.103  Sum_probs=88.2  Template_Neff=10.000
+
+Q PCD20839.1        4 AASVAGLISLADLTFRVVYKYVRAAKEAEKDVKNLKREIEGLCSVLRTlqaLTDILVTEEE--KDNSAL--STDILQQCK   79 (170)
+Q Consensus         8 aasi~~~~~~~~~~~~~~~~~~~~~~~a~~~~~~l~~~l~~l~~~l~~...l~~~~~~~~~~~~~~~~~--l~~~l~~c~   82 (183)
+                      +++++++++++.+++..+    .+++++|.++..+..++..+..++..   +...+..... .......  +...+..|.
+T Consensus         1 ~~~i~~~~~~~~~~~~~~----~~~~~~p~~~~~l~~~l~~l~~~l~~...~~~~~~~~~~-~~~~~~~~~i~~~~~~C~   72 (133)
+T U7PRR7_SPOS1/7    1 VASSRALARAIYETYTTI----HTIKGRPEAFDRINKSLQLIQLALWK...IQTHRSGPRA-SDDALLANAIRPITRRCE   72 (133)
+T ss_pred             ChHHHHHHHHHHHHHHHH----HhhcCCCHHHHHHHHHHHHHHHHHHH...HHHHhcCCCC-ChhHHHHHhHHHHHHHHH
+Confidence            467888888888776655    45789999999999999999999999   9887754322 1222334  888999999
+
+
+Q PCD20839.1       80 GTLEKIRTKVLDafasfEQKQ--NQIL-KSTLQR----LKW----PFSAAETNEILNTLSRYKLT  133 (170)
+Q Consensus        83 ~~l~~l~~~l~~.....~~~~--~~~~-~~~~~~----~~~----~~~~~~i~~l~~~L~~~~~~  131 (183)
+                      ..+..|...+.+     ....  .+.+ ..++..    ++|    ++++++++++..+|..+...
+T Consensus        73 ~~~~~l~~~l~~.....~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~v~~l~~~l~~~~~~  132 (133)
+T U7PRR7_SPOS1/7   73 HKIRVLHDIFVN.....LQHGLGSESWQRQTWADLGHNCRNALLELAEGNKVETLMQEILVDLAI  132 (133)
+T ss_pred             HHHHHHHHHHHH.....hcCCCCChhhhHHhHhchhhhhHhhHHHhcCCcHHHHHHHHHHHHhhc
+Confidence            999999999887     5422  1222 233334    555    88999999999999887654
+
+
+No 3
+>PF00599.17 ; Flu_M2 ; Influenza Matrix protein (M2)
+Probab=83.92  E-value=0.044  Score=26.80  Aligned_cols=23  Identities=26%  Similarity=0.337  Sum_probs=19.0  Template_Neff=2.000
+
+Q PCD20839.1        1 ---MEVAASVAGLISLADLTFRV   20 (170)
+Q Consensus         2 md~l~~aasi~~~~~~~~~~~~~   24 (183)
+                      -||+.+||+|+|++.+..-+...
+T Consensus        23 sdpLv~AA~IIGIlHLiLWIlDR   45 (97)
+T M2_I96A0/1-97    23 SDPLVVAASIIGILHLILWILDR   45 (97)
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHH
+Confidence            37899999999999988766554
+
+
+No 4
+>PF15967.5 ; Nucleoporin_FG2 ; Nucleoporin FG repeated region
+Probab=78.27  E-value=0.1  Score=35.79  Aligned_cols=17  Identities=12%  Similarity=0.282  Sum_probs=7.3  Template_Neff=6.100
+
+Q PCD20839.1      118 AETNEILNTLSRYKLTL  134 (170)
+Q Consensus       116 ~~i~~l~~~L~~~~~~l  132 (183)
+                      +.++++..+|+.++..|
+T Consensus       350 ~LveefE~rL~~yrqqI  366 (605)
+T H2LRF1_ORYLA/3  350 SLVEQFEVQLQQYRQQI  366 (605)
+T ss_pred             HHHHHHHHHHHHHHHHH
+Confidence            33444444444444443
+
+
+No 5
+>PF06103.11 ; DUF948 ; Bacterial protein of unknown function (DUF948)
+Probab=70.11  E-value=0.24  Score=24.01  Aligned_cols=27  Identities=7%  Similarity=0.217  Sum_probs=11.1  Template_Neff=8.700
+
+Q PCD20839.1       16 LTFRVVYKYVRAAKEAEKDVKNLKREI   42 (170)
+Q Consensus        20 ~~~~~~~~~~~~~~~a~~~~~~l~~~l   46 (183)
+                      .++..+.++...++.....+..+..++
+T Consensus        15 ~li~~l~~l~~~l~~~~~~l~~~~~~i   41 (87)
+T D6XYX0_BACIE/7   15 ILIPVMKNLAQTLGNVADTVETANKSV   41 (87)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            333334344444444444444444333
+
+
+No 6
+>PF18005.1 ; eIF3m_C_helix ; eIF3 subunit M, C-terminal helix
+Probab=51.97  E-value=0.84  Score=16.70  Aligned_cols=24  Identities=17%  Similarity=0.141  Sum_probs=15.3  Template_Neff=6.400
+
+Q PCD20839.1      115 FSAAETNEILNTLSRYKLTLSMAT  138 (170)
+Q Consensus       113 ~~~~~i~~l~~~L~~~~~~l~~~l  136 (183)
+                      |.+++-+.|..+|...+.++...+
+T Consensus         3 Fg~~qW~~L~~~L~~Wk~~l~~~~   26 (29)
+T A0A0C9XZH7_9AG    3 FERKQWEVLEKRLVAWKSGLAGIL   26 (29)
+T ss_pred             CcHHHHHHHHHHHHHHHHHHHHHH
+Confidence            344555677777777777766544
+
+
+No 7
+>PF05508.11 ; Ran-binding ; RanGTP-binding protein
+Probab=47.12  E-value=1.1  Score=27.90  Aligned_cols=29  Identities=7%  Similarity=0.174  Sum_probs=23.6  Template_Neff=5.400
+
+Q PCD20839.1      117 AAETNEILNTLSRYKLTLSMATSADSLSK  145 (170)
+Q Consensus       115 ~~~i~~l~~~L~~~~~~l~~~l~~~~~~~  143 (183)
+                      ..+++.|..+|+...-.|+++++......
+T Consensus       131 ~~~ik~LL~rIddaiPlLnLALttSG~~L  159 (344)
+T B8M069_TALSN/1  131 ISDIRKVLEKIEDAVPLMNLAITTSGARL  159 (344)
+T ss_pred             HHHHHHHHHHHHHHHhHHHHHHHhccccc
+Confidence            47788999999999999999998765433
+
+
+No 8
+>PF05659.11 ; RPW8 ; Arabidopsis broad-spectrum mildew resistance protein RPW8
+Probab=42.25  E-value=1.5  Score=23.19  Aligned_cols=14  Identities=14%  Similarity=0.252  Sum_probs=8.5  Template_Neff=7.400
+
+Q PCD20839.1      117 AAETNEILNTLSRY  130 (170)
+Q Consensus       115 ~~~i~~l~~~L~~~  128 (183)
+                      .+++.++...|.++
+T Consensus        98 ~~kL~~Ld~sl~~f  111 (140)
+T B9S8L2_RICCO/3   98 AGKLIKLEKSLKLF  111 (140)
+T ss_pred             HHHHHHHHHHHHHH
+Confidence            45666666666654
+
+
+No 9
+>PF15967.5 ; Nucleoporin_FG2 ; Nucleoporin FG repeated region
+Probab=36.74  E-value=2.1  Score=28.89  Aligned_cols=21  Identities=19%  Similarity=0.245  Sum_probs=10.7  Template_Neff=6.100
+
+Q PCD20839.1       71 STDILQQCKGTLEKIRTKVLDafasf   96 (170)
+Q Consensus        74 l~~~l~~c~~~l~~l~~~l~~.....   94 (183)
+                      +...++.|+..+++|+..+..     
+T Consensus       355 fE~rL~~yrqqIeeLE~~L~S.....  375 (605)
+T H2LRF1_ORYLA/3  355 FEVQLQQYRQQIEELENHLTT.....  375 (605)
+T ss_pred             HHHHHHHHHHHHHHHHHHHhh.....
+Confidence            444455555555555555543     
+
+
+No 10
+>PF08285.11 ; DPM3 ; Dolichol-phosphate mannosyltransferase subunit 3 (DPM3)
+Probab=31.14  E-value=3  Score=20.02  Aligned_cols=23  Identities=22%  Similarity=0.206  Sum_probs=16.2  Template_Neff=6.600
+
+Q PCD20839.1       27 AAKEAEKDVKNLKREIEGLCSVL   49 (170)
+Q Consensus        31 ~~~~a~~~~~~l~~~l~~l~~~l   53 (183)
+                      .++|.|++..+|.+|+..-+.-|
+T Consensus        62 tF~dcpeA~~eL~~eI~eAk~dL   84 (90)
+T T0LT01_COLGC/1   62 TFNDVPEAHKELMAEIDEAKADL   84 (90)
+T ss_pred             cCCCCHHHHHHHHHHHHHHHHHH
+Confidence            56788888888888776655443
+
+

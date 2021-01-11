@@ -1,0 +1,150 @@
+Query         KIK57943.1
+Match_columns 95
+No_of_seqs    1315 out of 1384
+Neff          7.98335
+Searched_HMMs 100
+Date          Mon Jan 11 21:27:30 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KIK57943_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KIK57943_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KIK57943_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF08043.12 ; Xin ; Xin repeat   37.1     1.9 0.00035   14.9   0.0    9   75-83      5-13  (16)
+  2 PF16496.5 ; SWIRM-assoc_2 ; SW  34.3     2.2 0.00042   27.2   0.0   18   74-91    228-245 (405)
+  3 PF05003.12 ; DUF668 ; Protein   23.5     4.5 0.00086   20.2   0.0   15   46-60     74-88  (92)
+  4 PF11806.8 ; DUF3327 ; Domain o  12.7      11  0.0023   18.4   0.0   17   67-83     37-53  (121)
+  5 PF04320.14 ; DUF469 ; Protein   11.8      13  0.0025   18.3   0.0   18   42-59     70-87  (101)
+  6 PF17705.1 ; DUF5551 ; Family o  11.8      14  0.0025   19.8   0.0   30   50-79     86-115 (155)
+  7 PF17540.2 ; DUF5457 ; Family o  11.0      15  0.0028   18.6   0.0   17   41-57     37-53  (105)
+  8 PF15119.6 ; APOC4 ; Apolipopro   8.6      21  0.0039   17.6   0.0   24   61-84     53-76  (94)
+  9 PF14258.6 ; DUF4350 ; Domain o   7.8      21  0.0045   14.3   0.0   15   42-56     47-61  (70)
+ 10 PF06616.11 ; BsuBI_PstI_RE ; B   6.8      28  0.0053   18.4   0.0   43   42-84     93-145 (153)
+
+No 1
+>PF08043.12 ; Xin ; Xin repeat
+Probab=37.10  E-value=1.9  Score=14.90  Aligned_cols=9  Identities=11%  Similarity=0.645  Sum_probs=6.3  Template_Neff=3.000
+
+Q KIK57943.1       50 TGQWILAHP   58 (67)
+Q Consensus        75 TG~WlL~~~   83 (95)
+                      +..|++|..
+T Consensus         5 ~~~wlFETq   13 (16)
+T F6SLD1_XENTR/7    5 MCKWLFETQ   13 (16)
+T ss_pred             ceeEeEecc
+Confidence            567888764
+
+
+No 2
+>PF16496.5 ; SWIRM-assoc_2 ; SWIRM-associated domain at the N-terminal
+Probab=34.28  E-value=2.2  Score=27.24  Aligned_cols=18  Identities=22%  Similarity=0.763  Sum_probs=15.8  Template_Neff=5.700
+
+Q KIK57943.1       49 GTGQWILAHPEYQKWKEH   66 (67)
+Q Consensus        74 gTG~WlL~~~~f~~W~~~   91 (95)
+                      -+..||+++..|.+|...
+T Consensus       228 V~arWl~Ds~~fNEWMNE  245 (405)
+T E0VYN8_PEDHC/5  228 VAATWVLELEQYNEWMTE  245 (405)
+T ss_pred             EeeehhhcHHHHcCCCCH
+Confidence            478999999999999864
+
+
+No 3
+>PF05003.12 ; DUF668 ; Protein of unknown function (DUF668)
+Probab=23.50  E-value=4.5  Score=20.16  Aligned_cols=15  Identities=7%  Similarity=0.071  Sum_probs=11.0  Template_Neff=5.400
+
+Q KIK57943.1       22 -EAAKIYDWLKAPDC   35 (67)
+Q Consensus        46 ~~~~~il~WLs~~d~   60 (95)
+                      +..++|++||.|.-.
+T Consensus        74 ~~~~~iL~WL~P~A~   88 (92)
+T M0TQV8_MUSAM/1   74 ATVTGMLERLAPLAH   88 (92)
+T ss_pred             HHHHHHHHHHhhhcc
+Confidence            345789999998643
+
+
+No 4
+>PF11806.8 ; DUF3327 ; Domain of unknown function (DUF3327)
+Probab=12.66  E-value=11  Score=18.38  Aligned_cols=17  Identities=29%  Similarity=0.702  Sum_probs=11.0  Template_Neff=8.500
+
+Q KIK57943.1       42 AADKKTPGTGQWILAHP   58 (67)
+Q Consensus        67 ~~~~r~~gTG~WlL~~~   83 (95)
+                      ..-+|.+||+-|++.-.
+T Consensus        37 ~~m~rl~gTdvW~~t~~   53 (121)
+T B1VMU0_STRGG/7   37 HLMERVAGTGVWAISHR   53 (121)
+T ss_pred             hhcEecCCCceEEEEEE
+Confidence            34456778888876543
+
+
+No 5
+>PF04320.14 ; DUF469 ; Protein with unknown function (DUF469)
+Probab=11.83  E-value=13  Score=18.28  Aligned_cols=18  Identities=28%  Similarity=0.452  Sum_probs=14.4  Template_Neff=6.200
+
+Q KIK57943.1       22 -----EAAKIYDWLKAPD   34 (67)
+Q Consensus        42 ~~~~~~~~~il~WLs~~d   59 (95)
+                      ...++.|..|.+||....
+T Consensus        70 s~teedR~av~~WL~~~~   87 (101)
+T M1S6W1_MORMO/7   70 ECTDEHRKLVGDWLKAKG   87 (101)
+T ss_pred             CCCHHHHHHHHHHHHhcC
+Confidence            456788999999998654
+
+
+No 6
+>PF17705.1 ; DUF5551 ; Family of unknown function (DUF5551)
+Probab=11.76  E-value=14  Score=19.80  Aligned_cols=30  Identities=20%  Similarity=0.492  Sum_probs=20.0  Template_Neff=1.900
+
+Q KIK57943.1       25 KIYDWLKAPDCSANHVAAADKKTPGTGQWI   54 (67)
+Q Consensus        50 ~il~WLs~~d~~~~~~~~~~~r~~gTG~Wl   79 (95)
+                      .+.+||....+...--.+...-.|+-|.|-
+T Consensus        86 ~~arwl~~~s~s~~~psiqa~pepdpg~wa  115 (155)
+T A0A0D9RJC2_CHL   86 TLARWLRRVSFSLYKPSIQAAPEPDPGNWA  115 (155)
+T ss_pred             HHHHHHHhCCCccCCCcccccCCCCCCccc
+Confidence            567888776666544445555678888884
+
+
+No 7
+>PF17540.2 ; DUF5457 ; Family of unknown function (DUF5457)
+Probab=10.95  E-value=15  Score=18.60  Aligned_cols=17  Identities=12%  Similarity=0.057  Sum_probs=12.8  Template_Neff=2.800
+
+Q KIK57943.1       21 D-----EAAKIYDWLKA   32 (67)
+Q Consensus        41 ~~~~~~~~~~il~WLs~   57 (95)
+                      ..+.+...+++|+||-.
+T Consensus        37 p~vtEr~VrEVLdWLV~   53 (105)
+T E1KTD3_9BACT/2   37 MNVTERDVREALDRLVY   53 (105)
+T ss_pred             CCCCHHHHHHHHHHHHh
+Confidence            45566778899999964
+
+
+No 8
+>PF15119.6 ; APOC4 ; Apolipoprotein C4
+Probab=8.57  E-value=21  Score=17.60  Aligned_cols=24  Identities=8%  Similarity=0.188  Sum_probs=18.7  Template_Neff=2.800
+
+Q KIK57943.1       36 SANHVAAADKKTPGTGQWILAHPE   59 (67)
+Q Consensus        61 ~~~~~~~~~~r~~gTG~WlL~~~~   84 (95)
+                      ..+|+++++...+.|-.|+.++.+
+T Consensus        53 qTYYeDHLkdlg~rt~aWl~sskd   76 (94)
+T APOC4_RABIT/28   53 QTYYDDHLRDLGPRAQAWLTSSRD   76 (94)
+T ss_pred             HHHHHHHhhcccHHHHHHHHhhHH
+Confidence            456788888888888899887654
+
+
+No 9
+>PF14258.6 ; DUF4350 ; Domain of unknown function (DUF4350)
+Probab=7.78  E-value=21  Score=14.32  Aligned_cols=15  Identities=20%  Similarity=0.591  Sum_probs=8.5  Template_Neff=10.300
+
+Q KIK57943.1       22 -----EAAKIYDWLK   31 (67)
+Q Consensus        42 ~~~~~~~~~il~WLs   56 (95)
+                      ...+++...|.+|+.
+T Consensus        47 ~~~~~~~~~l~~~v~   61 (70)
+T C5BL98_TERTT/3   47 LISSRRADELVDWVD   61 (70)
+T ss_pred             CCCHHHHHHHHHHHH
+Confidence            334455566666664
+
+
+No 10
+>PF06616.11 ; BsuBI_PstI_RE ; BsuBI/PstI restriction endonuclease domain
+Probab=6.82  E-value=28  Score=18.42  Aligned_cols=43  Identities=12%  Similarity=0.116  Sum_probs=24.1  Template_Neff=5.300
+
+Q KIK57943.1       22 -----EAAKIYDWLKAPDCSANHVAAAD----------KKTPGTGQWILAHPE   59 (67)
+Q Consensus        42 ~~~~~~~~~il~WLs~~d~~~~~~~~~~----------~r~~gTG~WlL~~~~   84 (95)
+                      .++..++.++.+++...+....+-.++.          .-.-+|=-|+.+.|+
+T Consensus        93 pi~~~R~~~L~~l~~~~~~~~vfvTAF~dr~~~rk~~~~iAWeTevW~a~~P~  145 (153)
+T K9ZAU9_ANACC/6   93 PIDAKRKTELESLFKSSQIPLVMVTAFLNRKAMKEYLPEISWETDVWVAEDGT  145 (153)
+T ss_pred             CCCHHHHHHHHHHHhcCCCCeEEEecCCCHHHHHHhhhhcccCCEEEEecCCC
+Confidence            5667777888888765333222222222          223467777776654
+
+

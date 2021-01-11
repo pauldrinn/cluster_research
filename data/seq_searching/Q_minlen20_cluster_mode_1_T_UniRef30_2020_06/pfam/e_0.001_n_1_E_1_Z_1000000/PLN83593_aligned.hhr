@@ -1,0 +1,150 @@
+Query         PLN83593.1
+Match_columns 81
+No_of_seqs    1093 out of 1157
+Neff          8.62294
+Searched_HMMs 100
+Date          Mon Jan 11 21:29:49 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/PLN83593_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/PLN83593_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/PLN83593_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF08043.12 ; Xin ; Xin repeat   56.0    0.62 0.00011   15.3   0.0   10   58-67      4-13  (16)
+  2 PF16496.5 ; SWIRM-assoc_2 ; SW  45.8     1.1 0.00021   27.0   0.0   19   58-76    228-246 (405)
+  3 PF05003.12 ; DUF668 ; Protein   23.9     4.5 0.00084   18.9   0.0   17   25-41     72-88  (92)
+  4 PF11806.8 ; DUF3327 ; Domain o  20.4     5.6  0.0011   18.6   0.0   17   52-68     38-54  (121)
+  5 PF11061.8 ; DUF2862 ; Protein   16.8     7.9  0.0015   16.2   0.0   12   56-67     46-57  (59)
+  6 PF09322.10 ; DUF1979 ; Domain   16.7     8.1  0.0015   16.3   0.0    8   29-36     43-50  (58)
+  7 PF05092.12 ; PIF ; Per os infe  15.5     9.2  0.0017   23.4   0.0   17   52-68    115-131 (522)
+  8 PF04320.14 ; DUF469 ; Protein    9.4      18  0.0035   16.5   0.0   18   23-40     70-87  (101)
+  9 PF09035.10 ; Tn916-Xis ; Excis   8.9      18  0.0037   13.6   0.0   17   60-76     50-66  (69)
+ 10 PF15119.6 ; APOC4 ; Apolipopro   8.7      21  0.0038   16.5   0.0   21   48-68     56-76  (94)
+
+No 1
+>PF08043.12 ; Xin ; Xin repeat
+Probab=55.95  E-value=0.62  Score=15.30  Aligned_cols=10  Identities=20%  Similarity=0.763  Sum_probs=7.0  Template_Neff=3.000
+
+Q PLN83593.1       41 GTGQWILDTD   50 (61)
+Q Consensus        58 gTg~Wll~~~   67 (81)
+                      .|+.|+++..
+T Consensus         4 ~~~~wlFETq   13 (16)
+T F6SLD1_XENTR/7    4 KMCKWLFETQ   13 (16)
+T ss_pred             cceeEeEecc
+Confidence            3677888765
+
+
+No 2
+>PF16496.5 ; SWIRM-assoc_2 ; SWIRM-associated domain at the N-terminal
+Probab=45.84  E-value=1.1  Score=26.97  Aligned_cols=19  Identities=26%  Similarity=0.851  Sum_probs=16.4  Template_Neff=5.700
+
+Q PLN83593.1       41 GTGQWILDTDQYRRWFEGG   59 (61)
+Q Consensus        58 gTg~Wll~~~~f~~W~~~~   76 (81)
+                      -++.||+++..|.+|.+..
+T Consensus       228 V~arWl~Ds~~fNEWMNEe  246 (405)
+T E0VYN8_PEDHC/5  228 VAATWVLELEQYNEWMTEE  246 (405)
+T ss_pred             EeeehhhcHHHHcCCCCHH
+Confidence            4789999999999998653
+
+
+No 3
+>PF05003.12 ; DUF668 ; Protein of unknown function (DUF668)
+Probab=23.87  E-value=4.5  Score=18.91  Aligned_cols=17  Identities=12%  Similarity=0.064  Sum_probs=12.2  Template_Neff=5.400
+
+Q PLN83593.1       16 --------LSGEKPETI   24 (61)
+Q Consensus        25 ~~~~~~~il~WLs~~~~   41 (81)
+                      -.....+|++||.|.-.
+T Consensus        72 ~~~~~~~iL~WL~P~A~   88 (92)
+T M0TQV8_MUSAM/1   72 WTATVTGMLERLAPLAH   88 (92)
+T ss_pred             HHHHHHHHHHHHhhhcc
+Confidence            34456789999998754
+
+
+No 4
+>PF11806.8 ; DUF3327 ; Domain of unknown function (DUF3327)
+Probab=20.38  E-value=5.6  Score=18.56  Aligned_cols=17  Identities=35%  Similarity=0.702  Sum_probs=13.1  Template_Neff=8.500
+
+Q PLN83593.1       35 LNSHVSGTGQWILDTDQ   51 (61)
+Q Consensus        52 ~~~r~~gTg~Wll~~~~   68 (81)
+                      .-+|.+||+-|++.-.-
+T Consensus        38 ~m~rl~gTdvW~~t~~l   54 (121)
+T B1VMU0_STRGG/7   38 LMERVAGTGVWAISHRL   54 (121)
+T ss_pred             hcEecCCCceEEEEEEe
+Confidence            45688999999986543
+
+
+No 5
+>PF11061.8 ; DUF2862 ; Protein of unknown function (DUF2862)
+Probab=16.77  E-value=7.9  Score=16.22  Aligned_cols=12  Identities=8%  Similarity=0.584  Sum_probs=8.9  Template_Neff=5.800
+
+Q PLN83593.1       39 VSGTGQWILDTD   50 (61)
+Q Consensus        56 ~~gTg~Wll~~~   67 (81)
+                      ..+|..|||+.+
+T Consensus        46 ~d~~riW~f~~E   57 (59)
+T K9VXP1_9CYAN/3   46 DDKSSTWFFEDE   57 (59)
+T ss_pred             cCCCeEEeehhh
+Confidence            457888998764
+
+
+No 6
+>PF09322.10 ; DUF1979 ; Domain of unknown function (DUF1979)
+Probab=16.66  E-value=8.1  Score=16.32  Aligned_cols=8  Identities=0%  Similarity=-0.306  Sum_probs=3.3  Template_Neff=5.000
+
+Q PLN83593.1       16 ----LSGE   19 (61)
+Q Consensus        29 ~~~il~WL   36 (81)
+                      ...+..||
+T Consensus        43 ~~~~~~Wl   50 (58)
+T A2Z0V7_ORYSI/4   43 FEAVCNWL   50 (58)
+T ss_pred             HHHHHHHH
+Confidence            33444444
+
+
+No 7
+>PF05092.12 ; PIF ; Per os infectivity
+Probab=15.45  E-value=9.2  Score=23.44  Aligned_cols=17  Identities=29%  Similarity=0.560  Sum_probs=12.8  Template_Neff=3.900
+
+Q PLN83593.1       35 LNSHVSGTGQWILDTDQ   51 (61)
+Q Consensus        52 ~~~r~~gTg~Wll~~~~   68 (81)
+                      .+.+.|.||.|+|....
+T Consensus       115 arsCNp~tG~WvL~~~~  131 (522)
+T Q8B9E2_NPVR1/8  115 ARSCNPNTGVWLLAETE  131 (522)
+T ss_pred             HhhcCCCCceEEEEEeC
+Confidence            35578999999996543
+
+
+No 8
+>PF04320.14 ; DUF469 ; Protein with unknown function (DUF469)
+Probab=9.39  E-value=18  Score=16.53  Aligned_cols=18  Identities=6%  Similarity=-0.130  Sum_probs=14.1  Template_Neff=6.200
+
+Q PLN83593.1       16 ----------LSGEKPET   23 (61)
+Q Consensus        23 ~~~~~~~~~il~WLs~~~   40 (81)
+                      ...++.+..|.+||....
+T Consensus        70 s~teedR~av~~WL~~~~   87 (101)
+T M1S6W1_MORMO/7   70 ECTDEHRKLVGDWLKAKG   87 (101)
+T ss_pred             CCCHHHHHHHHHHHHhcC
+Confidence            456788899999998654
+
+
+No 9
+>PF09035.10 ; Tn916-Xis ; Excisionase from transposon Tn916
+Probab=8.93  E-value=18  Score=13.65  Aligned_cols=17  Identities=0%  Similarity=0.237  Sum_probs=14.1  Template_Neff=10.300
+
+Q PLN83593.1       43 GQWILDTDQYRRWFEGG   59 (61)
+Q Consensus        60 g~Wll~~~~f~~W~~~~   76 (81)
+                      |.|++....+.+|....
+T Consensus        50 ~~~~~~~~~l~~~~~~~   66 (69)
+T D4LZS3_9FIRM/1   50 SHIRFKRKLFEDYLDTA   66 (69)
+T ss_pred             CEEEEEHHHHHHHHHhc
+Confidence            78888888999998754
+
+
+No 10
+>PF15119.6 ; APOC4 ; Apolipoprotein C4
+Probab=8.72  E-value=21  Score=16.52  Aligned_cols=21  Identities=19%  Similarity=0.507  Sum_probs=13.6  Template_Neff=2.800
+
+Q PLN83593.1       31 YQKHLNSHVSGTGQWILDTDQ   51 (61)
+Q Consensus        48 ~~~~~~~r~~gTg~Wll~~~~   68 (81)
+                      |+.+++...+-|-.|+..+..
+T Consensus        56 YeDHLkdlg~rt~aWl~sskd   76 (94)
+T APOC4_RABIT/28   56 YDDHLRDLGPRAQAWLTSSRD   76 (94)
+T ss_pred             HHHHhhcccHHHHHHHHhhHH
+Confidence            344477777777777776543
+
+

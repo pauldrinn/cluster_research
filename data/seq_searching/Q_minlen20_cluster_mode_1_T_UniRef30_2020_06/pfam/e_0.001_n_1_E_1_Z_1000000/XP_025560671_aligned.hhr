@@ -1,0 +1,186 @@
+Query         XP_025560671.1
+Match_columns 487
+No_of_seqs    1993 out of 2054
+Neff          8.3812
+Searched_HMMs 907
+Date          Mon Jan 11 21:34:28 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/XP_025560671_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_025560671_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_025560671_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17100.5 ; NACHT_N ; N-termin  99.9 3.8E-27 7.7E-31  218.0   0.0  219  164-395     1-228 (229)
+  2 PF17109.5 ; Goodbye ; fungal S  97.9 1.9E-09 3.8E-13   86.6   0.0   95  213-313    28-123 (123)
+  3 PF13824.6 ; zf-Mss51 ; Zinc-fi  95.4  0.0001   2E-08   52.2   0.0   38    9-51     35-72  (77)
+  4 PF01753.18 ; zf-MYND ; MYND fi  89.0   0.011 2.3E-06   30.4   0.0   30    9-43      9-38  (38)
+  5 PF08097.11 ; Toxin_26 ; Conoto  70.8    0.22 3.8E-05   19.9   0.0    8   16-23      3-10  (11)
+  6 PF15967.5 ; Nucleoporin_FG2 ;   27.8     3.3 0.00064   38.0   0.0    9  214-222   250-258 (605)
+  7 PF17111.5 ; Helo_like_N ; Fung  22.6     4.5 0.00092   29.9   0.0   10  438-447   166-175 (209)
+  8 PF15967.5 ; Nucleoporin_FG2 ;   13.7      11   0.002   34.2   0.0   22  171-194   246-267 (605)
+  9 PF05077.12 ; DUF678 ; Protein    8.9      20  0.0037   22.7   0.0   10    9-18     66-75  (81)
+ 10 PF18585.1 ; zf-CCCH_6 ; Chroma   6.6      30  0.0055   20.4   0.0    9   13-21      3-11  (58)
+
+No 1
+>PF17100.5 ; NACHT_N ; N-terminal domain of NWD NACHT-NTPase
+Probab=99.85  E-value=3.8e-27  Score=218.01  Aligned_cols=219  Identities=18%  Similarity=0.319  Sum_probs=177.8  Template_Neff=10.000
+
+Q XP_025560671.1   57 EGLWKKAYSDLRNKN--PDLLVQYETILLSNTESDSL-----------HHESRVENHDIDPRLESCVKTRLEAIQKSRLK  123 (372)
+Q Consensus       164 ~~LW~~Ay~~L~~~~~~~~Lv~~ye~~L~~~~~~~~~---------~~~~~~~~~~~~~~~~l~~~v~~~~~~~~~k~wk  234 (487)
+                      ++||++||+.|+.++++++|+..||.++...+.....         ............+.++|..+++..+++++++   
+T Consensus         1 ~~LW~~Ay~~L~~~~~~~~l~~~ye~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~v~~~~~~~~~~---   77 (229)
+T B8NEA4_ASPFN/5    1 EDLWNRAYKKLKEDPVKEKYMNSYEQLVSDIFLRQPTNGSARAEPVHEGKSGTDRTPWTEDQLQNIVQKGLERVNAS---   77 (229)
+T ss_pred             CcHHHHHHHHHhhCccCHHHHHHHHHHHHHHHhcCCCCCCCCCCCccCCCCCCCCChhHHHHHHHHHHHHHHHHHhh---
+Confidence            4799999999999833399999999999764221100         0001112234556778888888888776543   
+
+
+Q XP_025560671.1  124 IYIRGKEIEVRKQVRRVVGGIMSMKDIISAAVSAELHASIAWAGVLFLLDPLAKSFHQNEDALNGFQAVSDLMIRYAFLE  203 (372)
+Q Consensus       235 ~~~~gk~~~vr~~~~~il~~l~~~~~iid~av~~~P~AalaWa~V~~lL~i~~n~~~~~~~l~~gle~I~~~l~~y~~~e  314 (487)
+                             ..+++.+++++..+..|+++++.+++.+|+|+++||+||++|+++.++.+..+.+.+|+++|...|.||..++
+T Consensus        78 -------~~~~~~~~~~~~~i~~~~~~i~~~~~~~P~aal~W~~v~~~l~~~~~~~~~~~~~~~~l~~i~~~l~~y~~~~  150 (229)
+T B8NEA4_ASPFN/5   78 -------QKRIDSASEVFGVVQNLKPIFNAVLSNTPHTALPWAIVSSTLDILANPVRSTKALYDGVSHVVGRMQWYSKIT  150 (229)
+T ss_pred             -------HHHHHHHHHHHHHHHHHHHHHHHHHhcCcccHHHHHHHHHHHHHHhChHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence                   3678899999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q XP_025560671.1  204 KSQTRIYMK-SgSKVAESAQHLAELVRSKTVELYVLILEYHICLATHFSHSGYTRFLKDWVDFNKWRNLLESITSLDGKI  282 (372)
+Q Consensus       315 ~l~~~~~~~~~.~~~~~~~~~~~~~L~~~Lv~LY~~IL~f~~~ai~~~~~~~~~r~l~~~~~~~dw~~~l~~I~~~e~~v  393 (487)
+                      .+|........    ......+...|++.|++||..||.|+++++++|.++.+.+++++++++++|.+++.+|++.++.+
+T Consensus       151 ~~~~~~~~~~~.---~~~~~~~~~~l~~~l~~LY~~iL~f~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~e~~~  226 (229)
+T B8NEA4_ASPFN/5  151 DNLLQTGSENG.---HQKLEEVRKQLETGMLDMYKCMLFYEIKSVCFYHKNQLAVFVRGLFNIDDWDGGLTKLNEQENAL  226 (229)
+T ss_pred             HHHhccCCcCC.---chhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhchHHHHHHHhhccCChhHHHHHHHHHHHHH
+Confidence            98876432110    00011124789999999999999999999999999999999999999999999999999988877
+
+
+Q XP_025560671.1  283 RQ  284 (372)
+Q Consensus       394 ~~  395 (487)
+                      ++
+T Consensus       227 ~~  228 (229)
+T B8NEA4_ASPFN/5  227 RS  228 (229)
+T ss_pred             hc
+Confidence            64
+
+
+No 2
+>PF17109.5 ; Goodbye ; fungal STAND N-terminal Goodbye domain
+Probab=97.92  E-value=1.9e-09  Score=86.56  Aligned_cols=95  Identities=16%  Similarity=0.152  Sum_probs=80.4  Template_Neff=8.800
+
+Q XP_025560671.1  102 IDPRLESCVKTRLEAIQKSRLKIYIRGKEIEVRKQVRRVVGGIMSMKDIISAAVSAEL-HASIAWAGVLFLLDPLAKSFH  180 (372)
+Q Consensus       213 ~~~~l~~~v~~~~~~~~~k~wk~~~~gk~~~vr~~~~~il~~l~~~~~iid~av~~~P-~AalaWa~V~~lL~i~~n~~~  291 (487)
+                      ..+++...++...+++.+.+      ++..++++.+.+++.++..+.++++.+++..| +|+++|++|+++++++.+...
+T Consensus        28 s~~~l~~~l~~~~~~f~~~r------~~~~~~~~~l~~~l~~i~~~~~~~~~~~s~~~~pa~~i~~av~~ll~~~~~~~~  101 (123)
+T S8AD61_DACHA/1   28 TLESFLRKIEDQNQKHREFC------GRSEHMRDSISKFLRPALLFSDIIGTAVSIAYPPAQAIFAATSFLIKAADGLSS  101 (123)
+T ss_pred             CHHHHHHHHHHHHHHHHHHH------HhhHHHHHHHHHhhHHHHHHHHHHHHHhhccCchHHHHHHHHHHHHHHHHhHHH
+Confidence            45667777777777665432      23347889999999999999999999988765 899999999999999999999
+
+
+Q XP_025560671.1  181 QNEDALNGFQAVSDLMIRYAFL  202 (372)
+Q Consensus       292 ~~~~l~~gle~I~~~l~~y~~~  313 (487)
+                      .++.+.+.|+.|...|.|+..|
+T Consensus       102 ~~d~i~~lf~~l~~~l~rl~~Y  123 (123)
+T S8AD61_DACHA/1  102 IYDAIAELLMEMSYSSQRLALY  123 (123)
+T ss_pred             HHHHHHHHHHHHHHHHHHhhcC
+Confidence            9999999999999999888754
+
+
+No 3
+>PF13824.6 ; zf-Mss51 ; Zinc-finger of mitochondrial splicing suppressor 51
+Probab=95.35  E-value=0.0001  Score=52.17  Aligned_cols=38  Identities=0%  Similarity=0.000  Sum_probs=33.9  Template_Neff=6.900
+
+Q XP_025560671.1    1 -------------------------------------------    0 (372)
+Q Consensus         9 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   51 (487)
+                      .+..|.+|+.+.||+.+|+..+|     +.|+..|..++..+.
+T Consensus        35 ~l~~C~~C~~~~YCS~e~q~~dW-----~~HK~~C~~~~~~~~   72 (77)
+T U1G7U9_ENDPU/6   35 VHFECPDCGIATYCTEEHWADDY-----EAHMEICDTLRQINE   72 (77)
+T ss_pred             CCeeCCCCCcEEECCHHHHHHhH-----HHHHHHHHHHHHHhh
+Confidence            46799999999999999999999     989999998877554
+
+
+No 4
+>PF01753.18 ; zf-MYND ; MYND finger
+Probab=89.03  E-value=0.011  Score=30.41  Aligned_cols=30  Identities=0%  Similarity=0.000  Sum_probs=24.2  Template_Neff=13.600
+
+Q XP_025560671.1    1 -----------------------------------    0 (372)
+Q Consensus         9 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   43 (487)
+                      .+..|..|..+.||+..++..+|     +.|+..|
+T Consensus         9 ~l~~c~~~~~~~~~~~~~~~~~w-----~~~~~~c   38 (38)
+T Q0UA34_PHANO/3    9 ELQRCAGCHNILYCSKKCQKADR-----KEHKSLC   38 (38)
+T ss_pred             CCeeCCCCCCeEECCHHHHHHhH-----HHHHccC
+Confidence            35689999999999999999999     7665543
+
+
+No 5
+>PF08097.11 ; Toxin_26 ; Conotoxin T-superfamily
+Probab=70.75  E-value=0.22  Score=19.89  Aligned_cols=8  Identities=0%  Similarity=0.000  Sum_probs=6.0  Template_Neff=1.000
+
+Q XP_025560671.1    1 --------    0 (372)
+Q Consensus        16 ~~~~~~~~   23 (487)
+                      |.+++||+
+T Consensus         3 cpvirycc   10 (11)
+T CT5B_CONAL/1-1    3 CPVIRYCC   10 (11)
+T ss_pred             Ccccceec
+Confidence            66788884
+
+
+No 6
+>PF15967.5 ; Nucleoporin_FG2 ; Nucleoporin FG repeated region
+Probab=27.77  E-value=3.3  Score=38.01  Aligned_cols=9  Identities=22%  Similarity=0.235  Sum_probs=3.8  Template_Neff=6.100
+
+Q XP_025560671.1  103 DPRLESCVK  111 (372)
+Q Consensus       214 ~~~l~~~v~  222 (487)
+                      .+++++.|+
+T Consensus       250 P~eI~~~Ve  258 (605)
+T H2LRF1_ORYLA/3  250 PPVICQDVE  258 (605)
+T ss_pred             CHHHHHHHH
+Confidence            344444443
+
+
+No 7
+>PF17111.5 ; Helo_like_N ; Fungal N-terminal domain of STAND proteins
+Probab=22.60  E-value=4.5  Score=29.87  Aligned_cols=10  Identities=30%  Similarity=0.242  Sum_probs=5.4  Template_Neff=11.200
+
+Q XP_025560671.1  324 QKELLEKLPV  333 (372)
+Q Consensus       438 ~~~iL~~L~~  447 (487)
+                      ...+..||..
+T Consensus       166 ~~~i~~~l~~  175 (209)
+T Q5B3N2_EMENI/2  166 LAAIDEKLEF  175 (209)
+T ss_pred             HHHHHHHHHH
+Confidence            3455666654
+
+
+No 8
+>PF15967.5 ; Nucleoporin_FG2 ; Nucleoporin FG repeated region
+Probab=13.70  E-value=11  Score=34.18  Aligned_cols=22  Identities=5%  Similarity=0.006  Sum_probs=11.5  Template_Neff=6.100
+
+Q XP_025560671.1   64 YSDLRNKN--PDLLVQYETILLSN   85 (372)
+Q Consensus       171 y~~L~~~~~~~~Lv~~ye~~L~~~  194 (487)
+                      |+.|.++-  .++|+.+++.+.++
+T Consensus       246 ~~dLP~eI--~~~Ve~lkkfIK~Q  267 (605)
+T H2LRF1_ORYLA/3  246 DENLPPVI--CQDVENFQKFVKEQ  267 (605)
+T ss_pred             hhhCCHHH--HHHHHHHHHHHHHH
+Confidence            33444443  55666666666543
+
+
+No 9
+>PF05077.12 ; DUF678 ; Protein of unknown function (DUF678)
+Probab=8.92  E-value=20  Score=22.71  Aligned_cols=10  Identities=0%  Similarity=0.000  Sum_probs=5.7  Template_Neff=2.700
+
+Q XP_025560671.1    1 ----------    0 (372)
+Q Consensus         9 ~~~~~~~~~~   18 (487)
+                      ....|+.|+.
+T Consensus        66 ~~L~CsACGS   75 (81)
+T Q070A9_CPRVZ/1   66 TALRCSACNS   75 (81)
+T ss_pred             CceeecccCC
+Confidence            3456666654
+
+
+No 10
+>PF18585.1 ; zf-CCCH_6 ; Chromatin remodeling factor Mit1 C-terminal Zn finger 2
+Probab=6.58  E-value=30  Score=20.43  Aligned_cols=9  Identities=0%  Similarity=0.000  Sum_probs=4.1  Template_Neff=4.600
+
+Q XP_025560671.1    1 ---------    0 (372)
+Q Consensus        13 ~~~~~~~~~   21 (487)
+                      |..|++..|
+T Consensus         3 C~LCG~aH~   11 (58)
+T A0A093XBE5_9PE    3 CGVCGLAHY   11 (58)
+T ss_pred             CCcCCcccC
+Confidence            444444443
+
+

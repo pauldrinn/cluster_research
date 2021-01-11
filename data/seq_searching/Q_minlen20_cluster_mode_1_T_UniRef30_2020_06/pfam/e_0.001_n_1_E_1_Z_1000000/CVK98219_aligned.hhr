@@ -1,0 +1,150 @@
+Query         CVK98219.1
+Match_columns 114
+No_of_seqs    1135 out of 1163
+Neff          6.22983
+Searched_HMMs 100
+Date          Mon Jan 11 21:24:55 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/CVK98219_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/CVK98219_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/CVK98219_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF16496.5 ; SWIRM-assoc_2 ; SW  15.0     8.8  0.0018   26.4   0.0   24   87-110   223-246 (405)
+  2 PF09907.9 ; HigB_toxin ; HigB_   9.6      16  0.0033   17.9   0.0   14   93-106    61-74  (74)
+  3 PF06616.11 ; BsuBI_PstI_RE ; B   8.0      22  0.0043   20.8   0.0   26   78-103   121-146 (153)
+  4 PF08466.10 ; IRK_N ; Inward re   6.4      29  0.0057   16.2   0.0   12    7-18     36-47  (47)
+  5 PF04316.13 ; FlgM ; Anti-sigma   3.0      70   0.015   14.0   0.0   23   73-95     21-43  (55)
+  6 PF14567.6 ; SUKH_5 ; SMI1-KNR4   2.9      66   0.015   15.0   0.0   24   67-90     28-51  (134)
+  7 PF12095.8 ; CRR7 ; Protein CHL   2.7      88   0.017   16.1   0.0   27   81-107    54-80  (85)
+  8 PF10929.8 ; DUF2811 ; Protein    2.5      97   0.019   15.2   0.0   22   62-83      9-30  (65)
+  9 PF04664.13 ; OGFr_N ; Opioid g   2.0 1.2E+02   0.025   17.5   0.0   19   90-108    32-50  (208)
+ 10 PF14568.6 ; SUKH_6 ; SMI1-KNR4   1.9   1E+02   0.025   13.3   0.0   22   71-92     12-33  (120)
+
+No 1
+>PF16496.5 ; SWIRM-assoc_2 ; SWIRM-associated domain at the N-terminal
+Probab=15.02  E-value=8.8  Score=26.35  Aligned_cols=24  Identities=13%  Similarity=0.459  Sum_probs=18.8  Template_Neff=5.700
+
+Q CVK98219.1       87 GPRAPKTCEWIMNVPEVKSWLQPE  110 (114)
+Q Consensus        87 g~~l~gTCeWIL~~~~f~~W~~~~  110 (114)
+                      ++.-.=++.||++...|..|.+..
+T Consensus       223 ~~pw~V~arWl~Ds~~fNEWMNEe  246 (405)
+T E0VYN8_PEDHC/5  223 VGPWRVAATWVLELEQYNEWMTEE  246 (405)
+T ss_pred             CCCeEEeeehhhcHHHHcCCCCHH
+Confidence            344555889999999999998653
+
+
+No 2
+>PF09907.9 ; HigB_toxin ; HigB_toxin, RelE-like toxic component of a toxin-antitoxin system
+Probab=9.62  E-value=16  Score=17.87  Aligned_cols=14  Identities=7%  Similarity=-0.028  Sum_probs=11.0  Template_Neff=7.700
+
+Q CVK98219.1       93 TCEWIMNVPEVKSW  106 (114)
+Q Consensus        93 TCeWIL~~~~f~~W  106 (114)
+                      ...||+.|.+|..|
+T Consensus        61 ~i~~i~tH~eYdk~   74 (74)
+T Q3SMY4_NITWN/2   61 MIRFFGSHEEYDKV   74 (74)
+T ss_pred             EEEEeeCHHHHccC
+Confidence            36789999988765
+
+
+No 3
+>PF06616.11 ; BsuBI_PstI_RE ; BsuBI/PstI restriction endonuclease domain
+Probab=7.98  E-value=22  Score=20.83  Aligned_cols=26  Identities=12%  Similarity=0.111  Sum_probs=20.2  Template_Neff=5.300
+
+Q CVK98219.1       78 AKDALRTQQGPRAPKTCEWIMNVPEV  103 (114)
+Q Consensus        78 Dk~~i~~~kg~~l~gTCeWIL~~~~f  103 (114)
+                      |+...++.-..+.-+|+-||.+.|+-
+T Consensus       121 dr~~~rk~~~~iAWeTevW~a~~P~h  146 (153)
+T K9ZAU9_ANACC/6  121 NRKAMKEYLPEISWETDVWVAEDGTH  146 (153)
+T ss_pred             CHHHHHHhhhhcccCCEEEEecCCCc
+Confidence            34445677888999999999998764
+
+
+No 4
+>PF08466.10 ; IRK_N ; Inward rectifier potassium channel N-terminal
+Probab=6.44  E-value=29  Score=16.22  Aligned_cols=12  Identities=50%  Similarity=0.673  Sum_probs=6.5  Template_Neff=4.600
+
+Q CVK98219.1        7 KDDSPRSSRSRF   18 (114)
+Q Consensus         7 ~~~~~~~~~~~~   18 (114)
+                      |-..++.-++||
+T Consensus        36 k~~~~~~~rsRF   47 (47)
+T W5LSU5_ASTMX/1   36 KIHTRRKGRSRF   47 (47)
+T ss_pred             ccccCccCcCCC
+Confidence            333355666666
+
+
+No 5
+>PF04316.13 ; FlgM ; Anti-sigma-28 factor, FlgM
+Probab=3.03  E-value=70  Score=14.05  Aligned_cols=23  Identities=9%  Similarity=-0.047  Sum_probs=14.5  Template_Neff=7.300
+
+Q CVK98219.1       73 LDPSYAKDALRTQQGPRAPKTCE   95 (114)
+Q Consensus        73 tdP~dDk~~i~~~kg~~l~gTCe   95 (114)
+                      .-|..+.+++...+...-.|+|.
+T Consensus        21 ~~p~v~~~kV~~ik~~i~~G~Y~   43 (55)
+T B5EDX1_GEOBB/4   21 SLPEVRLDRVALAKQQVQNGGYR   43 (55)
+T ss_pred             cCccccHHHHHHHHHHHHcCCCC
+Confidence            34555666666666666777765
+
+
+No 6
+>PF14567.6 ; SUKH_5 ; SMI1-KNR4 cell-wall
+Probab=2.90  E-value=66  Score=14.95  Aligned_cols=24  Identities=13%  Similarity=-0.081  Sum_probs=12.8  Template_Neff=11.300
+
+Q CVK98219.1       67 YNDLIWLDPSYAKDALRTQQGPRA   90 (114)
+Q Consensus        67 L~~L~~tdP~dDk~~i~~~kg~~l   90 (114)
+                      .+.|-..=|.+.+.-+....|..+
+T Consensus        28 e~~~~~~lP~~~~~fl~~~~g~~~   51 (134)
+T I0GP53_SELRL/1   28 EKELGVRFPIEYRMFLKEYGASSV   51 (134)
+T ss_pred             HHHHCCCCCHHHHHHHHHHCCCcc
+Confidence            333444556666666665555444
+
+
+No 7
+>PF12095.8 ; CRR7 ; Protein CHLORORESPIRATORY REDUCTION 7
+Probab=2.68  E-value=88  Score=16.13  Aligned_cols=27  Identities=19%  Similarity=0.357  Sum_probs=21.8  Template_Neff=4.100
+
+Q CVK98219.1       81 ALRTQQGPRAPKTCEWIMNVPEVKSWL  107 (114)
+Q Consensus        81 ~i~~~kg~~l~gTCeWIL~~~~f~~W~  107 (114)
+                      .++.....++...|+.=+....|.+|-
+T Consensus        54 s~~~qa~~Lldt~CELe~~pg~~lQWY   80 (85)
+T K9TR52_9CYAN/1   54 TIEAQAQYLLETSCEFDLGPGEYFQWY   80 (85)
+T ss_pred             CHHHHHHHHHHccceEecCCCceEEEE
+Confidence            456666778888999988888999985
+
+
+No 8
+>PF10929.8 ; DUF2811 ; Protein of unknown function (DUF2811)
+Probab=2.50  E-value=97  Score=15.20  Aligned_cols=22  Identities=14%  Similarity=0.294  Sum_probs=15.6  Template_Neff=3.700
+
+Q CVK98219.1       62 QIEAFYNDLIWLDPSYAKDALR   83 (114)
+Q Consensus        62 ~~~~cL~~L~~tdP~dDk~~i~   83 (114)
+                      ...+.|+....+.|..|..|+-
+T Consensus         9 ~Lh~sl~~yle~hP~WDQ~Rv~   30 (65)
+T B1XJ61_SYNP2/7    9 ALHQSLTDYLETHPNWDQDRVF   30 (65)
+T ss_pred             HHHHHHHHHHHHCCCCcHHHHH
+Confidence            3456777777888888877644
+
+
+No 9
+>PF04664.13 ; OGFr_N ; Opioid growth factor receptor (OGFr) conserved region
+Probab=1.97  E-value=1.2e+02  Score=17.48  Aligned_cols=19  Identities=11%  Similarity=0.169  Sum_probs=14.7  Template_Neff=6.300
+
+Q CVK98219.1       90 APKTCEWIMNVPEVKSWLQ  108 (114)
+Q Consensus        90 l~gTCeWIL~~~~f~~W~~  108 (114)
+                      ..+.++|+-.+..|.+|+-
+T Consensus        32 w~~~~~~LE~~HdyIQWLF   50 (208)
+T OGFR_MOUSE/76-   32 WKDNYDLLEENHSYIQWLF   50 (208)
+T ss_pred             ccCCHHHHHhcCCceeeec
+Confidence            3467888888889999973
+
+
+No 10
+>PF14568.6 ; SUKH_6 ; SMI1-KNR4 cell-wall
+Probab=1.95  E-value=1e+02  Score=13.31  Aligned_cols=22  Identities=18%  Similarity=-0.064  Sum_probs=11.2  Template_Neff=11.800
+
+Q CVK98219.1       71 IWLDPSYAKDALRTQQGPRAPK   92 (114)
+Q Consensus        71 ~~tdP~dDk~~i~~~kg~~l~g   92 (114)
+                      -..=|.+.++-+....|..+.+
+T Consensus        12 g~~lP~~y~~fl~~~~g~~~~~   33 (120)
+T C5ANN1_BURGB/1   12 RVKLPEAFKRHYITYNGGYPVD   33 (120)
+T ss_pred             CCCCCHHHHHHHHHhCCCccCc
+Confidence            3345555666555555544433
+
+

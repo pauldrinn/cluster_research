@@ -1,0 +1,186 @@
+Query         KZP28430.1
+Match_columns 556
+No_of_seqs    1943 out of 2004
+Neff          8.40348
+Searched_HMMs 603
+Date          Mon Jan 11 21:28:08 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KZP28430_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KZP28430_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KZP28430_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17100.5 ; NACHT_N ; N-termin  97.2 1.4E-07 2.9E-11   84.7   0.0  131  305-438    82-226 (229)
+  2 PF17109.5 ; Goodbye ; fungal S  95.3  0.0001   2E-08   58.3   0.0   68  305-372    55-123 (123)
+  3 PF17111.5 ; Helo_like_N ; Fung  80.2   0.067 1.4E-05   43.2   0.0  110  333-445    16-136 (209)
+  4 PF11618.8 ; C2-C2_1 ; First C2  73.1    0.15 3.1E-05   38.3   0.0   71  168-244    32-109 (142)
+  5 PF15729.5 ; ALS2CR11 ; Amyotro  69.5    0.22 4.2E-05   45.6   0.0   73  168-245    45-134 (420)
+  6 PF15625.6 ; CC2D2AN-C2 ; CC2D2  54.9    0.62 0.00012   36.3   0.0   70  167-241    34-107 (160)
+  7 PF17560.2 ; Megourin ; Aphid M  21.5     5.7   0.001   23.7   0.0   24  517-540     9-32  (63)
+  8 PF00168.30 ; C2 ; C2 domain     17.8     6.6  0.0014   25.8   0.0   48  191-243    53-105 (116)
+  9 PF13166.6 ; AAA_13 ; AAA domai   7.6      23  0.0046   32.7   0.0   27  516-553    18-44  (753)
+ 10 PF17107.5 ; SesA ; N-terminal    6.5      28  0.0056   23.4   0.0   22  350-371    23-44  (133)
+
+No 1
+>PF17100.5 ; NACHT_N ; N-terminal domain of NWD NACHT-NTPase
+Probab=97.24  E-value=1.4e-07  Score=84.71  Aligned_cols=131  Identities=11%  Similarity=0.129  Sum_probs=108.0  Template_Neff=10.000
+
+Q KZP28430.1      139 GLGLQLFQILQQIVPVIDESGDAHPVLKMIWTILSSAYKAVKNEMNHIPAVCDLAKSLQEILGVATIVPALAR-------  211 (324)
+Q Consensus       305 ~~~~~ll~~L~~~~~iid~ia~v~P~ak~Aw~~ls~vlki~~~~~~~de~i~~L~e~L~~ll~~l~~~~~l~~-------  377 (556)
+                      +.++.++..+..|.++++.+++.+|+++++|++++.+++++.+..+..+.+.+.+..+...+.++..+..+..       
+T Consensus        82 ~~~~~~~~~i~~~~~~i~~~~~~~P~aal~W~~v~~~l~~~~~~~~~~~~~~~~l~~i~~~l~~y~~~~~~~~~~~~~~~  161 (229)
+T B8NEA4_ASPFN/5   82 DSASEVFGVVQNLKPIFNAVLSNTPHTALPWAIVSSTLDILANPVRSTKALYDGVSHVVGRMQWYSKITDNLLQTGSENG  161 (229)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHhcCcccHHHHHHHHHHHHHHhChHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccCCcCC
+Confidence            3567788899999999999999999999999999999999999999999999999999999988877765431       
+
+
+Q KZP28430.1      212 -------IQDTDDVITEIRRAALEGALLIAEYGGTALLA-----DQLSDISDRITQCEKRCTDLGRKF  267 (324)
+Q Consensus       378 -------~~~l~~~L~~l~~~ile~~~~I~~y~~~~~~~~R~lk~~~s~~~~~I~~~~~~~~~L~~~l  438 (556)
+                             .+.+++.+.++|..|+++...+..++.++.+ .|+++..+..  ++++.+.+.|+...+.+
+T Consensus       162 ~~~~~~~~~~l~~~l~~LY~~iL~f~~~~~~~~~~~~~-~~~~~~~~~~--~~~~~~~~~i~~~e~~~  226 (229)
+T B8NEA4_ASPFN/5  162 HQKLEEVRKQLETGMLDMYKCMLFYEIKSVCFYHKNQL-AVFVRGLFNI--DDWDGGLTKLNEQENAL  226 (229)
+T ss_pred             chhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhchH-HHHHHHhhcc--CChhHHHHHHHHHHHHH
+Confidence                   2678889999999999999999999888777 8888877643  45666666665544433
+
+
+No 2
+>PF17109.5 ; Goodbye ; fungal STAND N-terminal Goodbye domain
+Probab=95.35  E-value=0.0001  Score=58.27  Aligned_cols=68  Identities=13%  Similarity=0.050  Sum_probs=59.6  Template_Neff=8.800
+
+Q KZP28430.1      139 GLGLQLFQILQQIVPVIDESGD-AHPVLKMIWTILSSAYKAVKNEMNHIPAVCDLAKSLQEILGVATIV  206 (324)
+Q Consensus       305 ~~~~~ll~~L~~~~~iid~ia~-v~P~ak~Aw~~ls~vlki~~~~~~~de~i~~L~e~L~~ll~~l~~~  372 (556)
+                      ..+.++++.++.+.++++.+++ .+|+++++|+++..++++..++.+.++.+.++++.|...+.++..|
+T Consensus        55 ~~l~~~l~~i~~~~~~~~~~~s~~~~pa~~i~~av~~ll~~~~~~~~~~d~i~~lf~~l~~~l~rl~~Y  123 (123)
+T S8AD61_DACHA/1   55 DSISKFLRPALLFSDIIGTAVSIAYPPAQAIFAATSFLIKAADGLSSIYDAIAELLMEMSYSSQRLALY  123 (123)
+T ss_pred             HHHHHhhHHHHHHHHHHHHHhhccCchHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHHhhcC
+Confidence            4677788889999999888777 5667999999999999999999999999999999999998887643
+
+
+No 3
+>PF17111.5 ; Helo_like_N ; Fungal N-terminal domain of STAND proteins
+Probab=80.17  E-value=0.067  Score=43.22  Aligned_cols=110  Identities=13%  Similarity=0.110  Sum_probs=53.4  Template_Neff=11.200
+
+Q KZP28430.1      167 MIWTILSSAYKAVKNEMNHIPAVCDLAKSLQEILGVATIVPALA------RIQDTDDVITEIRRAALEGALLIAEYGGTA  240 (324)
+Q Consensus       333 ~Aw~~ls~vlki~~~~~~~de~i~~L~e~L~~ll~~l~~~~~l~------~~~~l~~~L~~l~~~ile~~~~I~~y~~~~  406 (556)
+                      +++.++..+++++....+..+.+..+...+..+...+.......      ....+...+..+...+.++...+..+....
+T Consensus        16 ~~~~~~~~~~~~~~~~~~a~~~~~~l~~~l~~l~~~l~~l~~~~~~~~~~~~~~l~~~~~~c~~~l~~l~~~l~~~~~~~   95 (209)
+T Q5B3N2_EMENI/2   16 FAFQSSVSLYDTVKSFHSHPTRVRQLIEELEALSGVLGPLVDRVQATNDTDLSALNLPLLSCGKACKLFQKEIMKCAGRS   95 (209)
+T ss_pred             HHHHHHHHHHHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCChHHhHHHHHHHHHHHHHHHHHHHHHhcCC
+Confidence            33444445555555555556666666666555555444333211      112233333333333334433444333221
+
+
+Q KZP28430.1      241 -----LLA-----DQLSDISDRITQCEKRCTDLGRKFRA-----  269 (324)
+Q Consensus       407 -----~~~~R~lk~~~s~~~~~I~~~~~~~~~L~~~l~~~i~l~  445 (556)
+                           .+ ....+..|  ..++|+++..++..++..+...+...
+T Consensus        96 ~~~~~~~-~~~~~~~~--~~~~i~~l~~~l~~~~~~l~~~l~~~  136 (209)
+T Q5B3N2_EMENI/2   96 SATRTSF-RDWAKLKY--MGDDVDGFRRVLAAYKSTITIALTDA  136 (209)
+T ss_pred             CCCCCcH-HHHHhHhh--chhhHHHHHHHHHHHHHHHHHHHHHH
+Confidence                 11 22233333  24778888888888877776654443
+
+
+No 4
+>PF11618.8 ; C2-C2_1 ; First C2 domain of RPGR-interacting protein 1
+Probab=73.14  E-value=0.15  Score=38.32  Aligned_cols=71  Identities=10%  Similarity=0.075  Sum_probs=48.5  Template_Neff=10.500
+
+Q KZP28430.1       14 NPNHYIVLYIDGKPV--PTAGYKMLTPAPQWPS-FRFNI-----------SSAVKIVIFRKRLQR--KDAVVAQYEGEGR   77 (324)
+Q Consensus       168 ~~~~~v~l~vdg~~~~~s~t~~~~~~~~p~W~~~~~~~l~~~-------~sS~l~i~l~~~~~~~~~~~~~vg~~e~~i~  240 (556)
+                      .++.|+.+.+.+....+  |..... ..|.|++.+.|.+...       ....|.+.|++.+. .  .+..+|.....+.
+T Consensus        32 ~~~~yv~~~~~~~~~~~--T~~~~~-~~p~~~~~~~~~i~~~~~~~~~~~~~~l~v~v~~~~~-~--~~~~iG~~~i~l~  105 (142)
+T W5MJV6_LEPOC/5   32 EPTTFCTYAFYDFELQA--TPVVRG-SQPAYDFTSQYVVRVDDFFLQYLQTGAVTLEVQLASG-M--DYQTAAAGQLQLR  105 (142)
+T ss_pred             CCceEEEEEecCCccee--ccceee-cCCcceeEEEEEEEeCHHHHHHHHhCcEEEEEEEEcC-C--CcEEEEEEEEEHH
+Confidence            35889999885433322  334455 8899999764443222       23688999987764 3  5788999999999
+
+
+Q KZP28430.1       78 DFLD   81 (324)
+Q Consensus       241 ~Ll~  244 (556)
+                      +++.
+T Consensus       106 ~l~~  109 (142)
+T W5MJV6_LEPOC/5  106 EILE  109 (142)
+T ss_pred             HHHh
+Confidence            9884
+
+
+No 5
+>PF15729.5 ; ALS2CR11 ; Amyotrophic lateral sclerosis 2 candidate 11
+Probab=69.53  E-value=0.22  Score=45.60  Aligned_cols=73  Identities=7%  Similarity=0.107  Sum_probs=50.3  Template_Neff=5.500
+
+Q KZP28430.1       14 NPNHYIVLYIDGKPV--PTAGYK------------MLTPAPQWPS-FRFNI---------SSAVKIVIFRKRLQR--KDA   67 (324)
+Q Consensus       168 ~~~~~v~l~vdg~~~~~s~t~~~------------~~~~~p~W~~~~~~~l~~~-----~sS~l~i~l~~~~~~~~~~~~  230 (556)
+                      ..+.||++++++...++   ++.            .++..|.|++.+.|.+...     ....+.+.|+......  ++.
+T Consensus        45 ~sDPYVrIsIg~~~k~T---kvis~~~~~~~~~~~~kt~nP~WdE~f~FsV~vp~~~~~~~n~l~LeV~~~D~~~--kdd  119 (420)
+T G1PX56_MYOLU/1   45 KNNFFIRISINNIVKYT---KLCSLLPQNIPFVINERKTLIKFDEVKYFSVQVPRRQNDARNNIYLDLMQFDNKE--KHI  119 (420)
+T ss_pred             CcceEEEEEECCEEEEe---ceEecCCCCCCceecCCCCCceecceEEEEEeCCccccCCCCcEEEEEEEeeCCC--Ccc
+Confidence            45789999999876643   233            5678999999874443321     2456777775544433  458
+
+
+Q KZP28430.1       68 VVAQYEGEGRDFLDR   82 (324)
+Q Consensus       231 ~vg~~e~~i~~Ll~~  245 (556)
+                      ++|.....+.+++..
+T Consensus       120 lIGsv~I~L~dliq~  134 (420)
+T G1PX56_MYOLU/1  120 LLGRVQVHLYEVIQK  134 (420)
+T ss_pred             EEEEEEEEHHHHHhc
+Confidence            899999888888764
+
+
+No 6
+>PF15625.6 ; CC2D2AN-C2 ; CC2D2A N-terminal C2 domain
+Probab=54.90  E-value=0.62  Score=36.29  Aligned_cols=70  Identities=11%  Similarity=0.147  Sum_probs=40.9  Template_Neff=7.400
+
+Q KZP28430.1       13 ANPNHYIVLYIDGKPV---PTAGYK--MLTPAPQWPS-FRFNI-----SSAVKIVIFRKRLQR--KDAVVAQYEGEGRD   78 (324)
+Q Consensus       167 ~~~~~~v~l~vdg~~~-~~s~t~~~--~~~~~p~W~~~~~~~l~~-~~sS~l~i~l~~~~~~~~~~~~~vg~~e~~i~~  241 (556)
+                      .+.++|++|++||+.+ .+++...-  ...-...|++.|  .+.+ .....|+|+||.+...   .+..++.+...+.+
+T Consensus        34 ~~~~~~v~i~~N~~~V~~~T~~~~L~~~~~F~v~f~~~f--~l~i~~~P~si~l~l~E~g~~---~~~~la~v~lpiP~  107 (160)
+T C1E146_MICCC/3   34 TSTRFCVALEVNGQQVPGTSRPVTLRSSGGFSTEVAHAF--SLSVQRWPDSVRLALYEKGTI---VDTFLAVVPIAVPG  107 (160)
+T ss_pred             hcceEEEEEEECCEEeeEEeecEEcccCCCEEEEeeeeE--EEEEecCCCeEEEEEEEcCCc---ccEEEEEEEeeCCC
+Confidence            4678999999999999 76521111  112233445533  3332 3356788888877322   45666666555444
+
+
+No 7
+>PF17560.2 ; Megourin ; Aphid Megourins
+Probab=21.48  E-value=5.7  Score=23.71  Aligned_cols=24  Identities=0%  Similarity=-0.025  Sum_probs=20.2  Template_Neff=1.100
+
+Q KZP28430.1      324 I-----------------------  324 (324)
+Q Consensus       517 ~~lw~~G~gA~~ds~~~C~PGTGK  540 (556)
+                      ..|++-|.|+-||..+.|.-|+|-
+T Consensus         9 ~yllc~g~g~vfngrktcqigcra   32 (63)
+T MRN2_MEGVI/1-6    9 SYLLCLGQGAVFNGRKTCQIGCRA   32 (63)
+T ss_pred             HHhhhccCCceeCCcccccccccH
+Confidence            468889999999999988877764
+
+
+No 8
+>PF00168.30 ; C2 ; C2 domain
+Probab=17.84  E-value=6.6  Score=25.76  Aligned_cols=48  Identities=13%  Similarity=0.204  Sum_probs=30.0  Template_Neff=11.600
+
+Q KZP28430.1       35 MLTPAPQWP-S-FRFNI----SSAVKIVIFR-KRLQR--KDA---VVAQYEGEGRDFL   80 (324)
+Q Consensus       191 ~~~~~p~W~-~~~~~~l~~~~sS~l~i~l~~-~~~~~~~~~~---~vg~~e~~i~~Ll  243 (556)
+                      .....|.|+ +.+  .+.......+.+.++. ... .  .+.   .+|.....+.++.
+T Consensus        53 ~~~~~p~w~~~~~--~~~~~~~~~l~~~v~~~~~~-~--~~~~~~~lg~~~~~l~~l~  105 (116)
+T HECW2_HUMAN/18   53 SNTTNPIWHREKY--SFFALLTDVLEIEIKDKFAK-S--RPIIKRFLGKLTIPVQRLL  105 (116)
+T ss_pred             cCCCCCeeeceeE--EEeecCCCeEEEEEEcCCCC-C--cccccceEEEEEEEhHHhc
+Confidence            456678999 865  3344456678888876 433 2  345   6777766665543
+
+
+No 9
+>PF13166.6 ; AAA_13 ; AAA domain
+Probab=7.57  E-value=23  Score=32.72  Aligned_cols=27  Identities=0%  Similarity=-0.028  Sum_probs=22.7  Template_Neff=9.700
+
+Q KZP28430.1      323 DI------------------------------------  324 (324)
+Q Consensus       516 ~~~lw~~G~gA~~ds~~~C~PGTGKtvL~sI~~Wi~~~  553 (556)
+                      ..+-++||           .-|+|||.|..+..++..+
+T Consensus        18 ~~~n~I~G-----------~NGsGKSTl~~~l~~~~~~   44 (753)
+T D0IX16_COMT2/1   18 GRYNVIYG-----------WNGAGKTTLSMLFRQLQRR   44 (753)
+T ss_pred             CceEEEEC-----------CCCCcHHHHHHHHHHHcCC
+Confidence            45678899           8999999999999888544
+
+
+No 10
+>PF17107.5 ; SesA ; N-terminal domain on NACHT_NTPase and P-loop NTPases
+Probab=6.51  E-value=28  Score=23.45  Aligned_cols=22  Identities=27%  Similarity=0.003  Sum_probs=10.5  Template_Neff=10.000
+
+Q KZP28430.1      184 NHIPAVCDLAKSLQEILGVATI  205 (324)
+Q Consensus       350 ~~de~i~~L~e~L~~ll~~l~~  371 (556)
+                      +..+.+.++...+..+...+..
+T Consensus        23 ~~p~~~~~l~~~l~~l~~~l~~   44 (133)
+T U7PRR7_SPOS1/7   23 GRPEAFDRINKSLQLIQLALWK   44 (133)
+T ss_pred             CCCHHHHHHHHHHHHHHHHHHH
+Confidence            3444455555555544444443
+
+
