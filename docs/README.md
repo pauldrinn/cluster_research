@@ -5,9 +5,9 @@
 Did nothing. Meeting tomorrow to discuss the results and talk about what's next.
 
 To-do for later:
-    - [ ] Turn everything into functions, use argparse and add ifnames.
-    - [ ] Create function to add annotations found with extend_annot.py to a new ground truth (maybe not so true) file. (from 05.01.2021)
-    - [ ] Same as #2 but with HHblits output so parsing .hhr must be done. I found a really well-written python gist but I'm thinking I should write it myself instead of using his.
+- [ ] Turn everything into functions, use argparse and add ifnames.
+- [ ] Create function to add annotations found with extend_annot.py to a new ground truth (maybe not so true) file. (from 05.01.2021)
+- [ ] Same as #2 but with HHblits output so parsing .hhr must be done. I found a really well-written python gist but I'm thinking I should write it myself instead of using his.
 
 ## 11.01.2021
 
