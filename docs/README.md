@@ -1,5 +1,9 @@
 # Notebook
 
+## 12-14.01.2021
+
+Did nothing. Meeting tomorrow to discuss the results and talk about what's next.
+
 ## 11.01.2021
 
 9am: That one cluster is still not done. There's probably something wrong.
