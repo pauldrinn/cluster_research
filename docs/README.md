@@ -1,13 +1,34 @@
 # Notebook
 
+## 16.01.2021
+
+Committing new analysis script. It's still kinda messy atm but I will work on it more later. Also, I think I'll have to remove some annotations I added just because they were the top hit (below E-value of 0.1).
+
+## 15.01.2021
+
+Meeting over. We now have meaningful data but we need to extract the meaning now. A few things to include in the data to be presented to biologists:
+- \# of seqs (in a cluster)
+- \# of unk annotations (in a cluster), so makes sense to add an unk ratio column.
+- Annotations, before and after (of all domains)
+- Pfam clan if it's in a clan to discard less probable hits if hits are in the same clan.
+- Taxonomic IDs, class names extracted from Dr. Dyrka's DB
+- Coverage % (unk ratio of GDT / unk ratio of predicted label file -- updated from GDT)
+
+Also, further filtering of hits should be done:
+- For hits of longer alignments and high number of match states in the database HMM, any E-value more than 0.1 is considered useless in this case.
+- For shorter ones, the E-value threshold is 1.
+
+---
+Trying out new things. It's my first time using argparser and finally putting everything into functions. Also implementing more error control.
+
 ## 12-14.01.2021
 
 Did nothing. Meeting tomorrow to discuss the results and talk about what's next.
 
 To-do for later:
 - [ ] Turn everything into functions, use argparse and add ifnames.
-- [ ] Create function to add annotations found with extend_annot.py to a new ground truth (maybe not so true) file. (from 05.01.2021)
-- [ ] Same as #2 but with HHblits output so parsing .hhr must be done. I found a really well-written python gist but I'm thinking I should write it myself instead of using his.
+- [x] Create function to add annotations found with extend_annot.py to a new ground truth (maybe not so true) file. (from 05.01.2021)
+- [x] Same as #2 but with HHblits output so parsing .hhr must be done. I found a really well-written python gist but I'm thinking I should write it myself instead of using his.
 
 ## 11.01.2021
 

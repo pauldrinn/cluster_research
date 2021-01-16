@@ -76,6 +76,7 @@ Thioesterase
 UPF0227
 VirJ
 # PNP_UDP
+NUP
 PNP_UDP_1
 # HET
 HET
@@ -138,5 +139,6 @@ WaaY
 YrbL-PhoP_reg
 YukC
 # TIR
+SEFIR
 TIR
 TIR_2
