@@ -1,5 +1,28 @@
 # Notebook
 
+## 17.01.2021
+
+Upgraded analysis script. Preliminary data:
+
+- Number of unknowns in the GDT: **17462**
+- Number of unknowns in the clusters before annotation: **6653** (so clustering and filtering clusters with less than 20 sequences and sequences with less than 20 residues removes **10809** unk sequences)
+- Number of unknowns in the clusters after annotation (without tentatives): **2925** (**3728** sequences annotated almost certainly)
+- Number of tentative annotations: **1356** (['Xin', 'SgrT', 'AAA_16', 'ALS2CR11', 'NOA36', 'DUF2856'])
+- Coverage (without tentatives) is **16.75%**
+
+In this coverage %, I included annotations with template HMM length of <= 50 and between E-value of 1 and 0.1 (but not in the tentative list above).
+
+Cluster no|   No| Hit|  Prob|  E-value|   P-value|  Score|   SS|  Cols| Query HMM| Template HMM|
+----------|-----|----|------|---------|----------|-------|-----|------|----------|-------------|
+XP_007693719| 1|   PF17108.5 ; HET-S ; N-terminal|  65.5|     0.32|  0.000058|   21.5|  0.0|    20|     33-52|   2-21  (23)
+OSS51700|     1|   PF17046.5 ; Ses_B ; SesB domai|  69.4|     0.22|  0.000043|  22.9|  0.0|    23|     19-41|   4-27  (28)
+PWW75243|     1|   PF17106.5 ; NACHT_sigma ; Sigm|  67.3|     0.26|  0.000051|   24.2|  0.0|    24|     32-55|  17-40  (43)
+
+- XP_007693719 has 41 sequences, 
+- OSS51700 has 29 sequences and 
+- PWW75243 has 39 sequences; 
+    - totaling **109** (**745** with tentatives) from being a little more liberal with including annotations with template HMM length of <= 50 and between E-value of 1 and 0.1. 
+
 ## 16.01.2021
 
 Committing new analysis script. It's still kinda messy atm but I will work on it more later. Also, I think I'll have to remove some annotations I added just because they were the top hit (below E-value of 0.1).
@@ -14,7 +37,7 @@ Meeting over. We now have meaningful data but we need to extract the meaning now
 - Taxonomic IDs, class names extracted from Dr. Dyrka's DB
 - Coverage % (unk ratio of GDT / unk ratio of predicted label file -- updated from GDT)
 
-Also, further filtering of hits should be done:
+Also, further filtering of hits should be done: (did this on 17.01.2021)
 - For hits of longer alignments and high number of match states in the database HMM, any E-value more than 0.1 is considered useless in this case.
 - For shorter ones, the E-value threshold is 1.
 
