@@ -133,7 +133,7 @@ def update_table_annotations(annotations, table_file, output_table_path=None):
 	table.update(copy_unk_table)
 
 	if output_table_path != None:
-		table.to_csv(output_table_path, sep='\t')
+		table.to_csv(output_table_path, sep='\t', index=False)
 
 	return table
 
@@ -149,7 +149,7 @@ def parse_args():
 
 def main():
 	args = parse_args()
-	tentative_pfams = ['Xin', 'SgrT', 'AAA_16', 'ALS2CR11', 'NOA36', 'DUF2856']
+	tentative_pfams = ['Xin', 'SgrT', 'AAA_16', 'ALS2CR11', 'DUF2856']
 
 	hhr_df = hhr_to_df(args.inpath)
 	if os.path.isdir(args.inpath):
@@ -188,7 +188,7 @@ def main():
 	liberal_table['Nterm'] = liberal_table.Nterm.replace(tentative_pfams, 'unk')
 
 	liberal_hhr_df.to_csv(os.path.join(analysis_dir, 'results_liberal.tsv'), sep='\t')
-	liberal_table.to_csv(os.path.join(analysis_dir, 'clusters_table_new_liberal.tsv'), sep='\t')
+	liberal_table.to_csv(os.path.join(analysis_dir, 'clusters_table_new_liberal.tsv'), sep='\t', index=False)
 
 	original_table = pd.read_csv(table_path, sep='\t')
 	gdt_Nterms = pd.read_csv(os.path.join(root_dir, 'data', 'Sep18p.i2.curated.arch.Ad44'), sep='\t', header=None, usecols=[1])

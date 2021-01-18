@@ -1,5 +1,9 @@
 # Notebook
 
+## 18.01.2021
+
+Didn't do much today, removed NOA36 from the tentative list and separated NUP from PNP_UDP, although some clusters are now mixed PNP_UDP_1 and NUP.
+
 ## 17.01.2021
 
 Upgraded analysis script. Preliminary data:
