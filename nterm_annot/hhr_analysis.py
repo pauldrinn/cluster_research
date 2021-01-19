@@ -101,7 +101,7 @@ def filter_hits(df, column, threshold, threshold2=None, f_type=0, hmm_len=None, 
 	
 	return filtered_df
 
-def update_table_annotations(annotations, table_file, output_table_path=None):
+def update_table_annotations(annotations, table_file, merge=False, output_table_path=None):
 	"""Updates annotations in a table with a supplied DataFrame or file (in the form of filter_hits output)
 
 	Args:
@@ -125,12 +125,18 @@ def update_table_annotations(annotations, table_file, output_table_path=None):
 	top_hits_df = annotations_df[annotations_df.index.get_level_values(1) == 1]
 	top_hits = top_hits_df['Hit'].str.split(' ; ').str[1].droplevel(1)
 	top_hits_local_annot = top_hits.replace(pfam_to_annot)
-	
-	unk_table = table.query('`Nterm` == "unk"')
-	copy_unk_table = unk_table.copy()
-	copy_unk_table['Nterm'] = unk_table['Cluster no'].apply(lambda x: top_hits_local_annot.loc[x] if x in top_hits_local_annot else unk_table.loc[unk_table['Cluster no'] == x, 'Nterm'].iloc[0])
-	
-	table.update(copy_unk_table)
+
+	if merge == True:
+		unk_table = table.query('`Nterm` == "unk"')
+		copy_unk_table = unk_table.copy()
+
+		copy_unk_table['Nterm'] = unk_table['Cluster no'].apply(lambda x: top_hits_local_annot.loc[x] if x in top_hits_local_annot else unk_table.loc[unk_table['Cluster no'] == x, 'Nterm'].iloc[0])
+		table.update(copy_unk_table)
+	elif merge == False:
+		table['Nterm_GDT'] = table['Nterm']
+		table['Nterm'] = table['Cluster no'].apply(lambda x: top_hits_local_annot.loc[x] if x in top_hits_local_annot else 'unk')
+
+		# table['Nterm_merged'] = table['Cluster no'].apply(lambda x: top_hits_local_annot.loc[x] if x in top_hits_local_annot else table.loc[table['Cluster no'] == x, 'Nterm'].iloc[0])
 
 	if output_table_path != None:
 		table.to_csv(output_table_path, sep='\t', index=False)
@@ -141,7 +147,7 @@ def parse_args():
 	import argparse
 	try:
 		parser = argparse.ArgumentParser(description='This script is used for extracting relevant (to me) information from HHblits output (.hhr file(s))')
-		parser.add_argument('-ip', '--inpath', action='store', help='Input .hhr path')
+		parser.add_argument('path', action='store', help='Input .hhr path')
 	except:
 		print('Please use the correct arguments')
 	
@@ -151,11 +157,11 @@ def main():
 	args = parse_args()
 	tentative_pfams = ['Xin', 'SgrT', 'AAA_16', 'ALS2CR11', 'DUF2856']
 
-	hhr_df = hhr_to_df(args.inpath)
-	if os.path.isdir(args.inpath):
-		analysis_dir = os.path.join(args.inpath, 'analysis')
+	hhr_df = hhr_to_df(args.path)
+	if os.path.isdir(args.path):
+		analysis_dir = os.path.join(args.path, 'analysis')
 	elif os.path.isfile(args.ipath):
-		analysis_dir = os.path.join(os.path.dirname(args.inpath), 'analysis')
+		analysis_dir = os.path.join(os.path.dirname(args.path), 'analysis')
 	
 	try: 
 		os.mkdir(analysis_dir) 
@@ -181,9 +187,11 @@ def main():
 	update_table_annotations(hhr_df_01, table_path, os.path.join(analysis_dir, 'clusters_table_new.tsv'))
 
 	liberal_hhr_df = filter_hits(hhr_df, 'E-value', 0.1, 1, 1, 50, True)
-	liberal_table = update_table_annotations(liberal_hhr_df, table_path)
+	liberal_table = update_table_annotations(liberal_hhr_df, table_path, merge=False)
 
 	tentative_annot_count = liberal_table[liberal_table.Nterm.isin(tentative_pfams)].shape[0]
+
+	liberal_table[liberal_table.Nterm.isin(tentative_pfams)].to_csv(os.path.join(analysis_dir, 'tentatives_table.tsv'), sep='\t')
 
 	liberal_table['Nterm'] = liberal_table.Nterm.replace(tentative_pfams, 'unk')
 
@@ -198,7 +206,11 @@ def main():
 	print('Number of unknowns in the clusters after annotation (without tentatives): {}'.format(liberal_table.Nterm.value_counts()['unk']))
 	print('Number of tentative annotations: {}'.format(tentative_annot_count))
 	
-	print('Coverage is {}%'.format(((liberal_table.Nterm.value_counts()['unk'])/(gdt_Nterms[1].value_counts()['unk'])).round(4) * 100 ))
+	new_annot_count = (original_table.Nterm.value_counts()['unk']) - (liberal_table.Nterm.value_counts()['unk'])
+	coverage_from_gdt = (new_annot_count / (gdt_Nterms[1].value_counts()['unk'])).round(4) * 100
+	coverage_from_clu = (new_annot_count / (original_table.Nterm.value_counts()['unk'])).round(4) * 100
+	print("""Coverage: {}% (w.r.t. unknowns in the GDT) and 
+	  {}% (w.r.t. unknowns in clusters >= 20 sequences)""".format(coverage_from_gdt, coverage_from_clu))
 
 if __name__ == '__main__':
 	main()
