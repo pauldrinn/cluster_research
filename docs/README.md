@@ -1,5 +1,22 @@
 # Notebook
 
+## 19.01.2021
+
+Did a few things. Added the option of not merging annotations (adding predicted and gdt annotations to separate columns) and extracted a table of tentatives.
+
+Now, I want to align C2 (and C2-C2_1) and ALS2CR11 to see if they're homologues. I found out hhalign doesn't support HMMER profiles so I will have to use hhmake from seed alignments.
+
+Seed alignments are in Stockholm format so used reformat.pl to convert them into a3m. Used hhmake to build .hhm profiles from a3m. Used hhalign to align them. Not sure about what the results mean. E-mailed advisor about this.
+
+---
+To-do for later:
+- [ ] Note overlapping and conflicting hits
+- [ ] Get all sequences with annotations of C2 and C2 + GBL into one big alignment and put them in something like FastTree
+- [ ] Get number of unknowns (according to the ground truth, gdt) in clusters with 10-19 sequences
+- [ ] Make histograms of:
+    - [ ] Number of sequences in clusters of particular size (# of sequences vs cluster size e.g. clusters with 11 sequences total 300 sequences)
+    - [ ] Number of unknown sequences (according to gdt) in clusters of particular size
+- [ ] Get started on drawing domain with multiple annotations
 ## 18.01.2021
 
 Didn't do much today, removed NOA36 from the tentative list and separated NUP from PNP_UDP, although some clusters are now mixed PNP_UDP_1 and NUP.
