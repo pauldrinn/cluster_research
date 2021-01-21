@@ -1,5 +1,13 @@
 # Notebook
 
+## 21.01.2021
+
+Meeting done. Now I need to gather a lot of data and present it in a readable way. First, for bins (cluster size range) then for all clusters which will act as a template for the data presented in the publication. This version will be more detailed and cuts can be done later on. Oh and I should organize more of the code.
+
+## 20.01.2021
+
+If the minimum # of sequences in a cluster were 10 instead of 20, we would have 7479 unknowns before annotating (up by 826 from 6653).
+
 ## 19.01.2021
 
 Did a few things. Added the option of not merging annotations (adding predicted and gdt annotations to separate columns) and extracted a table of tentatives.
@@ -10,13 +18,14 @@ Seed alignments are in Stockholm format so used reformat.pl to convert them into
 
 ---
 To-do for later:
-- [ ] Note overlapping and conflicting hits
+- [ ] Note overlapping and conflicting hits (Not important)
 - [ ] Get all sequences with annotations of C2 and C2 + GBL into one big alignment and put them in something like FastTree
-- [ ] Get number of unknowns (according to the ground truth, gdt) in clusters with 10-19 sequences
-- [ ] Make histograms of:
-    - [ ] Number of sequences in clusters of particular size (# of sequences vs cluster size e.g. clusters with 11 sequences total 300 sequences)
-    - [ ] Number of unknown sequences (according to gdt) in clusters of particular size
+- [x] Get number of unknowns (according to the ground truth, gdt) in clusters with 10-19 sequences
+- [x] Make histograms of:
+    - [x] Number of sequences in clusters of particular size (# of sequences vs cluster size e.g. clusters with 11 sequences total 300 sequences)
+    - [x] Number of unknown sequences (according to gdt) in clusters of particular size
 - [ ] Get started on drawing domain with multiple annotations
+
 ## 18.01.2021
 
 Didn't do much today, removed NOA36 from the tentative list and separated NUP from PNP_UDP, although some clusters are now mixed PNP_UDP_1 and NUP.
@@ -27,9 +36,9 @@ Upgraded analysis script. Preliminary data:
 
 - Number of unknowns in the GDT: **17462**
 - Number of unknowns in the clusters before annotation: **6653** (so clustering and filtering clusters with less than 20 sequences and sequences with less than 20 residues removes **10809** unk sequences)
-- Number of unknowns in the clusters after annotation (without tentatives): **2925** (**3728** sequences annotated almost certainly)
-- Number of tentative annotations: **1356** (['Xin', 'SgrT', 'AAA_16', 'ALS2CR11', 'NOA36', 'DUF2856'])
-- Coverage (without tentatives) is **16.75%**
+- Number of unknowns in the clusters after annotation (without tentatives): **3086** (**3567** sequences annotated almost certainly)
+- Number of tentative annotations: **1506** (['Xin', 'SgrT', 'AAA_16', 'ALS2CR11', 'DUF2856'])
+- Coverage: **20.43%** (w.r.t. unknowns in the GDT) and **53.61%** (w.r.t. unknowns in clusters >= 20 sequences)
 
 In this coverage %, I included annotations with template HMM length of <= 50 and between E-value of 1 and 0.1 (but not in the tentative list above).
 
