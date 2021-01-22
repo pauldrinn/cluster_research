@@ -155,7 +155,7 @@ def parse_args():
 
 def main():
 	args = parse_args()
-	tentative_pfams = ['Xin', 'SgrT', 'AAA_16', 'ALS2CR11', 'DUF2856']
+	tentative_pfams = ['Xin', 'SgrT', 'AAA_16', 'DUF2856']
 
 	hhr_df = hhr_to_df(args.path)
 	if os.path.isdir(args.path):
@@ -184,7 +184,9 @@ def main():
 	clu_outs_dir = os.path.join(root_dir, 'data', 'clustering_outputs')
 	table_path = os.path.join(clu_outs_dir, 'minlen20', 'cluster_mode_1', 'clusters_table.tsv')
 
-	update_table_annotations(hhr_df_01, table_path, os.path.join(analysis_dir, 'clusters_table_new.tsv'))
+	updated_table = update_table_annotations(hhr_df_01, table_path, merge=False)
+	updated_table['Nterm'] = updated_table.Nterm.replace(tentative_pfams, 'unk')
+	updated_table.to_csv(os.path.join(analysis_dir, 'clusters_table_new.tsv'), sep='\t', index=False)
 
 	liberal_hhr_df = filter_hits(hhr_df, 'E-value', 0.1, 1, 1, 50, True)
 	liberal_table = update_table_annotations(liberal_hhr_df, table_path, merge=False)
@@ -207,8 +209,8 @@ def main():
 	print('Number of tentative annotations: {}'.format(tentative_annot_count))
 	
 	new_annot_count = (original_table.Nterm.value_counts()['unk']) - (liberal_table.Nterm.value_counts()['unk'])
-	coverage_from_gdt = (new_annot_count / (gdt_Nterms[1].value_counts()['unk'])).round(4) * 100
-	coverage_from_clu = (new_annot_count / (original_table.Nterm.value_counts()['unk'])).round(4) * 100
+	coverage_from_gdt = ((new_annot_count / (gdt_Nterms[1].value_counts()['unk'])) * 100).round(2)
+	coverage_from_clu = ((new_annot_count / (original_table.Nterm.value_counts()['unk'])) * 100).round(2)
 	print("""Coverage: {}% (w.r.t. unknowns in the GDT) and 
 	  {}% (w.r.t. unknowns in clusters >= 20 sequences)""".format(coverage_from_gdt, coverage_from_clu))
 
