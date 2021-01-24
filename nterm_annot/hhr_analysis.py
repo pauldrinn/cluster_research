@@ -19,7 +19,7 @@ def hhr_to_df(hhr_path):
 				init_df = pd.concat([init_df, hhr_table])
 		hhr_df = init_df
 	elif os.path.isfile(hhr_path):
-		if hhr_path.path.endswith(".hhr") and hhr_path.is_file():
+		if hhr_path.endswith(".hhr"):
 			hhr_table = pd.read_fwf(hhr_path, skiprows=8, nrows=10, header=0, widths=[3, 32, 5, 8, 8, 7, 6, 5, 10, 15])
 			hhr_table.set_index([pd.Index([os.path.basename(hhr_path).rsplit('_', 1)[0]] * hhr_table.shape[0], name='Cluster no'), 'No'], inplace=True)
 			
@@ -41,6 +41,26 @@ def get_template_hmm_len(df):
 	query_str = r'(?<=\()(.*?)(?=\))' # Explanation: (?<=\() is positive lookbehind for \( and (?=\) is positive lookahead for \)
 
 	return df['Template HMM'].str.findall(query_str).str[0].astype('int32')
+
+def check_multi_annot(df):
+    """Checks for multiple annotations in the domain."""
+    from dicts import pfam_to_annot
+
+    query_intervals = df['Query HMM'].str.split('-').apply(lambda x: pd.Interval(int(x[0]), int(x[1]), 'both'))
+    df['lefts'] = query_intervals
+    result_df = df.sort_values('lefts')
+
+    for i in range(query_intervals.shape[0]):
+        for j in range(query_intervals.shape[0]):
+            if query_intervals[i].overlaps(query_intervals[j]):
+                if df.index[i][0] == df.index[j][0]:
+                    if (df.index[i] != df.index[j]) & (i < j):
+                        if pfam_to_annot.get(str(df['Hit'][i].split(' ; ')[1]), 'None') == pfam_to_annot.get(str(df['Hit'][j].split(' ; ')[1]), 'None'):
+                            result_df = result_df.drop(df.index[j], errors='ignore')
+
+    result_df = result_df['Hit'].str.split(' ; ').str[1].droplevel(1).replace(pfam_to_annot)
+
+    return result_df.groupby(result_df.index).apply(' '.join)
 
 def filter_hits(df, column, threshold, threshold2=None, f_type=0, hmm_len=None, verbose=False):
 	"""Filters a DataFrame created using hhr_to_df to remove hits worse than a threshold, or return hits between two thresholds.
@@ -121,10 +141,8 @@ def update_table_annotations(annotations, table_file, merge=False, output_table_
 		annotations_df = pd.read_csv(annotations, sep='\t')
 
 	from dicts import pfam_to_annot
-	
-	top_hits_df = annotations_df[annotations_df.index.get_level_values(1) == 1]
-	top_hits = top_hits_df['Hit'].str.split(' ; ').str[1].droplevel(1)
-	top_hits_local_annot = top_hits.replace(pfam_to_annot)
+
+	top_hits_local_annot = check_multi_annot(annotations_df)
 
 	if merge == True:
 		unk_table = table.query('`Nterm` == "unk"')
@@ -135,8 +153,6 @@ def update_table_annotations(annotations, table_file, merge=False, output_table_
 	elif merge == False:
 		table['Nterm_GDT'] = table['Nterm']
 		table['Nterm'] = table['Cluster no'].apply(lambda x: top_hits_local_annot.loc[x] if x in top_hits_local_annot else 'unk')
-
-		# table['Nterm_merged'] = table['Cluster no'].apply(lambda x: top_hits_local_annot.loc[x] if x in top_hits_local_annot else table.loc[table['Cluster no'] == x, 'Nterm'].iloc[0])
 
 	if output_table_path != None:
 		table.to_csv(output_table_path, sep='\t', index=False)

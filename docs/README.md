@@ -1,5 +1,43 @@
 # Notebook
 
+## 23-24.01.2021
+
+I've been working on supporting multi annotations (e.g. C2 GOODBYE-LIKE). I'm currently working on a jupyter notebook and I will commit when it's done.
+
+Finally built the script, although I'm having problems with the ordering of annotations, going to try sorting by 'Query HMM' first.
+
+I believe sorting by 'Query HMM' worked but there are still some problems:
+
+| Annotation                    | Count |
+|-------------------------------|-------|
+| GOODBYE-LIKE                  | 3998  |
+| HELO-LIKE                     | 3547  |
+| PUP ATPase_2                  | 3375  |
+| SESB-LIKE                     | 3065  |
+| unk                           | 2608  |
+| HET                           | 878   |
+| PATATIN                       | 686   |
+| HELO-LIKE NACHT               | 584   |
+| C2 GOODBYE-LIKE               | 581   |
+| AAA_16                        | 547   |
+| GOODBYE-LIKE NACHT            | 508   |
+| GOODBYE-LIKE ATPase_2         | 427   |
+| HELO-LIKE HELO                | 204   |
+| HELO-LIKE HELO Zeta_toxin     | 182   |
+| GOODBYE-LIKE HELO-LIKE AAA_16 | 106   |
+| PFD-LIKE                      | 94    |
+| GOODBYE-LIKE Bac_DnaA         | 53    |
+| NOA36                         | 49    |
+| PUP                           | 47    |
+| GOODBYE-LIKE NB-ARC           | 44    |
+| zf-Mss51 GOODBYE-LIKE         | 32    |
+| TIR                           | 29    |
+| GOODBYE-LIKE HELO-LIKE        | 26    |
+| SAM_Ste50p                    | 24    |
+| PUP GOODBYE-LIKE              | 22    |
+| PEPTIDASE_S8                  | 22    |
+| SESB-LIKE GOODBYE-LIKE        | 20    |
+
 ## 22.01.2021
 
 Got to work but I realized I need to check for multiple annotations within the N-terminus.

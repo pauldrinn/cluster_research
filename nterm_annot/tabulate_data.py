@@ -13,7 +13,7 @@ def get_seq_lens(file_path):
     with open(file_path) as f:
         ids = []
         seq_lens = []
-        for record in SeqIO.parse(file_path, "fasta"):
+        for record in SeqIO.parse(f, "fasta"):
             ids.append(record.id)
             seq_lens.append(len(record.seq))
     
