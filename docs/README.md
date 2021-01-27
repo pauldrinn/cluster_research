@@ -1,5 +1,36 @@
 # Notebook
 
+## 27.01.2021
+
+Fixed the table from before. Here is the final form (except the zinc finger annotation. Trying to figure that out.):
+
+| Annotation             | Count |
+|------------------------|-------|
+| GOODBYE-LIKE           | 5471  |
+| HELO-LIKE              | 4412  |
+| PUP                    | 3422  |
+| SESB-LIKE              | 3065  |
+| unk                    | 2677  |
+| HET                    | 878   |
+| PATATIN                | 686   |
+| C2 GOODBYE-LIKE        | 581   |
+| HELO                   | 274   |
+| PFD-LIKE               | 94    |
+| NOA36                  | 49    |
+| zf-Mss51 GOODBYE-LIKE  | 32    |
+| TIR                    | 29    |
+| SAM_Ste50p             | 24    |
+| PEPTIDASE_S8           | 22    |
+| PUP GOODBYE-LIKE       | 22    |
+| SESB-LIKE GOODBYE-LIKE | 20    |
+
+---
+Added some more data to the table. Also received the phylogenetic data and edited it a bit, then added class data to the table as well -- which classes are present in the cluster and the number of classes as well.
+
+## 25-26.01.2021
+
+Did other stuff.
+
 ## 23-24.01.2021
 
 I've been working on supporting multi annotations (e.g. C2 GOODBYE-LIKE). I'm currently working on a jupyter notebook and I will commit when it's done.
@@ -78,7 +109,7 @@ Seed alignments are in Stockholm format so used reformat.pl to convert them into
 ---
 To-do for later:
 - [ ] Note overlapping and conflicting hits (Not important)
-- [ ] Get all sequences with annotations of C2 and C2 + GBL into one big alignment and put them in something like FastTree
+- [x] (This is a problem since there are no C2 hits with GBL following it) Get all sequences with annotations of C2 and C2 + GBL into one big alignment and put them in something like FastTree
 - [x] Get number of unknowns (according to the ground truth, gdt) in clusters with 10-19 sequences
 - [x] Make histograms of:
     - [x] Number of sequences in clusters of particular size (# of sequences vs cluster size e.g. clusters with 11 sequences total 300 sequences)

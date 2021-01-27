@@ -42,25 +42,30 @@ def get_template_hmm_len(df):
 
 	return df['Template HMM'].str.findall(query_str).str[0].astype('int32')
 
-def check_multi_annot(df):
-    """Checks for multiple annotations in the domain."""
-    from dicts import pfam_to_annot
+from dicts import ploop_ntpase_clan
+def check_multi_annot(df, annotations_to_ignore=ploop_ntpase_clan):
+	"""Checks for multiple annotations in the domain."""
+	from dicts import pfam_to_annot
 
-    query_intervals = df['Query HMM'].str.split('-').apply(lambda x: pd.Interval(int(x[0]), int(x[1]), 'both'))
-    df['lefts'] = query_intervals
-    result_df = df.sort_values('lefts')
+	local_df = df.copy() 
+	query_intervals = local_df['Query HMM'].str.split('-').apply(lambda x: pd.Interval(int(x[0]), int(x[1]), 'both'))
+	local_df['lefts'] = query_intervals
+	result_df = local_df.sort_values('lefts')
 
-    for i in range(query_intervals.shape[0]):
-        for j in range(query_intervals.shape[0]):
-            if query_intervals[i].overlaps(query_intervals[j]):
-                if df.index[i][0] == df.index[j][0]:
-                    if (df.index[i] != df.index[j]) & (i < j):
-                        if pfam_to_annot.get(str(df['Hit'][i].split(' ; ')[1]), 'None') == pfam_to_annot.get(str(df['Hit'][j].split(' ; ')[1]), 'None'):
-                            result_df = result_df.drop(df.index[j], errors='ignore')
+	for i in range(query_intervals.shape[0]):
+		for j in range(query_intervals.shape[0]):
+			if query_intervals[i].overlaps(query_intervals[j]):
+				if local_df.index[i][0] == local_df.index[j][0]:
+					if (local_df.index[i] != local_df.index[j]) & (i < j):
+						#if pfam_to_annot.get(str(local_df['Hit'][i].split(' ; ')[1]), 'None') == pfam_to_annot.get(str(local_df['Hit'][j].split(' ; ')[1]), 'None'):
+						result_df = result_df.drop(local_df.index[j], errors='ignore')
 
-    result_df = result_df['Hit'].str.split(' ; ').str[1].droplevel(1).replace(pfam_to_annot)
+	result_df = result_df['Hit'].str.split(' ; ').str[1].droplevel(1).replace(pfam_to_annot)
 
-    return result_df.groupby(result_df.index).apply(' '.join)
+	if annotations_to_ignore != None:
+		result_df = result_df[~result_df.isin(annotations_to_ignore)]
+
+	return result_df.groupby(result_df.index).apply(' '.join)
 
 def filter_hits(df, column, threshold, threshold2=None, f_type=0, hmm_len=None, verbose=False):
 	"""Filters a DataFrame created using hhr_to_df to remove hits worse than a threshold, or return hits between two thresholds.
