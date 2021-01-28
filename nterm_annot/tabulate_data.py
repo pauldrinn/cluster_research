@@ -109,4 +109,7 @@ if __name__ == '__main__':
 	b, a = tabulate_clusters()
 	#tabulate_to_bins(b, a)
 
+	b.to_csv('/home/paul/nterm_annot_project/data/before_annotation.tsv', sep='\t')
+	a.to_csv('/home/paul/nterm_annot_project/data/after_annotation.tsv', sep='\t')
+
 	print(b); print(a)
