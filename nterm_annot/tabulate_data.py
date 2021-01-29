@@ -7,12 +7,14 @@ def tabulate_clusters():
 	table =  "/home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/analysis/clusters_table_new.tsv"
 	seqs = "/home/paul/nterm_annot_project/data/Sep18p.curated.Ntm_minlen20.fa"
 	phylo = "/home/paul/nterm_annot_project/data/Sep18p.i2.curated.seqid_taxid_phylum_class_name.tsv"
+	gdt = "/home/paul/nterm_annot_project/data/Sep18p.i2.curated.arch.Ad44"
 
 	clu_file = pd.read_csv(clu, sep='\t', header=0, names=['cluster_no', 'identifier', 'nterm_gdt'])
 	clu_file['cluster_no'] = clu_file['cluster_no'].str.split('.').str[0]
 
 	table_file = pd.read_csv(table, sep='\t', header=0, names=['cluster_no', 'identifier', 'nterm', 'nterm_gdt'])
 	phylo_file = pd.read_csv(phylo, sep='\t', header=None, names=['identifier', 'taxid', 'phylum', 'class', 'name'])
+	gdt_file = pd.read_csv(gdt, sep='\t', header=None, names=['identifier', 'nterm_gdt', 'nod_gdt', 'cterm_gdt'])
 
 	def get_seq_lens(file_path):
 		with open(file_path) as f:
@@ -70,6 +72,10 @@ def tabulate_clusters():
 
 	before_annotation_df['no_classes'] = before_annotation_df['class'].map(lambda x: len(x))
 	after_annotation_df['no_classes'] = after_annotation_df['class'].map(lambda x: len(x))
+
+	after_annotations = table_file.drop(['identifier', 'nterm_gdt'], axis=1).drop_duplicates().reset_index(drop=True)
+
+	after_annotation_df = after_annotation_df.merge(after_annotations)
 
 	return before_annotation_df, after_annotation_df
 
