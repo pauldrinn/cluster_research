@@ -73,9 +73,26 @@ def tabulate_clusters():
 	before_annotation_df['no_classes'] = before_annotation_df['class'].map(lambda x: len(x))
 	after_annotation_df['no_classes'] = after_annotation_df['class'].map(lambda x: len(x))
 
-	after_annotations = table_file.drop(['identifier', 'nterm_gdt'], axis=1).drop_duplicates().reset_index(drop=True)
+	all_clusters_nterm_gdt = gdt_file.drop(['nod_gdt', 'cterm_gdt'], axis=1).drop_duplicates().reset_index(drop=True)
+	all_clusters_nterm_gdt = clu_file.merge(all_clusters_nterm_gdt).drop(['identifier'], axis=1).drop_duplicates()
+	all_clusters_nterm_gdt = all_clusters_nterm_gdt.groupby('cluster_no')['nterm_gdt'].apply(' '.join).reset_index()
 
-	after_annotation_df = after_annotation_df.merge(after_annotations)
+	architectures = clu_file.merge(gdt_file).drop(['identifier'], axis=1).drop_duplicates().reset_index(drop=True)
+	architectures['arch_gdt'] = architectures[['nterm_gdt', 'nod_gdt', 'cterm_gdt']].agg(list, axis=1)
+	all_architectures = architectures.groupby('cluster_no')['arch_gdt'].apply(list).reset_index()
+
+	print(all_architectures)
+
+	after_nterm = table_file.drop(['identifier', 'nterm_gdt'], axis=1).drop_duplicates().reset_index(drop=True)
+	after_annotation_df = after_annotation_df.merge(after_nterm)
+	after_annotation_df = after_annotation_df.merge(all_clusters_nterm_gdt)
+	before_annotation_df = before_annotation_df.merge(all_clusters_nterm_gdt)
+
+	after_annotation_df = after_annotation_df.merge(all_architectures)
+	before_annotation_df = before_annotation_df.merge(all_architectures)
+
+	before_annotation_df['no_archs'] = before_annotation_df['arch_gdt'].map(lambda x: len(x))
+	after_annotation_df['no_archs'] = after_annotation_df['arch_gdt'].map(lambda x: len(x))
 
 	return before_annotation_df, after_annotation_df
 

@@ -1,5 +1,20 @@
 # Notebook
 
+## 30.01.2021
+
+Added GDT Nterm annotations next to predicted ones.
+
+---
+Added GDT architectures as well as number of architectures in a cluster.
+
+## 29.01.2021
+
+Meeting done. Added Nterm annotations to the table during the meeting. Have to add all architectures as a list and number of architectures.
+
+## 28.01.2021
+
+Nothing
+
 ## 27.01.2021
 
 Fixed the table from before. Here is the final form (except the zinc finger annotation. Trying to figure that out.):
