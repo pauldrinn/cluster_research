@@ -22,4 +22,4 @@ clu_ann = clu_ann[clu_ann['Cluster size'] >= 20].reset_index(drop=True).drop('Cl
 clu_ann_all.to_csv(all_save_name, sep='\t', index=False)
 clu_ann.to_csv(save_name, sep='\t', index=False)
 
-print('File saved to {0}'.format(save_name),'\nThere are {0} clusters.'.format(clu_ann['Cluster no'].unique().shape[0]))
+print('File saved to {}'.format(save_name),'\nThere are {} clusters with 20 or more sequences.\nThere are {} clusters in total.'.format(clu_ann['Cluster no'].unique().shape[0], clu_ann_all['Cluster no'].unique().shape[0]))

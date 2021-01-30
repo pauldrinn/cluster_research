@@ -7,6 +7,9 @@ Added GDT Nterm annotations next to predicted ones.
 ---
 Added GDT architectures as well as number of architectures in a cluster.
 
+---
+Added extra clusterings with 50% and 60% coverage just to see how it looks.
+
 ## 29.01.2021
 
 Meeting done. Added Nterm annotations to the table during the meeting. Have to add all architectures as a list and number of architectures.
