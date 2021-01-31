@@ -60,7 +60,7 @@ def check_multi_annot(df, annotations_to_ignore=ploop_ntpase_clan):
 						#if pfam_to_annot.get(str(local_df['Hit'][i].split(' ; ')[1]), 'None') == pfam_to_annot.get(str(local_df['Hit'][j].split(' ; ')[1]), 'None'):
 						result_df = result_df.drop(local_df.index[j], errors='ignore')
 
-	result_df = result_df['Hit'].str.split(' ; ').str[1].droplevel(1).replace(pfam_to_annot)
+	result_df = result_df['Hit'].str.split(';').str[1].droplevel(1).str.strip().replace(pfam_to_annot)
 
 	if annotations_to_ignore != None:
 		result_df = result_df[~result_df.isin(annotations_to_ignore)]
@@ -208,6 +208,8 @@ def main():
 	updated_table = update_table_annotations(hhr_df_01, table_path, merge=False)
 	updated_table['Nterm'] = updated_table.Nterm.replace(tentative_pfams, 'unk')
 	updated_table.to_csv(os.path.join(analysis_dir, 'clusters_table_new.tsv'), sep='\t', index=False)
+
+	ploop_ntpase_clan.append('Periviscerokin')
 
 	liberal_hhr_df = filter_hits(hhr_df, 'E-value', 0.1, 1, 1, 50, True)
 	liberal_table = update_table_annotations(liberal_hhr_df, table_path, merge=False)

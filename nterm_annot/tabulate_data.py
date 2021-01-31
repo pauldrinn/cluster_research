@@ -4,7 +4,7 @@ import numpy as np
 
 def tabulate_clusters():
 	clu =  "/home/paul/nterm_annot_project/data/clustering_outputs/minlen20/cluster_mode_1/clusters_table_all.tsv"
-	table =  "/home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/analysis/clusters_table_new.tsv"
+	table =  "/home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/analysis/clusters_table_new_liberal.tsv"
 	seqs = "/home/paul/nterm_annot_project/data/Sep18p.curated.Ntm_minlen20.fa"
 	phylo = "/home/paul/nterm_annot_project/data/Sep18p.i2.curated.seqid_taxid_phylum_class_name.tsv"
 	gdt = "/home/paul/nterm_annot_project/data/Sep18p.i2.curated.arch.Ad44"

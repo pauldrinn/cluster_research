@@ -1,5 +1,11 @@
 # Notebook
 
+## 31.01.2021
+
+After manual MEME analysis of 3 tentative clusters, it was concluded that they indeed are correct annotations so now I'm using the liberal file for annotations. I encountered a problem with searching for the string ' ; ' when splitting the hit column which I assumed existed in every hit but if the string is something like this, 'PF08259.11 ; Periviscerokin ;', then the semicolon at the end will be included which is not ideal. So instead, I searched for ';' and stripped the values before adding them to the final series.
+
+New after_annotation.tsv has 3 more annotated clusters.
+
 ## 30.01.2021
 
 Added GDT Nterm annotations next to predicted ones.
