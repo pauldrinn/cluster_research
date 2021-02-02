@@ -1,5 +1,23 @@
 # Notebook
 
+## 1-2.02.2021
+
+Multiple birthdays. Obtained some data though. We wanted to see if lowering coverage in clustering would help us annotate more sequences.
+
+So for 50% coverage:
+There are 27246 (+718 for more than 10 sequences) sequences in clusters with 20 or more sequences, and 32532 in total.
+Out of those 27246 (+718), 10111 (+505) are unk.
+
+For 60% coverage:
+There are 26177 (+886) sequences in clusters with 20 or more sequences, and the same total.
+Out of those 26177 (+886), 9473 (+542) are unk.
+
+For 80%, default, coverage:
+There are 21758 (+1369) sequences in clusters with 20 or more sequences, and the same total.
+Out of those 21758 (+1369), 6653 (+788) are unk. 
+
+There is a big jump of around 2500 sequences and assumingly, half of those would be annotated in our pipeline so around 1250 sequences extra if coverage in clustering were to be reduced to 60% from 80%.
+
 ## 31.01.2021
 
 After manual MEME analysis of 3 tentative clusters, it was concluded that they indeed are correct annotations so now I'm using the liberal file for annotations. I encountered a problem with searching for the string ' ; ' when splitting the hit column which I assumed existed in every hit but if the string is something like this, 'PF08259.11 ; Periviscerokin ;', then the semicolon at the end will be included which is not ideal. So instead, I searched for ';' and stripped the values before adding them to the final series.

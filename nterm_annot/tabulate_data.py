@@ -81,8 +81,6 @@ def tabulate_clusters():
 	architectures['arch_gdt'] = architectures[['nterm_gdt', 'nod_gdt', 'cterm_gdt']].agg(list, axis=1)
 	all_architectures = architectures.groupby('cluster_no')['arch_gdt'].apply(list).reset_index()
 
-	print(all_architectures)
-
 	after_nterm = table_file.drop(['identifier', 'nterm_gdt'], axis=1).drop_duplicates().reset_index(drop=True)
 	after_annotation_df = after_annotation_df.merge(after_nterm)
 	after_annotation_df = after_annotation_df.merge(all_clusters_nterm_gdt)
@@ -96,7 +94,7 @@ def tabulate_clusters():
 
 	return before_annotation_df, after_annotation_df
 
-def tabulate_to_bins(before_annotation_df, after_annotation_df):
+def tabulate_to_bins(before_annotation_df, after_annotation_df, save_path=None):
 
 	after_annotation_df['bin'] = pd.cut(after_annotation_df['cluster_size'], bins=[1,2,3,6,11,21,51,101,201,501,1001,2001,10001], right=False)
 	before_annotation_df['bin'] = pd.cut(before_annotation_df['cluster_size'], bins=[1,2,3,6,11,21,51,101,201,501,1001,2001,10001], right=False)
@@ -127,12 +125,15 @@ def tabulate_to_bins(before_annotation_df, after_annotation_df):
 
 	print(bins_df)
 
+	if save_path != None:
+		bins_df.to_csv(save_path, sep = '\t')
+
 
 if __name__ == '__main__':
 	b, a = tabulate_clusters()
-	#tabulate_to_bins(b, a)
+	#tabulate_to_bins(b, a, 'test.tsv')
 
-	b.to_csv('/home/paul/nterm_annot_project/data/before_annotation.tsv', sep='\t')
-	a.to_csv('/home/paul/nterm_annot_project/data/after_annotation.tsv', sep='\t')
+	#b.to_csv('/home/paul/nterm_annot_project/data/before_annotation.tsv', sep='\t')
+	#a.to_csv('/home/paul/nterm_annot_project/data/after_annotation.tsv', sep='\t')
 
 	print(b); print(a)
