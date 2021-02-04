@@ -1,6 +1,19 @@
 # Notebook
 
-## 1-2.02.2021
+## 04.02.2021
+
+I left hhblits running overnight but it's still around halfway through. I guess it's not *so* much faster.
+
+## 03.02.2021
+
+We determined that we can improve overall coverage from ~70% to ~75% if we try reducing the clustering coverage by around 20% (so from 80% to 60%). So now, I'm aligning the 60% clustering and I'm going to run hhblits on them tonight.
+
+---
+I decided to run it now trying hhblits_omp following https://github.com/soedinglab/hh-suite/issues/212. Let's see if it speeds up.
+
+Okay, so it's running separate jobs in each thread which is exactly what I wanted. This is great! Soon I'm going to implement this in the pipeline which should speed it up by a LOT.
+
+## 01-02.02.2021
 
 Multiple birthdays. Obtained some data though. We wanted to see if lowering coverage in clustering would help us annotate more sequences.
 
