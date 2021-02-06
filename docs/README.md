@@ -1,5 +1,16 @@
 # Notebook
 
+## 06.02.2021
+
+hhblits is done. Now I need to perform some analysis on this and get working on other tasks.
+
+---
+The results aren't satisfying. One thing that could be useful is to filter out sequences with annotations from 80% coverage clustering and check the rest from 60%.
+
+## 05.02.2021
+
+Came across a memory problem. Increased the swap memory from 16GB to 32GB which fixed it. hhblits is now running overnight and should be done my tomorrow morning.
+
 ## 04.02.2021
 
 I left hhblits running overnight but it's still around halfway through. I guess it's not *so* much faster.

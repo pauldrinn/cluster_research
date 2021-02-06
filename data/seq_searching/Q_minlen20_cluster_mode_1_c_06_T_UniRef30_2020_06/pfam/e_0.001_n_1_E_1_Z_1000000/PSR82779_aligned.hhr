@@ -1,0 +1,150 @@
+Query         PSR82779.1
+Match_columns 162
+No_of_seqs    1748 out of 1811
+Neff          8.82917
+Searched_HMMs 100
+Date          Sat Feb  6 20:05:57 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/PSR82779_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/PSR82779_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/PSR82779_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF08043.12 ; Xin ; Xin repeat   61.8    0.42 7.7E-05   17.8   0.0   10  137-146     4-13  (16)
+  2 PF16496.5 ; SWIRM-assoc_2 ; SW  13.3      11  0.0021   25.8   0.0   20  136-155   227-246 (405)
+  3 PF05370.11 ; DUF749 ; Domain o   5.3      40  0.0073   17.5   0.0   14    3-16      3-16  (88)
+  4 PF11372.8 ; DUF3173 ; Domain o   4.3      52  0.0097   15.4   0.0   18   39-56     34-51  (58)
+  5 PF08156.13 ; NOP5NT ; NOP5NT (   3.8      57   0.011   14.9   0.0    8   22-29     26-33  (66)
+  6 PF08112.11 ; ATP-synt_E_2 ; AT   3.3      72   0.013   14.8   0.0   26    6-31     13-38  (56)
+  7 PF01246.20 ; Ribosomal_L24e ;    2.3 1.1E+02    0.02   14.0   0.0   26   38-63      5-30  (66)
+  8 PF18253.1 ; HipN ; Hsp70-inter   2.3 1.1E+02   0.021   12.6   0.0    6  148-153    30-35  (42)
+  9 PF07750.11 ; GcrA ; GcrA cell    2.2 1.1E+02   0.021   16.6   0.0   15  132-146   120-134 (171)
+ 10 PF00390.19 ; malic ; Malic enz   2.0 1.3E+02   0.024   17.0   0.0   18   49-66     66-83  (181)
+
+No 1
+>PF08043.12 ; Xin ; Xin repeat
+Probab=61.79  E-value=0.42  Score=17.79  Aligned_cols=10  Identities=40%  Similarity=1.265  Sum_probs=7.9  Template_Neff=3.000
+
+Q PSR82779.1      133 DTCKWLLKNK  142 (157)
+Q Consensus       137 gTc~Wi~~~~  146 (162)
+                      .|+.|+|+..
+T Consensus         4 ~~~~wlFETq   13 (16)
+T F6SLD1_XENTR/7    4 KMCKWLFETQ   13 (16)
+T ss_pred             cceeEeEecc
+Confidence            5789999864
+
+
+No 2
+>PF16496.5 ; SWIRM-assoc_2 ; SWIRM-associated domain at the N-terminal
+Probab=13.33  E-value=11  Score=25.75  Aligned_cols=20  Identities=30%  Similarity=0.737  Sum_probs=16.9  Template_Neff=5.700
+
+Q PSR82779.1      132 RDTCKWLLKNKDYCRWQNLE  151 (157)
+Q Consensus       136 ~gTc~Wi~~~~~f~~Wl~~~  155 (162)
+                      .=++.||++...|.+|++..
+T Consensus       227 ~V~arWl~Ds~~fNEWMNEe  246 (405)
+T E0VYN8_PEDHC/5  227 RVAATWVLELEQYNEWMTEE  246 (405)
+T ss_pred             EEeeehhhcHHHHcCCCCHH
+Confidence            34899999999999998754
+
+
+No 3
+>PF05370.11 ; DUF749 ; Domain of unknown function (DUF749)
+Probab=5.29  E-value=40  Score=17.46  Aligned_cols=14  Identities=7%  Similarity=-0.098  Sum_probs=10.1  Template_Neff=3.800
+
+Q PSR82779.1        1 ------MKRTMSSI    8 (157)
+Q Consensus         3 ~~~~g~~~i~~L~~   16 (162)
+                      ..|.||+++++|..
+T Consensus         3 A~L~gI~~~~elpe   16 (88)
+T E3GXM1_METFV/2    3 ATLLGVFKYDEIPD   16 (88)
+T ss_pred             eEEEEeEEHhhCCH
+Confidence            46788888877654
+
+
+No 4
+>PF11372.8 ; DUF3173 ; Domain of unknown function (DUF3173)
+Probab=4.26  E-value=52  Score=15.38  Aligned_cols=18  Identities=6%  Similarity=-0.088  Sum_probs=10.6  Template_Neff=4.600
+
+Q PSR82779.1       36 PSIHvgHAEAYGDARMMTTG   55 (157)
+Q Consensus        39 ~sFy..E~~~~~~~~~~vV~   56 (162)
+                      ++||  ....++.....+|+
+T Consensus        34 ~~fY..~nkrlg~VP~~~Ve   51 (58)
+T I3TZZ9_ENTFC/8   34 IDFY..NNRQVGVVPSRVIE   51 (58)
+T ss_pred             CCcc..cCCCcccccHHHHH
+Confidence            6788  87766544333444
+
+
+No 5
+>PF08156.13 ; NOP5NT ; NOP5NT (NUC127) domain
+Probab=3.84  E-value=57  Score=14.91  Aligned_cols=8  Identities=0%  Similarity=-0.059  Sum_probs=3.6  Template_Neff=7.400
+
+Q PSR82779.1       14 NDSDSPGVrqrsk   26 (157)
+Q Consensus        22 ~~i~~~F~.....   29 (162)
+                      ..+...|.     
+T Consensus        26 ~~~~~~~~.....   33 (66)
+T NOP56_DICDI/4-   26 DQVQKSMQ.....   33 (66)
+T ss_pred             HHHHHHhc.....
+Confidence            33444444     
+
+
+No 6
+>PF08112.11 ; ATP-synt_E_2 ; ATP synthase epsilon subunit
+Probab=3.35  E-value=72  Score=14.80  Aligned_cols=26  Identities=4%  Similarity=0.075  Sum_probs=16.6  Template_Neff=2.500
+
+Q PSR82779.1        1 ---MKRTMSSIHKRINNDSDSPGVrqrskRP   28 (157)
+Q Consensus         6 ~g~~~i~~L~~~S~~L~~i~~~F~.....~~   31 (162)
+                      +.+++..-=++.++.+..|+..|.     ..
+T Consensus        13 i~~Lks~Ld~Kk~Eil~~Ln~EY~.....ki   38 (56)
+T MTPE_SULTO/1-5   13 INILKSKLDQKKNELLSKINMEYE.....KT   38 (56)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHH.....HH
+Confidence            334443333557788888888888     54
+
+
+No 7
+>PF01246.20 ; Ribosomal_L24e ; Ribosomal protein L24e
+Probab=2.34  E-value=1.1e+02  Score=13.97  Aligned_cols=26  Identities=4%  Similarity=-0.152  Sum_probs=13.5  Template_Neff=6.600
+
+Q PSR82779.1       35 QPSIHvgHAEAYGDARMMTTGPV-RENH   61 (157)
+Q Consensus        38 i~sFy..E~~~~~~~~~~vV~~~SA~l~   63 (162)
+                      ..+|.  +....++.+.+.|..++.++.
+T Consensus         5 ~C~f~..g~~i~pg~G~~~v~~dg~~~~   30 (66)
+T S7WEA5_SPRLO/1    5 KCYFC..SSSIYPGHGTRFIRGDCTNFF   30 (66)
+T ss_pred             eccCC..CCCCCCCCCeEEEEcCCccee
+Confidence            34444  444445555566666655543
+
+
+No 8
+>PF18253.1 ; HipN ; Hsp70-interacting protein N N-terminal domain
+Probab=2.26  E-value=1.1e+02  Score=12.57  Aligned_cols=6  Identities=17%  Similarity=0.877  Sum_probs=2.7  Template_Neff=5.900
+
+Q PSR82779.1      144 YCRWQN  149 (157)
+Q Consensus       148 f~~Wl~  153 (162)
+                      |++|+.
+T Consensus        30 fk~~le   35 (42)
+T V8P772_OPHHA/2   30 FRDWIE   35 (42)
+T ss_pred             HHHHHH
+Confidence            444443
+
+
+No 9
+>PF07750.11 ; GcrA ; GcrA cell cycle regulator
+Probab=2.22  E-value=1.1e+02  Score=16.58  Aligned_cols=15  Identities=27%  Similarity=0.534  Sum_probs=11.5  Template_Neff=8.200
+
+Q PSR82779.1      128 KKRQRDTCKWLLKNK  142 (157)
+Q Consensus       132 ~~~~~gTc~Wi~~~~  146 (162)
+                      .+...++|.|.+.++
+T Consensus       120 ~~l~~~~CrwPvg~p  134 (171)
+T Q98BB8_RHILO/1  120 VELTERTCKWPNGDP  134 (171)
+T ss_pred             hhCCCCCCCCCCCCC
+Confidence            344579999999865
+
+
+No 10
+>PF00390.19 ; malic ; Malic enzyme, N-terminal domain
+Probab=1.99  E-value=1.3e+02  Score=17.05  Aligned_cols=18  Identities=6%  Similarity=-0.084  Sum_probs=13.9  Template_Neff=5.900
+
+Q PSR82779.1       48 DARMMTTGPV-RENHTIY   64 (157)
+Q Consensus        49 ~~~~~vV~~~SA~l~~~~   66 (162)
+                      ...+.||...+++||...
+T Consensus        66 ~v~~iVvTDG~~ILGlGD   83 (181)
+T MAO1_PSEAE/79-   66 NVKIVVVTDSERILGLGD   83 (181)
+T ss_pred             CceEEEEeCCcceecccc
+Confidence            445789999999998654
+
+

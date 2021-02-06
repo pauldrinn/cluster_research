@@ -1,0 +1,150 @@
+Query         XP_001834766.2
+Match_columns 177
+No_of_seqs    1161 out of 1206
+Neff          6.06667
+Searched_HMMs 100
+Date          Sat Feb  6 20:06:59 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/XP_001834766_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_001834766_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_001834766_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF16496.5 ; SWIRM-assoc_2 ; SW  15.1     8.7  0.0018   28.8   0.0   18  153-170   228-245 (405)
+  2 PF08043.12 ; Xin ; Xin repeat   10.3      16   0.003   14.9   0.0    9  154-162     5-13  (16)
+  3 PF05003.12 ; DUF668 ; Protein    8.7      19  0.0038   21.0   0.0   13  123-135    73-85  (92)
+  4 PF16220.5 ; DUF4880 ; Domain o   3.6      53   0.012   13.5   0.0   13  123-135    17-29  (43)
+  5 PF12785.7 ; VESA1_N ; Variant    2.9      77   0.015   23.3   0.0   25  123-148   440-464 (470)
+  6 PF15119.6 ; APOC4 ; Apolipopro   2.8      86   0.016   18.2   0.0   24  140-163    53-76  (94)
+  7 PF10058.9 ; zinc_ribbon_10 ; P   1.6 1.5E+02   0.031   13.9   0.0   30  128-158     4-33  (51)
+  8 PF02177.16 ; APP_N ; Amyloid A   1.6 1.6E+02   0.032   16.7   0.0    9  153-161    29-37  (111)
+  9 PF04940.12 ; BLUF ; Sensors of   1.5 1.5E+02   0.033   15.0   0.0   25  148-172    29-53  (91)
+ 10 PF12875.7 ; DUF3826 ; Protein    1.4 1.9E+02   0.038   18.0   0.0   16  120-135   120-135 (184)
+
+No 1
+>PF16496.5 ; SWIRM-assoc_2 ; SWIRM-associated domain at the N-terminal
+Probab=15.06  E-value=8.7  Score=28.81  Aligned_cols=18  Identities=28%  Similarity=0.676  Sum_probs=16.0  Template_Neff=5.700
+
+Q XP_001834766.2   83 GTLSWFLEGDNYRGWKLG  100 (102)
+Q Consensus       153 GTG~WfLes~eFq~W~~~  170 (177)
+                      -+..||+++..|.+|...
+T Consensus       228 V~arWl~Ds~~fNEWMNE  245 (405)
+T E0VYN8_PEDHC/5  228 VAATWVLELEQYNEWMTE  245 (405)
+T ss_pred             EeeehhhcHHHHcCCCCH
+Confidence            478999999999999875
+
+
+No 2
+>PF08043.12 ; Xin ; Xin repeat
+Probab=10.32  E-value=16  Score=14.93  Aligned_cols=9  Identities=22%  Similarity=0.726  Sum_probs=6.3  Template_Neff=3.000
+
+Q XP_001834766.2   84 TLSWFLEGD   92 (102)
+Q Consensus       154 TG~WfLes~  162 (177)
+                      |..|++|..
+T Consensus         5 ~~~wlFETq   13 (16)
+T F6SLD1_XENTR/7    5 MCKWLFETQ   13 (16)
+T ss_pred             ceeEeEecc
+Confidence            567888764
+
+
+No 3
+>PF05003.12 ; DUF668 ; Protein of unknown function (DUF668)
+Probab=8.71  E-value=19  Score=21.01  Aligned_cols=13  Identities=38%  Similarity=0.596  Sum_probs=10.5  Template_Neff=5.400
+
+Q XP_001834766.2   53 EVDLERILEWLAP   65 (102)
+Q Consensus       123 ~~~r~kIL~WLSp  135 (177)
+                      .+..++|++||.|
+T Consensus        73 ~~~~~~iL~WL~P   85 (92)
+T M0TQV8_MUSAM/1   73 TATVTGMLERLAP   85 (92)
+T ss_pred             HHHHHHHHHHHhh
+Confidence            3456789999998
+
+
+No 4
+>PF16220.5 ; DUF4880 ; Domain of unknown function (DUF4880)
+Probab=3.57  E-value=53  Score=13.53  Aligned_cols=13  Identities=8%  Similarity=0.143  Sum_probs=9.3  Template_Neff=10.000
+
+Q XP_001834766.2   53 EVDLERILEWLAP   65 (102)
+Q Consensus       123 ~~~r~kIL~WLSp  135 (177)
+                      .+.+..+..||..
+T Consensus        17 ~~~~~~~~~Wl~~   29 (43)
+T Q92NX5_RHIME/4   17 PEMRLHFERWVTT   29 (43)
+T ss_pred             HHHHHHHHHHHHh
+Confidence            3566778888875
+
+
+No 5
+>PF12785.7 ; VESA1_N ; Variant erythrocyte surface antigen-1
+Probab=2.91  E-value=77  Score=23.34  Aligned_cols=25  Identities=16%  Similarity=0.343  Sum_probs=19.5  Template_Neff=5.100
+
+Q XP_001834766.2   53 EVDLERILEWLAPNVNFRSIHIENFE   78 (102)
+Q Consensus       123 ~~~r~kIL~WLSp~~d~~~~h~~~~~  148 (177)
+                      .....+||-||+. +-|+..|..++.
+T Consensus       440 PcSIyEML~WLSG-LPYNpVY~kLl~  464 (470)
+T A7AX24_BABBO/5  440 PKTIREILYWLSA-LPYSTAYPLILK  464 (470)
+T ss_pred             CccHHHHHHHHhC-CCCCcHHHHHHH
+Confidence            3456889999998 888888777653
+
+
+No 6
+>PF15119.6 ; APOC4 ; Apolipoprotein C4
+Probab=2.83  E-value=86  Score=18.19  Aligned_cols=24  Identities=4%  Similarity=0.253  Sum_probs=17.7  Template_Neff=2.800
+
+Q XP_001834766.2   70 RSIHIENFEKCAEGTLSWFLEGDN   93 (102)
+Q Consensus       140 ~~~h~~~~~kR~~GTG~WfLes~e  163 (177)
+                      ...|.++++...+-|-.|+.++.+
+T Consensus        53 qTYYeDHLkdlg~rt~aWl~sskd   76 (94)
+T APOC4_RABIT/28   53 QTYYDDHLRDLGPRAQAWLTSSRD   76 (94)
+T ss_pred             HHHHHHHhhcccHHHHHHHHhhHH
+Confidence            346777788888888888877664
+
+
+No 7
+>PF10058.9 ; zinc_ribbon_10 ; Predicted integral membrane zinc-ribbon metal-binding protein
+Probab=1.63  E-value=1.5e+02  Score=13.87  Aligned_cols=30  Identities=13%  Similarity=-0.139  Sum_probs=18.0  Template_Neff=6.600
+
+Q XP_001834766.2   58 RILEWLAPNVNFRSIHIENFEKCAEGTLSWF   88 (102)
+Q Consensus       128 kIL~WLSp~~d~~~~h~~~~~kR~~GTG~Wf  158 (177)
+                      +|++.|.. .++...+.-+.++...-.|.=+
+T Consensus         4 ki~d~l~G-~~~~~~~aLIC~~C~~hNGl~~   33 (51)
+T A2EHP9_TRIVA/1    4 RLSSILAR-NGPDYRYAIICPYCRSVNGTVS   33 (51)
+T ss_pred             hHhHHHcC-CCCCCcEEEeCCCcceeCCCCC
+Confidence            45555555 5556666666666666666554
+
+
+No 8
+>PF02177.16 ; APP_N ; Amyloid A4 N-terminal heparin-binding
+Probab=1.57  E-value=1.6e+02  Score=16.70  Aligned_cols=9  Identities=11%  Similarity=0.261  Sum_probs=4.4  Template_Neff=5.400
+
+Q XP_001834766.2   83 GTLSWFLEG   91 (102)
+Q Consensus       153 GTG~WfLes  161 (177)
+                      .+|.|+-+.
+T Consensus        29 ~~G~W~~D~   37 (111)
+T E0VLF5_PEDHC/1   29 EQGKWITDI   37 (111)
+T ss_pred             CCCCEEeCC
+Confidence            455554443
+
+
+No 9
+>PF04940.12 ; BLUF ; Sensors of blue-light using FAD
+Probab=1.53  E-value=1.5e+02  Score=14.98  Aligned_cols=25  Identities=12%  Similarity=-0.060  Sum_probs=20.1  Template_Neff=8.200
+
+Q XP_001834766.2   78 EKCAEGTLSWFLEGDNYRGWKLGEH  102 (102)
+Q Consensus       148 ~kR~~GTG~WfLes~eFq~W~~~~~  172 (177)
+                      ..+..=||--+.....|-.+++++.
+T Consensus        29 N~~~~ItG~L~~~~~~f~Q~lEG~~   53 (91)
+T Q6MPS8_BDEBA/5   29 NARLGITGLLIFRDGFFLQLLEGEQ   53 (91)
+T ss_pred             HHHhCCeEEEEEECCEEEeeeecCH
+Confidence            4567788998888888999988764
+
+
+No 10
+>PF12875.7 ; DUF3826 ; Protein of unknown function (DUF3826)
+Probab=1.37  E-value=1.9e+02  Score=18.03  Aligned_cols=16  Identities=19%  Similarity=0.671  Sum_probs=13.3  Template_Neff=4.800
+
+Q XP_001834766.2   50 TMPEVDLERILEWLAP   65 (102)
+Q Consensus       120 ~~~~~~r~kIL~WLSp  135 (177)
+                      ...++++..|+.||..
+T Consensus       120 ~Lt~eeK~~I~~~L~E  135 (184)
+T L0FWS4_ECHVK/3  120 DLNQAQQDKIWDWLVE  135 (184)
+T ss_pred             CCCHHHHHHHHHHHHH
+Confidence            5667888999999975
+
+

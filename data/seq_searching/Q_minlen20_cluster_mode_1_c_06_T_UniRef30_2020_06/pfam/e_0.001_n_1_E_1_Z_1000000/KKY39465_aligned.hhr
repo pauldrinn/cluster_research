@@ -1,0 +1,150 @@
+Query         KKY39465.1
+Match_columns 133
+No_of_seqs    1007 out of 1048
+Neff          5.66093
+Searched_HMMs 100
+Date          Sat Feb  6 20:04:38 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KKY39465_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KKY39465_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KKY39465_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF08043.12 ; Xin ; Xin repeat   28.4     3.2 0.00061   16.9   0.0   10   99-108     4-13  (16)
+  2 PF18532.1 ; DUF5621 ; Domain o  16.0     8.2  0.0016   24.0   0.0   18   92-109    64-81  (140)
+  3 PF02961.14 ; BAF ; Barrier to    7.4      23  0.0048   19.5   0.0   13  120-132    57-69  (88)
+  4 PF17671.1 ; DUF5531 ; Family o   6.2      33   0.006   21.2   0.0   18   72-89     85-102 (152)
+  5 PF12163.8 ; HobA ; DNA replica   3.1      72   0.014   19.7   0.0   23   87-109   120-142 (180)
+  6 PF16514.5 ; NADH-UOR_E ; putat   2.7      89   0.017   16.7   0.0   17   71-87     51-67  (74)
+  7 PF15821.5 ; DUF4709 ; Domain o   2.7      85   0.017   17.7   0.0   19   82-100    71-89  (109)
+  8 PF18196.1 ; Cdh1_DBD_1 ; Chrom   2.2   1E+02   0.022   17.0   0.0   17   79-95     12-28  (122)
+  9 PF02843.16 ; GARS_C ; Phosphor   2.2      99   0.022   15.2   0.0   18   74-91     71-88  (92)
+ 10 PF13037.6 ; DUF3898 ; Domain o   2.1 1.2E+02   0.023   16.5   0.0   35   73-107    38-72  (89)
+
+No 1
+>PF08043.12 ; Xin ; Xin repeat
+Probab=28.45  E-value=3.2  Score=16.94  Aligned_cols=10  Identities=20%  Similarity=0.810  Sum_probs=7.8  Template_Neff=3.000
+
+Q KKY39465.1       76 NSFDWVFNSA   85 (107)
+Q Consensus        99 ~TFeWIF~~~  108 (133)
+                      +|..|+|+..
+T Consensus         4 ~~~~wlFETq   13 (16)
+T F6SLD1_XENTR/7    4 KMCKWLFETQ   13 (16)
+T ss_pred             cceeEeEecc
+Confidence            5789999864
+
+
+No 2
+>PF18532.1 ; DUF5621 ; Domain of unknown function (DUF5621)
+Probab=16.05  E-value=8.2  Score=23.98  Aligned_cols=18  Identities=17%  Similarity=0.252  Sum_probs=14.6  Template_Neff=4.400
+
+Q KKY39465.1       69 DVAKAHGNSFDWVFNSAG   86 (107)
+Q Consensus        92 ~I~~Ah~~TFeWIF~~~~  109 (133)
+                      --..++..||.|+|+...
+T Consensus        64 LFk~~YP~~ynwfFE~n~   81 (140)
+T A0A098FZ64_9GA   64 LFKIAYPRTFNYLFEKNV   81 (140)
+T ss_pred             HHHHHhHHHHHHHHhcCC
+Confidence            356788999999998764
+
+
+No 3
+>PF02961.14 ; BAF ; Barrier to autointegration factor
+Probab=7.40  E-value=23  Score=19.46  Aligned_cols=13  Identities=23%  Similarity=0.626  Sum_probs=10.1  Template_Neff=5.500
+
+Q KKY39465.1       94 PMFTEWLSTDNLG  106 (107)
+Q Consensus       120 ~~F~~WL~sg~GI  132 (133)
+                      ..|.+||...-|+
+T Consensus        57 ~~F~~wLk~~~ga   69 (88)
+T B0W6Y7_CULQU/2   57 ELFKEWMKDTCGA   69 (88)
+T ss_pred             HHHHHHHHHHhCC
+Confidence            5899999876555
+
+
+No 4
+>PF17671.1 ; DUF5531 ; Family of unknown function (DUF5531)
+Probab=6.19  E-value=33  Score=21.19  Aligned_cols=18  Identities=44%  Similarity=0.600  Sum_probs=15.0  Template_Neff=2.300
+
+Q KKY39465.1       49 LLQEFILESLSFQSMESR   66 (107)
+Q Consensus        72 ~~~~~IL~SL~F~~M~~R   89 (133)
+                      ..++.||+.|-|.+|.-.
+T Consensus        85 ALQDKilERLmfsEMKLK  102 (152)
+T G1QCS6_MYOLU/1   85 ALQDKILERLMFSEMKLK  102 (152)
+T ss_pred             HHHHHHHHHHhhchHhHH
+Confidence            468899999999999754
+
+
+No 5
+>PF12163.8 ; HobA ; DNA replication regulator
+Probab=3.11  E-value=72  Score=19.67  Aligned_cols=23  Identities=30%  Similarity=0.690  Sum_probs=19.5  Template_Neff=4.400
+
+Q KKY39465.1       64 ESREQDVAKAHGNSFDWVFNSAG   86 (107)
+Q Consensus        87 ~~R~~~I~~Ah~~TFeWIF~~~~  109 (133)
+                      +.++..|....++.|=|||++..
+T Consensus       120 ~~~~a~iA~~~~~sflWi~De~~  142 (180)
+T Q30Q05_SULDN/1  120 DDRRADIAKRKDTSYFWIFDEEY  142 (180)
+T ss_pred             CCccchhhhcCCCceEEeecccc
+Confidence            55788888889999999999863
+
+
+No 6
+>PF16514.5 ; NADH-UOR_E ; putative NADH-ubiquinone oxidoreductase chain E
+Probab=2.74  E-value=89  Score=16.67  Aligned_cols=17  Identities=18%  Similarity=0.335  Sum_probs=12.2  Template_Neff=2.600
+
+Q KKY39465.1       48 ELLQEFILESLSFQSME   64 (107)
+Q Consensus        71 ~~~~~~IL~SL~F~~M~   87 (133)
+                      ...-..+|.||+|.+.+
+T Consensus        51 ke~g~eLmNSlkFNevD   67 (74)
+T E6WYR3_NITSE/1   51 KEHGHELMNSLKFNEVD   67 (74)
+T ss_pred             HHhCCeeeeeecccccC
+Confidence            34556789999997653
+
+
+No 7
+>PF15821.5 ; DUF4709 ; Domain of unknown function (DUF4709)
+Probab=2.73  E-value=85  Score=17.69  Aligned_cols=19  Identities=16%  Similarity=0.314  Sum_probs=15.8  Template_Neff=4.400
+
+Q KKY39465.1       59 SFQSMESREQDVAKAHGNS   77 (107)
+Q Consensus        82 ~F~~M~~R~~~I~~Ah~~T  100 (133)
+                      -|..|++|...|...|..-
+T Consensus        71 Ly~~~ndri~~lE~~hkq~   89 (109)
+T C3ZX22_BRAFL/3   71 LYCRVNDKLEDLEKIHLDK   89 (109)
+T ss_pred             HHHHHHHHHHHHHHHHHHH
+Confidence            4778999999999988743
+
+
+No 8
+>PF18196.1 ; Cdh1_DBD_1 ; Chromodomain helicase DNA-binding domain 1
+Probab=2.20  E-value=1e+02  Score=16.98  Aligned_cols=17  Identities=6%  Similarity=-0.003  Sum_probs=12.6  Template_Neff=6.100
+
+Q KKY39465.1       56 ESLSFQSMESREQDVAK   72 (107)
+Q Consensus        79 ~SL~F~~M~~R~~~I~~   95 (133)
+                      .-|+|..+..|++.|..
+T Consensus        12 ailrfGd~~~R~d~ii~   28 (122)
+T I2H6B0_TETBL/1   12 SILKKGDIRNIIGELIA   28 (122)
+T ss_pred             HHHhhCCHHHHHHHHHH
+Confidence            34688888888887754
+
+
+No 9
+>PF02843.16 ; GARS_C ; Phosphoribosylglycinamide synthetase, C domain
+Probab=2.18  E-value=99  Score=15.21  Aligned_cols=18  Identities=22%  Similarity=0.344  Sum_probs=12.0  Template_Neff=8.200
+
+Q KKY39465.1       51 QEFILESLSFQSMESREQ   68 (107)
+Q Consensus        74 ~~~IL~SL~F~~M~~R~~   91 (133)
+                      ....++.+.|+.+..|.+
+T Consensus        71 ~y~~i~~i~~~~~~yR~D   88 (92)
+T B8I489_CLOCE/3   71 AYAGIEKIQFEGMHYRKD   88 (92)
+T ss_pred             HHHHHhcCccCCcEeecC
+Confidence            345577778887777654
+
+
+No 10
+>PF13037.6 ; DUF3898 ; Domain of unknown function (DUF3898)
+Probab=2.09  E-value=1.2e+02  Score=16.55  Aligned_cols=35  Identities=14%  Similarity=0.179  Sum_probs=27.6  Template_Neff=3.000
+
+Q KKY39465.1       50 LQEFILESLSFQSMESREQDVAKAHGNSFDWVFNS   84 (107)
+Q Consensus        73 ~~~~IL~SL~F~~M~~R~~~I~~Ah~~TFeWIF~~  107 (133)
+                      ....+=+++++..++.||--+-++..-+|+==+.+
+T Consensus        38 lLaDfG~~iHiAK~ngrYvvliEgd~~~FeKG~SP   72 (89)
+T G2TL54_BACCO/2   38 LLSDFGETVHLAKIGDRYVTIVESESILFEKGFSP   72 (89)
+T ss_pred             hHHhhcCcEEEEEECCEEEEEEECcceeecCCCCc
+Confidence            44456678999999999999999888888755544
+
+

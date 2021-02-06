@@ -1,0 +1,150 @@
+Query         XP_007834224.1
+Match_columns 110
+No_of_seqs    1005 out of 1019
+Neff          6.03804
+Searched_HMMs 100
+Date          Sat Feb  6 20:07:06 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/XP_007834224_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_007834224_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_007834224_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF16496.5 ; SWIRM-assoc_2 ; SW  36.2     1.8 0.00037   30.2   0.0   19   76-94    228-246 (405)
+  2 PF05003.12 ; DUF668 ; Protein   29.8     2.8 0.00056   23.3   0.0   19   41-59     70-88  (92)
+  3 PF11630.8 ; DUF3254 ; Protein   28.2     3.2 0.00062   23.6   0.0   22   83-104    37-58  (100)
+  4 PF08043.12 ; Xin ; Xin repeat   13.9      11   0.002   14.4   0.0    9   77-85      5-13  (16)
+  5 PF12785.7 ; VESA1_N ; Variant    6.5      28  0.0056   23.9   0.0   26   44-69    440-465 (470)
+  6 PF15098.6 ; TMEM89 ; TMEM89 pr   5.8      36  0.0065   19.5   0.0   14    1-14     47-60  (131)
+  7 PF04808.12 ; CTV_P23 ; Citrus    5.5      38   0.007   20.9   0.0   40   17-56      2-43  (209)
+  8 PF09572.10 ; RE_XamI ; XamI re   4.7      43  0.0085   21.0   0.0   45   43-87    122-166 (256)
+  9 PF16195.5 ; UBA2_C ; SUMO-acti   4.1      55    0.01   17.5   0.0   20   17-36     32-51  (90)
+ 10 PF02177.16 ; APP_N ; Amyloid A   2.7      83   0.017   16.7   0.0   12   75-86     28-39  (111)
+
+No 1
+>PF16496.5 ; SWIRM-assoc_2 ; SWIRM-associated domain at the N-terminal
+Probab=36.20  E-value=1.8  Score=30.23  Aligned_cols=19  Identities=16%  Similarity=0.571  Sum_probs=16.6  Template_Neff=5.700
+
+Q XP_007834224.1   66 NTGNWARESGAFSAWAASS   84 (90)
+Q Consensus        76 GTGqWlL~S~eFq~W~~~~   94 (110)
+                      -+..|||++.+|.+|.+..
+T Consensus       228 V~arWl~Ds~~fNEWMNEe  246 (405)
+T E0VYN8_PEDHC/5  228 VAATWVLELEQYNEWMTEE  246 (405)
+T ss_pred             EeeehhhcHHHHcCCCCHH
+Confidence            4789999999999998764
+
+
+No 2
+>PF05003.12 ; DUF668 ; Protein of unknown function (DUF668)
+Probab=29.78  E-value=2.8  Score=23.26  Aligned_cols=19  Identities=11%  Similarity=0.193  Sum_probs=13.9  Template_Neff=5.400
+
+Q XP_007834224.1   31 LSIQQQIDSIRQWLQPTEF   49 (90)
+Q Consensus        41 ~~~~~~~~~Il~WLsp~dy   59 (110)
+                      .+-.+..++|++||.|...
+T Consensus        70 ~~~~~~~~~iL~WL~P~A~   88 (92)
+T M0TQV8_MUSAM/1   70 AEWTATVTGMLERLAPLAH   88 (92)
+T ss_pred             HHHHHHHHHHHHHHhhhcc
+Confidence            3445567889999999754
+
+
+No 3
+>PF11630.8 ; DUF3254 ; Protein of unknown function (DUF3254)
+Probab=28.19  E-value=3.2  Score=23.62  Aligned_cols=22  Identities=9%  Similarity=0.070  Sum_probs=17.5  Template_Neff=4.400
+
+Q XP_007834224.1   73 ESGAFSAWAASSGPENAq-----   90 (90)
+Q Consensus        83 ~S~eFq~W~~~~~~tLf.cpG~p  104 (110)
+                      -++.|+.|.---...++ |||=.
+T Consensus        37 ~~P~~~~~eLyy~g~~w.CPGWT   58 (100)
+T Q1XI22_MARJA/2   37 VEPKFRNWQLRFKGRMW.CPGWT   58 (100)
+T ss_pred             EeceeeCeEEEEEEEEE.cCCCc
+Confidence            35678888888888999 99953
+
+
+No 4
+>PF08043.12 ; Xin ; Xin repeat
+Probab=13.87  E-value=11  Score=14.37  Aligned_cols=9  Identities=22%  Similarity=0.449  Sum_probs=6.2  Template_Neff=3.000
+
+Q XP_007834224.1   67 TGNWARESG   75 (90)
+Q Consensus        77 TGqWlL~S~   85 (110)
+                      |..|++|+.
+T Consensus         5 ~~~wlFETq   13 (16)
+T F6SLD1_XENTR/7    5 MCKWLFETQ   13 (16)
+T ss_pred             ceeEeEecc
+Confidence            567887764
+
+
+No 5
+>PF12785.7 ; VESA1_N ; Variant erythrocyte surface antigen-1
+Probab=6.50  E-value=28  Score=23.94  Aligned_cols=26  Identities=23%  Similarity=0.424  Sum_probs=19.8  Template_Neff=5.100
+
+Q XP_007834224.1   34 QQQIDSIRQWLQPTEFMSPGNEFMKH   59 (90)
+Q Consensus        44 ~~~~~~Il~WLsp~dy~~~~sd~~~~   69 (110)
+                      ..-+.+||-||+-.-|+.-+..++.+
+T Consensus       440 PcSIyEML~WLSGLPYNpVY~kLl~h  465 (470)
+T A7AX24_BABBO/5  440 PKTIREILYWLSALPYSTAYPLILKH  465 (470)
+T ss_pred             CccHHHHHHHHhCCCCCcHHHHHHHH
+Confidence            34567899999999998877666543
+
+
+No 6
+>PF15098.6 ; TMEM89 ; TMEM89 protein family
+Probab=5.82  E-value=36  Score=19.47  Aligned_cols=14  Identities=7%  Similarity=0.008  Sum_probs=9.9  Template_Neff=1.900
+
+Q XP_007834224.1    1 ----------MAAK    4 (90)
+Q Consensus         1 ~~~~~~~~~~~~~~   14 (110)
+                      +||+.-|+.||++.
+T Consensus        47 vAGvtiTTtmmlvi   60 (131)
+T F1SKK4_PIG/23-   47 VAGVTVTTTMMLML   60 (131)
+T ss_pred             cccchHHHHHHHHH
+Confidence            47888887777443
+
+
+No 7
+>PF04808.12 ; CTV_P23 ; Citrus tristeza virus (CTV) P23 protein
+Probab=5.49  E-value=38  Score=20.92  Aligned_cols=40  Identities=20%  Similarity=0.226  Sum_probs=23.2  Template_Neff=2.500
+
+Q XP_007834224.1    7 KPDAGEDFEIVARDTVPAPATESL--LSIQQQIDSIRQWLQP   46 (90)
+Q Consensus        17 ~~~~~~d~~~v~~~d~~~~n~~~i--~~~~~~~~~Il~WLsp   56 (110)
+                      ++.+.+.|+.|.-.|.++-.....  ...+.++.++++-+++
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Rk~n~   43 (209)
+T Q66245_9CLOS/1    2 DNTSGQTFVSVNLSDESNTATTDVEPVSSEADRLDFLQKMNP   43 (209)
+T ss_pred             CCCCCceEEEeeccCCCCcccceeeecCcHHHHHHHHHHHCh
+Confidence            455677888888888776655443  2223344455555544
+
+
+No 8
+>PF09572.10 ; RE_XamI ; XamI restriction endonuclease
+Probab=4.71  E-value=43  Score=21.00  Aligned_cols=45  Identities=20%  Similarity=0.293  Sum_probs=29.0  Template_Neff=4.900
+
+Q XP_007834224.1   33 IQQQIDSIRQWLQPTEFMSPGNEFMKHLNAYVPNTGNWARESGAF   77 (90)
+Q Consensus        43 ~~~~~~~Il~WLsp~dy~~~~sd~~~~r~~r~~GTGqWlL~S~eF   87 (110)
+                      ...+...|.+||....|......-........+|||..-.+.+-.
+T Consensus       122 erRQe~~V~~~L~~~Gy~~v~~~~i~~~~~~~pg~~~F~~~~~v~  166 (256)
+T K9W514_9CYAN/5  122 ERRQLATIRQWLEQRGYSYIGAGTGLSFERIQPGTFAFRLNIPVL  166 (256)
+T ss_pred             HHHHHHHHHHHHHHCCCEEccCCCCCCHHHcCCCCeEEEEEeeee
+Confidence            344567799999888887655433333334558888876666543
+
+
+No 9
+>PF16195.5 ; UBA2_C ; SUMO-activating enzyme subunit 2 C-terminus
+Probab=4.06  E-value=55  Score=17.48  Aligned_cols=20  Identities=30%  Similarity=0.439  Sum_probs=13.9  Template_Neff=3.100
+
+Q XP_007834224.1    7 KPDAGEDFEIVARDTVPAPA   26 (90)
+Q Consensus        17 ~~~~~~d~~~v~~~d~~~~n   36 (110)
+                      .....+|+.||+.++....+
+T Consensus        32 ~~~e~dDv~IVdsDeE~~s~   51 (90)
+T W5M7D9_LEPOC/5   32 KAPEQDDVLIVDSDEEPSSS   51 (90)
+T ss_pred             CCCcccCeEEecCCCCCCCc
+Confidence            34566789999998764433
+
+
+No 10
+>PF02177.16 ; APP_N ; Amyloid A4 N-terminal heparin-binding
+Probab=2.74  E-value=83  Score=16.70  Aligned_cols=12  Identities=17%  Similarity=0.628  Sum_probs=6.1  Template_Neff=5.400
+
+Q XP_007834224.1   65 PNTGNWARESGA   76 (90)
+Q Consensus        75 ~GTGqWlL~S~e   86 (110)
+                      ..+|+|.-+...
+T Consensus        28 ~~~G~W~~D~~~   39 (111)
+T E0VLF5_PEDHC/1   28 TEQGKWITDINN   39 (111)
+T ss_pred             CCCCCEEeCCCc
+Confidence            455555554443
+
+

@@ -1,0 +1,1760 @@
+Query         EGU74195.1
+Match_columns 147
+No_of_seqs    226 out of 289
+Neff          3.96443
+Searched_HMMs 296
+Date          Fri Feb  5 01:10:00 2021
+Command       hhblits_omp -i qdb_2 -o res_hhr_2 -oa3m res_a3m_2 -d /mnt/c/hhsuite_databases/UniRef30_2020_06 -cpu 10 -e 0.001 -n 2 -E 0.01 -Z 1000000 -M 50 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 UniRef100_A0A2N1L0P2 NACHT dom 100.0 6.6E-40 1.6E-45  295.7   0.0  145    1-147     1-150 (539)
+  2 UniRef100_A0A0D2XYQ7 NACHT dom 100.0 8.4E-37 1.9E-42  264.0   0.0  147    1-147     1-147 (368)
+  3 UniRef100_A0A094AQ36 NACHT dom 100.0 2.8E-35 8.6E-41  289.4   0.0  110   37-147   401-516 (1389)
+  4 UniRef100_A0A2H3GIT2 NACHT dom 100.0 7.8E-35 1.7E-40  268.7   0.0  147    1-147     1-147 (870)
+  5 UniRef100_A0A0I9XYC9 NACHT dom 100.0 1.9E-34 4.5E-40  273.4   0.0  147    1-147     1-147 (1320)
+  6 UniRef100_A0A017SP49 ARM repea 100.0 5.2E-34 1.8E-39  285.5   0.0   98   48-147   395-492 (1659)
+  7 UniRef100_A0A135UH12 Peptidase 100.0   7E-33   2E-38  265.9   0.0  111   37-147   361-478 (1016)
+  8 UniRef100_A0A066WT80 Putative   99.9   1E-29 2.5E-35  233.5   0.0  115   31-147   307-423 (637)
+  9 UniRef100_H1UYF2 NACHT domain-  99.9 1.2E-29 2.6E-35  215.5   0.0  115   33-147    11-131 (287)
+ 10 UniRef100_A0A098DTC5 NACHT dom  99.9 1.8E-29 5.7E-35  254.3   0.0  115   31-147   549-665 (1847)
+ 11 UniRef100_A0A1B7XQZ1 Peptidase  99.9 3.5E-29 8.3E-35  230.1   0.0  119   29-147   317-441 (669)
+ 12 UniRef100_A0A0B7KRI9 NACHT dom  99.9 4.5E-27   1E-32  228.3   0.0  107   38-147   367-473 (2178)
+ 13 UniRef100_A0A093V5I0 NACHT, LR  99.9 1.6E-26 4.7E-32  230.7   0.0  111   35-147   311-429 (1717)
+ 14 UniRef100_A0A167GBS2 Peptidase  99.9 3.8E-26 8.4E-32  197.8   0.0  105   41-147   233-337 (337)
+ 15 UniRef100_A0A017S1N8 NACHT dom  99.9   1E-25 3.8E-31  228.3   0.0  105   36-147   428-533 (1673)
+ 16 UniRef100_A0A0D2IB70 Rhinoclad  99.8 6.9E-25 1.7E-30  213.0   0.0   92   49-147   410-501 (1384)
+ 17 UniRef100_A0A545UL33 Peptidase  99.8 9.7E-25 2.2E-30  200.3   0.0   99   48-147   171-269 (674)
+ 18 UniRef100_A0A439D0R5 NACHT dom  99.8   6E-24 1.4E-29  197.2   0.0  116   32-147   342-463 (687)
+ 19 UniRef100_A0A0B7KAG0 NACHT dom  99.8 2.6E-23 6.7E-29  203.5   0.0   95   49-147   249-343 (1405)
+ 20 UniRef100_A0A2B7WRE5 NACHT dom  99.8 5.7E-23 1.5E-28  198.3   0.0  106   37-144   290-402 (1096)
+ 21 UniRef100_A0A024S7X4 NACHT dom  99.8 8.9E-23 2.4E-28  202.3   0.0  110   30-141   430-542 (1574)
+ 22 UniRef100_A0A5M3YNJ9 NACHT dom  99.8 1.1E-22 2.4E-28  195.4   0.0  107   37-145   950-1058(1407)
+ 23 UniRef100_A0A4U9EMF6 NACHT dom  99.8 1.6E-22 3.6E-28  193.7   0.0  130   13-143   672-806 (1325)
+ 24 UniRef100_A0A0U5FP12 NACHT dom  99.8 6.1E-22 1.6E-27  195.8   0.0   89   52-145   353-441 (1511)
+ 25 UniRef100_W9YCG4 NACHT domain-  99.7 4.8E-21 1.1E-26  182.1   0.0   98   49-147   248-345 (1085)
+ 26 UniRef100_A0A439DAV7 NACHT dom  99.7 1.3E-20   3E-26  182.2   0.0   99   48-146   705-803 (1495)
+ 27 UniRef100_A0A1G4AMW2 Peptidase  99.7 2.1E-20 4.8E-26  163.3   0.0   98   48-145   240-337 (340)
+ 28 UniRef100_A0A4P7MWG0 NACHT dom  99.7 4.2E-20 9.4E-26  179.8   0.0   93   52-145   426-521 (1682)
+ 29 UniRef100_A0A3D8R2P9 NACHT dom  99.7   7E-20 1.6E-25  171.5   0.0  110   29-145   241-357 (807)
+ 30 UniRef100_A0A093V3G4 NACHT, LR  99.7 1.3E-19 2.9E-25  167.8   0.0   98   38-140   275-396 (682)
+ 31 UniRef100_A0A014P5Z0 NACHT and  99.7 1.8E-19 4.3E-25  177.7   0.0  107   37-144   366-478 (1587)
+ 32 UniRef100_A0A397HXC3 NACHT dom  99.6 2.9E-19 6.7E-25  161.6   0.0  108   38-147   279-391 (476)
+ 33 UniRef100_A0A0D2BSE0 NACHT dom  99.6 3.7E-19 8.4E-25  166.8   0.0   96   49-144    69-170 (810)
+ 34 UniRef100_A0A084BBW7 NACHT dom  99.6 5.4E-19 1.2E-24  171.9   0.0   80   67-146   287-369 (1570)
+ 35 UniRef100_A0A3D8QTD6 NACHT dom  99.6 2.4E-18 5.4E-24  164.5   0.0  111   28-145   240-357 (1083)
+ 36 UniRef100_A0A1V1TLT5 NACHT dom  99.6 2.9E-18 6.5E-24  151.9   0.0  105   40-145   142-248 (377)
+ 37 UniRef100_A0A319D1J3 NACHT dom  99.6 6.3E-18 1.4E-23  151.2   0.0  119   23-141   109-229 (416)
+ 38 UniRef100_A0A4S9FGQ4 Pfs, NACH  99.5 1.1E-17 2.5E-23  161.1   0.0   91   49-139   147-240 (1214)
+ 39 UniRef100_A0A428QWV2 Uncharact  99.5 3.1E-17 6.9E-23  156.7   0.0   95   49-147   365-459 (1010)
+ 40 UniRef100_G3Y6F8 NACHT domain-  99.5 3.2E-17 7.1E-23  158.0   0.0   93   45-142     7-99  (1190)
+ 41 UniRef100_A0A3D8SI78 NACHT dom  99.5 1.1E-16 2.4E-22  153.4   0.0   90   50-146   430-519 (1048)
+ 42 UniRef100_A0A2C5ZPM3 Uncharact  99.5 1.3E-16 2.8E-22  139.0   0.0   76   48-130    92-169 (303)
+ 43 UniRef100_A0A0L0N7H6 NACHT dom  99.4 2.2E-16 4.9E-22  150.2   0.0  106   33-140   119-227 (908)
+ 44 UniRef100_A0A5M3Z0A5 NACHT dom  99.3 4.7E-15 1.2E-20  146.3   0.0   83   52-143    10-92  (1262)
+ 45 UniRef100_A0A0D2GZB9 Rhinoclad  99.3 1.2E-14 2.7E-20  137.3   0.0   85   53-144   157-241 (758)
+ 46 UniRef100_A0A317WW06 Uncharact  99.2 2.4E-14 5.5E-20  137.5   0.0  103   35-144   345-448 (978)
+ 47 UniRef100_A0A1R3RC94 NACHT dom  99.2 3.5E-14 7.9E-20  141.8   0.0  105   36-141  1020-1125(2116)
+ 48 UniRef100_A0A439CRB1 GPI inosi  99.2 1.2E-13 2.6E-19  129.5   0.0   86   48-138   304-389 (644)
+ 49 UniRef100_A0A4Q7K8C2 Mediator   99.2 1.4E-13 3.3E-19  136.5   0.0   95   48-147  1243-1337(1724)
+ 50 UniRef100_B2ARX6 Podospora ans  99.1 2.3E-13 5.2E-19  124.5   0.0   64   84-147   372-435 (470)
+ 51 UniRef100_UPI0014468CC9 unchar  99.1   9E-13   2E-18  129.6   0.0   94   39-139   769-866 (1326)
+ 52 UniRef100_A0A2Z6ES10 NACHT dom  99.0 1.2E-12   3E-18  133.2   0.0   88   51-146   684-771 (2033)
+ 53 UniRef100_A0A1L9WGJ8 NACHT dom  99.0 1.2E-12 3.1E-18  134.2   0.0   77   36-143   419-498 (1775)
+ 54 UniRef100_A0A162JLM7 Pfs domai  99.0 1.5E-12 3.8E-18  132.5   0.0  113   26-138   408-560 (2054)
+ 55 UniRef100_A0A1L9WFL1 NACHT dom  99.0 2.8E-12 6.3E-18  124.9   0.0   94   38-139   421-515 (1086)
+ 56 UniRef100_C5FNC0 Peptidase C14  99.0 2.9E-12 6.7E-18  127.4   0.0   89   50-146   250-338 (1355)
+ 57 UniRef100_W3X2X6 Uncharacteriz  98.8 2.8E-11 6.2E-17  121.2   0.0   96   48-145   308-403 (1693)
+ 58 UniRef100_A0A2V5I4A3 NACHT dom  98.8 2.7E-11 6.4E-17  111.2   0.0   82   29-141    55-139 (408)
+ 59 UniRef100_U7PP53 NACHT domain-  98.8 3.7E-11 8.2E-17  115.9   0.0  100   25-142   434-535 (848)
+ 60 UniRef100_A0A1L9T6Y6 NACHT dom  98.8 4.9E-11 1.1E-16  114.2   0.0   74   56-138   355-428 (760)
+ 61 UniRef100_G3JKQ6 Ankyrin repea  98.7 6.9E-11 1.6E-16  119.6   0.0  112   13-139   273-384 (2037)
+ 62 UniRef100_A0A5N6ZQR8 Uncharact  98.7 1.2E-10 2.7E-16  107.4   0.0   78   37-114   378-457 (457)
+ 63 UniRef100_A0A2H3FME6 NACHT dom  98.6 2.1E-10 4.8E-16  110.7   0.0   96   48-145   291-389 (817)
+ 64 UniRef100_G3JC87 Armadillo-typ  98.6 2.6E-10 5.9E-16  115.3   0.0   91   48-143   351-441 (1866)
+ 65 UniRef100_G4NHM0 NACHT domain-  98.6 2.8E-10 6.4E-16  105.2   0.0   92   52-144    11-106 (460)
+ 66 UniRef100_A0A177FCW8 NACHT dom  98.6 5.2E-10 1.2E-15  111.7   0.0  112   29-142   414-528 (1389)
+ 67 UniRef100_F0X8T8 Pfs domain co  98.5 9.7E-10 2.2E-15  100.8   0.0   97   35-138   155-254 (407)
+ 68 UniRef100_A0A395SCY9 NACHT dom  98.5 1.1E-09 2.4E-15  111.1   0.0   94   48-143   173-269 (1848)
+ 69 UniRef100_A0A1L9SXE9 NACHT dom  98.4   2E-09 4.6E-15  104.8   0.0   58   53-141   405-464 (772)
+ 70 UniRef100_UPI0008076041 HEAT r  98.4 2.5E-09 5.6E-15  106.8   0.0  117   23-145   418-546 (1298)
+ 71 UniRef100_A0A2Z6ERZ3 NACHT dom  98.4 3.3E-09 9.9E-15  111.0   0.0   86   60-145   223-309 (1581)
+ 72 UniRef100_A0A2I2GH64 NACHT dom  98.3   5E-09 1.1E-14  105.0   0.0   67   50-147   408-474 (1353)
+ 73 UniRef100_A0A2V5I9N5 Uncharact  98.3 7.2E-09 1.6E-14   97.1   0.0   58   53-141   405-464 (495)
+ 74 UniRef100_E9EDH4 Uncharacteriz  98.3 1.1E-08 2.6E-14   83.7   0.0   62   80-141    20-86  (139)
+ 75 UniRef100_A0A0U1LP64 Uncharact  98.1 2.8E-08 6.3E-14  102.3   0.0   99   37-143   428-529 (2124)
+ 76 UniRef100_A0A6A6HBT1 Uncharact  98.1 3.1E-08 6.9E-14   92.5   0.0   77   59-135   372-450 (455)
+ 77 UniRef100_UPI0012DCDD50 NACHT   98.1 3.5E-08 7.9E-14   92.8   0.0   84   60-143   173-257 (494)
+ 78 UniRef100_UPI0012DBCB24 NACHT   98.1 5.2E-08 1.2E-13   94.5   0.0   84   60-145   109-195 (715)
+ 79 UniRef100_A0A2Z6ESA0 NACHT dom  98.1 6.2E-08 1.4E-13   95.4   0.0   85   60-146   194-281 (891)
+ 80 UniRef100_A0A395GX78 NACHT dom  97.9 2.7E-07 6.1E-13   76.8   0.0   60   79-139     1-61  (148)
+ 81 UniRef100_UPI0009DBAA68 HEAT r  97.6 1.5E-06 3.4E-12   87.4   0.0   79   61-143   203-284 (1060)
+ 82 UniRef100_UPI00054F4921 NACHT   97.6 1.9E-06 4.6E-12   86.5   0.0   86   59-144   501-587 (828)
+ 83 UniRef100_F0XEU2 Pfs domain co  97.3 9.4E-06 2.1E-11   81.7   0.0   96   37-139   442-540 (957)
+ 84 UniRef100_UPI00047E776B HEAT r  97.1 2.6E-05 5.9E-11   82.7   0.0   81   60-145   657-741 (2296)
+ 85 UniRef100_A0A2Z6EW83 NACHT dom  97.0 4.2E-05 9.4E-11   68.4   0.0   33   60-92     29-61  (234)
+ 86 UniRef100_A0A4P7NI76 NACHT dom  96.7 0.00019 4.2E-10   63.4   0.0   41  104-144    40-80  (198)
+
+No 1
+>UniRef100_A0A2N1L0P2 NACHT domain-containing protein (Fragment) n=2 Tax=Trichoderma harzianum TaxID=5544 RepID=A0A2N1L0P2_TRIHA
+Probab=100.00  E-value=6.6e-40  Score=295.70  Aligned_cols=145  Identities=49%  Similarity=0.760  Sum_probs=133.4  Template_Neff=1.753
+
+Q EGU74195.1        1 MYSTIVAPGPGPLPHNLSLEELRQYAKSSEESPETRRLAAARLEDKLACLKAADDWLLQHCYVKENLE---IERLSGERL   77 (147)
+Q Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~aa~~~k~~ls~l~~AD~~Ir~~yyt~~rLk---IeRLSGd~L   77 (147)
+                      ||||||||||.++++||||||++||++++|+|||++++++++|++++..++.+|+|+.+++|++..|+   ||||+|+.|
+T Consensus         1 mystivapgpdplphnlsleelrqyakss~~~~~~~~l~~~~~~~~~~~~~~~~d~~l~~~y~~~~l~ll~ierl~g~rl   80 (539)
+T UniRef100_A0A2    1 MYSTIVAPGPDPLPHNLSLEELRQYAKSSMVHQPRKQLAANAWQDCHKVREFYADQMLRDCYTDEDLKLLKIERLDGSRL   80 (539)
+Confidence            89999999999999999999999999999999999999999999999999999999999999887665   999999999
+
+
+Q EGU74195.1       78 PLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVKVRFHDIFNTAR--SHGAASKHS  147 (147)
+Q Consensus        78 pMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~qV~L~tLFd~Rk--~~~~~~~~~  147 (147)
+                      +|++||||||||.++++...+.+..  .+.+||||++.||.|+.|+++..|+|.+|||.++  .+|+..++|
+T Consensus        81 ~m~~cyinl~iv~~a~~~~~~~~~~--tp~~s~~sl~rrl~v~~~~~~~rv~~~~lf~~~~~~~~~~~~~~~  150 (539)
+T UniRef100_A0A2   81 SMEECYINLAIVRNARDQTQRLDSL--TPSPSPFSLLRRLDVWEPPESDRVSLETLFDTAKDASDGSLRDPP  150 (539)
+Confidence            9999999999999998776543333  3456999999999999999999999999999999  888887765
+
+
+No 2
+>UniRef100_A0A0D2XYQ7 NACHT domain-containing protein n=1 Tax=Fusarium oxysporum f. sp. lycopersici (strain 4287 / CBS 123668 / FGSC 9935 / NRRL 34936) TaxID=426428 RepID=A0A0D2XYQ7_FUSO4
+Probab=100.00  E-value=8.4e-37  Score=264.00  Aligned_cols=147  Identities=97%  Similarity=1.384  Sum_probs=140.1  Template_Neff=1.000
+
+Q EGU74195.1        1 MYSTIVAPGPGPLPHNLSLEELRQYAKSSEESPETRRLAAARLEDKLACLKAADDWLLQHCYVKENLEIERLSGERLPLE   80 (147)
+Q Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~aa~~~k~~ls~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMd   80 (147)
+                      ||||||||||.|+++||||||++||++++||+|.++++||+++.+.|.-++.||+|+.++||-.++|+||||||++||.+
+T Consensus         1 mystivapgpdplphnlsleelrqyaksseespktrrlaaarledklaflkaaddwllqhcyvkenleierlsgerlple   80 (368)
+T UniRef100_A0A0    1 MYSTIVAPGPDPLPHNLSLEELRQYAKSSEESPKTRRLAAARLEDKLAFLKAADDWLLQHCYVKENLEIERLSGERLPLE   80 (368)
+Confidence            89999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q EGU74195.1       81 QCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVKVRFHDIFNTARSHGAASKHS  147 (147)
+Q Consensus        81 QCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~qV~L~tLFd~Rk~~~~~~~~~  147 (147)
+                      ||||||.||.+.+++.++.++-+.+.+-...|||.||+|+..|.+..|...++|+.-..||+.+||+
+T Consensus        81 qcyinlmiipharnqtsrlsnlthnnkianlslfrrlnvqgsdggvkvrfhdifntarshgaaskhs  147 (368)
+T UniRef100_A0A0   81 QCYINLMIIPHARNQTSRLSNLTHNNKIANLSLFRRLNVQGSDGGVKVRFHDIFNTARSHGAASKHS  147 (368)
+Confidence            9999999999998887766665566677899999999999999999999999999999999999875
+
+
+No 3
+>UniRef100_A0A094AQ36 NACHT domain-containing protein n=1 Tax=Pseudogymnoascus sp. VKM F-3775 TaxID=1420901 RepID=A0A094AQ36_9PEZI
+Probab=100.00  E-value=2.8e-35  Score=289.44  Aligned_cols=110  Identities=30%  Similarity=0.595  Sum_probs=96.3  Template_Neff=3.300
+
+Q EGU74195.1       37 RLAAARLEDKL------ACLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIAN  110 (147)
+Q Consensus        37 ~~aa~~~k~~l------s~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSp  110 (147)
+                      ..++++++.++      ++|++||+|||++||+.+||+||||||++||||||||||||||+++.+++++ +++..+++||
+T Consensus       401 ~~V~~kI~~~l~kiR~gspLEqAD~wIRdkhYT~drLkIeRLSGd~LpMDqCYINLAIVEq~~~~a~~s-e~~~~~~sSP  479 (1389)
+T UniRef100_A0A0  401 KKVAGKIEEMLQKIREGSPLEQADAWIRDKHYTADRLKIERLSGDLLPMDQCYINLAIVEQSGQDAGRS-EEDTSPQSSP  479 (1389)
+Confidence            34455555333      5889999999999999999999999999999999999999999999888743 3335678999
+
+
+Q EGU74195.1      111 LSLFRRLNVQGSDGGVKVRFHDIFNTARSHGAASKHS  147 (147)
+Q Consensus       111 FSL~~RLKVetPd~~~qV~L~tLFd~Rk~~~~~~~~~  147 (147)
+                      |||++|||||+|++++||+|++|||+|+..+|.++.|
+T Consensus       480 FSL~aRlkVEtPde~~QVeL~~LFdpRk~~dg~~~~P  516 (1389)
+T UniRef100_A0A0  480 FSLLARLKVETPDETMQVELPTLFDPRKGRDGQTMRP  516 (1389)
+Confidence            9999999999999999999999999999999988765
+
+
+No 4
+>UniRef100_A0A2H3GIT2 NACHT domain-containing protein n=1 Tax=Fusarium oxysporum f. sp. radicis-cucumerinum TaxID=327505 RepID=A0A2H3GIT2_FUSOX
+Probab=100.00  E-value=7.8e-35  Score=268.68  Aligned_cols=147  Identities=98%  Similarity=1.410  Sum_probs=140.5  Template_Neff=1.000
+
+Q EGU74195.1        1 MYSTIVAPGPGPLPHNLSLEELRQYAKSSEESPETRRLAAARLEDKLACLKAADDWLLQHCYVKENLEIERLSGERLPLE   80 (147)
+Q Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~aa~~~k~~ls~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMd   80 (147)
+                      ||||||||||.|+++||||||++||++++|++||++++||+++.+.|.-++.||+|+.++||-.++|+|+||||+.||.+
+T Consensus         1 mystivapgpdplphnlsleelrqyaksseespetrrlaaarledklaflkaaddwllqhcyvkenleierlsgerlple   80 (870)
+T UniRef100_A0A2    1 MYSTIVAPGPDPLPHNLSLEELRQYAKSSEESPETRRLAAARLEDKLAFLKAADDWLLQHCYVKENLEIERLSGERLPLE   80 (870)
+Confidence            89999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q EGU74195.1       81 QCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVKVRFHDIFNTARSHGAASKHS  147 (147)
+Q Consensus        81 QCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~qV~L~tLFd~Rk~~~~~~~~~  147 (147)
+                      ||||||.||.+.+++.++.++-+++.+-...|||.||+|+..|.+..|...++|+.-..||+.+||+
+T Consensus        81 qcyinlmiipharnqtsrlsnltpnnkianlslfrrlnvqgsdggvkvrfhdifntarshgaaskhs  147 (870)
+T UniRef100_A0A2   81 QCYINLMIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVKVRFHDIFNTARSHGAASKHS  147 (870)
+Confidence            9999999999998887766666667778899999999999999999999999999999999999875
+
+
+No 5
+>UniRef100_A0A0I9XYC9 NACHT domain-containing protein n=1 Tax=Gibberella fujikuroi TaxID=5127 RepID=A0A0I9XYC9_GIBFU
+Probab=100.00  E-value=1.9e-34  Score=273.42  Aligned_cols=147  Identities=99%  Similarity=1.437  Sum_probs=141.1  Template_Neff=1.200
+
+Q EGU74195.1        1 MYSTIVAPGPGPLPHNLSLEELRQYAKSSEESPETRRLAAARLEDKLACLKAADDWLLQHCYVKENLEIERLSGERLPLE   80 (147)
+Q Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~aa~~~k~~ls~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMd   80 (147)
+                      ||||+|||||.|+||||||+|+|||+++.||+||++++|++.+++.+..++.||+|+.++||..++|+||||||++||.+
+T Consensus         1 m~st~vapgpdpl~~~lsl~e~~q~~~s~ee~pet~~la~~~~~~~l~~lkaaddwllqhcy~kenleierlsgerlple   80 (1320)
+T UniRef100_A0A0    1 MYSTIVAPGPDPLPHNLSLEELRQYAKSSEESPETRRLAAARLEDKLACLKAADDWLLQHCYVKENLEIERLSGERLPLE   80 (1320)
+Confidence            89999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q EGU74195.1       81 QCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVKVRFHDIFNTARSHGAASKHS  147 (147)
+Q Consensus        81 QCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~qV~L~tLFd~Rk~~~~~~~~~  147 (147)
+                      ||||||.||.+.+++.++.++-.++.+-...|||.||+|+.||.+..|...++|+.-..||+.+||+
+T Consensus        81 ~cyinlmvip~arnqtsrlsnl~p~nki~nlslfrrlnv~g~dggvrv~fhdifn~arshgaaskhs  147 (1320)
+T UniRef100_A0A0   81 QCYINLMIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVKVRFHDIFNTARSHGAASKHS  147 (1320)
+Confidence            9999999999998888776666667778899999999999999999999999999999999999885
+
+
+No 6
+>UniRef100_A0A017SP49 ARM repeat-containing protein n=1 Tax=Aspergillus ruber CBS 135680 TaxID=1388766 RepID=A0A017SP49_9EURO
+Probab=100.00  E-value=5.2e-34  Score=285.48  Aligned_cols=98  Identities=34%  Similarity=0.602  Sum_probs=88.9  Template_Neff=4.100
+
+Q EGU74195.1       48 ACLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVK  127 (147)
+Q Consensus        48 s~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~q  127 (147)
+                      ++|++||+|||++||+.+||+||||||+.||||||||||||||+.+++.+.. ++ ....+|||||++|||||||+++.|
+T Consensus       395 spLe~AD~wIR~~~Yt~~rLkIeRLSGe~LpMdQCYINLAIVeq~g~~~~~~-~~-~~~~sSpFSL~aR~KVEtPdk~~Q  472 (1659)
+T UniRef100_A0A0  395 SPLEQADAWIRNKHYTADRLKIERLSGELLPMDQCYINLAIVEQSGQNASRS-KG-GASQSSPFSLFARQKVETPDKTIQ  472 (1659)
+Confidence            5889999999999999999999999999999999999999999988777632 22 467889999999999999999999
+
+
+Q EGU74195.1      128 VRFHDIFNTARSHGAASKHS  147 (147)
+Q Consensus       128 V~L~tLFd~Rk~~~~~~~~~  147 (147)
+                      |+|++||++|++++|....|
+T Consensus       473 VeL~tlF~~R~g~~g~~~~P  492 (1659)
+T UniRef100_A0A0  473 VELSTLFNPRKGPDGGMIQP  492 (1659)
+Confidence            99999999999998877654
+
+
+No 7
+>UniRef100_A0A135UH12 Peptidase C14 (Fragment) n=1 Tax=Colletotrichum salicis TaxID=1209931 RepID=A0A135UH12_9PEZI
+Probab=99.95  E-value=7e-33  Score=265.89  Aligned_cols=111  Identities=30%  Similarity=0.551  Sum_probs=97.9  Template_Neff=2.651
+
+Q EGU74195.1       37 RLAAARLEDKLA------CLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLT-PNNKIA  109 (147)
+Q Consensus        37 ~~aa~~~k~~ls------~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~-~~~~sS  109 (147)
+                      ..+|..+..+|.      ++++||+|||++||+.++|+|+||||+.|||||||||||||||.+++..++.+.. .+.++|
+T Consensus       361 ~~Va~~i~~~l~~iR~~~~le~adawIr~~~Y~~~~L~I~RLSg~~L~mdqCYINLAiveq~g~~~~~s~~~~~~~~q~S  440 (1016)
+T UniRef100_A0A1  361 KVVAGKIERFLEKIREGTTLERADAWIREKHYTKEKLKIERLSGKRLSMDQCYINLAIVEQPGENRHNSKSESAGALQPS  440 (1016)
+Confidence            356667776664      5789999999999999999999999999999999999999999998775433322 356899
+
+
+Q EGU74195.1      110 NLSLFRRLNVQGSDGGVKVRFHDIFNTARSHGAASKHS  147 (147)
+Q Consensus       110 pFSL~~RLKVetPd~~~qV~L~tLFd~Rk~~~~~~~~~  147 (147)
+                      ||||..||||++|++..||+|++||+.|+++||++++|
+T Consensus       441 pfSL~~rLkv~tpek~~qieL~tlF~~rk~~dg~~k~p  478 (1016)
+T UniRef100_A0A1  441 PFSLSARLKVETPEKESQIELPTLFDSRKGPDGHTKEP  478 (1016)
+Confidence            99999999999999999999999999999999999986
+
+
+No 8
+>UniRef100_A0A066WT80 Putative peptidase C14 n=1 Tax=Colletotrichum sublineola TaxID=1173701 RepID=A0A066WT80_COLSU
+Probab=99.92  E-value=1e-29  Score=233.45  Aligned_cols=115  Identities=31%  Similarity=0.523  Sum_probs=97.7  Template_Neff=1.570
+
+Q EGU74195.1       31 ESPETRRLAA--ARLEDKLACLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKI  108 (147)
+Q Consensus        31 ~~~~~~~~aa--~~~k~~ls~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~s  108 (147)
+                      .||-...+++  .+||.. +.+++||.|||+++|+.++|+||||||+.|+|||||||||||||++.++... .......+
+T Consensus       307 ~~~~f~~~~~~i~~l~~~-~l~~q~d~~~~~k~y~~~~lrierlsge~l~md~cyinlaiv~q~~~~~~~~-~~~~~~~~  384 (637)
+T UniRef100_A0A0  307 DDPLFTELAAAIRRLKTP-SLLEQADTVIRDKHYTADNLRIERLSGEELSMDQCYINLAIVEQSGADAGHS-TKKKDTKP  384 (637)
+Confidence            3444444444  345555 6789999999999999999999999999999999999999999998887542 22345678
+
+
+Q EGU74195.1      109 ANLSLFRRLNVQGSDGGVKVRFHDIFNTARSHGAASKHS  147 (147)
+Q Consensus       109 SpFSL~~RLKVetPd~~~qV~L~tLFd~Rk~~~~~~~~~  147 (147)
+                      ||||++.|+|||+|++.+||+|.+||++|+..||...+|
+T Consensus       385 spfs~~~r~~vet~~~~~qv~l~~lf~~~~~sdg~~~~p  423 (637)
+T UniRef100_A0A0  385 SPFSILARQKVETPDKTMQVELADLFNERKGSDGQPVFP  423 (637)
+Confidence            999999999999999999999999999999999987664
+
+
+No 9
+>UniRef100_H1UYF2 NACHT domain-containing protein n=1 Tax=Colletotrichum higginsianum (strain IMI 349063) TaxID=759273 RepID=H1UYF2_COLHI
+Probab=99.92  E-value=1.2e-29  Score=215.54  Aligned_cols=115  Identities=27%  Similarity=0.510  Sum_probs=97.8  Template_Neff=1.000
+
+Q EGU74195.1       33 PETRRLAAARLEDKLA------CLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNN  106 (147)
+Q Consensus        33 ~~~~~~aa~~~k~~ls------~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~  106 (147)
+                      .+--+++...++.||.      +++.||+|||+.||++.+|+|+||||++|-|||||||||+||-...+.+....+...-
+T Consensus        11 dpdyklvvdqirhcleeirkgtpleradawirnehyteqklkierlsgdplrmdqcyinlalvelqradsserrseepal   90 (287)
+T UniRef100_H1UY   11 DPDYKLVVDQIRHCLEEIRKGTPLERADAWIRNEHYTEQKLKIERLSGDPLRMDQCYINLALVELQRADSSERRSEEPAL   90 (287)
+Confidence            3444566666666664      7889999999999999999999999999999999999999996655544223344556
+
+
+Q EGU74195.1      107 KIANLSLFRRLNVQGSDGGVKVRFHDIFNTARSHGAASKHS  147 (147)
+Q Consensus       107 ~sSpFSL~~RLKVetPd~~~qV~L~tLFd~Rk~~~~~~~~~  147 (147)
+                      .+|||||..||||++|.+..||.|..||++|+.++|+.|+|
+T Consensus        91 rsspfslsdrlkietphkdiqvklealfdprkmpdghvkpp  131 (287)
+T UniRef100_H1UY   91 RSSPFSLSDRLKIETPHKDIQVKLEALFDPRKMPDGHVKPP  131 (287)
+Confidence            88999999999999999999999999999999999999875
+
+
+No 10
+>UniRef100_A0A098DTC5 NACHT domain-containing protein n=1 Tax=Gibberella zeae (strain PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084) TaxID=229533 RepID=A0A098DTC5_GIBZE
+Probab=99.92  E-value=1.8e-29  Score=254.25  Aligned_cols=115  Identities=28%  Similarity=0.549  Sum_probs=93.7  Template_Neff=3.600
+
+Q EGU74195.1       31 ESPETRRLAAARLEDK--LACLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKI  108 (147)
+Q Consensus        31 ~~~~~~~~aa~~~k~~--ls~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~s  108 (147)
+                      ++|..++ +..++..+  -++|++||+|||++||+.+||+||||||++|||+|||||||||++.+.+.+....+. ..++
+T Consensus       549 ~D~~Y~~-lk~~I~~lR~~s~LeqAD~~Ire~~YT~~rLkIERLSG~~L~m~QCYINLAIVeq~~~~~~~~r~~~-~~s~  626 (1847)
+T UniRef100_A0A0  549 EDPDYRQ-LKDAIDKLRAPSLLEQADDWIREKHYTEDRLKIERLSGDPLPMDQCYINLAIVEQFERDIGKDRQDE-STSS  626 (1847)
+Confidence            4555554 33333332  258999999999999999999999999999999999999999999977663222232 2344
+
+
+Q EGU74195.1      109 ANLSLFRRLNVQGSDGGVKVRFHDIFNTARSHGAASKHS  147 (147)
+Q Consensus       109 SpFSL~~RLKVetPd~~~qV~L~tLFd~Rk~~~~~~~~~  147 (147)
+                      |||||++|||||+|++..||+|++|||+|+..||....|
+T Consensus       627 SpFsLl~RlkiE~p~~~~qv~L~~iFd~Rk~~dG~~i~P  665 (1847)
+T UniRef100_A0A0  627 SPFSLLSRQKIETPDKNIQVDLATIFDQRKGPDGTKILP  665 (1847)
+Confidence            899999999999999999999999999999999987654
+
+
+No 11
+>UniRef100_A0A1B7XQZ1 Peptidase C14 n=1 Tax=Colletotrichum higginsianum (strain IMI 349063) TaxID=759273 RepID=A0A1B7XQZ1_COLHI
+Probab=99.92  E-value=3.5e-29  Score=230.12  Aligned_cols=119  Identities=27%  Similarity=0.511  Sum_probs=102.3  Template_Neff=1.387
+
+Q EGU74195.1       29 SEESPETRRLAAARLEDKLA------CLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNL  102 (147)
+Q Consensus        29 ~~~~~~~~~~aa~~~k~~ls------~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~  102 (147)
+                      +..+.+--+++...++.||.      +|+.||+|||++||+.++|+||||||++|.|||||||||+||....+.+....+
+T Consensus       317 pkdsdpdyklvvdqirhcleeirkgtpleradawir~~hyt~~~lkierlsgd~l~mdqcyinlalve~qrad~s~~~~e  396 (669)
+T UniRef100_A0A1  317 PKDSDPDYKLVVDQIRHCLEEIRKGTPLERADAWIRNEHYTEQKLKIERLSGDPLRMDQCYINLALVELQRADSSERRSE  396 (669)
+Confidence            33444555677788888875      788999999999999999999999999999999999999999776555433333
+
+
+Q EGU74195.1      103 TPNNKIANLSLFRRLNVQGSDGGVKVRFHDIFNTARSHGAASKHS  147 (147)
+Q Consensus       103 ~~~~~sSpFSL~~RLKVetPd~~~qV~L~tLFd~Rk~~~~~~~~~  147 (147)
+                      ...-.+|||||.+||||++|.++.||.|..|||+|++++|+.|+|
+T Consensus       397 e~alr~spfslsdrlki~tph~~iqvklealfd~rkmpdgh~kpp  441 (669)
+T UniRef100_A0A1  397 EPALRSSPFSLSDRLKIETPHKDIQVKLEALFDPRKMPDGHVKPP  441 (669)
+Confidence            445688999999999999999999999999999999999999876
+
+
+No 12
+>UniRef100_A0A0B7KRI9 NACHT domain-containing protein n=1 Tax=Bionectria ochroleuca TaxID=29856 RepID=A0A0B7KRI9_BIOOC
+Probab=99.89  E-value=4.5e-27  Score=228.32  Aligned_cols=107  Identities=33%  Similarity=0.561  Sum_probs=95.5  Template_Neff=1.000
+
+Q EGU74195.1       38 LAAARLEDKLACLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRL  117 (147)
+Q Consensus        38 ~aa~~~k~~ls~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RL  117 (147)
+                      .|-.+++.. +.+++||..||++||+.+||+||||||+.|+||||||||||||+++++.++..+.  .+.+||||||+|+
+T Consensus       367 eaigrlrap-slleqadtlirnnhytperlkierlsgdllsmdqcyinlaiveqsgqdagrlkeg--dptpspfslfarq  443 (2178)
+T UniRef100_A0A0  367 EAIGRLRAP-SLLEQADTLIRNNHYTPERLKIERLSGDLLSMDQCYINLAIVEQSGQDAGRLKEG--DPTPSPFSLFARQ  443 (2178)
+Confidence            345566666 7899999999999999999999999999999999999999999999988754333  5678999999999
+
+
+Q EGU74195.1      118 NVQGSDGGVKVRFHDIFNTARSHGAASKHS  147 (147)
+Q Consensus       118 KVetPd~~~qV~L~tLFd~Rk~~~~~~~~~  147 (147)
+                      |||+|+++.||.|.++|++|++|+|.+-+|
+T Consensus       444 kvetpdktiqiklatifnqrkghdgrtiep  473 (2178)
+T UniRef100_A0A0  444 KVETPDKTIQIKLATIFNQRKGHDGRTIEP  473 (2178)
+Confidence            999999999999999999999999987554
+
+
+No 13
+>UniRef100_A0A093V5I0 NACHT, LRR and PYD domains-containing protein 3 n=1 Tax=Talaromyces marneffei PM1 TaxID=1077442 RepID=A0A093V5I0_TALMA
+Probab=99.88  E-value=1.6e-26  Score=230.68  Aligned_cols=111  Identities=31%  Similarity=0.430  Sum_probs=95.2  Template_Neff=2.848
+
+Q EGU74195.1       35 TRRLAAARLEDKLACLK--------AADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNN  106 (147)
+Q Consensus        35 ~~~~aa~~~k~~ls~l~--------~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~  106 (147)
+                      ..-.||+|+|++|+.+.        +||+.|+++|..++||+|+||||+.|||+||||||||||++..+.+.  .....+
+T Consensus       311 AA~~AAayaK~lLS~ip~~~~~~~~~~~~~l~e~Y~~~~rL~IeRlSG~~LdM~qCYINLaiie~~~~d~~~--~~~~~~  388 (1717)
+T UniRef100_A0A0  311 AAATAAAYAKELLSMIPKDAASQISRADVKLKEYYPKGNRLRIERLSGQLLDMEQCYINLAIVEHSEVDRNH--QSQESQ  388 (1717)
+Confidence            44568999999999555        79999999999999999999999999999999999999988444331  113456
+
+
+Q EGU74195.1      107 KIANLSLFRRLNVQGSDGGVKVRFHDIFNTARSHGAASKHS  147 (147)
+Q Consensus       107 ~sSpFSL~~RLKVetPd~~~qV~L~tLFd~Rk~~~~~~~~~  147 (147)
+                      .+|+|||++||||++.+.+..|.||+||++|+..++..-.|
+T Consensus       389 ~ss~FSL~~RLKv~a~~~~~~v~LP~LF~~Rk~~dg~~~~P  429 (1717)
+T UniRef100_A0A0  389 QSSPFSLFSRLKVQADDPEKEVTLPSLFEPRKLSDGRPSQP  429 (1717)
+Confidence            88999999999999999999999999999999988765443
+
+
+No 14
+>UniRef100_A0A167GBS2 Peptidase C14 n=1 Tax=Cordyceps fumosorosea ARSEF 2679 TaxID=1081104 RepID=A0A167GBS2_9HYPO
+Probab=99.87  E-value=3.8e-26  Score=197.79  Aligned_cols=105  Identities=29%  Similarity=0.470  Sum_probs=92.5  Template_Neff=1.000
+
+Q EGU74195.1       41 ARLEDKLACLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQ  120 (147)
+Q Consensus        41 ~~~k~~ls~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVe  120 (147)
+                      .++|.. +.+++||..||++||+.+||+|+||||++|-||||||||||||+++.++.-...+ ..-.+||||+-+|+|||
+T Consensus       233 rrlktp-slleqadtqirnkhytadrlkikrlsgepllmdqcyinlaiveqsgrdadylkte-gdiapspfsicarqkve  310 (337)
+T UniRef100_A0A1  233 RRLKTP-SLLEQADTQIRNKHYTADRLKIKRLSGEPLLMDQCYINLAIVEQSGRDADYLKTE-GDIAPSPFSICARQKVE  310 (337)
+Confidence            355665 7899999999999999999999999999999999999999999998877522111 23467999999999999
+
+
+Q EGU74195.1      121 GSDGGVKVRFHDIFNTARSHGAASKHS  147 (147)
+Q Consensus       121 tPd~~~qV~L~tLFd~Rk~~~~~~~~~  147 (147)
+                      +.+++.|++|..+|++|.+.+|...||
+T Consensus       311 asnktlqlelaaifnerdgsdgrpmhp  337 (337)
+T UniRef100_A0A1  311 ASNKTLQLELAAIFNERDGSDGRPMHP  337 (337)
+Confidence            999999999999999999999998886
+
+
+No 15
+>UniRef100_A0A017S1N8 NACHT domain-containing protein n=1 Tax=Aspergillus ruber CBS 135680 TaxID=1388766 RepID=A0A017S1N8_9EURO
+Probab=99.86  E-value=1e-25  Score=228.26  Aligned_cols=105  Identities=33%  Similarity=0.499  Sum_probs=92.0  Template_Neff=4.600
+
+Q EGU74195.1       36 RRLAAARLEDKLA-CLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLF  114 (147)
+Q Consensus        36 ~~~aa~~~k~~ls-~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~  114 (147)
+                      ..+..+.|..|.. .++|||+.|++||..++||+|+||||+.|||++|||||||||++...       ..+++.++|||+
+T Consensus       428 ~~LL~~AW~~C~eAq~FYAD~~l~~yY~~~~rL~I~RLSG~~L~me~CYINLsivE~s~~~-------~~~~~~~~fSL~  500 (1673)
+T UniRef100_A0A0  428 TDLLEAAWSKCHEAQRFYADARLRQYYTQGDRLEIKRLSGDTLPMEQCYINLSIIESSSEE-------GQNQRPSEFSLF  500 (1673)
+Confidence            5778888888876 47899999999999999999999999999999999999999988211       123477999999
+
+
+Q EGU74195.1      115 RRLNVQGSDGGVKVRFHDIFNTARSHGAASKHS  147 (147)
+Q Consensus       115 ~RLKVetPd~~~qV~L~tLFd~Rk~~~~~~~~~  147 (147)
+                      +||||++|+++++|.|++||++|+..||.+..|
+T Consensus       501 ~RLkV~~p~~~k~V~L~~LF~~R~~~dg~~~rP  533 (1673)
+T UniRef100_A0A0  501 KRLKVEAPDEEKEVPLPDLFDPRKLRDGTTRRP  533 (1673)
+Confidence            999999999999999999999999887766443
+
+
+No 16
+>UniRef100_A0A0D2IB70 Rhinocladiella mackenziei CBS 650.93 unplaced genomic scaffold supercont1.5, whole genome shotgun sequence n=1 Tax=Rhinocladiella mackenziei CBS 650.93 TaxID=1442369 RepID=A0A0D2IB70_9EURO
+Probab=99.84  E-value=6.9e-25  Score=212.98  Aligned_cols=92  Identities=30%  Similarity=0.494  Sum_probs=83.1  Template_Neff=1.683
+
+Q EGU74195.1       49 CLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVKV  128 (147)
+Q Consensus        49 ~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~qV  128 (147)
+                      .+..||.||+++||+.+||+|||+||+.|||||||||||||+++.+.       ...+.+||||||+||||....++.+|
+T Consensus       410 ~~~~~~~~~~~~~~tp~~l~ier~sg~~l~m~qcyinlaiv~~~ed~-------~~~~~~sp~slfarl~v~e~~~~~~v  482 (1384)
+T UniRef100_A0A0  410 AIKDAKVALKDYYSTPGRLSIERISGEQLPMEQCYINLAIVEKPEDG-------GKAQSKSPSSLFARLKVDEVRSDIEV  482 (1384)
+Confidence            34579999999999999999999999999999999999999987432       23567799999999999999999999
+
+
+Q EGU74195.1      129 RFHDIFNTARSHGAASKHS  147 (147)
+Q Consensus       129 ~L~tLFd~Rk~~~~~~~~~  147 (147)
+                      .|++|||||++++|+.+.|
+T Consensus       483 ~l~~~fdp~~~~~g~~~~p  501 (1384)
+T UniRef100_A0A0  483 ALPELFDPRKGPDGTEITP  501 (1384)
+Confidence            9999999999999987765
+
+
+No 17
+>UniRef100_A0A545UL33 Peptidase C14 n=1 Tax=Cordyceps javanica TaxID=43265 RepID=A0A545UL33_9HYPO
+Probab=99.84  E-value=9.7e-25  Score=200.26  Aligned_cols=99  Identities=31%  Similarity=0.561  Sum_probs=87.9  Template_Neff=1.000
+
+Q EGU74195.1       48 ACLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVK  127 (147)
+Q Consensus        48 s~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~q  127 (147)
+                      +.|+.||.||...||+..||+|+||||++|.||||||||.|||..+++++.+. ...-..+||||+++|+||++|++++|
+T Consensus       171 tsleeadrwilkehytpkrleierlsgeplamdqcyinltiverhgqdaghsk-kggltasspfsilarqkvetpdetmq  249 (674)
+T UniRef100_A0A5  171 TSLEEADRWILKEHYTPKRLEIERLSGEPLAMDQCYINLTIVERHGQDAGHSK-KGGLTASSPFSILARQKVETPDETMQ  249 (674)
+Confidence            56899999999999999999999999999999999999999999988876432 22335679999999999999999999
+
+
+Q EGU74195.1      128 VRFHDIFNTARSHGAASKHS  147 (147)
+Q Consensus       128 V~L~tLFd~Rk~~~~~~~~~  147 (147)
+                      |+|+.+|++|++.+....||
+T Consensus       250 vdlsaifderkgtddepmhp  269 (674)
+T UniRef100_A0A5  250 VDLSAIFDERKGTDDEPMHP  269 (674)
+Confidence            99999999999877766654
+
+
+No 18
+>UniRef100_A0A439D0R5 NACHT domain-containing protein n=1 Tax=Xylaria grammica TaxID=363999 RepID=A0A439D0R5_9PEZI
+Probab=99.82  E-value=6e-24  Score=197.23  Aligned_cols=116  Identities=28%  Similarity=0.537  Sum_probs=101.5  Template_Neff=1.440
+
+Q EGU74195.1       32 SPETRRLAAARLEDKLA------CLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPN  105 (147)
+Q Consensus        32 ~~~~~~~aa~~~k~~ls------~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~  105 (147)
+                      +.+--++++.++.++|.      +|++||+||-+.||.+++|+|||+||++|||||||||||+|..++++++.....+.-
+T Consensus       342 ~d~~y~~v~~~i~dil~~ireg~~le~a~~~iy~~~y~~~~l~ier~sg~~l~~~~cyinlalvatprddnskqrskdhl  421 (687)
+T UniRef100_A0A4  342 DDPDYKMVVDKISDILRNIREGAPLEQAKSWIYENHYSEDRLRIERLSGDPLPMDQCYINLALVATPRDDNSKQRSKDHL  421 (687)
+Confidence            44556788999999987      578999999999999999999999999999999999999999988776543333334
+
+
+Q EGU74195.1      106 NKIANLSLFRRLNVQGSDGGVKVRFHDIFNTARSHGAASKHS  147 (147)
+Q Consensus       106 ~~sSpFSL~~RLKVetPd~~~qV~L~tLFd~Rk~~~~~~~~~  147 (147)
+                      -++..|||.+||||++|.+...|+|..||++|.++++.++.|
+T Consensus       422 lqsehfslaarlkvetpqedhrv~~~~lf~~r~~~~~~t~~p  463 (687)
+T UniRef100_A0A4  422 LQSEHFSLAARLKVETPQEDHRVELSKLFEPRRQPNDRTKKP  463 (687)
+Confidence            578899999999999999999999999999999999988764
+
+
+No 19
+>UniRef100_A0A0B7KAG0 NACHT domain-containing protein n=1 Tax=Bionectria ochroleuca TaxID=29856 RepID=A0A0B7KAG0_BIOOC
+Probab=99.80  E-value=2.6e-23  Score=203.55  Aligned_cols=95  Identities=35%  Similarity=0.621  Sum_probs=86.3  Template_Neff=1.933
+
+Q EGU74195.1       49 CLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVKV  128 (147)
+Q Consensus        49 ~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~qV  128 (147)
+                      ++.++|.|||++||+.+||+|+||||+.|+|++||||||||.+...++.    ...+.++|||+|+.||+|+.-+++.+|
+T Consensus       249 ~~~~~d~~l~n~~ys~~~lrierls~~~l~m~~cyinlaivr~~~~~~~----~~~~~~sspf~l~~rl~v~~~~~~~~v  324 (1405)
+T UniRef100_A0A0  249 SMKQMDTYLRNEHYSDKRLRIERLSGQRLSMDQCYINLAIVRHMHQDMQ----EDPQHQSSPFSLFPRLQVQERDEEQQV  324 (1405)
+Confidence            5788999999999999999999999999999999999999997755442    234568899999999999999999999
+
+
+Q EGU74195.1      129 RFHDIFNTARSHGAASKHS  147 (147)
+Q Consensus       129 ~L~tLFd~Rk~~~~~~~~~  147 (147)
+                      +|.+||++|++.+|++|.|
+T Consensus       325 ~l~~~f~~~~~~~~~~k~p  343 (1405)
+T UniRef100_A0A0  325 DLSTMFDPRQNSNGHMKQP  343 (1405)
+Confidence            9999999999999999875
+
+
+No 20
+>UniRef100_A0A2B7WRE5 NACHT domain-containing protein n=1 Tax=Blastomyces parvus TaxID=2060905 RepID=A0A2B7WRE5_9EURO
+Probab=99.79  E-value=5.7e-23  Score=198.30  Aligned_cols=106  Identities=29%  Similarity=0.387  Sum_probs=92.2  Template_Neff=1.875
+
+Q EGU74195.1       37 RLAAARLEDKLACLK-------AADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIA  109 (147)
+Q Consensus        37 ~~aa~~~k~~ls~l~-------~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sS  109 (147)
+                      -.||+|+|++|+.+.       .+|+.||++|-++.+|.|+||||++|+||||||||+|||.+....+....+  ...+|
+T Consensus       290 ~~aaayak~~ls~ip~~~~~qp~~~~~lre~yi~~~~l~i~rlsg~~l~m~~cyi~l~~~e~~~~~~~~~~~~--~~~ss  367 (1096)
+T UniRef100_A0A2  290 LVAAAYAKLLLSVIPALPIVQPNVDAKLREYYINNNRLGIERLSGEPLDMDQCYINLSIIEYSQNDRNDPPQE--KKLSS  367 (1096)
+Confidence            468999999999764       699999999999999999999999999999999999999887665432222  23479
+
+
+Q EGU74195.1      110 NLSLFRRLNVQGSDGGVKVRFHDIFNTARSHGAAS  144 (147)
+Q Consensus       110 pFSL~~RLKVetPd~~~qV~L~tLFd~Rk~~~~~~  144 (147)
+                      ||||+.||||...+.+.+|.|++||++|+.-||..
+T Consensus       368 ~fsl~nrlk~~~~~~~~~v~l~~lf~~~~~~~g~~  402 (1096)
+T UniRef100_A0A2  368 PFSLPNRLKLRADDSEKEVTLPQLFHERKLLDGRN  402 (1096)
+Confidence            99999999999999999999999999999777654
+
+
+No 21
+>UniRef100_A0A024S7X4 NACHT domain-containing protein n=2 Tax=Hypocrea jecorina TaxID=51453 RepID=A0A024S7X4_HYPJR
+Probab=99.79  E-value=8.9e-23  Score=202.25  Aligned_cols=110  Identities=24%  Similarity=0.378  Sum_probs=95.9  Template_Neff=2.265
+
+Q EGU74195.1       30 EESPETRRLAAARLEDKLAC-LKAADDWLLQHCY--VKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNN  106 (147)
+Q Consensus        30 ~~~~~~~~~aa~~~k~~ls~-l~~AD~~Ir~~yy--t~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~  106 (147)
+                      .-+++++++..+.|+.|... .+|||..+|++|.  ..+.|+||||||..|+||+||||||||..++.++.+.+.  ...
+T Consensus       430 ~~~qpr~~LL~nAW~~C~~~r~fYad~~LRd~Yt~~d~~lLkIeRL~gskl~md~CYINLa~v~~s~~~~~~~ds--dt~  507 (1574)
+T UniRef100_A0A0  430 KAQQPRRQLLDNAWRRCHKVREFYADQRLRDHYTDPDLNLLKIERLDGSKLSMDDCYINLAIVRTSGDSNQNTDS--DTP  507 (1574)
+Confidence            45788899999999999875 6799999999998  445799999999999999999999999999776643222  345
+
+
+Q EGU74195.1      107 KIANLSLFRRLNVQGSDGGVKVRFHDIFNTARSHG  141 (147)
+Q Consensus       107 ~sSpFSL~~RLKVetPd~~~qV~L~tLFd~Rk~~~  141 (147)
+                      .+||||++.||+|++|.++..|+|++||++++..+
+T Consensus       508 ~pspfsilrrldvwepp~s~~V~L~tlFd~~~~~~  542 (1574)
+T UniRef100_A0A0  508 SPSPFSILRRLDVWEPPESERVSLETLFDEKKDKD  542 (1574)
+Confidence            78999999999999999999999999999999655
+
+
+No 22
+>UniRef100_A0A5M3YNJ9 NACHT domain-containing protein n=1 Tax=Aspergillus terreus TaxID=33178 RepID=A0A5M3YNJ9_ASPTE
+Probab=99.79  E-value=1.1e-22  Score=195.41  Aligned_cols=107  Identities=33%  Similarity=0.591  Sum_probs=93.6  Template_Neff=1.000
+
+Q EGU74195.1       37 RLAAARLEDKLACLK--AADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLF  114 (147)
+Q Consensus        37 ~~aa~~~k~~ls~l~--~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~  114 (147)
+                      .++|.++.++|..+.  .||+|||++||+.+||+|+|||-.+||||+|||||||||++++-.....  ....-.|||||+
+T Consensus       950 evvagkieeflqnirkkeaddwirdncytakrleierlshgrlpmdrcyinlaiveqpgqvthatk--egdalaspfsll 1027 (1407)
+T UniRef100_A0A5  950 EVVAGKIEEFLQNIRKKEADDWIRDNCYTAKRLEIERLSHGRLPMDRCYINLAIVEQPGQVTHATK--EGDALASPFSLL 1027 (1407)
+Confidence            468889999988764  6999999999999999999999999999999999999999987654211  123456999999
+
+
+Q EGU74195.1      115 RRLNVQGSDGGVKVRFHDIFNTARSHGAASK  145 (147)
+Q Consensus       115 ~RLKVetPd~~~qV~L~tLFd~Rk~~~~~~~  145 (147)
+                      +|+||++||+-+||+|.+.|++|.+.+|+.-
+T Consensus      1028 arqkvqtpdklmqvelatvfnertgrdgqvi 1058 (1407)
+T UniRef100_A0A5 1028 ARQKVQTPDKLMQVELATVFNERTGRDGQVI 1058 (1407)
+Confidence            9999999999999999999999999888653
+
+
+No 23
+>UniRef100_A0A4U9EMF6 NACHT domain-containing protein (Fragment) n=1 Tax=Gibberella zeae TaxID=5518 RepID=A0A4U9EMF6_GIBZA
+Probab=99.78  E-value=1.6e-22  Score=193.73  Aligned_cols=130  Identities=29%  Similarity=0.493  Sum_probs=98.4  Template_Neff=1.000
+
+Q EGU74195.1       13 LPHNLSLEELRQYAKSSEESPETRRLAA--ARLEDKLACLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIP   90 (147)
+Q Consensus        13 ~~~~~~~~~~~~~~~~~~~~~~~~~~aa--~~~k~~ls~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE   90 (147)
+                      -+|.+.-+..|----.+..||-.+.+-.  .+++-. +.+++||+.||++||+.+||+|+||||++|-||||||||+||+
+T Consensus       672 epvgidtdhaglnkfdspkhpgyqalkdavkklrvk-slleqaddhirekhytserlkierlsgdpllmdqcyinlsivd  750 (1325)
+T UniRef100_A0A4  672 EPVGIDTDHAGLNKFDSPKHPGYQALKDAVKKLRVK-SLLEQADDHIREKHYTSERLKIERLSGDPLLMDQCYINLSIVD  750 (1325)
+Confidence            3344443333333333455666655433  334444 7899999999999999999999999999999999999999999
+
+
+Q EGU74195.1       91 HARNQTS---RLSNLTPNNKIANLSLFRRLNVQGSDGGVKVRFHDIFNTARSHGAA  143 (147)
+Q Consensus        91 ~~~~~~~---~~~~~~~~~~sSpFSL~~RLKVetPd~~~qV~L~tLFd~Rk~~~~~  143 (147)
+                      +...++.   .++..+..++-||||||+|+||+.|-.+.||.|.+.|++|+.++|.
+T Consensus       751 hiktnakarnqsedsnstsqlspfslfarqkvempiaeiqvrladvfnerkepdgn  806 (1325)
+T UniRef100_A0A4  751 HIKTNAKARNQSEDSNSTSQLSPFSLFARQKVEMPIAEIQVRLADVFNERKEPDGN  806 (1325)
+Confidence            8754442   1112223456799999999999999999999999999999988875
+
+
+No 24
+>UniRef100_A0A0U5FP12 NACHT domain-containing protein n=1 Tax=Aspergillus calidoustus TaxID=454130 RepID=A0A0U5FP12_9EURO
+Probab=99.76  E-value=6.1e-22  Score=195.80  Aligned_cols=89  Identities=30%  Similarity=0.483  Sum_probs=77.5  Template_Neff=2.153
+
+Q EGU74195.1       52 AADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVKVRFH  131 (147)
+Q Consensus        52 ~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~qV~L~  131 (147)
+                      ..-..+|+||.+..||.|+|+||++|||+||||||||||+.+-...     +..++.||||||+||||+|.+++.||+|+
+T Consensus       353 d~~~~lr~yytt~~rl~vqrisge~lpm~qcyinla~ie~~~~~~~-----d~~~~~sp~slfsrlkv~tv~~~~qvsl~  427 (1511)
+T UniRef100_A0A0  353 DMAARLRQYYTTPPRLMVQRISGEPLPMHQCYINLAIIEQIHTARR-----DSSNNASPSSLFSRLKVDTVKEGDQVSLP  427 (1511)
+Confidence            3457899999999999999999999999999999999998643221     23456799999999999999999999999
+
+
+Q EGU74195.1      132 DIFNTARSHGAASK  145 (147)
+Q Consensus       132 tLFd~Rk~~~~~~~  145 (147)
+                      +||++|+..+|.+-
+T Consensus       428 ~lf~~r~~~~gtt~  441 (1511)
+T UniRef100_A0A0  428 TLFDPRKDSDGTTF  441 (1511)
+Confidence            99999998887654
+
+
+No 25
+>UniRef100_W9YCG4 NACHT domain-containing protein n=1 Tax=Capronia epimyces CBS 606.96 TaxID=1182542 RepID=W9YCG4_9EURO
+Probab=99.72  E-value=4.8e-21  Score=182.10  Aligned_cols=98  Identities=31%  Similarity=0.617  Sum_probs=86.8  Template_Neff=1.000
+
+Q EGU74195.1       49 CLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVKV  128 (147)
+Q Consensus        49 ~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~qV  128 (147)
+                      .++..|.|||+.||..++|+|.||||..|||||||||||||....+++..+ .....+++|||||+.||.|....+..||
+T Consensus       248 slegmdswireecycpdnlkivrlsgqelpmdqcyinlaivrrhrqdapas-sskiasksspfsllsrlhitergeqtqv  326 (1085)
+T UniRef100_W9YC  248 SLEGMDSWIREECYCPDNLKIVRLSGQELPMDQCYINLAIVRRHRQDAPAS-SSKIASKSSPFSLLSRLHITERGEQTQV  326 (1085)
+Confidence            467899999999999999999999999999999999999999887776532 2234678899999999999999999999
+
+
+Q EGU74195.1      129 RFHDIFNTARSHGAASKHS  147 (147)
+Q Consensus       129 ~L~tLFd~Rk~~~~~~~~~  147 (147)
+                      .|++||.++.++.|..|.|
+T Consensus       327 plstlfgpctgpsggakrp  345 (1085)
+T UniRef100_W9YC  327 PLSTLFGPCTGPSGGAKRP  345 (1085)
+Confidence            9999999999887776643
+
+
+No 26
+>UniRef100_A0A439DAV7 NACHT domain-containing protein (Fragment) n=1 Tax=Xylaria grammica TaxID=363999 RepID=A0A439DAV7_9PEZI
+Probab=99.71  E-value=1.3e-20  Score=182.15  Aligned_cols=99  Identities=33%  Similarity=0.588  Sum_probs=89.7  Template_Neff=1.000
+
+Q EGU74195.1       48 ACLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVK  127 (147)
+Q Consensus        48 s~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~q  127 (147)
+                      ++++-|..|||++.|+-++|.|+||||..|||||||||||||.++.+.+..+.++...+++||||.|+||+|+...++++
+T Consensus       705 rpveianvwirdnrysienlnierlsgamlpmdqcyinlaiiqqskdtaegsmneggkqksspfsvfarlgversqegke  784 (1495)
+T UniRef100_A0A4  705 RPVEIANVWIRDNRYSIENLNIERLSGAMLPMDQCYINLAIIQQSKDTAEGSMNEGGKQKSSPFSVFARLGVERSQEGKE  784 (1495)
+Confidence            46788999999999999999999999999999999999999999977665444555567899999999999999999999
+
+
+Q EGU74195.1      128 VRFHDIFNTARSHGAASKH  146 (147)
+Q Consensus       128 V~L~tLFd~Rk~~~~~~~~  146 (147)
+                      +.|..||.+|..|+|.+.+
+T Consensus       785 ialeslfkprathnglmrp  803 (1495)
+T UniRef100_A0A4  785 IALESLFKPRATHNGLMRP  803 (1495)
+Confidence            9999999999999998754
+
+
+No 27
+>UniRef100_A0A1G4AMW2 Peptidase C14 n=1 Tax=Colletotrichum orchidophilum TaxID=1209926 RepID=A0A1G4AMW2_9PEZI
+Probab=99.70  E-value=2.1e-20  Score=163.32  Aligned_cols=98  Identities=29%  Similarity=0.480  Sum_probs=85.9  Template_Neff=1.000
+
+Q EGU74195.1       48 ACLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVK  127 (147)
+Q Consensus        48 s~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~q  127 (147)
+                      +++..||..||++||..++|+++||||..|+-++||||||||..+++.+-....+.....+|||||-+||+++.|+++++
+T Consensus       240 rpidradtiirekcyaknklrverlsgkalseencyinlaiiqrpgnsainpqteqsknssspfslnarlnierpekeke  319 (340)
+T UniRef100_A0A1  240 RPIDRADTIIREKCYAKNKLRVERLSGKALSEENCYINLAIIQRPGNSAINPQTEQSKNSSSPFSLNARLNIERPEKEKE  319 (340)
+Confidence            36788999999999999999999999999999999999999999987664333333455789999999999999999999
+
+
+Q EGU74195.1      128 VRFHDIFNTARSHGAASK  145 (147)
+Q Consensus       128 V~L~tLFd~Rk~~~~~~~  145 (147)
+                      .+|++||+.|.+-+|-.+
+T Consensus       320 mslptlfdgregidgvkd  337 (340)
+T UniRef100_A0A1  320 MSLPTLFDGREGIDGVKD  337 (340)
+Confidence            999999999998777543
+
+
+No 28
+>UniRef100_A0A4P7MWG0 NACHT domain-containing protein (Fragment) n=1 Tax=Magnaporthe oryzae TaxID=318829 RepID=A0A4P7MWG0_MAGOR
+Probab=99.68  E-value=4.2e-20  Score=179.77  Aligned_cols=93  Identities=31%  Similarity=0.612  Sum_probs=80.4  Template_Neff=1.000
+
+Q EGU74195.1       52 AADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLS---NLTPNNKIANLSLFRRLNVQGSDGGVKV  128 (147)
+Q Consensus        52 ~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~---~~~~~~~sSpFSL~~RLKVetPd~~~qV  128 (147)
+                      -||.||..+|| .+||+|+||||+.|+|||||+||||.|.++..-++.+   .++..++.||||+|+-||.++||++.||
+T Consensus       426 ladewilknhy-pnrlkierlsgellsmdqcyvnlailerpgrglgrldkqpgedtppqtspfsmfailktetpdkniqv  504 (1682)
+T UniRef100_A0A4  426 LADEWILKNHY-PNRLKIERLSGELLSMDQCYVNLAILERPGRGLGRLDKQPGEDTPPQTSPFSMFAILKTETPDKNIQV  504 (1682)
+Confidence            59999999999 6799999999999999999999999999877654322   2233467899999999999999999999
+
+
+Q EGU74195.1      129 RFHDIFNTARSHGAASK  145 (147)
+Q Consensus       129 ~L~tLFd~Rk~~~~~~~  145 (147)
+                      .|++||++|++..++..
+T Consensus       505 qlptlfnprkgrenhpt  521 (1682)
+T UniRef100_A0A4  505 QLPTLFNPRKGRENHPT  521 (1682)
+Confidence            99999999997766543
+
+
+No 29
+>UniRef100_A0A3D8R2P9 NACHT domain-containing protein n=1 Tax=Coleophoma crateriformis TaxID=565419 RepID=A0A3D8R2P9_9HELO
+Probab=99.67  E-value=7e-20  Score=171.48  Aligned_cols=110  Identities=30%  Similarity=0.539  Sum_probs=94.6  Template_Neff=1.000
+
+Q EGU74195.1       29 SEESPETRRLAAARLEDKLACLKA-------ADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSN  101 (147)
+Q Consensus        29 ~~~~~~~~~~aa~~~k~~ls~l~~-------AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~  101 (147)
+                      .-++||+++.....++.+|..+..       .-..+-++|-.-+||+|+|+||++|||||||+||||||.+.+.+.    
+T Consensus       241 vvvdpethrvlervlqgilgalaekrykpsdvvealfehysaldrlkierisgdplpmdqcylnlaiierskekat----  316 (807)
+T UniRef100_A0A3  241 VVVDPETHRVLERVLQGILGALAEKRYKPSDVVEALFEHYSALDRLKIERISGDPLPMDQCYLNLAIIERSKEKAT----  316 (807)
+Confidence            347999999999999999987642       335678888888999999999999999999999999998855432    
+
+
+Q EGU74195.1      102 LTPNNKIANLSLFRRLNVQGSDGGVKVRFHDIFNTARSHGAASK  145 (147)
+Q Consensus       102 ~~~~~~sSpFSL~~RLKVetPd~~~qV~L~tLFd~Rk~~~~~~~  145 (147)
+                         -.+.|||.||+||||...|.+.||.|..||+.|+.+.|.+-
+T Consensus       317 ---yeqkspfalfarlkvhevdtnaqvtlrslfnrrklptgeti  357 (807)
+T UniRef100_A0A3  317 ---YEQKSPFALFARLKVHEVDTNAQVTLRSLFNRRKLPTGETI  357 (807)
+Confidence               23569999999999999999999999999999998776543
+
+
+No 30
+>UniRef100_A0A093V3G4 NACHT, LRR and PYD domains-containing protein 3 n=1 Tax=Talaromyces marneffei PM1 TaxID=1077442 RepID=A0A093V3G4_TALMA
+Probab=99.66  E-value=1.3e-19  Score=167.84  Aligned_cols=98  Identities=28%  Similarity=0.517  Sum_probs=84.1  Template_Neff=1.000
+
+Q EGU74195.1       38 LAAARLEDKLACL------------------------KAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHAR   93 (147)
+Q Consensus        38 ~aa~~~k~~ls~l------------------------~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~   93 (147)
+                      .||+|+|.+|+.+                        -.|.+.+|+.|-...||.|+||||..||||+|||||||||++.
+T Consensus       275 iaaayakllltvvpaysyntcdikttekgslsdsacltpanaalrefysdakrldiqrlsgkllpmdhcyinlaivehsp  354 (682)
+T UniRef100_A0A0  275 IAAAYAKLLLTVVPAYSYNTCDIKTTEKGSLSDSARLTPANAALREFYSDAKRLDIQRLSGKLLPMDHCYINLAIVEHSP  354 (682)
+Confidence            5678888777643                        2488999999999999999999999999999999999999885
+
+
+Q EGU74195.1       94 NQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVKVRFHDIFNTARSH  140 (147)
+Q Consensus        94 ~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~qV~L~tLFd~Rk~~  140 (147)
+                      ....     ...+.+|||.||+||||++.+...|++|.+||++|+..
+T Consensus       355 stkt-----hadqesspfplfsrlkvdtvntsaqislktlfdprkqs  396 (682)
+T UniRef100_A0A0  355 STKT-----HADQESSPFPLFSRLKVDTVNTSAQISLKTLFDPRKQS  396 (682)
+Confidence            4322     23467899999999999999999999999999999954
+
+
+No 31
+>UniRef100_A0A014P5Z0 NACHT and HEAT repeat domain protein n=1 Tax=Metarhizium robertsii TaxID=568076 RepID=A0A014P5Z0_9HYPO
+Probab=99.65  E-value=1.8e-19  Score=177.71  Aligned_cols=107  Identities=24%  Similarity=0.454  Sum_probs=84.0  Template_Neff=1.597
+
+Q EGU74195.1       37 RLAAARLEDKLAC--LKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTS----RLSNLTPNNKIAN  110 (147)
+Q Consensus        37 ~~aa~~~k~~ls~--l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~----~~~~~~~~~~sSp  110 (147)
+                      +.+.-++|++-..  -..-|+||.+.||. ++|.|.||||..|+||||||||||||.+.....    .++.++-.++-||
+T Consensus       366 ~~vsy~lke~a~~~~qrgpdawiqnehyr-dklnivrlsgnhlsmdqcyinlaiiets~~~~d~iekgsdgedltpqhsp  444 (1587)
+T UniRef100_A0A0  366 EIVSYYLKEFAEEALQRGPDAWIQNEHYR-DKLNIVRLSGNHLSMDQCYINLAIIETSNGEADRIEKGSDGEDLTPQHSP  444 (1587)
+Confidence            3344455555332  12479999999994 689999999999999999999999998754432    2223334567899
+
+
+Q EGU74195.1      111 LSLFRRLNVQGSDGGVKVRFHDIFNTARSHGAAS  144 (147)
+Q Consensus       111 FSL~~RLKVetPd~~~qV~L~tLFd~Rk~~~~~~  144 (147)
+                      ||+++|+||++||++.||+|.+||+.|+.+.+.+
+T Consensus       445 fsilarqkvetpdkttqvelatlfndrkrpqskt  478 (1587)
+T UniRef100_A0A0  445 FSILARQKVETPDKTTQVELATLFNDRKRPQSKT  478 (1587)
+Confidence            9999999999999999999999999999766543
+
+
+No 32
+>UniRef100_A0A397HXC3 NACHT domain-containing protein n=1 Tax=Aspergillus turcosus TaxID=1245748 RepID=A0A397HXC3_9EURO
+Probab=99.64  E-value=2.9e-19  Score=161.57  Aligned_cols=108  Identities=27%  Similarity=0.374  Sum_probs=90.7  Template_Neff=1.125
+
+Q EGU74195.1       38 LAAARLEDKLACL-----KAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLS  112 (147)
+Q Consensus        38 ~aa~~~k~~ls~l-----~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFS  112 (147)
+                      .||+|+|-+|+-+     -..|..++++|--++||+|.||||+-|+|+||||||+|||....+...  .......+|.||
+T Consensus       279 ~aa~yakvflsgipg~pvisidtkl~eyy~m~nrlrikrlsg~~ldm~qcyinlsiiey~nknqd~--k~~a~~~ssgfs  356 (476)
+T UniRef100_A0A3  279 VAASYAKVFLSGIPGPPVISIDTKLQEYYDMNNRLRIKRLSGDFLDMEQCYINLSIIEYQNKNQDM--KSQAKRPSSGFS  356 (476)
+Confidence            5678999999854     468999999988899999999999999999999999999976443321  111234679999
+
+
+Q EGU74195.1      113 LFRRLNVQGSDGGVKVRFHDIFNTARSHGAASKHS  147 (147)
+Q Consensus       113 L~~RLKVetPd~~~qV~L~tLFd~Rk~~~~~~~~~  147 (147)
+                      |+.|||+.+...+.++.|++||-.|+.++|++-.|
+T Consensus       357 l~nrlk~~adtpere~tlpdlf~drklp~gq~iqp  391 (476)
+T UniRef100_A0A3  357 LFNRLKITADTPEREVTLPDLFCDRKLPNGQMIQP  391 (476)
+Confidence            99999999999999999999999999999986543
+
+
+No 33
+>UniRef100_A0A0D2BSE0 NACHT domain-containing protein (Fragment) n=1 Tax=Cladophialophora immunda TaxID=569365 RepID=A0A0D2BSE0_9EURO
+Probab=99.63  E-value=3.7e-19  Score=166.84  Aligned_cols=96  Identities=33%  Similarity=0.630  Sum_probs=80.4  Template_Neff=1.000
+
+Q EGU74195.1       49 CLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRL------SNLTPNNKIANLSLFRRLNVQGS  122 (147)
+Q Consensus        49 ~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~------~~~~~~~~sSpFSL~~RLKVetP  122 (147)
+                      .++..|.|||++||...+|+|+||||..|.|||||||||||.+..+..+..      ..+....++|||||+.||.|...
+T Consensus        69 sietidtwirqkcysatnlrierlsghdlemdqcyinlaivqhhqdapssgdenafsgdnqtahqsspfslltrlhvker  148 (810)
+T UniRef100_A0A0   69 SIETIDTWIRQKCYSATNLRIERLSGHDLEMDQCYINLAIVQHHQDAPSSGDENAFSGDNQTAHQSSPFSLLTRLHVKER  148 (810)
+Confidence            467799999999999999999999999999999999999999764433211      11223457899999999999999
+
+
+Q EGU74195.1      123 DGGVKVRFHDIFNTARSHGAAS  144 (147)
+Q Consensus       123 d~~~qV~L~tLFd~Rk~~~~~~  144 (147)
+                      -++..+.|+.+|++|.+..|..
+T Consensus       149 yegthiplpaifdprrgrhgdk  170 (810)
+T UniRef100_A0A0  149 YEGTHIPLPAIFDPRRGRHGDK  170 (810)
+Confidence            9999999999999999665543
+
+
+No 34
+>UniRef100_A0A084BBW7 NACHT domain-containing protein n=1 Tax=Stachybotrys chartarum (strain CBS 109288 / IBT 7711) TaxID=1280523 RepID=A0A084BBW7_STACB
+Probab=99.63  E-value=5.4e-19  Score=171.90  Aligned_cols=80  Identities=30%  Similarity=0.529  Sum_probs=66.4  Template_Neff=1.000
+
+Q EGU74195.1       67 LEIERLSGERLPLEQCYINLIIIPHARNQTSR---LSNLTPNNKIANLSLFRRLNVQGSDGGVKVRFHDIFNTARSHGAA  143 (147)
+Q Consensus        67 LkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~---~~~~~~~~~sSpFSL~~RLKVetPd~~~qV~L~tLFd~Rk~~~~~  143 (147)
+                      -.||||||++|+|||||||||||.+.+.++..   .++.....++|||||.+|||||+||+++||+|.+||+++...-++
+T Consensus       287 aiierlsgdplsmdqcyinlaivkhlghdaaqpkkeserrdttqpspfslsarlkvetpdkniqvelaklfdpcegrhgh  366 (1570)
+T UniRef100_A0A0  287 AIIERLSGDPLSMDQCYINLAIVKHLGHDAAQPKKESERRDTTQPSPFSLSARLKVETPDKNIQVELAKLFDPCEGRHGH  366 (1570)
+Confidence            45999999999999999999999988766531   112223457899999999999999999999999999999977666
+
+
+Q EGU74195.1      144 SKH  146 (147)
+Q Consensus       144 ~~~  146 (147)
+                      +..
+T Consensus       367 ttq  369 (1570)
+T UniRef100_A0A0  367 TTQ  369 (1570)
+Confidence            544
+
+
+No 35
+>UniRef100_A0A3D8QTD6 NACHT domain-containing protein n=1 Tax=Coleophoma cylindrospora TaxID=1849047 RepID=A0A3D8QTD6_9HELO
+Probab=99.59  E-value=2.4e-18  Score=164.47  Aligned_cols=111  Identities=27%  Similarity=0.464  Sum_probs=94.1  Template_Neff=1.000
+
+Q EGU74195.1       28 SSEESPETRRLAAARLEDKLACLKA-------ADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLS  100 (147)
+Q Consensus        28 ~~~~~~~~~~~aa~~~k~~ls~l~~-------AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~  100 (147)
+                      ..-++||+++.....++.+|..+..       .-..+-++|-+-+||.|+|+||++|||||||+||||||.+.+..    
+T Consensus       240 qavvdpethkalervlqkilgalaekryepsdvvealfeyystldrltierisgdplpmdqcylnlaiverskegd----  315 (1083)
+T UniRef100_A0A3  240 QAVVDPETHKALERVLQKILGALAEKRYEPSDVVEALFEYYSTLDRLTIERISGDPLPMDQCYLNLAIVERSKEGD----  315 (1083)
+Confidence            3457999999999999999887642       33578888889999999999999999999999999999874322    
+
+
+Q EGU74195.1      101 NLTPNNKIANLSLFRRLNVQGSDGGVKVRFHDIFNTARSHGAASK  145 (147)
+Q Consensus       101 ~~~~~~~sSpFSL~~RLKVetPd~~~qV~L~tLFd~Rk~~~~~~~  145 (147)
+                         .-.+.|||||+.|||......+.-|.|.+||+.|..+.|.+-
+T Consensus       316 ---tykqkspfslldrlklhdvatnalvtlhtlfnrrrlptgeti  357 (1083)
+T UniRef100_A0A3  316 ---TYKQKSPFSLLDRLKLHDVATNALVTLHTLFNRRRLPTGETI  357 (1083)
+Confidence               223569999999999999999999999999999997776543
+
+
+No 36
+>UniRef100_A0A1V1TLT5 NACHT domain-containing protein n=1 Tax=fungal sp. No.14919 TaxID=1813822 RepID=A0A1V1TLT5_9FUNG
+Probab=99.58  E-value=2.9e-18  Score=151.92  Aligned_cols=105  Identities=26%  Similarity=0.453  Sum_probs=87.0  Template_Neff=1.000
+
+Q EGU74195.1       40 AARLEDKLACLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTS--RLSNLTPNNKIANLSLFRRL  117 (147)
+Q Consensus        40 a~~~k~~ls~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~--~~~~~~~~~~sSpFSL~~RL  117 (147)
+                      |+.++-- -++.+||...|.+||+.+||+||||.|.-|.|+||||||.+|..+.+-++  -..+.+.-.++..|||..||
+T Consensus       142 ankiris-iplnqadeqvrtkhytrdrlkierlngrglemeqcyinltmvqtsadyanlymegerdiinqpfsfslqtrl  220 (377)
+T UniRef100_A0A1  142 ANKIRIS-IPLNQADEQVRTKHYTRDRLKIERLNGRGLEMEQCYINLTMVQTSADYANLYMEGERDIINQPFSFSLQTRL  220 (377)
+Confidence            3444332 47899999999999999999999999999999999999999998765443  11111233577889999999
+
+
+Q EGU74195.1      118 NVQGSDGGVKVRFHDIFNTARSHGAASK  145 (147)
+Q Consensus       118 KVetPd~~~qV~L~tLFd~Rk~~~~~~~  145 (147)
+                      .|++.+....|+|++||.+|+.|++++.
+T Consensus       221 qidtqnddipvelstlfsprkthdnqtv  248 (377)
+T UniRef100_A0A1  221 QIDTQNDDIPVELSTLFSPRKTHDNQTV  248 (377)
+Confidence            9999999999999999999999998764
+
+
+No 37
+>UniRef100_A0A319D1J3 NACHT domain-containing protein n=1 Tax=Aspergillus ellipticus CBS 707.79 TaxID=1448320 RepID=A0A319D1J3_9EURO
+Probab=99.56  E-value=6.3e-18  Score=151.18  Aligned_cols=119  Identities=25%  Similarity=0.364  Sum_probs=98.0  Template_Neff=1.000
+
+Q EGU74195.1       23 RQYAKSSEESPETRRLAAARLEDKLA-CLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQT-SRLS  100 (147)
+Q Consensus        23 ~~~~~~~~~~~~~~~~aa~~~k~~ls-~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~-~~~~  100 (147)
+                      .-+-++..+..--+.+....|..|-. .+++||+.|..+|--.+||.|.||||+-|+|+.||+||||||.+...+ ...+
+T Consensus       109 dmfkgslpvteipknlledawescqkaklfyadaaiarhygfpgrldiirlsgdildmencyvnlaiiesstatniagas  188 (416)
+T UniRef100_A0A3  109 DMFKGSLPVTEIPKNLLEDAWESCQKAKLFYADAAIARHYGFPGRLDIIRLSGDILDMENCYVNLAIIESSTATNIAGAS  188 (416)
+Confidence            34556666666667888888988854 489999999999999999999999999999999999999999774332 1222
+
+
+Q EGU74195.1      101 NLTPNNKIANLSLFRRLNVQGSDGGVKVRFHDIFNTARSHG  141 (147)
+Q Consensus       101 ~~~~~~~sSpFSL~~RLKVetPd~~~qV~L~tLFd~Rk~~~  141 (147)
+                      ..++.++-|.||+-.||||+.....++|+|+.||++|+-.+
+T Consensus       189 sqtpkqqlsefsikqrlkvenvatkkevdlprlfderqvkn  229 (416)
+T UniRef100_A0A3  189 SQTPKQQLSEFSIKQRLKVENVATKKEVDLPRLFDERQVKN  229 (416)
+Confidence            33445678999999999999999999999999999998543
+
+
+No 38
+>UniRef100_A0A4S9FGQ4 Pfs, NACHT and ankyrin domain protein n=1 Tax=Aureobasidium pullulans TaxID=5580 RepID=A0A4S9FGQ4_AURPU
+Probab=99.54  E-value=1.1e-17  Score=161.08  Aligned_cols=91  Identities=32%  Similarity=0.591  Sum_probs=78.1  Template_Neff=1.000
+
+Q EGU74195.1       49 CLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTS---RLSNLTPNNKIANLSLFRRLNVQGSDGG  125 (147)
+Q Consensus        49 ~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~---~~~~~~~~~~sSpFSL~~RLKVetPd~~  125 (147)
+                      .+..||+|||++||+.+.|+|.||||.+||.|+|||||.+|++.+..-.   ..+.+.+.+.+-||||.+||+|++|.++
+T Consensus       147 miqeadawirdkhyttehleitrlsgsplpldrcyinltlidqhrkhldvssngegegppssslpfslvarlnieaprke  226 (1214)
+T UniRef100_A0A4  147 MIQEADAWIRDKHYTTEHLEITRLSGSPLPLDRCYINLTLIDQHRKHLDVSSNGEGEGPPSSSLPFSLVARLNIEAPRKE  226 (1214)
+Confidence            4578999999999999999999999999999999999999998865442   2122223345679999999999999999
+
+
+Q EGU74195.1      126 VKVRFHDIFNTARS  139 (147)
+Q Consensus       126 ~qV~L~tLFd~Rk~  139 (147)
+                      .-+.|++||++|..
+T Consensus       227 dfiklptlfdqrer  240 (1214)
+T UniRef100_A0A4  227 DFIKLPTLFDQRER  240 (1214)
+Confidence            99999999999983
+
+
+No 39
+>UniRef100_A0A428QWV2 Uncharacterized protein n=1 Tax=Fusarium sp. AF-8 TaxID=1325734 RepID=A0A428QWV2_9HYPO
+Probab=99.51  E-value=3.1e-17  Score=156.66  Aligned_cols=95  Identities=35%  Similarity=0.614  Sum_probs=84.0  Template_Neff=1.000
+
+Q EGU74195.1       49 CLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVKV  128 (147)
+Q Consensus        49 ~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~qV  128 (147)
+                      .+..||-.||+.||..+.|.|+|||...+||+||||||.||.+.++..-    +.+.++.|.|||..||||+.|-++..+
+T Consensus       365 llheadgfireecygrgqlnierlsrqlvpmeqcyinlgiihqlgerpi----nppgpqtsefslqrrlkvegpieghri  440 (1010)
+T UniRef100_A0A4  365 LLHEADGFIREECYGRGQLNIERLSRQLVPMEQCYINLGIIHQLGERPI----NPPGPQTSEFSLQRRLKVEGPIEGHRI  440 (1010)
+Confidence            3568999999999999999999999999999999999999999876542    234668899999999999999999999
+
+
+Q EGU74195.1      129 RFHDIFNTARSHGAASKHS  147 (147)
+Q Consensus       129 ~L~tLFd~Rk~~~~~~~~~  147 (147)
+                      +|+.||++|....|.-|.|
+T Consensus       441 elpalfdprrtrsgdlksp  459 (1010)
+T UniRef100_A0A4  441 ELPALFDPRRTRSGDLKSP  459 (1010)
+Confidence            9999999999877766543
+
+
+No 40
+>UniRef100_G3Y6F8 NACHT domain-containing protein n=1 Tax=Aspergillus niger (strain ATCC 1015 / CBS 113.46 / FGSC A1144 / LSHB Ac4 / NCTC 3858a / NRRL 328 / USDA 3528.7) TaxID=380704 RepID=G3Y6F8_ASPNA
+Probab=99.51  E-value=3.2e-17  Score=157.98  Aligned_cols=93  Identities=29%  Similarity=0.412  Sum_probs=75.9  Template_Neff=1.000
+
+Q EGU74195.1       45 DKLACLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDG  124 (147)
+Q Consensus        45 ~~ls~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~  124 (147)
+                      ..+.......+.+|++|.+..||.++|+||.+|||.||||||||||+...-.+    + .+...||-|||+|||||+.|.
+T Consensus         7 tkhgkrsdiaarlrqyyttpprlmvqrisgqplpmhqcyinlaiveqihtvrs----d-nsnngspsslfsrlkveavds   81 (1190)
+T UniRef100_G3Y6    7 TKHGKRSDIAARLRQYYTTPPRLMVQRISGQPLPMHQCYINLAIVEQIHTVRS----D-NSNNGSPSSLFSRLKVEAVDS   81 (1190)
+Confidence            33333344557889999999999999999999999999999999998743322    1 123468899999999999999
+
+
+Q EGU74195.1      125 GVKVRFHDIFNTARSHGA  142 (147)
+Q Consensus       125 ~~qV~L~tLFd~Rk~~~~  142 (147)
+                      ..||+|.+||++|+..-|
+T Consensus        82 hdqvslqtlfdprkdsvg   99 (1190)
+T UniRef100_G3Y6   82 HDQVSLQTLFDPRKDSVG   99 (1190)
+Confidence            999999999999995444
+
+
+No 41
+>UniRef100_A0A3D8SI78 NACHT domain-containing protein n=1 Tax=Coleophoma crateriformis TaxID=565419 RepID=A0A3D8SI78_9HELO
+Probab=99.47  E-value=1.1e-16  Score=153.45  Aligned_cols=90  Identities=28%  Similarity=0.478  Sum_probs=78.8  Template_Neff=1.000
+
+Q EGU74195.1       50 LKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVKVR  129 (147)
+Q Consensus        50 l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~qV~  129 (147)
+                      +..|-..+.++|-..+||.|+|+||++||||+|||||||||...+       +--.+++|.||-+.|...+...++..|+
+T Consensus       430 lndahnalkeyydkpnrltierisgeplpmdhcyinlaivernnn-------eifvqqssafsrldrfetdevskgarvs  502 (1048)
+T UniRef100_A0A3  430 LNDAHNALKEYYDKPNRLTIERISGEPLPMDHCYINLAIVERNNN-------EIFVQQSSAFSRLDRFETDEVSKGARVS  502 (1048)
+Confidence            446778899888889999999999999999999999999997632       2234678999999999999999999999
+
+
+Q EGU74195.1      130 FHDIFNTARSHGAASKH  146 (147)
+Q Consensus       130 L~tLFd~Rk~~~~~~~~  146 (147)
+                      |+.||.+|+.+||.+-.
+T Consensus       503 lpelfsprkdpggrtis  519 (1048)
+T UniRef100_A0A3  503 LPELFSPRKDPGGRTIS  519 (1048)
+Confidence            99999999999987654
+
+
+No 42
+>UniRef100_A0A2C5ZPM3 Uncharacterized protein n=1 Tax=Cordyceps sp. RAO-2017 TaxID=2004951 RepID=A0A2C5ZPM3_9HYPO
+Probab=99.47  E-value=1.3e-16  Score=139.04  Aligned_cols=76  Identities=29%  Similarity=0.514  Sum_probs=65.3  Template_Neff=1.000
+
+Q EGU74195.1       48 ACLKAADDWLLQHCYVKENLEIERLSGE--RLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGG  125 (147)
+Q Consensus        48 s~l~~AD~~Ir~~yyt~~rLkIeRLSGd--~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~  125 (147)
+                      +++.+||+.||++-|..+||+|+||||+  .|.|.+|||||||||+.+..+.       ..++|.|||++|+||++..+.
+T Consensus        92 tplqqadalirdkqyqadrlqierlsgdsdtlcmkrcyinlaiveqqghead-------qaqssqfsllarqkvetaekk  164 (303)
+T UniRef100_A0A2   92 TPLQQADALIRDKQYQADRLQIERLSGDSDTLCMKRCYINLAIVEQQGHEAD-------QAQSSQFSLLARQKVETAEKK  164 (303)
+Confidence            4789999999999999999999999996  6999999999999999876442       346799999999999998765
+
+
+Q EGU74195.1      126 VKVRF  130 (147)
+Q Consensus       126 ~qV~L  130 (147)
+                      .--.|
+T Consensus       165 qgrhl  169 (303)
+T UniRef100_A0A2  165 QGRHL  169 (303)
+Confidence            54444
+
+
+No 43
+>UniRef100_A0A0L0N7H6 NACHT domain-containing protein (Fragment) n=1 Tax=Tolypocladium ophioglossoides CBS 100239 TaxID=1163406 RepID=A0A0L0N7H6_9HYPO
+Probab=99.45  E-value=2.2e-16  Score=150.17  Aligned_cols=106  Identities=28%  Similarity=0.403  Sum_probs=84.6  Template_Neff=1.000
+
+Q EGU74195.1       33 PETRRLAAARLEDKLAC-LKAADDWLLQHCYVK--ENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIA  109 (147)
+Q Consensus        33 ~~~~~~aa~~~k~~ls~-l~~AD~~Ir~~yyt~--~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sS  109 (147)
+                      .+...+....||-||.. +++||..|...|...  +-|+|+||||+.||||||||||||-..+.+.-..  ..+....+|
+T Consensus       119 epqgellseawkicleahifyadqviqhrytdaalgllkierlsgdtlpmdqcyinlaiqrgsaeghea--kqtdkdtps  196 (908)
+T UniRef100_A0A0  119 EPQGELLSEAWKICLEAHIFYADQVIQHRYTDAALGLLKIERLSGDTLPMDQCYINLAIQRGSAEGHEA--KQTDKDTPS  196 (908)
+Confidence            34456788889998874 899999998887754  4699999999999999999999998765433221  112234679
+
+
+Q EGU74195.1      110 NLSLFRRLNVQGSDGGVKVRFHDIFNTARSH  140 (147)
+Q Consensus       110 pFSL~~RLKVetPd~~~qV~L~tLFd~Rk~~  140 (147)
+                      ||||..||.+........|+|++||..-++-
+T Consensus       197 pfslhrrlqigespasnrvslpdlfhksqgv  227 (908)
+T UniRef100_A0A0  197 PFSLHRRLQIGESPASNRVSLPDLFHKSQGV  227 (908)
+Confidence            9999999999999999999999999876643
+
+
+No 44
+>UniRef100_A0A5M3Z0A5 NACHT domain-containing protein n=1 Tax=Aspergillus terreus TaxID=33178 RepID=A0A5M3Z0A5_ASPTE
+Probab=99.32  E-value=4.7e-15  Score=146.29  Aligned_cols=83  Identities=28%  Similarity=0.469  Sum_probs=70.4  Template_Neff=1.628
+
+Q EGU74195.1       52 AADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVKVRFH  131 (147)
+Q Consensus        52 ~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~qV~L~  131 (147)
+                      +|-..+.+.|..++||.|+|+||+.|||++||||||+|+.+.+-.         ..-..|||..||||++...+..|.|+
+T Consensus        10 ~~~~al~~fyt~~krl~i~r~sg~~lp~~hcyinl~vv~~~~~~~---------~~~~~~~~~~~~~~~~~~~~d~~~l~   80 (1262)
+T UniRef100_A0A5   10 RATSALKAFYTEGKRLSIERISGQILPMSHCYINLAVVKRSREVD---------ENHQSFSLMSRLKVQANKDTDIIALP   80 (1262)
+Confidence            456677777777889999999999999999999999999774321         11246999999999999999999999
+
+
+Q EGU74195.1      132 DIFNTARSHGAA  143 (147)
+Q Consensus       132 tLFd~Rk~~~~~  143 (147)
+                      .||++|.+++..
+T Consensus        81 slf~~r~~~~~~   92 (1262)
+T UniRef100_A0A5   81 SLFEPRTGPSQT   92 (1262)
+Confidence            999999987654
+
+
+No 45
+>UniRef100_A0A0D2GZB9 Rhinocladiella mackenziei CBS 650.93 unplaced genomic scaffold supercont1.5, whole genome shotgun sequence n=1 Tax=Rhinocladiella mackenziei CBS 650.93 TaxID=1442369 RepID=A0A0D2GZB9_9EURO
+Probab=99.28  E-value=1.2e-14  Score=137.25  Aligned_cols=85  Identities=22%  Similarity=0.385  Sum_probs=72.4  Template_Neff=1.000
+
+Q EGU74195.1       53 ADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVKVRFHD  132 (147)
+Q Consensus        53 AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~qV~L~t  132 (147)
+                      ....+|.+|...+|--|+|+||++||||+|||||||||.+-..+       ....+||.|+.+--.|+..|+..||-|+.
+T Consensus       157 tktalrayyldanrpliqrisgdplpmdrcyinlaiversirgn-------rerdssplsisaepevdstdkdsqvllpe  229 (758)
+T UniRef100_A0A0  157 TKTALRAYYLDANRPLIQRISGDPLPMDRCYINLAIVERSIRGN-------RERDSSPLSISAEPEVDSTDKDSQVLLPE  229 (758)
+Confidence            33456777888889999999999999999999999999874322       23467999999999999999999999999
+
+
+Q EGU74195.1      133 IFNTARSHGAAS  144 (147)
+Q Consensus       133 LFd~Rk~~~~~~  144 (147)
+                      ||.+|++-+|..
+T Consensus       230 lfrqrkgldgkp  241 (758)
+T UniRef100_A0A0  230 LFRQRKGLDGKP  241 (758)
+Confidence            999999877653
+
+
+No 46
+>UniRef100_A0A317WW06 Uncharacterized protein n=1 Tax=Aspergillus sclerotioniger CBS 115572 TaxID=1450535 RepID=A0A317WW06_9EURO
+Probab=99.25  E-value=2.4e-14  Score=137.54  Aligned_cols=103  Identities=31%  Similarity=0.464  Sum_probs=84.6  Template_Neff=1.000
+
+Q EGU74195.1       35 TRRLAAARLEDKLAC-LKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSL  113 (147)
+Q Consensus        35 ~~~~aa~~~k~~ls~-l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL  113 (147)
+                      -++.--..|..||.. -.+||..+.++|..++.|+|.||||+-|+.|+|||||++.|.+.+-.       .....-..||
+T Consensus       345 ekrrhhraweqcleakqyyadcrliqyyiqgdhlkirrlsgdgldldhcyinlsvlersseig-------khregvelsl  417 (978)
+T UniRef100_A0A3  345 EKRRHHRAWEQCLEAKQYYADCRLIQYYIQGDHLKIRRLSGDGLDLDHCYINLSVLERSSEIG-------KHREGVELSL  417 (978)
+Confidence            334444556666654 34799999999999999999999999999999999999999874322       2234578999
+
+
+Q EGU74195.1      114 FRRLNVQGSDGGVKVRFHDIFNTARSHGAAS  144 (147)
+Q Consensus       114 ~~RLKVetPd~~~qV~L~tLFd~Rk~~~~~~  144 (147)
+                      ..||||++|..++...|.+||+.|+.-+|.+
+T Consensus       418 rtrlkvdtptggkatqlrdlfnsrkrldgss  448 (978)
+T UniRef100_A0A3  418 RTRLKVDTPTGGKATQLRDLFNSRKRLDGSS  448 (978)
+Confidence            9999999999999999999999999666554
+
+
+No 47
+>UniRef100_A0A1R3RC94 NACHT domain-containing protein n=1 Tax=Aspergillus carbonarius (strain ITEM 5010) TaxID=602072 RepID=A0A1R3RC94_ASPC5
+Probab=99.23  E-value=3.5e-14  Score=141.78  Aligned_cols=105  Identities=30%  Similarity=0.437  Sum_probs=83.9  Template_Neff=1.000
+
+Q EGU74195.1       36 RRLAAARLEDKLA-CLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLF  114 (147)
+Q Consensus        36 ~~~aa~~~k~~ls-~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~  114 (147)
+                      +.+....|..|-. .+++||..|..+|...+||.|.||.|+.|||+.||+||||||.+..-+.....- ...+.|..|+.
+T Consensus      1020 rnllneawegcqkaklfyadvaiakyytekgrlsiirltgdllpmekcyvnlaiiesstgvnakgpsl-gekqvselsit 1098 (2116)
+T UniRef100_A0A1 1020 RNLLNEAWEGCQKAKLFYADVAIAKYYTEKGRLSIIRLTGDLLPMEKCYVNLAIIESSTGVNAKGPSL-GEKQVSELSIT 1098 (2116)
+Confidence            3455555666543 489999999998888899999999999999999999999999774332211111 12366899999
+
+
+Q EGU74195.1      115 RRLNVQGSDGGVKVRFHDIFNTARSHG  141 (147)
+Q Consensus       115 ~RLKVetPd~~~qV~L~tLFd~Rk~~~  141 (147)
+                      .||||++.+.+.+|+.+.||++|+-.+
+T Consensus      1099 rrlkvetvntenevdfprlfderrvgn 1125 (2116)
+T UniRef100_A0A1 1099 RRLKVETVNTENEVDFPRLFDERRVGN 1125 (2116)
+Confidence            999999999999999999999998544
+
+
+No 48
+>UniRef100_A0A439CRB1 GPI inositol-deacylase n=1 Tax=Xylaria grammica TaxID=363999 RepID=A0A439CRB1_9PEZI
+Probab=99.17  E-value=1.2e-13  Score=129.46  Aligned_cols=86  Identities=29%  Similarity=0.550  Sum_probs=68.2  Template_Neff=1.000
+
+Q EGU74195.1       48 ACLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVK  127 (147)
+Q Consensus        48 s~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~q  127 (147)
+                      +.+.+||.|||+.|-  ++|+|+||||+.|||..||||||+|..+.++..   ++-..+....-||++|.++..||+..-
+T Consensus       304 slldqadkwiresyk--nklkierlsgeqlpmkecyinlavvqtsqnnqp---edmvrpptfrpsllerfnikdpdedrl  378 (644)
+T UniRef100_A0A4  304 SLLDQADKWIRESYK--NKLKIERLSGEQLPMKECYINLAVVQTSQNNQP---EDMVRPPTFRPSLLERFNIKDPDEDRL  378 (644)
+Confidence            468999999999985  679999999999999999999999998765432   111122335568999999999999887
+
+
+Q EGU74195.1      128 VRFHDIFNTAR  138 (147)
+Q Consensus       128 V~L~tLFd~Rk  138 (147)
+                      --|..|-..+.
+T Consensus       379 smldelhsrcd  389 (644)
+T UniRef100_A0A4  379 SMLDELHSRCD  389 (644)
+Confidence            77777766554
+
+
+No 49
+>UniRef100_A0A4Q7K8C2 Mediator of RNA polymerase II transcription subunit 14 n=1 Tax=Pochonia chlamydosporia 123 TaxID=1052797 RepID=A0A4Q7K8C2_METCM
+Probab=99.16  E-value=1.4e-13  Score=136.49  Aligned_cols=95  Identities=32%  Similarity=0.527  Sum_probs=73.2  Template_Neff=1.000
+
+Q EGU74195.1       48 ACLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVK  127 (147)
+Q Consensus        48 s~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~q  127 (147)
+                      +.++.||+|||+..|+.+||+|+||||..||+.||||||+||.+...+...     .--.-..-|-+---||-+-|.--|
+T Consensus      1243 talekaddwirnerytserlkierlsgaalpiaqcyinlsivaqdthqgkg-----tilrittnsrlppekvmamddmfq 1317 (1724)
+T UniRef100_A0A4 1243 TALEKADDWIRNERYTSERLKIERLSGAALPIAQCYINLSIVAQDTHQGKG-----TILRITTNSRLPPEKVMAMDDMFQ 1317 (1724)
+Confidence            357899999999999999999999999999999999999999976332210     001111122233346777788999
+
+
+Q EGU74195.1      128 VRFHDIFNTARSHGAASKHS  147 (147)
+Q Consensus       128 V~L~tLFd~Rk~~~~~~~~~  147 (147)
+                      +.|.+||++|.+|+|.+-.|
+T Consensus      1318 fqlaklfdqrsghdgrmiqp 1337 (1724)
+T UniRef100_A0A4 1318 FQLAKLFDQRSGHDGRMIQP 1337 (1724)
+Confidence            99999999999999987543
+
+
+No 50
+>UniRef100_B2ARX6 Podospora anserina S mat+ genomic DNA chromosome 1, supercontig 6 n=1 Tax=Podospora anserina (strain S / ATCC MYA-4624 / DSM 980 / FGSC 10383) TaxID=515849 RepID=B2ARX6_PODAN
+Probab=99.13  E-value=2.3e-13  Score=124.48  Aligned_cols=64  Identities=25%  Similarity=0.405  Sum_probs=57.9  Template_Neff=1.000
+
+Q EGU74195.1       84 INLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVKVRFHDIFNTARSHGAASKHS  147 (147)
+Q Consensus        84 INLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~qV~L~tLFd~Rk~~~~~~~~~  147 (147)
+                      |||||||-+++++.+....+..+++|||||++||+||+||+..+|.|++||++|+..+|+.|.|
+T Consensus       372 inlaivewpgdnatrggkgdtaqqsspfsllarlnvetpdktievtlptlfeprksqdgqkkqp  435 (470)
+T UniRef100_B2AR  372 INLAIVEWPGDNATRGGKGDTAQQSSPFSLLARLNVETPDKTIEVTLPTLFEPRKSQDGQKKQP  435 (470)
+Confidence            8999999998888765566677899999999999999999999999999999999999988765
+
+
+No 51
+>UniRef100_UPI0014468CC9 uncharacterized protein n=1 Tax=Daldinia childiae TaxID=326645 RepID=UPI0014468CC9
+Probab=99.05  E-value=9e-13  Score=129.58  Aligned_cols=94  Identities=28%  Similarity=0.435  Sum_probs=72.4  Template_Neff=1.000
+
+Q EGU74195.1       39 AAARLEDKLA-CLKAADDWLLQHCYVK--ENLEIERL-SGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLF  114 (147)
+Q Consensus        39 aa~~~k~~ls-~l~~AD~~Ir~~yyt~--~rLkIeRL-SGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~  114 (147)
+                      ....|--|+. .+++||..||-+|.++  +||.|+|| ..++||||.||||||||.+.....       .+-.+|...+.
+T Consensus       769 lekawpicheakvfyadqiiryyytneelgrlnierlgnnerlpmdkcyinlaivqheenen-------ksiepsslpfh  841 (1326)
+T UniRef100_UPI0  769 LEKAWPICHEAKVFYADQIIRYYYTNEELGRLNIERLGNNERLPMDKCYINLAIVQHEENEN-------KSIEPSSLPFH  841 (1326)
+Confidence            3444444443 4789999887555544  38999999 678999999999999999763321       22345667778
+
+
+Q EGU74195.1      115 RRLNVQGSDGGVKVRFHDIFNTARS  139 (147)
+Q Consensus       115 ~RLKVetPd~~~qV~L~tLFd~Rk~  139 (147)
+                      .||.|+.|.+...|+|.+||.+.+.
+T Consensus       842 rrlaiwepeesdrvsledlfrpkkd  866 (1326)
+T UniRef100_UPI0  842 RRLAIWEPEESDRVSLEDLFRPKKD  866 (1326)
+Confidence            9999999999999999999998873
+
+
+No 52
+>UniRef100_A0A2Z6ES10 NACHT domain-containing protein n=1 Tax=Mycoavidus cysteinexigens TaxID=1553431 RepID=A0A2Z6ES10_9BURK
+Probab=99.03  E-value=1.2e-12  Score=133.25  Aligned_cols=88  Identities=26%  Similarity=0.437  Sum_probs=67.1  Template_Neff=1.563
+
+Q EGU74195.1       51 KAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVKVRF  130 (147)
+Q Consensus        51 ~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~qV~L  130 (147)
+                      ..|...+..+|-..+||.|+|+||.+|||+||||||||||+......   +.  .+.--.   +.--+|+.-+.+.+|.|
+T Consensus       684 ~~a~~~~l~~y~~~~rl~i~r~sg~~l~m~~cyinla~ie~~~~r~~---e~--~~~~~~---~~~p~~~~v~sn~~vpl  755 (2033)
+T UniRef100_A0A2  684 RDANVALLAYYSKPGRLSIERISGAELPMDQCYINLALIERVENRIR---ES--QSNLLD---FTSPKVDKVRSNIPVPL  755 (2033)
+Confidence            45667778888899999999999999999999999999997643221   00  111111   22368889999999999
+
+
+Q EGU74195.1      131 HDIFNTARSHGAASKH  146 (147)
+Q Consensus       131 ~tLFd~Rk~~~~~~~~  146 (147)
+                      ++|||+|...+|.+-.
+T Consensus       756 ~klfd~r~ls~gk~~~  771 (2033)
+T UniRef100_A0A2  756 PKLFDRRILSNGKRIT  771 (2033)
+Confidence            9999999987776543
+
+
+No 53
+>UniRef100_A0A1L9WGJ8 NACHT domain-containing protein n=1 Tax=Aspergillus aculeatus (strain ATCC 16872 / CBS 172.66 / WB 5094) TaxID=690307 RepID=A0A1L9WGJ8_ASPA1
+Probab=99.02  E-value=1.2e-12  Score=134.23  Aligned_cols=77  Identities=32%  Similarity=0.575  Sum_probs=63.0  Template_Neff=2.231
+
+Q EGU74195.1       36 RRLAAARLEDKLACL-KAADDWLLQHCYVKE--NLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLS  112 (147)
+Q Consensus        36 ~~~aa~~~k~~ls~l-~~AD~~Ir~~yyt~~--rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFS  112 (147)
+                      +.+....-+.+...+ +||-..+.++|..++  ||+|+||||+.||||+|||||+||...                    
+T Consensus       419 ~~Ll~~~yr~c~~ar~yY~~~ALl~~Y~~~d~~rLqIqRlsG~~LPm~~CYINL~vvd~~--------------------  478 (1775)
+T UniRef100_A0A1  419 RALLDDSYRKCMPARRYYAKNALLQHYSQNDNKRLQIQRLSGDRLPMDHCYINLNVVDSG--------------------  478 (1775)
+Confidence            456666666665554 468899999999877  899999999999999999999999854                    
+
+
+Q EGU74195.1      113 LFRRLNVQGSDGGVKVRFHDIFNTARSHGAA  143 (147)
+Q Consensus       113 L~~RLKVetPd~~~qV~L~tLFd~Rk~~~~~  143 (147)
+                                 ++..|.|++||+.|++.|-.
+T Consensus       479 -----------~g~~v~L~~lFd~R~q~g~~  498 (1775)
+T UniRef100_A0A1  479 -----------QGDEVTLPSLFDYREQDGRN  498 (1775)
+Confidence                       34469999999999976644
+
+
+No 54
+>UniRef100_A0A162JLM7 Pfs domain containing protein n=1 Tax=Metarhizium rileyi (strain RCEF 4871) TaxID=1081105 RepID=A0A162JLM7_METRR
+Probab=99.01  E-value=1.5e-12  Score=132.53  Aligned_cols=113  Identities=27%  Similarity=0.357  Sum_probs=85.4  Template_Neff=1.541
+
+Q EGU74195.1       26 AKSSEESPETRRLAAARLEDKLA-CLKAADDWLLQHCYVKE--NLEIERLSGERLPLEQCYINLIIIPHARNQTS-----   97 (147)
+Q Consensus        26 ~~~~~~~~~~~~~aa~~~k~~ls-~l~~AD~~Ir~~yyt~~--rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~-----   97 (147)
+                      +...+.---...+....|+.|.. .|++||..||++|....  -|+||||.|..||||||||||||....+.+.+     
+T Consensus       408 ~~~~~~~~y~~el~~~~~~~c~eaklf~~dq~irn~y~~p~~g~l~verldg~~lpm~qcyvnlail~~~~~~~~~~~~~  487 (2054)
+T UniRef100_A0A1  408 ARPLEDLGYQSELLIKAWKRCHEAKLFYADQLIRNEYTSPELGLLKVERLDGSSLPMEQCYVNLAILKVYGENTSECKEK  487 (2054)
+Confidence            44444444456677888888876 48999999999999765  59999999999999999999999875443331     
+
+
+Q EGU74195.1       98 ------RL----SNLTP----------------------NNKIANLSLFRRLNVQGSDGGVKVRFHDIFNTAR  138 (147)
+Q Consensus        98 ------~~----~~~~~----------------------~~~sSpFSL~~RLKVetPd~~~qV~L~tLFd~Rk  138 (147)
+                            ++    ..+..                      +...|||.|.+||||.....-..+.|++||....
+T Consensus       488 ~~~~~~~~~~~~~~dg~s~~d~~~~~~~~~~~~~~~~~~~~~~s~ftl~~~lkv~~~~t~~t~~l~dlf~~~~  560 (2054)
+T UniRef100_A0A1  488 DYVESDRSNENGDEDGHSDRDASPNDNIKTRGSTKHHKHGNTVSPFTLEERLKVGDRQTLNTISLPDLFKKTD  560 (2054)
+Confidence                  00    00000                      0123899999999999988878999999998766
+
+
+No 55
+>UniRef100_A0A1L9WFL1 NACHT domain-containing protein n=1 Tax=Aspergillus aculeatus (strain ATCC 16872 / CBS 172.66 / WB 5094) TaxID=690307 RepID=A0A1L9WFL1_ASPA1
+Probab=98.98  E-value=2.8e-12  Score=124.93  Aligned_cols=94  Identities=30%  Similarity=0.433  Sum_probs=79.5  Template_Neff=1.000
+
+Q EGU74195.1       38 LAAARLEDKLA-CLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRR  116 (147)
+Q Consensus        38 ~aa~~~k~~ls-~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~R  116 (147)
+                      +....|.+|-. ..++||+.+.++|...+||+|-|||.+.|++++|||||.||-.+-+        ..++.....||..|
+T Consensus       421 lledawheckeaqrfyadaalmeyylqqnrlkilrlsndtldiencyinlgivvpsln--------rqnqevfelslqrr  492 (1086)
+T UniRef100_A0A1  421 LLEDAWHECKEAQRFYADAALMEYYLQQNRLKILRLSNDTLDIENCYINLGIVVPSLN--------RQNQEVFELSLQRR  492 (1086)
+Confidence            34455555532 4679999999999999999999999999999999999999986532        23455688999999
+
+
+Q EGU74195.1      117 LNVQGSDGGVKVRFHDIFNTARS  139 (147)
+Q Consensus       117 LKVetPd~~~qV~L~tLFd~Rk~  139 (147)
+                      |.|++|.+++.++|..||+-|+.
+T Consensus       493 lrveapgegkalelqelfdvrkl  515 (1086)
+T UniRef100_A0A1  493 LRVEAPGEGKALELQELFDVRKL  515 (1086)
+Confidence            99999999999999999999983
+
+
+No 56
+>UniRef100_C5FNC0 Peptidase C14 n=1 Tax=Arthroderma otae (strain ATCC MYA-4605 / CBS 113480) TaxID=554155 RepID=C5FNC0_ARTOC
+Probab=98.97  E-value=2.9e-12  Score=127.36  Aligned_cols=89  Identities=28%  Similarity=0.427  Sum_probs=71.1  Template_Neff=1.296
+
+Q EGU74195.1       50 LKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVKVR  129 (147)
+Q Consensus        50 l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~qV~  129 (147)
+                      .-.|-..+..||.++.-|+|+||||..|||+.||||||||.-.....      ...+++|+|+|.+|++++-..+  .|.
+T Consensus       250 ~~ea~~alkayyt~g~~lki~rlsgk~lpme~cyinlaiirld~t~~------ph~s~ss~f~lt~~~~~~l~ge--~v~  321 (1355)
+T UniRef100_C5FN  250 VSEAASALKAYYTKGNALKIQRLSGKQLPMENCYINLAIIRLDPTEV------PHISESSSFLLTERLQLGLNGE--NVQ  321 (1355)
+Confidence            34577778888888888999999999999999999999998542211      2345789999999999998655  488
+
+
+Q EGU74195.1      130 FHDIFNTARSHGAASKH  146 (147)
+Q Consensus       130 L~tLFd~Rk~~~~~~~~  146 (147)
+                      |-+||++-+..++..+.
+T Consensus       322 l~~lfn~i~lsn~e~~~  338 (1355)
+T UniRef100_C5FN  322 LYNLFNPIKLSNDEEKR  338 (1355)
+Confidence            99999998866665443
+
+
+No 57
+>UniRef100_W3X2X6 Uncharacterized protein n=1 Tax=Pestalotiopsis fici (strain W106-1 / CGMCC3.15140) TaxID=1229662 RepID=W3X2X6_PESFW
+Probab=98.82  E-value=2.8e-11  Score=121.24  Aligned_cols=96  Identities=23%  Similarity=0.432  Sum_probs=79.1  Template_Neff=1.000
+
+Q EGU74195.1       48 ACLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVK  127 (147)
+Q Consensus        48 s~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~q  127 (147)
+                      +.++.||..|..+|-.++||+|.|||...|.|.+||+||+||-...++.-  .++-..+..-.-||+.||++.......|
+T Consensus       308 snlekadeqiirnykgedrlkiirlsshtlnmsncyvnlsivlpkqqnkl--penisrqneldtsllsrlnipessgdsq  385 (1693)
+T UniRef100_W3X2  308 SNLEKADEQIIRNYKGEDRLKIIRLSSHTLNMSNCYVNLSIVLPKQQNKL--PENISRQNELDTSLLSRLNIPESSGDSQ  385 (1693)
+Confidence            56899999999999999999999999999999999999999985544332  1111122335678999999999999999
+
+
+Q EGU74195.1      128 VRFHDIFNTARSHGAASK  145 (147)
+Q Consensus       128 V~L~tLFd~Rk~~~~~~~  145 (147)
+                      ++|+.||++|+..+|.+.
+T Consensus       386 islsqlfeprklrnggta  403 (1693)
+T UniRef100_W3X2  386 ISLSQLFEPRKLRNGGTA  403 (1693)
+Confidence            999999999997776654
+
+
+No 58
+>UniRef100_A0A2V5I4A3 NACHT domain-containing protein n=1 Tax=Aspergillus indologenus CBS 114.80 TaxID=1450541 RepID=A0A2V5I4A3_9EURO
+Probab=98.81  E-value=2.7e-11  Score=111.17  Aligned_cols=82  Identities=27%  Similarity=0.486  Sum_probs=58.9  Template_Neff=1.406
+
+Q EGU74195.1       29 SEESPETRRLAAARLEDKLACLK-AADDWLLQHCYVK--ENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPN  105 (147)
+Q Consensus        29 ~~~~~~~~~~aa~~~k~~ls~l~-~AD~~Ir~~yyt~--~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~  105 (147)
+                      .+.+..-+++.++..+.|....+ +.-..+.+-|.++  .+|+|+||||++||||+|||||.+|+..             
+T Consensus        55 ~~~sd~g~~ll~~~~~~c~~a~~yytk~~ll~~yt~d~~k~l~iqrlsgdrlp~~hcyinl~v~d~~-------------  121 (408)
+T UniRef100_A0A2   55 QDLSDDGSALLADSYRKCITAREYYTKNALLDFYTQDDDKQLQIQRLSGDRLPVDHCYINLNVVDSD-------------  121 (408)
+Confidence            34455566677666666655444 3445555555543  3799999999999999999999999865             
+
+
+Q EGU74195.1      106 NKIANLSLFRRLNVQGSDGGVKVRFHDIFNTARSHG  141 (147)
+Q Consensus       106 ~~sSpFSL~~RLKVetPd~~~qV~L~tLFd~Rk~~~  141 (147)
+                                        .+..|+|+.||++|+..+
+T Consensus       122 ------------------~~~~~~l~~lfd~r~~~~  139 (408)
+T UniRef100_A0A2  122 ------------------QGDEVPLESLFDCREQGD  139 (408)
+Confidence                              223488999999998654
+
+
+No 59
+>UniRef100_U7PP53 NACHT domain-containing protein n=1 Tax=Sporothrix schenckii (strain ATCC 58251 / de Perez 2211183) TaxID=1391915 RepID=U7PP53_SPOS1
+Probab=98.79  E-value=3.7e-11  Score=115.88  Aligned_cols=100  Identities=28%  Similarity=0.426  Sum_probs=68.4  Template_Neff=1.000
+
+Q EGU74195.1       25 YAKSSEESPETRRLAAARLEDKLACLKAADDWLLQHCYV--KENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNL  102 (147)
+Q Consensus        25 ~~~~~~~~~~~~~~aa~~~k~~ls~l~~AD~~Ir~~yyt--~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~  102 (147)
+                      |.+...++..+.-+..++-|---..+++||..+|.+|..  ++.|+|.|+||..|||..|||||||||.+.+..+     
+T Consensus       434 ylkpdtvssstallteawhkcsralvfyadeelrryylasgeemlkikrisgatlpmsdcyinlaiveksqqtdg-----  508 (848)
+T UniRef100_U7PP  434 YLKPDTVSSSTALLTEAWHKCSRALVFYADEELRRYYLASGEEMLKIKRISGATLPMSDCYINLAIVEKSQQTDG-----  508 (848)
+Confidence            444444454444444444343334689999999999884  3469999999999999999999999998754332     
+
+
+Q EGU74195.1      103 TPNNKIANLSLFRRLNVQGSDGGVKVRFHDIFNTARSHGA  142 (147)
+Q Consensus       103 ~~~~~sSpFSL~~RLKVetPd~~~qV~L~tLFd~Rk~~~~  142 (147)
+                                   |-.....+-.+.|-|..||+.-+..+|
+T Consensus       509 -------------rhelndgdyakrvmldglfertkrddg  535 (848)
+T UniRef100_U7PP  509 -------------RHELNDGDYAKRVMLDGLFERTKRDDG  535 (848)
+Confidence                         222233455667777788876665444
+
+
+No 60
+>UniRef100_A0A1L9T6Y6 NACHT domain-containing protein n=1 Tax=Aspergillus sydowii CBS 593.65 TaxID=1036612 RepID=A0A1L9T6Y6_9EURO
+Probab=98.77  E-value=4.9e-11  Score=114.25  Aligned_cols=74  Identities=35%  Similarity=0.645  Sum_probs=58.7  Template_Neff=1.000
+
+Q EGU74195.1       56 WLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVKVRFHDIFN  135 (147)
+Q Consensus        56 ~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~qV~L~tLFd  135 (147)
+                      .+..+|..+.||.+.|+||++||||+||||+.|||..+..+        .++....|||.||||++. +++.|+++.||-
+T Consensus       355 vlhsyytggqrlhvhrisgdrlpmdrcyinmviverfragn--------pskatdislfsrlkvdtv-egkhvsipelfv  425 (760)
+T UniRef100_A0A1  355 VLHSYYTGGQRLHVHRISGDRLPMDRCYINMVIVERFRAGN--------PSKATDISLFSRLKVDTV-EGKHVSIPELFV  425 (760)
+Confidence            34444445568999999999999999999999999875432        123467899999999996 678999999996
+
+
+Q EGU74195.1      136 TAR  138 (147)
+Q Consensus       136 ~Rk  138 (147)
+                      .-+
+T Consensus       426 aar  428 (760)
+T UniRef100_A0A1  426 AAR  428 (760)
+Confidence            543
+
+
+No 61
+>UniRef100_G3JKQ6 Ankyrin repeat-containing domain n=1 Tax=Cordyceps militaris (strain CM01) TaxID=983644 RepID=G3JKQ6_CORMM
+Probab=98.74  E-value=6.9e-11  Score=119.55  Aligned_cols=112  Identities=29%  Similarity=0.434  Sum_probs=74.2  Template_Neff=1.000
+
+Q EGU74195.1       13 LPHNLSLEELRQYAKSSEESPETRRLAAARLEDKLACLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHA   92 (147)
+Q Consensus        13 ~~~~~~~~~~~~~~~~~~~~~~~~~~aa~~~k~~ls~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~   92 (147)
+                      +|.++|-.+-..|-   .+.-|.+..||+.++.-  .+.+||++||.+||. +--+|.||||.+||||||||||.+||..
+T Consensus       273 lmnkfsgpdcadyr---tvageikaaaanilrgt--llnqaddyirtncyp-eatqitrlsgaplpmdqcyinltlvead  346 (2037)
+T UniRef100_G3JK  273 LMNKFSGPDCADYR---TVAGEIKAAAANILRGT--LLNQADDYIRTNCYP-EATQITRLSGAPLPMDQCYINLTLVEAD  346 (2037)
+Confidence            34444444444443   34456777777777764  689999999999995 4568999999999999999999999965
+
+
+Q EGU74195.1       93 RNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVKVRFHDIFNTARS  139 (147)
+Q Consensus        93 ~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~qV~L~tLFd~Rk~  139 (147)
+                      +...--   .-.+-...|.--.      ..+--++|+|++||+.|.+
+T Consensus       347 ragevv---khnsldtaphkrh------eremvmevslstlfndrng  384 (2037)
+T UniRef100_G3JK  347 RAGEVV---KHNSLDTAPHKRH------EREMVMEVSLSTLFNDRNG  384 (2037)
+Confidence            322210   0000111222222      2234578999999999974
+
+
+No 62
+>UniRef100_A0A5N6ZQR8 Uncharacterized protein n=1 Tax=Aspergillus caelatus TaxID=61420 RepID=A0A5N6ZQR8_9EURO
+Probab=98.70  E-value=1.2e-10  Score=107.45  Aligned_cols=78  Identities=32%  Similarity=0.405  Sum_probs=58.5  Template_Neff=1.000
+
+Q EGU74195.1       37 RLAAARLEDKLAC-LKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTS-RLSNLTPNNKIANLSLF  114 (147)
+Q Consensus        37 ~~aa~~~k~~ls~-l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~-~~~~~~~~~~sSpFSL~  114 (147)
+                      ++..+.||.|-.. .-.||-.+.++|-+++||+|.||||..|.||.|||||+|||...-... .-..+.++-..|.||+|
+T Consensus       378 klleaawkscdeakrlsadikltqyyetggrleiirlsgaqlkmdkcyinlsiieskdmesqnginpnkpnlrdsefsif  457 (457)
+T UniRef100_A0A5  378 KLLEAAWKSCDEAKRLSADIKLTQYYETGGRLEIIRLSGAQLKMDKCYINLSIIESKDMESQNGINPNKPNLRDSEFSIF  457 (457)
+Confidence            5667788877322 225899999999999999999999999999999999999997643322 11222334467889875
+
+
+No 63
+>UniRef100_A0A2H3FME6 NACHT domain-containing protein n=1 Tax=Gibberella zeae TaxID=5518 RepID=A0A2H3FME6_GIBZA
+Probab=98.65  E-value=2.1e-10  Score=110.70  Aligned_cols=96  Identities=24%  Similarity=0.364  Sum_probs=76.1  Template_Neff=1.000
+
+Q EGU74195.1       48 ACLKAADDWLLQHCYVKE---NLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDG  124 (147)
+Q Consensus        48 s~l~~AD~~Ir~~yyt~~---rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~  124 (147)
+                      +.+.+.|..+|..|-.+.   .|.|.||||..|||..|||||+||+..-........+  +-..|.|-+.+|-..+..|+
+T Consensus       291 ssiqqvdhilraqydgeksyktlsitrlsgkalpmgscyinlsivdyfykgittarqn--svpnssflmssrkaaddvdk  368 (817)
+T UniRef100_A0A2  291 SSIQQVDHILRAQYDGEKSYKTLSITRLSGKALPMGSCYINLSIVDYFYKGITTARQN--SVPNSSFLMSSRKAVDDVDK  368 (817)
+Confidence            457788999998876544   5889999999999999999999999764433211111  12347788899999999999
+
+
+Q EGU74195.1      125 GVKVRFHDIFNTARSHGAASK  145 (147)
+Q Consensus       125 ~~qV~L~tLFd~Rk~~~~~~~  145 (147)
+                      -.||+|..+|++|..+|+..|
+T Consensus       369 mlqvdlasmfdererpgnrdk  389 (817)
+T UniRef100_A0A2  369 MLQVDLASMFDERERPGNRDK  389 (817)
+Confidence            999999999999998887654
+
+
+No 64
+>UniRef100_G3JC87 Armadillo-type fold domain containing protein n=1 Tax=Cordyceps militaris (strain CM01) TaxID=983644 RepID=G3JC87_CORMM
+Probab=98.63  E-value=2.6e-10  Score=115.27  Aligned_cols=91  Identities=30%  Similarity=0.480  Sum_probs=78.0  Template_Neff=1.000
+
+Q EGU74195.1       48 ACLKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVK  127 (147)
+Q Consensus        48 s~l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~q  127 (147)
+                      +++.+||..|...|...+||.|.||||..|..++|||||.|-|......     -...-.+||.|-++|-+|++.|...-
+T Consensus       351 tplqqadnmivkeycdkdrltitrlsgaqlklehcyinltiaekqsstv-----mqtdfgsspvsrlaregvetvdqrlv  425 (1866)
+T UniRef100_G3JC  351 TPLQQADNMIVKEYCDKDRLTITRLSGAQLKLEHCYINLTIAEKQSSTV-----MQTDFGSSPVSRLAREGVETVDQRLV  425 (1866)
+Confidence            5788999999999999999999999999999999999999999542211     11234679999999999999999999
+
+
+Q EGU74195.1      128 VRFHDIFNTARSHGAA  143 (147)
+Q Consensus       128 V~L~tLFd~Rk~~~~~  143 (147)
+                      |.|.+.|..|.+.+..
+T Consensus       426 vrlkdvfkarngtdkt  441 (1866)
+T UniRef100_G3JC  426 VRLKDVFKARNGTDKT  441 (1866)
+Confidence            9999999999865543
+
+
+No 65
+>UniRef100_G4NHM0 NACHT domain-containing protein n=1 Tax=Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) TaxID=242507 RepID=G4NHM0_MAGO7
+Probab=98.62  E-value=2.8e-10  Score=105.19  Aligned_cols=92  Identities=29%  Similarity=0.468  Sum_probs=74.5  Template_Neff=1.000
+
+Q EGU74195.1       52 AADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSN----LTPNNKIANLSLFRRLNVQGSDGGVK  127 (147)
+Q Consensus        52 ~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~----~~~~~~sSpFSL~~RLKVetPd~~~q  127 (147)
+                      +.|..| ++-|+++|--|+||.|..|+.+-|+||||+|.+..+..++...    .+.+...||||+.+|.||+-|..-.|
+T Consensus        11 qidevi-qytyteerccikrlngatlslelcfinlaviqhiadkksrlaadtfsgnngtetspfsiparikveippqlrq   89 (460)
+T UniRef100_G4NH   11 QIDEVI-QYTYTEERCCIKRLNGATLSLELCFINLAVIQHIADKKSRLAADTFSGNNGTETSPFSIPARIKVEIPPQLRQ   89 (460)
+Confidence            445544 5778899999999999999999999999999987665542211    12234679999999999999999999
+
+
+Q EGU74195.1      128 VRFHDIFNTARSHGAAS  144 (147)
+Q Consensus       128 V~L~tLFd~Rk~~~~~~  144 (147)
+                      |+.++||.+-...+|..
+T Consensus        90 vsfstlfqpyrhndgte  106 (460)
+T UniRef100_G4NH   90 VSFSTLFQPYRHNDGTE  106 (460)
+Confidence            99999999988666653
+
+
+No 66
+>UniRef100_A0A177FCW8 NACHT domain-containing protein n=1 Tax=Fonsecaea monophora TaxID=254056 RepID=A0A177FCW8_9EURO
+Probab=98.57  E-value=5.2e-10  Score=111.66  Aligned_cols=112  Identities=26%  Similarity=0.433  Sum_probs=88.5  Template_Neff=1.000
+
+Q EGU74195.1       29 SEESPETRRLAAARLEDKLAC-LKAADDWLLQHCY--VKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPN  105 (147)
+Q Consensus        29 ~~~~~~~~~~aa~~~k~~ls~-l~~AD~~Ir~~yy--t~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~  105 (147)
+                      ...+|+...+....||.|-+. -++||-.||+.|.  ++..|.|.||=|+.||||.|||||.|-......+.  +.....
+T Consensus       414 tqtdppssdlfntawkrckraqefyadmairdrylcptektlhivrlfgeslpmdkcyinlvisqktsssae--dqapak  491 (1389)
+T UniRef100_A0A1  414 TQTDPPSSDLFNTAWKRCKRAQEFYADMAIRDRYLCPTEKTLHIVRLFGESLPMDKCYINLVISQKTSSSAE--DQAPAK  491 (1389)
+Confidence            456888889999999998654 4689999999998  66789999999999999999999999775432221  111111
+
+
+Q EGU74195.1      106 NKIANLSLFRRLNVQGSDGGVKVRFHDIFNTARSHGA  142 (147)
+Q Consensus       106 ~~sSpFSL~~RLKVetPd~~~qV~L~tLFd~Rk~~~~  142 (147)
+                      ..-..|-|+.||.|+.....+.|...++|+...+||.
+T Consensus       492 adfdqffllrrlrveddpdskpiamedifngngghgt  528 (1389)
+T UniRef100_A0A1  492 ADFDQFFLLRRLRVEDDPDSKPIAMEDIFNGNGGHGT  528 (1389)
+Confidence            2335688999999999999999999999998776664
+
+
+No 67
+>UniRef100_F0X8T8 Pfs domain containing protein n=1 Tax=Grosmannia clavigera (strain kw1407 / UAMH 11150) TaxID=655863 RepID=F0X8T8_GROCL
+Probab=98.51  E-value=9.7e-10  Score=100.81  Aligned_cols=97  Identities=22%  Similarity=0.322  Sum_probs=76.4  Template_Neff=1.000
+
+Q EGU74195.1       35 TRRLAAARLEDKLA-CLKAADDWLLQHCYV--KENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANL  111 (147)
+Q Consensus        35 ~~~~aa~~~k~~ls-~l~~AD~~Ir~~yyt--~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpF  111 (147)
+                      +.-++...|-.|-. .+++||..|.-.|-.  -+-|+|.|..|+.|-||.|||||+||..+..+.       ..+...|.
+T Consensus       155 rgglvnkawmscsqahifyadhaiqlryehkalgllkikrfngdsllmdkcyinlsivqssdaqk-------aestdfpi  227 (407)
+T UniRef100_F0X8  155 RGGLVNKAWMSCSQAHIFYADHAIQLRYEHKALGLLKIKRFNGDSLLMDKCYINLSIVQSSDAQK-------AESTDFPI  227 (407)
+Confidence            44455555655533 489999988766653  357999999999999999999999999774332       12345889
+
+
+Q EGU74195.1      112 SLFRRLNVQGSDGGVKVRFHDIFNTAR  138 (147)
+Q Consensus       112 SL~~RLKVetPd~~~qV~L~tLFd~Rk  138 (147)
+                      |+..|.++....+..|.+|+.+|-.-+
+T Consensus       228 sisrrwgisgapeaeqmslsnifiktk  254 (407)
+T UniRef100_F0X8  228 SISRRWGISGAPEAEQMSLSNIFIKTK  254 (407)
+Confidence            999999999999999999999997655
+
+
+No 68
+>UniRef100_A0A395SCY9 NACHT domain-containing protein n=1 Tax=Fusarium sporotrichioides TaxID=5514 RepID=A0A395SCY9_FUSSP
+Probab=98.50  E-value=1.1e-09  Score=111.08  Aligned_cols=94  Identities=30%  Similarity=0.406  Sum_probs=77.7  Template_Neff=1.000
+
+Q EGU74195.1       48 ACLKAADDWLLQHCYVK---ENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDG  124 (147)
+Q Consensus        48 s~l~~AD~~Ir~~yyt~---~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~  124 (147)
+                      +.+++.|..+...|-.+   ++|.|.|||..-|||..|||||+||.+-.+..+..+.  .....|.|||..|-.|...|+
+T Consensus       173 srleqvdkllktqydaekpyeklniirlsekvlpmgscyinlsivahydqavstasq--sttsnssfslssrnavadvdk  250 (1848)
+T UniRef100_A0A3  173 SRLEQVDKLLKTQYDAEKPYEKLNIIRLSEKVLPMGSCYINLSIVAHYDQAVSTASQ--STTSNSSFSLSSRNAVADVDK  250 (1848)
+Confidence            46889999998887654   3799999999999999999999999977654432111  223458999999999999999
+
+
+Q EGU74195.1      125 GVKVRFHDIFNTARSHGAA  143 (147)
+Q Consensus       125 ~~qV~L~tLFd~Rk~~~~~  143 (147)
+                      ..-|+|+++|.+|.+.+|.
+T Consensus       251 kllvdlptifgeragsdgn  269 (1848)
+T UniRef100_A0A3  251 KLLVDLPTIFGERAGSDGN  269 (1848)
+Confidence            9999999999999977664
+
+
+No 69
+>UniRef100_A0A1L9SXE9 NACHT domain-containing protein n=1 Tax=Penicilliopsis zonata CBS 506.65 TaxID=1073090 RepID=A0A1L9SXE9_9EURO
+Probab=98.44  E-value=2e-09  Score=104.84  Aligned_cols=58  Identities=34%  Similarity=0.698  Sum_probs=44.3  Template_Neff=1.319
+
+Q EGU74195.1       53 ADDWLLQHCYVK--ENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVKVRF  130 (147)
+Q Consensus        53 AD~~Ir~~yyt~--~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~qV~L  130 (147)
+                      ....+.+.|...  +||+|+||||+.|||++|||||.+|...                               .+.+|+|
+T Consensus       405 tknal~~fyt~~d~krlqiqrlsgd~lp~~hcyinl~v~~~~-------------------------------~~dev~~  453 (772)
+T UniRef100_A0A1  405 TKNALIQFYTQQDNKRLQIQRLSGDRLPMNHCYINLNVVDSD-------------------------------QDDEVPF  453 (772)
+Confidence            344555555533  4899999999999999999999999854                               2235888
+
+
+Q EGU74195.1      131 HDIFNTARSHG  141 (147)
+Q Consensus       131 ~tLFd~Rk~~~  141 (147)
+                      .+||++|...|
+T Consensus       454 ~~lf~~re~~g  464 (772)
+T UniRef100_A0A1  454 ESLFDCREQNG  464 (772)
+Confidence            88998888654
+
+
+No 70
+>UniRef100_UPI0008076041 HEAT repeat domain-containing protein n=1 Tax=Candidatus Glomeribacter gigasporarum TaxID=132144 RepID=UPI0008076041
+Probab=98.42  E-value=2.5e-09  Score=106.79  Aligned_cols=117  Identities=28%  Similarity=0.418  Sum_probs=72.1  Template_Neff=1.000
+
+Q EGU74195.1       23 RQYAKSSEESPETRRLAAARLEDKLACLKA----AD-----DWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHAR   93 (147)
+Q Consensus        23 ~~~~~~~~~~~~~~~~aa~~~k~~ls~l~~----AD-----~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~   93 (147)
+                      .|.++.+.+++.+-++    |..+++.++-    .|     ..+|+. .+-+||-|+||||.+|+|.|||||||+||...
+T Consensus       418 dqlvkqpnesqntvkl----wealhsaletirgridqetlqkalrqs-itldrlaiqrlsgpplsmkqcyinlavierek  492 (1298)
+T UniRef100_UPI0  418 DQLVKQPNESQNTVKL----WEALHSALETIRGRIDQETLQKALRQS-ITLDRLAIQRLSGPPLSMKQCYINLAVIEREK  492 (1298)
+Confidence            3556677777776655    4444444442    22     233332 35689999999999999999999999999653
+
+
+Q EGU74195.1       94 NQTSRLSNLTPNNKIANLSLFRRLN---VQGSDGGVKVRFHDIFNTARSHGAASK  145 (147)
+Q Consensus        94 ~~~~~~~~~~~~~~sSpFSL~~RLK---VetPd~~~qV~L~tLFd~Rk~~~~~~~  145 (147)
+                      ......+.. ..........|.|--   .-..|+.+-+.|..||++|...|+..|
+T Consensus       493 arkeekdgk-qdkedkalnvfhrppsyeaidsdkqkllplealfderelegskgk  546 (1298)
+T UniRef100_UPI0  493 ARKEEKDGK-QDKEDKALNVFHRPPSYEAIDSDKQKLLPLEALFDERELEGSKGK  546 (1298)
+Confidence            222100000 111122333444432   223467778999999999997776655
+
+
+No 71
+>UniRef100_A0A2Z6ERZ3 NACHT domain-containing protein n=1 Tax=Mycoavidus cysteinexigens TaxID=1553431 RepID=A0A2Z6ERZ3_9BURK
+Probab=98.36  E-value=3.3e-09  Score=110.99  Aligned_cols=86  Identities=22%  Similarity=0.393  Sum_probs=63.2  Template_Neff=3.006
+
+Q EGU74195.1       60 HCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRL-SNLTPNNKIANLSLFRRLNVQGSDGGVKVRFHDIFNTAR  138 (147)
+Q Consensus        60 ~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~-~~~~~~~~sSpFSL~~RLKVetPd~~~qV~L~tLFd~Rk  138 (147)
+                      .||.-.+|.|+|.||+.-+.+.|||||||||...+..... +-+.....-.+..-.+|+..|..+.++-|.|.+||++.+
+T Consensus       223 qHYQlSNLSIQRVSgetasL~dCYINLAIVEsqaQrekDKkELeKQaa~FERLPSSErqqLEaTNpnKLIaLekLFe~Qk  302 (1581)
+T UniRef100_A0A2  223 QHYQLSNLSIQRVSGETASLEDCYINLAIVESQAQREKDKKELEKQAATFERLPSSERQQLEATNPNKLIALEKLFESQK  302 (1581)
+Confidence            4667788999999999999999999999999664332211 111111112233345788888889999999999999999
+
+
+Q EGU74195.1      139 SHGAASK  145 (147)
+Q Consensus       139 ~~~~~~~  145 (147)
+                      .+||..-
+T Consensus       303 LrDGSEG  309 (1581)
+T UniRef100_A0A2  303 LRDGSEG  309 (1581)
+Confidence            8887653
+
+
+No 72
+>UniRef100_A0A2I2GH64 NACHT domain-containing protein n=1 Tax=Aspergillus steynii IBT 23096 TaxID=1392250 RepID=A0A2I2GH64_9EURO
+Probab=98.34  E-value=5e-09  Score=105.02  Aligned_cols=67  Identities=28%  Similarity=0.499  Sum_probs=56.5  Template_Neff=1.000
+
+Q EGU74195.1       50 LKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVKVR  129 (147)
+Q Consensus        50 l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~qV~  129 (147)
+                      .++.-..+|-+|.+-+||+|.||||.-||||||+|||.|...+.                               +..|.
+T Consensus       408 rfyvrnalrghytthdrlqihrlsgqvlpmdqcfinltitkgsd-------------------------------gqaip  456 (1353)
+T UniRef100_A0A2  408 RFYVRNALRGHYTTHDRLQIHRLSGQVLPMDQCFINLTITKGSD-------------------------------GQAIP  456 (1353)
+Confidence            46788999999999999999999999999999999999987541                               22378
+
+
+Q EGU74195.1      130 FHDIFNTARSHGAASKHS  147 (147)
+Q Consensus       130 L~tLFd~Rk~~~~~~~~~  147 (147)
+                      |+.||.+|...+|.+..|
+T Consensus       457 lpqlfqprrlsngttssp  474 (1353)
+T UniRef100_A0A2  457 LPQLFQPRRLSNGTTSSP  474 (1353)
+Confidence            999999999877766543
+
+
+No 73
+>UniRef100_A0A2V5I9N5 Uncharacterized protein n=1 Tax=Aspergillus violaceofuscus CBS 115571 TaxID=1450538 RepID=A0A2V5I9N5_9EURO
+Probab=98.31  E-value=7.2e-09  Score=97.12  Aligned_cols=58  Identities=34%  Similarity=0.703  Sum_probs=45.2  Template_Neff=1.000
+
+Q EGU74195.1       53 ADDWLLQHCYVK--ENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLNVQGSDGGVKVRF  130 (147)
+Q Consensus        53 AD~~Ir~~yyt~--~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLKVetPd~~~qV~L  130 (147)
+                      ....+.+.|..+  .||+|+||||++||.|+|||||-+|+..                               .+.+|+|
+T Consensus       405 tknallefytqdddkrlqiqrlsgdrlpvdhcyinlnvvdsd-------------------------------qgdevpl  453 (495)
+T UniRef100_A0A2  405 TKNALLEFYTQDDDKRLQIQRLSGDRLPVDHCYINLNVVDSD-------------------------------QGDEVPL  453 (495)
+Confidence            345555655543  4899999999999999999999999843                               3345889
+
+
+Q EGU74195.1      131 HDIFNTARSHG  141 (147)
+Q Consensus       131 ~tLFd~Rk~~~  141 (147)
+                      ..||+.|.+.|
+T Consensus       454 eslfdsreqgg  464 (495)
+T UniRef100_A0A2  454 ESLFDSREQGG  464 (495)
+Confidence            99999988655
+
+
+No 74
+>UniRef100_E9EDH4 Uncharacterized protein n=1 Tax=Metarhizium acridum (strain CQMa 102) TaxID=655827 RepID=E9EDH4_METAQ
+Probab=98.25  E-value=1.1e-08  Score=83.69  Aligned_cols=62  Identities=23%  Similarity=0.371  Sum_probs=46.9  Template_Neff=1.000
+
+Q EGU74195.1       80 EQCYINLIIIPHARNQTS-----RLSNLTPNNKIANLSLFRRLNVQGSDGGVKVRFHDIFNTARSHG  141 (147)
+Q Consensus        80 dQCYINLAIVE~~~~~~~-----~~~~~~~~~~sSpFSL~~RLKVetPd~~~qV~L~tLFd~Rk~~~  141 (147)
+                      .-.||||||||+.-....     .++..+...++.|||++.|+||+-||+..|++|++.|++-.+.+
+T Consensus        20 gavyinlaiieqqlgrvpdssgyqsnkadsarksnpfsilsrqkvqipdesiqielstffnegdgrd   86 (139)
+T UniRef100_E9ED   20 GAVYINLAIIEQQLGRVPDSSGYQSNKADSARKSNPFSILSRQKVQIPDESIQIELSTFFNEGDGRD   86 (139)
+Confidence            348999999997522111     11223345678899999999999999999999999999866544
+
+
+No 75
+>UniRef100_A0A0U1LP64 Uncharacterized protein n=1 Tax=Talaromyces islandicus TaxID=28573 RepID=A0A0U1LP64_TALIS
+Probab=98.15  E-value=2.8e-08  Score=102.29  Aligned_cols=99  Identities=21%  Similarity=0.301  Sum_probs=74.1  Template_Neff=1.000
+
+Q EGU74195.1       37 RLAAARLEDKLAC-LKAADDWLLQHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFR  115 (147)
+Q Consensus        37 ~~aa~~~k~~ls~-l~~AD~~Ir~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~  115 (147)
+                      ++...-||.|... =++||+....+|..++||.|+||||..|+|..||+||+|||.+.--..      ..+..|  .+..
+T Consensus       428 klfedtwktcydahgfyadarvlayymedgrlmiqrlsgrtldmgscyvnlsiiegsavlpe------vspens--gias  499 (2124)
+T UniRef100_A0A0  428 KLFEDTWKTCYDAHGFYADARVLAYYMEDGRLMIQRLSGRTLDMGSCYVNLSIIEGSAVLPE------VSPENS--GIAS  499 (2124)
+Confidence            5677888888654 478999999999999999999999999999999999999997633211      011112  2334
+
+
+Q EGU74195.1      116 RLNVQG--SDGGVKVRFHDIFNTARSHGAA  143 (147)
+Q Consensus       116 RLKVet--Pd~~~qV~L~tLFd~Rk~~~~~  143 (147)
+                      |--.++  .|.-+.|.|..||.+....++.
+T Consensus       500 rkpleapatdsikdiqlhelfqeqnlrdnr  529 (2124)
+T UniRef100_A0A0  500 RKPLEAPATDSIKDIQLHELFQEQNLRDNR  529 (2124)
+Confidence            544454  4777899999999987755543
+
+
+No 76
+>UniRef100_A0A6A6HBT1 Uncharacterized protein n=1 Tax=Viridothelium virens TaxID=1048519 RepID=A0A6A6HBT1_9PEZI
+Probab=98.14  E-value=3.1e-08  Score=92.52  Aligned_cols=77  Identities=30%  Similarity=0.469  Sum_probs=54.8  Template_Neff=1.000
+
+Q EGU74195.1       59 QHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTP-NNKIANLSLFRRLNVQGSDGGVKV-RFHDIFN  135 (147)
+Q Consensus        59 ~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~-~~~sSpFSL~~RLKVetPd~~~qV-~L~tLFd  135 (147)
+                      ..+|++.||.|.||||+.|+||+|+|||.||....+.-.+.-++.. ........+-+||||+-|..+.|+ -|.+.|=
+T Consensus       372 rsfysgsrldidrlsgekldmdrcfinlgivhyrndshhrvyndnsdkdpdaaltfearlkvqipprerqlmmlgtvfw  450 (455)
+T UniRef100_A0A6  372 RSFYSGSRLDIDRLSGEKLDMDRCFINLGIVHYRNDSHHRVYNDNSDKDPDAALTFEARLKVQIPPRERQLMMLGTVFW  450 (455)
+Confidence            3578899999999999999999999999999854332221111111 123356778899999998887775 4556553
+
+
+No 77
+>UniRef100_UPI0012DCDD50 NACHT domain-containing protein n=1 Tax=Glomeribacter sp. 1016415 TaxID=1286373 RepID=UPI0012DCDD50
+Probab=98.12  E-value=3.5e-08  Score=92.83  Aligned_cols=84  Identities=20%  Similarity=0.415  Sum_probs=61.7  Template_Neff=1.000
+
+Q EGU74195.1       60 HCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSN-LTPNNKIANLSLFRRLNVQGSDGGVKVRFHDIFNTAR  138 (147)
+Q Consensus        60 ~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~-~~~~~~sSpFSL~~RLKVetPd~~~qV~L~tLFd~Rk  138 (147)
+                      .||.-..|.|+|.||+..+...|||||||||...+.....++ +.....-..+.-.+|...+..+.++-|.|.+||+..+
+T Consensus       173 qyyqlsnlsiqrvsgdqmsladcyinlaivesqaqrkkdkeelekraatferlpsserqqlestnpnklialeklfekqk  252 (494)
+T UniRef100_UPI0  173 QYYQLSNLSIQRVSGDQMSLADCYINLAIVESQAQRKKDKEELEKRAATFERLPSSERQQLESTNPNKLIALEKLFEKQK  252 (494)
+Confidence            477788999999999999999999999999966443321111 1111111223345788999999999999999999998
+
+
+Q EGU74195.1      139 SHGAA  143 (147)
+Q Consensus       139 ~~~~~  143 (147)
+                      ..+|.
+T Consensus       253 lrdgk  257 (494)
+T UniRef100_UPI0  253 LRDGK  257 (494)
+Confidence            76664
+
+
+No 78
+>UniRef100_UPI0012DBCB24 NACHT domain-containing protein n=1 Tax=Glomeribacter sp. 1016415 TaxID=1286373 RepID=UPI0012DBCB24
+Probab=98.08  E-value=5.2e-08  Score=94.48  Aligned_cols=84  Identities=24%  Similarity=0.455  Sum_probs=63.0  Template_Neff=1.000
+
+Q EGU74195.1       60 HCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLS---LFRRLNVQGSDGGVKVRFHDIFNT  136 (147)
+Q Consensus        60 ~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFS---L~~RLKVetPd~~~qV~L~tLFd~  136 (147)
+                      .||.-.+|.|+|.||+.-|.+.|||||||||...+....  ...-..+.|.|-   -.+|+..++.+-++-|.|.+||+.
+T Consensus       109 qhyqlsnlsiqrvsgetapleecyinlaiiesqaqrekd--kkelekqasaferlpsserqqleatnlnklialeklfea  186 (715)
+T UniRef100_UPI0  109 QHYQLSNLSIQRVSGETAPLEECYINLAIIESQAQREKD--KKELEKQASAFERLPSSERQQLEATNLNKLIALEKLFEA  186 (715)
+Confidence            356677899999999999999999999999965433211  111122334443   456888999999999999999999
+
+
+Q EGU74195.1      137 ARSHGAASK  145 (147)
+Q Consensus       137 Rk~~~~~~~  145 (147)
+                      .+..+|...
+T Consensus       187 qklrdgser  195 (715)
+T UniRef100_UPI0  187 QKLRDGSER  195 (715)
+Confidence            998777654
+
+
+No 79
+>UniRef100_A0A2Z6ESA0 NACHT domain-containing protein n=1 Tax=Mycoavidus cysteinexigens TaxID=1553431 RepID=A0A2Z6ESA0_9BURK
+Probab=98.05  E-value=6.2e-08  Score=95.41  Aligned_cols=85  Identities=21%  Similarity=0.411  Sum_probs=62.2  Template_Neff=1.000
+
+Q EGU74195.1       60 HCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLS---LFRRLNVQGSDGGVKVRFHDIFNT  136 (147)
+Q Consensus        60 ~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFS---L~~RLKVetPd~~~qV~L~tLFd~  136 (147)
+                      .||.-.+|.|+|.||+.-+.+.|||||||||...+....  ...-..+.|.|-   -.+|+..++.+.++-|.|..||+.
+T Consensus       194 qhyqlsnlsiqrvsgesasledcyinlaivesqaqrekd--kkelekqasaferlpsserqrleatnpnklialerlfds  271 (891)
+T UniRef100_A0A2  194 QHYQLSNLSIQRVSGESASLEDCYINLAIVESQAQREKD--KKELEKQASAFERLPSSERQRLEATNPNKLIALERLFDS  271 (891)
+Confidence            356677899999999999999999999999965433221  111122334443   346777888888889999999999
+
+
+Q EGU74195.1      137 ARSHGAASKH  146 (147)
+Q Consensus       137 Rk~~~~~~~~  146 (147)
+                      .+..+|....
+T Consensus       272 qklrdgsesi  281 (891)
+T UniRef100_A0A2  272 QKLRDGSESI  281 (891)
+Confidence            9988776543
+
+
+No 80
+>UniRef100_A0A395GX78 NACHT domain-containing protein n=1 Tax=Aspergillus ibericus CBS 121593 TaxID=1448316 RepID=A0A395GX78_9EURO
+Probab=97.86  E-value=2.7e-07  Score=76.79  Aligned_cols=60  Identities=17%  Similarity=0.430  Sum_probs=43.5  Template_Neff=1.000
+
+Q EGU74195.1       79 LEQCYINLIIIPHARNQT-SRLSNLTPNNKIANLSLFRRLNVQGSDGGVKVRFHDIFNTARS  139 (147)
+Q Consensus        79 MdQCYINLAIVE~~~~~~-~~~~~~~~~~~sSpFSL~~RLKVetPd~~~qV~L~tLFd~Rk~  139 (147)
+                      ||.||+||.|||.+-.-+ +.+..--..+..|.||+..|||++... ...++|+.||++|+.
+T Consensus         1 mdkcyvnltivessitvnvggsrshlrrqsvsefsiarrlkienvg-aeaidlpglfderql   61 (148)
+T UniRef100_A0A3    1 MDKCYVNLTIVESSITVNVGGSRSHLRRQSVSEFSIARRLKIENVG-AEAIDLPGLFDERQL   61 (148)
+Confidence            899999999999763222 111111112456899999999999864 456999999999984
+
+
+No 81
+>UniRef100_UPI0009DBAA68 HEAT repeat domain-containing protein n=1 Tax=Glomeribacter sp. 1016415 TaxID=1286373 RepID=UPI0009DBAA68
+Probab=97.60  E-value=1.5e-06  Score=87.41  Aligned_cols=79  Identities=20%  Similarity=0.442  Sum_probs=53.7  Template_Neff=1.000
+
+Q EGU74195.1       61 CYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLS---LFRRLNVQGSDGGVKVRFHDIFNTA  137 (147)
+Q Consensus        61 yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFS---L~~RLKVetPd~~~qV~L~tLFd~R  137 (147)
+                      ||.-..|.|+|.||+.++...|||||||||...+....  .+.-..+.|.|-   -.+||  ++.+.++-|.|.+||+-.
+T Consensus       203 hyqlsglsiqrvsgdkvsladcyinlaivesqaqrekd--keelkkqastferlpsserl--eatnpnklialeklfevq  278 (1060)
+T UniRef100_UPI0  203 HYQLSGLSIQRVSGDKVSLADCYINLAIVESQAQREKD--KEELKKQASTFERLPSSERL--EATNPNKLIALEKLFEVQ  278 (1060)
+Confidence            45666799999999999999999999999966433221  111122334443   22344  455566778999999988
+
+
+Q EGU74195.1      138 RSHGAA  143 (147)
+Q Consensus       138 k~~~~~  143 (147)
+                      +..+|.
+T Consensus       279 klrdgs  284 (1060)
+T UniRef100_UPI0  279 KLRDGS  284 (1060)
+Confidence            866554
+
+
+No 82
+>UniRef100_UPI00054F4921 NACHT domain-containing protein n=1 Tax=Glomeribacter sp. 1016415 TaxID=1286373 RepID=UPI00054F4921
+Probab=97.56  E-value=1.9e-06  Score=86.45  Aligned_cols=86  Identities=20%  Similarity=0.346  Sum_probs=58.9  Template_Neff=1.559
+
+Q EGU74195.1       59 QHCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTS-RLSNLTPNNKIANLSLFRRLNVQGSDGGVKVRFHDIFNTA  137 (147)
+Q Consensus        59 ~~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~-~~~~~~~~~~sSpFSL~~RLKVetPd~~~qV~L~tLFd~R  137 (147)
+                      ..|-.-+++.|+||||.++||..|||||+|||+....-. ...+.......-.|-..-..+.=+.+...-|+|..+||+|
+T Consensus       501 ~~~~~l~~~~~~~l~~~~~~~~~~~~~~~~~e~~~a~~~~~~~~~ge~~~~~~~~~~p~~~~~~~~~~~~~~le~~~~~~  580 (828)
+T UniRef100_UPI0  501 TRYASLDRLAIQRLSGPPLSMKDCYINLAIVEHNKARREEEKPKEGEAAGQNHFHRLPSFEAIDSNQQKLVPLEKLFDPR  580 (828)
+Confidence            445567899999999999999999999999997633221 0011111222334443334344456778899999999999
+
+
+Q EGU74195.1      138 RSHGAAS  144 (147)
+Q Consensus       138 k~~~~~~  144 (147)
+                      ...|+..
+T Consensus       581 ~~sd~k~  587 (828)
+T UniRef100_UPI0  581 ELSDGKT  587 (828)
+Confidence            9776654
+
+
+No 83
+>UniRef100_F0XEU2 Pfs domain containing protein n=1 Tax=Grosmannia clavigera (strain kw1407 / UAMH 11150) TaxID=655863 RepID=F0XEU2_GROCL
+Probab=97.30  E-value=9.4e-06  Score=81.74  Aligned_cols=96  Identities=24%  Similarity=0.270  Sum_probs=67.8  Template_Neff=1.000
+
+Q EGU74195.1       37 RLAAARLEDKLA-CLKAADDWLLQHCYVKE--NLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSL  113 (147)
+Q Consensus        37 ~~aa~~~k~~ls-~l~~AD~~Ir~~yyt~~--rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL  113 (147)
+                      .+...-||.|-. .++.||..+|.+|..+.  .|+|+||...-|-|.+|||||.|.|....-...  .+ .....|.|-|
+T Consensus       442 allkdswktcpkallfhadkmlrshytdeslkqlqierldssillmsncyinltiterndrmmqa--gd-rpedesrfyl  518 (957)
+T UniRef100_F0XE  442 ALLKDSWKTCPKALLFHADKMLRSHYTDESLKQLQIERLDSSILLMSNCYINLTITERNDRMMQA--GD-RPEDESRFYL  518 (957)
+Confidence            455666777754 57899999998877543  588999999999999999999999976433211  11 1123356655
+
+
+Q EGU74195.1      114 FRRLNVQGSDGGVKVRFHDIFNTARS  139 (147)
+Q Consensus       114 ~~RLKVetPd~~~qV~L~tLFd~Rk~  139 (147)
+                      ...    ....+..|-|+.+|..|+.
+T Consensus       519 rsk----kapstnavllpnifqkrqs  540 (957)
+T UniRef100_F0XE  519 RSK----KAPSTNAVLLPNIFQKRQS  540 (957)
+Confidence            432    2235567999999999984
+
+
+No 84
+>UniRef100_UPI00047E776B HEAT repeat domain-containing protein n=1 Tax=Glomeribacter sp. 1016415 TaxID=1286373 RepID=UPI00047E776B
+Probab=97.11  E-value=2.6e-05  Score=82.73  Aligned_cols=81  Identities=22%  Similarity=0.440  Sum_probs=54.6  Template_Neff=1.000
+
+Q EGU74195.1       60 HCYVKENLEIERLSGERLPLEQCYINLIIIPHARNQTSRLSNLTPNNKIANLSLFRRLN----VQGSDGGVKVRFHDIFN  135 (147)
+Q Consensus        60 ~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~~~~~~~~~~~~~~~~sSpFSL~~RLK----VetPd~~~qV~L~tLFd  135 (147)
+                      .||.-..|.|+|.||++-+.|.|||||||||...+....  .+--..+   .--|+||-    .-+.+.++-+.|.+||+
+T Consensus       657 qhyqlsdlsiqrvsgerasvdtcyinlaiveslaqhekd--qeilkrq---vkaferlpsneqlaatnpnklialdklfe  731 (2296)
+T UniRef100_UPI0  657 QHYQLSDLSIQRVSGERASVDTCYINLAIVESLAQHEKD--QEILKRQ---VKAFERLPSNEQLAATNPNKLIALDKLFE  731 (2296)
+Confidence            355666799999999999999999999999976443221  1111112   22234443    23445677799999999
+
+
+Q EGU74195.1      136 TARSHGAASK  145 (147)
+Q Consensus       136 ~Rk~~~~~~~  145 (147)
+                      +...-+|.-+
+T Consensus       732 pqtlldgsid  741 (2296)
+T UniRef100_UPI0  732 PQTLLDGSID  741 (2296)
+Confidence            9987666544
+
+
+No 85
+>UniRef100_A0A2Z6EW83 NACHT domain-containing protein n=1 Tax=Mycoavidus cysteinexigens TaxID=1553431 RepID=A0A2Z6EW83_9BURK
+Probab=97.01  E-value=4.2e-05  Score=68.44  Aligned_cols=33  Identities=45%  Similarity=0.791  Sum_probs=29.4  Template_Neff=1.000
+
+Q EGU74195.1       60 HCYVKENLEIERLSGERLPLEQCYINLIIIPHA   92 (147)
+Q Consensus        60 ~yyt~~rLkIeRLSGd~LpMdQCYINLAIVE~~   92 (147)
+                      .||.-.+|-|+|.||+.++...|||||||||..
+T Consensus        29 qhyklsnlliqrvsgetvslkdcyinlaivesq   61 (234)
+T UniRef100_A0A2   29 QHYKLSNLLIQRVSGETVSLKDCYINLAIVESQ   61 (234)
+Confidence            356667899999999999999999999999965
+
+
+No 86
+>UniRef100_A0A4P7NI76 NACHT domain-containing protein n=1 Tax=Magnaporthe oryzae TaxID=318829 RepID=A0A4P7NI76_MAGOR
+Probab=96.68  E-value=0.00019  Score=63.43  Aligned_cols=41  Identities=17%  Similarity=0.314  Sum_probs=36.5  Template_Neff=1.000
+
+Q EGU74195.1      104 PNNKIANLSLFRRLNVQGSDGGVKVRFHDIFNTARSHGAAS  144 (147)
+Q Consensus       104 ~~~~sSpFSL~~RLKVetPd~~~qV~L~tLFd~Rk~~~~~~  144 (147)
+                      ..++.||||++--||.+-||++.||.|++||++|++...+.
+T Consensus        40 ippqtspfsifvilkteipdkniqvqlptlfnprkgrenhp   80 (198)
+T UniRef100_A0A4   40 IPPQTSPFSIFVILKTEIPDKNIQVQLPTLFNPRKGRENHP   80 (198)
+Confidence            34678999999999999999999999999999999776654
+
+

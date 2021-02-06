@@ -1,0 +1,150 @@
+Query         PWW73239.1
+Match_columns 138
+No_of_seqs    1033 out of 1072
+Neff          5.61397
+Searched_HMMs 140
+Date          Sat Feb  6 20:06:15 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/PWW73239_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/PWW73239_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/PWW73239_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF08043.12 ; Xin ; Xin repeat   31.3     2.7 0.00051   17.4   0.0   10  117-126     4-13  (16)
+  2 PF16496.5 ; SWIRM-assoc_2 ; SW  19.1     5.9  0.0012   28.7   0.0   45   91-135   189-246 (405)
+  3 PF09907.9 ; HigB_toxin ; HigB_  11.6      12  0.0026   19.4   0.0   13  119-131    62-74  (74)
+  4 PF17106.5 ; NACHT_sigma ; Sigm   8.7      19  0.0038   17.3   0.0   18   57-74     19-36  (43)
+  5 PF07750.11 ; GcrA ; GcrA cell    3.1      64   0.014   18.4   0.0   15  112-126   120-134 (171)
+  6 PF05385.11 ; Adeno_E4 ; Mastad   2.2 1.2E+02   0.022   17.3   0.0   28   92-119    51-78  (108)
+  7 PF15669.5 ; CCDC24 ; Coiled-co   2.0 1.2E+02   0.024   18.6   0.0   40   90-129   149-188 (212)
+  8 PF04866.12 ; Rota_NS6 ; Rotavi   1.7 1.6E+02   0.028   16.2   0.0   22  106-127    55-78  (92)
+  9 PF03325.13 ; Herpes_PAP ; Herp   1.6 1.7E+02   0.032   17.7   0.0   30   91-120    37-66  (166)
+ 10 PF05595.11 ; DUF771 ; Domain o   1.6 1.5E+02   0.032   14.7   0.0   19  117-135    68-86  (90)
+
+No 1
+>PF08043.12 ; Xin ; Xin repeat
+Probab=31.32  E-value=2.7  Score=17.38  Aligned_cols=10  Identities=10%  Similarity=0.048  Sum_probs=7.7  Template_Neff=3.000
+
+Q PWW73239.1       68 GKCTSG----   73 (73)
+Q Consensus       117 GTCeWlL~h~  126 (138)
+                      .||.|+++..
+T Consensus         4 ~~~~wlFETq   13 (16)
+T F6SLD1_XENTR/7    4 KMCKWLFETQ   13 (16)
+T ss_pred             cceeEeEecc
+Confidence            4789998864
+
+
+No 2
+>PF16496.5 ; SWIRM-assoc_2 ; SWIRM-associated domain at the N-terminal
+Probab=19.15  E-value=5.9  Score=28.74  Aligned_cols=45  Identities=7%  Similarity=0.012  Sum_probs=28.2  Template_Neff=5.700
+
+Q PWW73239.1       42 TVAEILQCLYTSR-YEWHMDHS------------REPVEGKCTSG-------------   73 (73)
+Q Consensus        91 ~~~~~Lq~L~~~d-y~~rk~~i------------~~r~~GTCeWlL~h~~Y~~Wl~s~  135 (138)
+                      ....++.|.++++ |+.+...-            ..+-.=++.||++...|.+|....
+T Consensus       189 d~~vLVHw~y~PDSYD~Wv~~~~~~~~p~~~~~~~~pw~V~arWl~Ds~~fNEWMNEe  246 (405)
+T E0VYN8_PEDHC/5  189 DKNVLVHWYYFPDSHDSWIQADLPIDPPDSPPVHVGPWRVAATWVLELEQYNEWMTEE  246 (405)
+T ss_pred             CCcEEEEeeecCcccceeecCCCCCCCCCCCCCCCCCeEEeeehhhcHHHHcCCCCHH
+Confidence            3445667777654 55544210            112223799999999999998653
+
+
+No 3
+>PF09907.9 ; HigB_toxin ; HigB_toxin, RelE-like toxic component of a toxin-antitoxin system
+Probab=11.61  E-value=12  Score=19.39  Aligned_cols=13  Identities=0%  Similarity=-0.237  Sum_probs=10.1  Template_Neff=7.700
+
+Q PWW73239.1       70 CTSG---------   73 (73)
+Q Consensus       119 CeWlL~h~~Y~~W  131 (138)
+                      -.|+..|.+|.+|
+T Consensus        62 i~~i~tH~eYdk~   74 (74)
+T Q3SMY4_NITWN/2   62 IRFFGSHEEYDKV   74 (74)
+T ss_pred             EEEeeCHHHHccC
+Confidence            4678888888776
+
+
+No 4
+>PF17106.5 ; NACHT_sigma ; Sigma domain on NACHT-NTPases
+Probab=8.75  E-value=19  Score=17.35  Aligned_cols=18  Identities=22%  Similarity=0.312  Sum_probs=13.0  Template_Neff=5.500
+
+Q PWW73239.1        8 GHYGGNTGFGNTFGSAD-   24 (73)
+Q Consensus        57 g~~~gn~Gs~n~f~s~n~   74 (138)
+                      |.+..++|++++|....|
+T Consensus        19 G~Qnnn~g~G~qf~g~~f   36 (43)
+T I1RXU5_GIBZE/3   19 AMQTNNTGDGDQYVGVSF   36 (43)
+T ss_pred             eeEEecCCCCccccccee
+Confidence            566778888888876553
+
+
+No 5
+>PF07750.11 ; GcrA ; GcrA cell cycle regulator
+Probab=3.14  E-value=64  Score=18.42  Aligned_cols=15  Identities=20%  Similarity=0.194  Sum_probs=11.3  Template_Neff=8.200
+
+Q PWW73239.1       63 REPVEGKCTSG----   73 (73)
+Q Consensus       112 ~~r~~GTCeWlL~h~  126 (138)
+                      -+...++|.|-+.++
+T Consensus       120 ~~l~~~~CrwPvg~p  134 (171)
+T Q98BB8_RHILO/1  120 VELTERTCKWPNGDP  134 (171)
+T ss_pred             hhCCCCCCCCCCCCC
+Confidence            345579999999864
+
+
+No 6
+>PF05385.11 ; Adeno_E4 ; Mastadenovirus early E4 13 kDa protein
+Probab=2.16  E-value=1.2e+02  Score=17.35  Aligned_cols=28  Identities=11%  Similarity=0.271  Sum_probs=16.6  Template_Neff=3.200
+
+Q PWW73239.1       43 VAEILQCLYTSRYEWHMDHSREPVEGKC   70 (73)
+Q Consensus        92 ~~~~Lq~L~~~dy~~rk~~i~~r~~GTC  119 (138)
+                      ...+.+||++.-+.++..+...|..+.|
+T Consensus        51 L~~LrEWL~~a~~tEr~rrrdrrrr~vc   78 (108)
+T E4RF4_ADE02/1-   51 LDALREWIYYNYYTERAKRRDRRRRSVC   78 (108)
+T ss_pred             HHHHHHHHHHHHHhHHhhhcCcccccch
+Confidence            3444567777666666555555555665
+
+
+No 7
+>PF15669.5 ; CCDC24 ; Coiled-coil domain-containing protein 24 family
+Probab=2.01  E-value=1.2e+02  Score=18.61  Aligned_cols=40  Identities=10%  Similarity=0.010  Sum_probs=28.8  Template_Neff=6.100
+
+Q PWW73239.1       41 PTVAEILQCLYTSRYEWHMDHSREPVEGKCTSG-------   73 (73)
+Q Consensus        90 ~~~~~~Lq~L~~~dy~~rk~~i~~r~~GTCeWlL~h~~Y~  129 (138)
+                      .....+.+.|...+++.-...++.....=|++|+++-.|.
+T Consensus       149 ~~l~~i~d~Lnv~~ID~V~~~LR~~L~eE~~~L~~dI~~L  188 (212)
+T A7RTB5_NEMVE/3  149 DHLESMNDKLNALEIDRITDHLRSLLLEEKQRLSDDISFL  188 (212)
+T ss_pred             HHHHHhhhcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            3445556667777777777777788888899988876664
+
+
+No 8
+>PF04866.12 ; Rota_NS6 ; Rotavirus non-structural protein 6
+Probab=1.74  E-value=1.6e+02  Score=16.16  Aligned_cols=22  Identities=9%  Similarity=0.073  Sum_probs=12.6  Template_Neff=1.800
+
+Q PWW73239.1       57 WHMDHSREP--VEGKCTSG-----   73 (73)
+Q Consensus       106 ~rk~~i~~r--~~GTCeWlL~h~~  127 (138)
+                      .+.++..-|  .-=-|.|+..+..
+T Consensus        55 ~rL~rMQLrQMqmLaclWihq~~h   78 (92)
+T NSP6_ROTSH/1-9   55 FRLDRMQLRQMQTLACLWIHQHNH   78 (92)
+T ss_pred             HhhcHHHHHHHHHHHHHHHHHhhh
+Confidence            344444333  3346999987654
+
+
+No 9
+>PF03325.13 ; Herpes_PAP ; Herpesvirus polymerase accessory protein
+Probab=1.59  E-value=1.7e+02  Score=17.74  Aligned_cols=30  Identities=13%  Similarity=0.046  Sum_probs=16.0  Template_Neff=2.500
+
+Q PWW73239.1       42 TVAEILQCLYTSRYEWHMDHSREPVEGKCT   71 (73)
+Q Consensus        91 ~~~~~Lq~L~~~dy~~rk~~i~~r~~GTCe  120 (138)
+                      -..++|+||.+.--..|..+......||-+
+T Consensus        37 vV~dliKWlaP~tr~KR~~K~~~~~~~tvq   66 (166)
+T VPAP_HCMVM/116   37 VVADLLKWIGPHTRVKRNVKKAPCPTGTVQ   66 (166)
+T ss_pred             HHHHHHHHHccccccccCCCCCCCCcceeE
+Confidence            356899999865433333333333334433
+
+
+No 10
+>PF05595.11 ; DUF771 ; Domain of unknown function (DUF771)
+Probab=1.57  E-value=1.5e+02  Score=14.72  Aligned_cols=19  Identities=5%  Similarity=-0.123  Sum_probs=14.8  Template_Neff=7.500
+
+Q PWW73239.1       68 GKCTSG-------------   73 (73)
+Q Consensus       117 GTCeWlL~h~~Y~~Wl~s~  135 (138)
+                      +-..|.+.-+.+.+|++..
+T Consensus        68 ~g~~w~f~a~~~~~fl~~~   86 (90)
+T X2GNW5_9BACI/1   68 KGETWTFHAKKMAPFLDDN   86 (90)
+T ss_pred             CCCeEEEEHHHhHHHHHHh
+Confidence            3458999999999998753
+
+

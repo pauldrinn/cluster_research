@@ -1,0 +1,159 @@
+Query         PPJ51655.1
+Match_columns 490
+No_of_seqs    3268 out of 3347
+Neff          7.71442
+Searched_HMMs 100
+Date          Sat Feb  6 20:05:47 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/PPJ51655_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/PPJ51655_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/PPJ51655_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF06985.11 ; HET ; Heterokaryo  99.7 1.1E-21 2.3E-25  163.4   0.0  116  174-292     1-127 (127)
+  2 PF06394.13 ; Pepsin-I3 ; Pepsi  19.5     6.1  0.0012   25.6   0.0   29   27-55     36-64  (74)
+  3 PF03221.16 ; HTH_Tnp_Tc5 ; Tc5  10.6      14  0.0029   20.6   0.0   31   31-62      1-32  (66)
+  4 PF12426.8 ; DUF3674 ; RNA depe   7.4      26  0.0047   19.8   0.0   27   31-57      3-29  (41)
+  5 PF02258.16 ; SLT_beta ; Shiga-   4.3      54  0.0096   19.8   0.0   24  276-299    23-46  (70)
+  6 PF01099.17 ; Uteroglobin ; Ute   3.3      65   0.013   20.0   0.0   24  226-249    64-87  (89)
+  7 PF09045.10 ; L27_2 ; L27_2       3.2      71   0.014   18.7   0.0   19  276-294    32-50  (58)
+  8 PF06708.11 ; DUF1195 ; Protein   3.2      75   0.014   22.5   0.0   21  232-252    79-99  (147)
+  9 PF16527.5 ; CpxA_peri ; Two-co   2.9      75   0.016   20.7   0.0   28   35-62     75-102 (134)
+ 10 PF09252.10 ; Feld-I_B ; Allerg   2.1 1.1E+02   0.023   17.7   0.0   23  227-249    42-64  (67)
+
+No 1
+>PF06985.11 ; HET ; Heterokaryon incompatibility protein (HET)
+Probab=99.66  E-value=1.1e-21  Score=163.41  Aligned_cols=116  Identities=6%  Similarity=0.114  Sum_probs=87.8  Template_Neff=10.800
+
+Q PPJ51655.1       21 YAIASHRWAAAAETSYQDVQKHRNTEKAGYKKLEGFVQYVKahVPDVEWLWIDTCCID----------------------   78 (78)
+Q Consensus       174 Y~ALSY~WG~~~~~t~~~~~~g~~~~~~~~~~l~~al~~~r-.~~~~~~lWIDalCInQ~d~~Eks~qV~~M~~IY~~A~  251 (490)
+                      |.||||+||+. ........++..  .....++.+++..++  ..+.+|+|||++||+|.+..|+..+|..|..||++|.
+T Consensus         1 Y~alSy~Wg~~-~~~~~i~~~~~~--~~~~~~~~~~l~~~~~.~~~~~~~WiD~~Ci~q~~~~~~~~~i~~m~~iy~~a~   76 (127)
+T Q0TVU4_PHANO/4    1 FEAISYVWGNE-QFPHTIQINGNT--MPIGLTLDHALHQSRC.LDKERVFWVDALCINQADTFERNSQVQLMGRIYSSAT   76 (127)
+T ss_pred             CEEEEeeeCCC-CCCeEEEECCEE--EEcChhHHHHHHHHhh.cCCCCEEEEEEEEeCCCCHHHHHHHHHHHHHHHhcCC
+Confidence            89999999985 322222233322  234566888888888  8899999999999999999999999999999999999
+
+
+Q PPJ51655.1       79 ---------------------------------------------------   78 (78)
+Q Consensus       252 ~viv~Lg~~~~~~~~~~~----------~~~~~~~~l~~~~WftR~WtlQE  292 (490)
+                      .|+|++++..........          ........+..++||+|+||+||
+T Consensus        77 ~~iv~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~w~~R~WtlQE  127 (127)
+T Q0TVU4_PHANO/4   77 TVLIWLGCGDEDEVKAMQMITSREHWNLEMRQILTRIFQGPWFRRVWVVQE  127 (127)
+T ss_pred             EEEEeCCCCChhHHHHHHHHHhhhhcchhhHHHHHHHHCCCCcCceeeecC
+Confidence            999999987654321100          00122345678999999999998
+
+
+No 2
+>PF06394.13 ; Pepsin-I3 ; Pepsin inhibitor-3-like repeated domain
+Probab=19.49  E-value=6.1  Score=25.64  Aligned_cols=29  Identities=0%  Similarity=0.000  Sum_probs=23.6  Template_Neff=6.000
+
+Q PPJ51655.1        1 -----------------------------    0 (78)
+Q Consensus        27 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   55 (490)
+                      -..||+.|.+.|+.|.+.|.+...-....
+T Consensus        36 ~R~LT~~E~~el~~y~~~~~~~~~~l~~~   64 (74)
+T A0A1I7VL88_LOA   36 VRDLTPEEVKELKTFDAKMTAYQKYLSSS   64 (74)
+T ss_pred             ccCCCHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            45699999999999999999887655433
+
+
+No 3
+>PF03221.16 ; HTH_Tnp_Tc5 ; Tc5 transposase DNA-binding domain
+Probab=10.63  E-value=14  Score=20.59  Aligned_cols=31  Identities=0%  Similarity=0.000  Sum_probs=23.2  Template_Neff=11.200
+
+Q PPJ51655.1        1 ---------------------------------    0 (78)
+Q Consensus        31 ~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~   62 (490)
+                      ++..|++|.+++..| . .|.|+........|.
+T Consensus         1 ~~~~e~~l~~w~~~~~~-~g~~i~~~~i~~~a~   32 (66)
+T A7S8J7_NEMVE/2    1 NEDLEKALYTWSVRMKQ-QGVPISGPVLKETAI   32 (66)
+T ss_pred             CHHHHHHHHHHHHHHHH-cCCCCCHHHHHHHHH
+Confidence            356789999999988 8 888877666655544
+
+
+No 4
+>PF12426.8 ; DUF3674 ; RNA dependent RNA polymerase
+Probab=7.43  E-value=26  Score=19.76  Aligned_cols=27  Identities=0%  Similarity=0.000  Sum_probs=20.6  Template_Neff=3.200
+
+Q PPJ51655.1        1 ---------------------------    0 (78)
+Q Consensus        31 ~~~~~~~~~~~~~~~~~~~~~~~~~~~   57 (490)
+                      .+.|..|||.||.+=+-.|.+....+.
+T Consensus         3 k~eER~aLEAMFNLKFhi~~~~~~~~~   29 (41)
+T L_HANTV/198-23    3 KTEERAALEAMFNLKFNISTHKSQPYY   29 (41)
+T ss_pred             CHHHHHHHHHHhcCeeccCCCceecee
+Confidence            467888999999988887777665543
+
+
+No 5
+>PF02258.16 ; SLT_beta ; Shiga-like toxin beta subunit
+Probab=4.27  E-value=54  Score=19.75  Aligned_cols=24  Identities=0%  Similarity=0.000  Sum_probs=18.7  Template_Neff=1.400
+
+Q PPJ51655.1       79 ------------------------   78 (78)
+Q Consensus       276 ~~l~~~~WftR~WtlQElll~r~v  299 (490)
+                      .......+|+--|-+|-++++..+
+T Consensus        23 vkv~~~e~~tnrwnlq~ll~saql   46 (70)
+T STXB_SHIDS/20-   23 VKVGDKELFTNRWNLQSLLLSAQI   46 (70)
+T ss_pred             EEECCeeeeecccchHHHHHHhee
+Confidence            445667899999999999877554
+
+
+No 6
+>PF01099.17 ; Uteroglobin ; Uteroglobin family
+Probab=3.33  E-value=65  Score=20.03  Aligned_cols=24  Identities=4%  Similarity=0.146  Sum_probs=19.5  Template_Neff=7.600
+
+Q PPJ51655.1       75 CCID--------------------   78 (78)
+Q Consensus       226 lCInQ~d~~Eks~qV~~M~~IY~~  249 (490)
+                      -|+|+-..++|..-...|..||..
+T Consensus        64 ~C~d~ls~e~k~~v~~ll~~i~~s   87 (89)
+T F1RPW6_PIG/1-8   64 QCANGISFKKKILLTKTLVEILVK   87 (89)
+T ss_pred             HHHHcCCHHHHHHHHHHHHHHHhc
+Confidence            388888888888888888888865
+
+
+No 7
+>PF09045.10 ; L27_2 ; L27_2
+Probab=3.20  E-value=71  Score=18.70  Aligned_cols=19  Identities=0%  Similarity=0.000  Sum_probs=16.5  Template_Neff=5.300
+
+Q PPJ51655.1       79 -------------------   78 (78)
+Q Consensus       276 ~~l~~~~WftR~WtlQEll  294 (490)
+                      ..++.+|.|.++-++|+.+
+T Consensus        32 i~~L~sPlF~~Il~lQdSl   50 (58)
+T MPDZ_RAT/6-63    32 KSVLQSPLFSQILSLQTSL   50 (58)
+T ss_pred             HHHHhCHHHHHHHHHHHHH
+Confidence            4678999999999999965
+
+
+No 8
+>PF06708.11 ; DUF1195 ; Protein of unknown function (DUF1195)
+Probab=3.19  E-value=75  Score=22.46  Aligned_cols=21  Identities=0%  Similarity=0.000  Sum_probs=17.9  Template_Neff=2.800
+
+Q PPJ51655.1       79 ---------------------   78 (78)
+Q Consensus       232 d~~Eks~qV~~M~~IY~~A~~  252 (490)
+                      ..+||..-|..|-++|.+...
+T Consensus        79 EvEEREKvVrhMWDVYt~s~~   99 (147)
+T Q8LFK6_ARATH/7   79 EMEEREKVVKHMWDVYNNGRR   99 (147)
+T ss_pred             chhhHHHHHHHHHhccccCCC
+Confidence            458999999999999998754
+
+
+No 9
+>PF16527.5 ; CpxA_peri ; Two-component sensor protein CpxA, periplasmic domain
+Probab=2.89  E-value=75  Score=20.71  Aligned_cols=28  Identities=0%  Similarity=0.000  Sum_probs=21.4  Template_Neff=9.300
+
+Q PPJ51655.1        1 ----------------------------    0 (78)
+Q Consensus        35 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~   62 (490)
+                      .+++..||..+.+..+|+.+++....++
+T Consensus        75 ~~~~~~fl~~~~~~~~P~~~~~~~~~i~  102 (134)
+T Q9KNN8_VIBCH/3   75 FKAMQNFCSSIESVQKPQQRLYGRYMLA  102 (134)
+T ss_pred             hHHHHHHHHhccCCCCCeeHhhCCEEEE
+Confidence            6777888888888888888887766633
+
+
+No 10
+>PF09252.10 ; Feld-I_B ; Allergen Fel d I-B chain
+Probab=2.11  E-value=1.1e+02  Score=17.65  Aligned_cols=23  Identities=4%  Similarity=0.188  Sum_probs=17.7  Template_Neff=6.900
+
+Q PPJ51655.1       76 CID--------------------   78 (78)
+Q Consensus       227 CInQ~d~~Eks~qV~~M~~IY~~  249 (490)
+                      |+|+....+|......|..|..+
+T Consensus        42 C~D~~~~~~k~~~~~~l~~i~~s   64 (67)
+T M3Y7S1_MUSPF/2   42 CYNEKGLEAKGLDLIVMTTITTS   64 (67)
+T ss_pred             HHhhcCHHHHHHHHHHHHHHHhc
+Confidence            78888777788778888877654
+
+

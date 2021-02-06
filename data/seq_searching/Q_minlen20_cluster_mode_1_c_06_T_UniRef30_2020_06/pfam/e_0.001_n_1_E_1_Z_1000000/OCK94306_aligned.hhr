@@ -1,0 +1,150 @@
+Query         OCK94306.1
+Match_columns 227
+No_of_seqs    699 out of 699
+Neff          6.82196
+Searched_HMMs 110
+Date          Sat Feb  6 20:05:27 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/OCK94306_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/OCK94306_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/OCK94306_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF09235.10 ; SAM_Ste50p ; Ste5  95.9 2.6E-05 5.6E-09   48.7   0.0   70   24-96      2-73  (75)
+  2 PF18017.1 ; SAM_4 ; SAM domain  89.1   0.011 2.3E-06   37.2   0.0   67   27-96      5-74  (84)
+  3 PF07647.17 ; SAM_2 ; SAM domai  68.8    0.19 4.5E-05   25.8   0.0   61   25-91      1-63  (66)
+  4 PF00536.30 ; SAM_1 ; SAM domai  22.7       4 0.00092   19.8   0.0   59   27-91      2-64  (67)
+  5 PF08806.11 ; Sep15_SelM ; Sep1  17.6     6.8  0.0014   22.4   0.0   16   24-39     58-73  (76)
+  6 PF11372.8 ; DUF3173 ; Domain o  17.2     7.5  0.0014   21.8   0.0   26   69-94      3-28  (58)
+  7 PF08970.10 ; Sda ; Sporulation  15.8     8.4  0.0016   20.3   0.0   27   29-55      5-31  (45)
+  8 PF10768.9 ; FliX ; Class II fl  10.7      14  0.0029   23.7   0.0   16  121-136   111-126 (135)
+  9 PF15473.6 ; PCNP ; PEST, prote   6.2      32   0.006   23.0   0.0   23  120-142   112-134 (168)
+ 10 PF13220.6 ; DUF4028 ; Protein    4.5      51  0.0091   18.0   0.0   25  202-226    38-62  (65)
+
+No 1
+>PF09235.10 ; SAM_Ste50p ; Ste50p, sterile alpha motif
+Probab=95.90  E-value=2.6e-05  Score=48.66  Aligned_cols=70  Identities=10%  Similarity=0.107  Sum_probs=58.9  Template_Neff=10.000
+
+Q OCK94306.1       12 EMKEWDEDELLKWIQQKRSKLLEGDQLEK-FKAAHISGEAFLMQAGDEEFFRkKCNLA-FGVSWTLTKISAEIvgiETA   88 (219)
+Q Consensus        24 ~ik~~~te~LI~fL~~~~~l~L~~~d~~i-l~~~~I~G~~FL~la~t~e~l~.~~gl~-~GpA~~L~~~i~~l...k~k   96 (227)
+                      .+..|++++|..|+....++..+..+... |+++.|+|..|+.+  +.++++ .+|+. .| +.++...|+.+   +..
+T Consensus         2 ~~~~Ws~~~v~~wl~~~~~~~~~~~~~~~~f~~~~i~G~~L~~l--~~~~l~.~l~~~~~g-~~~l~~~i~~l...~~~   73 (75)
+T Q6CUY2_KLULA/2    2 GTNEWSTEEVCKKVKAELGLTDGDTFILDRIRENKITGSTLSEI--TLADCK.ELCPDSIS-AVRLKTCINKF...VDT   73 (75)
+T ss_pred             ChhcCCHHHHHHHHHHHhCCCChhHHHHHHHHHCCCChHHHhcC--CHHHHH.HhCCCCHH-HHHHHHHHHHH...Hhh
+Confidence            57889999999999653333224578999 99999999999999  999999 99997 88 99999888888   754
+
+
+No 2
+>PF18017.1 ; SAM_4 ; SAM domain (Sterile alpha motif)
+Probab=89.08  E-value=0.011  Score=37.21  Aligned_cols=67  Identities=9%  Similarity=0.118  Sum_probs=56.8  Template_Neff=8.400
+
+Q OCK94306.1       15 EWDEDELLKWIQQKRSKL--LEGDQLEKFKAAHISGEAFLMQAGDEEFFRkKCNLA-FGVSWTLTKISAEIvgiETA   88 (219)
+Q Consensus        27 ~~~te~LI~fL~~~~~l~--L~~~d~~il~~~~I~G~~FL~la~t~e~l~.~~gl~-~GpA~~L~~~i~~l...k~k   96 (227)
+                      .|+..++..||.. .++.  ....|...|..++|+|..+..+  +.++|+ .+|+. .|.+.++...++.+   +.+
+T Consensus         5 ~~~~~~v~~~L~~-~gl~~~~~~~y~~~f~~~~i~~~~L~~l--t~~~L~.~lGI~~~g~r~~il~~i~~l...~~~   74 (84)
+T A0A093QVF3_PHA    5 TMATSEWIQFFKE-AGIPPGPAVNYAVMFVDNRIQKNMLMDL--NKEIMN.ELGITVVGDIIAILKHAKIV...YRQ   74 (84)
+T ss_pred             CCCHHHHHHHHHH-cCCCCccHHHHHHHHHHCCCCHHHhccC--CHHHHH.HcCCCCHHHHHHHHHHHHHH...HHH
+Confidence            5899999999965 4432  1126889999999999999999  999999 99998 99999999999988   765
+
+
+No 3
+>PF07647.17 ; SAM_2 ; SAM domain (Sterile alpha motif)
+Probab=68.79  E-value=0.19  Score=25.79  Aligned_cols=61  Identities=15%  Similarity=0.391  Sum_probs=45.5  Template_Neff=12.500
+
+Q OCK94306.1       13 MKEWDEDELLKWIQQKRSKLLEGDQLEKFKAAHISGEAFLMQAGDEEFFRkKCNLA-FGVSWTLTKISA   80 (219)
+Q Consensus        25 ik~~~te~LI~fL~~~~~l~L~~~d~~il~~~~I~G~~FL~la~t~e~l~-~~gl~-~GpA~~L~~~i~   91 (227)
+                      +..|+.+++..|+.. .++   ..+...|..+.++|..+..+  +..++. .+|+. .|++.++...+.
+T Consensus         1 ~~~w~~~~~~~~~~~-~~~---~~~~~~~~~~~~~~~~~~~~--~~~~l~~~~~~~~~~~~~~~~~~~~   63 (66)
+T SPLA_DICDI/173    1 FKNWAPNDVAIWLES-FNY---GQYRKNFRDNNISGRHLEGI--THAMLKNDLGIEPYGHREDIINRLN   63 (66)
+T ss_pred             CCCCCHHHHHHHHHH-CCh---HHHHHHHHHCCCCHHHHccC--CHHHHHHHhCCCCHhHHHHHHHHHH
+Confidence            356999999999965 333   35777888888888888888  888888 88884 777766665544
+
+
+No 4
+>PF00536.30 ; SAM_1 ; SAM domain (Sterile alpha motif)
+Probab=22.71  E-value=4  Score=19.84  Aligned_cols=59  Identities=10%  Similarity=0.226  Sum_probs=41.3  Template_Neff=12.200
+
+Q OCK94306.1       15 EWDEDELLKWIQQKRSKLLEGDQLEKF-KAAHISGEAFLMQAGDEEF--FRkKCNLA-FGVSWTLTKISA   80 (219)
+Q Consensus        27 ~~~te~LI~fL~~~~~l~L~~~d~~il-~~~~I~G~~FL~la~t~e~--l~.~~gl~-~GpA~~L~~~i~   91 (227)
+                      .|+.+.+..|+.. .++   ..+...| ..+.++|..++.+  +..+  +. .+|+. .|.+.++...+.
+T Consensus         2 ~w~~~~~~~~l~~-~~~---~~~~~~~~~~~~~~~~~~~~~--~~~~~~l~.~~~~~~~~~~~~~~~~~~   64 (67)
+T SMSR1_CAEEL/12    2 EWRCEDVGNWLKK-IGM---AKYADLIAMKHKVDGKCLLAL--TDTDLKDP.PVSINCLGDIKKILFAIE   64 (67)
+T ss_pred             CCCHHHHHHHHHH-cCH---HHHHHHHHHhcCCCHHHHhhC--CcCCccCC.cCCCCCHHHHHHHHHHHH
+Confidence            5888889999865 333   2466777 7788889888888  7777  77 77765 466666555443
+
+
+No 5
+>PF08806.11 ; Sep15_SelM ; Sep15/SelM redox domain
+Probab=17.59  E-value=6.8  Score=22.43  Aligned_cols=16  Identities=25%  Similarity=0.796  Sum_probs=13.6  Template_Neff=7.300
+
+Q OCK94306.1       12 EMKEWDEDELLKWIQQ   27 (219)
+Q Consensus        24 ~ik~~~te~LI~fL~~   39 (227)
+                      .|.+|+++++.+||+.
+T Consensus        58 ~I~~w~~~~I~e~L~~   73 (76)
+T B7QB83_IXOSC/7   58 SIKKWDTDTIEEFLLE   73 (76)
+T ss_pred             EcccCCHHHHHHHHHh
+Confidence            4778999999999965
+
+
+No 6
+>PF11372.8 ; DUF3173 ; Domain of unknown function (DUF3173)
+Probab=17.16  E-value=7.5  Score=21.83  Aligned_cols=26  Identities=8%  Similarity=-0.012  Sum_probs=21.8  Template_Neff=4.600
+
+Q OCK94306.1       57 DEEFFRkKCNLAFGVSWTLTKISAEIvgiE   86 (219)
+Q Consensus        69 t~e~l~.~~gl~~GpA~~L~~~i~~l...k   94 (227)
+                      |+++|. ++|++...|.++.+.++.+   -
+T Consensus         3 tk~dLi.~lGf~~~~A~~IIrqAK~~...l   28 (58)
+T I3TZZ9_ENTFC/8    3 NRAILI.EMGFKPSQAARMIKESKAY...L   28 (58)
+T ss_pred             CHHHHH.HcCCCHHHHHHHHHHHHHH...H
+Confidence            778899 9999999999888877765   3
+
+
+No 7
+>PF08970.10 ; Sda ; Sporulation inhibitor A
+Probab=15.79  E-value=8.4  Score=20.32  Aligned_cols=27  Identities=19%  Similarity=0.205  Sum_probs=13.6  Template_Neff=5.000
+
+Q OCK94306.1       17 DEDELLKWIQQKRSKLLEGDQLEKFKA   43 (219)
+Q Consensus        29 ~te~LI~fL~~~~~l~L~~~d~~il~~   55 (227)
+                      +.+.|++-.+.-..+.|+++.+.++++
+T Consensus         5 sde~LleaY~~A~~l~Ld~dFI~lL~~   31 (45)
+T D3FUR2_BACPE/1    5 SDDVLIQSYYRAQEYGLDDDFLDLLFR   31 (45)
+T ss_pred             CHHHHHHHHHHHHHcCCCHHHHHHHHH
+Confidence            444455444433445566656655543
+
+
+No 8
+>PF10768.9 ; FliX ; Class II flagellar assembly regulator
+Probab=10.74  E-value=14  Score=23.73  Aligned_cols=16  Identities=19%  Similarity=0.202  Sum_probs=13.0  Template_Neff=5.900
+
+Q OCK94306.1      115 ETDTELQMLAASARQQ  130 (219)
+Q Consensus       121 d~d~~l~~c~~~i~~R  136 (227)
+                      ..|+.|.+.+++|..|
+T Consensus       111 ~~Dp~L~~ildeIeLR  126 (135)
+T D9QLL7_BRESC/1  111 DPDETLSGLLQQIDLR  126 (135)
+T ss_pred             CCChHHHHHHHHHHHH
+Confidence            3578999999999876
+
+
+No 9
+>PF15473.6 ; PCNP ; PEST, proteolytic signal-containing nuclear protein family
+Probab=6.19  E-value=32  Score=22.97  Aligned_cols=23  Identities=26%  Similarity=0.338  Sum_probs=17.6  Template_Neff=3.100
+
+Q OCK94306.1      114 SETDTELQMLAASARQQRERIRL  136 (219)
+Q Consensus       120 ~d~d~~l~~c~~~i~~Rl~~~~t  142 (227)
+                      +|+|.+-++.--|++.||+|+|.
+T Consensus       112 ~d~d~E~EEMPpEAkMRMrNiGR  134 (168)
+T Q17H13_AEDAE/4  112 SDSDEEPEEMPAECRMRMRNIGR  134 (168)
+T ss_pred             CCCCCCcccCCHHHHHhhcccCC
+Confidence            34555667777889999999993
+
+
+No 10
+>PF13220.6 ; DUF4028 ; Protein of unknown function (DUF4028)
+Probab=4.48  E-value=51  Score=17.95  Aligned_cols=25  Identities=20%  Similarity=0.361  Sum_probs=19.0  Template_Neff=1.300
+
+Q OCK94306.1      197 YTGRENFVELREEFERIRHSCQR--  219 (219)
+Q Consensus       202 y~gR~~f~~ll~~~~~~~~~~~y~~  226 (227)
+                      =.||--|+|+-...++-++++-|-.
+T Consensus        38 elgrptfkevekdwkenresf~ypn   62 (65)
+T Q81H15_BACCR/2   38 KLGRPTFKEVEKDWKENKESFMYPN   62 (65)
+T ss_pred             ccCCCcHHHHHhHHHHhHhhhcCCc
+Confidence            4688888888888888888877743
+
+

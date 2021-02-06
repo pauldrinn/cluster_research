@@ -1,0 +1,150 @@
+Query         RDW68062.1
+Match_columns 67
+No_of_seqs    369 out of 369
+Neff          6.50073
+Searched_HMMs 100
+Date          Sat Feb  6 20:06:25 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/RDW68062_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/RDW68062_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/RDW68062_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17046.5 ; Ses_B ; SesB domai  95.4 9.1E-05 1.7E-08   32.2   0.0   23   16-38      5-27  (28)
+  2 PF08944.11 ; p47_phox_C ; NADP  11.7      13  0.0025   14.8   0.0   12   48-59      4-15  (33)
+  3 PF12572.8 ; DUF3752 ; Protein   10.1      15  0.0031   18.3   0.0   11   56-66    112-122 (149)
+  4 PF05968.11 ; Bacillus_PapR ; B   8.9      20  0.0037   15.3   0.0   17    7-23      6-22  (45)
+  5 PF12196.8 ; hNIFK_binding ; FH   7.2      26   0.005   14.3   0.0   13   54-66      7-19  (40)
+  6 PF12427.8 ; DUF3665 ; Branched   5.5      39  0.0071   12.1   0.0   10   48-57      6-15  (22)
+  7 PF15105.6 ; TMEM61 ; TMEM61 pr   4.8      43  0.0082   17.9   0.0   12    2-13     52-63  (184)
+  8 PF01175.18 ; Urocanase ; Uroca   4.7      44  0.0085   18.2   0.0   17    2-18     31-47  (210)
+  9 PF18505.1 ; DUF5619 ; Domain o   4.1      51    0.01   14.9   0.0   13   55-67     32-44  (81)
+ 10 PF18601.1 ; EZH2_N ; EZH2 N-te   4.1      54    0.01   15.2   0.0   14   52-65     51-64  (81)
+
+No 1
+>PF17046.5 ; Ses_B ; SesB domain on fungal death-pathway protein
+Probab=95.42  E-value=9.1e-05  Score=32.22  Aligned_cols=23  Identities=35%  Similarity=0.559  Sum_probs=18.4  Template_Neff=4.200
+
+Q RDW68062.1        2 ASTITFGDANSGFQAGIVNGPAS   24 (32)
+Q Consensus        16 ~~s~sfG~~N~G~QvG~~nG~i~   38 (67)
+                      .+.+++|+.|+|+|+|.+.|.|+
+T Consensus         5 ~~~~FsGs~N~GlQ~G~N~G~i~   27 (28)
+T U1I097_ENDPU/3    5 HNATFSGDRNQGLQVGISSGTIN   27 (28)
+T ss_pred             ceeEeecCCCceEeeEEEecccc
+Confidence            34556677799999999999875
+
+
+No 2
+>PF08944.11 ; p47_phox_C ; NADPH oxidase subunit p47Phox, C terminal domain
+Probab=11.72  E-value=13  Score=14.77  Aligned_cols=12  Identities=8%  Similarity=0.211  Sum_probs=8.6  Template_Neff=3.600
+
+Q RDW68062.1       32 P-----------   32 (32)
+Q Consensus        48 erpETPP~Ps~~   59 (67)
+                      +.|+-||+|+.-
+T Consensus         4 ~~P~VPpRP~~~   15 (33)
+T H0UTD3_CAVPO/3    4 PQPAVPPRPSTD   15 (33)
+T ss_pred             CCCCCCCCCCHH
+Confidence            467888888753
+
+
+No 3
+>PF12572.8 ; DUF3752 ; Protein of unknown function (DUF3752)
+Probab=10.08  E-value=15  Score=18.28  Aligned_cols=11  Identities=0%  Similarity=0.000  Sum_probs=6.4  Template_Neff=7.500
+
+Q RDW68062.1       33 -----------   32 (32)
+Q Consensus        56 Ps~~i~~~~~~   66 (67)
+                      +....+|||||
+T Consensus       112 ~~~rrpFDRek  122 (149)
+T U4KUE0_PYROM/1  112 DPSKRAFDREK  122 (149)
+T ss_pred             CcccCCCChHH
+Confidence            44555666665
+
+
+No 4
+>PF05968.11 ; Bacillus_PapR ; Bacillus PapR protein
+Probab=8.92  E-value=20  Score=15.26  Aligned_cols=17  Identities=18%  Similarity=0.343  Sum_probs=14.1  Template_Neff=2.500
+
+Q RDW68062.1        1 --------MASTITFGD    9 (32)
+Q Consensus         7 ~~~~~~~~~~~s~sfG~   23 (67)
+                      +|......|.+.++||+
+T Consensus         6 igsL~~lAml~giSf~~   22 (45)
+T A7GV97_BACCN/1    6 ACSLVAVAMLAGVAFGV   22 (45)
+T ss_pred             HHHHHHHHHHHhhhccC
+Confidence            46677788999999999
+
+
+No 5
+>PF12196.8 ; hNIFK_binding ; FHA Ki67 binding domain of hNIFK
+Probab=7.17  E-value=26  Score=14.32  Aligned_cols=13  Identities=0%  Similarity=0.000  Sum_probs=8.1  Template_Neff=3.600
+
+Q RDW68062.1       33 -------------   32 (32)
+Q Consensus        54 P~Ps~~i~~~~~~   66 (67)
+                      |.|-|+-.|+.+|
+T Consensus         7 pTPvcTPt~Lerr   19 (40)
+T H7BZL0_HUMAN/3    7 PTPVCTPTFLERR   19 (40)
+T ss_pred             CCCccChhHhHhh
+Confidence            4566666666655
+
+
+No 6
+>PF12427.8 ; DUF3665 ; Branched-chain amino acid aminotransferase
+Probab=5.46  E-value=39  Score=12.06  Aligned_cols=10  Identities=0%  Similarity=-0.030  Sum_probs=5.7  Template_Neff=1.800
+
+Q RDW68062.1       32 P---------   32 (32)
+Q Consensus        48 erpETPP~Ps   57 (67)
+                      ||-|.|-+|.
+T Consensus         6 ~rT~~PTspe   15 (22)
+T M1NNK9_9CORY/4    6 NRTEAPTSPE   15 (22)
+T ss_pred             eecCCCCCHH
+Confidence            4666665553
+
+
+No 7
+>PF15105.6 ; TMEM61 ; TMEM61 protein family
+Probab=4.83  E-value=43  Score=17.92  Aligned_cols=12  Identities=0%  Similarity=0.000  Sum_probs=8.0  Template_Neff=4.000
+
+Q RDW68062.1        1 ------------    0 (32)
+Q Consensus         2 ~~~~~~~~~~~~   13 (67)
+                      |||-|.|+.|-.
+T Consensus        52 fVLvGaGv~LLL   63 (184)
+T I3N002_ICTTR/1   52 FFCCGAGGLLLL   63 (184)
+T ss_pred             HHhchHHHHHHH
+Confidence            677777766543
+
+
+No 8
+>PF01175.18 ; Urocanase ; Urocanase Rossmann-like domain
+Probab=4.73  E-value=44  Score=18.20  Aligned_cols=17  Identities=0%  Similarity=-0.037  Sum_probs=9.3  Template_Neff=4.300
+
+Q RDW68062.1        1 -------------MAST    4 (32)
+Q Consensus         2 ~~~~~~~~~~~~~~~~s   18 (67)
+                      |+-+|+|||-.+..-+.
+T Consensus        31 ~lTaGLGGMgGAQplA~   47 (210)
+T H8MLZ3_CORCM/1   31 ILSGGLGGMGGAQPLAA   47 (210)
+T ss_pred             EEeecCCCCCCcchHHH
+Confidence            45567777655444433
+
+
+No 9
+>PF18505.1 ; DUF5619 ; Domain of unknown function (DUF5619)
+Probab=4.14  E-value=51  Score=14.88  Aligned_cols=13  Identities=0%  Similarity=0.000  Sum_probs=10.8  Template_Neff=5.300
+
+Q RDW68062.1       33 -------------   32 (32)
+Q Consensus        55 ~Ps~~i~~~~~~~   67 (67)
+                      .|-..=|+||+|.
+T Consensus        32 epmLLsW~D~~~g   44 (81)
+T A0A125BCY3_THI   32 KPVIVAWKDDRTG   44 (81)
+T ss_pred             CCEEEEEEeCCCC
+Confidence            6888889999873
+
+
+No 10
+>PF18601.1 ; EZH2_N ; EZH2 N-terminal domain
+Probab=4.10  E-value=54  Score=15.25  Aligned_cols=14  Identities=0%  Similarity=0.000  Sum_probs=9.4  Template_Neff=3.300
+
+Q RDW68062.1       33 --------------   32 (32)
+Q Consensus        52 TPP~Ps~~i~~~~~   65 (67)
+                      +|=...-.||+.||
+T Consensus        51 tPnt~L~FvPhlrD   64 (81)
+T A0A0C4DKX4_MAG   51 TPNAMLKFIPHLRD   64 (81)
+T ss_pred             CCCCceecceeccc
+Confidence            34456777888776
+
+

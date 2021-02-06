@@ -1,0 +1,186 @@
+Query         OAQ28206.1
+Match_columns 815
+No_of_seqs    255 out of 255
+Neff          5.4944
+Searched_HMMs 570
+Date          Sat Feb  6 20:05:13 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/OAQ28206_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/OAQ28206_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/OAQ28206_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF05918.11 ; API5 ; Apoptosis   22.3     4.3 0.00095   39.9   0.0  110  554-677    45-162 (540)
+  2 PF12348.8 ; CLASP_N ; CLASP N   17.6     5.5  0.0014   30.7   0.0   71  646-719   131-205 (227)
+  3 PF14165.6 ; YtzH ; YtzH-like p  16.6     7.6  0.0015   29.3   0.0   69  622-694     5-86  (86)
+  4 PF13998.6 ; MgrB ; MgrB protei  12.2      13  0.0024   22.6   0.0   17  633-649     7-23  (29)
+  5 PF14098.6 ; SSPI ; Small, acid   7.5      24  0.0046   24.9   0.0   49  623-673    14-62  (64)
+  6 PF01602.20 ; Adaptin_N ; Adapt   6.6      22  0.0055   30.7   0.0   72  642-719   457-539 (541)
+  7 PF10508.9 ; Proteasom_PSMB ; P   6.5      22  0.0056   30.5   0.0   76  440-526    81-156 (504)
+  8 PF14071.6 ; YlbD_coat ; Putati   5.9      32  0.0065   26.5   0.0   28  542-569    62-90  (114)
+  9 PF01602.20 ; Adaptin_N ; Adapt   5.7      26  0.0067   30.1   0.0   35  642-678   261-296 (541)
+ 10 PF15967.5 ; Nucleoporin_FG2 ;    5.7      32  0.0067   33.6   0.0   28  361-388   249-276 (605)
+
+No 1
+>PF05918.11 ; API5 ; Apoptosis inhibitory protein 5 (API5)
+Probab=22.28  E-value=4.3  Score=39.95  Aligned_cols=110  Identities=10%  Similarity=-0.006  Sum_probs=58.6  Template_Neff=7.500
+
+Q OAQ28206.1      402 PANLFNSLDTLRQAAGQAFGVTNSVLEGLEASQKGRFG-AM-QSLLHGLRRGTKYEWYLTLLAARTFVREGRLA------  473 (640)
+Q Consensus       554 p~kllea~~~l~e~~~~~~~~~~~~~d~v~~l~~s~~~-~~-~~l~~~~~~~k~k~WY~ALR~td~LI~~g~l~------  625 (815)
+                      +.+|+..|+++++.+   ++       ++-+|-+-... +. ..+++.....+....| .-|.+|+|+|-=+-+      
+T Consensus        45 i~~ff~~Fp~l~~~a---i~-------a~~dLced~d~~vR~~aik~L~~l~k~~~~~-v~riaDVL~QLLqsdd~~E~~  113 (540)
+T Q8GXH2_ARATH/1   45 IPRYFKFFTSLATEA---FD-------AYLDIFDEVEVGVRVQAIRGLPLFCKDTPDF-ISKIIDVLVQCLNTEEFVERD  113 (540)
+T ss_pred             HHHHHhhcHHHHHHH---HH-------HHHHHhcCCCHHHHHHHHhhhHHHHhhCHHH-HHHHHHHHHHHhcCCCHHHHH
+Confidence            456888888777552   22       22222221111 11 1344444444443334 667999997643222      
+
+
+Q OAQ28206.1      474 EFNQTVYEAKCRDERAFQLGICQILGEIAMDALWDPLTRQHAVDFLEALYTT  525 (640)
+Q Consensus       626 ~Le~lv~~~pcr~d~~Fl~GLc~qLEqia~~~~~D~~~r~~Ai~FL~~l~~~  677 (815)
+                      ....-+...--.+-..+|.|||.|+...-. +  ++..|..++.||..-+..
+T Consensus       114 ~V~~sL~~ll~~dpk~tL~~lf~qi~~~~~-~--~~~~R~~~l~Fl~~~~~~  162 (540)
+T Q8GXH2_ARATH/1  114 AVHKALMSLFRQDTKASLTALFKHTEATLS-T--DEQIREKVLHFIRDKVFP  162 (540)
+T ss_pred             HHHHHHHHHHccChHHHHHHHHHHHhcCCC-C--cHHHHHHHHHHHHHhhhh
+Confidence            111111111113556799999999975411 1  257899999999876653
+
+
+No 2
+>PF12348.8 ; CLASP_N ; CLASP N terminal
+Probab=17.59  E-value=5.5  Score=30.69  Aligned_cols=71  Identities=13%  Similarity=0.059  Sum_probs=37.7  Template_Neff=12.400
+
+Q OAQ28206.1      494 ICQILGEIAMDALWDPLTRQHAVDFLEALYTTPP---GW-KQHTAVKQWVHAVLVQLLELPDTDIKEHTLVVLQDLSL  567 (640)
+Q Consensus       646 Lc~qLEqia~~~~~D~~~r~~Ai~FL~~l~~~~~---~w-~k~~~V~~wi~~il~~l~~~~~~~i~~~a~~ll~~L~~  719 (815)
+                      +...|.+...+.  +...|..+..+|..+.....   .. ..+..+...+..+...+. .+++.|...|...+..+..
+T Consensus       131 ~~~~l~~~l~~~--~~~~r~~a~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~l~-d~~~~vr~~a~~~l~~l~~  205 (227)
+T A1CPJ1_ASPCL/4  131 ILQHVSSACQDK--NVQLRLYAAGWLKTLIQKQSRHKSSIEHGGGLDMIDKSLKKCLA-DANPGVREAMRGTFWMFYR  205 (227)
+T ss_pred             HHHHHHHHCCCC--CHHHHHHHHHHHHHHHHHccccchhhccCccHHHHHHHHHHHHh-cCCHHHHHHHHHHHHHHHH
+Confidence            344444444444  56788899999988887553   11 011111333333333332 3346677776666666553
+
+
+No 3
+>PF14165.6 ; YtzH ; YtzH-like protein
+Probab=16.63  E-value=7.6  Score=29.30  Aligned_cols=69  Identities=12%  Similarity=0.272  Sum_probs=41.1  Template_Neff=4.900
+
+Q OAQ28206.1      470 GRLAEFNQTVY--EAKCRDERAFQLGICQILGEIAMDALWDPLTRQHAVDFLEALYT--------TPPGW---KQHTAVK  536 (640)
+Q Consensus       622 g~l~~Le~lv~--~~pcr~d~~Fl~GLc~qLEqia~~~~~D~~~r~~Ai~FL~~l~~--------~~~~w---~k~~~V~  688 (815)
+                      .++..|+.++.  +..|+-..    .=|+|||+++..-.-+...-......|..+|.        .....   .....+.
+T Consensus         5 ~QL~lL~DIL~nh~~dc~gs~----sE~eQieRLvksL~~n~~i~~~~~~~L~eIy~Y~~~g~~s~~l~~HI~~hq~~l~   80 (86)
+T D5DUE8_BACMQ/3    5 HQMNILKDILSNHQSDCCGTV----AECEQVERLIQSMLAKGYASTDVQATLQNVYKYTQDAKSAAHLDEHIQTNQQNLS   80 (86)
+T ss_pred             HHHHHHHHHHHHHhhhcCCCH----HHHHHHHHHHHHHHHcCCCCHHHHHHHHHHHHHHHHHHHhccHHHHHHHHHHHHH
+Confidence            34556666664  22443211    12789998877654466677888888888887        11100   0235788
+
+
+Q OAQ28206.1      537 QWVHAV  542 (640)
+Q Consensus       689 ~wi~~i  694 (815)
+                      +||..|
+T Consensus        81 qWi~~i   86 (86)
+T D5DUE8_BACMQ/3   81 QWVQEL   86 (86)
+T ss_pred             HHHHhC
+Confidence            888654
+
+
+No 4
+>PF13998.6 ; MgrB ; MgrB protein
+Probab=12.16  E-value=13  Score=22.63  Aligned_cols=17  Identities=24%  Similarity=0.649  Sum_probs=13.9  Template_Neff=3.600
+
+Q OAQ28206.1      481 EAKCRDERAFQLGICQI  497 (640)
+Q Consensus       633 ~~pcr~d~~Fl~GLc~q  649 (815)
+                      +.-|.++.+|..|+|.-
+T Consensus         7 ~~~cdQ~~~F~~GiC~i   23 (29)
+T W0HSM0_9GAMM/2    7 NSFCDQGGDFFSGMCLV   23 (29)
+T ss_pred             HhhccCCCCceeeeeee
+Confidence            45688899999999963
+
+
+No 5
+>PF14098.6 ; SSPI ; Small, acid-soluble spore protein I
+Probab=7.55  E-value=24  Score=24.88  Aligned_cols=49  Identities=12%  Similarity=0.119  Sum_probs=39.5  Template_Neff=4.300
+
+Q OAQ28206.1      471 RLAEFNQTVYEAKCRDERAFQLGICQILGEIAMDALWDPLTRQHAVDFLEA  521 (640)
+Q Consensus       623 ~l~~Le~lv~~~pcr~d~~Fl~GLc~qLEqia~~~~~D~~~r~~Ai~FL~~  673 (815)
+                      .-..|+..|..+--+.++..|=||-=.+|-+|...  |++.|+..++-|..
+T Consensus        14 s~~el~~~I~daI~~~eE~~LPGLGVlFE~iW~~s--~~~~k~~~~~~L~~   62 (64)
+T R6T0M2_9CLOT/4   14 SEESIYDAIDESVKNGEEVTLPGLGVFMSIIWENS--NDEDKEKLVKCLKE   62 (64)
+T ss_pred             CHHHHHHHHHHHHHcCccccccchHHHHHHHHHcC--CHHHHHHHHHHHHH
+Confidence            34477788877766789999999999999999987  77888877766643
+
+
+No 6
+>PF01602.20 ; Adaptin_N ; Adaptin N terminal region
+Probab=6.60  E-value=22  Score=30.69  Aligned_cols=72  Identities=8%  Similarity=-0.068  Sum_probs=40.4  Template_Neff=12.600
+
+Q OAQ28206.1      490 FQLGICQILGEIAMDALWDPLTRQHAVDFLEALYTTPPGWKQHTAVKQWVHAVLVQLLE--LPDTDIKEHTL--------  559 (640)
+Q Consensus       642 Fl~GLc~qLEqia~~~~~D~~~r~~Ai~FL~~l~~~~~~w~k~~~V~~wi~~il~~l~~--~~~~~i~~~a~--------  711 (815)
+                      +.-.+...|...+.++  +..+|..|...|..+............+    ...+..+-.  .+++.|+..|.        
+T Consensus       457 ~~~~~~~~l~~~l~~~--~~~vr~~a~~~l~~l~~~~~~~~~~~~~----~~~l~~~l~~~~~~~~vr~~A~~~~~~~~~  530 (541)
+T COPB_YEAST/20-  457 CWKHIRNSVGEVPILQ--SEIKKLTQNQEHTEENEVDATAKPTGPV----ILPDGTYATESAFDVKTSQKSVTDEERDSR  530 (541)
+T ss_pred             HHHHHHHHHhcccccc--chHHHHHHHHHHHHHHhcCCCCCCCCCe----eeeCccccccCCCChhhhhhcCChhhhcCC
+Confidence            4445555555555554  6678888888888887766432111122    222223333  44567777777        
+
+
+Q OAQ28206.1      560 -VVLQDLSL  567 (640)
+Q Consensus       712 -~ll~~L~~  719 (815)
+                       .++..|..
+T Consensus       531 ~~~l~~l~~  539 (541)
+T COPB_YEAST/20-  531 PPIRRFVLS  539 (541)
+T ss_pred             ccHHHHhcc
+Confidence             66666553
+
+
+No 7
+>PF10508.9 ; Proteasom_PSMB ; Proteasome non-ATPase 26S subunit
+Probab=6.52  E-value=22  Score=30.53  Aligned_cols=76  Identities=8%  Similarity=0.043  Sum_probs=32.7  Template_Neff=12.300
+
+Q OAQ28206.1      288 LVRTLAVLRQRLNETHRPSSELMYQILIAICRLLDVMVNSSVKGVSRLGQHQPLVEALTELKDTDDPILRFQVDYALQAC  367 (640)
+Q Consensus       440 Lv~iL~~L~~RL~~a~~~~~~~~y~Ll~tlS~VLDaMvd~kV~GIdRe~lhePL~~~L~~L~~~~dp~La~qA~YA~QAL  519 (815)
+                      +..++..|...|...   +......-+.+|+.+...-.+ ....+....+...|...|    .++++.+...|.   ++|
+T Consensus        81 ~~~~~~~l~~~l~~~---~~~vr~~a~~~l~~l~~~~~~-~~~~~~~~~~~~~l~~~l----~~~~~~v~~~a~---~~l  149 (504)
+T A7SP09_NEMVE/2   81 ATKYHDAVIEGLNHP---TEDVRELCLIELERCSGTVNG-VLALMDKEDLLSYIARGM----ADEHLKNAQIAS---NVF  149 (504)
+T ss_pred             HHhHHHHHHHHhcCC---CHHHHHHHHHHHHHHhcCchh-HHHhhccccHHHHHHHHH----hCCcHHHHHHHH---HHH
+Confidence            344555555555432   333344444555555432211 011112233333343333    345666665554   444
+
+
+Q OAQ28206.1      368 QYIPDDE  374 (640)
+Q Consensus       520 ~~IPDDE  526 (815)
+                      ..+..+.
+T Consensus       150 ~~l~~~~  156 (504)
+T A7SP09_NEMVE/2  150 TNLAKHE  156 (504)
+T ss_pred             HHHhcCh
+Confidence            4444443
+
+
+No 8
+>PF14071.6 ; YlbD_coat ; Putative coat protein
+Probab=5.86  E-value=32  Score=26.46  Aligned_cols=28  Identities=11%  Similarity=-0.027  Sum_probs=22.4  Template_Neff=5.500
+
+Q OAQ28206.1      390 AALGA-ASVCNLDPANLFNSLDTLRQAAG  417 (640)
+Q Consensus       542 g~akv-saV~~lDp~kllea~~~l~e~~~  569 (815)
+                      .+.+| +.+.+||++++-..+..|..+++
+T Consensus        62 ~~~~l~~~lkniD~~~vq~~i~~~~~ai~   90 (114)
+T K0IYX0_AMPXN/1   62 WSDQLKNLLDKIELDNIDQHLKQADSAIT   90 (114)
+T ss_pred             HHHHHHHHHHhCCHHHHHHHHHHHHHHHH
+Confidence            34556 88999999999998888887733
+
+
+No 9
+>PF01602.20 ; Adaptin_N ; Adaptin N terminal region
+Probab=5.71  E-value=26  Score=30.05  Aligned_cols=35  Identities=11%  Similarity=0.116  Sum_probs=21.6  Template_Neff=12.600
+
+Q OAQ28206.1      490 FQLGICQILGEIAM-DALWDPLTRQHAVDFLEALYTTP  526 (640)
+Q Consensus       642 Fl~GLc~qLEqia~-~~~~D~~~r~~Ai~FL~~l~~~~  678 (815)
+                      +..++...|.+.+. +.  +...|..+...|..+....
+T Consensus       261 ~~~~~~~~l~~~l~~~~--~~~vr~~a~~~l~~~~~~~  296 (541)
+T COPB_YEAST/20-  261 VLVPAVNKLIDLAVKVS--DNNIKLIVLDRIQDINANN  296 (541)
+T ss_pred             HHHHHHHHHHHHHhhCC--CchHHHHHHHHHHHHHHcC
+Confidence            44455556656555 44  5567777777777666554
+
+
+No 10
+>PF15967.5 ; Nucleoporin_FG2 ; Nucleoporin FG repeated region
+Probab=5.70  E-value=32  Score=33.64  Aligned_cols=28  Identities=14%  Similarity=0.093  Sum_probs=13.3  Template_Neff=6.100
+
+Q OAQ28206.1      209 LRWLVTKVVQEFAQDDIKGSASIKEVVI  236 (640)
+Q Consensus       361 L~~La~~mIe~F~~~~~K~~~~i~E~v~  388 (815)
+                      |-.-+.++||.|.+.-.+...+-.||..
+T Consensus       249 LP~eI~~~Ve~lkkfIK~Qk~isdEI~r  276 (605)
+T H2LRF1_ORYLA/3  249 LPPVICQDVENFQKFVKEQKQVQEEISR  276 (605)
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            5555666666664422222333444544
+
+

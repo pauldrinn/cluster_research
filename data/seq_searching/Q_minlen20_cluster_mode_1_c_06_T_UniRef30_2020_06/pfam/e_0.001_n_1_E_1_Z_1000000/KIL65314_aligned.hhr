@@ -1,0 +1,148 @@
+Query         KIL65314.1
+Match_columns 412
+No_of_seqs    373 out of 373
+Neff          3.91943
+Searched_HMMs 456
+Date          Sat Feb  6 20:03:48 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KIL65314_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KIL65314_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KIL65314_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF08759.11 ; GT-D ; Glycosyltr   8.3      17  0.0041   27.0   0.0   15  325-339     1-15  (224)
+  2 PF10045.9 ; DUF2280 ; Uncharac   8.2      21  0.0041   25.5   0.0   71  332-404     3-77  (103)
+  3 PF15681.5 ; LAX ; Lymphocyte a   7.8      24  0.0045   29.9   0.0   38   55-95      9-46  (336)
+  4 PF14426.6 ; Imm2 ; Immunity pr   4.2      47  0.0098   20.8   0.0   22  353-374    25-46  (60)
+  5 PF05753.14 ; TRAP_beta ; Trans   3.1      55   0.014   21.8   0.0   19   64-82    158-176 (182)
+  6 PF15894.5 ; SgrT ; Inhibitor o   3.1      69   0.014   19.4   0.0   15  392-406    26-40  (49)
+  7 PF04391.12 ; DUF533 ; Protein    2.6      72   0.017   22.1   0.0   22  328-349    97-118 (193)
+  8 PF08748.11 ; Phage_TAC_4 ; Pha   2.5      77   0.019   19.7   0.0   44  337-384    52-96  (103)
+  9 PF17423.2 ; SwrA ; Swarming mo   2.2 1.2E+02   0.022   21.6   0.0   25  340-364    39-63  (116)
+ 10 PF08649.10 ; DASH_Dad1 ; DASH    2.1   1E+02   0.022   17.8   0.0   33  333-370     2-34  (55)
+
+No 1
+>PF08759.11 ; GT-D ; Glycosyltransferase GT-D fold
+Probab=8.33  E-value=17  Score=27.01  Aligned_cols=15  Identities=20%  Similarity=0.173  Sum_probs=10.6  Template_Neff=8.400
+
+Q KIL65314.1       32 NIRLGDQILTET---   43 (110)
+Q Consensus       325 IIrfGDGQFTE~QRn  339 (412)
+                      ++|||||.+.=....
+T Consensus         1 l~RfGDGE~~im~g~   15 (224)
+T R7DGA3_9BACT/4    1 VSRFGDGEFLIMQGW   15 (224)
+T ss_pred             CeeeccHHHHHHcCC
+Confidence            479999988655443
+
+
+No 2
+>PF10045.9 ; DUF2280 ; Uncharacterized conserved protein (DUF2280)
+Probab=8.21  E-value=21  Score=25.49  Aligned_cols=71  Identities=13%  Similarity=0.127  Sum_probs=37.9  Template_Neff=4.200
+
+Q KIL65314.1       39 ILTET---QVEEFMAGLLALPDKMEK----L-VSSRTNLPRA----MAAHNDFKTQKVLDACFQGTREAVLKEIGNW  103 (110)
+Q Consensus       332 QFTE~QRnlIcd~ian~~~Lpdi~~~l~~~~l~q~L~~LP~A----~AaFnsy~~qh~~p~ClpgTRv~LL~eI~~W  404 (412)
+                      .+++.++.+|...+|..-.-..+-+.+++.+-..+-...-.+    ..+.....++-  -.+|..||.+.|.++.+-
+T Consensus         3 ~L~~~vK~fIVq~LAcfdtPs~V~~aVkeeFgi~vtrQqve~YDPtk~aG~~Ls~kw--~~lF~~tRk~F~~~~~~I   77 (103)
+T D5CT66_SIDLE/1    3 ALSDDVKRRIVQDLACFDTPSQVAKAIKAEFGLIVPLQQVEAYQPGKTAAAKLSKRW--LTIFEETRKAFLEDTSQV   77 (103)
+T ss_pred             CCCHHHHHHHHHHhhcCCCHHHHHHHHHHHHCCCCCHHHHHHhCCCcHHHHHHHHHH--HHHHHHHHHHHHHcHHhc
+Confidence            367788888888888854334444444432222221111111    11122222332  368889999998888753
+
+
+No 3
+>PF15681.5 ; LAX ; Lymphocyte activation family X
+Probab=7.78  E-value=24  Score=29.87  Aligned_cols=38  Identities=0%  Similarity=0.000  Sum_probs=19.9  Template_Neff=2.400
+
+Q KIL65314.1        1 -----------------------------------------    0 (110)
+Q Consensus        55 s~~~gi~~~~~~~~~~~~s~~~~r~~~~~~~ks~~~~i~r~   95 (412)
+                      ++.+|...+.++...|+...+++  .|.|+|| |.+.+.|-
+T Consensus         9 ~iFsgfagLLAilLvi~v~ciLW--nWnKrKK-rqVPYlrV   46 (336)
+T G3T5E9_LOXAF/2    9 SIFSVFAGLLATLLVTVVLCILW--NWNKRKS-CPLPYLRV   46 (336)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHH--hhccccC-CCCCceee
+Confidence            45555555544444444433333  3556666 66777664
+
+
+No 4
+>PF14426.6 ; Imm2 ; Immunity protein Imm2
+Probab=4.22  E-value=47  Score=20.83  Aligned_cols=22  Identities=14%  Similarity=-0.042  Sum_probs=16.9  Template_Neff=5.000
+
+Q KIL65314.1       57 DKMEK----L-VSSRTNLPRAM   73 (110)
+Q Consensus       353 di~~~l~~~~l~q~L~~LP~A~  374 (412)
+                      .|.+.+.+|.++++|..||..+
+T Consensus        25 ~I~~iLs~~~L~~Ll~~l~~eE   46 (60)
+T A0A0F6RSH6_PSE   25 IIHGLLKEIKLSSVLDDLPSDE   46 (60)
+T ss_pred             HHHHHHHHCCHHHHHhcCCHHH
+Confidence            4455677788899999999774
+
+
+No 5
+>PF05753.14 ; TRAP_beta ; Translocon-associated protein beta (TRAPB)
+Probab=3.15  E-value=55  Score=21.81  Aligned_cols=19  Identities=0%  Similarity=0.000  Sum_probs=10.8  Template_Neff=9.700
+
+Q KIL65314.1        1 -------------------    0 (110)
+Q Consensus        64 ~~~~~~~~~s~~~~r~~~~   82 (412)
+                      +.+..-++...|..||.+.
+T Consensus       158 ~~~~~~~~~~~~~~~~~~~  176 (182)
+T A7SSC3_NEMVE/4  158 SIPTMLIPFMVWYRSHSKY  176 (182)
+T ss_pred             HHHHHHHHHHHHHHhhhhh
+Confidence            3434556677777665433
+
+
+No 6
+>PF15894.5 ; SgrT ; Inhibitor of glucose uptake transporter SgrT
+Probab=3.15  E-value=69  Score=19.37  Aligned_cols=15  Identities=33%  Similarity=0.534  Sum_probs=13.1  Template_Neff=4.400
+
+Q KIL65314.1       91 GTREAVLKEIGNWFL  105 (110)
+Q Consensus       392 gTRv~LL~eI~~Wa~  406 (412)
+                      .-|.++|.++..|--
+T Consensus        26 ~qRl~mL~~lmQW~~   40 (49)
+T A7MQ55_CROS8/1   26 KTPQRMLDEIMQWDV   40 (49)
+T ss_pred             chHHHHHHHHhcccC
+Confidence            589999999999964
+
+
+No 7
+>PF04391.12 ; DUF533 ; Protein of unknown function (DUF533)
+Probab=2.65  E-value=72  Score=22.14  Aligned_cols=22  Identities=9%  Similarity=0.035  Sum_probs=19.1  Template_Neff=8.600
+
+Q KIL65314.1       35 LGDQILTET---QVEEFMAGLL   53 (110)
+Q Consensus       328 fGDGQFTE~QRnlIcd~ian~~  349 (412)
+                      .-||++++.++++|.+++..+.
+T Consensus        97 ~ADG~i~~~E~~~I~~~l~~l~  118 (193)
+T H2FTA1_OCESG/1   97 KADGHVDAREQQRIFEQVEQMG  118 (193)
+T ss_pred             HHCCCCCHHHHHHHHHHHHHCC
+Confidence            4599999999999999998753
+
+
+No 8
+>PF08748.11 ; Phage_TAC_4 ; Phage tail assembly chaperone
+Probab=2.50  E-value=77  Score=19.67  Aligned_cols=44  Identities=20%  Similarity=0.186  Sum_probs=28.5  Template_Neff=8.400
+
+Q KIL65314.1       44 ---QVEEFMAGLLALPDKMEK----L-VSSRTNLPRA-MAAHNDFKTQK   83 (110)
+Q Consensus       337 QRnlIcd~ian~~~Lpdi~~~l~~~~l~q~L~~LP~A-~AaFnsy~~qh  384 (412)
+                      .+++++..+....    +..-+..-.+.++|...|.+ .|.+.+|.+..
+T Consensus        52 ~~~~l~~vl~gW~----~d~~fs~e~~~~ll~~~p~~~~ai~~ay~~~~   96 (103)
+T Q7CIF1_YERPE/1   52 GLDFAEKFIEGWA----LPEVFSRENLEVLANNYPKAIEAIVGAFYREL   96 (103)
+T ss_pred             hHHHHHHHHhCCC----CCCCCCHHHHHHHHHhChHHHHHHHHHHHHHH
+Confidence            5566666666643    22344555667788877877 68888886554
+
+
+No 9
+>PF17423.2 ; SwrA ; Swarming motility protein
+Probab=2.16  E-value=1.2e+02  Score=21.58  Aligned_cols=25  Identities=0%  Similarity=0.090  Sum_probs=0.0  Template_Neff=2.400
+
+Q KIL65314.1       44 QVEEFMAGLLALPDKMEK----L-V   63 (110)
+Q Consensus       340 lIcd~ian~~~Lpdi~~~l~~~~l~  364 (412)
+                      |+|.|+||++....+.+.=+.++..
+T Consensus        39 LFcmYLaNYT~vk~v~~Ide~cv~~   63 (116)
+T Q62PV3_BACLD/1   39 LFSRYLVNYTSVESVEDINEDCAEL   63 (116)
+T ss_pred             HHHHHHhcccccccHHHhCHHHHHH
+
+
+No 10
+>PF08649.10 ; DASH_Dad1 ; DASH complex subunit Dad1
+Probab=2.13  E-value=1e+02  Score=17.78  Aligned_cols=33  Identities=12%  Similarity=0.141  Sum_probs=0.0  Template_Neff=6.600
+
+Q KIL65314.1       40 LTET---QVEEFMAGLLALPDKMEK----L-VSSRTNL   69 (110)
+Q Consensus       333 FTE~QRnlIcd~ian~~~Lpdi~~~l~~~~l~q~L~~L  370 (412)
+                      |-+.|..|+.+.+.+   +..+++.+.  .|+..|..+
+T Consensus         2 fe~eq~~Ll~rI~~n---~e~l~~~~~--~LN~~Le~i   34 (55)
+T R7YGV8_CONA1/1    2 FEQQRDALVGEIAQS---LEHVLQNLN--KLNRSLEGV   34 (55)
+T ss_pred             hHHHHHHHHHHHHHH---HHHHHHHHH--HHHHHHHHH
+
+

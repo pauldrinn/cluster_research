@@ -1,0 +1,150 @@
+Query         CVK90632.1
+Match_columns 36
+No_of_seqs    2 out of 2
+Neff          1.12267
+Searched_HMMs 100
+Date          Sat Feb  6 20:03:01 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/CVK90632_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/CVK90632_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/CVK90632_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF05393.11 ; Hum_adeno_E3A ; H  31.4     2.7  0.0005   21.5   0.0   25    8-32      3-27  (94)
+  2 PF16054.5 ; TMEM72 ; Transmemb  28.8     2.5  0.0006   21.4   0.0   21   13-33    148-169 (185)
+  3 PF03195.14 ; LOB ; Lateral org  26.9     2.7 0.00068   18.1   0.0   11    4-14     67-77  (96)
+  4 PF17690.1 ; DUF5537 ; Family o  14.6     9.5  0.0018   20.4   0.0   12    2-13    112-123 (160)
+  5 PF15641.6 ; Tox-MPTase5 ; Meta  11.9      13  0.0025   18.9   0.0   20    8-27     33-52  (110)
+  6 PF10379.9 ; nec1 ; Virulence p  10.7      16  0.0029   19.8   0.0   13   22-34    152-164 (184)
+  7 PF10511.9 ; Cementoin ; Trappi   8.7      20  0.0038   12.7   0.0   12    7-18      2-13  (17)
+  8 PF07355.12 ; GRDB ; Glycine/sa   7.7      20  0.0046   19.3   0.0   14    1-14     83-96  (347)
+  9 PF17108.5 ; HET-S ; N-terminal   7.1      26   0.005   13.3   0.0   14   13-26      1-14  (23)
+ 10 PF08056.11 ; Trp_leader2 ; Try   5.6      36  0.0069   14.3   0.0    9   27-35      3-11  (41)
+
+No 1
+>PF05393.11 ; Hum_adeno_E3A ; Human adenovirus early E3A glycoprotein
+Probab=31.39  E-value=2.7  Score=21.49  Aligned_cols=25  Identities=32%  Similarity=0.412  Sum_probs=20.7  Template_Neff=1.700
+
+Q CVK90632.1        8 DPVYGSNVVTGISATGNAHQTFNFN   32 (36)
+Q Consensus         8 dpvygsnvvtgi~atgnahqtfnfn   32 (36)
+                      +.+|..|..||.|.|-|.-|.+.|-
+T Consensus         3 ~t~~~~~~atglts~~~~pq~~~fv   27 (94)
+T Q71BW0_AD01A/1    3 DTVNSYNTATGLTSTQDMPQVSTFV   27 (94)
+T ss_pred             ccccccccccCccccCCCcchhHHh
+Confidence            4567788999999999999988763
+
+
+No 2
+>PF16054.5 ; TMEM72 ; Transmembrane protein family 72
+Probab=28.84  E-value=2.5  Score=21.40  Aligned_cols=21  Identities=14%  Similarity=0.265  Sum_probs=16.0  Template_Neff=6.000
+
+Q CVK90632.1       13 SNVVTGISATGNAHQTFNF-NQ   33 (36)
+Q Consensus        13 snvvtgi~atgnahqtfnf-nq   33 (36)
+                      +.-..+.|..|+..|||.| ++
+T Consensus       148 ~~~~~~~~~~~~~~~~~~f~~~  169 (185)
+T H9GI24_ANOCA/2  148 YDGTVVTASVDDTGQTYTFCRE  169 (185)
+T ss_pred             CCCceeecccCCCCceeeeccc
+Confidence            4455567788999999999 54
+
+
+No 3
+>PF03195.14 ; LOB ; Lateral organ boundaries (LOB) domain
+Probab=26.88  E-value=2.7  Score=18.14  Aligned_cols=11  Identities=36%  Similarity=0.564  Sum_probs=8.4  Template_Neff=7.400
+
+Q CVK90632.1        4 PRFNDPVYGSN   14 (36)
+Q Consensus         4 p~f~dpvygsn   14 (36)
+                      .+..|||+|.-
+T Consensus        67 ~r~~dPv~G~~   77 (96)
+T W1NEU2_AMBTC/1   67 ERMRDRVLGCY   77 (96)
+T ss_pred             HhhcCCCccHH
+Confidence            46789999864
+
+
+No 4
+>PF17690.1 ; DUF5537 ; Family of unknown function (DUF5537)
+Probab=14.63  E-value=9.5  Score=20.42  Aligned_cols=12  Identities=42%  Similarity=0.927  Sum_probs=9.3  Template_Neff=2.600
+
+Q CVK90632.1        2 AGPRFNDPVYGS   13 (36)
+Q Consensus         2 ~gp~f~dpvygs   13 (36)
+                      .++.|.||+.|.
+T Consensus       112 k~~~y~DP~~GA  123 (160)
+T CH089_HUMAN/1-  112 KGSGFSDPLTGA  123 (160)
+T ss_pred             CCCCCCCccCCC
+Confidence            467899998774
+
+
+No 5
+>PF15641.6 ; Tox-MPTase5 ; Metallopeptidase toxin 5
+Probab=11.87  E-value=13  Score=18.90  Aligned_cols=20  Identities=25%  Similarity=0.494  Sum_probs=16.6  Template_Neff=1.900
+
+Q CVK90632.1        8 DPVYGSNVVTGISATGNAHQ   27 (36)
+Q Consensus         8 dpvygsnvvtgi~atgnahq   27 (36)
+                      +|+|.--|-+||+--|..-|
+T Consensus        33 ~peYS~~v~sGiaq~g~gtq   52 (110)
+T C9Z2C6_STRSW/2   33 RPVYSYGVNSGMAKPNVGTH   52 (110)
+T ss_pred             cceeccccccccCCCCCcce
+Confidence            69999999999998776554
+
+
+No 6
+>PF10379.9 ; nec1 ; Virulence protein nec1
+Probab=10.65  E-value=16  Score=19.84  Aligned_cols=13  Identities=46%  Similarity=0.728  Sum_probs=9.6  Template_Neff=1.000
+
+Q CVK90632.1       22 TGNAHQTFNFNQH   34 (36)
+Q Consensus        22 tgnahqtfnfnq~   34 (36)
+                      ..|..|.|||.|.
+T Consensus       152 ssnnaqrfnfdqg  164 (184)
+T C9ZAY5_STRSW/3  152 SSNNAQRFNFDQG  164 (184)
+T ss_pred             CCCcccccccCCC
+Confidence            3466789999885
+
+
+No 7
+>PF10511.9 ; Cementoin ; Trappin protein transglutaminase binding domain
+Probab=8.72  E-value=20  Score=12.75  Aligned_cols=12  Identities=42%  Similarity=0.700  Sum_probs=6.4  Template_Neff=2.700
+
+Q CVK90632.1        7 NDPVYGSNVVTG   18 (36)
+Q Consensus         7 ~dpvygsnvvtg   18 (36)
+                      +||+-|..-|.|
+T Consensus         2 qdpvkgq~pvKG   13 (17)
+T A1A4Q6_BOVIN/6    2 QGPVKGQGPVKG   13 (17)
+T ss_pred             CCCCCCCCCCCC
+Confidence            466666554433
+
+
+No 8
+>PF07355.12 ; GRDB ; Glycine/sarcosine/betaine reductase selenoprotein B (GRDB)
+Probab=7.65  E-value=20  Score=19.29  Aligned_cols=14  Identities=50%  Similarity=0.843  Sum_probs=10.7  Template_Neff=5.800
+
+Q CVK90632.1        1 MAGPRFNDPVYGSN   14 (36)
+Q Consensus         1 m~gp~f~dpvygsn   14 (36)
+                      ++||.|+-.-||-.
+T Consensus        83 iaGPaFnagrYG~a   96 (347)
+T I4BY54_ACEMN/3   83 MAGPAFAAGRYGIA   96 (347)
+T ss_pred             EEccccccccHHHH
+Confidence            36888988888853
+
+
+No 9
+>PF17108.5 ; HET-S ; N-terminal small S protein of HET, non-prionic
+Probab=7.11  E-value=26  Score=13.27  Aligned_cols=14  Identities=21%  Similarity=0.472  Sum_probs=9.3  Template_Neff=2.400
+
+Q CVK90632.1       13 SNVVTGISATGNAH   26 (36)
+Q Consensus        13 snvvtgi~atgnah   26 (36)
+                      ||-|..++|.|.+.
+T Consensus         1 sNsv~sl~A~gsSR   14 (23)
+T I1RV79_GIBZE/6    1 CNTLQSLSVAGASR   14 (23)
+T ss_pred             CCcceeeecCCCce
+Confidence            46677777777653
+
+
+No 10
+>PF08056.11 ; Trp_leader2 ; Tryptophan operon leader peptide
+Probab=5.58  E-value=36  Score=14.29  Aligned_cols=9  Identities=56%  Similarity=0.578  Sum_probs=6.0  Template_Neff=2.500
+
+Q CVK90632.1       27 QTFNFNQHF   35 (36)
+Q Consensus        27 qtfnfnq~~   35 (36)
+                      |.||-||..
+T Consensus         3 QE~nqnqk~   11 (41)
+T LPW_VIBPA/1-41    3 QEFNQNQKA   11 (41)
+T ss_pred             cchhhcccc
+Confidence            667777753
+
+

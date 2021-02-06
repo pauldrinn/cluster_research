@@ -1,0 +1,150 @@
+Query         KIM79211.1
+Match_columns 417
+No_of_seqs    2355 out of 2394
+Neff          7.93176
+Searched_HMMs 570
+Date          Sat Feb  6 20:03:55 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KIM79211_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KIM79211_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KIM79211_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF01057.17 ; Parvo_NS1 ; Parvo  63.6    0.32 6.7E-05   39.2   0.0   34  379-413   107-140 (284)
+  2 PF14516.6 ; AAA_35 ; AAA-like   60.2     0.4 8.5E-05   38.5   0.0   21  392-413    32-52  (330)
+  3 PF00931.22 ; NB-ARC ; NB-ARC d  58.5    0.44 9.6E-05   35.3   0.0   39  340-380     2-40  (240)
+  4 PF14532.6 ; Sigma54_activ_2 ;   56.0    0.53 0.00011   32.5   0.0   35  340-376     5-39  (135)
+  5 PF07931.12 ; CPT ; Chloramphen  48.6    0.83 0.00018   32.0   0.0   19  392-411     3-21  (163)
+  6 PF10236.9 ; DAP3 ; Mitochondri  39.4     1.5 0.00031   36.0   0.0   24  391-415    25-48  (322)
+  7 PF13173.6 ; AAA_14 ; AAA domai  39.2     1.5 0.00031   29.1   0.0   22  391-413     3-24  (131)
+  8 PF01591.18 ; 6PF2K ; 6-phospho  37.5     1.6 0.00035   32.1   0.0   21  392-413    11-31  (217)
+  9 PF08303.11 ; tRNA_lig_kinase ;  37.0     1.7 0.00036   31.4   0.0   19  393-412     2-20  (168)
+ 10 PF06309.11 ; Torsin ; Torsin    36.6     1.7 0.00037   28.7   0.0   15  362-376    56-70  (126)
+
+No 1
+>PF01057.17 ; Parvo_NS1 ; Parvovirus non-structural protein NS1
+Probab=63.62  E-value=0.32  Score=39.17  Aligned_cols=34  Identities=0%  Similarity=0.000  Sum_probs=22.3  Template_Neff=10.500
+
+Q KIM79211.1      251 -----------------------------------  250 (250)
+Q Consensus       379 f~~W~~~~~~~~~~Lw~~GipG~g~~~~~~~~~~~  413 (417)
+                      +..|+.........||++|.||+| ||.+|-.+.+
+T Consensus       107 ~~~~l~~~~~~~~~l~l~G~~gtG-KT~la~~i~~  140 (284)
+T Q308H9_PAVHB/2  107 VLRWIDKKCGKKNTLWFYGPPSTG-KTNLAMAIAK  140 (284)
+T ss_pred             HHHHHhhhcCCCCEEEEECCCCCC-HHHHHHHHHH
+Confidence            455555433333478888888888 8888766543
+
+
+No 2
+>PF14516.6 ; AAA_35 ; AAA-like domain
+Probab=60.25  E-value=0.4  Score=38.48  Aligned_cols=21  Identities=0%  Similarity=0.000  Sum_probs=12.9  Template_Neff=11.900
+
+Q KIM79211.1      251 ----------------------  250 (250)
+Q Consensus       392 ~Lw~~GipG~g~~~~~~~~~~~  413 (417)
+                      .++++|.+|.| ||+++-..+.
+T Consensus        32 ~~~l~G~~G~G-KT~l~~~~~~   52 (330)
+T B0JKB2_MICAN/2   32 LIRIKSPHNMG-KSSLMAKVLA   52 (330)
+T ss_pred             eEEEECCCCCC-HHHHHHHHHH
+Confidence            56666666666 6666655444
+
+
+No 3
+>PF00931.22 ; NB-ARC ; NB-ARC domain
+Probab=58.47  E-value=0.44  Score=35.30  Aligned_cols=39  Identities=5%  Similarity=0.107  Sum_probs=22.2  Template_Neff=12.800
+
+Q KIM79211.1      232 KIIEEISQWINNSDSDAVP----------------------  250 (250)
+Q Consensus       340 ~il~~I~~Wl~~~d~~~~~~~a~~~r~~GTG~W~l~~~~f~  380 (417)
+                      +.+++|.+|+......  ....+..+.+|+||..+...-+.
+T Consensus         2 ~~l~~l~~~l~~~~~~--~~~i~i~G~~G~GKt~l~~~~~~   40 (240)
+T K4BY49_SOLLC/1    2 DTIDELKDKLLGGSPE--LDVISIVGMPGLGKTTLAKKIYN   40 (240)
+T ss_pred             hHHHHHHHHHhCCCCC--ccEEEEEcCCCCCHHHHHHHHHc
+Confidence            3466777777632221  11235567788888877663333
+
+
+No 4
+>PF14532.6 ; Sigma54_activ_2 ; Sigma-54 interaction domain
+Probab=56.02  E-value=0.53  Score=32.54  Aligned_cols=35  Identities=3%  Similarity=0.139  Sum_probs=18.2  Template_Neff=10.900
+
+Q KIM79211.1      232 KIIEEISQWINNSDSDAVP------------------  250 (250)
+Q Consensus       340 ~il~~I~~Wl~~~d~~~~~~~a~~~r~~GTG~W~l~~  376 (417)
+                      ....++..|+.....  .....+..+.+|+||.++..
+T Consensus         5 ~~~~~~~~~l~~~~~--~~~~~~l~G~~G~GKt~l~~   39 (135)
+T Q47K41_DECAR/1    5 AFVKEFKRRLEQAAA--KSPVLLLKGANGGMAEICAR   39 (135)
+T ss_pred             HHHHHHHHHHHHHHh--cCCcEEEECCCChhHHHHHH
+Confidence            344555566543221  12223556677777776666
+
+
+No 5
+>PF07931.12 ; CPT ; Chloramphenicol phosphotransferase-like protein
+Probab=48.62  E-value=0.83  Score=31.96  Aligned_cols=19  Identities=0%  Similarity=0.000  Sum_probs=15.9  Template_Neff=11.700
+
+Q KIM79211.1      251 --------------------  250 (250)
+Q Consensus       392 ~Lw~~GipG~g~~~~~~~~~  411 (417)
+                      .+++.|.||+| ||+.|-..
+T Consensus         3 ~i~l~G~~gsG-Ktt~~~~l   21 (163)
+T Q82PT5_STRAW/2    3 VILLNGTSSSG-KTSMARAL   21 (163)
+T ss_pred             EEEEECCCCCC-HHHHHHHH
+Confidence            68999999999 98887543
+
+
+No 6
+>PF10236.9 ; DAP3 ; Mitochondrial ribosomal death-associated protein 3
+Probab=39.38  E-value=1.5  Score=35.97  Aligned_cols=24  Identities=0%  Similarity=0.000  Sum_probs=18.8  Template_Neff=9.000
+
+Q KIM79211.1      251 -------------------------  250 (250)
+Q Consensus       391 ~~Lw~~GipG~g~~~~~~~~~~~~~  415 (417)
+                      ..++|+|.||+| ||.++-.+...|
+T Consensus        25 ~~~lL~G~~GsG-KTtll~~~~~~~   48 (322)
+T A5E5F8_LODEL/1   25 NRVYLDGPKGCG-KSTLVNQTIAGA   48 (322)
+T ss_pred             ceEEEECCCCCC-HHHHHHHHHHHH
+Confidence            378899999999 888887766554
+
+
+No 7
+>PF13173.6 ; AAA_14 ; AAA domain
+Probab=39.18  E-value=1.5  Score=29.14  Aligned_cols=22  Identities=0%  Similarity=0.000  Sum_probs=16.4  Template_Neff=11.600
+
+Q KIM79211.1      251 -----------------------  250 (250)
+Q Consensus       391 ~~Lw~~GipG~g~~~~~~~~~~~  413 (417)
+                      +.+++.|.||+| ||.++-.++.
+T Consensus         3 ~~v~i~G~~G~G-Kt~l~~~~~~   24 (131)
+T Q5SMH3_THET8/2    3 LLQVVLGPRQVG-KTTLALQVAQ   24 (131)
+T ss_pred             ceEEEECCCCCC-HHHHHHHHHH
+Confidence            367889999999 8887665543
+
+
+No 8
+>PF01591.18 ; 6PF2K ; 6-phosphofructo-2-kinase
+Probab=37.53  E-value=1.6  Score=32.09  Aligned_cols=21  Identities=0%  Similarity=0.000  Sum_probs=17.1  Template_Neff=11.400
+
+Q KIM79211.1      251 ----------------------  250 (250)
+Q Consensus       392 ~Lw~~GipG~g~~~~~~~~~~~  413 (417)
+                      .+++.|.||+| ||+.|....+
+T Consensus        11 ~i~i~G~~GsG-Ktt~a~~l~~   31 (217)
+T B9RL84_RICCO/3   11 AIVLVGLPARG-KTFTAVKLTR   31 (217)
+T ss_pred             EEEEECCCCCC-HHHHHHHHHH
+Confidence            78999999999 9988765443
+
+
+No 9
+>PF08303.11 ; tRNA_lig_kinase ; tRNA ligase kinase domain
+Probab=36.98  E-value=1.7  Score=31.39  Aligned_cols=19  Identities=0%  Similarity=0.000  Sum_probs=15.2  Template_Neff=9.800
+
+Q KIM79211.1      251 --------------------  250 (250)
+Q Consensus       393 Lw~~GipG~g~~~~~~~~~~  412 (417)
+                      +.+.|.||+| ||+.|-...
+T Consensus         2 i~~~G~~GsG-KSt~a~~l~   20 (168)
+T TRNL_CANAL/414    2 FVPIATIGCG-KTTVFNTLN   20 (168)
+T ss_pred             eEEECCCCCC-HHHHHHHHH
+Confidence            5789999999 998876543
+
+
+No 10
+>PF06309.11 ; Torsin ; Torsin
+Probab=36.58  E-value=1.7  Score=28.70  Aligned_cols=15  Identities=0%  Similarity=0.000  Sum_probs=8.4  Template_Neff=11.300
+
+Q KIM79211.1      251 ---------------  250 (250)
+Q Consensus       362 ~~~r~~GTG~W~l~~  376 (417)
+                      +..+.+|+|+..+..
+T Consensus        56 ~~~G~~G~GKt~l~~   70 (126)
+T TOR1A_HUMAN/44   56 SLHGWTGTGKNFVSK   70 (126)
+T ss_pred             EEeCCCCCCHHHHHH
+Confidence            445556666655554
+
+

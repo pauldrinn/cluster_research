@@ -1,0 +1,150 @@
+Query         KLO15722.1
+Match_columns 125
+No_of_seqs    1508 out of 1553
+Neff          7.44445
+Searched_HMMs 100
+Date          Sat Feb  6 20:04:39 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KLO15722_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KLO15722_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KLO15722_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF11043.8 ; DUF2856 ; Protein   25.8     3.9 0.00073   22.6   0.0   22   97-119    12-33  (97)
+  2 PF15894.5 ; SgrT ; Inhibitor o  25.4       4 0.00075   19.6   0.0   16  102-117    25-40  (49)
+  3 PF14540.6 ; NTF-like ; Nucleot  15.6     8.3  0.0017   20.8   0.0   31   14-44     83-113 (118)
+  4 PF16533.5 ; SOAR ; STIM1 Orai1  10.8      15  0.0029   19.9   0.0   31   20-50     55-85  (101)
+  5 PF03931.15 ; Skp1_POZ ; Skp1 f   7.2      23  0.0049   15.5   0.0   21   98-118    40-60  (63)
+  6 PF02998.14 ; Lentiviral_Tat ;    3.9      60   0.011   16.6   0.0   15  104-118    51-65  (86)
+  7 PF18068.1 ; Npun_R1517 ; Npun    3.7      64   0.012   16.0   0.0   32   19-50     14-45  (74)
+  8 PF08760.11 ; DUF1793 ; Domain    3.3      70   0.013   18.8   0.0   20  103-122   147-166 (200)
+  9 PF09508.10 ; Lact_bio_phlase ;   2.5   1E+02   0.019   20.4   0.0   22   98-119   177-198 (433)
+ 10 PF14216.6 ; DUF4326 ; Domain o   2.1 1.2E+02   0.023   14.4   0.0   19  101-119    26-44  (85)
+
+No 1
+>PF11043.8 ; DUF2856 ; Protein of unknown function (DUF2856)
+Probab=25.81  E-value=3.9  Score=22.62  Aligned_cols=22  Identities=18%  Similarity=0.149  Sum_probs=18.3  Template_Neff=3.900
+
+Q KLO15722.1       24 FECCFPGTRLAVLEKIKNWMTDR   46 (49)
+Q Consensus        97 ~~~ClpgTR~~iL~~I~~W~~~~  119 (125)
+                      ++ |..||..+||..+.+-+...
+T Consensus        12 r~-~~~~TKeEVLa~~~~~~~~~   33 (97)
+T ABC2_BPP22/1-9   12 RR-CSGNSVSEVLDKFRKNYDLI   33 (97)
+T ss_pred             Cc-CCCCCHHHHHHHHHHHHHHH
+Confidence            55 99999999999998776543
+
+
+No 2
+>PF15894.5 ; SgrT ; Inhibitor of glucose uptake transporter SgrT
+Probab=25.39  E-value=4  Score=19.64  Aligned_cols=16  Identities=25%  Similarity=0.432  Sum_probs=13.5  Template_Neff=4.400
+
+Q KLO15722.1       29 PGTRLAVLEKIKNWMT   44 (49)
+Q Consensus       102 pgTR~~iL~~I~~W~~  117 (125)
+                      ..-|.++|++++.|=-
+T Consensus        25 ~~qRl~mL~~lmQW~~   40 (49)
+T A7MQ55_CROS8/1   25 GKTPQRMLDEIMQWDV   40 (49)
+T ss_pred             cchHHHHHHHHhcccC
+Confidence            4689999999999943
+
+
+No 3
+>PF14540.6 ; NTF-like ; Nucleotidyltransferase-like
+Probab=15.56  E-value=8.3  Score=20.82  Aligned_cols=31  Identities=0%  Similarity=0.000  Sum_probs=25.7  Template_Neff=7.700
+
+Q KLO15722.1        1 -------------------------------    0 (49)
+Q Consensus        14 ~~~~~~~l~~~~~~s~~~~~I~~~~~~f~~l   44 (125)
+                      |..+..|+.+++++-+.++.++++...+.++
+T Consensus        83 ~~~~i~wll~G~Il~Dr~~~l~~lr~~l~~f  113 (118)
+T H6NBR7_9BACL/1   83 HRNIIYWILKGEILLDREMYLESLRHKVLEF  113 (118)
+T ss_pred             cchHHHHHHhCceeeCCCcHHHHHHHHHHhC
+Confidence            7788889999999999988888888776654
+
+
+No 4
+>PF16533.5 ; SOAR ; STIM1 Orai1-activating region
+Probab=10.78  E-value=15  Score=19.85  Aligned_cols=31  Identities=0%  Similarity=0.000  Sum_probs=18.1  Template_Neff=4.900
+
+Q KLO15722.1        1 -------------------------------    0 (49)
+Q Consensus        20 ~l~~~~~~s~~~~~I~~~~~~f~~l~~~F~~   50 (125)
+                      ++.|+..+..+|.+|......+.+....+..
+T Consensus        55 r~ahssslD~vD~~I~~ak~~l~ev~~~l~E   85 (101)
+T T1JCG0_STRMM/3   55 RIAHGNSIDDVDSRILQAKAALTEVTQDLKE   85 (101)
+T ss_pred             HhhcCCCHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            4555666666666666666666555555544
+
+
+No 5
+>PF03931.15 ; Skp1_POZ ; Skp1 family, tetramerisation domain
+Probab=7.23  E-value=23  Score=15.48  Aligned_cols=21  Identities=14%  Similarity=0.132  Sum_probs=16.0  Template_Neff=9.300
+
+Q KLO15722.1       25 ECCFPGTRLAVLEKIKNWMTD   45 (49)
+Q Consensus        98 ~~ClpgTR~~iL~~I~~W~~~  118 (125)
+                      +--+|+-...+|+.|.+|..-
+T Consensus        40 ~i~l~~v~~~~L~~ii~~~~~   60 (63)
+T ELOC_YEAST/4-6   40 RIELKQFDSHILEKAVEYLNY   60 (63)
+T ss_pred             eEECCCCCHHHHHHHHHHHHH
+Confidence            345667777899999999864
+
+
+No 6
+>PF02998.14 ; Lentiviral_Tat ; Lentiviral Tat protein
+Probab=3.89  E-value=60  Score=16.60  Aligned_cols=15  Identities=27%  Similarity=0.554  Sum_probs=11.8  Template_Neff=2.100
+
+Q KLO15722.1       31 TRLAVLEKIKNWMTD   45 (49)
+Q Consensus       104 TR~~iL~~I~~W~~~  118 (125)
+                      -|..++.+...|+--
+T Consensus        51 ~RrkV~rEmQkWmWr   65 (86)
+T Q9W8F7_9RETR/2   51 NRGKVYREMQKWMWR   65 (86)
+T ss_pred             hHHHHHHHHHHHHHh
+Confidence            467799999999853
+
+
+No 7
+>PF18068.1 ; Npun_R1517 ; Npun R1517
+Probab=3.65  E-value=64  Score=16.02  Aligned_cols=32  Identities=0%  Similarity=0.000  Sum_probs=25.0  Template_Neff=2.200
+
+Q KLO15722.1        1 --------------------------------    0 (49)
+Q Consensus        19 ~~l~~~~~~s~~~~~I~~~~~~f~~l~~~F~~   50 (125)
+                      +-+.+..++++.+.-++-+...|..+...|-.
+T Consensus        14 RlIEEk~~l~drd~LLe~LldAf~~GsDeylE   45 (74)
+T K9PGL7_9CYAN/1   14 RLIEEKSLLGDREQLLQVLLDALTEGSDDFLE   45 (74)
+T ss_pred             eehhhhhccCCHHHHHHHHHHHHhhCChhHHH
+Confidence            44556777888888888888888888888877
+
+
+No 8
+>PF08760.11 ; DUF1793 ; Domain of unknown function (DUF1793)
+Probab=3.26  E-value=70  Score=18.83  Aligned_cols=20  Identities=15%  Similarity=0.453  Sum_probs=16.1  Template_Neff=4.700
+
+Q KLO15722.1       30 GTRLAVLEKIKNWMTDREQP   49 (49)
+Q Consensus       103 gTR~~iL~~I~~W~~~~~~~  122 (125)
+                      .+|..+++.|..|+......
+T Consensus       147 ~~r~~~I~~i~~~~~~~~~~  166 (200)
+T A7EQ95_SCLS1/5  147 KVREEIVDSIALWVNETTTD  166 (200)
+T ss_pred             HHHHHHHHHHHHHHHhCCCC
+Confidence            68999999999999765433
+
+
+No 9
+>PF09508.10 ; Lact_bio_phlase ; Lacto-N-biose phosphorylase N-terminal TIM barrel domain
+Probab=2.50  E-value=1e+02  Score=20.42  Aligned_cols=22  Identities=9%  Similarity=0.371  Sum_probs=18.8  Template_Neff=3.300
+
+Q KLO15722.1       25 ECCFPGTRLAVLEKIKNWMTDR   46 (49)
+Q Consensus        98 ~~ClpgTR~~iL~~I~~W~~~~  119 (125)
+                      ..-+|.||.-+++.+.+|+...
+T Consensus       177 D~r~p~t~~~~~~~l~~Wl~~h  198 (433)
+T F4LM96_TREBD/8  177 DVRQPKTHEYTMRRLRTFIAEH  198 (433)
+T ss_pred             CCCCHHHHHHHHHHHHHHHHHC
+Confidence            3568999999999999999753
+
+
+No 10
+>PF14216.6 ; DUF4326 ; Domain of unknown function (DUF4326)
+Probab=2.07  E-value=1.2e+02  Score=14.36  Aligned_cols=19  Identities=11%  Similarity=0.259  Sum_probs=15.0  Template_Neff=7.000
+
+Q KLO15722.1       28 FPGTRLAVLEKIKNWMTDR   46 (49)
+Q Consensus       101 lpgTR~~iL~~I~~W~~~~  119 (125)
+                      ..++|.++++.-..|+...
+T Consensus        26 ~~~~r~~~v~~y~~~l~~~   44 (85)
+T F6D6P9_METPW/8   26 TKGCKRKLNDQYKEYLKGL   44 (85)
+T ss_pred             CcCcHHHHHHHHHHHHhcC
+Confidence            4578999999888888653
+
+

@@ -1,0 +1,2306 @@
+Query         KIJ93417.1
+Match_columns 141
+No_of_seqs    1672 out of 1719
+Neff          7.04013
+Searched_HMMs 494
+Date          Sat Feb  6 20:03:45 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KIJ93417_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KIJ93417_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KIJ93417_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF13191.6 ; AAA_16 ; AAA ATPas  96.7 1.5E-06 3.4E-10   55.4   0.0   38  102-139     5-43  (189)
+  2 PF01637.18 ; ATPase_2 ; ATPase  96.7 1.5E-06 3.4E-10   56.1   0.0   36  102-139     4-39  (209)
+  3 PF00931.22 ; NB-ARC ; NB-ARC d  96.7 1.6E-06 3.8E-10   56.7   0.0   36  104-139     2-37  (240)
+  4 PF00308.18 ; Bac_DnaA ; Bacter  96.7 1.8E-06 4.1E-10   56.1   0.0   42   97-139    11-52  (219)
+  5 PF05621.11 ; TniB ; Bacterial   96.7 1.9E-06 4.3E-10   55.1   0.0   38  102-139    16-54  (191)
+  6 PF14532.6 ; Sigma54_activ_2 ;   96.6 2.7E-06   6E-10   53.2   0.0   37  103-139     4-40  (135)
+  7 PF07693.14 ; KAP_NTPase ; KAP   96.6 2.7E-06 6.1E-10   58.8   0.0   38  102-139     1-50  (307)
+  8 PF01057.17 ; Parvo_NS1 ; Parvo  96.4   6E-06 1.3E-09   58.3   0.0   36  104-139   102-137 (284)
+  9 PF06309.11 ; Torsin ; Torsin    96.1 1.2E-05 2.8E-09   48.8   0.0   38  102-139    33-71  (126)
+ 10 PF00158.26 ; Sigma54_activat ;  96.0 1.7E-05 3.9E-09   49.1   0.0   20  120-139    22-41  (169)
+ 11 PF05729.12 ; NACHT ; NACHT dom  96.0 2.1E-05 4.8E-09   48.3   0.0   18  122-139     2-19  (170)
+ 12 PF10236.9 ; DAP3 ; Mitochondri  95.9 2.9E-05 6.2E-09   56.8   0.0   37  102-139     4-43  (322)
+ 13 PF05673.13 ; DUF815 ; Protein   95.9 2.7E-05 6.2E-09   52.2   0.0   38  102-139    34-73  (252)
+ 14 PF05496.12 ; RuvB_N ; Holliday  95.9 2.8E-05 6.4E-09   47.7   0.0   20  120-139    33-52  (159)
+ 15 PF01695.17 ; IstB_IS21 ; IstB-  95.7 4.5E-05 9.8E-09   49.9   0.0   39   97-139    29-67  (179)
+ 16 PF07931.12 ; CPT ; Chloramphen  95.7 4.4E-05 9.9E-09   47.7   0.0   19  121-139     2-20  (163)
+ 17 PF14516.6 ; AAA_35 ; AAA-like   95.7 4.6E-05   1E-08   52.8   0.0   33  104-139    17-49  (330)
+ 18 PF18751.1 ; Ploopntkinase3 ; P  95.6 5.1E-05 1.2E-08   48.5   0.0   20  120-139     3-22  (187)
+ 19 PF13671.6 ; AAA_33 ; AAA domai  95.5 6.2E-05 1.4E-08   45.7   0.0   18  122-139     1-18  (142)
+ 20 PF00519.17 ; PPV_E1_C ; Papill  95.5 7.1E-05 1.5E-08   56.0   0.0   20  120-139   262-281 (432)
+ 21 PF13401.6 ; AAA_22 ; AAA domai  95.4 7.3E-05 1.7E-08   44.1   0.0   20  120-139     5-24  (131)
+ 22 PF06414.12 ; Zeta_toxin ; Zeta  95.4 7.5E-05 1.7E-08   48.4   0.0   21  119-139    13-33  (196)
+ 23 PF13177.6 ; DNA_pol3_delta2 ;   95.4 8.5E-05 1.7E-08   54.5   0.0   37  102-139     2-38  (297)
+ 24 PF13173.6 ; AAA_14 ; AAA domai  95.4   8E-05 1.8E-08   44.7   0.0   19  121-139     3-21  (131)
+ 25 PF10443.9 ; RNA12 ; RNA12 prot  95.4 8.5E-05 1.9E-08   54.1   0.0   34  102-137     1-34  (424)
+ 26 PF13238.6 ; AAA_18 ; AAA domai  95.2 0.00011 2.5E-08   43.0   0.0   17  123-139     1-17  (108)
+ 27 PF04851.15 ; ResIII ; Type III  95.2 0.00013 2.9E-08   43.7   0.0   33  104-139    10-42  (151)
+ 28 PF06745.13 ; ATPase ; KaiC      95.1 0.00013   3E-08   47.1   0.0   20  120-139    19-38  (232)
+ 29 PF01583.20 ; APS_kinase ; Aden  95.1 0.00015 3.4E-08   44.5   0.0   19  121-139     3-21  (156)
+ 30 PF01591.18 ; 6PF2K ; 6-phospho  95.0 0.00016 3.6E-08   47.3   0.0   20  120-139     9-28  (217)
+ 31 PF10923.8 ; DUF2791 ; P-loop D  95.0 0.00017 3.8E-08   52.6   0.0   38  102-139    30-68  (413)
+ 32 PF08433.10 ; KTI12 ; Chromatin  95.0 0.00019   4E-08   50.1   0.0   19  121-139     2-20  (269)
+ 33 PF02223.17 ; Thymidylate_kin ;  94.9  0.0002 4.5E-08   44.7   0.0   15  125-139     1-15  (181)
+ 34 PF08303.11 ; tRNA_lig_kinase ;  94.9 0.00022 4.8E-08   46.3   0.0   18  122-139     1-18  (168)
+ 35 PF00910.22 ; RNA_helicase ; RN  94.8 0.00022 4.9E-08   39.9   0.0   17  123-139     1-17  (100)
+ 36 PF00625.21 ; Guanylate_kin ; G  94.8 0.00024 5.4E-08   45.3   0.0   19  121-139     3-21  (186)
+ 37 PF18748.1 ; Ploopntkinase1 ; P  94.7 0.00026   6E-08   44.8   0.0   20  120-139    17-36  (196)
+ 38 PF09820.9 ; AAA-ATPase_like ;   94.7 0.00028 6.3E-08   47.4   0.0   19  121-139    32-50  (278)
+ 39 PF01121.20 ; CoaE ; Dephospho-  94.6 0.00031 6.8E-08   44.7   0.0   18  122-139     2-19  (181)
+ 40 PF13189.6 ; Cytidylate_kin2 ;   94.6 0.00033 7.2E-08   44.9   0.0   18  122-139     1-18  (181)
+ 41 PF01745.16 ; IPT ; Isopentenyl  94.4 0.00039 8.6E-08   46.6   0.0   19  121-139     2-20  (233)
+ 42 PF02702.17 ; KdpD ; Osmosensit  94.3 0.00043 9.7E-08   44.8   0.0   20  120-139     4-23  (209)
+ 43 PF13481.6 ; AAA_25 ; AAA domai  94.3 0.00045   1E-07   43.5   0.0   20  120-139    28-47  (187)
+ 44 PF07726.11 ; AAA_3 ; ATPase fa  94.3 0.00044   1E-07   39.9   0.0   17  123-139     2-18  (131)
+ 45 PF13521.6 ; AAA_28 ; AAA domai  94.2 0.00049 1.1E-07   43.1   0.0   17  123-139     2-18  (159)
+ 46 PF12775.7 ; AAA_7 ; P-loop con  94.2 0.00048 1.1E-07   43.1   0.0   19  121-139    34-52  (182)
+ 47 PF05970.14 ; PIF1 ; PIF1-like   94.1 0.00057 1.3E-07   48.1   0.0   34  104-139     8-41  (359)
+ 48 PF06431.11 ; Polyoma_lg_T_C ;   94.0 0.00063 1.4E-07   50.6   0.0   21  119-139   154-174 (417)
+ 49 PF13245.6 ; AAA_19 ; AAA domai  94.0 0.00062 1.4E-07   39.7   0.0   20  120-139    11-30  (132)
+ 50 PF09848.9 ; DUF2075 ; Uncharac  94.0 0.00067 1.5E-07   48.4   0.0   19  121-139     2-20  (359)
+ 51 PF01443.18 ; Viral_helicase1 ;  93.9 0.00068 1.5E-07   44.4   0.0   17  123-139     1-17  (205)
+ 52 PF03969.16 ; AFG1_ATPase ; AFG  93.9 0.00075 1.6E-07   48.7   0.0   20  120-139    67-86  (336)
+ 53 PF00004.29 ; AAA ; ATPase fami  93.8 0.00074 1.7E-07   39.4   0.0   17  123-139     1-17  (130)
+ 54 PF02224.18 ; Cytidylate_kin ;   93.8 0.00078 1.7E-07   44.1   0.0   17  123-139     1-17  (213)
+ 55 PF03668.15 ; ATP_bind_2 ; P-lo  93.8 0.00081 1.8E-07   46.4   0.0   19  121-139     2-20  (282)
+ 56 PF00406.22 ; ADK ; Adenylate k  93.8 0.00079 1.8E-07   42.1   0.0   15  125-139     1-15  (184)
+ 57 PF03976.14 ; PPK2 ; Polyphosph  93.8 0.00084 1.8E-07   45.2   0.0   21  119-139    27-47  (226)
+ 58 PF04275.14 ; P-mevalo_kinase ;  93.7 0.00083 1.8E-07   39.4   0.0   15  125-139     1-15  (112)
+ 59 PF00493.23 ; MCM ; MCM P-loop   93.6 0.00091 2.1E-07   42.7   0.0   19  121-139    60-78  (226)
+ 60 PF10649.9 ; DUF2478 ; Protein   93.6 0.00096 2.1E-07   42.2   0.0   16  124-139     2-17  (157)
+ 61 PF06068.13 ; TIP49 ; TIP49 P-l  93.6 0.00099 2.2E-07   47.4   0.0   19  121-139    51-69  (347)
+ 62 PF00448.22 ; SRP54 ; SRP54-typ  93.5   0.001 2.3E-07   42.2   0.0   19  121-139     2-20  (191)
+ 63 PF01712.19 ; dNK ; Deoxynucleo  93.4  0.0011 2.5E-07   42.0   0.0   17  123-139     1-17  (201)
+ 64 PF03266.15 ; NTPase_1 ; NTPase  93.4  0.0011 2.5E-07   40.0   0.0   17  123-139     2-18  (165)
+ 65 PF00485.18 ; PRK ; Phosphoribu  93.3  0.0013 2.8E-07   43.6   0.0   18  122-139     1-18  (209)
+ 66 PF02283.16 ; CobU ; Cobinamide  93.2  0.0013 2.9E-07   40.6   0.0   17  123-139     1-17  (164)
+ 67 PF00265.18 ; TK ; Thymidine ki  93.0  0.0015 3.3E-07   41.8   0.0   19  121-139     2-20  (171)
+ 68 PF05127.14 ; Helicase_RecD ; H  93.0  0.0015 3.3E-07   39.9   0.0   16  124-139     1-16  (158)
+ 69 PF13479.6 ; AAA_24 ; AAA domai  93.0  0.0016 3.4E-07   43.4   0.0   19  121-139     3-21  (213)
+ 70 PF00006.25 ; ATP-synt_ab ; ATP  93.0  0.0016 3.5E-07   42.2   0.0   19  120-138    14-32  (210)
+ 71 PF13207.6 ; AAA_17 ; AAA domai  92.9  0.0016 3.8E-07   37.5   0.0   14  126-139     1-14  (133)
+ 72 PF04665.12 ; Pox_A32 ; Poxviru  92.8  0.0018   4E-07   42.3   0.0   20  120-139    13-32  (238)
+ 73 PF07728.14 ; AAA_5 ; AAA domai  92.8  0.0018   4E-07   39.9   0.0   17  123-139     2-18  (157)
+ 74 PF02572.15 ; CobA_CobO_BtuR ;   92.7  0.0019 4.2E-07   41.1   0.0   18  122-139     4-21  (173)
+ 75 PF05707.12 ; Zot ; Zonular occ  92.6  0.0021 4.6E-07   41.9   0.0   18  122-139     2-19  (210)
+ 76 PF07724.14 ; AAA_2 ; AAA domai  92.4  0.0023 5.1E-07   39.0   0.0   19  121-139     4-22  (163)
+ 77 PF12774.7 ; AAA_6 ; Hydrolytic  92.4  0.0023 5.2E-07   43.1   0.0   19  121-139    33-51  (327)
+ 78 PF05272.11 ; VirE ; Virulence-  92.3  0.0026 5.5E-07   41.9   0.0   20  120-139    59-78  (201)
+ 79 PF08298.11 ; AAA_PrkA ; PrkA A  91.8  0.0033 7.2E-07   44.7   0.0   20  120-139    85-104 (362)
+ 80 PF08283.11 ; Gemini_AL1_M ; Ge  91.7  0.0036 7.8E-07   36.9   0.0   32  104-135    66-105 (106)
+ 81 PF13604.6 ; AAA_30 ; AAA domai  91.7  0.0035 7.8E-07   40.0   0.0   17  123-139    19-35  (213)
+ 82 PF08423.11 ; Rad51 ; Rad51      91.4   0.004   9E-07   40.7   0.0   20  120-139    37-56  (255)
+ 83 PF00580.21 ; UvrD-helicase ; U  91.1  0.0046   1E-06   40.0   0.0   18  121-138    14-31  (245)
+ 84 PF00437.20 ; T2SSE ; Type II/I  91.1  0.0048 1.1E-06   41.6   0.0   20  120-139   130-149 (268)
+ 85 PF13086.6 ; AAA_11 ; AAA domai  91.0  0.0049 1.1E-06   38.3   0.0   16  123-138    19-34  (221)
+ 86 PF03796.15 ; DnaB_C ; DnaB-lik  90.9  0.0051 1.1E-06   40.6   0.0   20  120-139    19-38  (263)
+ 87 PF00154.21 ; RecA ; recA bacte  90.8  0.0056 1.2E-06   41.7   0.0   21  119-139    51-71  (262)
+ 88 PF02492.19 ; cobW ; CobW/HypB/  90.7  0.0056 1.3E-06   37.6   0.0   18  122-139     2-19  (178)
+ 89 PF06048.11 ; DUF927 ; Domain o  90.6   0.006 1.3E-06   42.0   0.0   19  120-138   188-206 (286)
+ 90 PF07088.11 ; GvpD ; GvpD gas v  90.6  0.0061 1.3E-06   45.8   0.0   20  120-139    10-29  (514)
+ 91 PF01926.23 ; MMR_HSR1 ; 50S ri  90.6  0.0062 1.3E-06   36.5   0.0   17  123-139     2-18  (116)
+ 92 PF07475.12 ; Hpr_kinase_C ; HP  90.4  0.0066 1.4E-06   39.1   0.0   19  121-139    15-33  (164)
+ 93 PF02562.16 ; PhoH ; PhoH-like   89.2  0.0097 2.2E-06   36.6   0.0   18  121-138    20-37  (205)
+ 94 PF00488.21 ; MutS_V ; MutS dom  89.1    0.01 2.2E-06   37.1   0.0   16  124-139     2-17  (186)
+ 95 PF10662.9 ; PduV-EutP ; Ethano  88.9   0.011 2.4E-06   34.4   0.0   18  122-139     3-20  (143)
+ 96 PF08477.13 ; Roc ; Ras of Comp  88.4   0.013 2.8E-06   33.6   0.0   17  123-139     2-18  (115)
+ 97 PF05049.13 ; IIGP ; Interferon  88.3   0.014 2.9E-06   41.7   0.0   35  105-139    20-54  (374)
+ 98 PF01202.22 ; SKI ; Shikimate k  88.2   0.013 2.9E-06   34.2   0.0   11  129-139     1-11  (155)
+ 99 PF00350.23 ; Dynamin_N ; Dynam  88.2   0.013   3E-06   34.8   0.0   16  124-139     2-17  (182)
+100 PF13337.6 ; Lon_2 ; Putative A  88.2   0.014   3E-06   43.4   0.0   19  121-139   207-225 (455)
+101 PF13654.6 ; AAA_32 ; AAA domai  87.6   0.016 3.5E-06   42.1   0.0   34  105-139    16-49  (517)
+102 PF13304.6 ; AAA_21 ; AAA domai  87.5   0.016 3.6E-06   36.9   0.0   18  122-139     1-18  (280)
+103 PF01078.21 ; Mg_chelatase ; Ma  87.5   0.017 3.6E-06   37.5   0.0   19  121-139    23-41  (208)
+104 PF04310.12 ; MukB ; MukB N-ter  87.4   0.017 3.7E-06   37.6   0.0   19  121-139    27-45  (224)
+105 PF02367.17 ; TsaE ; Threonylca  87.2   0.019 3.9E-06   35.7   0.0   20  120-139    17-36  (129)
+106 PF02421.18 ; FeoB_N ; Ferrous   87.1   0.017 3.9E-06   33.2   0.0   17  123-139     2-18  (152)
+107 PF17213.3 ; Hydin_ADK ; Hydin   87.1    0.02   4E-06   38.6   0.0   18  122-139     1-18  (203)
+108 PF03193.16 ; RsgA_GTPase ; Rsg  86.9   0.019 4.2E-06   35.0   0.0   19  121-139   107-125 (174)
+109 PF16575.5 ; CLP1_P ; mRNA clea  86.8   0.019 4.3E-06   35.3   0.0   13  127-139     1-13  (185)
+110 PF12780.7 ; AAA_8 ; P-loop con  86.5   0.021 4.5E-06   37.6   0.0   19  121-139    25-43  (257)
+111 PF00071.22 ; Ras ; Ras family   86.4   0.021 4.7E-06   33.5   0.0   17  123-139     2-18  (166)
+112 PF03029.17 ; ATP_bind_1 ; Cons  86.3   0.021 4.7E-06   36.9   0.0   15  125-139     1-15  (246)
+113 PF03308.16 ; MeaB ; Methylmalo  85.9   0.024 5.2E-06   37.8   0.0   20  120-139    29-48  (266)
+114 PF00693.18 ; Herpes_TK ; Thymi  85.4   0.027 5.8E-06   38.7   0.0   13  127-139     1-13  (280)
+115 PF12774.7 ; AAA_6 ; Hydrolytic  85.4   0.026 5.8E-06   37.3   0.0   14  121-134   314-327 (327)
+116 PF07652.14 ; Flavi_DEAD ; Flav  84.8   0.029 6.5E-06   32.5   0.0   17  121-137     5-21  (148)
+117 PF12631.7 ; MnmE_helical ; Mnm  84.5   0.032 6.9E-06   38.3   0.0   19  121-139    95-113 (329)
+118 PF04548.16 ; AIG1 ; AIG1 famil  84.5   0.031   7E-06   35.0   0.0   17  123-139     3-19  (217)
+119 PF01580.18 ; FtsK_SpoIIIE ; Ft  84.4   0.032 7.1E-06   34.8   0.0   18  121-138    39-56  (198)
+120 PF07999.11 ; RHSP ; Retrotrans  83.9   0.037 7.8E-06   40.7   0.0   33  105-137   110-143 (444)
+121 PF03205.14 ; MobB ; Molybdopte  83.4   0.038 8.5E-06   31.5   0.0   16  123-138     2-17  (135)
+122 PF00025.21 ; Arf ; ADP-ribosyl  83.0    0.04   9E-06   33.5   0.0   19  121-139    15-33  (184)
+123 PF02263.19 ; GBP ; Guanylate-b  82.2   0.048   1E-05   36.5   0.0   21  119-139    20-40  (263)
+124 PF00009.27 ; GTP_EFTU ; Elonga  81.4   0.053 1.2E-05   36.1   0.0   19  121-139     4-22  (276)
+125 PF11602.8 ; NTPase_P4 ; ATPase  80.2   0.064 1.4E-05   37.4   0.0   20  120-139   122-141 (328)
+126 PF05783.11 ; DLIC ; Dynein lig  80.0   0.068 1.4E-05   39.7   0.0   20  120-139    25-44  (469)
+127 PF02456.15 ; Adeno_IVa2 ; Aden  79.7    0.07 1.5E-05   38.0   0.0   18  122-139    82-99  (364)
+128 PF03215.15 ; Rad17 ; Rad17 P-l  78.7   0.077 1.7E-05   33.1   0.0   20  120-139    45-64  (180)
+129 PF01935.17 ; DUF87 ; Helicase   78.6   0.078 1.7E-05   34.1   0.0   19  121-139    26-44  (220)
+130 PF01293.20 ; PEPCK_ATP ; Phosp  78.6   0.079 1.7E-05   38.6   0.0   19  121-139   208-226 (463)
+131 PF13166.6 ; AAA_13 ; AAA domai  78.5    0.08 1.7E-05   40.7   0.0   20  120-139    18-37  (753)
+132 PF00735.18 ; Septin ; Septin    77.5   0.088 1.9E-05   35.4   0.0   18  122-139     6-23  (303)
+133 PF04670.12 ; Gtr1_RagA ; Gtr1/  77.2   0.089   2E-05   33.0   0.0   17  123-139     2-18  (233)
+134 PF13514.6 ; AAA_27 ; AAA domai  76.8   0.096 2.1E-05   33.0   0.0   19  120-138    26-44  (205)
+135 PF02689.14 ; Herpes_Helicase ;  76.6    0.11 2.1E-05   41.3   0.0   20  120-139    53-72  (775)
+136 PF09439.10 ; SRPRB ; Signal re  76.4   0.099 2.2E-05   32.3   0.0   19  121-139     4-22  (189)
+137 PF10412.9 ; TrwB_AAD_bind ; Ty  76.3   0.098 2.2E-05   35.1   0.0   19  120-138    15-33  (385)
+138 PF13555.6 ; AAA_29 ; P-loop co  76.0     0.1 2.3E-05   25.8   0.0   17  122-138    25-41  (60)
+139 PF02374.15 ; ArsA_ATPase ; Ani  75.9    0.11 2.3E-05   34.4   0.0   18  121-138     2-19  (283)
+140 PF03618.14 ; Kinase-PPPase ; K  75.3    0.12 2.5E-05   35.5   0.0   18  122-139   139-156 (256)
+141 PF12846.7 ; AAA_10 ; AAA-like   75.3    0.11 2.5E-05   34.8   0.0   18  121-138    22-39  (362)
+142 PF13500.6 ; AAA_26 ; AAA domai  75.3    0.11 2.5E-05   30.7   0.0   17  123-139     3-20  (191)
+143 PF13175.6 ; AAA_15 ; AAA ATPas  73.9    0.12 2.8E-05   34.2   0.0   18  122-139    26-43  (413)
+144 PF04466.13 ; Terminase_3 ; Pha  73.7    0.13 2.9E-05   31.1   0.0   17  122-138     3-19  (202)
+145 PF00142.18 ; Fer4_NifH ; 4Fe-4  72.9    0.14 3.1E-05   33.1   0.0   17  122-138     2-18  (272)
+146 PF00503.20 ; G-alpha ; G-prote  70.6    0.18 3.9E-05   34.0   0.0   19  121-139    22-40  (336)
+147 PF09547.10 ; Spore_IV_A ; Stag  69.9     0.2 4.1E-05   37.4   0.0   20  120-139    17-36  (492)
+148 PF00005.27 ; ABC_tran ; ABC tr  67.7    0.22 4.9E-05   28.5   0.0   20  120-139    11-30  (150)
+149 PF02534.14 ; T4SS-DNA_transf ;  67.6    0.22   5E-05   34.6   0.0   17  121-137    44-60  (484)
+150 PF18766.1 ; SWI2_SNF2 ; SWI2/S  66.9    0.24 5.3E-05   32.3   0.0   18  120-137    51-68  (267)
+151 PF05872.12 ; DUF853 ; Bacteria  63.4    0.32 6.8E-05   35.2   0.0   18  121-138    22-39  (532)
+152 PF16260.5 ; DUF4914 ; Domain o  61.4    0.39 7.9E-05   36.7   0.0   19  120-138   240-258 (615)
+153 PF13872.6 ; AAA_34 ; P-loop co  61.1    0.36   8E-05   31.7   0.0   18  121-138    61-78  (308)
+154 PF11398.8 ; DUF2813 ; Protein   59.8     0.4 8.8E-05   32.2   0.0   18  122-139    24-41  (344)
+155 PF03237.15 ; Terminase_6 ; Ter  59.1    0.41 9.2E-05   29.2   0.0   15  124-138     1-15  (232)
+156 PF09818.9 ; ABC_ATPase ; Predi  59.0    0.45 9.3E-05   34.8   0.0   18  122-139   249-266 (451)
+157 PF00270.29 ; DEAD ; DEAD/DEAH   59.0    0.41 9.3E-05   27.1   0.0   16  122-137    16-31  (167)
+158 PF13614.6 ; AAA_31 ; AAA domai  55.2    0.53 0.00012   27.6   0.0   18  122-139     4-21  (182)
+159 PF04735.12 ; Baculo_helicase ;  52.3    0.74 0.00014   37.9   0.0   19  120-138   906-924 (1217)
+160 PF03354.15 ; Terminase_1 ; Pha  48.9    0.78 0.00018   31.0   0.0   19  120-138    23-41  (467)
+161 PF10609.9 ; ParA ; NUBPL iron-  48.9    0.78 0.00018   28.1   0.0   18  122-139     5-23  (244)
+162 PF02463.19 ; SMC_N ; RecF/RecN  48.7    0.87 0.00018   37.4   0.0   18  122-139    26-43  (1271)
+163 PF07015.11 ; VirC1 ; VirC1 pro  47.8    0.85 0.00019   28.3   0.0   17  122-138     4-20  (231)
+164 PF06564.12 ; CBP_BcsQ ; Cellul  46.3    0.91 0.00021   27.4   0.0   17  122-138     3-20  (235)
+
+No 1
+>PF13191.6 ; AAA_16 ; AAA ATPase domain
+Probab=96.73  E-value=1.5e-06  Score=55.37  Aligned_cols=38  Identities=8%  Similarity=0.066  Sum_probs=29.4  Template_Neff=12.500
+
+Q KIJ93417.1       63 RVTLIDTIKKWVDTKGR-DVP------------------   82 (82)
+Q Consensus       102 R~~il~~i~~W~~~~~~-~~~ilWl~G~aG~GKStia~~  139 (141)
+                      |...++.+..|+..... ...+++|.|++|+|||++++.
+T Consensus         5 r~~~~~~l~~~l~~~~~~~~~~~~i~G~~G~GKT~l~~~   43 (189)
+T A9G8J3_SORC5/2    5 RDAEIAALTGAFERVARGATEIVLVHGYSGVGKSTLVNE   43 (189)
+T ss_pred             hHHHHHHHHHHHHHHHcCCCcEEEEEcCCCCCHHHHHHH
+Confidence            56778888888875322 227999999999999999864
+
+
+No 2
+>PF01637.18 ; ATPase_2 ; ATPase domain predominantly from Archaea
+Probab=96.73  E-value=1.5e-06  Score=56.09  Aligned_cols=36  Identities=14%  Similarity=0.279  Sum_probs=30.0  Template_Neff=12.600
+
+Q KIJ93417.1       63 RVTLIDTIKKWVDTKGRDVP------------------   82 (82)
+Q Consensus       102 R~~il~~i~~W~~~~~~~~~ilWl~G~aG~GKStia~~  139 (141)
+                      |.+.++.|.+|+...  ...+++|+|++|+|||+++++
+T Consensus         4 R~~~~~~l~~~l~~~--~~~~~~i~G~~G~GKT~l~~~   39 (209)
+T A8M928_CALMQ/1    4 REWALRRIEKWAEGG--TYPVQVVYGPEGCGKTAWLRQ   39 (209)
+T ss_pred             hHHHHHHHHHHHhcC--CCcEEEEECCCCCCHHHHHHH
+Confidence            667888888888753  356999999999999999864
+
+
+No 3
+>PF00931.22 ; NB-ARC ; NB-ARC domain
+Probab=96.70  E-value=1.6e-06  Score=56.72  Aligned_cols=36  Identities=8%  Similarity=0.086  Sum_probs=27.6  Template_Neff=12.800
+
+Q KIJ93417.1       65 TLIDTIKKWVDTKGRDVP------------------   82 (82)
+Q Consensus       104 ~il~~i~~W~~~~~~~~~ilWl~G~aG~GKStia~~  139 (141)
+                      ..+++|.+|+.......++++|+|++|+|||+++..
+T Consensus         2 ~~l~~l~~~l~~~~~~~~~i~i~G~~G~GKt~l~~~   37 (240)
+T K4BY49_SOLLC/1    2 DTIDELKDKLLGGSPELDVISIVGMPGLGKTTLAKK   37 (240)
+T ss_pred             hHHHHHHHHHhCCCCCccEEEEEcCCCCCHHHHHHH
+Confidence            457788888875432334899999999999999864
+
+
+No 4
+>PF00308.18 ; Bac_DnaA ; Bacterial dnaA  protein
+Probab=96.68  E-value=1.8e-06  Score=56.06  Aligned_cols=42  Identities=5%  Similarity=-0.048  Sum_probs=32.5  Template_Neff=12.600
+
+Q KIJ93417.1       58 CDPGTRVTLIDTIKKWVDTKGRDVP------------------   82 (82)
+Q Consensus        97 C~pgTR~~il~~i~~W~~~~~~~~~ilWl~G~aG~GKStia~~  139 (141)
+                      +....+..+++.+..|+..... ...++|+|++|+|||++++.
+T Consensus        11 ~~~~~~~~~~~~~~~~~~~~~~-~~~~~i~G~~G~GKt~l~~~   52 (219)
+T DNAA_THEMA/98-   11 VVGPGNSFAYHAALEVAKHPGR-YNPLFIYGGVGLGKTHLLQS   52 (219)
+T ss_pred             CCCcchhHHHHHHHHHHhCCCC-CCCEEEEcCCCCCHHHHHHH
+Confidence            3345667788888888876433 56899999999999999864
+
+
+No 5
+>PF05621.11 ; TniB ; Bacterial TniB protein
+Probab=96.67  E-value=1.9e-06  Score=55.06  Aligned_cols=38  Identities=8%  Similarity=0.236  Sum_probs=26.8  Template_Neff=12.400
+
+Q KIJ93417.1       63 RVTLIDTIKKWVDTKGR-DVP------------------   82 (82)
+Q Consensus       102 R~~il~~i~~W~~~~~~-~~~ilWl~G~aG~GKStia~~  139 (141)
+                      +...++.+..|+..... ...+++|+|++|+|||++++.
+T Consensus        16 ~~~~~~~l~~~~~~~~~~~~~~~~i~G~~G~GKT~l~~~   54 (191)
+T E8X2D5_GRATM/2   16 AKRILTSLENLLDHPKRQRMPCLLIAGRTNNGKSAIAQE   54 (191)
+T ss_pred             HHHHHHHHHHHHhCCccCCCCEEEEEcCCCCCHHHHHHH
+Confidence            44556666666654221 236899999999999999864
+
+
+No 6
+>PF14532.6 ; Sigma54_activ_2 ; Sigma-54 interaction domain
+Probab=96.59  E-value=2.7e-06  Score=53.21  Aligned_cols=37  Identities=5%  Similarity=0.194  Sum_probs=26.6  Template_Neff=10.900
+
+Q KIJ93417.1       64 VTLIDTIKKWVDTKGRDVP------------------   82 (82)
+Q Consensus       103 ~~il~~i~~W~~~~~~~~~ilWl~G~aG~GKStia~~  139 (141)
+                      ...++++..|+.........++|.|++|+|||++++.
+T Consensus         4 ~~~~~~~~~~l~~~~~~~~~~~l~G~~G~GKt~l~~~   40 (135)
+T Q47K41_DECAR/1    4 SAFVKEFKRRLEQAAAKSPVLLLKGANGGMAEICART   40 (135)
+T ss_pred             CHHHHHHHHHHHHHHhcCCcEEEECCCChhHHHHHHH
+Confidence            3455666666654322346899999999999999864
+
+
+No 7
+>PF07693.14 ; KAP_NTPase ; KAP family P-loop domain
+Probab=96.58  E-value=2.7e-06  Score=58.78  Aligned_cols=38  Identities=8%  Similarity=0.043  Sum_probs=29.3  Template_Neff=12.100
+
+Q KIJ93417.1       63 RVTLIDTIKKWVDTKG------------RDVP------------------   82 (82)
+Q Consensus       102 R~~il~~i~~W~~~~~------------~~~~ilWl~G~aG~GKStia~~  139 (141)
+                      |+++++.|.+++....            ....++||.|++|+|||+|++.
+T Consensus         1 R~~~~~~l~~~l~~~~~~~~~~~~~~~~~~~~~i~i~G~~G~GKT~ll~~   50 (307)
+T Q87ZN8_PSESM/8    1 RAPFISSLVKTLVHTDYDTSTGEVRSRRATGFVVGLTGEWGLGKSSVLNL   50 (307)
+T ss_pred             ChhHHHHHHHHHhcCCCCCCcccchhccCCCEEEEEEcCCCCCHHHHHHH
+Confidence            5667777777776431            3457999999999999999864
+
+
+No 8
+>PF01057.17 ; Parvo_NS1 ; Parvovirus non-structural protein NS1
+Probab=96.38  E-value=6e-06  Score=58.29  Aligned_cols=36  Identities=8%  Similarity=0.190  Sum_probs=26.2  Template_Neff=10.500
+
+Q KIJ93417.1       65 TLIDTIKKWVDTKGRDVP------------------   82 (82)
+Q Consensus       104 ~il~~i~~W~~~~~~~~~ilWl~G~aG~GKStia~~  139 (141)
+                      .+.+.+..|+.........+||+|++|+|||++++.
+T Consensus       102 ~~~~~~~~~l~~~~~~~~~l~l~G~~gtGKT~la~~  137 (284)
+T Q308H9_PAVHB/2  102 LVGQHVLRWIDKKCGKKNTLWFYGPPSTGKTNLAMA  137 (284)
+T ss_pred             HHHHHHHHHHhhhcCCCCEEEEECCCCCCHHHHHHH
+Confidence            334556667764333456899999999999999864
+
+
+No 9
+>PF06309.11 ; Torsin ; Torsin
+Probab=96.15  E-value=1.2e-05  Score=48.78  Aligned_cols=38  Identities=0%  Similarity=0.122  Sum_probs=25.1  Template_Neff=11.300
+
+Q KIJ93417.1       63 RVTLIDTIKKWVDTK-GRDVP------------------   82 (82)
+Q Consensus       102 R~~il~~i~~W~~~~-~~~~~ilWl~G~aG~GKStia~~  139 (141)
+                      ...+...+..|+... .....++|+.|++|+|||+++..
+T Consensus        33 ~~~l~~~~~~~~~~~~~~~~~~i~~~G~~G~GKt~l~~~   71 (126)
+T TOR1A_HUMAN/44   33 KKIILNAVFGFINNPKPKKPLTLSLHGWTGTGKNFVSKI   71 (126)
+T ss_pred             HHHHHHHHHHHHcCCCCCCCEEEEEeCCCCCCHHHHHHH
+Confidence            344445555565421 12345899999999999998753
+
+
+No 10
+>PF00158.26 ; Sigma54_activat ; Sigma-54 interaction domain
+Probab=96.03  E-value=1.7e-05  Score=49.10  Aligned_cols=20  Identities=0%  Similarity=-0.041  Sum_probs=17.4  Template_Neff=12.400
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      ...++|.|++|+|||++++.
+T Consensus        22 ~~~~ll~G~~G~GKt~l~~~   41 (169)
+T Q880V5_PSESM/3   22 DSTTLILGESGTGKELFAQA   41 (169)
+T ss_pred             CCeEEEEcCCCCcHHHHHHH
+Confidence            36789999999999999864
+
+
+No 11
+>PF05729.12 ; NACHT ; NACHT domain
+Probab=95.97  E-value=2.1e-05  Score=48.32  Aligned_cols=18  Identities=0%  Similarity=0.000  Sum_probs=16.2  Template_Neff=12.700
+
+Q KIJ93417.1       83 ------------------   82 (82)
+Q Consensus       122 ilWl~G~aG~GKStia~~  139 (141)
+                      +++|+|++|+|||++++.
+T Consensus         2 ~~~i~G~~G~GKT~l~~~   19 (170)
+T NALP4_HUMAN/14    2 TVIIQGPQGIGKTTLLMK   19 (170)
+T ss_pred             eEEEeCCCCCcHHHHHHH
+Confidence            689999999999999864
+
+
+No 12
+>PF10236.9 ; DAP3 ; Mitochondrial ribosomal death-associated protein 3
+Probab=95.87  E-value=2.9e-05  Score=56.79  Aligned_cols=37  Identities=0%  Similarity=-0.047  Sum_probs=24.8  Template_Neff=9.000
+
+Q KIJ93417.1       63 RVTLIDTIKKWVDTK---GRDVP------------------   82 (82)
+Q Consensus       102 R~~il~~i~~W~~~~---~~~~~ilWl~G~aG~GKStia~~  139 (141)
+                      |...+ +|..++...   ......++|+|++|+|||+|+..
+T Consensus         4 R~~~l-~i~~~l~~~~~~~~~~~~~lL~G~~GsGKTtll~~   43 (322)
+T A5E5F8_LODEL/1    4 SGNTK-KLNETFVQNLDQNSKLNRVYLDGPKGCGKSTLVNQ   43 (322)
+T ss_pred             cHHHH-HHHHHHHHcccccCCCceEEEECCCCCCHHHHHHH
+Confidence            34444 455555432   22356899999999999999864
+
+
+No 13
+>PF05673.13 ; DUF815 ; Protein of unknown function (DUF815)
+Probab=95.87  E-value=2.7e-05  Score=52.19  Aligned_cols=38  Identities=0%  Similarity=-0.165  Sum_probs=26.0  Template_Neff=11.700
+
+Q KIJ93417.1       63 RVTLIDTIKKWVDTKG--RDVP------------------   82 (82)
+Q Consensus       102 R~~il~~i~~W~~~~~--~~~~ilWl~G~aG~GKStia~~  139 (141)
+                      |...++++.+++....  .....++|+|++|+|||+|++.
+T Consensus        34 ~~~~~~~l~~~l~~~~~~~~~~~i~i~G~~G~GKt~l~~~   73 (252)
+T Q2RG35_MOOTA/2   34 YEAERQEVIHNTEKFLRGLPAVNILLYGARGTGKSSTVKA   73 (252)
+T ss_pred             CHHHHHHHHHHHHHHHcCCCceEEEEECCCCCCHHHHHHH
+Confidence            4455555665554311  1346899999999999999864
+
+
+No 14
+>PF05496.12 ; RuvB_N ; Holliday junction DNA helicase RuvB P-loop domain
+Probab=95.86  E-value=2.8e-05  Score=47.68  Aligned_cols=20  Identities=0%  Similarity=-0.041  Sum_probs=16.9  Template_Neff=12.300
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      ...++|+|++|+|||++++.
+T Consensus        33 ~~~~~l~G~~G~GKt~l~~~   52 (159)
+T RUVB_BIFLO/37-   33 PDHILLAGPPGLGKTTLAMI   52 (159)
+T ss_pred             CCcEEEECCCCCCHHHHHHH
+Confidence            35678999999999999864
+
+
+No 15
+>PF01695.17 ; IstB_IS21 ; IstB-like ATP binding protein
+Probab=95.68  E-value=4.5e-05  Score=49.86  Aligned_cols=39  Identities=8%  Similarity=0.107  Sum_probs=28.1  Template_Neff=10.400
+
+Q KIJ93417.1       58 CDPGTRVTLIDTIKKWVDTKGRDVP------------------   82 (82)
+Q Consensus        97 C~pgTR~~il~~i~~W~~~~~~~~~ilWl~G~aG~GKStia~~  139 (141)
+                      ....-+...++.+..++..    ..+++|.|++|+|||+++..
+T Consensus        29 ~~~~~~~~~l~~~~~~~~~----~~~~~v~G~~GsGKTtla~~   67 (179)
+T Y4IQ_SINFN/60-   29 MVSKAQVMAIAAGDSWLAK----GANILLFGPPGGGKSHLAAA   67 (179)
+T ss_pred             CCCHHHHHHHHHHHHhhhc----CCEEEEECCCCCCHHHHHHH
+Confidence            4444455556666666653    36899999999999999864
+
+
+No 16
+>PF07931.12 ; CPT ; Chloramphenicol phosphotransferase-like protein
+Probab=95.68  E-value=4.4e-05  Score=47.67  Aligned_cols=19  Identities=0%  Similarity=-0.042  Sum_probs=16.9  Template_Neff=11.700
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      .+++|.|++|+|||++++.
+T Consensus         2 ~~i~l~G~~gsGKtt~~~~   20 (163)
+T Q82PT5_STRAW/2    2 MVILLNGTSSSGKTSMARA   20 (163)
+T ss_pred             eEEEEECCCCCCHHHHHHH
+Confidence            4789999999999999864
+
+
+No 17
+>PF14516.6 ; AAA_35 ; AAA-like domain
+Probab=95.66  E-value=4.6e-05  Score=52.79  Aligned_cols=33  Identities=0%  Similarity=-0.057  Sum_probs=24.4  Template_Neff=11.900
+
+Q KIJ93417.1       65 TLIDTIKKWVDTKGRDVP------------------   82 (82)
+Q Consensus       104 ~il~~i~~W~~~~~~~~~ilWl~G~aG~GKStia~~  139 (141)
+                      +..+++.+++...   .++++|+|++|+|||+|++.
+T Consensus        17 ~~~~~~~~~~~~~---~~~~~l~G~~G~GKT~l~~~   49 (330)
+T B0JKB2_MICAN/2   17 PYEERCYEEIQKP---GSLIRIKSPHNMGKSSLMAK   49 (330)
+T ss_pred             HHHHHHHHHHhCC---CCeEEEECCCCCCHHHHHHH
+Confidence            4455566666443   35899999999999999864
+
+
+No 18
+>PF18751.1 ; Ploopntkinase3 ; P-loop Nucleotide Kinase3
+Probab=95.61  E-value=5.1e-05  Score=48.52  Aligned_cols=20  Identities=0%  Similarity=-0.013  Sum_probs=17.6  Template_Neff=11.600
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      ..+++|.|++|+||||+++.
+T Consensus         3 ~~~i~i~G~~gsGKsT~~~~   22 (187)
+T S5Y5G5_9CAUD/1    3 ARLIYLVGQPGSGKSTLMSA   22 (187)
+T ss_pred             CcEEEEECCCCCCHHHHHHH
+Confidence            35899999999999999875
+
+
+No 19
+>PF13671.6 ; AAA_33 ; AAA domain
+Probab=95.52  E-value=6.2e-05  Score=45.66  Aligned_cols=18  Identities=0%  Similarity=0.000  Sum_probs=15.8  Template_Neff=11.800
+
+Q KIJ93417.1       83 ------------------   82 (82)
+Q Consensus       122 ilWl~G~aG~GKStia~~  139 (141)
+                      +++|.|++|+|||++++.
+T Consensus         1 vi~l~G~~G~GKttl~~~   18 (142)
+T Q2JBW3_FRACC/1    1 LIWINGPNAVGKTQVAHN   18 (142)
+T ss_pred             CeEEECCCCCCHHHHHHH
+Confidence            478999999999999864
+
+
+No 20
+>PF00519.17 ; PPV_E1_C ; Papillomavirus helicase
+Probab=95.48  E-value=7.1e-05  Score=56.01  Aligned_cols=20  Identities=0%  Similarity=-0.043  Sum_probs=17.7  Template_Neff=9.800
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      ...+||+|++|+|||++++.
+T Consensus       262 ~~~l~l~Gp~GtGKT~~a~~  281 (432)
+T VE1_HPV1/172-6  262 KNCLLIFGPPNTGKSMFCTS  281 (432)
+T ss_pred             CeEEEEECCCCCCHHHHHHH
+Confidence            46899999999999999864
+
+
+No 21
+>PF13401.6 ; AAA_22 ; AAA domain
+Probab=95.44  E-value=7.3e-05  Score=44.06  Aligned_cols=20  Identities=0%  Similarity=-0.025  Sum_probs=17.2  Template_Neff=12.300
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      .++++|.|++|+|||+++..
+T Consensus         5 ~~~~~i~G~~G~GKt~l~~~   24 (131)
+T E0TGM5_PARBH/3    5 AGAVLLTGEKQVGKSAVFVS   24 (131)
+T ss_pred             CcEEEEECCCCCCHHHHHHH
+Confidence            45899999999999999753
+
+
+No 22
+>PF06414.12 ; Zeta_toxin ; Zeta toxin
+Probab=95.44  E-value=7.5e-05  Score=48.38  Aligned_cols=21  Identities=0%  Similarity=-0.031  Sum_probs=18.4  Template_Neff=11.300
+
+Q KIJ93417.1       80 DVP------------------   82 (82)
+Q Consensus       119 ~~~ilWl~G~aG~GKStia~~  139 (141)
+                      ...+++|.|++|+|||++++.
+T Consensus        13 ~p~~i~i~G~~GsGKTt~a~~   33 (196)
+T Q8P580_XANCP/3   13 HPKAIILAGQPGSGKGSLARA   33 (196)
+T ss_pred             CCEEEEEeCCCCCCHHHHHHH
+Confidence            457999999999999999874
+
+
+No 23
+>PF13177.6 ; DNA_pol3_delta2 ; DNA polymerase III, delta subunit
+Probab=95.42  E-value=8.5e-05  Score=54.50  Aligned_cols=37  Identities=3%  Similarity=-0.020  Sum_probs=28.5  Template_Neff=7.300
+
+Q KIJ93417.1       63 RVTLIDTIKKWVDTKGRDVP------------------   82 (82)
+Q Consensus       102 R~~il~~i~~W~~~~~~~~~ilWl~G~aG~GKStia~~  139 (141)
+                      +.++++.|..|+..... ...++|+|++|+|||+++..
+T Consensus         2 ~~~~~~~l~~~i~~~~~-~~~vll~Gp~G~GKTtla~~   38 (297)
+T C0QW85_BRAHW/6    2 QTTPLKIMSGIYKSGRL-HHAYLFYGDEGIGKFESALN   38 (297)
+T ss_pred             CchHHHHHHHHHhcCCC-CceEEEecCCCCCHHHHHHH
+Confidence            45677788888876432 35689999999999999864
+
+
+No 24
+>PF13173.6 ; AAA_14 ; AAA domain
+Probab=95.41  E-value=8e-05  Score=44.74  Aligned_cols=19  Identities=0%  Similarity=-0.040  Sum_probs=16.9  Template_Neff=11.600
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      ++++|+|++|+|||++++.
+T Consensus         3 ~~v~i~G~~G~GKt~l~~~   21 (131)
+T Q5SMH3_THET8/2    3 LLQVVLGPRQVGKTTLALQ   21 (131)
+T ss_pred             ceEEEECCCCCCHHHHHHH
+Confidence            5789999999999999864
+
+
+No 25
+>PF10443.9 ; RNA12 ; RNA12 protein
+Probab=95.38  E-value=8.5e-05  Score=54.09  Aligned_cols=34  Identities=9%  Similarity=0.171  Sum_probs=28.8  Template_Neff=11.100
+
+Q KIJ93417.1       63 RVTLIDTIKKWVDTKGRDVP----------------   82 (82)
+Q Consensus       102 R~~il~~i~~W~~~~~~~~~ilWl~G~aG~GKStia  137 (141)
+                      |+++++.|..|+...  ...+++|+|++|+|||+|+
+T Consensus         1 R~~el~~L~~~l~~~--~~~~~~I~G~~G~GKTtLl   34 (424)
+T YME2_COCIM/373    1 RKEDIQRLQTWLLEA--TNTFTVVHGPRGSGKKELV   34 (424)
+T ss_pred             CHHHHHHHHHHHHhc--CCcEEEEECCCCCCHHHHH
+Confidence            678899999999643  3468999999999999998
+
+
+No 26
+>PF13238.6 ; AAA_18 ; AAA domain
+Probab=95.23  E-value=0.00011  Score=43.01  Aligned_cols=17  Identities=0%  Similarity=0.000  Sum_probs=14.9  Template_Neff=11.100
+
+Q KIJ93417.1       83 -----------------   82 (82)
+Q Consensus       123 lWl~G~aG~GKStia~~  139 (141)
+                      ++|.|++|+|||++++.
+T Consensus         1 i~l~G~~gsGKtt~~~~   17 (108)
+T A8BNB8_GIAIC/5    1 VIILGPPCSGKSTMCSL   17 (108)
+T ss_pred             CEEECCCCCCHHHHHHH
+Confidence            47899999999999864
+
+
+No 27
+>PF04851.15 ; ResIII ; Type III restriction enzyme, res subunit
+Probab=95.15  E-value=0.00013  Score=43.70  Aligned_cols=33  Identities=6%  Similarity=-0.034  Sum_probs=22.2  Template_Neff=12.500
+
+Q KIJ93417.1       65 TLIDTIKKWVDTKGRDVP------------------   82 (82)
+Q Consensus       104 ~il~~i~~W~~~~~~~~~ilWl~G~aG~GKStia~~  139 (141)
+                      ++++.+.+++..   ....++|.|++|+|||+++..
+T Consensus        10 ~~~~~~~~~~~~---~~~~~~i~g~~G~GKT~~~~~   42 (151)
+T Q8YK43_NOSS1/7   10 QWIKDIWNSWKR---GNRRVLAQLPTGAGKTICFAH   42 (151)
+T ss_pred             HHHHHHHHHHhc---CCceEEEECCCCCcHHHHHHH
+Confidence            344444444432   235788999999999998753
+
+
+No 28
+>PF06745.13 ; ATPase ; KaiC
+Probab=95.14  E-value=0.00013  Score=47.15  Aligned_cols=20  Identities=0%  Similarity=-0.069  Sum_probs=17.6  Template_Neff=12.300
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      ..+++|.|++|+|||+++..
+T Consensus        19 g~~~~i~G~~gsGKt~l~~~   38 (232)
+T KACL2_SYNY3/12   19 GRATLIAGTAGSAKTIFASQ   38 (232)
+T ss_pred             CcEEEEEcCCCCCHHHHHHH
+Confidence            46899999999999999864
+
+
+No 29
+>PF01583.20 ; APS_kinase ; Adenylylsulphate kinase
+Probab=95.06  E-value=0.00015  Score=44.47  Aligned_cols=19  Identities=0%  Similarity=-0.031  Sum_probs=16.8  Template_Neff=11.800
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      .+++|.|++|+|||++++.
+T Consensus         3 ~~i~i~G~~GsGKttl~~~   21 (156)
+T CYSC_ECOLI/27-    3 VVLWFTGLSGSGKSTVAGA   21 (156)
+T ss_pred             eEEEEEeCCCCCHHHHHHH
+Confidence            4789999999999999864
+
+
+No 30
+>PF01591.18 ; 6PF2K ; 6-phosphofructo-2-kinase
+Probab=95.03  E-value=0.00016  Score=47.27  Aligned_cols=20  Identities=0%  Similarity=-0.071  Sum_probs=17.8  Template_Neff=11.400
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      ..+++|.|++|+|||++++.
+T Consensus         9 ~~~i~i~G~~GsGKtt~a~~   28 (217)
+T B9RL84_RICCO/3    9 HLAIVLVGLPARGKTFTAVK   28 (217)
+T ss_pred             cEEEEEECCCCCCHHHHHHH
+Confidence            46899999999999999864
+
+
+No 31
+>PF10923.8 ; DUF2791 ; P-loop Domain of unknown function (DUF2791)
+Probab=94.99  E-value=0.00017  Score=52.63  Aligned_cols=38  Identities=11%  Similarity=0.060  Sum_probs=29.8  Template_Neff=10.600
+
+Q KIJ93417.1       63 RVTLIDTIKKWVDTKG-RDVP------------------   82 (82)
+Q Consensus       102 R~~il~~i~~W~~~~~-~~~~ilWl~G~aG~GKStia~~  139 (141)
+                      |+.+++.|.+|+.... ....+++|.|++|+|||+|++.
+T Consensus        30 r~~~l~~l~~~l~~~~~~~~~~i~i~G~~G~GKS~Ll~~   68 (413)
+T G4Q2Q9_ACIIR/4   30 RKNEIDALLHDVSVIEEGGASFRFVVGRYGSGKSFLLQT   68 (413)
+T ss_pred             CHHHHHHHHHHHHHHHhCCCeEEEEEcCCCCCHHHHHHH
+Confidence            6778888888886521 1356899999999999999864
+
+
+No 32
+>PF08433.10 ; KTI12 ; Chromatin associated protein KTI12
+Probab=94.96  E-value=0.00019  Score=50.15  Aligned_cols=19  Identities=5%  Similarity=0.133  Sum_probs=17.0  Template_Neff=9.800
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      .+++|.|++|+|||++++.
+T Consensus         2 ~lI~l~G~pgsGKSTla~~   20 (269)
+T Q86H29_DICDI/1    2 PLIVLSGPPCSGKTTRAKE   20 (269)
+T ss_pred             CEEEEECCCCCCHHHHHHH
+Confidence            3789999999999999875
+
+
+No 33
+>PF02223.17 ; Thymidylate_kin ; Thymidylate kinase
+Probab=94.88  E-value=0.0002  Score=44.71  Aligned_cols=15  Identities=0%  Similarity=0.000  Sum_probs=13.3  Template_Neff=12.000
+
+Q KIJ93417.1       83 ---------------   82 (82)
+Q Consensus       125 l~G~aG~GKStia~~  139 (141)
+                      |.|++|+||||+++.
+T Consensus         1 i~G~~gsGKtTla~~   15 (181)
+T KTHY_AQUAE/5-1    1 FEGIDGSGKTTQAKK   15 (181)
+T ss_pred             CCCCCCCCHHHHHHH
+Confidence            579999999999875
+
+
+No 34
+>PF08303.11 ; tRNA_lig_kinase ; tRNA ligase kinase domain
+Probab=94.85  E-value=0.00022  Score=46.27  Aligned_cols=18  Identities=0%  Similarity=0.000  Sum_probs=15.9  Template_Neff=9.800
+
+Q KIJ93417.1       83 ------------------   82 (82)
+Q Consensus       122 ilWl~G~aG~GKStia~~  139 (141)
+                      ++++.|++|+|||++++.
+T Consensus         1 ii~~~G~~GsGKSt~a~~   18 (168)
+T TRNL_CANAL/414    1 IFVPIATIGCGKTTVFNT   18 (168)
+T ss_pred             CeEEECCCCCCHHHHHHH
+Confidence            478999999999999875
+
+
+No 35
+>PF00910.22 ; RNA_helicase ; RNA helicase
+Probab=94.83  E-value=0.00022  Score=39.92  Aligned_cols=17  Identities=0%  Similarity=0.000  Sum_probs=14.9  Template_Neff=12.100
+
+Q KIJ93417.1       83 -----------------   82 (82)
+Q Consensus       123 lWl~G~aG~GKStia~~  139 (141)
+                      +||+|++|+|||+++..
+T Consensus         1 v~l~G~~g~gKs~~~~~   17 (100)
+T A6XIG2_9PICO/1    1 IWISGGPGVGKSFLSNY   17 (100)
+T ss_pred             CEEECCCCCCHHHHHHH
+Confidence            58999999999998764
+
+
+No 36
+>PF00625.21 ; Guanylate_kin ; Guanylate kinase
+Probab=94.77  E-value=0.00024  Score=45.30  Aligned_cols=19  Identities=0%  Similarity=-0.016  Sum_probs=17.0  Template_Neff=11.300
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      ++++|.|++|+|||++++.
+T Consensus         3 ~~i~i~G~~gsGKst~~~~   21 (186)
+T KGUA_YEAST/1-1    3 RPIVISGPSGTGKSTLLKK   21 (186)
+T ss_pred             CcEEEECCCCcCHHHHHHH
+Confidence            5889999999999999864
+
+
+No 37
+>PF18748.1 ; Ploopntkinase1 ; P-loop Nucleotide Kinase1
+Probab=94.70  E-value=0.00026  Score=44.79  Aligned_cols=20  Identities=0%  Similarity=-0.063  Sum_probs=17.8  Template_Neff=11.900
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      ..+++|.|++|+|||++++.
+T Consensus        17 ~~~i~i~G~~gsGKsT~~~~   36 (196)
+T A0A1J0MG43_9CA   17 GELYYVKGSNGSGKSTVPSW   36 (196)
+T ss_pred             CCEEEEECCCCCCcchHHHH
+Confidence            46899999999999999864
+
+
+No 38
+>PF09820.9 ; AAA-ATPase_like ; Predicted AAA-ATPase
+Probab=94.66  E-value=0.00028  Score=47.42  Aligned_cols=19  Identities=0%  Similarity=-0.031  Sum_probs=17.0  Template_Neff=11.700
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      ..++|+|++|+|||+|+++
+T Consensus        32 ~~~~i~G~~G~GKTsll~~   50 (278)
+T A6LFZ2_PARD8/9   32 VPYFLSRPRRFGKSLLLST   50 (278)
+T ss_pred             CCEEEEcCCCCCchHHHHH
+Confidence            5789999999999999864
+
+
+No 39
+>PF01121.20 ; CoaE ; Dephospho-CoA kinase
+Probab=94.60  E-value=0.00031  Score=44.67  Aligned_cols=18  Identities=0%  Similarity=0.000  Sum_probs=16.1  Template_Neff=11.200
+
+Q KIJ93417.1       83 ------------------   82 (82)
+Q Consensus       122 ilWl~G~aG~GKStia~~  139 (141)
+                      ++.|.|++|+|||+++..
+T Consensus         2 ~I~i~G~~gsGKst~~~~   19 (181)
+T COAE_SYNY3/9-1    2 LIGLTGGIATGKSTVTDY   19 (181)
+T ss_pred             eEEEECCCCCCHHHHHHH
+Confidence            678999999999999864
+
+
+No 40
+>PF13189.6 ; Cytidylate_kin2 ; Cytidylate kinase-like family
+Probab=94.56  E-value=0.00033  Score=44.85  Aligned_cols=18  Identities=0%  Similarity=0.000  Sum_probs=16.0  Template_Neff=10.900
+
+Q KIJ93417.1       83 ------------------   82 (82)
+Q Consensus       122 ilWl~G~aG~GKStia~~  139 (141)
+                      +++|.|++|+|||++++.
+T Consensus         1 ~I~i~G~~gsGKst~~~~   18 (181)
+T D3IAJ6_9BACT/7    1 IINIGREVGSGGHIIGQK   18 (181)
+T ss_pred             CeEeeCcccCCHHHHHHH
+Confidence            578999999999999875
+
+
+No 41
+>PF01745.16 ; IPT ; Isopentenyl transferase
+Probab=94.42  E-value=0.00039  Score=46.56  Aligned_cols=19  Identities=0%  Similarity=-0.028  Sum_probs=16.9  Template_Neff=10.600
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      .+++|.|++|+|||++++.
+T Consensus         2 ~~i~i~G~~gsGKst~a~~   20 (233)
+T G8JYU5_RHOFA/2    2 GVYAIVGATGIGKSAEASK   20 (233)
+T ss_pred             ceEEEECCCCCCHHHHHHH
+Confidence            4789999999999999864
+
+
+No 42
+>PF02702.17 ; KdpD ; Osmosensitive K+ channel His kinase sensor domain
+Probab=94.34  E-value=0.00043  Score=44.82  Aligned_cols=20  Identities=0%  Similarity=-0.066  Sum_probs=17.1  Template_Neff=11.300
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      ...++|.|++|+|||+++..
+T Consensus         4 ~~~ill~G~~G~GKT~l~~~   23 (209)
+T R7C3W0_9BURK/2    4 KLKLFFGAAPGVGKTYAMLQ   23 (209)
+T ss_pred             ceEEEEEcCCCCCHHHHHHH
+Confidence            45788999999999999864
+
+
+No 43
+>PF13481.6 ; AAA_25 ; AAA domain
+Probab=94.30  E-value=0.00045  Score=43.50  Aligned_cols=20  Identities=0%  Similarity=-0.060  Sum_probs=17.3  Template_Neff=11.700
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      ..+++|.|++|+|||+++..
+T Consensus        28 g~~~~l~G~~g~GKTtl~~~   47 (187)
+T B1Y3C6_LEPCP/3   28 HGLVIIAGAHGAGKTTALLP   47 (187)
+T ss_pred             CcEEEEECCCCCCHHHHHHH
+Confidence            46899999999999998764
+
+
+No 44
+>PF07726.11 ; AAA_3 ; ATPase family associated with various cellular activities (AAA)
+Probab=94.30  E-value=0.00044  Score=39.86  Aligned_cols=17  Identities=0%  Similarity=0.000  Sum_probs=14.8  Template_Neff=12.600
+
+Q KIJ93417.1       83 -----------------   82 (82)
+Q Consensus       123 lWl~G~aG~GKStia~~  139 (141)
+                      ++|.|++|+|||++++.
+T Consensus         2 ~ll~G~~G~GKt~l~~~   18 (131)
+T Q82DC4_STRAW/5    2 VLLEGVPGVAKTLLVRA   18 (131)
+T ss_pred             eEEECCCCCCHHHHHHH
+Confidence            57899999999998764
+
+
+No 45
+>PF13521.6 ; AAA_28 ; AAA domain
+Probab=94.24  E-value=0.00049  Score=43.10  Aligned_cols=17  Identities=0%  Similarity=0.000  Sum_probs=15.2  Template_Neff=10.800
+
+Q KIJ93417.1       83 -----------------   82 (82)
+Q Consensus       123 lWl~G~aG~GKStia~~  139 (141)
+                      +.|.|++|+|||||++.
+T Consensus         2 i~i~G~~gsGKTTl~~~   18 (159)
+T C1A5B7_GEMAT/6    2 VVITGSESVGKTTLGLQ   18 (159)
+T ss_pred             EEEECCCCCCHHHHHHH
+Confidence            57899999999999875
+
+
+No 46
+>PF12775.7 ; AAA_7 ; P-loop containing dynein motor region
+Probab=94.23  E-value=0.00048  Score=43.12  Aligned_cols=19  Identities=0%  Similarity=-0.010  Sum_probs=16.8  Template_Neff=11.700
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      ..++|.|++|+|||++++.
+T Consensus        34 ~~~~l~G~~G~GKt~l~~~   52 (182)
+T A0A177WHY8_BAT   34 KHVLFIGPTGTGKSMYIRD   52 (182)
+T ss_pred             CcEEEECCCCCCHHHHHHH
+Confidence            4689999999999999875
+
+
+No 47
+>PF05970.14 ; PIF1 ; PIF1-like helicase
+Probab=94.09  E-value=0.00057  Score=48.14  Aligned_cols=34  Identities=9%  Similarity=0.049  Sum_probs=24.8  Template_Neff=11.100
+
+Q KIJ93417.1       65 TLIDTIKKWVDTKGRDVP------------------   82 (82)
+Q Consensus       104 ~il~~i~~W~~~~~~~~~ilWl~G~aG~GKStia~~  139 (141)
+                      ..++.|..++...  ....++|.|++|+|||+++..
+T Consensus         8 ~~~~~i~~~~~~~--~~~~~~v~G~~GtGKT~l~~~   41 (359)
+T Q8RV60_ARATH/8    8 KIYDQIIEAVYSN--SGGVFFVNGFGGTGKTYLWKT   41 (359)
+T ss_pred             HHHHHHHHHHHcC--CCcEEEEecCCCCCHHHHHHH
+Confidence            4456666666542  346899999999999998753
+
+
+No 48
+>PF06431.11 ; Polyoma_lg_T_C ; Polyomavirus large T antigen C-terminus
+Probab=94.04  E-value=0.00063  Score=50.59  Aligned_cols=21  Identities=0%  Similarity=-0.033  Sum_probs=17.9  Template_Neff=9.200
+
+Q KIJ93417.1       80 DVP------------------   82 (82)
+Q Consensus       119 ~~~ilWl~G~aG~GKStia~~  139 (141)
+                      ....++|+|++|+|||+|++.
+T Consensus       154 ~~~~ill~G~~GtGKT~la~~  174 (417)
+T Q9DH70_SV40/26  154 KKRYWLFKGPIDSGKTTLAAA  174 (417)
+T ss_pred             CCcEEEEECCCCCCHHHHHHH
+Confidence            346799999999999999864
+
+
+No 49
+>PF13245.6 ; AAA_19 ; AAA domain
+Probab=93.99  E-value=0.00062  Score=39.66  Aligned_cols=20  Identities=0%  Similarity=-0.026  Sum_probs=17.1  Template_Neff=12.200
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      ...+.|.|++|+|||+++..
+T Consensus        11 ~~~~~i~G~~G~GKT~~~~~   30 (132)
+T A1BER2_CHLPD/3   11 SKVSVITGGPGVGKTTLVNV   30 (132)
+T ss_pred             CCeEEEEcCCCCCHHHHHHH
+Confidence            35788999999999999864
+
+
+No 50
+>PF09848.9 ; DUF2075 ; Uncharacterized conserved protein (DUF2075)
+Probab=93.96  E-value=0.00067  Score=48.36  Aligned_cols=19  Identities=0%  Similarity=-0.019  Sum_probs=16.3  Template_Neff=10.500
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      ++++|.|+||+|||+++..
+T Consensus         2 ~~~~i~G~pGtGKT~~~~~   20 (359)
+T Q6KH31_MYCMO/2    2 HVVFISGAAGSGKTVIAFK   20 (359)
+T ss_pred             ceEEEECCCCCCHHHHHHH
+Confidence            4789999999999998753
+
+
+No 51
+>PF01443.18 ; Viral_helicase1 ; Viral (Superfamily 1) RNA helicase
+Probab=93.94  E-value=0.00068  Score=44.44  Aligned_cols=17  Identities=0%  Similarity=0.000  Sum_probs=14.5  Template_Neff=10.500
+
+Q KIJ93417.1       83 -----------------   82 (82)
+Q Consensus       123 lWl~G~aG~GKStia~~  139 (141)
+                      +.|.|+||+|||+++..
+T Consensus         1 ~~i~G~~GtGKT~~~~~   17 (205)
+T O55598_9VIRU/2    1 LVIHGVPGSGKSTLVKA   17 (205)
+T ss_pred             CeEEcCCCCCHHHHHHH
+Confidence            46889999999999864
+
+
+No 52
+>PF03969.16 ; AFG1_ATPase ; AFG1-like ATPase
+Probab=93.88  E-value=0.00075  Score=48.72  Aligned_cols=20  Identities=0%  Similarity=-0.084  Sum_probs=17.2  Template_Neff=9.200
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      ...++|+|++|+|||++++.
+T Consensus        67 ~~~~ll~Gp~G~GKT~l~~~   86 (336)
+T I6Y1G3_MYCTU/3   67 GVGLYLDGGFGVGKTHLLAS   86 (336)
+T ss_pred             CeEEEEECCCCCCHHHHHHH
+Confidence            45789999999999999854
+
+
+No 53
+>PF00004.29 ; AAA ; ATPase family associated with various cellular activities (AAA)
+Probab=93.83  E-value=0.00074  Score=39.41  Aligned_cols=17  Identities=0%  Similarity=0.000  Sum_probs=14.5  Template_Neff=12.000
+
+Q KIJ93417.1       83 -----------------   82 (82)
+Q Consensus       123 lWl~G~aG~GKStia~~  139 (141)
+                      ++|+|++|+|||++++.
+T Consensus         1 i~l~G~~g~GKt~l~~~   17 (130)
+T O81459_ARATH/2    1 VLFEGPPGTGKTSCARV   17 (130)
+T ss_pred             CceeCCCCCCHHHHHHH
+Confidence            47899999999998753
+
+
+No 54
+>PF02224.18 ; Cytidylate_kin ; Cytidylate kinase
+Probab=93.80  E-value=0.00078  Score=44.09  Aligned_cols=17  Identities=0%  Similarity=0.000  Sum_probs=15.0  Template_Neff=10.800
+
+Q KIJ93417.1       83 -----------------   82 (82)
+Q Consensus       123 lWl~G~aG~GKStia~~  139 (141)
+                      ++|.|++|+|||++++.
+T Consensus         1 I~i~G~~gsGKsTia~~   17 (213)
+T KCY1_BORBU/3-2    1 IAIDGPSASGKSSIARE   17 (213)
+T ss_pred             CeeeCCCCCCHHHHHHH
+Confidence            57899999999999875
+
+
+No 55
+>PF03668.15 ; ATP_bind_2 ; P-loop ATPase protein family
+Probab=93.77  E-value=0.00081  Score=46.42  Aligned_cols=19  Identities=0%  Similarity=-0.009  Sum_probs=16.9  Template_Neff=10.300
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      .+++|.|++|+|||++++.
+T Consensus         2 ~~I~l~G~~GsGKsTv~~~   20 (282)
+T Y1146_HAEIN/1-    2 EIIIISGRSGAGKSVALRA   20 (282)
+T ss_pred             eEEEEECCCCCCHHHHHHH
+Confidence            4789999999999999864
+
+
+No 56
+>PF00406.22 ; ADK ; Adenylate kinase
+Probab=93.77  E-value=0.00079  Score=42.09  Aligned_cols=15  Identities=0%  Similarity=0.000  Sum_probs=13.3  Template_Neff=11.700
+
+Q KIJ93417.1       83 ---------------   82 (82)
+Q Consensus       125 l~G~aG~GKStia~~  139 (141)
+                      |.|++|+|||++++.
+T Consensus         1 i~G~~GsGKst~a~~   15 (184)
+T KAD_MYCMS/5-18    1 LLGAPGCGKGTQAEQ   15 (184)
+T ss_pred             CCCCCCCChHHHHHH
+Confidence            579999999999875
+
+
+No 57
+>PF03976.14 ; PPK2 ; Polyphosphate kinase 2 (PPK2)
+Probab=93.75  E-value=0.00084  Score=45.19  Aligned_cols=21  Identities=0%  Similarity=-0.045  Sum_probs=18.0  Template_Neff=9.900
+
+Q KIJ93417.1       80 DVP------------------   82 (82)
+Q Consensus       119 ~~~ilWl~G~aG~GKStia~~  139 (141)
+                      ...+++|.|++|+||||++..
+T Consensus        27 ~~~~I~i~G~~GsGKsT~~~~   47 (226)
+T PK21A_PSEAE/92   27 QRVVVLFEGRDAAGKGGTIKR   47 (226)
+T ss_pred             CCEEEEEECCCcCCHHHHHHH
+Confidence            346899999999999998864
+
+
+No 58
+>PF04275.14 ; P-mevalo_kinase ; Phosphomevalonate kinase
+Probab=93.74  E-value=0.00083  Score=39.37  Aligned_cols=15  Identities=0%  Similarity=0.000  Sum_probs=13.1  Template_Neff=10.800
+
+Q KIJ93417.1       83 ---------------   82 (82)
+Q Consensus       125 l~G~aG~GKStia~~  139 (141)
+                      |.|++|+|||+++..
+T Consensus         1 i~G~~gsGKst~~~~   15 (112)
+T B3RSA8_TRIAD/9    1 FSGKRKSGKDYVTGL   15 (112)
+T ss_pred             CCCCCCCCHHHHHHH
+Confidence            579999999999864
+
+
+No 59
+>PF00493.23 ; MCM ; MCM P-loop domain
+Probab=93.61  E-value=0.00091  Score=42.73  Aligned_cols=19  Identities=0%  Similarity=-0.045  Sum_probs=16.4  Template_Neff=12.100
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      ..++|+|++|+|||++++.
+T Consensus        60 ~~~ll~G~~G~GKt~~~~~   78 (226)
+T C4LYY1_ENTHI/5   60 INVLLLGDPGTAKSQLLKY   78 (226)
+T ss_pred             eEEEEEcCCCccHHHHHHH
+Confidence            4589999999999999764
+
+
+No 60
+>PF10649.9 ; DUF2478 ; Protein of unknown function (DUF2478)
+Probab=93.60  E-value=0.00096  Score=42.21  Aligned_cols=16  Identities=0%  Similarity=0.000  Sum_probs=14.1  Template_Neff=10.000
+
+Q KIJ93417.1       83 ----------------   82 (82)
+Q Consensus       124 Wl~G~aG~GKStia~~  139 (141)
+                      .|.|++|+|||++++.
+T Consensus         2 ll~G~~GsGKTtl~~~   17 (157)
+T Q2RPC9_RHORT/1    2 GVVYDQEEGIDALVGD   17 (157)
+T ss_pred             ceecCCcccHHHHHHH
+Confidence            5899999999999864
+
+
+No 61
+>PF06068.13 ; TIP49 ; TIP49 P-loop domain
+Probab=93.56  E-value=0.00099  Score=47.41  Aligned_cols=19  Identities=0%  Similarity=-0.016  Sum_probs=16.7  Template_Neff=10.200
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      ..++|+|++|+|||++++.
+T Consensus        51 ~~~ll~G~~G~GKt~la~~   69 (347)
+T Q9M2X5_ARATH/1   51 RAILIAGQPGTGKIAIAMG   69 (347)
+T ss_pred             cEEEEEcCCCCCHHHHHHH
+Confidence            4788999999999999864
+
+
+No 62
+>PF00448.22 ; SRP54 ; SRP54-type protein, GTPase domain
+Probab=93.49  E-value=0.001  Score=42.17  Aligned_cols=19  Identities=0%  Similarity=-0.010  Sum_probs=16.2  Template_Neff=11.300
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      ++++|.|++|+|||+++..
+T Consensus         2 ~~i~i~G~~G~GKTt~~~~   20 (191)
+T FLHF_BACSU/175    2 KYIVLFGSTGAGKTTTLAK   20 (191)
+T ss_pred             eEEEEECCCCCCHHHHHHH
+Confidence            4788999999999999753
+
+
+No 63
+>PF01712.19 ; dNK ; Deoxynucleoside kinase
+Probab=93.39  E-value=0.0011  Score=42.02  Aligned_cols=17  Identities=0%  Similarity=0.000  Sum_probs=14.7  Template_Neff=11.600
+
+Q KIJ93417.1       83 -----------------   82 (82)
+Q Consensus       123 lWl~G~aG~GKStia~~  139 (141)
+                      +.|.|++|+||||+++.
+T Consensus         1 I~i~G~~GsGKsT~~~~   17 (201)
+T DGK_BACSU/7-20    1 IAIEGPIGAGKTTLATM   17 (201)
+T ss_pred             CEEECCCCCCHHHHHHH
+Confidence            46889999999999865
+
+
+No 64
+>PF03266.15 ; NTPase_1 ; NTPase
+Probab=93.38  E-value=0.0011  Score=39.99  Aligned_cols=17  Identities=0%  Similarity=0.000  Sum_probs=14.8  Template_Neff=12.200
+
+Q KIJ93417.1       83 -----------------   82 (82)
+Q Consensus       123 lWl~G~aG~GKStia~~  139 (141)
+                      +.|.|++|+|||+++..
+T Consensus         2 ~~i~G~~GsGKTtl~~~   18 (165)
+T NTPTH_METAC/3-    2 IAVTGSPGVGKSTVVAK   18 (165)
+T ss_pred             EEEECCCCCCHHHHHHH
+Confidence            56899999999999864
+
+
+No 65
+>PF00485.18 ; PRK ; Phosphoribulokinase / Uridine kinase family
+Probab=93.28  E-value=0.0013  Score=43.57  Aligned_cols=18  Identities=0%  Similarity=0.000  Sum_probs=15.6  Template_Neff=10.000
+
+Q KIJ93417.1       83 ------------------   82 (82)
+Q Consensus       122 ilWl~G~aG~GKStia~~  139 (141)
+                      ++.|.|++|+|||||++.
+T Consensus         1 vI~I~G~~GsGKsTla~~   18 (209)
+T Q3IYC0_RHOS4/7    1 IISVTGSSGAGTSTVKHT   18 (209)
+T ss_pred             CEEEEcCCCCCHHHHHHH
+Confidence            467899999999999864
+
+
+No 66
+>PF02283.16 ; CobU ; Cobinamide kinase / cobinamide phosphate guanyltransferase
+Probab=93.20  E-value=0.0013  Score=40.57  Aligned_cols=17  Identities=0%  Similarity=0.000  Sum_probs=14.7  Template_Neff=11.300
+
+Q KIJ93417.1       83 -----------------   82 (82)
+Q Consensus       123 lWl~G~aG~GKStia~~  139 (141)
+                      +.|.|++|+|||+++..
+T Consensus         1 ili~G~~G~GKT~l~~~   17 (164)
+T Q9RZD3_DEIRA/1    1 IYVTGGARSGKSSFAER   17 (164)
+T ss_pred             CeEECCCCCCHHHHHHH
+Confidence            36899999999999874
+
+
+No 67
+>PF00265.18 ; TK ; Thymidine kinase
+Probab=93.05  E-value=0.0015  Score=41.76  Aligned_cols=19  Identities=0%  Similarity=-0.003  Sum_probs=16.4  Template_Neff=10.000
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      .+++|+|+.|+|||+++..
+T Consensus         2 ~~~~i~G~~GsGKTtll~~   20 (171)
+T KITH_MYXVL/6-1    2 QIHLIIGPMFAGKSTELIR   20 (171)
+T ss_pred             eEEEEECCCCCCHHHHHHH
+Confidence            3788999999999998854
+
+
+No 68
+>PF05127.14 ; Helicase_RecD ; Helicase
+Probab=93.05  E-value=0.0015  Score=39.94  Aligned_cols=16  Identities=0%  Similarity=0.000  Sum_probs=13.5  Template_Neff=11.400
+
+Q KIJ93417.1       83 ----------------   82 (82)
+Q Consensus       124 Wl~G~aG~GKStia~~  139 (141)
+                      .|.|++|+|||+++..
+T Consensus         1 li~G~~GsGKT~~~~~   16 (158)
+T A3Y4W2_9GAMM/2    1 LIIAHRGRGKSTALGI   16 (158)
+T ss_pred             CcccCCCCCHHHHHHH
+Confidence            4789999999998753
+
+
+No 69
+>PF13479.6 ; AAA_24 ; AAA domain
+Probab=93.01  E-value=0.0016  Score=43.43  Aligned_cols=19  Identities=0%  Similarity=-0.031  Sum_probs=16.6  Template_Neff=9.700
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      ..++|+|++|+|||+|+..
+T Consensus         3 ~~~li~G~~G~GKTtl~~~   21 (213)
+T R5GRX8_9FIRM/1    3 VKTVIYGAEGIGKTTLAAQ   21 (213)
+T ss_pred             cEEEEECCCCCCHHHHHhh
+Confidence            4688999999999999864
+
+
+No 70
+>PF00006.25 ; ATP-synt_ab ; ATP synthase alpha/beta family, nucleotide-binding domain
+Probab=92.98  E-value=0.0016  Score=42.17  Aligned_cols=19  Identities=0%  Similarity=-0.061  Sum_probs=16.9  Template_Neff=11.000
+
+Q KIJ93417.1       81 VP-----------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~  138 (141)
+                      ...++|.|++|+|||++++
+T Consensus        14 g~~~~i~G~~GsGKT~l~~   32 (210)
+T H1XPZ5_9BACT/1   14 GQRVGIFAGSGVGKSVLLG   32 (210)
+T ss_pred             CcEEEEECCCCCCHHHHHH
+Confidence            4689999999999999985
+
+
+No 71
+>PF13207.6 ; AAA_17 ; AAA domain
+Probab=92.87  E-value=0.0016  Score=37.52  Aligned_cols=14  Identities=0%  Similarity=0.000  Sum_probs=12.1  Template_Neff=12.300
+
+Q KIJ93417.1       83 --------------   82 (82)
+Q Consensus       126 ~G~aG~GKStia~~  139 (141)
+                      .|++|+|||+++..
+T Consensus         1 ~G~~gsGKst~~~~   14 (133)
+T F8HYY6_WEIKK/8    1 LGLPGVGKGTQAEM   14 (133)
+T ss_pred             CCCCCCCHHHHHHH
+Confidence            48999999999864
+
+
+No 72
+>PF04665.12 ; Pox_A32 ; Poxvirus A32 protein
+Probab=92.80  E-value=0.0018  Score=42.32  Aligned_cols=20  Identities=0%  Similarity=-0.093  Sum_probs=17.4  Template_Neff=11.400
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      ..++.|.|+.|+|||++++.
+T Consensus        13 g~~i~l~G~~GsGKTtl~~~   32 (238)
+T Q98306_MCV1/6-   13 PFRMALVGGSGSGKTLYLLS   32 (238)
+T ss_pred             CcEEEEEcCCCCCHHHHHHH
+Confidence            46899999999999999853
+
+
+No 73
+>PF07728.14 ; AAA_5 ; AAA domain (dynein-related subfamily)
+Probab=92.79  E-value=0.0018  Score=39.86  Aligned_cols=17  Identities=0%  Similarity=0.000  Sum_probs=14.7  Template_Neff=11.000
+
+Q KIJ93417.1       83 -----------------   82 (82)
+Q Consensus       123 lWl~G~aG~GKStia~~  139 (141)
+                      ++|+|++|+|||++++.
+T Consensus         2 ill~G~~G~GKt~~~~~   18 (157)
+T VWA8_HUMAN/105    2 VFLIGPPGPLRRSIAMQ   18 (157)
+T ss_pred             eEEECCCCCCHHHHHHH
+Confidence            56899999999999864
+
+
+No 74
+>PF02572.15 ; CobA_CobO_BtuR ; ATP:corrinoid adenosyltransferase BtuR/CobO/CobP
+Probab=92.71  E-value=0.0019  Score=41.11  Aligned_cols=18  Identities=0%  Similarity=0.000  Sum_probs=13.6  Template_Neff=10.200
+
+Q KIJ93417.1       83 ------------------   82 (82)
+Q Consensus       122 ilWl~G~aG~GKStia~~  139 (141)
+                      .++++|.+|+|||+++..
+T Consensus         4 ~i~~~gg~G~GKTtl~~~   21 (173)
+T B5Y9A9_COPPD/4    4 LTHVYTGNGKGKTSAALG   21 (173)
+T ss_pred             eEEEEeCCCCCHHHHHHH
+Confidence            456666679999998754
+
+
+No 75
+>PF05707.12 ; Zot ; Zonular occludens toxin (Zot)
+Probab=92.59  E-value=0.0021  Score=41.89  Aligned_cols=18  Identities=0%  Similarity=0.000  Sum_probs=15.8  Template_Neff=10.600
+
+Q KIJ93417.1       83 ------------------   82 (82)
+Q Consensus       122 ilWl~G~aG~GKStia~~  139 (141)
+                      ++.|.|++|+|||+++..
+T Consensus         2 i~~i~G~~GsGKT~~~~~   19 (210)
+T ZOT_VIBCH/2-21    2 IFIHHGAPGSYKTSGALW   19 (210)
+T ss_pred             eEEEEcCCCCCHHHHHHH
+Confidence            578999999999999864
+
+
+No 76
+>PF07724.14 ; AAA_2 ; AAA domain (Cdc48 subfamily)
+Probab=92.42  E-value=0.0023  Score=38.99  Aligned_cols=19  Identities=0%  Similarity=0.007  Sum_probs=16.3  Template_Neff=11.600
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      ..+.|+|++|+|||++++.
+T Consensus         4 ~~ill~G~~G~GKt~l~~~   22 (163)
+T Q8NPM2_CORGL/3    4 SNFLFTGPTGVGKTELVKQ   22 (163)
+T ss_pred             ceEEEECCCCCCHHHHHHH
+Confidence            4678999999999999864
+
+
+No 77
+>PF12774.7 ; AAA_6 ; Hydrolytic ATP binding site of dynein motor region
+Probab=92.41  E-value=0.0023  Score=43.15  Aligned_cols=19  Identities=0%  Similarity=-0.040  Sum_probs=16.5  Template_Neff=12.000
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      ..++|+|++|+|||++++.
+T Consensus        33 ~~~ll~G~~G~GKt~l~~~   51 (327)
+T A0A075B109_9FU   33 LGGSPLGPAGTGKTETVKD   51 (327)
+T ss_pred             cCCcccCCCCCCHHHHHHH
+Confidence            4677999999999999864
+
+
+No 78
+>PF05272.11 ; VirE ; Virulence-associated protein E
+Probab=92.30  E-value=0.0026  Score=41.90  Aligned_cols=20  Identities=0%  Similarity=-0.111  Sum_probs=17.2  Template_Neff=9.700
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      ..++.|.|+.|+|||++++.
+T Consensus        59 ~~~l~l~G~~G~GKSt~~~~   78 (201)
+T Q9PG00_XYLFA/1   59 DFMLVLEGPQGKHKSTSLSE   78 (201)
+T ss_pred             CEEEEEECCCCCCHHHHHHH
+Confidence            35889999999999998764
+
+
+No 79
+>PF08298.11 ; AAA_PrkA ; PrkA AAA domain
+Probab=91.84  E-value=0.0033  Score=44.73  Aligned_cols=20  Identities=0%  Similarity=-0.031  Sum_probs=17.7  Template_Neff=10.100
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      ..+++|.|+.|+|||+|++.
+T Consensus        85 g~~v~i~G~~GsGKStl~~~  104 (362)
+T Q89FE5_BRADU/2   85 KQILYLLGPVGGGKSSLAER  104 (362)
+T ss_pred             CeEEEEECCCCCcHHHHHHH
+Confidence            46899999999999999864
+
+
+No 80
+>PF08283.11 ; Gemini_AL1_M ; Geminivirus rep protein central domain
+Probab=91.69  E-value=0.0036  Score=36.93  Aligned_cols=32  Identities=6%  Similarity=0.198  Sum_probs=23.1  Template_Neff=9.500
+
+Q KIJ93417.1       65 TLIDTIKKWVDTK--------GRDVP--------------   82 (82)
+Q Consensus       104 ~il~~i~~W~~~~--------~~~~~ilWl~G~aG~GKSt  135 (141)
+                      .+..+|.+|+...        ......++|.||.++|||.
+T Consensus        66 ~~~~~l~~W~~~~~~~~~~~~~~~~~sl~l~Gpsr~GKT~  105 (106)
+T REP_BCTVC/126-   66 NVPEEMQEWADAYFGVDAAARPLRYNSIIVEGDSRTGKTM  105 (106)
+T ss_pred             CCCHHHHHHHHHhcccchhhCccCCCeEEEEcCCCccccC
+Confidence            3456778888741        1234679999999999996
+
+
+No 81
+>PF13604.6 ; AAA_30 ; AAA domain
+Probab=91.69  E-value=0.0035  Score=39.99  Aligned_cols=17  Identities=0%  Similarity=0.000  Sum_probs=15.3  Template_Neff=11.400
+
+Q KIJ93417.1       83 -----------------   82 (82)
+Q Consensus       123 lWl~G~aG~GKStia~~  139 (141)
+                      ++|.|++|+|||+++..
+T Consensus        19 ~~i~G~~G~GKT~~~~~   35 (213)
+T W5X2D2_BDEBC/7   19 VFLTGGAGSGKSFLIRH   35 (213)
+T ss_pred             EEEECCCCCCHHHHHHH
+Confidence            88999999999999764
+
+
+No 82
+>PF08423.11 ; Rad51 ; Rad51
+Probab=91.41  E-value=0.004  Score=40.73  Aligned_cols=20  Identities=0%  Similarity=-0.048  Sum_probs=17.3  Template_Neff=11.500
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      ..+++|.|++|+|||+++..
+T Consensus        37 g~~~~i~G~~g~GKT~l~~~   56 (255)
+T C4M4K4_ENTHI/1   37 GSITELFGEFRTGKTQLCHQ   56 (255)
+T ss_pred             cEEEEEEcCCCCCHHHHHHH
+Confidence            46899999999999998753
+
+
+No 83
+>PF00580.21 ; UvrD-helicase ; UvrD/REP helicase N-terminal domain
+Probab=91.13  E-value=0.0046  Score=39.96  Aligned_cols=18  Identities=0%  Similarity=0.008  Sum_probs=15.8  Template_Neff=11.700
+
+Q KIJ93417.1       82 P-----------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~  138 (141)
+                      ..+.|.|+||+|||+++.
+T Consensus        14 ~~~li~g~~GtGKT~~~~   31 (245)
+T O66983_AQUAE/3   14 SPLLVVAGAGSGKTKTLT   31 (245)
+T ss_pred             CCEEEEeCCCCCHHHHHH
+Confidence            578999999999999865
+
+
+No 84
+>PF00437.20 ; T2SSE ; Type II/IV secretion system protein
+Probab=91.07  E-value=0.0048  Score=41.64  Aligned_cols=20  Identities=0%  Similarity=-0.051  Sum_probs=17.1  Template_Neff=10.400
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      ...++|.|++|+|||+++..
+T Consensus       130 ~~~ili~G~~gsGKTtll~~  149 (268)
+T A0KPV7_AERHH/1  130 QGMILVTGPTGSGKTVSLYT  149 (268)
+T ss_pred             CcEEEEECCCCCCHHHHHHH
+Confidence            45889999999999998753
+
+
+No 85
+>PF13086.6 ; AAA_11 ; AAA domain
+Probab=90.95  E-value=0.0049  Score=38.27  Aligned_cols=16  Identities=0%  Similarity=0.000  Sum_probs=14.1  Template_Neff=12.500
+
+Q KIJ93417.1       83 ----------------   82 (82)
+Q Consensus       123 lWl~G~aG~GKStia~  138 (141)
+                      ++|.|++|+|||+++.
+T Consensus        19 ~~i~g~~GsGKT~~~~   34 (221)
+T Q5K8R4_CRYNJ/4   19 SLVQGPPGTGKTRVIV   34 (221)
+T ss_pred             eEEECCCCCCHHHHHH
+Confidence            8899999999998764
+
+
+No 86
+>PF03796.15 ; DnaB_C ; DnaB-like helicase C terminal domain
+Probab=90.90  E-value=0.0051  Score=40.64  Aligned_cols=20  Identities=0%  Similarity=-0.028  Sum_probs=17.4  Template_Neff=11.200
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      ..++.|.|++|+|||+++..
+T Consensus        19 g~~~~i~G~~g~GKT~l~~~   38 (263)
+T Q1IIS7_KORVE/1   19 SDLIIIAARPSMGKTAFAMN   38 (263)
+T ss_pred             CcEEEEEeCCCCCHHHHHHH
+Confidence            45899999999999999854
+
+
+No 87
+>PF00154.21 ; RecA ; recA bacterial DNA recombination protein
+Probab=90.78  E-value=0.0056  Score=41.66  Aligned_cols=21  Identities=0%  Similarity=-0.114  Sum_probs=17.8  Template_Neff=9.800
+
+Q KIJ93417.1       80 DVP------------------   82 (82)
+Q Consensus       119 ~~~ilWl~G~aG~GKStia~~  139 (141)
+                      ...++.|+|++|+|||+|+.+
+T Consensus        51 ~G~i~~i~G~~GsGKTtlal~   71 (262)
+T RECA_HAEIN/9-2   51 MGRIVEIFGPESSGKTTLTLS   71 (262)
+T ss_pred             CCeEEEEECCCCCCHHHHHHH
+Confidence            346999999999999999753
+
+
+No 88
+>PF02492.19 ; cobW ; CobW/HypB/UreG, nucleotide-binding domain
+Probab=90.69  E-value=0.0056  Score=37.56  Aligned_cols=18  Identities=0%  Similarity=0.000  Sum_probs=15.7  Template_Neff=11.600
+
+Q KIJ93417.1       83 ------------------   82 (82)
+Q Consensus       122 ilWl~G~aG~GKStia~~  139 (141)
+                      ++.+.|+.|+|||+++..
+T Consensus         2 ~i~v~G~~gsGKSTli~~   19 (178)
+T Q9ABB0_CAUVC/1    2 VTVLTGYLGAGKTTLLNR   19 (178)
+T ss_pred             eEEEECCCCCCHHHHHHH
+Confidence            678899999999999764
+
+
+No 89
+>PF06048.11 ; DUF927 ; Domain of unknown function (DUF927)
+Probab=90.61  E-value=0.006  Score=41.95  Aligned_cols=19  Identities=0%  Similarity=-0.085  Sum_probs=16.9  Template_Neff=9.900
+
+Q KIJ93417.1       81 VP-----------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~  138 (141)
+                      ..+++|+|+.|+|||++++
+T Consensus       188 ~~~l~l~G~sgsGKTt~~~  206 (286)
+T Q5FS17_GLUOX/4  188 GGGISFKGSSRLGKSTALR  206 (286)
+T ss_pred             ccEEEEecCCCCChHHHHH
+Confidence            4589999999999999985
+
+
+No 90
+>PF07088.11 ; GvpD ; GvpD gas vesicle protein
+Probab=90.60  E-value=0.0061  Score=45.80  Aligned_cols=20  Identities=0%  Similarity=-0.063  Sum_probs=17.6  Template_Neff=9.400
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      ..+++|.|++|+|||+|+..
+T Consensus        10 G~~vlI~G~~GsGKTtLa~~   29 (514)
+T GVPD1_HALSA/23   10 GETLLINGAPGTGKTLFTIR   29 (514)
+T ss_pred             CeEEEEEcCCCCCHHHHHHH
+Confidence            46899999999999999864
+
+
+No 91
+>PF01926.23 ; MMR_HSR1 ; 50S ribosome-binding GTPase
+Probab=90.55  E-value=0.0062  Score=36.45  Aligned_cols=17  Identities=0%  Similarity=0.000  Sum_probs=14.6  Template_Neff=9.400
+
+Q KIJ93417.1       83 -----------------   82 (82)
+Q Consensus       123 lWl~G~aG~GKStia~~  139 (141)
+                      +.|.|+.|+|||+|++.
+T Consensus         2 i~lvG~~g~GKSTli~~   18 (116)
+T Q7RM81_PLAYO/1    2 CMLIGLPNVGKSSIINS   18 (116)
+T ss_pred             EEEECCCCCCHHHHHHH
+Confidence            46899999999999764
+
+
+No 92
+>PF07475.12 ; Hpr_kinase_C ; HPr Serine kinase C-terminal domain
+Probab=90.44  E-value=0.0066  Score=39.06  Aligned_cols=19  Identities=0%  Similarity=-0.054  Sum_probs=16.6  Template_Neff=8.700
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      ..+.|.|+.|+|||+++..
+T Consensus        15 ~~vl~~G~sG~GKSTla~~   33 (164)
+T Q3J7F3_NITOC/1   15 CGVLLTGENSVGKSSLALE   33 (164)
+T ss_pred             EEEEEECCCCCCHHHHHHH
+Confidence            4788999999999999864
+
+
+No 93
+>PF02562.16 ; PhoH ; PhoH-like protein
+Probab=89.15  E-value=0.0097  Score=36.55  Aligned_cols=18  Identities=0%  Similarity=-0.013  Sum_probs=15.6  Template_Neff=12.200
+
+Q KIJ93417.1       82 P-----------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~  138 (141)
+                      ..++|.|++|+|||+++.
+T Consensus        20 ~~~~i~g~~GsGKT~~~~   37 (205)
+T Q82SI8_NITEU/1   20 DITFGIGPAGTGKTYLAV   37 (205)
+T ss_pred             CEEEEECCCCCCHHHHHH
+Confidence            478899999999998864
+
+
+No 94
+>PF00488.21 ; MutS_V ; MutS domain V
+Probab=89.13  E-value=0.01  Score=37.07  Aligned_cols=16  Identities=0%  Similarity=0.000  Sum_probs=14.0  Template_Neff=11.000
+
+Q KIJ93417.1       83 ----------------   82 (82)
+Q Consensus       124 Wl~G~aG~GKStia~~  139 (141)
+                      .|.|+.|+|||+|++.
+T Consensus         2 ~i~G~~g~GKstll~~   17 (186)
+T MUTS_BORBU/604    2 LITGPNMAGKSTYLRQ   17 (186)
+T ss_pred             eEECCCCCCHHHHHHH
+Confidence            5889999999999864
+
+
+No 95
+>PF10662.9 ; PduV-EutP ; Ethanolamine utilisation - propanediol utilisation
+Probab=88.92  E-value=0.011  Score=34.43  Aligned_cols=18  Identities=0%  Similarity=0.000  Sum_probs=15.4  Template_Neff=11.900
+
+Q KIJ93417.1       83 ------------------   82 (82)
+Q Consensus       122 ilWl~G~aG~GKStia~~  139 (141)
+                      .+.|.|++|+|||+|+++
+T Consensus         3 ~i~v~G~~~~GKs~l~~~   20 (143)
+T Q8XLZ6_CLOPE/1    3 RVIFMGKTGCGKTTLCQA   20 (143)
+T ss_pred             eEEEECCCCCCHHHHHHH
+Confidence            467889999999999865
+
+
+No 96
+>PF08477.13 ; Roc ; Ras of Complex, Roc, domain of DAPkinase
+Probab=88.38  E-value=0.013  Score=33.62  Aligned_cols=17  Identities=0%  Similarity=0.000  Sum_probs=14.7  Template_Neff=10.900
+
+Q KIJ93417.1       83 -----------------   82 (82)
+Q Consensus       123 lWl~G~aG~GKStia~~  139 (141)
+                      ++|.|+.|+|||+++.+
+T Consensus         2 i~v~G~~~~GKSs~~~~   18 (115)
+T A2G412_TRIVA/9    2 IVMLGNSGVGKTALVER   18 (115)
+T ss_pred             EEEECCCCCCHHHHHHH
+Confidence            56899999999999864
+
+
+No 97
+>PF05049.13 ; IIGP ; Interferon-inducible GTPase (IIGP)
+Probab=88.26  E-value=0.014  Score=41.73  Aligned_cols=35  Identities=6%  Similarity=0.022  Sum_probs=22.3  Template_Neff=9.600
+
+Q KIJ93417.1       66 LIDTIKKWVDTKGRDVP------------------   82 (82)
+Q Consensus       105 il~~i~~W~~~~~~~~~ilWl~G~aG~GKStia~~  139 (141)
+                      +++.|.+.+........-+.|.|.+|+|||+|+..
+T Consensus        20 ~~~~i~~~l~~~~~~~~~IaivG~~n~GKSsLiN~   54 (374)
+T TGTP1_MOUSE/22   20 AVSVIEKVLRDIESAPLHIAVTGETGAGKSTFINT   54 (374)
+T ss_pred             HHHHHHHHHHhhhcCCeEEEEECCCCCCHHHHHHH
+Confidence            33444443432222334688999999999999864
+
+
+No 98
+>PF01202.22 ; SKI ; Shikimate kinase
+Probab=88.24  E-value=0.013  Score=34.20  Aligned_cols=11  Identities=0%  Similarity=0.000  Sum_probs=9.5  Template_Neff=12.200
+
+Q KIJ93417.1       83 -----------   82 (82)
+Q Consensus       129 aG~GKStia~~  139 (141)
+                      +|+|||++++.
+T Consensus         1 pGsGKsT~a~~   11 (155)
+T Q818L7_BACCR/1    1 MGAGKTTIGKA   11 (155)
+T ss_pred             CCCCHHHHHHH
+Confidence            69999999874
+
+
+No 99
+>PF00350.23 ; Dynamin_N ; Dynamin family
+Probab=88.17  E-value=0.013  Score=34.85  Aligned_cols=16  Identities=0%  Similarity=0.000  Sum_probs=13.7  Template_Neff=12.500
+
+Q KIJ93417.1       83 ----------------   82 (82)
+Q Consensus       124 Wl~G~aG~GKStia~~  139 (141)
+                      .|.|+.|+|||+|++.
+T Consensus         2 ~v~G~~gsGKStll~~   17 (182)
+T DYNA_DICDI/28-    2 VVVGSQSSGKSSVLEN   17 (182)
+T ss_pred             EEEcCCCCChhHHHHH
+Confidence            5789999999999864
+
+
+No 100
+>PF13337.6 ; Lon_2 ; Putative ATP-dependent Lon protease
+Probab=88.17  E-value=0.014  Score=43.37  Aligned_cols=19  Identities=0%  Similarity=-0.054  Sum_probs=16.6  Template_Neff=8.600
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      .-++++|++|+|||.+++.
+T Consensus       207 ~~ill~GppGTGKT~la~~  225 (455)
+T R6C0I5_9CLOT/1  207 YNMCELGPRGTGKSHIYKE  225 (455)
+T ss_pred             CcEEEeCCCCCCHHHHHHH
+Confidence            4688999999999999864
+
+
+No 101
+>PF13654.6 ; AAA_32 ; AAA domain
+Probab=87.57  E-value=0.016  Score=42.13  Aligned_cols=34  Identities=3%  Similarity=-0.020  Sum_probs=22.1  Template_Neff=10.900
+
+Q KIJ93417.1       66 LIDTIKKWVDTKGRDVP------------------   82 (82)
+Q Consensus       105 il~~i~~W~~~~~~~~~ilWl~G~aG~GKStia~~  139 (141)
+                      +++.+..++.... ....++++|++|+||+++++.
+T Consensus        16 ~~~~l~~~~~~~~-~~~~~ll~G~~G~GK~~~a~~   49 (517)
+T Q3A5T7_PELCD/2   16 ALTAIEFGLSIDS-NGFNIFVLGESGTGRSSTIKR   49 (517)
+T ss_pred             HHHHHHHHhcCCC-CCCEEEEECCCCCChHHHHHH
+Confidence            3344444443221 234678999999999999864
+
+
+No 102
+>PF13304.6 ; AAA_21 ; AAA domain, putative AbiEii toxin, Type IV TA system
+Probab=87.48  E-value=0.016  Score=36.92  Aligned_cols=18  Identities=0%  Similarity=0.000  Sum_probs=15.3  Template_Neff=12.600
+
+Q KIJ93417.1       83 ------------------   82 (82)
+Q Consensus       122 ilWl~G~aG~GKStia~~  139 (141)
+                      +.+|.|+-|+|||+|++.
+T Consensus         1 i~~lvG~NgsGKStll~a   18 (280)
+T E6U5N6_ETHHY/4    1 KTIVYGKNSVGKSNLGLA   18 (280)
+T ss_pred             CeeEECCCCCChhHHHHH
+Confidence            357899999999999864
+
+
+No 103
+>PF01078.21 ; Mg_chelatase ; Magnesium chelatase, subunit ChlI
+Probab=87.48  E-value=0.017  Score=37.52  Aligned_cols=19  Identities=0%  Similarity=-0.019  Sum_probs=16.4  Template_Neff=9.900
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      ..+.|.|+.|+|||+|++.
+T Consensus        23 ~~~~i~G~~GsGKStll~~   41 (208)
+T Q8R9X6_CALS4/1   23 HNVLMIGPPGSGKTMLARR   41 (208)
+T ss_pred             CEEEEECCCCCCHHHHHHH
+Confidence            4688999999999999864
+
+
+No 104
+>PF04310.12 ; MukB ; MukB N-terminal
+Probab=87.37  E-value=0.017  Score=37.61  Aligned_cols=19  Identities=0%  Similarity=-0.040  Sum_probs=16.5  Template_Neff=10.300
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      .++.|.|+.|+|||+|+..
+T Consensus        27 ~~~~l~G~nGsGKStll~~   45 (224)
+T MUKB_ACTP2/31-   27 LVTTLSGGNGAGKSTTMAG   45 (224)
+T ss_pred             cEEEEECCCCCCHHHHHHH
+Confidence            5889999999999998753
+
+
+No 105
+>PF02367.17 ; TsaE ; Threonylcarbamoyl adenosine biosynthesis protein TsaE
+Probab=87.21  E-value=0.019  Score=35.71  Aligned_cols=20  Identities=0%  Similarity=-0.066  Sum_probs=17.0  Template_Neff=7.700
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      ..++.|.|+.|+|||++++.
+T Consensus        17 g~~~~l~G~~GsGKstl~~~   36 (129)
+T C0QXH7_BRAHW/1   17 GDIVIMEGNLGFGKTTFVRI   36 (129)
+T ss_pred             CCEEEEECCCCCcHHHHHHH
+Confidence            45889999999999998753
+
+
+No 106
+>PF02421.18 ; FeoB_N ; Ferrous iron transport protein B
+Probab=87.14  E-value=0.017  Score=33.24  Aligned_cols=17  Identities=0%  Similarity=0.000  Sum_probs=14.4  Template_Neff=12.400
+
+Q KIJ93417.1       83 -----------------   82 (82)
+Q Consensus       123 lWl~G~aG~GKStia~~  139 (141)
+                      +++.|+.|+|||+|++.
+T Consensus         2 i~v~G~~~~GKtsli~~   18 (152)
+T A5VJX9_LACRD/2    2 VALIGNPNTGKTTLFNT   18 (152)
+T ss_pred             EEEECCCCCCHHHHHHH
+Confidence            46789999999999864
+
+
+No 107
+>PF17213.3 ; Hydin_ADK ; Hydin Adenylate kinase-like domain
+Probab=87.07  E-value=0.02  Score=38.62  Aligned_cols=18  Identities=0%  Similarity=0.000  Sum_probs=15.4  Template_Neff=7.100
+
+Q KIJ93417.1       83 ------------------   82 (82)
+Q Consensus       122 ilWl~G~aG~GKStia~~  139 (141)
+                      +++|.|++|+|||+++..
+T Consensus         1 vIiI~G~PgsGKStlA~~   18 (203)
+T F6ZLU4_XENTR/1    1 AIIVHGAPLTGKSSAAVT   18 (203)
+T ss_pred             CEEEECCCCCCHHHHHHH
+Confidence            468999999999998764
+
+
+No 108
+>PF03193.16 ; RsgA_GTPase ; RsgA GTPase
+Probab=86.86  E-value=0.019  Score=35.04  Aligned_cols=19  Identities=0%  Similarity=-0.003  Sum_probs=16.6  Template_Neff=11.200
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      .++++.|+.|+|||+|+..
+T Consensus       107 ~~~~~~g~~g~GKstl~~~  125 (174)
+T RSGA_NITEU/68-  107 QTSLLAGQSGVGKSTLLNA  125 (174)
+T ss_pred             CEEEEECCCCCCHHHHHHH
+Confidence            5789999999999998753
+
+
+No 109
+>PF16575.5 ; CLP1_P ; mRNA cleavage and polyadenylation factor CLP1 P-loop
+Probab=86.81  E-value=0.019  Score=35.30  Aligned_cols=13  Identities=0%  Similarity=0.000  Sum_probs=11.3  Template_Neff=11.300
+
+Q KIJ93417.1       83 -------------   82 (82)
+Q Consensus       127 G~aG~GKStia~~  139 (141)
+                      |+.|+|||++++.
+T Consensus         1 G~~G~GKStl~~~   13 (185)
+T A2DFW6_TRIVA/9    1 GSKSSGKTTLARW   13 (185)
+T ss_pred             CCCcCcHHHHHHH
+Confidence            7899999999863
+
+
+No 110
+>PF12780.7 ; AAA_8 ; P-loop containing dynein motor region D4
+Probab=86.54  E-value=0.021  Score=37.62  Aligned_cols=19  Identities=0%  Similarity=-0.028  Sum_probs=16.2  Template_Neff=10.700
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      ..+.|.|++|+|||++++.
+T Consensus        25 ~~~ll~G~~G~Gkt~l~~~   43 (257)
+T Q23DD7_TETTS/2   25 GHFMSVAVGGSGKKSLSIL   43 (257)
+T ss_pred             CeEEEEcCCCCCHHHHHHH
+Confidence            4678899999999999763
+
+
+No 111
+>PF00071.22 ; Ras ; Ras family
+Probab=86.38  E-value=0.021  Score=33.49  Aligned_cols=17  Identities=0%  Similarity=0.000  Sum_probs=14.5  Template_Neff=12.300
+
+Q KIJ93417.1       83 -----------------   82 (82)
+Q Consensus       123 lWl~G~aG~GKStia~~  139 (141)
+                      +.|.|++|+|||+|++.
+T Consensus         2 i~i~G~~~~GKstl~~~   18 (166)
+T RAB9A_CANLF/9-    2 VILLGDGGVGKSSLMNR   18 (166)
+T ss_pred             EEEECCCCCCHHHHHHH
+Confidence            46789999999999764
+
+
+No 112
+>PF03029.17 ; ATP_bind_1 ; Conserved hypothetical ATP binding protein
+Probab=86.35  E-value=0.021  Score=36.93  Aligned_cols=15  Identities=0%  Similarity=0.000  Sum_probs=12.8  Template_Neff=11.100
+
+Q KIJ93417.1       83 ---------------   82 (82)
+Q Consensus       125 l~G~aG~GKStia~~  139 (141)
+                      |.|+.|+|||+|+..
+T Consensus         1 l~G~~gsGKTTl~~~   15 (246)
+T Q9XW68_CAEEL/7    1 VMGPAGSGKSTYCSV   15 (246)
+T ss_pred             CCCCCCCCHHHHHHH
+Confidence            579999999999854
+
+
+No 113
+>PF03308.16 ; MeaB ; Methylmalonyl Co-A mutase-associated GTPase MeaB
+Probab=85.93  E-value=0.024  Score=37.81  Aligned_cols=20  Identities=0%  Similarity=0.004  Sum_probs=16.7  Template_Neff=10.300
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      ..++.|.|++|+|||+++..
+T Consensus        29 ~~~v~i~G~~gsGKStl~~~   48 (266)
+T Q9RTL3_DEIRA/1   29 ATVLGVTGSPGSGKSTLTDA   48 (266)
+T ss_pred             CEEEEEEcCCCCCHHHHHHH
+Confidence            45788889999999998764
+
+
+No 114
+>PF00693.18 ; Herpes_TK ; Thymidine kinase from herpesvirus
+Probab=85.43  E-value=0.027  Score=38.65  Aligned_cols=13  Identities=0%  Similarity=0.000  Sum_probs=11.6  Template_Neff=9.100
+
+Q KIJ93417.1       83 -------------   82 (82)
+Q Consensus       127 G~aG~GKStia~~  139 (141)
+                      |+.|+||||+++.
+T Consensus         1 G~~GsGKTTla~~   13 (280)
+T KITH_VZVD/19-2    1 GAYGIGKTTAAEE   13 (280)
+T ss_pred             CCCCCCHHHHHHH
+Confidence            7899999999875
+
+
+No 115
+>PF12774.7 ; AAA_6 ; Hydrolytic ATP binding site of dynein motor region
+Probab=85.39  E-value=0.026  Score=37.28  Aligned_cols=14  Identities=0%  Similarity=-0.026  Sum_probs=12.4  Template_Neff=12.000
+
+Q KIJ93417.1       82 P-------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKS  134 (141)
+                      ..+.|+|++|+|||
+T Consensus       314 ~~~ll~G~~GtGKT  327 (327)
+T A0A075B109_9FU  314 HGVMLVGPTGSGKT  327 (327)
+T ss_pred             CEEEEECCCCCCCC
+Confidence            45889999999997
+
+
+No 116
+>PF07652.14 ; Flavi_DEAD ; Flavivirus DEAD domain
+Probab=84.81  E-value=0.029  Score=32.46  Aligned_cols=17  Identities=0%  Similarity=-0.004  Sum_probs=14.4  Template_Neff=11.900
+
+Q KIJ93417.1       82 P----------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia  137 (141)
+                      ..+++.|++|+|||.++
+T Consensus         5 ~~~l~~~~~G~GKT~~~   21 (148)
+T Q32ZD8_9FLAV/1    5 QLIVLDPHPGAGKTRKV   21 (148)
+T ss_pred             CeEEEeCCCCCCHHHHH
+Confidence            46789999999999853
+
+
+No 117
+>PF12631.7 ; MnmE_helical ; MnmE helical domain
+Probab=84.53  E-value=0.032  Score=38.33  Aligned_cols=19  Identities=0%  Similarity=-0.045  Sum_probs=16.4  Template_Neff=10.300
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      ..+.|.|+.|+|||+|+..
+T Consensus        95 ~~i~v~G~~~~GKSsli~~  113 (329)
+T R6NJK7_9FIRM/1   95 IKTVIVGKPNVGKSSLLNS  113 (329)
+T ss_pred             ceEEEECCCCCCHHHHHHH
+Confidence            4678999999999999864
+
+
+No 118
+>PF04548.16 ; AIG1 ; AIG1 family
+Probab=84.45  E-value=0.031  Score=35.02  Aligned_cols=17  Identities=0%  Similarity=0.000  Sum_probs=14.9  Template_Neff=11.400
+
+Q KIJ93417.1       83 -----------------   82 (82)
+Q Consensus       123 lWl~G~aG~GKStia~~  139 (141)
+                      ++|.|.+|+|||+|+..
+T Consensus         3 i~v~G~~~~GKstl~~~   19 (217)
+T IAN10_ARATH/6-    3 IVLVGRTGNGKSSTGNT   19 (217)
+T ss_pred             EEEEcCCCCCHHHHHHH
+Confidence            57899999999999864
+
+
+No 119
+>PF01580.18 ; FtsK_SpoIIIE ; FtsK/SpoIIIE family
+Probab=84.39  E-value=0.032  Score=34.79  Aligned_cols=18  Identities=6%  Similarity=0.140  Sum_probs=16.3  Template_Neff=11.000
+
+Q KIJ93417.1       82 P-----------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~  138 (141)
+                      ..+.|.|+.|+|||++++
+T Consensus        39 ~~~~i~G~~GsGKst~l~   56 (198)
+T SP3E_BACSU/423   39 PHLLVAGATGSGKSVCVN   56 (198)
+T ss_pred             CcEEEEcCCCCCHHHHHH
+Confidence            488999999999999976
+
+
+No 120
+>PF07999.11 ; RHSP ; Retrotransposon hot spot protein
+Probab=83.89  E-value=0.037  Score=40.68  Aligned_cols=33  Identities=9%  Similarity=0.183  Sum_probs=21.4  Template_Neff=8.700
+
+Q KIJ93417.1       66 LIDTIKKWVDTKG-RDVP----------------   82 (82)
+Q Consensus       105 il~~i~~W~~~~~-~~~~ilWl~G~aG~GKStia  137 (141)
+                      +.+.+..|+.... .....++|.|.||+|||..+
+T Consensus       110 v~~~l~~~~~~~~~~~~~~~vv~GtPGIGKS~~~  143 (444)
+T Q8T9M2_9TRYP/2  110 VEERLNQWLMGKLNIDRASNVLIGTPGIGKSFSV  143 (444)
+T ss_pred             HHHHHHHHhcCCCCCCCCceEEEcCCCCChhHHH
+Confidence            3345666765321 12345699999999999964
+
+
+No 121
+>PF03205.14 ; MobB ; Molybdopterin guanine dinucleotide synthesis protein B
+Probab=83.37  E-value=0.038  Score=31.52  Aligned_cols=16  Identities=0%  Similarity=0.000  Sum_probs=13.9  Template_Neff=11.700
+
+Q KIJ93417.1       83 ----------------   82 (82)
+Q Consensus       123 lWl~G~aG~GKStia~  138 (141)
+                      +.|.|+.|+|||+|+.
+T Consensus         2 ~~i~G~~g~GKttl~~   17 (135)
+T Q6DB82_PECAS/8    2 LAIVAYSGTGKTTLLK   17 (135)
+T ss_pred             EEEEeCCCCCHHHHHH
+Confidence            5688999999999875
+
+
+No 122
+>PF00025.21 ; Arf ; ADP-ribosylation factor family
+Probab=83.01  E-value=0.04  Score=33.47  Aligned_cols=19  Identities=0%  Similarity=0.005  Sum_probs=16.3  Template_Neff=11.400
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      --+.|.|+.|+|||+|++.
+T Consensus        15 ~~i~i~G~~~~GKstl~~~   33 (184)
+T SAR1_SCHPO/7-1   15 AKMLFLGLDNAGKTTLLHM   33 (184)
+T ss_pred             cEEEEECCCCCCHHHHHHH
+Confidence            4578899999999999865
+
+
+No 123
+>PF02263.19 ; GBP ; Guanylate-binding protein, N-terminal domain
+Probab=82.20  E-value=0.048  Score=36.50  Aligned_cols=21  Identities=5%  Similarity=0.015  Sum_probs=17.6  Template_Neff=9.700
+
+Q KIJ93417.1       80 DVP------------------   82 (82)
+Q Consensus       119 ~~~ilWl~G~aG~GKStia~~  139 (141)
+                      ...++.|.|+.|+|||+|+..
+T Consensus        20 ~~~~v~vvG~~~sGKStlln~   40 (263)
+T GBP2_HUMAN/18-   20 PVVVVAIVGLYRTGKSYLMNK   40 (263)
+T ss_pred             CeEEEEEECCCCCCHHHHHHH
+Confidence            346889999999999998753
+
+
+No 124
+>PF00009.27 ; GTP_EFTU ; Elongation factor Tu GTP binding domain
+Probab=81.41  E-value=0.053  Score=36.13  Aligned_cols=19  Identities=0%  Similarity=-0.016  Sum_probs=16.0  Template_Neff=10.200
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      ..++|.|..|+|||+|+..
+T Consensus         4 ~~i~viG~~g~GKTtLi~~   22 (276)
+T EFG1_BORBU/4-2    4 RNIGISAHIDSGKTTLTER   22 (276)
+T ss_pred             eEEEEEcCCCCCHHHHHHH
+Confidence            4678899999999998754
+
+
+No 125
+>PF11602.8 ; NTPase_P4 ; ATPase P4 of dsRNA bacteriophage phi-12
+Probab=80.23  E-value=0.064  Score=37.37  Aligned_cols=20  Identities=0%  Similarity=-0.043  Sum_probs=17.3  Template_Neff=9.100
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      ..++.|.|+.|+|||+|++.
+T Consensus       122 Gei~~i~G~~GsGKStLl~~  141 (328)
+T Q94M05_9VIRU/2  122 SGMVIVTGKGNSGKTPLVHA  141 (328)
+T ss_pred             CCEEEEECCCCCCHHHHHHH
+Confidence            45899999999999999763
+
+
+No 126
+>PF05783.11 ; DLIC ; Dynein light intermediate chain (DLIC)
+Probab=80.01  E-value=0.068  Score=39.71  Aligned_cols=20  Identities=0%  Similarity=-0.046  Sum_probs=17.2  Template_Neff=8.000
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      ...+.|.|..|+|||+|+..
+T Consensus        25 ~~~vlvlG~~gsGKTTLi~~   44 (469)
+T Q16RB5_AEDAE/2   25 NKSVLVLGDNASGKTTLIAK   44 (469)
+T ss_pred             CCEEEEEcCCCcChHHHHHH
+Confidence            35788999999999999865
+
+
+No 127
+>PF02456.15 ; Adeno_IVa2 ; Adenovirus IVa2 protein
+Probab=79.69  E-value=0.07  Score=38.01  Aligned_cols=18  Identities=0%  Similarity=0.000  Sum_probs=14.8  Template_Neff=8.600
+
+Q KIJ93417.1       83 ------------------   82 (82)
+Q Consensus       122 ilWl~G~aG~GKStia~~  139 (141)
+                      +..|+|+.|+|||+|++.
+T Consensus        82 i~vI~G~nGsGKSTLL~~   99 (364)
+T Q9III4_ADEF1/1   82 IGIISGPTGTGKSQLIRN   99 (364)
+T ss_pred             EEEEECCCCCcHHHHHHH
+Confidence            444779999999999864
+
+
+No 128
+>PF03215.15 ; Rad17 ; Rad17 P-loop domain
+Probab=78.70  E-value=0.077  Score=33.08  Aligned_cols=20  Identities=0%  Similarity=-0.048  Sum_probs=17.0  Template_Neff=9.900
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      ..+++|.|+.|+|||++++.
+T Consensus        45 g~~~~l~G~~gsGKs~ll~~   64 (180)
+T RAD24_YEAST/58   45 HRILLLSGPSGCSKSTVIKE   64 (180)
+T ss_pred             CcEEEEECCCCCCHHHHHHH
+Confidence            35889999999999998753
+
+
+No 129
+>PF01935.17 ; DUF87 ; Helicase HerA, central domain
+Probab=78.62  E-value=0.078  Score=34.11  Aligned_cols=19  Identities=0%  Similarity=-0.010  Sum_probs=16.3  Template_Neff=10.000
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      +.+.|.|..|+|||.++..
+T Consensus        26 ~h~~I~G~tGsGKS~~~~~   44 (220)
+T A5FDM3_FLAJ1/1   26 KHFAIVGSTGSGKSHTVAK   44 (220)
+T ss_pred             CeEEEECCCCCCHHHHHHH
+Confidence            5678999999999998753
+
+
+No 130
+>PF01293.20 ; PEPCK_ATP ; Phosphoenolpyruvate carboxykinase
+Probab=78.60  E-value=0.079  Score=38.59  Aligned_cols=19  Identities=0%  Similarity=-0.012  Sum_probs=16.6  Template_Neff=9.200
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      +.++|.|+.|+|||||+..
+T Consensus       208 ~~il~~G~SG~GKSTla~~  226 (463)
+T C1F3S9_ACIC5/1  208 DTALFFGLSGTGKTTLSAD  226 (463)
+T ss_pred             cEEEEEeCCCCCccchhcC
+Confidence            5789999999999999864
+
+
+No 131
+>PF13166.6 ; AAA_13 ; AAA domain
+Probab=78.46  E-value=0.08  Score=40.71  Aligned_cols=20  Identities=0%  Similarity=-0.069  Sum_probs=17.5  Template_Neff=9.700
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      .++.+|+|+-|+|||||++.
+T Consensus        18 ~~~n~I~G~NGsGKSTl~~~   37 (753)
+T D0IX16_COMT2/1   18 GRYNVIYGWNGAGKTTLSML   37 (753)
+T ss_pred             CceEEEECCCCCcHHHHHHH
+Confidence            46889999999999999863
+
+
+No 132
+>PF00735.18 ; Septin ; Septin
+Probab=77.51  E-value=0.088  Score=35.39  Aligned_cols=18  Identities=0%  Similarity=0.000  Sum_probs=15.4  Template_Neff=10.200
+
+Q KIJ93417.1       83 ------------------   82 (82)
+Q Consensus       122 ilWl~G~aG~GKStia~~  139 (141)
+                      .+.|.|+.|+|||+|+..
+T Consensus         6 ~I~vvG~~g~GKSTlin~   23 (303)
+T CDC3_YEAST/116    6 NLLCVGPDGIGKTTLMKT   23 (303)
+T ss_pred             EEEEECCCCCCHHHHHHH
+Confidence            467899999999999764
+
+
+No 133
+>PF04670.12 ; Gtr1_RagA ; Gtr1/RagA G protein conserved region
+Probab=77.23  E-value=0.089  Score=32.97  Aligned_cols=17  Identities=0%  Similarity=0.000  Sum_probs=14.3  Template_Neff=11.400
+
+Q KIJ93417.1       83 -----------------   82 (82)
+Q Consensus       123 lWl~G~aG~GKStia~~  139 (141)
+                      ++|.|.+|+|||+|++.
+T Consensus         2 I~~vG~~~~GKssli~~   18 (233)
+T Q6CHD2_YARLI/8    2 LLLMGRSGSGKSSMRSI   18 (233)
+T ss_pred             EEEECCCCCCHHHHHHH
+Confidence            46789999999999764
+
+
+No 134
+>PF13514.6 ; AAA_27 ; AAA domain
+Probab=76.76  E-value=0.096  Score=32.99  Aligned_cols=19  Identities=0%  Similarity=-0.043  Sum_probs=16.3  Template_Neff=10.300
+
+Q KIJ93417.1       81 VP-----------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~  138 (141)
+                      ..+..|.|+-|+|||+|+.
+T Consensus        26 ~~~~~i~G~nGsGKStll~   44 (205)
+T Q1GX47_SPHAL/1   26 PDLHLVMGPNEAGKSTMLE   44 (205)
+T ss_pred             CCeEEEECCCCCCHHHHHH
+Confidence            3578899999999999875
+
+
+No 135
+>PF02689.14 ; Herpes_Helicase ; Helicase
+Probab=76.63  E-value=0.11  Score=41.34  Aligned_cols=20  Identities=0%  Similarity=0.009  Sum_probs=17.5  Template_Neff=7.000
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      ..++.|.|++|+|||+|++.
+T Consensus        53 Geiv~I~G~~GSGKSTLL~~   72 (775)
+T HELI_HHV8P/14-   53 FSAYVITGTAGAGKSTSVSA   72 (775)
+T ss_pred             CcEEEEEcCCCCCHHHHHHH
+Confidence            45899999999999999864
+
+
+No 136
+>PF09439.10 ; SRPRB ; Signal recognition particle receptor beta subunit
+Probab=76.45  E-value=0.099  Score=32.31  Aligned_cols=19  Identities=5%  Similarity=0.133  Sum_probs=15.5  Template_Neff=10.500
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      ..+.|.|++|+|||+|+..
+T Consensus         4 ~~v~i~G~~~~GKtsll~~   22 (189)
+T Q6FUX9_CANGA/4    4 PTIIIAGPSYSGKTSLFHK   22 (189)
+T ss_pred             CEEEEECCCCCCHHHHHHH
+Confidence            3566889999999998764
+
+
+No 137
+>PF10412.9 ; TrwB_AAD_bind ; Type IV secretion-system coupling protein DNA-binding domain
+Probab=76.32  E-value=0.098  Score=35.10  Aligned_cols=19  Identities=0%  Similarity=-0.028  Sum_probs=15.9  Template_Neff=11.800
+
+Q KIJ93417.1       81 VP-----------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~  138 (141)
+                      ..-++|.|+.|+|||+++.
+T Consensus        15 ~~h~~i~G~tGsGKT~~~~   33 (385)
+T Q3HKI7_RHOS4/1   15 EAQTGIFGTVGVGKTNAIK   33 (385)
+T ss_pred             hcCEEEEcCCCCcHHHHHH
+Confidence            3467899999999999864
+
+
+No 138
+>PF13555.6 ; AAA_29 ; P-loop containing region of AAA domain
+Probab=76.01  E-value=0.1  Score=25.75  Aligned_cols=17  Identities=0%  Similarity=0.000  Sum_probs=15.2  Template_Neff=10.400
+
+Q KIJ93417.1       83 -----------------   82 (82)
+Q Consensus       122 ilWl~G~aG~GKStia~  138 (141)
+                      ++++.|+.|.|||+++.
+T Consensus        25 ~~~i~G~~~~gKs~~~~   41 (60)
+T Q02A80_SOLUE/2   25 NALLTGDIGSGKSTLVD   41 (60)
+T ss_pred             EEEEEeCCCCCHHHHHH
+Confidence            78899999999999875
+
+
+No 139
+>PF02374.15 ; ArsA_ATPase ; Anion-transporting ATPase
+Probab=75.89  E-value=0.11  Score=34.44  Aligned_cols=18  Identities=0%  Similarity=-0.009  Sum_probs=15.2  Template_Neff=10.400
+
+Q KIJ93417.1       82 P-----------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~  138 (141)
+                      +++++.|..|+|||+++.
+T Consensus         2 ~i~v~~~kgGvGKTt~a~   19 (283)
+T ARSA_HALSA/19-    2 EFVFFSGKGGVGKSTVSC   19 (283)
+T ss_pred             eEEEEecCCCCCHHHHHH
+Confidence            467888999999999864
+
+
+No 140
+>PF03618.14 ; Kinase-PPPase ; Kinase/pyrophosphorylase
+Probab=75.34  E-value=0.12  Score=35.51  Aligned_cols=18  Identities=0%  Similarity=0.000  Sum_probs=15.7  Template_Neff=7.000
+
+Q KIJ93417.1       83 ------------------   82 (82)
+Q Consensus       122 ilWl~G~aG~GKStia~~  139 (141)
+                      -++|.|..|+|||+++..
+T Consensus       139 diii~GvSrtgKTpls~~  156 (256)
+T F0SVC7_SYNGF/8  139 DVVLIGVSRTSKTPLSMY  156 (256)
+T ss_pred             CEEEEcCCCCCCCHHHHH
+Confidence            578999999999999854
+
+
+No 141
+>PF12846.7 ; AAA_10 ; AAA-like domain
+Probab=75.30  E-value=0.11  Score=34.83  Aligned_cols=18  Identities=0%  Similarity=-0.042  Sum_probs=15.3  Template_Neff=11.400
+
+Q KIJ93417.1       82 P-----------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~  138 (141)
+                      ..+.|.|+.|+|||+++.
+T Consensus        22 ~h~~i~G~tGsGKT~~~~   39 (362)
+T Q180M9_PEPD6/4   22 LASAFVGSLGGGKSFCNN   39 (362)
+T ss_pred             CceEEEcCCCCCHHHHHH
+Confidence            467889999999999874
+
+
+No 142
+>PF13500.6 ; AAA_26 ; AAA domain
+Probab=75.26  E-value=0.11  Score=30.69  Aligned_cols=17  Identities=0%  Similarity=0.000  Sum_probs=12.1  Template_Neff=12.200
+
+Q KIJ93417.1       83 ------------------   82 (82)
+Q Consensus       123 lWl~G~-aG~GKStia~~  139 (141)
+                      +.+.|. .|+|||+++..
+T Consensus         3 i~v~~~kgg~GkTt~a~~   20 (191)
+T A0L3M2_MAGMM/8    3 VFVTGTDTHVGKSVASAW   20 (191)
+T ss_pred             EEEEeCCCCCCHHHHHHH
+Confidence            444444 89999998753
+
+
+No 143
+>PF13175.6 ; AAA_15 ; AAA ATPase domain
+Probab=73.93  E-value=0.12  Score=34.23  Aligned_cols=18  Identities=0%  Similarity=0.000  Sum_probs=16.4  Template_Neff=12.500
+
+Q KIJ93417.1       83 ------------------   82 (82)
+Q Consensus       122 ilWl~G~aG~GKStia~~  139 (141)
+                      +..|.|+-|+|||+|++.
+T Consensus        26 ~~viiG~NgsGKStlL~a   43 (413)
+T G8THM8_NIAKG/1   26 LTALIGENSVGKSNVLEG   43 (413)
+T ss_pred             cEEEECCCCCCHHHHHHH
+Confidence            889999999999999864
+
+
+No 144
+>PF04466.13 ; Terminase_3 ; Phage terminase large subunit
+Probab=73.74  E-value=0.13  Score=31.08  Aligned_cols=17  Identities=0%  Similarity=0.000  Sum_probs=14.3  Template_Neff=11.700
+
+Q KIJ93417.1       83 -----------------   82 (82)
+Q Consensus       122 ilWl~G~aG~GKStia~  138 (141)
+                      .+++.|+.|.|||+++.
+T Consensus         3 ~~~~~~~rg~GKT~~~~   19 (202)
+T Q65PP9_LACJO/2    3 TEVWYGGASSGKSHGVV   19 (202)
+T ss_pred             EEEEEcCCCCChHHHHH
+Confidence            57889999999998754
+
+
+No 145
+>PF00142.18 ; Fer4_NifH ; 4Fe-4S iron sulfur cluster binding proteins, NifH/frxC family
+Probab=72.87  E-value=0.14  Score=33.12  Aligned_cols=17  Identities=0%  Similarity=0.000  Sum_probs=13.9  Template_Neff=10.900
+
+Q KIJ93417.1       83 -----------------   82 (82)
+Q Consensus       122 ilWl~G~aG~GKStia~  138 (141)
+                      ++.+.|..|+|||+++.
+T Consensus         2 ~i~~~~kgGvGKTt~a~   18 (272)
+T C1DK95_AZOVD/3    2 KVAIYGKGGIGKSTTTQ   18 (272)
+T ss_pred             eEEEEcCCCCCHHHHHH
+Confidence            45677899999999874
+
+
+No 146
+>PF00503.20 ; G-alpha ; G-protein alpha subunit
+Probab=70.57  E-value=0.18  Score=33.99  Aligned_cols=19  Identities=0%  Similarity=-0.045  Sum_probs=16.3  Template_Neff=10.500
+
+Q KIJ93417.1       82 P------------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~~  139 (141)
+                      .-+.|.|..|+|||+|+++
+T Consensus        22 ~~v~v~G~~~sGKstl~~~   40 (336)
+T D2V1X1_NAEGR/1   22 IKLLLLGSGESGKSTLFKQ   40 (336)
+T ss_pred             eEEEEeCCCCccHHHHHHH
+Confidence            3678999999999999864
+
+
+No 147
+>PF09547.10 ; Spore_IV_A ; Stage IV sporulation protein A (spore_IV_A)
+Probab=69.92  E-value=0.2  Score=37.41  Aligned_cols=20  Identities=0%  Similarity=-0.091  Sum_probs=17.2  Template_Neff=7.100
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      ..++.|.|+.|+|||+|++.
+T Consensus        17 Ge~i~IvG~nGSGKSTLik~   36 (492)
+T Q8R9J4_CALS4/1   17 DIYIGVVGPVRTGKSTFIKR   36 (492)
+T ss_pred             CeEEEEECCCCCCccHHHHH
+Confidence            35889999999999999864
+
+
+No 148
+>PF00005.27 ; ABC_tran ; ABC transporter
+Probab=67.68  E-value=0.22  Score=28.52  Aligned_cols=20  Identities=0%  Similarity=-0.058  Sum_probs=17.0  Template_Neff=11.400
+
+Q KIJ93417.1       81 VP------------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~~  139 (141)
+                      ..++.|.|+.|.|||+|++.
+T Consensus        11 g~~~~i~g~~gsgks~ll~~   30 (150)
+T ARAG_ECOLI/23-   11 GQVHALMGENGAGKSTLLKI   30 (150)
+T ss_pred             CcEEEEEcCCCCCHHHHHHH
+Confidence            35889999999999998753
+
+
+No 149
+>PF02534.14 ; T4SS-DNA_transf ; Type IV secretory system Conjugative DNA transfer
+Probab=67.58  E-value=0.22  Score=34.62  Aligned_cols=17  Identities=6%  Similarity=0.149  Sum_probs=14.5  Template_Neff=11.300
+
+Q KIJ93417.1       82 P----------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia  137 (141)
+                      .-++|.|+.|+|||+++
+T Consensus        44 ~h~li~G~tGsGKT~~~   60 (484)
+T VIRD4_AGRRH/97   44 PHSLVVAPTRAGKGVGV   60 (484)
+T ss_pred             CeEEEEcCCCCCCCcee
+Confidence            46788999999999865
+
+
+No 150
+>PF18766.1 ; SWI2_SNF2 ; SWI2/SNF2 ATPase
+Probab=66.90  E-value=0.24  Score=32.27  Aligned_cols=18  Identities=0%  Similarity=-0.053  Sum_probs=14.9  Template_Neff=10.200
+
+Q KIJ93417.1       81 VP----------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia  137 (141)
+                      ...+.|.++.|+|||.++
+T Consensus        51 ~~~~li~~~tGsGKT~~~   68 (267)
+T A0A163UBC4_9BA   51 RRVGVVWHTQGSGKSLTM   68 (267)
+T ss_pred             cceEEEEeCCCCCHHHHH
+Confidence            356789999999999765
+
+
+No 151
+>PF05872.12 ; DUF853 ; Bacterial protein of unknown function (DUF853)
+Probab=63.37  E-value=0.32  Score=35.25  Aligned_cols=18  Identities=0%  Similarity=-0.016  Sum_probs=15.1  Template_Neff=9.800
+
+Q KIJ93417.1       82 P-----------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~  138 (141)
+                      +-++|.|..|+|||+++.
+T Consensus        22 ~H~lI~G~tGsGKT~~l~   39 (532)
+T Q8XXC6_RALSO/3   22 RHGLITGATGTGKTVTLQ   39 (532)
+T ss_pred             CCEEEEcCCCCCHHHHHH
+Confidence            457889999999999764
+
+
+No 152
+>PF16260.5 ; DUF4914 ; Domain of unknown function (DUF4914)
+Probab=61.40  E-value=0.39  Score=36.67  Aligned_cols=19  Identities=0%  Similarity=-0.096  Sum_probs=16.5  Template_Neff=7.100
+
+Q KIJ93417.1       81 VP-----------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~  138 (141)
+                      ...+++.|+.|+|||+++.
+T Consensus       240 ~~~~l~~G~SGtGKStl~~  258 (615)
+T R6PHL2_9CLOT/1  240 DISILHEGASGSGKSEMLE  258 (615)
+T ss_pred             CeEEEEEecCCCCHHHHHH
+Confidence            3578999999999999984
+
+
+No 153
+>PF13872.6 ; AAA_34 ; P-loop containing NTP hydrolase pore-1
+Probab=61.11  E-value=0.36  Score=31.68  Aligned_cols=18  Identities=0%  Similarity=0.006  Sum_probs=15.1  Template_Neff=10.600
+
+Q KIJ93417.1       82 P-----------------   82 (82)
+Q Consensus       121 ~ilWl~G~aG~GKStia~  138 (141)
+                      ..++|.++.|+|||.++.
+T Consensus        61 ~~~ll~~~tG~GKT~~~~   78 (308)
+T B4MZ70_DROWI/3   61 AGFLLGDGAGVGKGRAIA   78 (308)
+T ss_pred             ceEEecCCCCCCHHHHHH
+Confidence            468899999999998753
+
+
+No 154
+>PF11398.8 ; DUF2813 ; Protein of unknown function (DUF2813)
+Probab=59.80  E-value=0.4  Score=32.20  Aligned_cols=18  Identities=0%  Similarity=0.000  Sum_probs=15.4  Template_Neff=10.300
+
+Q KIJ93417.1       83 ------------------   82 (82)
+Q Consensus       122 ilWl~G~aG~GKStia~~  139 (141)
+                      ...|.|+-|+|||+|++.
+T Consensus        24 ~~~liG~N~sGKS~iL~A   41 (344)
+T A3MYL6_ACTP2/1   24 NMVLIGENAWGKSSLLDA   41 (344)
+T ss_pred             CEEEEcCCCCChHHHHHH
+Confidence            467889999999999864
+
+
+No 155
+>PF03237.15 ; Terminase_6 ; Terminase-like family
+Probab=59.07  E-value=0.41  Score=29.20  Aligned_cols=15  Identities=0%  Similarity=0.000  Sum_probs=12.4  Template_Neff=11.600
+
+Q KIJ93417.1       83 ---------------   82 (82)
+Q Consensus       124 Wl~G~aG~GKStia~  138 (141)
+                      ++.|+.|+|||+++.
+T Consensus         1 ~i~~~rg~GKT~~~~   15 (232)
+T Q835C2_ENTFA/5    1 IIEIPPQHGKSTVIT   15 (232)
+T ss_pred             CeecCCCCChhHHHH
+Confidence            367999999999864
+
+
+No 156
+>PF09818.9 ; ABC_ATPase ; Predicted ATPase of the ABC class
+Probab=58.97  E-value=0.45  Score=34.77  Aligned_cols=18  Identities=0%  Similarity=0.000  Sum_probs=16.2  Template_Neff=7.300
+
+Q KIJ93417.1       83 ------------------   82 (82)
+Q Consensus       122 ilWl~G~aG~GKStia~~  139 (141)
+                      ++.|.|+.|+|||+|++.
+T Consensus       249 iv~IvG~nGsGKSTLL~l  266 (451)
+T B8CX69_HALOH/4  249 VTLIVGGGYHGKSTLLNA  266 (451)
+T ss_pred             EEEEECCCccHHHHHHHH
+Confidence            888999999999999764
+
+
+No 157
+>PF00270.29 ; DEAD ; DEAD/DEAH box helicase
+Probab=58.96  E-value=0.41  Score=27.11  Aligned_cols=16  Identities=0%  Similarity=0.000  Sum_probs=13.3  Template_Neff=12.100
+
+Q KIJ93417.1       83 ----------------   82 (82)
+Q Consensus       122 ilWl~G~aG~GKStia  137 (141)
+                      -+.+.+++|+|||.++
+T Consensus        16 ~~~~~~~~g~GKt~~~   31 (167)
+T YFML_BACSU/28-   16 DVIAESPTGTGKTLAY   31 (167)
+T ss_pred             CEEEECCCCccHHHHH
+Confidence            4678899999999774
+
+
+No 158
+>PF13614.6 ; AAA_31 ; AAA domain
+Probab=55.16  E-value=0.53  Score=27.62  Aligned_cols=18  Identities=0%  Similarity=0.000  Sum_probs=12.4  Template_Neff=11.300
+
+Q KIJ93417.1       83 ------------------   82 (82)
+Q Consensus       122 ilWl~G~aG~GKStia~~  139 (141)
+                      +.++.+.+|+|||+++..
+T Consensus         4 i~v~~~~~g~Gks~~a~~   21 (182)
+T B8E1L2_DICTD/2    4 ISVANQKGGVGKTTTVIN   21 (182)
+T ss_pred             EEEEEcCCCCCHHHHHHH
+Confidence            344455569999998753
+
+
+No 159
+>PF04735.12 ; Baculo_helicase ; Baculovirus DNA helicase
+Probab=52.34  E-value=0.74  Score=37.93  Aligned_cols=19  Identities=0%  Similarity=-0.040  Sum_probs=16.2  Template_Neff=4.300
+
+Q KIJ93417.1       81 VP-----------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~  138 (141)
+                      ...+.|.|.||+|||++..
+T Consensus       906 K~ciyL~g~PnsGKSSf~E  924 (1217)
+T Q8B9G3_NPVR1/5  906 KKAIYMPGEPGSGKSSFFE  924 (1217)
+T ss_pred             ceEEEecCCCCCChHHHHH
+Confidence            3578999999999999864
+
+
+No 160
+>PF03354.15 ; Terminase_1 ; Phage Terminase
+Probab=48.92  E-value=0.78  Score=31.02  Aligned_cols=19  Identities=0%  Similarity=-0.014  Sum_probs=15.8  Template_Neff=11.600
+
+Q KIJ93417.1       81 VP-----------------   82 (82)
+Q Consensus       120 ~~ilWl~G~aG~GKStia~  138 (141)
+                      .+.++|.++.|+|||+++.
+T Consensus        23 ~~~~~~~~~r~~GKT~~~~   41 (467)
+T D5AUT9_RHOCB/7   23 FRSTYHQVGKKNGKTTDTA   41 (467)
+T ss_pred             EEEEEEEecCCCChhHHHH
+Confidence            4578889999999999764
+
+
+No 161
+>PF10609.9 ; ParA ; NUBPL iron-transfer P-loop NTPase
+Probab=48.85  E-value=0.78  Score=28.08  Aligned_cols=18  Identities=0%  Similarity=0.000  Sum_probs=12.7  Template_Neff=11.400
+
+Q KIJ93417.1       83 -------------------   82 (82)
+Q Consensus       122 ilWl~G-~aG~GKStia~~  139 (141)
+                      ++.+.| ..|+|||+++..
+T Consensus         5 iI~v~s~~~g~GkTt~a~~   23 (244)
+T Q2GFH4_EHRCR/1    5 IILISSGKGGVGKSTMAMN   23 (244)
+T ss_pred             EEEEEeCCCCCCHHHHHHH
+Confidence            444544 489999998753
+
+
+No 162
+>PF02463.19 ; SMC_N ; RecF/RecN/SMC N terminal domain
+Probab=48.67  E-value=0.87  Score=37.41  Aligned_cols=18  Identities=0%  Similarity=0.000  Sum_probs=16.3  Template_Neff=7.200
+
+Q KIJ93417.1       83 ------------------   82 (82)
+Q Consensus       122 ilWl~G~aG~GKStia~~  139 (141)
+                      ++.|.||-|+|||+|++.
+T Consensus        26 ~~~IvGpNGSGKSTLLka   43 (1271)
+T SMC4_CAEEL/91-   26 FTSIIGPNGSGKSNLIDS   43 (1271)
+T ss_pred             EEEEECCCCCcHHHHHHH
+Confidence            899999999999999764
+
+
+No 163
+>PF07015.11 ; VirC1 ; VirC1 protein
+Probab=47.81  E-value=0.85  Score=28.29  Aligned_cols=17  Identities=0%  Similarity=0.000  Sum_probs=12.1  Template_Neff=10.500
+
+Q KIJ93417.1       83 -----------------   82 (82)
+Q Consensus       122 ilWl~G~aG~GKStia~  138 (141)
+                      +.++....|+|||+++.
+T Consensus         4 i~v~~~kgG~GKTt~~~   20 (231)
+T Q1M9M0_RHIL3/1    4 VTCCSFKGGAGKTTALM   20 (231)
+T ss_pred             EEEeeCCCCCCHHHHHH
+Confidence            33445567999999864
+
+
+No 164
+>PF06564.12 ; CBP_BcsQ ; Cellulose biosynthesis protein BcsQ
+Probab=46.27  E-value=0.91  Score=27.39  Aligned_cols=17  Identities=0%  Similarity=0.000  Sum_probs=12.4  Template_Neff=11.600
+
+Q KIJ93417.1       83 ------------------   82 (82)
+Q Consensus       122 ilWl~G-~aG~GKStia~  138 (141)
+                      ++.+.| ..|+|||+++.
+T Consensus         3 ii~v~~~~gg~GkT~~a~   20 (235)
+T B4F1A8_PROMH/1    3 LIVLKGLRGGVGTTSITV   20 (235)
+T ss_pred             EEEEEeCCCCCcHHHHHH
+Confidence            444455 88999999874
+
+

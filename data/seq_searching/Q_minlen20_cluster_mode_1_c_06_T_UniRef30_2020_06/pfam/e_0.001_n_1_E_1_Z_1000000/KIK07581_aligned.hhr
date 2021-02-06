@@ -1,0 +1,150 @@
+Query         KIK07581.1
+Match_columns 52
+No_of_seqs    110 out of 110
+Neff          5.7272
+Searched_HMMs 100
+Date          Sat Feb  6 20:03:46 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KIK07581_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KIK07581_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KIK07581_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF05580.12 ; Peptidase_S55 ; S  18.6     6.4  0.0013   21.4   0.0   12    8-19    179-190 (215)
+  2 PF12758.7 ; DUF3813 ; Protein   13.7      10   0.002   16.9   0.0   14   12-25      3-16  (66)
+  3 PF08259.11 ; Periviscerokin ;   13.1      12  0.0022   11.4   0.0    7   45-51      2-8   (11)
+  4 PF01531.16 ; Glyco_transf_11 ;   8.9      16  0.0037   18.3   0.0   22   12-33    226-247 (281)
+  5 PF10636.9 ; hemP ; Hemin uptak   7.6      23  0.0046   13.8   0.0   15   11-25      4-18  (37)
+  6 PF17597.2 ; DUF5493 ; Family o   5.2      42  0.0075   15.4   0.0   17   16-32     44-60  (82)
+  7 PF10894.8 ; DUF2689 ; Protein    4.8      46  0.0084   14.3   0.0   13   16-28     19-31  (57)
+  8 PF13045.6 ; DUF3905 ; Protein    3.9      59   0.011   14.9   0.0   22   12-33     26-47  (84)
+  9 PF04896.12 ; AmoC ; Ammonia mo   3.4      66   0.013   17.2   0.0   15   19-33    130-144 (246)
+ 10 PF05418.11 ; Apo-VLDL-II ; Apo   3.4      70   0.013   14.4   0.0   20    9-28     40-59  (79)
+
+No 1
+>PF05580.12 ; Peptidase_S55 ; SpoIVB peptidase S55
+Probab=18.59  E-value=6.4  Score=21.43  Aligned_cols=12  Identities=8%  Similarity=0.423  Sum_probs=9.6  Template_Neff=5.000
+
+Q KIK07581.1        1 -MRRTSVLNGAR   11 (39)
+Q Consensus         8 ~ms~~~vf~gAh   19 (52)
+                      |||+.|++++-+
+T Consensus       179 GMSGSPI~q~gK  190 (215)
+T A9KMA5_LACP7/2  179 GMSGSPIIQNGK  190 (215)
+T ss_pred             cCCCCcEEECCE
+Confidence            399999998653
+
+
+No 2
+>PF12758.7 ; DUF3813 ; Protein of unknown function (DUF3813)
+Probab=13.70  E-value=10  Score=16.88  Aligned_cols=14  Identities=21%  Similarity=0.266  Sum_probs=10.3  Template_Neff=4.600
+
+Q KIK07581.1        4 TSVLNGARNVVMSG   17 (39)
+Q Consensus        12 ~~vf~gAh~~vis~   25 (52)
+                      -++|+.|+++|-.-
+T Consensus         3 N~LFQqAR~aV~~a   16 (66)
+T E6TXY5_BACCJ/1    3 NRYFQQARSAVEEA   16 (66)
+T ss_pred             cHHHHHHHHHHHHH
+Confidence            46889999887543
+
+
+No 3
+>PF08259.11 ; Periviscerokin ; Periviscerokinin family
+Probab=13.15  E-value=12  Score=11.45  Aligned_cols=7  Identities=14%  Similarity=0.239  Sum_probs=4.0  Template_Neff=1.900
+
+Q KIK07581.1       36 SDAV---   39 (39)
+Q Consensus        45 sd~vIPl   51 (52)
+                      +.+.||+
+T Consensus         2 ssGli~f    8 (11)
+T PVK1_RHYMA/1-1    2 SSGLIPF    8 (11)
+T ss_pred             CCCcccC
+Confidence            3466665
+
+
+No 4
+>PF01531.16 ; Glyco_transf_11 ; Glycosyl transferase family 11
+Probab=8.86  E-value=16  Score=18.34  Aligned_cols=22  Identities=23%  Similarity=0.142  Sum_probs=17.6  Template_Neff=9.400
+
+Q KIK07581.1        4 TSVLNGARNVVMSGSTVNTANT   25 (39)
+Q Consensus        12 ~~vf~gAh~~vis~~t~~~a~~   33 (52)
+                      .-+++.|+++.++++||..-..
+T Consensus       226 ~~lls~c~~~I~s~STFswwaa  247 (281)
+T Q56870_YEREN/2  226 FIGLMCCQDYILSGSTFSWWAA  247 (281)
+T ss_pred             HHHHhcCCCEEECCChHHHHHH
+Confidence            4456889999999999887664
+
+
+No 5
+>PF10636.9 ; hemP ; Hemin uptake protein hemP
+Probab=7.60  E-value=23  Score=13.77  Aligned_cols=15  Identities=20%  Similarity=0.193  Sum_probs=10.4  Template_Neff=4.300
+
+Q KIK07581.1        3 RTSVLNGARNVVMSG   17 (39)
+Q Consensus        11 ~~~vf~gAh~~vis~   25 (52)
+                      +..+|++++.+.|..
+T Consensus         4 s~~L~~~~~~i~I~H   18 (37)
+T D3RW00_ALLVD/2    4 VRSLLGNDPFVMIEH   18 (37)
+T ss_pred             HHHHhCCCCEEEEEE
+Confidence            356778888877754
+
+
+No 6
+>PF17597.2 ; DUF5493 ; Family of unknown function (DUF5493)
+Probab=5.19  E-value=42  Score=15.38  Aligned_cols=17  Identities=24%  Similarity=0.294  Sum_probs=12.6  Template_Neff=1.600
+
+Q KIK07581.1        8 NGARNVVMSGSTVNTAN   24 (39)
+Q Consensus        16 ~gAh~~vis~~t~~~a~   32 (52)
+                      |+-.+++.+.++|+.+-
+T Consensus        44 ~~~TDItFS~StFYla~   60 (82)
+T A82_SSV1/1-82    44 QGYTDIAFSSSTFYLGV   60 (82)
+T ss_pred             cCCCcccccccHHHHhH
+Confidence            77777888888887653
+
+
+No 7
+>PF10894.8 ; DUF2689 ; Protein of unknown function (DUF2689)
+Probab=4.76  E-value=46  Score=14.26  Aligned_cols=13  Identities=23%  Similarity=0.227  Sum_probs=6.2  Template_Neff=1.800
+
+Q KIK07581.1        8 NGARNVVMSGSTV   20 (39)
+Q Consensus        16 ~gAh~~vis~~t~   28 (52)
+                      .+.-|-++++++.
+T Consensus        19 DDF~haVlSNCtT   31 (57)
+T Q93GN7_SALTY/1   19 DDFVKYVISNCTT   31 (57)
+T ss_pred             hHHHHHHHhcCcc
+Confidence            3334455555543
+
+
+No 8
+>PF13045.6 ; DUF3905 ; Protein of unknown function (DUF3905)
+Probab=3.85  E-value=59  Score=14.91  Aligned_cols=22  Identities=23%  Similarity=0.288  Sum_probs=16.2  Template_Neff=2.700
+
+Q KIK07581.1        4 TSVLNGARNVVMSGSTVNTANT   25 (39)
+Q Consensus        12 ~~vf~gAh~~vis~~t~~~a~~   33 (52)
+                      ..-|-+-|.|+|.|+.....++
+T Consensus        26 ~~PFvN~~GVvIGDs~Y~S~nS   47 (84)
+T C5D7F8_GEOSW/8   26 QPPFVNKYGVVIGDSKYNSPNS   47 (84)
+T ss_pred             CCCccCcCCeeecccccCCCCC
+Confidence            4457788999999977666654
+
+
+No 9
+>PF04896.12 ; AmoC ; Ammonia monooxygenase/methane monooxygenase, subunit C
+Probab=3.38  E-value=66  Score=17.24  Aligned_cols=15  Identities=7%  Similarity=0.226  Sum_probs=12.4  Template_Neff=4.300
+
+Q KIK07581.1       11 RNVVMSGSTVNTANT   25 (39)
+Q Consensus        19 h~~vis~~t~~~a~~   33 (52)
+                      |.++|+|+.++-+..
+T Consensus       130 HQv~iRDT~FTPsHi  144 (246)
+T Q3J890_NITOC/6  130 HQTVVRDTDFTPSHI  144 (246)
+T ss_pred             eeecccCCCCCHHHH
+Confidence            889999988887664
+
+
+No 10
+>PF05418.11 ; Apo-VLDL-II ; Apovitellenin I (Apo-VLDL-II)
+Probab=3.36  E-value=70  Score=14.45  Aligned_cols=20  Identities=15%  Similarity=0.219  Sum_probs=15.0  Template_Neff=2.500
+
+Q KIK07581.1        1 MRRTSVLNGARNVVMSGSTV   20 (39)
+Q Consensus         9 ms~~~vf~gAh~~vis~~t~   28 (52)
+                      -..++++.++++|-|...+-
+T Consensus        40 ~~qt~~v~~tRnfli~et~k   59 (79)
+T U3JTV5_FICAL/2   40 TVQSPTVTAARQRIAKEATK   59 (79)
+T ss_pred             HhcCHHHHHHHHHHHHHHHH
+Confidence            45688889999998876543
+
+

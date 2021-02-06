@@ -14,13 +14,13 @@ def hhr_to_df(hhr_path):
 		init_df = pd.DataFrame()
 		for file in os.scandir(hhr_path):
 			if file.path.endswith(".hhr") and file.is_file():
-				hhr_table = pd.read_fwf(file, skiprows=8, nrows=10, header=0, widths=[3, 32, 5, 8, 8, 7, 6, 5, 10, 15])
+				hhr_table = pd.read_fwf(file, skiprows=8, nrows=10, header=0, widths=[3, 32, 5, 8, 8, 7, 6, 5, 10, 16])
 				hhr_table.set_index([pd.Index([os.path.basename(file).rsplit('_', 1)[0]] * hhr_table.shape[0], name='Cluster no'), 'No'], inplace=True)
 				init_df = pd.concat([init_df, hhr_table])
 		hhr_df = init_df
 	elif os.path.isfile(hhr_path):
 		if hhr_path.endswith(".hhr"):
-			hhr_table = pd.read_fwf(hhr_path, skiprows=8, nrows=10, header=0, widths=[3, 32, 5, 8, 8, 7, 6, 5, 10, 15])
+			hhr_table = pd.read_fwf(hhr_path, skiprows=8, nrows=10, header=0, widths=[3, 32, 5, 8, 8, 7, 6, 5, 10, 16])
 			hhr_table.set_index([pd.Index([os.path.basename(hhr_path).rsplit('_', 1)[0]] * hhr_table.shape[0], name='Cluster no'), 'No'], inplace=True)
 			
 			hhr_df = hhr_table
@@ -203,6 +203,8 @@ def main():
 
 	root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 	clu_outs_dir = os.path.join(root_dir, 'data', 'clustering_outputs')
+
+	# EDIT THIS
 	table_path = os.path.join(clu_outs_dir, 'minlen20', 'cluster_mode_1', 'clusters_table.tsv')
 
 	updated_table = update_table_annotations(hhr_df_01, table_path, merge=False)

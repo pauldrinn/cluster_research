@@ -1,0 +1,149 @@
+Query         PCD20296.1
+Match_columns 42
+No_of_seqs    82 out of 82
+Neff          5.75187
+Searched_HMMs 100
+Date          Sat Feb  6 20:05:42 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/PCD20296_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/PCD20296_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/PCD20296_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17108.5 ; HET-S ; N-terminal  13.1      12  0.0022   13.1   0.0   10   18-27     11-20  (23)
+  2 PF18537.1 ; CODH_A_N ; Carbon   12.0      12  0.0025   16.2   0.0   20   14-33      9-28  (90)
+  3 PF18649.1 ; EcpB_C ; EcpB C-te  11.8      12  0.0025   15.7   0.0   16   15-30      4-19  (72)
+  4 PF16211.5 ; Histone_H2A_C ; C-   9.2      16  0.0035   12.0   0.0   13   15-27      5-17  (35)
+  5 PF00132.24 ; Hexapep ; Bacteri   7.9      19  0.0044   10.9   0.0    8   17-24      5-12  (36)
+  6 PF06376.12 ; AGP ; Arabinogala   7.4      25  0.0048   13.0   0.0   10   17-26      8-17  (33)
+  7 PF12573.8 ; OxoDH_E1alpha_N ;    6.6      28  0.0056   12.8   0.0   10   29-38      5-14  (41)
+  8 PF10915.8 ; DUF2709 ; Protein    6.3      32  0.0058   18.0   0.0   20   11-30     92-111 (238)
+  9 PF10835.8 ; DUF2573 ; Protein    5.5      37   0.007   14.7   0.0   14   28-41     49-62  (78)
+ 10 PF17546.2 ; Defb50 ; Beta defe   5.3      41  0.0074   13.3   0.0    5   16-20     19-23  (50)
+
+No 1
+>PF17108.5 ; HET-S ; N-terminal small S protein of HET, non-prionic
+Probab=13.14  E-value=12  Score=13.14  Aligned_cols=10  Identities=20%  Similarity=0.601  Sum_probs=6.7  Template_Neff=2.400
+
+Q PCD20296.1       18 DNTRINMGDV   27 (31)
+Q Consensus        18 d~t~IhqGn~   27 (42)
+                      +..+||.||.
+T Consensus        11 gsSRVqVGNn   20 (23)
+T I1RV79_GIBZE/6   11 GASRVQVGNN   20 (23)
+T ss_pred             CCceeeeccc
+Confidence            4567777775
+
+
+No 2
+>PF18537.1 ; CODH_A_N ; Carbon monoxide dehydrogenase subunit alpha N-terminal domain
+Probab=11.96  E-value=12  Score=16.21  Aligned_cols=20  Identities=15%  Similarity=0.283  Sum_probs=14.5  Template_Neff=6.100
+
+Q PCD20296.1       14 SRFGDNTRINMGDVHYHL--   31 (31)
+Q Consensus        14 n~Fgd~t~IhqGn~~~~~p~   33 (42)
+                      ..||.+.-|..+|.-|.+|.
+T Consensus         9 ~~~G~d~~v~fp~Tay~lP~   28 (90)
+T D6SM93_9DELT/2    9 DAKGPDEPVAFPNTGYYLPV   28 (90)
+T ss_pred             HHHCCCCCCCCCcccchHHH
+Confidence            35788888888887676653
+
+
+No 3
+>PF18649.1 ; EcpB_C ; EcpB C-terminal domain
+Probab=11.82  E-value=12  Score=15.68  Aligned_cols=16  Identities=19%  Similarity=0.385  Sum_probs=11.6  Template_Neff=5.600
+
+Q PCD20296.1       15 RFGDNTRINMGDVHYH   30 (31)
+Q Consensus        15 ~Fgd~t~IhqGn~~~~   30 (42)
+                      ++.+++..+.||..|.
+T Consensus         4 ~~~~G~i~NtGNt~Fr   19 (72)
+T A0A0J6RGL0_9NE    4 AYRPGHLENRGNVSFQ   19 (72)
+T ss_pred             EeeCCEEEEcCceEEE
+Confidence            3457888899997554
+
+
+No 4
+>PF16211.5 ; Histone_H2A_C ; C-terminus of histone H2A
+Probab=9.24  E-value=16  Score=12.00  Aligned_cols=13  Identities=23%  Similarity=0.335  Sum_probs=9.1  Template_Neff=8.000
+
+Q PCD20296.1       15 RFGDNTRINMGDV   27 (31)
+Q Consensus        15 ~Fgd~t~IhqGn~   27 (42)
+                      ++-.+++|-+|.+
+T Consensus         5 ~ll~~vtia~ggv   17 (35)
+T K0S6I8_THAOC/9    5 KLLGGVTIASGGV   17 (35)
+T ss_pred             HHcCCcEecCCcc
+Confidence            4445678888887
+
+
+No 5
+>PF00132.24 ; Hexapep ; Bacterial transferase hexapeptide (six repeats)
+Probab=7.89  E-value=19  Score=10.94  Aligned_cols=8  Identities=25%  Similarity=0.451  Sum_probs=3.2  Template_Neff=9.700
+
+Q PCD20296.1       17 GDNTRINM   24 (31)
+Q Consensus        17 gd~t~Ihq   24 (42)
+                      |+++.|..
+T Consensus         5 g~~~~i~~   12 (36)
+T LPXD_ECOLI/222    5 GNGVIIDN   12 (36)
+T ss_pred             CCCCEECC
+Confidence            33444433
+
+
+No 6
+>PF06376.12 ; AGP ; Arabinogalactan peptide
+Probab=7.40  E-value=25  Score=12.99  Aligned_cols=10  Identities=40%  Similarity=0.514  Sum_probs=7.3  Template_Neff=3.100
+
+Q PCD20296.1       17 GDNTRINMGD   26 (31)
+Q Consensus        17 gd~t~IhqGn   26 (42)
+                      .|+..|.||=
+T Consensus         8 ~Dg~aIDQGI   17 (33)
+T I1KIS0_SOYBN/3    8 SDGTAIDQGI   17 (33)
+T ss_pred             CchhHHHHHH
+Confidence            4778888874
+
+
+No 7
+>PF12573.8 ; OxoDH_E1alpha_N ; 2-oxoisovalerate dehydrogenase E1 alpha subunit N terminal
+Probab=6.56  E-value=28  Score=12.84  Aligned_cols=10  Identities=0%  Similarity=0.034  Sum_probs=6.1  Template_Neff=5.300
+
+Q PCD20296.1       29 YHL-------   31 (31)
+Q Consensus        29 ~~~p~~pa~a   38 (42)
+                      ++.|.+++|+
+T Consensus         5 L~vPep~~RP   14 (41)
+T A1BBC4_PARDP/1    5 LAVPEPEVRP   14 (41)
+T ss_pred             ccCCCCCCCC
+Confidence            5566666654
+
+
+No 8
+>PF10915.8 ; DUF2709 ; Protein of unknown function (DUF2709)
+Probab=6.35  E-value=32  Score=17.99  Aligned_cols=20  Identities=45%  Similarity=0.559  Sum_probs=15.4  Template_Neff=2.300
+
+Q PCD20296.1       11 VTRSRFGDNTRINMGDVHYH   30 (31)
+Q Consensus        11 i~~n~Fgd~t~IhqGn~~~~   30 (42)
+                      .++-.|||||--+--|-.|+
+T Consensus        92 FtGKVFgDNthpNPQDAIYD  111 (238)
+T Q6MEP2_PARUW/4   92 FTGKVFGDNTHPNPQDAIYD  111 (238)
+T ss_pred             CCCccccCCCCCCHHHHhHH
+Confidence            46678999998887776666
+
+
+No 9
+>PF10835.8 ; DUF2573 ; Protein of unknown function (DUF2573)
+Probab=5.51  E-value=37  Score=14.74  Aligned_cols=14  Identities=7%  Similarity=0.186  Sum_probs=9.3  Template_Neff=3.300
+
+Q PCD20296.1       28 HYHL----------   31 (31)
+Q Consensus        28 ~~~~p~~pa~a~v~   41 (42)
+                      |++..+|.+.+++|
+T Consensus        49 HWN~~yPeaK~emk   62 (78)
+T Q9K779_BACHD/3   49 HWSSQYPDAKEGMK   62 (78)
+T ss_pred             hHHhhCHHHHHHHH
+Confidence            56767777776654
+
+
+No 10
+>PF17546.2 ; Defb50 ; Beta defensin 50
+Probab=5.27  E-value=41  Score=13.32  Aligned_cols=5  Identities=80%  Similarity=1.438  Sum_probs=0.0  Template_Neff=1.200
+
+Q PCD20296.1       16 FGDNT   20 (31)
+Q Consensus        16 Fgd~t   20 (42)
+                      ||||+
+T Consensus        19 fgdnc   23 (50)
+T DFB50_MOUSE/24   19 FGDNC   23 (50)
+T ss_pred             ecCCC
+
+

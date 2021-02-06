@@ -1,0 +1,150 @@
+Query         KPA38507.1
+Match_columns 183
+No_of_seqs    1365 out of 1394
+Neff          6.83754
+Searched_HMMs 160
+Date          Sat Feb  6 20:04:48 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KPA38507_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KPA38507_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KPA38507_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17106.5 ; NACHT_sigma ; Sigm  96.7 1.7E-06 3.4E-10   49.4   0.0   36   88-123     3-39  (43)
+  2 PF08043.12 ; Xin ; Xin repeat   60.1    0.46 8.6E-05   20.0   0.0   10  159-168     4-13  (16)
+  3 PF16496.5 ; SWIRM-assoc_2 ; SW  15.6     8.5  0.0017   28.7   0.0   46  134-179   190-248 (405)
+  4 PF03042.14 ; Birna_VP5 ; Birna   8.8      21  0.0038   22.1   0.0   25    3-27     82-106 (135)
+  5 PF10875.8 ; DUF2670 ; Protein    8.1      23  0.0042   22.2   0.0   39   36-74     37-75  (139)
+  6 PF15824.5 ; SPATA9 ; Spermatog   5.9      35  0.0064   23.2   0.0   21   50-70     19-39  (256)
+  7 PF08895.11 ; DUF1840 ; Domain    5.1      38  0.0077   19.2   0.0   41   29-69     13-56  (99)
+  8 PF02961.14 ; BAF ; Barrier to    4.8      43  0.0084   18.7   0.0   17   33-49     39-55  (88)
+  9 PF18865.1 ; AbiJ_NTD5 ; AbiJ N   4.5      46  0.0091   18.6   0.0   43  133-175    40-88  (93)
+ 10 PF14965.6 ; BRI3BP ; Negative    3.8      59   0.011   20.9   0.0   34   35-68    145-181 (184)
+
+No 1
+>PF17106.5 ; NACHT_sigma ; Sigma domain on NACHT-NTPases
+Probab=96.73  E-value=1.7e-06  Score=49.42  Aligned_cols=36  Identities=39%  Similarity=0.419  Sum_probs=32.1  Template_Neff=5.500
+
+Q KPA38507.1        9 TFQRDGDGSQFNAIGGGTQ-NNNIGGYQFPRavfHGNVNF   47 (102)
+Q Consensus        88 s~~n~GsG~Q~n~~g~g~q-nn~G~G~qf~g...~~f~g~  123 (183)
+                      +|+++|+|+|+++++.++| +++|+|+||++   +.|.+.
+T Consensus         3 ~~~n~GsG~Q~n~~g~G~Qnnn~g~G~qf~g...~~f~G~   39 (43)
+T I1RXU5_GIBZE/3    3 TNHHSGFGDQFNASGGAMQTNNTGDGDQYVG...VSFYGS   39 (43)
+T ss_pred             CCccccccccCccCCceeEEecCCCCccccc...ceeccc
+Confidence            5899999999999997788 89999999999   887664
+
+
+No 2
+>PF08043.12 ; Xin ; Xin repeat
+Probab=60.13  E-value=0.46  Score=19.99  Aligned_cols=10  Identities=40%  Similarity=1.036  Sum_probs=8.3  Template_Neff=3.000
+
+Q KPA38507.1       83 GTCKWLLGHG   92 (102)
+Q Consensus       159 ~Tc~Wil~~~  168 (183)
+                      +|+.|+|+..
+T Consensus         4 ~~~~wlFETq   13 (16)
+T F6SLD1_XENTR/7    4 KMCKWLFETQ   13 (16)
+T ss_pred             cceeEeEecc
+Confidence            6899999874
+
+
+No 3
+>PF16496.5 ; SWIRM-assoc_2 ; SWIRM-associated domain at the N-terminal
+Probab=15.57  E-value=8.5  Score=28.66  Aligned_cols=46  Identities=15%  Similarity=0.366  Sum_probs=31.0  Template_Neff=5.700
+
+Q KPA38507.1       58 QQLCLQSLSFPEMESRSKDVD-------------TATPGTCKWLLGHGKYKSWEQNNR-  102 (102)
+Q Consensus       134 ~~~~L~sL~F~~m~~R~~~I~-------------~a~~~Tc~Wil~~~~f~~Wl~~~~~  179 (183)
+                      ...++.+++||+-.+..-.+.             .+-.=++.||++...|.+|++..+.
+T Consensus       190 ~~vLVHw~y~PDSYD~Wv~~~~~~~~p~~~~~~~~pw~V~arWl~Ds~~fNEWMNEeDY  248 (405)
+T E0VYN8_PEDHC/5  190 KNVLVHWYYFPDSHDSWIQADLPIDPPDSPPVHVGPWRVAATWVLELEQYNEWMTEEDY  248 (405)
+T ss_pred             CcEEEEeeecCcccceeecCCCCCCCCCCCCCCCCCeEEeeehhhcHHHHcCCCCHHHh
+Confidence            456778888887655433221             1123478999999999999987543
+
+
+No 4
+>PF03042.14 ; Birna_VP5 ; Birnavirus VP5 protein
+Probab=8.81  E-value=21  Score=22.12  Aligned_cols=25  Identities=0%  Similarity=0.000  Sum_probs=20.7  Template_Neff=2.000
+
+Q KPA38507.1        1 -------------------------    0 (102)
+Q Consensus         3 ~~~~~~~~~~~~~~~~~~~~~~~~~   27 (183)
+                      +.+|-.+|.+||.-.+||+++..--
+T Consensus        82 ~vRpvA~D~~gPee~lQL~ea~~~E  106 (135)
+T VP5_IBDVU/15-1   82 QVRSDAPDCPEPTGQLQLLQASESE  106 (135)
+T ss_pred             cccCCCCCCCCCccceeeEeccccc
+Confidence            5678888999999999999887644
+
+
+No 5
+>PF10875.8 ; DUF2670 ; Protein of unknown function (DUF2670)
+Probab=8.11  E-value=23  Score=22.18  Aligned_cols=39  Identities=0%  Similarity=0.000  Sum_probs=33.3  Template_Neff=2.600
+
+Q KPA38507.1        1 ---------------------------------------    0 (102)
+Q Consensus        36 aY~~lgi~~v~gk~~~vE~lmk~ilr~~~~l~~~~~~~~   74 (183)
+                      -|.-+.-++..|+..|+|..|-.++.....|++++..+.
+T Consensus        37 lY~~~kGL~~~G~I~~fe~~~~e~L~~~KaVAQnCTpkL   75 (139)
+T C4YUZ9_9RICK/1   37 LYYTVLGLKKIGFIDYFTETTVEILYTTKAVTQNCTIKL   75 (139)
+T ss_pred             HHHHHHchhHhchHHHHHHHHHHHHHHHHHHHhhcchhc
+Confidence            466667788889999999999999999999998887664
+
+
+No 6
+>PF15824.5 ; SPATA9 ; Spermatogenesis-associated protein 9
+Probab=5.89  E-value=35  Score=23.20  Aligned_cols=21  Identities=0%  Similarity=0.000  Sum_probs=18.0  Template_Neff=2.300
+
+Q KPA38507.1        1 ---------------------    0 (102)
+Q Consensus        50 ~~vE~lmk~ilr~~~~l~~~~   70 (183)
+                      ++.|++.|+|+++++++..+.
+T Consensus        19 GriegIQk~imdliDEfKDef   39 (256)
+T G5BU30_HETGA/1   19 GRIEGIQKVIMDLMDEFKDDF   39 (256)
+T ss_pred             chhHHHHHHHHHHHHHhhHhc
+Confidence            588999999999999997543
+
+
+No 7
+>PF08895.11 ; DUF1840 ; Domain of unknown function (DUF1840)
+Probab=5.12  E-value=38  Score=19.23  Aligned_cols=41  Identities=0%  Similarity=0.000  Sum_probs=30.4  Template_Neff=6.000
+
+Q KPA38507.1        1 --------------------------------------------    0 (102)
+Q Consensus        29 ~~~~~d~aY~~lgi~~v~gk---~~~vE~lmk~ilr~~~~l~~~   69 (183)
+                      -.|..|-|--+|++++..+.   -+.+|.+..+|.++.+.|+..
+T Consensus        13 v~M~~~~A~~lL~~mGk~~~~~G~i~~edlp~Ai~~Le~ai~~~   56 (99)
+T A3QHE5_SHELP/1   13 ITLFGDVAQTFLKILGHSTSVPGAIRAEDVPAALARLQQAVANA   56 (99)
+T ss_pred             eeecHHHHHHHHHHcCCCCCCCCeeeHHHHHHHHHHHHHHHHcC
+Confidence            34566777777777776642   138899999999999999754
+
+
+No 8
+>PF02961.14 ; BAF ; Barrier to autointegration factor
+Probab=4.75  E-value=43  Score=18.71  Aligned_cols=17  Identities=0%  Similarity=0.000  Sum_probs=13.5  Template_Neff=5.500
+
+Q KPA38507.1        1 -----------------    0 (102)
+Q Consensus        33 ~d~aY~~lgi~~v~gk~   49 (183)
+                      =|+||-|+|-|-++.|.
+T Consensus        39 ~~kAy~llGqfL~l~kd   55 (88)
+T B0W6Y7_CULQU/2   39 FDKAYTVLGQYLLLKKD   55 (88)
+T ss_pred             CCcHHHHHHHHHhcccC
+Confidence            38999999988876654
+
+
+No 9
+>PF18865.1 ; AbiJ_NTD5 ; AbiJ N-terminal domain 5
+Probab=4.47  E-value=46  Score=18.64  Aligned_cols=43  Identities=16%  Similarity=0.040  Sum_probs=23.5  Template_Neff=5.900
+
+Q KPA38507.1       57 QQQLCLQSLSFPEMESRS------KDVDTATPGTCKWLLGHGKYKSWEQ   99 (102)
+Q Consensus       133 ~~~~~L~sL~F~~m~~R~------~~I~~a~~~Tc~Wil~~~~f~~Wl~  175 (183)
+                      ...++|+||.|.+.+..-      ..|-...+..+.=|.+...-+.|..
+T Consensus        40 ~h~RllrSl~~gD~DY~~~v~~vl~~i~~~~~~~L~~i~~y~~~~~~~~   88 (93)
+T A0A1I3FS77_9FL   40 NHPRLLRSLSFGDEDYEGNVLTVLDEIIKLDTNNFKEIKIYLSEKFSNP   88 (93)
+T ss_pred             hChhHHcccccCCccHHHhHHHHHHHHHhhCcchHHHHHHHHHhhcCCc
+Confidence            357899999998765432      2233333444444444444444443
+
+
+No 10
+>PF14965.6 ; BRI3BP ; Negative regulator of p53/TP53
+Probab=3.75  E-value=59  Score=20.90  Aligned_cols=34  Identities=0%  Similarity=0.000  Sum_probs=22.9  Template_Neff=4.000
+
+Q KPA38507.1        1 -------------------------------------    0 (102)
+Q Consensus        35 ~aY~~lgi~~v~g---k~~~vE~lmk~ilr~~~~l~~   68 (183)
+                      .+|-++|.+..+.   |+...|...+.+.+-++++.+
+T Consensus       145 ~vy~llg~~~~~~~~~~~~~LE~kv~~LE~qVrel~~  181 (184)
+T F6U0Z3_XENTR/6  145 AVYFMTGPVGLYWRRSSNNNLEDKIDHLDNQIRLLNI  181 (184)
+T ss_pred             HHHHHHcccccccCCCCCccHHHHHHHHHHHHHHHHH
+Confidence            3577788777333   456777777777777777654
+
+

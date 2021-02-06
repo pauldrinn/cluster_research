@@ -1,0 +1,150 @@
+Query         XP_007827113.1
+Match_columns 122
+No_of_seqs    586 out of 586
+Neff          6.47346
+Searched_HMMs 380
+Date          Sat Feb  6 20:07:05 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/XP_007827113_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_007827113_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_007827113_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17107.5 ; SesA ; N-terminal   96.7 1.8E-06 4.1E-10   53.7   0.0   70   52-121     1-73  (133)
+  2 PF17111.5 ; Helo_like_N ; Fung  94.4 0.00038 8.7E-08   44.0   0.0   71   49-120     4-78  (209)
+  3 PF14479.6 ; HeLo ; Prion-inhib  66.2    0.25 5.5E-05   30.4   0.0   51   48-99      3-53  (199)
+  4 PF07531.14 ; TAFH ; NHR1 homol  44.4     1.1 0.00023   25.1   0.0   52   48-100    31-82  (90)
+  5 PF03181.15 ; BURP ; BURP domai  25.5     3.6 0.00075   26.0   0.0   39   82-120    35-73  (217)
+  6 PF07889.12 ; DUF1664 ; Protein  24.0     4.2 0.00083   23.8   0.0   27   74-100    37-63  (123)
+  7 PF02416.16 ; MttA_Hcf106 ; mtt  21.0       5   0.001   19.2   0.0   28   73-100    20-47  (53)
+  8 PF13939.6 ; TisB_toxin ; Toxin  16.3     8.6  0.0016   16.9   0.0   12   50-61     12-23  (28)
+  9 PF18160.1 ; SLATT_5 ; SMODS an  14.9     8.2  0.0018   22.4   0.0   12   50-61     71-82  (190)
+ 10 PF17448.2 ; YqaH ; Uncharacter  11.9      12  0.0025   19.1   0.0   24   77-100     9-32  (84)
+
+No 1
+>PF17107.5 ; SesA ; N-terminal domain on NACHT_NTPase and P-loop NTPases
+Probab=96.68  E-value=1.8e-06  Score=53.71  Aligned_cols=70  Identities=20%  Similarity=0.323  Sum_probs=55.6  Template_Neff=10.000
+
+Q XP_007827113.1   10 ISAVIAIVDGINQLYDGAKDATGLPEAFREVAARLPLIKKILESVDKDVRGKGRSN-SSSE--VK--------   71 (71)
+Q Consensus        52 ISsiI~ivd~~~~vy~~ikd~~gLPeaF~~v~~~LPLV~~~L~~ak~~l~~~~~~~-~~~a--L~pvl~~C~~  121 (122)
+                      +++++++++++.++++.+.++++.|+.|+++..+++.+..+|+.++..+....... ....  +...+..|.+
+T Consensus         1 ~~~i~~~~~~~~~~~~~~~~~~~~p~~~~~l~~~l~~l~~~l~~~~~~~~~~~~~~~~~~~~~i~~~~~~C~~   73 (133)
+T U7PRR7_SPOS1/7    1 VASSRALARAIYETYTTIHTIKGRPEAFDRINKSLQLIQLALWKIQTHRSGPRASDDALLANAIRPITRRCEH   73 (133)
+T ss_pred             ChHHHHHHHHHHHHHHHHHhhcCCCHHHHHHHHHHHHHHHHHHHHHHHhcCCCCChhHHHHHhHHHHHHHHHH
+Confidence            36788899999999999999999999999999999999999999988876432211 2334  7777777764
+
+
+No 2
+>PF17111.5 ; Helo_like_N ; Fungal N-terminal domain of STAND proteins
+Probab=94.42  E-value=0.00038  Score=44.05  Aligned_cols=71  Identities=18%  Similarity=0.289  Sum_probs=53.8  Template_Neff=11.200
+
+Q XP_007827113.1    7 LGIISAVIAIVDGINQ----LYDGAKDATGLPEAFREVAARLPLIKKILESVDKDVRGKGRSNSSSEVK-------   71 (71)
+Q Consensus        49 lglISsiI~ivd~~~~----vy~~ikd~~gLPeaF~~v~~~LPLV~~~L~~ak~~l~~~~~~~~~~aL~pvl~~C~  120 (122)
+                      +|++++++++++++.+    ++++++++++.|+.++.+..++..+...|..++..+... .......+...+..|.
+T Consensus         4 l~~~asii~l~~~~~~~~~~~~~~~~~~~~a~~~~~~l~~~l~~l~~~l~~l~~~~~~~-~~~~~~~l~~~~~~c~   78 (209)
+T Q5B3N2_EMENI/2    4 ISLASGLLALATFAFQSSVSLYDTVKSFHSHPTRVRQLIEELEALSGVLGPLVDRVQAT-NDTDLSALNLPLLSCG   78 (209)
+T ss_pred             chHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHhcC-CCCChHHhHHHHHHHH
+Confidence            5778888888887665    667778889999999999999999999999888876532 2223345666666665
+
+
+No 3
+>PF14479.6 ; HeLo ; Prion-inhibition and propagation
+Probab=66.23  E-value=0.25  Score=30.37  Aligned_cols=51  Identities=20%  Similarity=0.263  Sum_probs=39.4  Template_Neff=9.600
+
+Q XP_007827113.1    6 VLGIISAVIAIVDGINQLYDGAKDATGLPEAFREVAARLPLIKKILESVDKD   57 (71)
+Q Consensus        48 vlglISsiI~ivd~~~~vy~~ikd~~gLPeaF~~v~~~LPLV~~~L~~ak~~   99 (122)
+                      ++|+++ ++++++.+.+.|+.+.+.++.++.++.+..+|..-+.-|....+.
+T Consensus         3 ~lg~~s-l~~l~~~~~~~~~~i~~~~~~~~d~~~l~~~l~~e~~Rl~~W~~~   53 (199)
+T G4N4E3_MAGO7/6    3 ALGVLG-VAGLFKSCIDNFDIVVRAKNFGEDFDLLCTQLALQRLRLVLWGES   53 (199)
+T ss_pred             hhhHHH-HHHHHHHHHHHHHHHHHhhcchhhHHHHHHHHHHHHHHHHHHHHH
+Confidence            456666 888888899999999999998888888888777766666554444
+
+
+No 4
+>PF07531.14 ; TAFH ; NHR1 homology to TAF
+Probab=44.40  E-value=1.1  Score=25.05  Aligned_cols=52  Identities=10%  Similarity=0.109  Sum_probs=32.3  Template_Neff=6.000
+
+Q XP_007827113.1    6 VLGIISAVIAIVDGINQLYDGAKDATGLPEAFREVAARLPLIKKILESVDKDV   58 (71)
+Q Consensus        48 vlglISsiI~ivd~~~~vy~~ikd~~gLPeaF~~v~~~LPLV~~~L~~ak~~l  100 (122)
+                      |.+++.+-|..-++..++.+..+. .--|--.--+.+.||.++..+......+
+T Consensus        31 v~~Lv~~~i~~eeF~~~Lq~~ln~-~~~p~l~pFLk~~LP~Lr~~l~~~~~~~   82 (90)
+T A7SHT6_NEMVE/3   31 IQKVMEGKLSEEDFAAKLLTTLNS-GPQPNLVGFLKKALPMLRHQAQLQALPQ   82 (90)
+T ss_pred             HHHHHhCCCCHHHHHHHHHHHHcC-CCCCcHHHHHHhhHHHHHHHHHHccccc
+Confidence            457777777777777777776654 2223334456667777777765544433
+
+
+No 5
+>PF03181.15 ; BURP ; BURP domain
+Probab=25.54  E-value=3.6  Score=25.99  Aligned_cols=39  Identities=15%  Similarity=0.132  Sum_probs=16.3  Template_Neff=6.800
+
+Q XP_007827113.1   40 VAARLPLIKKILESVDKDVRGKGRSNSSSEVK-------   71 (71)
+Q Consensus        82 v~~~LPLV~~~L~~ak~~l~~~~~~~~~~aL~pvl~~C~  120 (122)
+                      +++.+|.-..-|.++.+.+.-...+...+.++..|+.|+
+T Consensus        35 ~A~siPfss~~l~~IL~~fsi~~~S~~A~~m~~Tl~~Ce   73 (217)
+T M4F637_BRARP/1   35 EAETVPFGSEKFSEILKTFSVKPGSGEAEMMKKTIEECE   73 (217)
+T ss_pred             HhccCCCChhhHHHHHHhcCCCCCChHHHHHhHhHHHhh
+Confidence            344444433334444333332212223445555556655
+
+
+No 6
+>PF07889.12 ; DUF1664 ; Protein of unknown function (DUF1664)
+Probab=23.98  E-value=4.2  Score=23.80  Aligned_cols=27  Identities=11%  Similarity=0.337  Sum_probs=12.7  Template_Neff=5.400
+
+Q XP_007827113.1   32 GLPEAFREVAARLPLIKKILESVDKDV   58 (71)
+Q Consensus        74 gLPeaF~~v~~~LPLV~~~L~~ak~~l  100 (122)
+                      ++..+...+.++|..+...|...++++
+T Consensus        37 ~l~~A~~sv~k~Le~vs~sl~~~Kr~L   63 (123)
+T I1J5L1_SOYBN/9   37 NMEKAVADLTKKLQHASDVIADTKKHL   63 (123)
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            344444444445555555554444444
+
+
+No 7
+>PF02416.16 ; MttA_Hcf106 ; mttA/Hcf106 family
+Probab=21.04  E-value=5  Score=19.20  Aligned_cols=28  Identities=25%  Similarity=0.247  Sum_probs=16.5  Template_Neff=7.100
+
+Q XP_007827113.1   31 TGLPEAFREVAARLPLIKKILESVDKDV   58 (71)
+Q Consensus        73 ~gLPeaF~~v~~~LPLV~~~L~~ak~~l  100 (122)
+                      +.+|+..+.+.+-+..+++..+.+++..
+T Consensus        20 ~klp~~~r~~g~~~~~~r~~~~~~~~~~   47 (53)
+T TATA2_AQUAE/6-   20 GRLPEAGRALGEGIRNFRKALSGETEVK   47 (53)
+T ss_pred             chHHHHHHHHHHHHHHHHHHHhcchHHh
+Confidence            5566666666666666655555555443
+
+
+No 8
+>PF13939.6 ; TisB_toxin ; Toxin TisB, type I toxin-antitoxin system
+Probab=16.29  E-value=8.6  Score=16.85  Aligned_cols=12  Identities=25%  Similarity=0.595  Sum_probs=6.0  Template_Neff=2.000
+
+Q XP_007827113.1    8 GIISAVIAIVDG   19 (71)
+Q Consensus        50 glISsiI~ivd~   61 (122)
+                      -++-++.|++|+
+T Consensus        12 kLmVA~LQLlda   23 (28)
+T W1DS99_KLEPN/1   12 KLMVAVLQLLDA   23 (28)
+T ss_pred             HHHHHHHHHHHH
+Confidence            444455555554
+
+
+No 9
+>PF18160.1 ; SLATT_5 ; SMODS and SLOG-associating 2TM effector domain family 5
+Probab=14.88  E-value=8.2  Score=22.45  Aligned_cols=12  Identities=17%  Similarity=0.160  Sum_probs=4.9  Template_Neff=9.000
+
+Q XP_007827113.1    8 GIISAVIAIVDG   19 (71)
+Q Consensus        50 glISsiI~ivd~   61 (122)
+                      +++..+++.++.
+T Consensus        71 si~v~v~s~l~~   82 (190)
+T R5VNR7_9BACT/1   71 SVFVLAISQVIA   82 (190)
+T ss_pred             HHHHHHHHHHHH
+Confidence            344444444433
+
+
+No 10
+>PF17448.2 ; YqaH ; Uncharacterized YqaH-like
+Probab=11.88  E-value=12  Score=19.10  Aligned_cols=24  Identities=0%  Similarity=0.022  Sum_probs=9.1  Template_Neff=7.700
+
+Q XP_007827113.1   35 EAFREVAARLPLIKKILESVDKDV   58 (71)
+Q Consensus        77 eaF~~v~~~LPLV~~~L~~ak~~l  100 (122)
+                      +.+....++.....+.+..+...+
+T Consensus         9 ~D~~~A~~e~~c~~~~~~~i~~~~   32 (84)
+T YQAH_BACSU/1-8    9 ADVPIAKRKIESAEELSIMLSEAL   32 (84)
+T ss_pred             HhHHHHHHHHHHHHHHHHHHHHHH
+Confidence            333333333333333333333333
+
+

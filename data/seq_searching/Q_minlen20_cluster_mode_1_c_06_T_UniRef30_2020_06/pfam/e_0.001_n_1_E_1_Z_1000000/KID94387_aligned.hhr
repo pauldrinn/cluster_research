@@ -1,0 +1,168 @@
+Query         KID94387.1
+Match_columns 340
+No_of_seqs    1612 out of 1668
+Neff          9.15355
+Searched_HMMs 721
+Date          Sat Feb  6 20:03:27 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KID94387_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KID94387_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KID94387_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17111.5 ; Helo_like_N ; Fung  98.7 1.6E-12 3.1E-16  105.2   0.0  139   56-198     1-139 (209)
+  2 PF17107.5 ; SesA ; N-terminal   97.6 1.5E-08 2.8E-12   75.2   0.0  119   65-187     1-132 (133)
+  3 PF15967.5 ; Nucleoporin_FG2 ;   80.8   0.068 1.3E-05   46.9   0.0   20  171-190   349-368 (605)
+  4 PF15967.5 ; Nucleoporin_FG2 ;   33.2     2.4 0.00045   36.1   0.0   14  236-249   359-372 (605)
+  5 PF14479.6 ; HeLo ; Prion-inhib  30.7     2.7 0.00053   29.4   0.0   30  163-192   139-169 (199)
+  6 PF04772.12 ; Flu_B_M2 ; Influe  28.2     3.5 0.00062   25.4   0.0   33   55-87      1-33  (109)
+  7 PF14932.6 ; HAUS-augmin3 ; HAU  14.2      10  0.0019   27.5   0.0   17  310-337     1-17  (248)
+  8 PF06825.12 ; HSBP1 ; Heat shoc  10.9      15  0.0028   19.3   0.0   10  235-244    35-44  (51)
+  9 PF05597.11 ; Phasin ; Poly(hyd   9.8      17  0.0033   22.7   0.0   19  170-188   103-121 (126)
+ 10 PF01442.18 ; Apolipoprotein ;    6.9      27  0.0052   22.4   0.0   16  173-188    75-90  (167)
+
+No 1
+>PF17111.5 ; Helo_like_N ; Fungal N-terminal domain of STAND proteins
+Probab=98.69  E-value=1.6e-12  Score=105.22  Aligned_cols=139  Identities=0%  Similarity=-0.007  Sum_probs=109.7  Template_Neff=11.200
+
+Q KID94387.1        1 --------------------------------------------------------------------------------    0 (165)
+Q Consensus        56 mdplsalglAa~Iiqfv~f~~kl~~~~~~i~~s~~g~~~~~~~l~~~~~~L~~l~~~L~~~~~~~~~~~~~~L~~l~~~C  135 (340)
+                      |||++   ++++|+++++++.+++..++++|++.++++.+...+...+..+..+...+..............+...+..|
+T Consensus         1 md~l~---~~asii~l~~~~~~~~~~~~~~~~~~~~a~~~~~~l~~~l~~l~~~l~~l~~~~~~~~~~~~~~l~~~~~~c   77 (209)
+T Q5B3N2_EMENI/2    1 AEPIS---LASGLLALATFAFQSSVSLYDTVKSFHSHPTRVRQLIEELEALSGVLGPLVDRVQATNDTDLSALNLPLLSC   77 (209)
+T ss_pred             CCcch---HHHHHHHHHHHHHHHHHHHHHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCChHHhHHHHHHH
+Confidence            78886   699999999999999999999999999998888888777777777776665542222223345688889999
+
+
+Q KID94387.1        1 -----------------------------------------MAELCG------GCNIQFFVMN   16 (165)
+Q Consensus       136 ~~~~~eL~~~L~~l~~~~~~~~~~s~~~alk~~~~~~~i~~l~~rL~~~r~~L~~~l~~~~~~  198 (340)
+                      ...+.+|...++++.....++ ...++.+++|.|.+++|+++..+|..++..|.+.+......
+T Consensus        78 ~~~l~~l~~~l~~~~~~~~~~-~~~~~~~~~~~~~~~~i~~l~~~l~~~~~~l~~~l~~~~~~  139 (209)
+T Q5B3N2_EMENI/2   78 GKACKLFQKEIMKCAGRSSAT-RTSFRDWAKLKYMGDDVDGFRRVLAAYKSTITIALTDANLQ  139 (209)
+T ss_pred             HHHHHHHHHHHHHHhcCCCCC-CCcHHHHHhHhhchhhHHHHHHHHHHHHHHHHHHHHHHhhh
+Confidence            999999999999887654322 23445578888888999999999999999999887766554
+
+
+No 2
+>PF17107.5 ; SesA ; N-terminal domain on NACHT_NTPase and P-loop NTPases
+Probab=97.63  E-value=1.5e-08  Score=75.17  Aligned_cols=119  Identities=0%  Similarity=-0.012  Sum_probs=80.2  Template_Neff=10.000
+
+Q KID94387.1        1 --------------------------------------------------------------------------------    0 (165)
+Q Consensus        65 Aa~Iiqfv~f~~kl~~~~~~i~~s~~g~~~~~~~l~~~~~~L~~l~~~L~~~~~--~~~~~~~~~--L~~l~~~C~~~~~  140 (340)
+                      +++|+++++++.+++..+.+++    ++|.+..++...+..|..+...+.....  .........  +..++..|...+.
+T Consensus         1 ~~~i~~~~~~~~~~~~~~~~~~----~~p~~~~~l~~~l~~l~~~l~~~~~~~~~~~~~~~~~~~~~i~~~~~~C~~~~~   76 (133)
+T U7PRR7_SPOS1/7    1 VASSRALARAIYETYTTIHTIK----GRPEAFDRINKSLQLIQLALWKIQTHRSGPRASDDALLANAIRPITRRCEHKIR   76 (133)
+T ss_pred             ChHHHHHHHHHHHHHHHHHhhc----CCCHHHHHHHHHHHHHHHHHHHHHHHhcCCCCChhHHHHHhHHHHHHHHHHHHH
+Confidence            4688999999999888776654    4555444444444444444444433311  111122334  8889999999999
+
+
+Q KID94387.1        1 ---------------------------------------------MAELCG-----    6 (165)
+Q Consensus       141 eL~~~L~~l~~~~~~~~~-~s~~~a----lk~----~~~~~~i~~l~~rL~~~r~~  187 (340)
+                      +|...++++.+...++++ ..++.+    +++    ++++++++++.++|..++..
+T Consensus        77 ~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~v~~l~~~l~~~~~~  132 (133)
+T U7PRR7_SPOS1/7   77 VLHDIFVNLQHGLGSESWQRQTWADLGHNCRNALLELAEGNKVETLMQEILVDLAI  132 (133)
+T ss_pred             HHHHHHHHhcCCCCChhhhHHhHhchhhhhHhhHHHhcCCcHHHHHHHHHHHHhhc
+Confidence            999999998765444444 555555    665    89999999999999887654
+
+
+No 3
+>PF15967.5 ; Nucleoporin_FG2 ; Nucleoporin FG repeated region
+Probab=80.75  E-value=0.068  Score=46.89  Aligned_cols=20  Identities=0%  Similarity=-0.135  Sum_probs=12.6  Template_Neff=6.100
+
+Q KID94387.1        1 ------MAELCG------GC    8 (165)
+Q Consensus       171 ~~~i~~l~~rL~~~r~~L~~  190 (340)
+                      .+.+++++.+|+.|+.+|..
+T Consensus       349 ~~LveefE~rL~~yrqqIee  368 (605)
+T H2LRF1_ORYLA/3  349 RSLVEQFEVQLQQYRQQIEE  368 (605)
+T ss_pred             HHHHHHHHHHHHHHHHHHHH
+Confidence            35566666777777666653
+
+
+No 4
+>PF15967.5 ; Nucleoporin_FG2 ; Nucleoporin FG repeated region
+Probab=33.24  E-value=2.4  Score=36.06  Aligned_cols=14  Identities=14%  Similarity=0.271  Sum_probs=5.7  Template_Neff=6.100
+
+Q KID94387.1       48 -QDVLGQLSQIQEA   60 (165)
+Q Consensus       236 l~~l~~~~~~l~~~  249 (340)
+                      ++.++++|++|.+.
+T Consensus       359 L~~yrqqIeeLE~~  372 (605)
+T H2LRF1_ORYLA/3  359 LQQYRQQIEELENH  372 (605)
+T ss_pred             HHHHHHHHHHHHHH
+Confidence            33444444444333
+
+
+No 5
+>PF14479.6 ; HeLo ; Prion-inhibition and propagation
+Probab=30.75  E-value=2.7  Score=29.39  Aligned_cols=30  Identities=0%  Similarity=-0.062  Sum_probs=17.4  Template_Neff=9.600
+
+Q KID94387.1        1 ---------------MAELCG------GCNI   10 (165)
+Q Consensus       163 ~alk~~~-~~~~i~~l~~rL~~~r~~L~~~l  192 (340)
+                      ..++|.. .+++++++.++|..+-..|...+
+T Consensus       139 ~r~~Wa~~dk~~~~~li~~l~~~n~~L~~ll  169 (199)
+T G4N4E3_MAGO7/6  139 KTTRWAVHDAAAFKATVDQIKQLVDGLESIT  169 (199)
+T ss_pred             HHhhHHHhcHHHHHHHHHHHHHHHHHHHHHh
+Confidence            3445533 45667777777766666655444
+
+
+No 6
+>PF04772.12 ; Flu_B_M2 ; Influenza B matrix protein 2 (BM2)
+Probab=28.15  E-value=3.5  Score=25.37  Aligned_cols=33  Identities=0%  Similarity=0.000  Sum_probs=26.2  Template_Neff=1.700
+
+Q KID94387.1        1 ---------------------------------    0 (165)
+Q Consensus        55 mmdplsalglAa~Iiqfv~f~~kl~~~~~~i~~   87 (340)
+                      |.+|+-++++.+-++....|..-++...+++.+
+T Consensus         1 mlep~qil~i~sf~lsalHF~aWtiG~L~QiKr   33 (109)
+T BM2_INBLE/1-10    1 MLEPLQILSICSFILSALHFMAWTIGHLNQIKR   33 (109)
+T ss_pred             CCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHhc
+Confidence            678888888777788888888888877777764
+
+
+No 7
+>PF14932.6 ; HAUS-augmin3 ; HAUS augmin-like complex subunit 3
+Probab=14.20  E-value=10  Score=27.51  Aligned_cols=17  Identities=29%  Similarity=0.792  Sum_probs=13.2  Template_Neff=7.500
+
+Q KID94387.1      140 WVFEDEAAGV----HGPLSLHFRKWLRS  163 (165)
+Q Consensus       310 Wif~~~~~~~~~~~~~~~w~~F~~WL~s  337 (340)
+                      |+|+++..           .+|.+|+.+
+T Consensus         1 WlF~~~~~-----------~~FL~Wfc~   17 (248)
+T F7CJR3_ORNAN/2    1 WLFEMGED-----------KSFLEWFCE   17 (248)
+T ss_pred             CCccCccc-----------hHHHHHHHh
+Confidence            99998653           379999875
+
+
+No 8
+>PF06825.12 ; HSBP1 ; Heat shock factor binding protein 1
+Probab=10.94  E-value=15  Score=19.33  Aligned_cols=10  Identities=20%  Similarity=0.351  Sum_probs=4.1  Template_Neff=5.600
+
+Q KID94387.1       48 --QDVLGQLS   55 (165)
+Q Consensus       235 ~l~~l~~~~~  244 (340)
+                      ++++|.+.+.
+T Consensus        35 RID~LE~sI~   44 (51)
+T A7RIV7_NEMVE/9   35 RLDDIEKSLT   44 (51)
+T ss_pred             HHHHHHHHHH
+Confidence            3344444443
+
+
+No 9
+>PF05597.11 ; Phasin ; Poly(hydroxyalcanoate) granule associated protein (phasin)
+Probab=9.81  E-value=17  Score=22.72  Aligned_cols=19  Identities=11%  Similarity=0.046  Sum_probs=12.0  Template_Neff=8.200
+
+Q KID94387.1        1 -------MAELCG------    6 (165)
+Q Consensus       170 ~~~~i~~l~~rL~~~r~~L  188 (340)
+                      .+++|+.|..+|+.+...|
+T Consensus       103 ~~~ei~~L~~ri~~Le~~l  121 (126)
+T F5XYW1_RAMTT/1  103 SSQDLATMAARIEELERTV  121 (126)
+T ss_pred             CHHHHHHHHHHHHHHHHHH
+Confidence            3467777777777665544
+
+
+No 10
+>PF01442.18 ; Apolipoprotein ; Apolipoprotein A1/A4/E domain
+Probab=6.93  E-value=27  Score=22.42  Aligned_cols=16  Identities=0%  Similarity=-0.051  Sum_probs=6.9  Template_Neff=9.500
+
+Q KID94387.1        1 ----MAELCG------    6 (165)
+Q Consensus       173 ~i~~l~~rL~~~r~~L  188 (340)
+                      .++.+..+|..+...+
+T Consensus        75 ~~~~l~~~l~~~~~~l   90 (167)
+T C0QY77_BRAHW/4   75 HLNNEKNYIDNYLKEY   90 (167)
+T ss_pred             HHHHHHHHHHHHHHHH
+Confidence            3444444444444333
+
+

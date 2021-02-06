@@ -1,0 +1,174 @@
+Query         EWY92345.1
+Match_columns 352
+No_of_seqs    1831 out of 1864
+Neff          8.64793
+Searched_HMMs 625
+Date          Sat Feb  6 20:03:21 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/EWY92345_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/EWY92345_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/EWY92345_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17111.5 ; Helo_like_N ; Fung  98.4 2.4E-11 4.9E-15   99.4   0.0  138   38-182     1-138 (209)
+  2 PF17107.5 ; SesA ; N-terminal   97.5 2.8E-08 5.7E-12   74.9   0.0  121   47-172     1-132 (133)
+  3 PF15967.5 ; Nucleoporin_FG2 ;   76.5    0.11 2.2E-05   46.2   0.0   19  156-174   349-367 (605)
+  4 PF04772.12 ; Flu_B_M2 ; Influe  22.6     5.2 0.00092   25.2   0.0   34   37-70      1-34  (109)
+  5 PF09595.10 ; Metaviral_G ; Met  12.9      12  0.0022   25.7   0.0   20   40-59      3-22  (183)
+  6 PF15290.6 ; Syntaphilin ; Golg  12.5      13  0.0023   28.6   0.0   19  155-173    92-110 (316)
+  7 PF07328.11 ; VirD1 ; T-DNA bor   5.7      34  0.0068   21.5   0.0   58   77-136    71-128 (142)
+  8 PF15546.6 ; DUF4653 ; Domain o   5.1      42  0.0076   23.6   0.0   16  156-171   163-178 (229)
+  9 PF18456.1 ; CmlA_N ; Diiron no   5.1      41  0.0077   24.2   0.0   69   53-126    63-131 (232)
+ 10 PF09177.11 ; Syntaxin-6_N ; Sy   4.7      44  0.0085   19.6   0.0   86   77-174     9-94  (97)
+
+No 1
+>PF17111.5 ; Helo_like_N ; Fungal N-terminal domain of STAND proteins
+Probab=98.43  E-value=2.4e-11  Score=99.40  Aligned_cols=138  Identities=13%  Similarity=0.076  Sum_probs=105.9  Template_Neff=11.200
+
+Q EWY92345.1        2 ATGLEALGAASAVLQLISFAGSLASITMKIYDGIPTAENELEDYATKMLDAAKRVESRQ--VPRG---TSVNDRLLEVSQ   76 (286)
+Q Consensus        38 mdplsAlglAanIiQfvdf~~klis~~~eiy~~~~~~~~~L~~~~~~L~~l~~~L~~~~~~~~~~~~~~~~~~~L~~l~~  117 (352)
+                      |||+   |+|++|+++++++.+++..++++|++...++.++..+..++..+...+.........  +.......+...+.
+T Consensus         1 md~l---~~~asii~l~~~~~~~~~~~~~~~~~~~~a~~~~~~l~~~l~~l~~~l~~l~~~~~~--~~~~~~~~l~~~~~   75 (209)
+T Q5B3N2_EMENI/2    1 AEPI---SLASGLLALATFAFQSSVSLYDTVKSFHSHPTRVRQLIEELEALSGVLGPLVDRVQA--TNDTDLSALNLPLL   75 (209)
+T ss_pred             CCcc---hHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHhc--CCCCChHHhHHHHH
+Confidence            7888   899999999999999999999999877777778888888777777666554432221  11233456888999
+
+
+Q EWY92345.1       77 KCIDAAQELEKEIKNVTKRYKkqKGKILMAVYSAFRADKHKAKINELEKSLNMCKEVMETELLLEIC  143 (286)
+Q Consensus       118 ~C~~~a~eL~~~L~~l~~~~~..~~~~~~s~~~alk~~~~~~~I~~L~~rL~~~r~~L~~~Ll~~l~  182 (352)
+                      .|...+.+|...++++.....  .  ....++.++++.|.+++|+.+..+|..++..|.+.+.....
+T Consensus        76 ~c~~~l~~l~~~l~~~~~~~~..~--~~~~~~~~~~~~~~~~~i~~l~~~l~~~~~~l~~~l~~~~~  138 (209)
+T Q5B3N2_EMENI/2   76 SCGKACKLFQKEIMKCAGRSS..A--TRTSFRDWAKLKYMGDDVDGFRRVLAAYKSTITIALTDANL  138 (209)
+T ss_pred             HHHHHHHHHHHHHHHHhcCCC..C--CCCcHHHHHhHhhchhhHHHHHHHHHHHHHHHHHHHHHHhh
+Confidence            999999999999998876532  1  22344557888888899999999999999999877654433
+
+
+No 2
+>PF17107.5 ; SesA ; N-terminal domain on NACHT_NTPase and P-loop NTPases
+Probab=97.52  E-value=2.8e-08  Score=74.90  Aligned_cols=121  Identities=7%  Similarity=0.025  Sum_probs=84.6  Template_Neff=10.000
+
+Q EWY92345.1       11 ASAVLQLISFAGSLASITMKIYDGIPTAENELEDYATKMLDAAKRVESRQ--VPRG---TSVNDR--LLEVSQKCIDAAQ   83 (286)
+Q Consensus        47 AanIiQfvdf~~klis~~~eiy~~~~~~~~~L~~~~~~L~~l~~~L~~~~~~~~~~~~~~~~~~~--L~~l~~~C~~~a~  124 (352)
+                      +++|++|++++.+++..+.++++    .+.++..+..+|..+...|...................  +..++..|...+.
+T Consensus         1 ~~~i~~~~~~~~~~~~~~~~~~~----~p~~~~~l~~~l~~l~~~l~~~~~~~~~~~~~~~~~~~~~i~~~~~~C~~~~~   76 (133)
+T U7PRR7_SPOS1/7    1 VASSRALARAIYETYTTIHTIKG----RPEAFDRINKSLQLIQLALWKIQTHRSGPRASDDALLANAIRPITRRCEHKIR   76 (133)
+T ss_pred             ChHHHHHHHHHHHHHHHHHhhcC----CCHHHHHHHHHHHHHHHHHHHHHHHhcCCCCChhHHHHHhHHHHHHHHHHHHH
+Confidence            47899999999999888877543    45567777777777776665544332211111222344  8899999999999
+
+
+Q EWY92345.1       84 ELEKEIKNVTKRYKkqKGKIL-MAVYSA----FRA----DKHKAKINELEKSLNMCKEV  133 (286)
+Q Consensus       125 eL~~~L~~l~~~~~..~~~~~-~s~~~a----lk~----~~~~~~I~~L~~rL~~~r~~  172 (352)
+                      +|...++++.+...  + +.+ ..++.+    +++    .++++++++|.++|..++..
+T Consensus        77 ~l~~~l~~~~~~~~..~-~~~~~~~~~~~~~~~~~~~~~~~~~~~v~~l~~~l~~~~~~  132 (133)
+T U7PRR7_SPOS1/7   77 VLHDIFVNLQHGLG..S-ESWQRQTWADLGHNCRNALLELAEGNKVETLMQEILVDLAI  132 (133)
+T ss_pred             HHHHHHHHhcCCCC..C-hhhhHHhHhchhhhhHhhHHHhcCCcHHHHHHHHHHHHhhc
+Confidence            99999999875533  2 234 445555    655    88999999999999887654
+
+
+No 3
+>PF15967.5 ; Nucleoporin_FG2 ; Nucleoporin FG repeated region
+Probab=76.46  E-value=0.11  Score=46.22  Aligned_cols=19  Identities=16%  Similarity=0.417  Sum_probs=13.6  Template_Neff=6.100
+
+Q EWY92345.1      117 KAKINELEKSLNMCKEVME  135 (286)
+Q Consensus       156 ~~~I~~L~~rL~~~r~~L~  174 (352)
+                      .+.+++++.+|+.|+++|.
+T Consensus       349 ~~LveefE~rL~~yrqqIe  367 (605)
+T H2LRF1_ORYLA/3  349 RSLVEQFEVQLQQYRQQIE  367 (605)
+T ss_pred             HHHHHHHHHHHHHHHHHHH
+Confidence            3567777777777777765
+
+
+No 4
+>PF04772.12 ; Flu_B_M2 ; Influenza B matrix protein 2 (BM2)
+Probab=22.59  E-value=5.2  Score=25.17  Aligned_cols=34  Identities=24%  Similarity=0.245  Sum_probs=28.3  Template_Neff=1.700
+
+Q EWY92345.1        1 MATGLEALGAASAVLQLISFAGSLASITMKIYDG   34 (286)
+Q Consensus        37 MmdplsAlglAanIiQfvdf~~klis~~~eiy~~   70 (352)
+                      |.+|+..|++.+-++....|..-++...+++.++
+T Consensus         1 mlep~qil~i~sf~lsalHF~aWtiG~L~QiKr~   34 (109)
+T BM2_INBLE/1-10    1 MLEPLQILSICSFILSALHFMAWTIGHLNQIKRG   34 (109)
+T ss_pred             CCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcC
+Confidence            6789988888888888888888888888887765
+
+
+No 5
+>PF09595.10 ; Metaviral_G ; Metaviral_G glycoprotein
+Probab=12.88  E-value=12  Score=25.68  Aligned_cols=20  Identities=20%  Similarity=0.403  Sum_probs=17.2  Template_Neff=2.100
+
+Q EWY92345.1        4 GLEALGAASAVLQLISFAGS   23 (286)
+Q Consensus        40 plsAlglAanIiQfvdf~~k   59 (352)
+                      +|+||++|-||+-+|+++..
+T Consensus         3 GitaLSmALNI~LIInya~~   22 (183)
+T VGLG_HMPVC/35-    3 GITTLSIALNIYLIINYTIQ   22 (183)
+T ss_pred             cHHHHHHHHHHHHHHHHHhh
+Confidence            57899999999999998753
+
+
+No 6
+>PF15290.6 ; Syntaphilin ; Golgi-localised syntaxin-1-binding clamp
+Probab=12.51  E-value=13  Score=28.56  Aligned_cols=19  Identities=26%  Similarity=0.405  Sum_probs=12.9  Template_Neff=3.500
+
+Q EWY92345.1      116 HKAKINELEKSLNMCKEVM  134 (286)
+Q Consensus       155 ~~~~I~~L~~rL~~~r~~L  173 (352)
+                      ++.+|++|..+|.++|...
+T Consensus        92 KEsEI~eLk~QL~rmredw  110 (316)
+T H3CN48_TETNG/1   92 REAEIQDLKTQLSRMREDW  110 (316)
+T ss_pred             HHHHHHHHHHHHHHHHHHH
+Confidence            4567777777777776653
+
+
+No 7
+>PF07328.11 ; VirD1 ; T-DNA border endonuclease VirD1
+Probab=5.65  E-value=34  Score=21.55  Aligned_cols=58  Identities=9%  Similarity=0.025  Sum_probs=30.9  Template_Neff=9.200
+
+Q EWY92345.1       41 ELEDYATKMLDAAKRVESRQ--VPRG---TSVNDRLLEVSQKCIDAAQELEKEIKNVTKR   95 (286)
+Q Consensus        77 ~L~~~~~~L~~l~~~L~~~~~~~~~~~~~~~~~~~L~~l~~~C~~~a~eL~~~L~~l~~~  136 (352)
+                      .+..+..+|..+...|...........  ......+..+..+|...+.++...|..+...
+T Consensus        71 ~l~~~~~~L~~ig~NlNQia~~~n~~~--~~~~~~~~~~~~~l~~~~~~v~~~l~~~~~~  128 (142)
+T Q2K2F6_RHIEC/4   71 KMEGILLSMGTLSGNIAALLSAYADNP--RPDLEALRAERIAFGKAFADLDGLLRSILSV  128 (142)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhcCC--CCCHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            445555555555555554433322111  1122345566777777777777777776543
+
+
+No 8
+>PF15546.6 ; DUF4653 ; Domain of unknown function (DUF4653)
+Probab=5.14  E-value=42  Score=23.56  Aligned_cols=16  Identities=13%  Similarity=0.158  Sum_probs=7.2  Template_Neff=2.300
+
+Q EWY92345.1      117 KAKINELEKSLNMCKE  132 (286)
+Q Consensus       156 ~~~I~~L~~rL~~~r~  171 (352)
+                      +.+.++-.-.|-.||.
+T Consensus       163 eqEkekh~~~lvMYRR  178 (229)
+T A0A286XP98_CAV  163 EQEKEKHHVHLVMYRR  178 (229)
+T ss_pred             HHHHHHHHHHHHHHHH
+Confidence            3444444444545544
+
+
+No 9
+>PF18456.1 ; CmlA_N ; Diiron non-heme beta-hydroxylase N-terminal domain
+Probab=5.09  E-value=41  Score=24.18  Aligned_cols=69  Identities=10%  Similarity=0.103  Sum_probs=0.0  Template_Neff=4.900
+
+Q EWY92345.1       17 LISFAGSLASITMKIYDGIPTAENELEDYATKMLDAAKRVESRQ--VPRG---TSVNDRLLEVSQKCIDAAQEL   85 (286)
+Q Consensus        53 fvdf~~klis~~~eiy~~~~~~~~~L~~~~~~L~~l~~~L~~~~~~~~~~~~~~~~~~~L~~l~~~C~~~a~eL  126 (352)
+                      ||++... +..++.+++........+-.+++.+..+...|+....+    .++..-...+-+..++|.++.-++
+T Consensus        63 Fid~~~~-v~eV~~Ll~~t~~~~~~ll~la~ai~~l~~lL~~~a~G----~SLe~LY~~vP~~LrG~VEL~YD~  131 (232)
+T D2UD67_XANAP/8   63 FIDHAGD-VADIRTFRDQTLQRCATQLQYAEAISAVYSVLQSEAKG----AGLAGLYAKFDPLIRDKLEIFYDV  131 (232)
+T ss_pred             ccCCCCC-HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccC----CcchHHHHhccHHHccceEEeecC
+
+
+No 10
+>PF09177.11 ; Syntaxin-6_N ; Syntaxin 6, N-terminal
+Probab=4.72  E-value=44  Score=19.61  Aligned_cols=86  Identities=13%  Similarity=0.096  Sum_probs=0.0  Template_Neff=8.200
+
+Q EWY92345.1       41 ELEDYATKMLDAAKRVESRQ--VPRG---TSVNDRLLEVSQKCIDAAQELEKEIKNVTKRYKkqKGKILMAVYSAFRADK  115 (286)
+Q Consensus        77 ~L~~~~~~L~~l~~~L~~~~~~~~~~~~~~~~~~~L~~l~~~C~~~a~eL~~~L~~l~~~~~..~~~~~~s~~~alk~~~  154 (352)
+                      +++.-...|..+...........++..........|...+..+.....+|...++-+...+.  +.+.            
+T Consensus         9 ev~~~l~~l~~~~~~~~~l~~~~~~~~~~~~~~~el~~~~~~l~~~l~dL~~sv~~v~~~p~..r~~i------------   74 (97)
+T A0A1X7U4K5_AMP    9 DVRESLNNAQDLYSRWCMLLEDQSDLEKTQGVSTDLRSCIKSIEWDLQDLDETISVVEANPQ..KFRV------------   74 (97)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhcCCchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHChh..hcCC------------
+
+
+Q EWY92345.1      116 HKAKINELEKSLNMCKEVME  135 (286)
+Q Consensus       155 ~~~~I~~L~~rL~~~r~~L~  174 (352)
+                      ...+|..-+.-+..++.++.
+T Consensus        75 ~~~El~~Rr~fv~~~~~~l~   94 (97)
+T A0A1X7U4K5_AMP   75 STGEIETRKQFIRDTRQVIN   94 (97)
+T ss_pred             CHHHHHHHHHHHHHHHHHHH
+
+

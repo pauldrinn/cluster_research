@@ -1,0 +1,150 @@
+Query         CVK98219.1
+Match_columns 114
+No_of_seqs    1127 out of 1153
+Neff          5.56302
+Searched_HMMs 100
+Date          Sat Feb  6 20:03:04 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/CVK98219_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/CVK98219_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/CVK98219_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF09907.9 ; HigB_toxin ; HigB_   9.7      15  0.0033   18.2   0.0   13   94-106    62-74  (74)
+  2 PF06616.11 ; BsuBI_PstI_RE ; B   5.3      36  0.0073   20.0   0.0   26   78-103   121-146 (153)
+  3 PF15090.6 ; DUF4553 ; Domain o   4.4      48  0.0092   23.3   0.0   20   86-105    84-103 (472)
+  4 PF04316.13 ; FlgM ; Anti-sigma   4.2      46  0.0099   15.1   0.0   23   73-95     21-43  (55)
+  5 PF04356.12 ; DUF489 ; Protein    3.6      59   0.012   19.4   0.0   24   61-84     28-51  (194)
+  6 PF16546.5 ; SGTA_dimer ; Homod   3.1      65   0.014   15.1   0.0   20   61-80     31-50  (66)
+  7 PF17609.2 ; HCMV_UL124 ; Famil   2.9      88   0.016   17.6   0.0   21   20-40     39-59  (126)
+  8 PF06531.11 ; DUF1108 ; Protein   2.8      83   0.016   16.5   0.0   21   81-101    53-73  (84)
+  9 PF18312.1 ; ScsC_N ; Copper re   2.6      82   0.018   12.3   0.0    9   95-103    11-19  (34)
+ 10 PF12095.8 ; CRR7 ; Protein CHL   2.5      97   0.019   16.3   0.0   29   80-108    53-81  (85)
+
+No 1
+>PF09907.9 ; HigB_toxin ; HigB_toxin, RelE-like toxic component of a toxin-antitoxin system
+Probab=9.70  E-value=15  Score=18.18  Aligned_cols=13  Identities=8%  Similarity=-0.015  Sum_probs=10.6  Template_Neff=7.700
+
+Q CVK98219.1       94 CEWIMNVPEVKSW  106 (114)
+Q Consensus        94 ceWIl~~~~f~~W  106 (114)
+                      ..||+.|.||..|
+T Consensus        62 i~~i~tH~eYdk~   74 (74)
+T Q3SMY4_NITWN/2   62 IRFFGSHEEYDKV   74 (74)
+T ss_pred             EEEeeCHHHHccC
+Confidence            6788999888766
+
+
+No 2
+>PF06616.11 ; BsuBI_PstI_RE ; BsuBI/PstI restriction endonuclease domain
+Probab=5.31  E-value=36  Score=19.97  Aligned_cols=26  Identities=12%  Similarity=0.111  Sum_probs=20.3  Template_Neff=5.300
+
+Q CVK98219.1       78 AKDALRTQQGPRAPKTCEWIMNVPEV  103 (114)
+Q Consensus        78 Dk~rIe~tKG~ll~gTceWIl~~~~f  103 (114)
+                      |++...+.-..+.-+|+-||.+.++-
+T Consensus       121 dr~~~rk~~~~iAWeTevW~a~~P~h  146 (153)
+T K9ZAU9_ANACC/6  121 NRKAMKEYLPEISWETDVWVAEDGTH  146 (153)
+T ss_pred             CHHHHHHhhhhcccCCEEEEecCCCc
+Confidence            44445778889999999999988763
+
+
+No 3
+>PF15090.6 ; DUF4553 ; Domain of unknown function (DUF4553)
+Probab=4.41  E-value=48  Score=23.26  Aligned_cols=20  Identities=20%  Similarity=0.690  Sum_probs=15.7  Template_Neff=3.800
+
+Q CVK98219.1       86 QGPRAPKTCEWIMNVPEVKS  105 (114)
+Q Consensus        86 KG~ll~gTceWIl~~~~f~~  105 (114)
+                      |.--+...|.||+++.|-+.
+T Consensus        84 k~~~l~~ic~WFmqTTETqS  103 (472)
+T G1NC60_MELGA/7   84 KAYKLSDICQWFLETTETRS  103 (472)
+T ss_pred             cCCCHHHHHHHHHHccccce
+Confidence            56668899999999977543
+
+
+No 4
+>PF04316.13 ; FlgM ; Anti-sigma-28 factor, FlgM
+Probab=4.16  E-value=46  Score=15.08  Aligned_cols=23  Identities=9%  Similarity=-0.047  Sum_probs=17.8  Template_Neff=7.300
+
+Q CVK98219.1       73 LDPSYAKDALRTQQGPRAPKTCE   95 (114)
+Q Consensus        73 TDP~dDk~rIe~tKG~ll~gTce   95 (114)
+                      .-|..+.++++.-|-.+-.|+|.
+T Consensus        21 ~~p~v~~~kV~~ik~~i~~G~Y~   43 (55)
+T B5EDX1_GEOBB/4   21 SLPEVRLDRVALAKQQVQNGGYR   43 (55)
+T ss_pred             cCccccHHHHHHHHHHHHcCCCC
+Confidence            44667788888888888888876
+
+
+No 5
+>PF04356.12 ; DUF489 ; Protein of unknown function (DUF489)
+Probab=3.56  E-value=59  Score=19.42  Aligned_cols=24  Identities=17%  Similarity=0.250  Sum_probs=17.9  Template_Neff=5.800
+
+Q CVK98219.1       61 KQIEAFYNDLIWLDPSYAKDALRT   84 (114)
+Q Consensus        61 ~~~~~CL~dL~~TDP~dDk~rIe~   84 (114)
+                      +....||+.||.+||.+-.+-.-.
+T Consensus        28 ~~~~~~i~Sl~~~d~~s~~~vyg~   51 (194)
+T W0DR60_9GAMM/9   28 LAFKTAINSLFIMNPDNTLDVYGG   51 (194)
+T ss_pred             HHHHHHHHHHhcCCCCCHHHHhCC
+Confidence            445679999999999976664433
+
+
+No 6
+>PF16546.5 ; SGTA_dimer ; Homodimerisation domain of SGTA
+Probab=3.15  E-value=65  Score=15.06  Aligned_cols=20  Identities=5%  Similarity=0.011  Sum_probs=15.8  Template_Neff=7.200
+
+Q CVK98219.1       61 KQIEAFYNDLIWLDPSYAKD   80 (114)
+Q Consensus        61 ~~~~~CL~dL~~TDP~dDk~   80 (114)
+                      +-..+||..-|..+|.+...
+T Consensus        31 eVAiqCl~~aF~v~~~~~~~   50 (66)
+T B2VSW0_PYRTR/5   31 EVATNCIAEAFKVDATDEAA   50 (66)
+T ss_pred             HHHHHHHHHHhCCCcccHHH
+Confidence            44568999999999987654
+
+
+No 7
+>PF17609.2 ; HCMV_UL124 ; Family of unknown function
+Probab=2.86  E-value=88  Score=17.61  Aligned_cols=21  Identities=38%  Similarity=0.498  Sum_probs=15.3  Template_Neff=1.400
+
+Q CVK98219.1       20 ASDEGPLSPDSFLGHYPWPST   40 (114)
+Q Consensus        20 ~~~~~~~~~~sf~~~y~~~~a   40 (114)
+                      .+..-+.++.+|...||...+
+T Consensus        39 a~~~~~~sp~s~~~~yptata   59 (126)
+T UL124_HCMVM/25   39 ASAVQAHSPSSFSDTYPTATA   59 (126)
+T ss_pred             CCccccCCCcchhhhchhhHH
+Confidence            345567788999999996533
+
+
+No 8
+>PF06531.11 ; DUF1108 ; Protein of unknown function (DUF1108)
+Probab=2.77  E-value=83  Score=16.46  Aligned_cols=21  Identities=24%  Similarity=0.240  Sum_probs=15.6  Template_Neff=4.400
+
+Q CVK98219.1       81 ALRTQQGPRAPKTCEWIMNVP  101 (114)
+Q Consensus        81 rIe~tKG~ll~gTceWIl~~~  101 (114)
+                      -++....-+....++||-++.
+T Consensus        53 ~l~~A~e~l~~~i~~WIEenT   73 (84)
+T Q2FWQ7_STAA8/1   53 DLYTALDILNQSIYEWIEENT   73 (84)
+T ss_pred             hhHHHHHHHHHHHHHHHHhcc
+Confidence            344566777888999998875
+
+
+No 9
+>PF18312.1 ; ScsC_N ; Copper resistance protein ScsC N-terminal domain
+Probab=2.59  E-value=82  Score=12.28  Aligned_cols=9  Identities=22%  Similarity=0.929  Sum_probs=5.0  Template_Neff=7.500
+
+Q CVK98219.1       95 EWIMNVPEV  103 (114)
+Q Consensus        95 eWIl~~~~f  103 (114)
+                      .|+++|+++
+T Consensus        11 ~yL~~nPev   19 (34)
+T B2IC37_BEII9/5   11 DYLIENPEI   19 (34)
+T ss_pred             HHHHHCHHH
+Confidence            456666553
+
+
+No 10
+>PF12095.8 ; CRR7 ; Protein CHLORORESPIRATORY REDUCTION 7
+Probab=2.47  E-value=97  Score=16.26  Aligned_cols=29  Identities=17%  Similarity=0.307  Sum_probs=23.2  Template_Neff=4.100
+
+Q CVK98219.1       80 DALRTQQGPRAPKTCEWIMNVPEVKSWLQ  108 (114)
+Q Consensus        80 ~rIe~tKG~ll~gTceWIl~~~~f~~W~~  108 (114)
+                      ..++..--.|+...|+.=++...|-+|-.
+T Consensus        53 ~s~~~qa~~Lldt~CELe~~pg~~lQWYa   81 (85)
+T K9TR52_9CYAN/1   53 PTIEAQAQYLLETSCEFDLGPGEYFQWYV   81 (85)
+T ss_pred             CCHHHHHHHHHHccceEecCCCceEEEEE
+Confidence            45666777888999999888889999953
+
+

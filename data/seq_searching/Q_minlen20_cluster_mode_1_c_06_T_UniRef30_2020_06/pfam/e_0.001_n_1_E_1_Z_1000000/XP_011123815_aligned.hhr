@@ -1,0 +1,150 @@
+Query         XP_011123815.1
+Match_columns 151
+No_of_seqs    1877 out of 1954
+Neff          9.22499
+Searched_HMMs 100
+Date          Sat Feb  6 20:07:16 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/XP_011123815_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_011123815_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_011123815_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF08043.12 ; Xin ; Xin repeat   40.4     1.6 0.00029   15.4   0.0   10  120-129     4-13  (16)
+  2 PF14144.6 ; DOG1 ; Seed dorman  34.4     2.2 0.00042   21.6   0.0   15  133-147    51-65  (77)
+  3 PF11483.8 ; DUF3209 ; Protein   32.0     2.7 0.00049   23.4   0.0   15   11-25      3-20  (122)
+  4 PF16496.5 ; SWIRM-assoc_2 ; SW  27.8     3.4 0.00064   27.9   0.0   46   93-138   189-246 (405)
+  5 PF06516.11 ; NUP ; Purine nucl  22.1       5 0.00096   25.5   0.0   12   10-21    241-252 (329)
+  6 PF09069.11 ; EF-hand_3 ; EF-ha  20.0       6  0.0011   20.2   0.0   17  129-145    69-85  (92)
+  7 PF18532.1 ; DUF5621 ; Domain o  10.3      17   0.003   20.3   0.0   23  110-132    61-83  (140)
+  8 PF06957.11 ; COPI_C ; Coatomer   7.2      26  0.0049   22.9   0.0   20   34-53    306-325 (413)
+  9 PF05621.11 ; TniB ; Bacterial    6.0      31  0.0062   17.5   0.0   11  141-151    36-46  (191)
+ 10 PF01057.17 ; Parvo_NS1 ; Parvo   5.8      33  0.0065   19.8   0.0   13  139-151   117-129 (284)
+
+No 1
+>PF08043.12 ; Xin ; Xin repeat
+Probab=40.42  E-value=1.6  Score=15.40  Aligned_cols=10  Identities=20%  Similarity=0.890  Sum_probs=6.9  Template_Neff=3.000
+
+Q XP_011123815.1   71 GTCEWFVTHP   80 (90)
+Q Consensus       120 gT~~Wll~~~  129 (151)
+                      .|+.|+++..
+T Consensus         4 ~~~~wlFETq   13 (16)
+T F6SLD1_XENTR/7    4 KMCKWLFETQ   13 (16)
+T ss_pred             cceeEeEecc
+Confidence            4677887754
+
+
+No 2
+>PF14144.6 ; DOG1 ; Seed dormancy control
+Probab=34.44  E-value=2.2  Score=21.63  Aligned_cols=15  Identities=7%  Similarity=0.210  Sum_probs=11.4  Template_Neff=6.000
+
+Q XP_011123815.1   84 EWQESKS--------   90 (90)
+Q Consensus       133 ~W~~~~~~~llw~~G  147 (151)
+                      .|..+-...++|++|
+T Consensus        51 ~W~t~~E~~~lWigG   65 (77)
+T M0U8H2_MUSAM/2   51 MWMMPAERCFLWLGG   65 (77)
+T ss_pred             CCCCHHHHHHHHHhc
+Confidence            477776778888887
+
+
+No 3
+>PF11483.8 ; DUF3209 ; Protein of unknown function (DUF3209)
+Probab=31.99  E-value=2.7  Score=23.35  Aligned_cols=15  Identities=0%  Similarity=0.000  Sum_probs=12.7  Template_Neff=2.900
+
+Q XP_011123815.1    1 ------------------    0 (90)
+Q Consensus        11 cfemeaa--gl~~-~gi~   25 (151)
+                      |.|.||-  |||| .|+.
+T Consensus         3 ChEieALRLgLMnvLG~~   20 (122)
+T Q18FX1_HALWD/1    3 CHEIEALKLGLMNVLGTT   20 (122)
+T ss_pred             hHHHHHHHHHHHHHhCCC
+Confidence            8899987  8999 7775
+
+
+No 4
+>PF16496.5 ; SWIRM-assoc_2 ; SWIRM-associated domain at the N-terminal
+Probab=27.85  E-value=3.4  Score=27.88  Aligned_cols=46  Identities=11%  Similarity=0.246  Sum_probs=29.5  Template_Neff=5.700
+
+Q XP_011123815.1   45 RKHSVLQ---RLykt-SYQEHKDRN------------PDRVPGTCEWFVTHPRFQEWQESK   89 (90)
+Q Consensus        93 ~~~~il~wL~~~...~~~~~~~~~~------------~~r~~gT~~Wll~~~~f~~W~~~~  138 (151)
+                      ....++.|...+   +.+..+-...            ...-.=++.||+++..|.+|++..
+T Consensus       189 d~~vLVHw~y~P...DSYD~Wv~~~~~~~~p~~~~~~~~pw~V~arWl~Ds~~fNEWMNEe  246 (405)
+T E0VYN8_PEDHC/5  189 DKNVLVHWYYFP...DSHDSWIQADLPIDPPDSPPVHVGPWRVAATWVLELEQYNEWMTEE  246 (405)
+T ss_pred             CCcEEEEeeecC...cccceeecCCCCCCCCCCCCCCCCCeEEeeehhhcHHHHcCCCCHH
+Confidence            345567777777   6655443211            112223789999999999999753
+
+
+No 5
+>PF06516.11 ; NUP ; Purine nucleoside permease (NUP)
+Probab=22.07  E-value=5  Score=25.46  Aligned_cols=12  Identities=0%  Similarity=0.000  Sum_probs=10.3  Template_Neff=8.900
+
+Q XP_011123815.1    1 ------------    0 (90)
+Q Consensus        10 lcfemeaagl~~   21 (151)
+                      +++|||++|++.
+T Consensus       241 ~~~dME~~av~~  252 (329)
+T A7EFM5_SCLS1/6  241 CMTAQEDNATLS  252 (329)
+T ss_pred             EEEccHHHHHHH
+Confidence            799999998764
+
+
+No 6
+>PF09069.11 ; EF-hand_3 ; EF-hand
+Probab=20.01  E-value=6  Score=20.21  Aligned_cols=17  Identities=12%  Similarity=0.494  Sum_probs=12.5  Template_Neff=7.200
+
+Q XP_011123815.1   80 PRFQEWQESKS------   90 (90)
+Q Consensus       129 ~~f~~W~~~~~~~llw~  145 (151)
+                      .+|.+|.....+.|.|+
+T Consensus        69 ~~Fl~Wl~~ePq~lvWL   85 (92)
+T C3YXT6_BRAFL/1   69 AHFLDWMKQEPQSMVWL   85 (92)
+T ss_pred             HHHHHHHHhCcchhchH
+Confidence            56888887777777775
+
+
+No 7
+>PF18532.1 ; DUF5621 ; Domain of unknown function (DUF5621)
+Probab=10.31  E-value=17  Score=20.31  Aligned_cols=23  Identities=13%  Similarity=0.224  Sum_probs=17.8  Template_Neff=4.400
+
+Q XP_011123815.1   61 HKDRNPDRVPGTCEWFVTHPRFQ   83 (90)
+Q Consensus       110 ~~~~~~~r~~gT~~Wll~~~~f~  132 (151)
+                      |....+...|.|..||++...+.
+T Consensus        61 HRELFk~~YP~~ynwfFE~n~~d   83 (140)
+T A0A098FZ64_9GA   61 ERELFKIAYPRTFNYLFEKNVFD   83 (140)
+T ss_pred             HHHHHHHHhHHHHHHHHhcCCCC
+Confidence            44566788899999999887654
+
+
+No 8
+>PF06957.11 ; COPI_C ; Coatomer (COPI) alpha subunit C-terminus
+Probab=7.20  E-value=26  Score=22.94  Aligned_cols=20  Identities=5%  Similarity=0.048  Sum_probs=15.6  Template_Neff=6.100
+
+Q XP_011123815.1    1 ---------mmesTR---ESAFSN   12 (90)
+Q Consensus        34 ~y~~aaa~a....k~lL~~~~~~~   53 (151)
+                      .|.+|+.+|    +.||...++..
+T Consensus       306 Nf~tAa~fA....rrLLel~p~~~  325 (413)
+T J9K3N8_ACYPI/8  306 NLNTAASFA....KRLLELGPRAD  325 (413)
+T ss_pred             CHHHHHHHH....HHHHHhCCCHH
+Confidence            358999999    99998766533
+
+
+No 9
+>PF05621.11 ; TniB ; Bacterial TniB protein
+Probab=6.01  E-value=31  Score=17.51  Aligned_cols=11  Identities=0%  Similarity=0.000  Sum_probs=6.7  Template_Neff=12.400
+
+Q XP_011123815.1   91 -----------   90 (90)
+Q Consensus       141 ~llw~~G~~~~  151 (151)
+                      ..+++.|.||+
+T Consensus        36 ~~~~i~G~~G~   46 (191)
+T E8X2D5_GRATM/2   36 PCLLIAGRTNN   46 (191)
+T ss_pred             CEEEEEcCCCC
+Confidence            45666666663
+
+
+No 10
+>PF01057.17 ; Parvo_NS1 ; Parvovirus non-structural protein NS1
+Probab=5.80  E-value=33  Score=19.76  Aligned_cols=13  Identities=0%  Similarity=0.003  Sum_probs=9.7  Template_Neff=10.500
+
+Q XP_011123815.1   90 S------------   90 (90)
+Q Consensus       139 ~~~llw~~G~~~~  151 (151)
+                      ....+|+.|+||+
+T Consensus       117 ~~~~l~l~G~~gt  129 (284)
+T Q308H9_PAVHB/2  117 KKNTLWFYGPPST  129 (284)
+T ss_pred             CCCEEEEECCCCC
+Confidence            3467888898885
+
+

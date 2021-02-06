@@ -1,0 +1,147 @@
+Query         KZS89476.1
+Match_columns 142
+No_of_seqs    1372 out of 1393
+Neff          8.63956
+Searched_HMMs 104
+Date          Sat Feb  6 20:05:01 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KZS89476_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KZS89476_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KZS89476_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF11043.8 ; DUF2856 ; Protein   48.7    0.96 0.00018   24.9   0.0   22  114-136    12-33  (97)
+  2 PF17100.5 ; NACHT_N ; N-termin  15.7     8.3  0.0017   22.4   0.0   48   18-65    172-219 (229)
+  3 PF03715.13 ; Noc2 ; Noc2p fami  11.7      13  0.0025   23.3   0.0   36    6-41    234-269 (299)
+  4 PF14039.6 ; YusW ; YusW-like p   4.5      47   0.009   16.3   0.0   27   61-87     45-71  (92)
+  5 PF08760.11 ; DUF1793 ; Domain    3.8      59   0.011   19.0   0.0   21  119-139   146-166 (200)
+  6 PF07765.12 ; KIP1 ; KIP1-like    3.3      71   0.013   15.0   0.0   29    8-36      6-34  (74)
+  7 PF03037.16 ; KMP11 ; Kinetopla   3.2      77   0.014   15.5   0.0   25   14-38     40-64  (90)
+  8 PF04065.15 ; Not3 ; Not1 N-ter   3.1      75   0.014   18.7   0.0   51   23-73     41-91  (232)
+  9 PF03882.14 ; KicB ; MukF winge   2.7      93   0.017   16.3   0.0   48   49-96     41-88  (115)
+ 10 PF14204.6 ; Ribosomal_L18_c ;    2.4   1E+02    0.02   14.9   0.0   27   45-71     31-57  (91)
+
+No 1
+>PF11043.8 ; DUF2856 ; Protein of unknown function (DUF2856)
+Probab=48.71  E-value=0.96  Score=24.86  Aligned_cols=22  Identities=23%  Similarity=0.419  Sum_probs=18.3  Template_Neff=3.900
+
+Q KZS89476.1       24 RRECTPHTRKAILEELMSWSGDI   46 (51)
+Q Consensus       114 ~~~C~~gTR~~iL~~i~~W~~~~  136 (142)
+                      +. |..||-.+||+.+.+-+...
+T Consensus        12 r~-~~~~TKeEVLa~~~~~~~~~   33 (97)
+T ABC2_BPP22/1-9   12 RR-CSGNSVSEVLDKFRKNYDLI   33 (97)
+T ss_pred             Cc-CCCCCHHHHHHHHHHHHHHH
+Confidence            55 99999999999998766543
+
+
+No 2
+>PF17100.5 ; NACHT_N ; N-terminal domain of NWD NACHT-NTPase
+Probab=15.67  E-value=8.3  Score=22.41  Aligned_cols=48  Identities=0%  Similarity=0.000  Sum_probs=18.0  Template_Neff=10.000
+
+Q KZS89476.1        1 ------------------------------------------------    0 (51)
+Q Consensus        18 ~~~~i~~l~~~i~~~~~~I~~~~~~~~~~r~~~~~~d~~~i~~~~~~i   65 (142)
+                      +.+.+..+...|-.-...+..+..++.+.|++.+....+++.....+|
+T Consensus       172 l~~~l~~LY~~iL~f~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i  219 (229)
+T B8NEA4_ASPFN/5  172 LETGMLDMYKCMLFYEIKSVCFYHKNQLAVFVRGLFNIDDWDGGLTKL  219 (229)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhhchHHHHHHHhhccCChhHHHHHH
+Confidence            333344444333333333333333344444444433333333333333
+
+
+No 3
+>PF03715.13 ; Noc2 ; Noc2p family
+Probab=11.71  E-value=13  Score=23.34  Aligned_cols=36  Identities=0%  Similarity=0.000  Sum_probs=18.3  Template_Neff=7.300
+
+Q KZS89476.1        1 ------------------------------------    0 (51)
+Q Consensus         6 L~~~~~~~~~~~~~~~i~~l~~~i~~~~~~I~~~~~   41 (142)
+                      |+++.+..........+.++...|++..++|.++..
+T Consensus       234 Lk~~~k~~k~~~~~~~ik~Li~ki~~~~~~I~~~R~  269 (299)
+T F4NWW3_BATDJ/2  234 LKHMTKNSKDVNLNKTLGQLTEKLEQNSAFIQEKRV  269 (299)
+T ss_pred             HHHHHHhCCCHHHHHHHHHHHHHHHHHHHHHHHHHc
+Confidence            344444333344445555566666666666655543
+
+
+No 4
+>PF14039.6 ; YusW ; YusW-like protein
+Probab=4.51  E-value=47  Score=16.27  Aligned_cols=27  Identities=0%  Similarity=0.000  Sum_probs=17.4  Template_Neff=7.100
+
+Q KZS89476.1        1 ---------------------------    0 (51)
+Q Consensus        61 ~~~~i~~l~~~l~~~~~l~~~~~v~~~   87 (142)
+                      ++..+..++..|.+...++...+++++
+T Consensus        45 A~~~ve~ll~~l~i~~~~s~eeii~~v   71 (92)
+T D3FXU8_BACPE/9   45 AYTELETTFEEMELDSSMSEEEIIDAV   71 (92)
+T ss_pred             HHHHHHHHHHhCCCCCCCCHHHHHHHH
+Confidence            566677788888777666555444443
+
+
+No 5
+>PF08760.11 ; DUF1793 ; Domain of unknown function (DUF1793)
+Probab=3.83  E-value=59  Score=18.97  Aligned_cols=21  Identities=19%  Similarity=0.531  Sum_probs=16.8  Template_Neff=4.700
+
+Q KZS89476.1       29 PHTRKAILEELMSWSGDITPS   49 (51)
+Q Consensus       119 ~gTR~~iL~~i~~W~~~~~~~  139 (142)
+                      ..+|..+++.|..|+......
+T Consensus       146 d~~r~~~I~~i~~~~~~~~~~  166 (200)
+T A7EQ95_SCLS1/5  146 KKVREEIVDSIALWVNETTTD  166 (200)
+T ss_pred             HHHHHHHHHHHHHHHHhCCCC
+Confidence            378999999999999765433
+
+
+No 6
+>PF07765.12 ; KIP1 ; KIP1-like protein
+Probab=3.25  E-value=71  Score=14.95  Aligned_cols=29  Identities=0%  Similarity=0.000  Sum_probs=13.5  Template_Neff=6.200
+
+Q KZS89476.1        1 -----------------------------    0 (51)
+Q Consensus         8 ~~~~~~~~~~~~~~i~~l~~~i~~~~~~I   36 (142)
+                      .|.....++.+...+..+-..++..+..|
+T Consensus         6 shi~p~~s~~L~~~~~e~e~kv~~ilkli   34 (74)
+T B9GN47_POPTR/1    6 SHIRTKHSKWLEENLQDMEEKVNNMLKII   34 (74)
+T ss_pred             cCCCCCCCHHHHHHHHHHHHHHHHHHHHH
+Confidence            34433344445445555444444444444
+
+
+No 7
+>PF03037.16 ; KMP11 ; Kinetoplastid membrane protein 11
+Probab=3.20  E-value=77  Score=15.47  Aligned_cols=25  Identities=0%  Similarity=0.000  Sum_probs=16.6  Template_Neff=1.400
+
+Q KZS89476.1        1 -------------------------    0 (51)
+Q Consensus        14 ~~~~~~~~i~~l~~~i~~~~~~I~~   38 (142)
+                      .+|+|.+..+.+-..|++-.....+
+T Consensus        40 LSPEMkEHYekFEkmIqeHTdKFnk   64 (90)
+T Q38D58_TRYB2/1   40 LSPEMKEHYEKFEKMIQEHTDKFNK   64 (90)
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            5677877777777777665554443
+
+
+No 8
+>PF04065.15 ; Not3 ; Not1 N-terminal domain, CCR4-Not complex component
+Probab=3.11  E-value=75  Score=18.72  Aligned_cols=51  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=5.700
+
+Q KZS89476.1        1 ---------------------------------------------------    0 (51)
+Q Consensus        23 ~~l~~~i~~~~~~I~~~~~~~~~~r~~~~~~d~~~i~~~~~~i~~l~~~l~   73 (142)
+                      +.+-..+..++..++.+...-..+-.-....+...+...-+.|+.-|.+|.
+T Consensus        41 eK~E~dLKkeIKKLQR~RdqIK~W~~~~diKdK~~L~e~Rk~IE~~ME~FK   91 (232)
+T H2AS90_KAZAF/2   41 EKLESDLKREIKKLQRLREQIKSWQSSNEVKDKDSLLDYRRSVEVAMEKYK   91 (232)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhhcCchhcchHHHHHHHHHHHHHHHHHH
+
+
+No 9
+>PF03882.14 ; KicB ; MukF winged-helix domain
+Probab=2.66  E-value=93  Score=16.28  Aligned_cols=48  Identities=0%  Similarity=0.047  Sum_probs=0.0  Template_Neff=4.200
+
+Q KZS89476.1        1 -------------------------------------------MAKKL    5 (51)
+Q Consensus        49 ~~~~~d~~~i~~~~~~i~~l~~~l~~~~~l~~~~~v~~~~~~~~L~~L   96 (142)
+                      .....++.++.+.|+.+...+.+-.-......-+.++++.....|.+.
+T Consensus        41 ~d~e~~E~eL~d~F~~V~~~f~~~~et~~~RANnAIn~Lv~QrLL~Rf   88 (115)
+T X2H6S8_9GAMM/2   41 FDGEMTESELIDAFRHVSQIFEQSEDTITVRANNAINDLVRQRLITRF   88 (115)
+T ss_pred             cCCCCCHHHHHHHHHHHHHHhcCCcchHHHHHHHHHHHHHHhhcHHHh
+
+
+No 10
+>PF14204.6 ; Ribosomal_L18_c ; Ribosomal L18 C-terminal region
+Probab=2.37  E-value=1e+02  Score=14.92  Aligned_cols=27  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=6.000
+
+Q KZS89476.1        1 ---------------------------    0 (51)
+Q Consensus        45 ~~r~~~~~~d~~~i~~~~~~i~~l~~~   71 (142)
+                      |..++....+++++...|..+...+..
+T Consensus        31 Fs~yik~gi~p~~i~~~f~~vk~~I~~   57 (91)
+T B3RNF8_TRIAD/1   31 FSRFIKNGITADSVEEMYKSAHSAIRA   57 (91)
+T ss_pred             HHHHHHcCCCHHhHHHHHHHHHHHHHh
+
+

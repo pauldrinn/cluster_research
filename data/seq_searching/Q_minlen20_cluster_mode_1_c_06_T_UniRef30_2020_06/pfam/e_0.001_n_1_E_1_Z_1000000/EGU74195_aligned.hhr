@@ -1,0 +1,150 @@
+Query         EGU74195.1
+Match_columns 147
+No_of_seqs    285 out of 285
+Neff          4.67214
+Searched_HMMs 100
+Date          Sat Feb  6 20:03:09 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/EGU74195_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/EGU74195_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/EGU74195_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF10737.9 ; GerPC ; Spore germ  20.1     5.4  0.0011   26.3   0.0   14   62-75     31-44  (174)
+  2 PF17431.2 ; YpmT ; Uncharacter  13.7      11   0.002   21.4   0.0   13   76-88     29-41  (62)
+  3 PF09058.10 ; L27_1 ; L27_1       7.4      23  0.0047   18.8   0.0   42   19-61     11-52  (58)
+  4 PF16934.5 ; Mersacidin ; Two-c   6.5      28  0.0056   19.4   0.0   28   10-37     11-38  (71)
+  5 PF16065.5 ; DUF4807 ; Domain o   6.1      30  0.0062   20.9   0.0   45   46-90     27-80  (126)
+  6 PF01407.17 ; Gemini_AL3 ; Gemi   5.9      32  0.0064   20.9   0.0   19   74-92     53-71  (116)
+  7 PF02216.16 ; B ; B domain        5.8      34  0.0065   18.3   0.0   23   14-36     18-40  (53)
+  8 PF15330.6 ; SIT ; SHP2-interac   5.3      35  0.0073   20.0   0.0   16   76-91     41-56  (106)
+  9 PF09916.9 ; DUF2145 ; Uncharac   5.3      36  0.0074   22.3   0.0   41   30-70    119-161 (202)
+ 10 PF06855.12 ; YozE_SAM_like ; Y   4.7      38  0.0085   17.0   0.0   29   18-46     37-65  (67)
+
+No 1
+>PF10737.9 ; GerPC ; Spore germination protein GerPC
+Probab=20.07  E-value=5.4  Score=26.32  Aligned_cols=14  Identities=43%  Similarity=0.710  Sum_probs=11.8  Template_Neff=5.600
+
+Q EGU74195.1       62 YVKENLEIERLSGE   75 (147)
+Q Consensus        62 y~~~rLkIeRLSGd   75 (147)
+                      |.-+.|+|++|+|.
+T Consensus        31 Y~fdqLkie~L~GT   44 (174)
+T C0ZG73_BREBN/2   31 YKFDLLKVERLEGT   44 (174)
+T ss_pred             EEeeeceeeEEeee
+Confidence            44589999999996
+
+
+No 2
+>PF17431.2 ; YpmT ; Uncharacterized YmpT-like
+Probab=13.67  E-value=11  Score=21.36  Aligned_cols=13  Identities=23%  Similarity=0.434  Sum_probs=10.2  Template_Neff=2.900
+
+Q EGU74195.1       76 RLPLEQCYINLII   88 (147)
+Q Consensus        76 ~LpMdqCYINLAI   88 (147)
+                      .-.||+.|+|.+-
+T Consensus        29 ~enmDevylNi~Y   41 (62)
+T YPMT_BACSU/1-6   29 AEDMDQMYLNVSY   41 (62)
+T ss_pred             HcCcchhhHHHHH
+Confidence            4479999999863
+
+
+No 3
+>PF09058.10 ; L27_1 ; L27_1
+Probab=7.43  E-value=23  Score=18.75  Aligned_cols=42  Identities=14%  Similarity=-0.077  Sum_probs=27.2  Template_Neff=5.300
+
+Q EGU74195.1       19 LEELRQYAKSSEESPETRRLAAARLEDKLACLKAADDWLLQHC   61 (147)
+Q Consensus        19 ~~~~~~~~~~~~~~~~~~~L~a~~~k~~~s~l~~AD~~Ir~~y   61 (147)
+                      ++.+..|... ..+.+.+.-++..+..+.+.|++|=--|.+.|
+T Consensus        11 L~lLe~y~~~-~~d~~Lr~aiervi~~fks~Lf~aLldIqefY   52 (58)
+T W5N8A6_LEPOC/4   11 LRLMEECQSE-TGDEGFRARAEKLLNIFQSDLFQALLDIQEFY   52 (58)
+T ss_pred             HHHHHHHHhc-cCCHHHHHHHHHHHHHHhcchhHHHHHHHHHH
+Confidence            4555666655 44555566666677777778888877776655
+
+
+No 4
+>PF16934.5 ; Mersacidin ; Two-component Enterococcus faecalis cytolysin (EFC)
+Probab=6.54  E-value=28  Score=19.41  Aligned_cols=28  Identities=29%  Similarity=0.207  Sum_probs=22.4  Template_Neff=4.500
+
+Q EGU74195.1       10 PGPLPHNLSLEELRQYAKSSEESPETRR   37 (147)
+Q Consensus        10 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~   37 (147)
+                      -|.-+..||.+|+.+-.+...+.+++--
+T Consensus        11 vG~sfeeLs~eEM~~iqG~gDV~pettp   38 (71)
+T D5WV03_KYRT2/1   11 AGDALAGLSEEELLAVYGGGDVQAETTP   38 (71)
+T ss_pred             cchhcCCCCHHHHHHHhcCCCCCCCcCC
+Confidence            3567789999999999888888777643
+
+
+No 5
+>PF16065.5 ; DUF4807 ; Domain of unknown function (DUF4807)
+Probab=6.06  E-value=30  Score=20.92  Aligned_cols=45  Identities=18%  Similarity=0.064  Sum_probs=30.4  Template_Neff=5.600
+
+Q EGU74195.1       46 KLACLKAADDWLLQHCY---------VKENLEIERLSGERLPLEQCYINLIIIP   90 (147)
+Q Consensus        46 ~~s~l~~AD~~Ir~~yy---------~~~rLkIeRLSGd~LpMdqCYINLAIVE   90 (147)
+                      .++.|-.|-..+.+++.         .-..++|-.--|++.-..+|+|++|+=-
+T Consensus        27 wlSTLGGaysaLgd~~~~~A~~A~~is~~Ql~lA~~lgDp~l~~rC~ly~a~sl   80 (126)
+T B5DJC2_DROPS/8   27 WLSTLGGGFSALGEQFERCAKTAGRISLQQLKIGLRLGDPCLQARCKLYYGISL   80 (126)
+T ss_pred             HHhhhhHHHHHhHHhHHHHHHHHHHHHHHHHHHHHHHCCHHHHHHHHHHHHHHH
+Confidence            34455555555555433         1224667777899999999999998754
+
+
+No 6
+>PF01407.17 ; Gemini_AL3 ; Geminivirus AL3 protein
+Probab=5.91  E-value=32  Score=20.94  Aligned_cols=19  Identities=32%  Similarity=0.579  Sum_probs=16.2  Template_Neff=4.300
+
+Q EGU74195.1       74 GERLPLEQCYINLIIIPHA   92 (147)
+Q Consensus        74 Gd~LpMdqCYINLAIVE~~   92 (147)
+                      .+.|-+.+||+|+-|.-..
+T Consensus        53 RkaLgiHKcfl~f~Iwtt~   71 (116)
+T REN_BCTVC/6-12   53 RRALNLHKCWIELTITGSN   71 (116)
+T ss_pred             hHHcCceeceeeceecccc
+Confidence            3678999999999998765
+
+
+No 7
+>PF02216.16 ; B ; B domain
+Probab=5.81  E-value=34  Score=18.26  Aligned_cols=23  Identities=17%  Similarity=0.340  Sum_probs=19.5  Template_Neff=3.500
+
+Q EGU74195.1       14 PHNLSLEELRQYAKSSEESPETR   36 (147)
+Q Consensus        14 ~~~~~~~~~~~~~~~~~~~~~~~   36 (147)
+                      |.+||.++-.+|.++..+.|..+
+T Consensus        18 l~~Lte~QRn~yI~~Lke~P~~s   40 (53)
+T SPA_STAA8/36-8   18 MPNLNADQRNGFIQSLKDDPSQS   40 (53)
+T ss_pred             CCCCCHHHHHHHHHHHHhChhHH
+Confidence            56799999999999998888764
+
+
+No 8
+>PF15330.6 ; SIT ; SHP2-interacting transmembrane adaptor protein, SIT
+Probab=5.33  E-value=35  Score=19.95  Aligned_cols=16  Identities=31%  Similarity=0.659  Sum_probs=14.1  Template_Neff=5.500
+
+Q EGU74195.1       76 RLPLEQCYINLIIIPH   91 (147)
+Q Consensus        76 ~LpMdqCYINLAIVE~   91 (147)
+                      ++.-|-||-||.....
+T Consensus        41 P~~~~~~YgNL~l~~~   56 (106)
+T G1TBE6_RABIT/1   41 SLESDLCYVNLTLPQT   56 (106)
+T ss_pred             cCCcCCcccccccCCc
+Confidence            5778999999999886
+
+
+No 9
+>PF09916.9 ; DUF2145 ; Uncharacterized protein conserved in bacteria (DUF2145)
+Probab=5.26  E-value=36  Score=22.34  Aligned_cols=41  Identities=20%  Similarity=0.210  Sum_probs=30.7  Template_Neff=5.000
+
+Q EGU74195.1       30 EESPETRRLAAAR--LEDKLACLKAADDWLLQHCYVKENLEIE   70 (147)
+Q Consensus        30 ~~~~~~~~L~a~~--~k~~~s~l~~AD~~Ir~~yy~~~rLkIe   70 (147)
+                      +-.+-+-++++.+  |..-.....+|-+|++..-|+...++|-
+T Consensus       119 NcnqwvLe~laaA~~~~~~~~~r~~aqawL~~~gy~P~~i~i~  161 (202)
+T Q7P1Z9_CHRVO/4  119 NSNVWVLEQLAAAESHETAIRSREQAQMWLKLNGYQPTELKLG  161 (202)
+T ss_pred             ccHHHHHHHHHHHHhhcchhHHHHHHHHHHHHCCCCCeEEEcC
+Confidence            3445566777777  7765445678999999999999888864
+
+
+No 10
+>PF06855.12 ; YozE_SAM_like ; YozE SAM-like fold
+Probab=4.72  E-value=38  Score=17.03  Aligned_cols=29  Identities=10%  Similarity=0.188  Sum_probs=18.8  Template_Neff=7.600
+
+Q EGU74195.1       18 SLEELRQYAKSSEESPETRRLAAARLEDK   46 (147)
+Q Consensus        18 ~~~~~~~~~~~~~~~~~~~~L~a~~~k~~   46 (147)
+                      +.+++..|.......++..+.+..+|+..
+T Consensus        37 ~~~~i~~YL~~~~a~~~~~~~f~~aw~~Y   65 (67)
+T J9W1E7_LACBU/4   37 EFDALSKYLEENASYLPTMEIFDSVWKEY   65 (67)
+T ss_pred             CHHHHHHHHHHcCCchHHHHHHHHHHHHH
+Confidence            35566677766666666667776666643
+
+

@@ -1,0 +1,1869 @@
+Query         KIL65314.1
+Match_columns 412
+No_of_seqs    163 out of 217
+Neff          3.71929
+Searched_HMMs 3105
+Date          Thu Feb  4 09:35:29 2021
+Command       hhblits_omp -i qdb -o res_hhr -oa3m res_a3m -d /mnt/c/hhsuite_databases/UniRef30_2020_06 -cpu 10 -e 0.001 -n 2 -E 0.01 -Z 1000000 -M 50 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 UniRef100_A0A0C2W324 NACHT dom 100.0 8.1E-86 1.8E-91  674.6   0.0  385    1-411     1-449 (924)
+  2 UniRef100_A0A0C2SNP0 NACHT dom 100.0 3.2E-70 7.9E-76  570.1   0.0  350   45-412     1-404 (959)
+  3 UniRef100_A0A0C2T358 Uncharact 100.0 2.2E-60 4.9E-66  455.5   0.0  291    1-412     1-312 (338)
+  4 UniRef100_A0A0C2RZN8 Uncharact 100.0 3.1E-58 8.6E-64  506.3   0.0  281   16-412     6-296 (1767)
+  5 UniRef100_A0A0C2SID9 NACHT dom 100.0 7.4E-57 1.8E-62  478.4   0.0  200  137-412     1-210 (1176)
+  6 UniRef100_A0A0C2WL61 Uncharact 100.0 1.1E-46 2.4E-52  362.0   0.0  277   45-347     1-320 (331)
+  7 UniRef100_A0A0C2RYY9 Uncharact 100.0 1.5E-44 3.8E-50  336.7   0.0  174  136-368    22-205 (209)
+  8 UniRef100_A0A0C2WJ55 Uncharact 100.0 3.5E-41 7.9E-47  291.5   0.0  113  300-412     8-125 (127)
+  9 UniRef100_A0A0C2SGQ2 Uncharact 100.0   3E-37 6.7E-43  310.4   0.0  161  234-412     1-161 (538)
+ 10 UniRef100_A0A0C2RZS3 NACHT dom 100.0 4.9E-35 1.2E-40  301.4   0.0   91  322-412    64-154 (638)
+ 11 UniRef100_A0A0C2RW96 Uncharact  99.9 1.6E-28 4.2E-34  269.5   0.0  106  301-412     9-118 (1173)
+ 12 UniRef100_A0A0C2WGQ9 Uncharact  99.9 1.1E-27 2.4E-33  221.8   0.0  117  229-348    64-198 (201)
+ 13 UniRef100_A0A0C2WHK5 Uncharact  99.9 1.2E-27 2.6E-33  212.1   0.0   72  341-412     1-72  (141)
+ 14 UniRef100_A0A0C2W324 NACHT dom  99.8 5.3E-23 1.2E-28  217.7   0.0  202    4-215    74-294 (924)
+ 15 UniRef100_A0A0C2TDS8 Uncharact  99.8 1.7E-22 3.7E-28  187.2   0.0  129  157-347    54-182 (191)
+ 16 UniRef100_A0A0C2WGS2 Uncharact  99.8 9.7E-22 2.3E-27  179.6   0.0  120  225-347    12-149 (160)
+ 17 UniRef100_A0A0C2TH39 NACHT dom  99.7 9.7E-20 2.2E-25  182.3   0.0   85  322-412    17-101 (390)
+ 18 UniRef100_A0A0C2RZ53 Uncharact  99.6 4.3E-19 9.6E-25  173.9   0.0  119  179-348   178-296 (306)
+ 19 UniRef100_A0A0C2W324 NACHT dom  99.6 5.7E-18 1.3E-23  181.1   0.0  139    5-153   141-292 (924)
+ 20 UniRef100_A0A0C2X6R7 Uncharact  99.5 2.8E-17 6.3E-23  150.8   0.0  126  153-330     4-129 (162)
+ 21 UniRef100_A0A0C2W324 NACHT dom  99.5   3E-17 6.8E-23  175.8   0.0  176   69-258     6-207 (924)
+ 22 UniRef100_A0A0C2RZ82 Uncharact  99.5 9.6E-17 2.1E-22  153.0   0.0  130    1-178     1-137 (223)
+ 23 UniRef100_A0A0C2WHI4 Uncharact  99.3 6.9E-15 1.6E-20  134.5   0.0   62  350-412    22-83  (150)
+ 24 UniRef100_A0A0C2S0Y0 Uncharact  99.1 3.8E-13 8.7E-19  120.5   0.0   61  297-364    56-117 (121)
+ 25 UniRef100_A0A0C2RWH7 NACHT dom  99.1 5.9E-13 1.4E-18  125.4   0.0   44  369-412     2-45  (174)
+ 26 UniRef100_A0A0C2T358 Uncharact  99.0 2.5E-12 5.6E-18  129.7   0.0  131  137-289     1-148 (338)
+ 27 UniRef100_A0A0C2WJ71 Uncharact  98.9 5.4E-12 1.2E-17  117.2   0.0  130  141-284     3-141 (157)
+ 28 UniRef100_A0A0C2S3K4 Uncharact  98.8 3.3E-11 7.3E-17  104.9   0.0   72  246-347    12-83  (95)
+ 29 UniRef100_A0A0C2SKG0 Uncharact  98.4 2.5E-09 5.6E-15   97.9   0.0   46  300-345    81-126 (128)
+ 30 UniRef100_A0A0C2SN86 Uncharact  98.4 3.9E-09 9.1E-15   99.1   0.0   79  254-347    60-138 (146)
+ 31 UniRef100_A0A0C2WDF2 Uncharact  98.4 4.6E-09   1E-14   98.0   0.0   85  141-253    13-102 (147)
+ 32 UniRef100_A0A0C2X6R7 Uncharact  98.1   4E-08 8.9E-14   93.4   0.0  148   16-193     3-161 (162)
+ 33 UniRef100_A0A0C2SQE4 Uncharact  97.9 2.7E-07   6E-13   85.5   0.0   32  371-402     8-39  (128)
+ 34 UniRef100_A0A0C2XLS8 Uncharact  97.8 3.4E-07 7.6E-13   97.8   0.0   43  370-412     1-43  (470)
+ 35 UniRef100_A0A0C2WU07 NACHT dom  97.7 4.7E-07 1.3E-12   96.2   0.0   45  365-410    12-57  (333)
+ 36 UniRef100_A0A4Q4N9U7 Uncharact  97.7 6.6E-07 1.6E-12   80.3   0.0   48  362-410    42-90  (94)
+ 37 UniRef100_A0A0C2WH04 Uncharact  97.7   1E-06 2.3E-12   83.4   0.0   40  373-412    83-122 (146)
+ 38 UniRef100_A0A0C2XI76 Uncharact  97.6   2E-06 4.5E-12   73.2   0.0   26  378-403     4-29  (69)
+ 39 UniRef100_A0A1Y2A792 NACHT dom  97.5 2.4E-06 5.6E-12   88.1   0.0   44  366-410    40-84  (280)
+ 40 UniRef100_A0A4V1Q3J3 NACHT dom  97.4 5.7E-06 1.3E-11   92.8   0.0   74  337-410   256-343 (795)
+ 41 UniRef100_A0A0D2DCQ5 WD_REPEAT  97.1 2.5E-05 7.2E-11   94.6   0.0   46  364-410   246-292 (1342)
+ 42 UniRef100_A0A0C3GKR0 NACHT dom  97.0 3.7E-05 8.3E-11   82.8   0.0   60  352-411    67-127 (421)
+ 43 UniRef100_A0A6G1G0E6 uncharact  97.0   4E-05 9.5E-11   83.3   0.0   44  366-410    34-78  (420)
+ 44 UniRef100_A0A4Q4N2E2 NACHT dom  97.0 4.5E-05 1.1E-10   79.3   0.0   44  366-410    48-92  (252)
+ 45 UniRef100_A0A6A5UT08 Uncharact  96.9   6E-05 1.4E-10   73.3   0.0   46  364-410    35-81  (160)
+ 46 UniRef100_A0A4Q4X4U8 Uncharact  96.9 6.4E-05 1.4E-10   77.9   0.0   56  354-410   121-177 (277)
+ 47 UniRef100_A0A117NKE0 Uncharact  96.9 8.3E-05 1.9E-10   63.7   0.0   39  370-410     9-48  (66)
+ 48 UniRef100_A0A6A6EDY7 Uncharact  96.8 9.1E-05   2E-10   78.0   0.0   45  365-410   197-242 (318)
+ 49 UniRef100_E3S9B5 Uncharacteriz  96.8 0.00011 2.7E-10   66.0   0.0   42  364-406    44-86  (86)
+ 50 UniRef100_A0A6A5UWB3 Uncharact  96.8 0.00012 2.7E-10   69.0   0.0   45  365-410    45-90  (123)
+ 51 UniRef100_A0A150VCZ0 Uncharact  96.8 0.00012 2.8E-10   66.8   0.0   45  363-408    34-79  (99)
+ 52 UniRef100_A0A178A9V2 Putative   96.8 8.7E-05 2.8E-10   92.4   0.0   46  365-411   229-275 (1588)
+ 53 UniRef100_A0A6G1HLE3 Uncharact  96.8 0.00014 3.1E-10   66.0   0.0   44  365-409    10-54  (93)
+ 54 UniRef100_A0A2B7WE88 NACHT dom  96.7 0.00013 3.4E-10   85.7   0.0   42  367-410   158-200 (829)
+ 55 UniRef100_A0A0F9XRD4 NACHT dom  96.7 0.00011 3.4E-10   86.0   0.0   47  364-411    80-127 (713)
+ 56 UniRef100_A0A6A5TTM9 WD_REPEAT  96.7  0.0002 4.5E-10   78.1   0.0   45  365-410    48-93  (451)
+ 57 UniRef100_A0A093YJQ3 WD_REPEAT  96.6 0.00017 5.2E-10   86.0   0.0   46  364-410    74-120 (854)
+ 58 UniRef100_UPI00144A79F6 unchar  96.5 0.00033 7.3E-10   73.6   0.0   47  363-410    25-72  (293)
+ 59 UniRef100_A0A0C3GWU2 Uncharact  96.5 0.00033 7.3E-10   65.6   0.0   44  366-410    41-85  (113)
+ 60 UniRef100_A0A0C9XXK5 Unplaced   96.5 0.00028   8E-10   86.1   0.0   47  363-410    43-90  (1187)
+ 61 UniRef100_A0A3M7NZ79 NACHT dom  96.4  0.0004 1.1E-09   76.5   0.0   44  366-410    40-84  (372)
+ 62 UniRef100_A0A084QXR4 NACHT dom  96.4  0.0005 1.4E-09   83.3   0.0   46  365-411   150-196 (1063)
+ 63 UniRef100_A0A2J6QZE7 Uncharact  96.3 0.00065 1.5E-09   60.1   0.0   37  366-403    38-75  (75)
+ 64 UniRef100_A0A0A2LGE8 NACHT nuc  96.3 0.00044 1.5E-09   87.5   0.0   60  351-410   414-475 (1662)
+ 65 UniRef100_A0A094AMX2 Uncharact  96.3 0.00053 1.5E-09   85.3   0.0   43  366-409   256-299 (1500)
+ 66 UniRef100_A0A0C3C2P1 WD_REPEAT  96.3 0.00064 1.8E-09   83.3   0.0   44  366-410   403-447 (1234)
+ 67 UniRef100_A0A0K8L406 Vegetativ  96.3 0.00066   2E-09   84.0   0.0   41  368-410   152-193 (1313)
+ 68 UniRef100_A0A094A4V4 WD_REPEAT  96.2 0.00096 2.2E-09   81.3   0.0   50  360-410    29-79  (1836)
+ 69 UniRef100_A0A6A5T5E0 Uncharact  96.2  0.0012 2.7E-09   61.7   0.0   43  367-410    27-70  (107)
+ 70 UniRef100_A0A1W5CSD4 p-loop co  96.1  0.0014 3.2E-09   77.5   0.0   45  365-410   458-503 (929)
+ 71 UniRef100_A0A384JEN4 WD_REPEAT  96.1  0.0012 3.3E-09   81.0   0.0   43  367-410   370-413 (1287)
+ 72 UniRef100_A0A0U5GIB8 NACHT dom  96.1  0.0011 3.4E-09   81.3   0.0   46  364-410   386-432 (1095)
+ 73 UniRef100_A0A0U5CBQ5 Uncharact  96.0  0.0012 3.8E-09   83.5   0.0   81  329-410   444-534 (1688)
+ 74 UniRef100_A0A093V5Z6 Vegetativ  96.0  0.0012 3.8E-09   82.8   0.0   43  367-410   282-325 (1509)
+ 75 UniRef100_A0A0H2R7G6 Uncharact  96.0  0.0017   4E-09   56.3   0.0   22  389-410     1-22  (62)
+ 76 UniRef100_A0A4Q2CZZ1 Reverse t  96.0  0.0015 4.4E-09   79.8   0.0   71  337-408   440-525 (1068)
+ 77 UniRef100_G2YHM7 NACHT domain-  96.0  0.0021 4.6E-09   72.2   0.0   69  341-410   117-186 (540)
+ 78 UniRef100_A0A0C3HAN0 WD_REPEAT  96.0  0.0016 4.8E-09   81.8   0.0   50  360-410   331-381 (1568)
+ 79 UniRef100_A0A094FVA1 WD_REPEAT  95.9  0.0019 5.8E-09   81.6   0.0   43  367-410   338-381 (1680)
+ 80 UniRef100_A0A090CEU4 NWD2 prot  95.9  0.0016 5.8E-09   82.7   0.0   43  367-410   383-426 (1590)
+ 81 UniRef100_A0A1W5CRG5 p-loop co  95.9  0.0025 5.9E-09   73.9   0.0   45  365-410   354-399 (710)
+ 82 UniRef100_A0A0B4G8J4 Nucleosid  95.9  0.0024 6.3E-09   78.8   0.0   47  362-409   514-561 (1358)
+ 83 UniRef100_A0A194XL69 HET-domai  95.8  0.0028 6.8E-09   75.6   0.0   44  366-410   261-305 (930)
+ 84 UniRef100_A0A067P5M0 AAA_16 do  95.8  0.0025 7.4E-09   65.8   0.0   43  367-410     4-47  (187)
+ 85 UniRef100_A0A084BCJ3 Uncharact  95.8   0.003 8.2E-09   78.0   0.0   44  366-410   150-194 (1307)
+ 86 UniRef100_A0A6A6DH00 Uncharact  95.7  0.0038 8.6E-09   53.1   0.0   37  369-406    19-56  (56)
+ 87 UniRef100_A0A4Q4SUN2 NACHT dom  95.7  0.0036 8.9E-09   68.8   0.0   42  367-409   160-202 (342)
+ 88 UniRef100_A0A4Q2D4H8 Uncharact  95.7  0.0038 9.4E-09   73.0   0.0   72  337-408   456-542 (693)
+ 89 UniRef100_A0A1W5CS20 Uncharact  95.7  0.0043 9.8E-09   72.2   0.0   45  365-410   355-400 (751)
+ 90 UniRef100_A0A0U1M7E4 Vegetativ  95.7  0.0034   1E-08   78.2   0.0   52  358-410   371-423 (1224)
+ 91 UniRef100_A0A2S7NTH7 Vegetativ  95.6  0.0054 1.3E-08   74.1   0.0   45  366-411   389-434 (1085)
+ 92 UniRef100_A0A0U5GB33 NACHT dom  95.5  0.0042 1.4E-08   76.8   0.0   45  365-410   276-321 (1057)
+ 93 UniRef100_A0A017S3Q2 WD_REPEAT  95.5   0.005 1.5E-08   78.1   0.0   43  367-410   345-388 (1582)
+ 94 UniRef100_A0A093UPA4 Vegetativ  95.5  0.0045 1.6E-08   79.3   0.0   43  367-410   417-460 (1650)
+ 95 UniRef100_A0A0J9VV77 NACHT dom  95.5  0.0063 1.6E-08   72.2   0.0   53  357-410   207-260 (761)
+ 96 UniRef100_A0A1B8GWK5 WD_REPEAT  95.4  0.0071 1.7E-08   74.8   0.0   44  366-410    38-82  (1607)
+ 97 UniRef100_A0A0D1ZMB8 Uncharact  95.4  0.0056 1.8E-08   77.0   0.0   42  367-409   319-361 (1309)
+ 98 UniRef100_A0A3M7N009 NACHT dom  95.4  0.0082 1.8E-08   66.6   0.0   45  365-410    72-117 (421)
+ 99 UniRef100_A0A4Q2D0D1 NACHT dom  95.4  0.0076   2E-08   72.1   0.0   68  337-408   251-318 (808)
+100 UniRef100_A0A1W5CYV6 WD40/YVTN  95.4  0.0076   2E-08   74.9   0.0   45  365-410   382-427 (1383)
+101 UniRef100_A0A179F3T2 Pfs, NACH  95.4  0.0076   2E-08   73.6   0.0   51  351-409   203-254 (1045)
+102 UniRef100_A0A0F7VJ36 NACHT dom  95.3  0.0074 2.2E-08   71.5   0.0   44  366-410   169-213 (623)
+103 UniRef100_A0A1V6S4Q6 NACHT dom  95.2  0.0096 2.5E-08   67.3   0.0   45  367-412    46-91  (407)
+
+No 1
+>UniRef100_A0A0C2W324 NACHT domain-containing protein n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2W324_AMAMU
+Probab=100.00  E-value=8.1e-86  Score=674.65  Aligned_cols=385  Identities=9%  Similarity=0.151  Sum_probs=360.2  Template_Neff=1.000
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus         1 ~~~s~~~~~s~~~~~gs~~~~k~~~e~~i~rk~~s~~s~~qsv~~~t~~~rs~~-------s~~~gi~~~~~~~~~i~~s   73 (412)
+                      ||+|++.+||++..+||+||+||+||+|||||+.+++|.+|+|++|||++|+++       +++.||||+++++++|++|
+T Consensus         1 mstssssspskspprgsshkrkkseevdiqrkklsiasllqpvnrftedvrdaqsrfeagdgndlgifiisalssqipss   80 (924)
+T UniRef100_A0A0    1 MSTSSSSSPSKSPPRGSSHKRKKSEEVDIQRKKLSIASLLQPVNRFTEDVRDAQSRFEAGDGNDLGIFIISALSSQIPSS   80 (924)
+Confidence            899999999999999999999999999999999999999999999999999965       5789999999999999999
+
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus        74 ~~~~r~~~~~~~ks~~~~i~r~~~s~~~~~~~~is~p~~~~p~p~~v~~~~~~~~g-g~~~gi~m--S~~sq~P~Sast~  150 (412)
+                      .+..|.+.||+|||+|++|+|++.++.+          .++|+.+|+++++++++| |+++||++  ..++|.|++.+..
+T Consensus        81 tftaresahkrkkseevdiqrkklsigs----------llqpvdrftedaqsreagagndpgisiistlpsqipssksaa  150 (924)
+T UniRef100_A0A0   81 TFTARESAHKRKKSEEVDIQRKKLSIGS----------LLQPVDRFTEDAQSREAGAGNDPGISIISTLPSQIPSSKSAA  150 (924)
+Confidence            9999999999999999999999999887          799999999999999999 99999985  4448999999999
+
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus       151 ~g~~~~rdkr~~dI~Ip~----qaStt~rpq~-------~~~~~~agd~~dpgIsv~s~~P~q~~~~~~~~~~~a~~~--  217 (412)
+                      +|+.|| +|++++++|++    .+|..+.|++       +++++++|.|++|.|+|.+++|+|+|++.+++++.+|..  
+T Consensus       151 rgsahk-rkkseevdiqrkelsiaslvlkpvdrftedvldaqsreagagndpdisiistlpsqipssksaargsahkrkr  229 (924)
+T UniRef100_A0A0  151 RGSAHK-RKKSEEVDIQRKELSIASLVLKPVDRFTEDVLDAQSREAGAGNDPDISIISTLPSQIPSSKSAARGSAHKRKR  229 (924)
+Confidence            999998 89999999999    5777778887       999999999999999999999999999999999998811  
+
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus       218 ---------------~-------------------~~---~-is--s~~~~~eppsmnrG~~d~qsre~~~g~d~d~sIp  257 (412)
+                                     +                   ++   . |+  +.++..-||-.|.|++++|++.+++|+++||+|+
+T Consensus       230 segvniqrkklsiasllqpvdrftenvrdvqseeagdgsdprisiistlpsqippptnsgngdkqsrgaggggnldfpis  309 (924)
+T UniRef100_A0A0  230 SEGVNIQRKKLSIASLLQPVDRFTENVRDVQSEEAGDGSDPRISIISTLPSQIPPPTNSGNGDKQSRGAGGGGNLDFPIS  309 (924)
+Confidence                           1                   11   2 44  5555566888999999999999999999999999
+
+
+Q KIL65314.1        1 ----------------------------------------meshviKIGSnADFAGatGIAFGTNNTV------NLYNIR   34 (110)
+Q Consensus       258 t~a~sia~-~~~s~~~~d~~~~~~~~Ps~S~~~~as~~n~......~f~~.t~fqG..sSNf~isnt~~nt~~~natIIR  327 (412)
+                      +++...+. ..|||++.+..++.++.|+                     . +||||  ++||+++|.+||.+.||+||||
+T Consensus       310 tnahrfadkslhsvnrkeevvqegdtps------------......---t.tffqg..ssnftinnsnfneihgnatiir  365 (924)
+T UniRef100_A0A0  310 TNAHRFADKSLHSVNRKEEVVQEGDTPS------------......---T.TFFQG..SSNFTINNSNFNEIHGNATIIR  365 (924)
+Confidence            99987665 5699999999999999999                     9 99999  9999999999999999999999
+
+
+Q KIL65314.1       35 LGDQILTET---QVEEFMAGLLALPDKMEK----L-VSSRTNLPRAMAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLV  106 (110)
+Q Consensus       328 fGDGQFTE~QRNLIcd~ian~~~LPDin~~l~~h~l~q~i~~LPRA~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~  407 (412)
+                      ||||||||+|||||||||+|+++|||||++|.+.+|+|+|++||||||+|+|||+|||.||||+|||+.|||||++|+++
+T Consensus       366 fgdgqftevqrnlicdyianlavlpdinhnlsrnfltqsiinlpraeavfddyqtkkkngpcfegtrvvllremaewvtg  445 (924)
+T UniRef100_A0A0  366 FGDGQFTEVQRNLICDYIANLAVLPDINHNLSRNFLTQSIINLPRAEAVFDDYQTKKKNGPCFEGTRVVLLREMAEWVTG  445 (924)
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q KIL65314.1      107 IGTS  110 (110)
+Q Consensus       408 ~~~s  411 (412)
+                      .-||
+T Consensus       446 lyes  449 (924)
+T UniRef100_A0A0  446 LYES  449 (924)
+Confidence            8876
+
+
+No 2
+>UniRef100_A0A0C2SNP0 NACHT domain-containing protein n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2SNP0_AMAMU
+Probab=100.00  E-value=3.2e-70  Score=570.07  Aligned_cols=350  Identities=11%  Similarity=0.169  Sum_probs=318.2  Template_Neff=1.532
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus        45 ~~t~~~rs~~s~~~gi~~~~~~~~~i~~s~~~~r~~~~~~~ks~~~~i~r~~~s~~~~--------~~~~is~p~--~~~  114 (412)
+                      |.|++||+++++|.|++|..|++....+.+|++.       ||++|+|+||.++...+        +++||+||+  +++
+T Consensus         1 mptqeprsttsvyvgvlitivitlisvyriwkiq-------ksrdkgisrqahsvdesrfqsardernpdislpdqastt   73 (959)
+T UniRef100_A0A0    1 MPTQEPRSTTSVYVGVLITIVITLISVYRIWKIQ-------KSRDKGISRQAHSVDESRFQSARDERNPDISLPDQASTT   73 (959)
+Confidence            6799999999999999999998888888888887       89999999999987754        455699998  999
+
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus       115 p~p~~v~~~~~~~~gg~-~~gi~mS~~sq~P~Sast~~g~~~~-rdkr~~dI~Ip~qaStt~rpq~~~~~~~agd~~dpg  192 (412)
+                      |+|+||+++.     |+ ..||.  .+-|+|+++++++.++++ |+.+..+|++|.|+|.++|.|  +.+|++||+|..|
+T Consensus        74 prpqfvdhsa-----gdrshgil--fplqapsttsepqsidqdtrddcksdislpvqasiaprlq--pfdhssgdegrfg  144 (959)
+T UniRef100_A0A0   74 PRPQFVDHSA-----GDRSHGIL--FPLQAPSTTSEPQSIDQDTRDDCKSDISLPVQASIAPRLQ--PFDHSSGDEGRFG  144 (959)
+Confidence            9999999977     55 77887  558999999999999999 888889999999999999999  9999999999999
+
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus       193 Isv~s~~P~q~~~~~~~~~~~a~----~~~-------------------~~~-is--s~~~~~eppsmnrG~~d~qsre~  246 (412)
+                      |+||....|++.+++..+++.+.    +++                   +++ |+  .|++.++||||+||.+++++.|.
+T Consensus       145 isvplqalpttseshevarrrgate~~~s~s~~p~~~~~~~~~~~~~~~~~~~i~~~~p~~~~~~~s~~r~~~~~~~~~~  224 (959)
+T UniRef100_A0A0  145 ISVPLQALPTTSESHEVARRRGATEMSVSASKSPSESTTRGFSHKGKNSEEMDIQRKEPSTASRPQSMNRGDEQVREPES  224 (959)
+Confidence            99999999999999999888666    111                   225 77  89999999999999999999999
+
+
+Q KIL65314.1        1 ---------------------------------------------------meshvi---------KIGSnADFAGatGI   20 (110)
+Q Consensus       247 ~~g~d~d~sIpt~a~sia~~~~s~~~~d~~~~~~~~Ps~S~~~~as~-~n~---------------~f~~.t~fqG..sS  307 (412)
+                      +.|++++++|++++..++++++|+++++.++++++.++.|+.++|++ +|+               +|+. ...+|  ..
+T Consensus       225 ~~~~~~~~~~~~~~~~i~~~l~s~~~~~~~~~r~~~~s~s~~~~~~~~~~~~~p~~~~~v~tg~~~~~~~.a~~gg..~~  301 (959)
+T UniRef100_A0A0  225 REGGNPDFPISTSAISIASPLPSVNPREPSVQRGDAPSTSREQGASNSSNQIMPSQQPNVNTGGMAHFQE.AQTGG..CH  301 (959)
+Confidence            99999999999999999999999999999999999999999999999 555               6766 55677  77
+
+
+Q KIL65314.1       21 AFGTNNTV------NLYNIRLGDQILTET---QVEEFMAGLLALPDKMEK----L-VSSRTNLPRAMAAHNDFKTQKVLD   86 (110)
+Q Consensus       308 Nf~isnt~~nt~~~natIIRfGDGQFTE~QRNLIcd~ian~~~LPDin~~l~~h~l~q~i~~LPRA~A~~ndyq~kkksg  387 (412)
+                      +|+.+++++  |+|+++||+||||||||.||+||||||+++++||||+++|++|+|+|+|++||||+|+|+|||+|||+|
+T Consensus       302 ~~~~~~~~~--~~~~~~~~~~gdgqfte~qr~licd~ia~~a~lpdi~~~l~~h~l~q~ii~lpraea~f~dyq~kkk~~  379 (959)
+T UniRef100_A0A0  302 AFGDNSIVN--NNGDATIFRFGDGQFTESQRDLICDHIANLANLPDINDILKKHSLIQSIINLPRAEAAFDDYQNKKKSG  379 (959)
+Confidence            777755443  458999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q KIL65314.1       87 ACFQGTREAVLKEIGNWFLVIGTS-  110 (110)
+Q Consensus       388 pCf~GTR~alL~em~~W~~~~~~sr  412 (412)
+                      |||+|||+||||||++|+++++|||
+T Consensus       380 pcf~gtrvallrema~w~t~~desr  404 (959)
+T UniRef100_A0A0  380 PCFEGTRVALLREMAEWVTGMDESR  404 (959)
+Confidence            9999999999999999999999997
+
+
+No 3
+>UniRef100_A0A0C2T358 Uncharacterized protein (Fragment) n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2T358_AMAMU
+Probab=100.00  E-value=2.2e-60  Score=455.47  Aligned_cols=291  Identities=11%  Similarity=0.153  Sum_probs=252.6  Template_Neff=1.000
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus         1 ~~~s~~~~~s~~~~~gs~~~~k~~~--e~~i~rk~~s~~s~~qsv~~~t~~~rs~~s~~~gi~~~~~~~~~i~~s~~~~r   78 (412)
+                      ||+|++++||.+.+|||.|......  .+.-+-|+++++||+|+..                                  
+T Consensus         1 msasssnspsdsitcgclhfpiftrarriakkpkkpstasrpqsae----------------------------------   46 (338)
+T UniRef100_A0A0    1 MSASSSNSPSDSITCGCLHFPIFTRARRIAKKPKKPSTASRPQSAE----------------------------------   46 (338)
+Confidence            8999999999999999999998876  4444567888888888733                                  
+
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus        79 ~~~~~~~ks~~~~i~r~~~s~~~~~~~~is~p~~~~p~p~~v~~~~~~~~g-g~~~gi~m--S~~sq~P~Sast~~g~~~  155 (412)
+                                                          ..|+.|.+.+++++| |.++||.+  ..++|.|+-.++....+.
+T Consensus        47 ------------------------------------hfpedvrdvqnreagdgsdpgipiistlpsqlppvvseapsmdr   90 (338)
+T UniRef100_A0A0   47 ------------------------------------HFPEDVRDVQNREAGDGSDPGIPIISTLPSQLPPVVSEAPSMDR   90 (338)
+Confidence                                                347788899999999 99999974  344788888777544332
+
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus       156 ~---------rdkr~~dI~Ip~qaStt~-------rpq~~~~~~~agd~~dpgIsv~s~~P~q~~~~~~~~~~~a~~~~~  219 (412)
+                      .         |..-++.++||...-+..       .-+.|.+.+++||+.||||+|.+.||+|++               
+T Consensus        91 gngdaqsraarggvdpgfpipteiqtvaietvehtedvrdtqnreagdgsdpgisiisalpsqvp---------------  155 (338)
+T UniRef100_A0A0   91 GNGDAQSRAARGGVDPGFPIPTEIQTVAIETVEHTEDVRDTQNREAGDGSDPGISIISALPSQVP---------------  155 (338)
+Confidence            2         223456667776433321       122288999999999999999999999888               
+
+
+Q KIL65314.1        1 -----------------------------------------------------------------------------mes    3 (110)
+Q Consensus       220 ~~iss~~~~~eppsmnrG~~d~qsre~~~g~d~d~sIpt~a~sia~~~~s~~~~d~~~~~~~~Ps~S~~~~as~~n~...  296 (412)
+                            ...+..|||+||++++|+||+++|+++.|+|+-++.++++|+               .+               
+T Consensus       156 ------pvvskapsmdrgngdaqsreagggvdpcfpipietqtvatet---------------rs------------...  199 (338)
+T UniRef100_A0A0  156 ------PVVSKAPSMDRGNGDAQSREAGGGVDPCFPIPIETQTVATET---------------RS------------...  199 (338)
+Confidence                  577899999999999999999999999999999998888765               34               
+
+
+Q KIL65314.1        4 hviKIGSnADFAGatGIAFGTNNTV------NLYNIRLGDQILTET---QVEEFMAGLLALPDKMEK----L-VSSRTNL   69 (110)
+Q Consensus       297 ...~f~~.t~fqG..sSNf~isnt~~nt~~~natIIRfGDGQFTE~QRNLIcd~ian~~~LPDin~~l~~h~l~q~i~~L  370 (412)
+                            . ++||.  -+|.+++|+.|++++++++|++||||||||.+||||||+|+.++.||||.++|+||.|+.+|+.|
+T Consensus       200 ...---i.tlfqe..lsnlqisntkfttiggdatifqfgdgqfteahrnlicdhiatlaalpdikdnlkkhalthliill  270 (338)
+T UniRef100_A0A0  200 ...---I.TLFQE..LSNLQISNTKFTTIGGDATIFQFGDGQFTEAHRNLICDHIATLAALPDIKDNLKKHALTHLIILL  270 (338)
+Confidence                  6 78999  99999999999999999999999999999999999999999999999999999999999999999
+
+
+Q KIL65314.1       70 PRAMAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGTS-  110 (110)
+Q Consensus       371 PRA~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~sr  412 (412)
+                      |||||+|+|||+|||+||||.|||+||||||+.|++..+|||
+T Consensus       271 praeavfddyqtkkksgpcfdgtrvallremaswvtsqdesr  312 (338)
+T UniRef100_A0A0  271 PRAEAVFDDYQTKKKSGPCFDGTRVALLREMASWVTSQDESR  312 (338)
+Confidence            999999999999999999999999999999999999999987
+
+
+No 4
+>UniRef100_A0A0C2RZN8 Uncharacterized protein n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2RZN8_AMAMU
+Probab=100.00  E-value=3.1e-58  Score=506.28  Aligned_cols=281  Identities=14%  Similarity=0.219  Sum_probs=256.7  Template_Neff=2.400
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus        16 gs~~~~k~~~e~~i~rk~~s~~s~~qsv~~~t~~~rs~~s~~~gi~~~~~~~~~i~~s~~~~r~~~~~~~ks~~~~i~r~   95 (412)
+                      -|+||.|++++++|+|.+++|++..++++                                         |++|+++.||
+T Consensus         6 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-----------------------------------------~~~~~~~~~~   44 (1767)
+T UniRef100_A0A0    6 PSNHQPKDQMSCQWQRSKSFICSISNSRN-----------------------------------------YFSERPSSRQ   44 (1767)
+Confidence            47899999999999999999999999988                                         6779999999
+
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus        96 ~~s~~~~~~~~is~p~~~~p~p~~v~~~~~~~~gg~~~gi~mS~~-sq~P~Sast~~g~~~~rdkr~~dI~Ip~qaStt~  174 (412)
+                      ++....+.++|||||.     +.++++++     |+..  +||+| +|+|.++++++|..++ +|++++|.|+++.|++.
+T Consensus        45 ~~~~~~g~~~~~s~~~-----~~~~~~~~-----~~~~--~ms~~~~~~p~~~t~i~g~~~~-~k~~~~~~~~~~~s~~~  111 (1767)
+T UniRef100_A0A0   45 SMLAIDGHNPDISINQ-----LSPIFMGF-----GPES--NMSAMSPQVPSSATTIYGGIHK-DKRAPSIIIRKRPSTTS  111 (1767)
+Confidence            9999999999999986     88888877     5544  78888 7999999999999998 89999999999999999
+
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus       175 rpq~---------~~~~~~agd~~dpgIsv~s~~P~q~~~~~~~~~~~a~~~~~~~iss~~~~~eppsmnrG~~d~qsre  245 (412)
+                      +|+.         +.++++++|+++++|++.+++|.  +                     .+++|||+|++|++  ++++
+T Consensus       112 ~~~~~~~~~~~~~~~~~~~a~~~~~~~~~~~~~~p~--~---------------------~~~~~p~~~~~g~~--~s~~  166 (1767)
+T UniRef100_A0A0  112 RPQSVDRFSEDVRDAQSRDARDGSDPGISIDSPLPA--P---------------------PTISEPPSMNRGNG--QSRD  166 (1767)
+Confidence            9988         56899999999999999999882  2                     45689999999998  5554
+
+
+Q KIL65314.1        1 ---------------------------------------------------meshviKIGSnADFAGatGIAFGTNNTV-   28 (110)
+Q Consensus       246 ~~~g~d~d~sIpt~a~sia~~~~s~~~~d~~~~~~~~Ps~S~~~~as~~n~......~f~~.t~fqG..sSNf~isnt~~  316 (412)
+                          .+++++|++++++             ++...+.|+                     + ++|||  ++||+++|+++
+T Consensus       167 ----~~~~~~i~~~~~~-------------~~~~~~~ps------------......---~.~~~qg..sSN~~~sn~~~  205 (1767)
+T UniRef100_A0A0  167 ----ADPDPSIPTEAST-------------DMGSEEVPS------------......---M.TMFQG..SSNFQISNSGF  205 (1767)
+Confidence                4889999999874             355678899                     9 99999  99999998888
+
+
+Q KIL65314.1       29 -----NLYNIRLGDQILTET---QVEEFMAGLLALPDKMEK----L-VSSRTNLPRAMAAHNDFKTQKVLDACFQGTREA   95 (110)
+Q Consensus       317 nt~~~natIIRfGDGQFTE~QRNLIcd~ian~~~LPDin~~l~~h~l~q~i~~LPRA~A~~ndyq~kkksgpCf~GTR~a  396 (412)
+                      ++   |++|||||||||||+|||+|||+|+|+  ||||+++++||+|+|+|++||||||+|||||+|||+||||+|||+|
+T Consensus       206 ~~---~a~iir~GDg~fTe~q~n~i~d~i~n~--LPDin~~l~kh~L~QsI~~LPRAeA~~nDYqtKKkSGpCF~GTR~A  280 (1767)
+T UniRef100_A0A0  206 NT---NATIIRFGDGQFTEIQRNLICDYIANL--LPDINENLKKHVLTQSIINLPRAEAAFNDYQTKKKSGPCFEGTREA  280 (1767)
+Confidence            86   799999999999999999999999996  8999999999999999999999999999999999999999999999
+
+
+Q KIL65314.1       96 VLKEIGNWFLVIGTS-  110 (110)
+Q Consensus       397 lL~em~~W~~~~~~sr  412 (412)
+                      |||||++|+++++|||
+T Consensus       281 LLrEMadW~t~~~eSr  296 (1767)
+T UniRef100_A0A0  281 LLREMADWVTGPDESR  296 (1767)
+Confidence            9999999999999987
+
+
+No 5
+>UniRef100_A0A0C2SID9 NACHT domain-containing protein n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2SID9_AMAMU
+Probab=100.00  E-value=7.4e-57  Score=478.36  Aligned_cols=200  Identities=19%  Similarity=0.271  Sum_probs=179.0  Template_Neff=1.689
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus       137 mS~~sq~P~Sast~~g~~~~rdkr~~dI~Ip~q-aStt~rpq~---------~~~~~~agd~~dpgIsv~s~~P~q~~~~  206 (412)
+                      ||++++..++.+   |+.|| +|.++|++|+++ +|+..||++         .++++++||||+|-|++.+++|.     
+T Consensus         1 msas~s~sps~s---gsshk-rk~see~diqrkrpst~sr~~~vd~ft~~~~~~~~~~~~~~~~~~~~~~s~lp~-----   71 (1176)
+T UniRef100_A0A0    1 MSASASKSPSRS---GSSHK-RKKSEEGDIQRKRPSTPSRLPSVDRFTEEVRGAQSREAGDGGDPVMFNTSPLPS-----   71 (1176)
+Confidence            555544444444   78897 888999999994 556568777         78999999999999999998884     
+
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus       207 ~~~~~~~a~~~~~~~iss~~~~~eppsmnrG~~d~qsre~~~g~d~d~sIpt~a~sia~~~~s~~~~d~~~~~~~~Ps~S  286 (412)
+                                                         |++|  +|+++|+++++.+++++.++               |+  
+T Consensus        72 -----------------------------------q~~e--~gvdpdl~~~~~~~tv~~~~---------------ps--   97 (1176)
+T UniRef100_A0A0   72 -----------------------------------QSRE--AGVDPDLPIPSETPTVARQT---------------PS--   97 (1176)
+Confidence                                               2232  45899999999999887644               88  
+
+
+Q KIL65314.1        1 ----------meshviKIGSnADFAGatGIAFGTNNTV------NLYNIRLGDQILTET---QVEEFMAGLLALPDKMEK   61 (110)
+Q Consensus       287 ~~~~as~~n~......~f~~.t~fqG..sSNf~isnt~~nt~~~natIIRfGDGQFTE~QRNLIcd~ian~~~LPDin~~  357 (412)
+                                         + ++|||  ++||+++|+.++++++++||||||||||||.||||||||||+++.||||+++
+T Consensus        98 ----------......---~.~~~qg..ss~~~i~n~~~~~~~~~~ti~r~gdgqfte~~rnlicd~ia~~a~~p~i~~~  155 (1176)
+T UniRef100_A0A0   98 ----------......---I.SMFQG..SSNFHISNTNFTAIGGDATIIRFGDGQFTEVQRNLICDFIATHAALPDINDN  155 (1176)
+Confidence                               8 99999  9999999999999999999999999999999999999999999999999999
+
+
+Q KIL65314.1       62 ----L-VSSRTNLPRAMAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGTS-  110 (110)
+Q Consensus       358 l~~h~l~q~i~~LPRA~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~sr  412 (412)
+                      |++|+|+|+|+.||||||+|+|||+|||+||||+|||+||||||++|+++++|||
+T Consensus       156 l~~~~l~q~ii~lpraeavf~dyq~kkksgpcf~gtrvallremanw~tg~desr  210 (1176)
+T UniRef100_A0A0  156 LKRHALTQSIILLPRAEAVFNDYQTKKKSGPCFEGTRVALLREMANWATGSDESR  210 (1176)
+Confidence            9999999999999999999999999999999999999999999999999999997
+
+
+No 6
+>UniRef100_A0A0C2WL61 Uncharacterized protein n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2WL61_AMAMU
+Probab=100.00  E-value=1.1e-46  Score=362.02  Aligned_cols=277  Identities=4%  Similarity=0.036  Sum_probs=254.6  Template_Neff=1.000
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus        45 ~~t~~~rs~~s~~~gi~~~---------~~~~~~i~~s~~~~r~~~~~~~ks~~~~i~r~~~s~~~~~~~~is~p~--~~  113 (412)
+                      |...+|.+++++|+|||.+         .+..++|+.|.++||+.|+    |++.+|+||++.+++++++||+||.  ++
+T Consensus         1 msslvpesttsvysgifgllwssslypivaalttialsliffrrpwe----srkedisrqrqpardgrnpdisipgptst   76 (331)
+T UniRef100_A0A0    1 MSSLVPESTTSVYSGIFGLLWSSSLYPIVAALTTIALSLIFFRRPWE----SRKEDISRQRQPARDGRNPDISIPGPTST   76 (331)
+Confidence            4567899999999999976         5667999999999999999    7888999999999999999999997  99
+
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus       114 ~p~p~~v~~~~~~~~gg~~~gi~mS~~sq~P~Sast~~g~~~~-rdkr~~dI~Ip~qaStt~rpq~~~~~~~agd~~dpg  192 (412)
+                      .|+|++|++++ ++|+  +++|  |+.+|+|-+.++++++++. |+++++.|+||+|+-.++|||  +++|++.|+|+||
+T Consensus        77 iprpqpvdysp-gder--hldi--svqsqapltmsepqfidkeardernpgisipaqafstprpq--pvdhssrdeghpg  149 (331)
+T UniRef100_A0A0   77 IPRPQPVDYSP-GDER--HLDI--SVQSQAPLTMSEPQFIDKEARDERNPGISIPAQAFSTPRPQ--PVDHSSRDEGHPG  149 (331)
+Confidence            99999999998 4444  6644  4889999999999999888 999999999999999999999  9999999999999
+
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus       193 Isv~s~~P~q~~~~~~~~~~~a~---------~~~-------------------~~~-is--s~~~~~eppsmnrG~~d~  241 (412)
+                      +-|+..-|+++.+++.+.++++.         +.+                   +++ |+  ++.+++|+|+|+||.+.+
+T Consensus       150 vlvpprdppttsepqtlgdrdapnrgatrdgtpailmvsptidhssmearnkdghdipipiempfitsehpsmdrggegv  229 (331)
+T UniRef100_A0A0  150 VLVPPRDPPTTSEPQTLGDRDAPNRGATRDGTPAILMVSPTIDHSSMEARNKDGHDIPIPIEMPFITSEHPSMDRGGEGV  229 (331)
+Confidence            99999999999999999999876         111                   223 55  999999999999999999
+
+
+Q KIL65314.1        1 -------------------------------------------------------meshviKIGSnADFAGatGIAFGTN   25 (110)
+Q Consensus       242 qsre~~~g~d~d~sIpt~a~sia~~~~s~~~~d~~~~~~~~Ps~S~~~~as~~n~......~f~~.t~fqG..sSNf~is  312 (412)
+                      |...+++|+++.++|++.+.++++|+.|..++|++.+.++.|.                     . +||..  ++||+++
+T Consensus       230 qnakaghgvdpkipiptdaptvatepysgirrdrdtgseevpf------------......---i.tmfea..ssnfqis  285 (331)
+T UniRef100_A0A0  230 QNAKAGHGVDPKIPIPTDAPTVATEPYSGIRRDRDTGSEEVPF------------......---I.TMFEA..SSNFQIS  285 (331)
+Confidence            9999999999999999999999999999999999999999999                     9 99999  9999999
+
+
+Q KIL65314.1       26 NTV------NLYNIRLGDQILTET---QVEEFMAG   51 (110)
+Q Consensus       313 nt~~nt~~~natIIRfGDGQFTE~QRNLIcd~ian  347 (412)
+                      |+++|++++|++|||||||.|||+||||+|-....
+T Consensus       286 ntninaiggnatiirfgdgefteiqrnlvcctyts  320 (331)
+T UniRef100_A0A0  286 NTNINAIGGNATIIRFGDGEFTEIQRNLVCCTYTS  320 (331)
+Confidence            99999999999999999999999999999977665
+
+
+No 7
+>UniRef100_A0A0C2RYY9 Uncharacterized protein n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2RYY9_AMAMU
+Probab=100.00  E-value=1.5e-44  Score=336.70  Aligned_cols=174  Identities=8%  Similarity=0.078  Sum_probs=158.7  Template_Neff=1.853
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus       136 ~mS~~sq~P~Sast~~g~~~~rdkr~~dI~Ip~qaStt~-rpq~---------~~~~~~agd~~dpgIsv~s~~P~q~~~  205 (412)
+                      +||++++.++++++++|+.|| +|+++|++||++++.|+ |||+         |++++++||+++|   +++.+|     
+T Consensus        22 ~msas~s~spsks~t~G~shk-rkksee~di~rkrpsT~sr~QSv~r~tee~rd~qs~eagd~~~P---~~~~~p-----   92 (209)
+T UniRef100_A0A0   22 MMSASASKSPSKSTTRGSSHK-RKKSEEADIQRKRPSTASRPQSVDRFTEEVRDAQSREAGDGEDP---LPSQVP-----   92 (209)
+Confidence            578778999999999999998 99999999999877766 9998         7999999999998   444444     
+
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus       206 ~~~~~~~~a~~~~~~~iss~~~~~eppsmnrG~~d~qsre~~~g~d~d~sIpt~a~sia~~~~s~~~~d~~~~~~~~Ps~  285 (412)
+                                          ++++|.|+||||++++|++|+++|+|+|.+|||.|+++++|+               |+ 
+T Consensus        93 --------------------~i~~e~~~mNrGn~~~q~rea~~~vdPd~piPT~A~tva~Et---------------~S-  136 (209)
+T UniRef100_A0A0   93 --------------------PIIPEQPSMNRGNGDAQSREARGGVDPDLPIPTEASTVATET---------------PS-  136 (209)
+Confidence                                578999999999999999999999999999999999887755               78 
+
+
+Q KIL65314.1        1 -----------meshviKIGSnADFAGatGIAFGTNNTV------NLYNIRLGDQILTET---QVEEFMAGLLALPDKME   60 (110)
+Q Consensus       286 S~~~~as~~n~......~f~~.t~fqG..sSNf~isnt~~nt~~~natIIRfGDGQFTE~QRNLIcd~ian~~~LPDin~  356 (412)
+                                          . ++|||  ++||+++|+++++++|||||||||||||||+||||+|++++.+..++.+..
+T Consensus       137 -----------......---i.tlfQg..sSN~QiSnT~~ttIgG~ATii~FGdGqfte~qrnlv~~~~a~~~~~~~~~~  193 (209)
+T UniRef100_A0A0  137 -----------......---I.TLFQG..SSNFQISNTNITTIGGNATIIQFGDGQFTEVQRNLVRRICACHSKYNSIFV  193 (209)
+Confidence                                8 99999  999999999999999999999999999999999999999999998999999
+
+
+Q KIL65314.1       61 K----L-VSSRT   67 (110)
+Q Consensus       357 ~l~~h~l~q~i~  368 (412)
+                      +|+||+|.-.-+
+T Consensus       194 ~l~~~~~~~~~~  205 (209)
+T UniRef100_A0A0  194 DLKKHFLVGAPI  205 (209)
+Confidence            999999875433
+
+
+No 8
+>UniRef100_A0A0C2WJ55 Uncharacterized protein (Fragment) n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2WJ55_AMAMU
+Probab=100.00  E-value=3.5e-41  Score=291.45  Aligned_cols=113  Identities=27%  Similarity=0.441  Sum_probs=108.8  Template_Neff=1.000
+
+Q KIL65314.1       10 SnADFAGatGIAFGTNNTV------NLYNIRLGDQILTET---QVEEFMAG--LLALPDKMEK-------L-VSSRTNLP   70 (110)
+Q Consensus       300 ~.t~fqG..sSNf~isnt~~nt~~~natIIRfGDGQFTE~QRNLIcd~ian--~~~LPDin~~l---~~h~l~q~i~~LP  371 (412)
+                      . +||||  ++|+.++..+|...++|++||||.|||||++|||||||||+|  .++||+|+++|   -+|+|+|+|+.||
+T Consensus         8 t.tffqg..ssnveitgsnfyevggnatiirfsdgqftdvqrnlicdyianirvtvlpeinnnlgnlgqhvltqsiislp   84 (127)
+T UniRef100_A0A0    8 T.TFFQG..SSNVEITGSNFYEVGGNATIIRFSDGQFTDVQRNLICDYIANIRVTVLPEINNNLGNLGQHVLTQSIISLP   84 (127)
+Confidence            4 89999  999999999999999999999999999999999999999999  56899999975   6899999999999
+
+
+Q KIL65314.1       71 RAMAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGTS-  110 (110)
+Q Consensus       372 RA~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~sr  412 (412)
+                      ||||+|||||+|||+||||+|||+||||||++|+++|+|||
+T Consensus        85 raeavfndyqtkkksgpcfegtrvallremadwatdpdesr  125 (127)
+T UniRef100_A0A0   85 RAEAVFNDYQTKKKSGPCFEGTRVALLREMADWATDPDESR  125 (127)
+Confidence            99999999999999999999999999999999999999997
+
+
+No 9
+>UniRef100_A0A0C2SGQ2 Uncharacterized protein n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2SGQ2_AMAMU
+Probab=100.00  E-value=3e-37  Score=310.35  Aligned_cols=161  Identities=22%  Similarity=0.317  Sum_probs=156.2  Template_Neff=1.000
+
+Q KIL65314.1        1 ---------------------------------------------------------------meshviKIGSnADFAGa   17 (110)
+Q Consensus       234 mnrG~~d~qsre~~~g~d~d~sIpt~a~sia~~~~s~~~~d~~~~~~~~Ps~S~~~~as~~n~......~f~~.t~fqG.  305 (412)
+                      |+||.+.++....++|+++.++-|+.++++++|++|..++|++.+.++.|.                     . +||.| 
+T Consensus         1 mdrggegahnakvghgvdpcipsptdastvatepcsgvrrdrdtgseevpf------------......---i.tmfeg.   57 (538)
+T UniRef100_A0A0    1 MDRGGEGAHNAKVGHGVDPCIPSPTDASTVATEPCSGVRRDRDTGSEEVPF------------......---I.TMFEG.   57 (538)
+Confidence            788999889888899999999999999999999999999999999999999                     9 99999 
+
+
+Q KIL65314.1       18 tGIAFGTNNTV------NLYNIRLGDQILTET---QVEEFMAGLLALPDKMEK----L-VSSRTNLPRAMAAHNDFKTQK   83 (110)
+Q Consensus       306 .sSNf~isnt~~nt~~~natIIRfGDGQFTE~QRNLIcd~ian~~~LPDin~~l~~h~l~q~i~~LPRA~A~~ndyq~kk  384 (412)
+                       ++|.+++|+++|.++.|++|||||.   |.+|..++...++|+++|||||+.|+||+|+|+|+.||||||+|||||+||
+T Consensus        58 .ssnlqisntninaigdnatiirfge---thvqlrwlihefanltvlpdinnilekhvltqsiislpraeavfndyqtkk  133 (538)
+T UniRef100_A0A0   58 .SSNLQISNTNINAIGDNATIIRFGE---THVQLRWLIHEFANLTVLPDINNILEKHVLTQSIISLPRAEAVFNDYQTKK  133 (538)
+Confidence             9999999999999999999999996   788999999999999999999999999999999999999999999999999
+
+
+Q KIL65314.1       84 VLDACFQGTREAVLKEIGNWFLVIGTS-  110 (110)
+Q Consensus       385 ksgpCf~GTR~alL~em~~W~~~~~~sr  412 (412)
+                      |+||||+|||+||||||++|++-|+|||
+T Consensus       134 ksgpcfegtrvallremadwvtvpdesr  161 (538)
+T UniRef100_A0A0  134 KSGPCFEGTRVALLREMADWVTVPDESR  161 (538)
+Confidence            9999999999999999999999999987
+
+
+No 10
+>UniRef100_A0A0C2RZS3 NACHT domain-containing protein n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2RZS3_AMAMU
+Probab=100.00  E-value=4.9e-35  Score=301.38  Aligned_cols=91  Identities=25%  Similarity=0.468  Sum_probs=88.7  Template_Neff=1.411
+
+Q KIL65314.1       29 NLYNIRLGDQILTET---QVEEFMAGLLALPDKMEK----L-VSSRTNLPRAMAAHNDFKTQKVLDACFQGTREAVLKEI  100 (110)
+Q Consensus       322 natIIRfGDGQFTE~QRNLIcd~ian~~~LPDin~~l~~h~l~q~i~~LPRA~A~~ndyq~kkksgpCf~GTR~alL~em  401 (412)
+                      ++.++.||||||||.|||+|||+|+|+.++|||+++++||.|+|+|++||||+|+|+|||+|||+||||+|||++|||||
+T Consensus        64 ~~~~~~~~dgq~~e~~r~~i~d~i~n~~~fpd~~~~l~~~~~~q~ii~lpraeavf~dyq~kkksgpcf~gtrvallrem  143 (638)
+T UniRef100_A0A0   64 DSIIFQFTDGQFSEDQRNMICDHISNHVNFPDINHNLNKHILTQSIINLPRAEAVFDDYQNKKKSGPCFEGTRVALLREM  143 (638)
+Confidence            46688999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q KIL65314.1      101 GNWFLVIGTS-  110 (110)
+Q Consensus       402 ~~W~~~~~~sr  412 (412)
+                      ++|+++.+|||
+T Consensus       144 a~wvtg~desr  154 (638)
+T UniRef100_A0A0  144 ADWVTGSDESR  154 (638)
+Confidence            99999999987
+
+
+No 11
+>UniRef100_A0A0C2RW96 Uncharacterized protein (Fragment) n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2RW96_AMAMU
+Probab=99.91  E-value=1.6e-28  Score=269.53  Aligned_cols=106  Identities=26%  Similarity=0.444  Sum_probs=98.1  Template_Neff=2.268
+
+Q KIL65314.1       12 ADFAGatGIAFGTNNTV-------NLYNIRLGDQILTET---QVEEFMAGLL--ALPDKME-K----L-VSSRTNLPRAM   73 (110)
+Q Consensus       301 t~fqG..sSNf~isnt~~nt~~-~natIIRfGDGQFTE~QRNLIcd~ian~~--~LPDin~-~l~~h~l~q~i~~LPRA~  374 (412)
+                      ++++|  ++|+      ++... |+|+|||||||||||.|||+|||||+|+.  +||||++ ++.+|.++|+|++|||||
+T Consensus         9 ~~~~~..~~~~------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~lpra~   80 (1173)
+T UniRef100_A0A0    9 NFKIG..GHNI------FYEVHDGDAVIFQFGDGRYSEAERDVIRDHISNASAFVLPDIDDHIILFHSQIQSIISLPRAE   80 (1173)
+Confidence            56788  7776      33333 79999999999999999999999999977  8999999 788999999999999999
+
+
+Q KIL65314.1       74 AAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGTS-  110 (110)
+Q Consensus       375 A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~sr  412 (412)
+                      |+|||||+|||+||||+|||+||||||++|+++++|||
+T Consensus        81 a~~~dyq~kkksgpcf~Gtr~allreMa~W~t~~~eSr  118 (1173)
+T UniRef100_A0A0   81 AVFNDYQTKKKSGPCFEGTRVALLREMADWVTGLDESR  118 (1173)
+Confidence            99999999999999999999999999999999999997
+
+
+No 12
+>UniRef100_A0A0C2WGQ9 Uncharacterized protein n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2WGQ9_AMAMU
+Probab=99.90  E-value=1.1e-27  Score=221.77  Aligned_cols=117  Identities=14%  Similarity=0.169  Sum_probs=105.6  Template_Neff=1.000
+
+Q KIL65314.1        1 ----------------------------------------------------------------------meshvi----    6 (110)
+Q Consensus       229 ~eppsmnrG~~d~qsre~~~g~d~d~sIpt~a~sia~-~~~s~~~~d~~~~~~~~Ps~S~~~~as~-~n~----------  296 (412)
+                      +|||+|+||++++|.+|.++|+.+||.|++++-+++. |+.||+++|..++++++|+||++++|++ +||          
+T Consensus        64 peppsmnrgdgdvqnredrdggildfaistnarsiaakepksvnrgdvvvqrgeapsmstpqgasnasnqvlpaqnpwvn  143 (201)
+T UniRef100_A0A0   64 PEPPSMNRGDGDVQNREDRDGGILDFAISTNARSIAAKEPKSVNRGDVVVQRGEAPSMSTPQGASNASNQVLPAQNPWVN  143 (201)
+Confidence            5899999999999999999999999999999998876 8899999999999999999999999999 665          
+
+
+Q KIL65314.1        7 -----KIGSnADFAGatGIAFGTNNTV------NLYNIRLGDQILTET---QVEEFMAGL   52 (110)
+Q Consensus       297 -----~f~~-t~fqG..sSNf~isnt~~nt~~~natIIRfGDGQFTE~QRNLIcd~ian~  348 (412)
+                           ||+. +|.+|  +++|+.++.+.|   .+.+.||.||||||+.+|++++.....|
+T Consensus       144 tgggahfqtthftgg..ghafgtnsyvyn---mtftnirsgdgqftkherdfvrrsytsl  198 (201)
+T UniRef100_A0A0  144 TGGGAHFQTTHFTGG..GHAFGTNSYVYN---MTFTNIRSGDGQFTKHERDFVRRSYTSL  198 (201)
+Confidence                 8998 67888  999998766655   4799999999999999999998876653
+
+
+No 13
+>UniRef100_A0A0C2WHK5 Uncharacterized protein (Fragment) n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2WHK5_AMAMU
+Probab=99.90  E-value=1.2e-27  Score=212.12  Aligned_cols=72  Identities=35%  Similarity=0.637  Sum_probs=71.0  Template_Neff=1.000
+
+Q KIL65314.1       45 VEEFMAGLLALPDKMEK----L-VSSRTNLPRAMAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGTS-  110 (110)
+Q Consensus       341 Icd~ian~~~LPDin~~l~~h~l~q~i~~LPRA~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~sr  412 (412)
+                      |||||+|++.|||||++|++.+|+|+|++||||||+|+|||+|||+||||+|||+||||||++|+++.+|||
+T Consensus         1 icdyianlailpdindnlkrrfltqsiinlpraeavfddyqtkkksgpcfegtrvallremaewvtgldesr   72 (141)
+T UniRef100_A0A0    1 ICDYIANLAILPDINDNLKRRFLTQSIINLPRAEAVFDDYQTKKKSGPCFEGTRVALLREMAEWVTGLDESR   72 (141)
+Confidence            799999999999999999999999999999999999999999999999999999999999999999999987
+
+
+No 14
+>UniRef100_A0A0C2W324 NACHT domain-containing protein n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2W324_AMAMU
+Probab=99.80  E-value=5.3e-23  Score=217.67  Aligned_cols=202  Identities=0%  Similarity=0.000  Sum_probs=181.2  Template_Neff=1.000
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus         4 s~~~~~s~~~~~gs~~~~k~~~e~~i~rk~~s~~s~~qsv~~~t~~~rs---~~s~~~gi~~~~~~~~~i~~s~~~~r~~   80 (412)
+                      |++-+.|..+.+.|.||+||+||+|||||+.++.|.+|+||+|||+..+   ++++++||.|+++++++|++|+...|++
+T Consensus        74 ssqipsstftaresahkrkkseevdiqrkklsigsllqpvdrftedaqsreagagndpgisiistlpsqipssksaargs  153 (924)
+T UniRef100_A0A0   74 SSQIPSSTFTARESAHKRKKSEEVDIQRKKLSIGSLLQPVDRFTEDAQSREAGAGNDPGISIISTLPSQIPSSKSAARGS  153 (924)
+Confidence            4556677889999999999999999999999999999999999999887   8899999999999999999999999999
+
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus        81 ~~~~~ks~~~~i~r~~~s~~~~~~~~is~p~~~~p~p~~v~~---~~~~~~g-g~~~gi~m--S~~sq~P~Sast~~g~~  154 (412)
+                      .||+|||+|++|+|+..++.+.         .+.|+.+|+++   ++++++| |++++|++  ..++|.|++.+..+|+.
+T Consensus       154 ahkrkkseevdiqrkelsiasl---------vlkpvdrftedvldaqsreagagndpdisiistlpsqipssksaargsa  224 (924)
+T UniRef100_A0A0  154 AHKRKKSEEVDIQRKELSIASL---------VLKPVDRFTEDVLDAQSREAGAGNDPDISIISTLPSQIPSSKSAARGSA  224 (924)
+Confidence            9999999999999999998764         78999999885   8999999 99999975  44489999999999999
+
+
+Q KIL65314.1        1 -----------------------------------------------------------------------    0 (110)
+Q Consensus       155 ~~rdkr~~dI~Ip~-qaStt--~rpq~-------~~~~~~agd~~dpgIsv~s~~P~q~~~~~~~~~~~a~  215 (412)
+                      || +|+++.+.|++ +.|.+  ++|++       +.++.++|||.+|.|+|.+++|+|+|++.....++..
+T Consensus       225 hk-rkrsegvniqrkklsiasllqpvdrftenvrdvqseeagdgsdprisiistlpsqippptnsgngdkq  294 (924)
+T UniRef100_A0A0  225 HK-RKRSEGVNIQRKKLSIASLLQPVDRFTENVRDVQSEEAGDGSDPRISIISTLPSQIPPPTNSGNGDKQ  294 (924)
+Confidence            98 99999999998 34443  45655       8899999999999999999999999988877776544
+
+
+No 15
+>UniRef100_A0A0C2TDS8 Uncharacterized protein n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2TDS8_AMAMU
+Probab=99.78  E-value=1.7e-22  Score=187.23  Aligned_cols=129  Identities=7%  Similarity=0.094  Sum_probs=120.2  Template_Neff=1.000
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus       157 rdkr~~dI~Ip~qaStt~rpq~~~~~~~agd~~dpgIsv~s~~P~q~~~~~~~~~~~a~~~~~~~iss~~~~~eppsmnr  236 (412)
+                      |++++++|+||+|+|++.|||  +++|-+||+|+|.+.|+                                        
+T Consensus        54 rdernpdisipaqasttarpq--pvdhfsgdegyprvpvp----------------------------------------   91 (191)
+T UniRef100_A0A0   54 RDERNPDISIPAQASTTARPQ--PVDHFSGDEGYPRVPVP----------------------------------------   91 (191)
+Confidence            689999999999999999999  99999999999977521                                        
+
+
+Q KIL65314.1        1 ------------------------------------------------------------meshviKIGSnADFAGatGI   20 (110)
+Q Consensus       237 G~~d~qsre~~~g~d~d~sIpt~a~sia~~~~s~~~~d~~~~~~~~Ps~S~~~~as~~n~......~f~~.t~fqG..sS  307 (412)
+                           |++|+.+|...||+|+..++++++|+|||+++|+.++++++|+                     . +||||  ++
+T Consensus        92 -----qsreaahgaktdfsipkkassittephsvdrgdrvvqrgdaps------------......---t.sffqg..ss  142 (191)
+T UniRef100_A0A0   92 -----QSREAAHGAKTDFSIPKKASSITTEPHSVDRGDRVVQRGDAPS------------......---T.SFFQG..SS  142 (191)
+Confidence                 6788899999999999999999999999999999999999999                     9 99999  99
+
+
+Q KIL65314.1       21 AFGTNNTV------NLYNIRLGDQILTET---QVEEFMAG   51 (110)
+Q Consensus       308 Nf~isnt~~nt~~~natIIRfGDGQFTE~QRNLIcd~ian  347 (412)
+                      |..++...|..+-||++||||||||||++|||-++..+-.
+T Consensus       143 nikitdsdfyeirgnatiirfgdgqftdvqrnsvrrvcht  182 (191)
+T UniRef100_A0A0  143 NIKITDSDFYEIRGNATIIRFGDGQFTDVQRNSVRRVCHT  182 (191)
+Confidence            9999999999999999999999999999999998776543
+
+
+No 16
+>UniRef100_A0A0C2WGS2 Uncharacterized protein n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2WGS2_AMAMU
+Probab=99.75  E-value=9.7e-22  Score=179.64  Aligned_cols=120  Identities=13%  Similarity=0.149  Sum_probs=107.3  Template_Neff=1.342
+
+Q KIL65314.1        1 -------------------------------------------------------------------------meshvi-    6 (110)
+Q Consensus       225 ~~~~~eppsmnrG~~d~qsre~~~g~d~d~sIpt~a~sia~~~~s~~~~d~~~~~~~~Ps~S~~~~as~-~n~-------  296 (412)
+                      +..++|||||+||+++.+++|++.|+++||+|++++..++.++.++++++.+++++++|+||++++|++ +||       
+T Consensus        12 p~lise~psmnrg~~~~~~~e~g~ggnldf~ist~~~~i~k~~~~~~~~e~vvqr~eapsmstaqrasnasnqipptqn~   91 (160)
+T UniRef100_A0A0   12 PPLISEPPSMNRGNGDARSREAGGGGNLDFPISTNVGRIVKGPRSVNRGEPVVQREEAPSMSTAQRASNASNQIPPTQNP   91 (160)
+Confidence            356689999999999999999999999999999999999999999999999999999999999999999 555       
+
+
+Q KIL65314.1        7 --------KIGSnADFAGatGIAFGTNNTV------NLYNIRLGDQILTET---QVEEFMAG   51 (110)
+Q Consensus       297 --------~f~~-t~fqG-.sSNf~isnt~~nt~~~natIIRfGDGQFTE~QRNLIcd~ian  347 (412)
+                              ||+. +|.+|  +++|+.++.++|   .++||||.|||||||.||||+.+....
+T Consensus        92 gvntgggahfq~ahftggg.ghafgtnsivnn---~tftiirsgdgqftesqrnlvrrgyts  149 (160)
+T UniRef100_A0A0   92 GVNTGGGAHFQSAHFTGGG.GHAFGTNSIVNN---KTFTIIRSGDGQFTESQRNLVRRGYTS  149 (160)
+Confidence                    8988 55555  489988665543   489999999999999999999887765
+
+
+No 17
+>UniRef100_A0A0C2TH39 NACHT domain-containing protein n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2TH39_AMAMU
+Probab=99.67  E-value=9.7e-20  Score=182.29  Aligned_cols=85  Identities=28%  Similarity=0.429  Sum_probs=79.1  Template_Neff=1.000
+
+Q KIL65314.1       29 NLYNIRLGDQILTET---QVEEFMAGLLALPDKMEK----L-VSSRTNLPRAMAAHNDFKTQKVLDACFQGTREAVLKEI  100 (110)
+Q Consensus       322 natIIRfGDGQFTE~QRNLIcd~ian~~~LPDin~~l~~h~l~q~i~~LPRA~A~~ndyq~kkksgpCf~GTR~alL~em  401 (412)
+                      |+.+..--|||||++.||||||||+|-++||||.++-++|+|+|+..-||||||-      +..+.|||+|||+||||||
+T Consensus        17 naavmhgldgqftdvgrnlicdyianptvlpdiknkprrhvltqltmilpraead------qrtsepcfegtrvallrem   90 (390)
+T UniRef100_A0A0   17 NAAVMHGLDGQFTDVGRNLICDYIANPTVLPDIKNKPRRHVLTQLTMILPRAEAD------QRTSEPCFEGTRVALLREM   90 (390)
+Confidence            4666666799999999999999999999999999999999999999999999986      5568999999999999999
+
+
+Q KIL65314.1      101 GNWFLVIGTS-  110 (110)
+Q Consensus       402 ~~W~~~~~~sr  412 (412)
+                      +.|++.|++||
+T Consensus        91 ahwvtspdgsr  101 (390)
+T UniRef100_A0A0   91 AHWVTSPDGSR  101 (390)
+Confidence            99999999986
+
+
+No 18
+>UniRef100_A0A0C2RZ53 Uncharacterized protein n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2RZ53_AMAMU
+Probab=99.63  E-value=4.3e-19  Score=173.93  Aligned_cols=119  Identities=8%  Similarity=0.084  Sum_probs=110.1  Template_Neff=1.000
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus       179 ~~~~~~agd~~dpgIsv~s~~P~q~~~~~~~~~~~a~~~~~~~iss~~~~~eppsmnrG~~d~qsre~~~g~d~d~sIpt  258 (412)
+                      |++++++||+.||||+|+.+||+|++                     .+.+|...||||++++|.|.++.|++++|+-+-
+T Consensus       178 daqsreagdgsdpgisidltlpsqvp---------------------pirseasamnrgngkaqnrgagcgvdpgfpspi  236 (306)
+T UniRef100_A0A0  178 DAQSREAGDGSDPGISIDSTLPSQVP---------------------PIRSEAPSMNRGNGKAQNRGAGCGVDPGFPIPI  236 (306)
+Confidence            88999999999999999999999888                     577889999999999999999999999999998
+
+
+Q KIL65314.1        1 --------------------------------------meshviKIGSnADFAGatGIAFGTNNTV------NLYNIRLG   36 (110)
+Q Consensus       259 ~a~sia~~~~s~~~~d~~~~~~~~Ps~S~~~~as~~n~......~f~~.t~fqG..sSNf~isnt~~nt~~~natIIRfG  329 (412)
+                      +..++++++               .+                     . ++|||  ++|++++|+.|++++++++|++||
+T Consensus       237 eiptvatet---------------rs------------......---i.tlfqg..ssnvqisntkfttiggdatifqfg  277 (306)
+T UniRef100_A0A0  237 ETPTVATET---------------RS------------......---I.TLFQG..SSNVQISNTKFTTIGGDATIFQFG  277 (306)
+Confidence            888887765               44                     6 88999  999999999999999999999999
+
+
+Q KIL65314.1       37 DQILTET---QVEEFMAGL   52 (110)
+Q Consensus       330 DGQFTE~QRNLIcd~ian~  348 (412)
+                      ||||||.+|||+++.++..
+T Consensus       278 dgqfteahrnlvrricacq  296 (306)
+T UniRef100_A0A0  278 DGQFTEAHRNLVRRICACQ  296 (306)
+Confidence            9999999999999888773
+
+
+No 19
+>UniRef100_A0A0C2W324 NACHT domain-containing protein n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2W324_AMAMU
+Probab=99.56  E-value=5.7e-18  Score=181.05  Aligned_cols=139  Identities=0%  Similarity=0.000  Sum_probs=123.4  Template_Neff=1.000
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus         5 ~~~~~s~~~~~gs~~~~k~~~e~~i~rk~~s~~s~-~qsv~~~t~~~rs~------~s~~~gi~~~~~~~~~i~~s~~~~   77 (412)
+                      ++-+.|++..+||.||+||+||+|||||..+++|. +.+||+|||++.++      +++++.|.|+++++++|++|+...
+T Consensus       141 sqipssksaargsahkrkkseevdiqrkelsiaslvlkpvdrftedvldaqsreagagndpdisiistlpsqipssksaa  220 (924)
+T UniRef100_A0A0  141 SQIPSSKSAARGSAHKRKKSEEVDIQRKELSIASLVLKPVDRFTEDVLDAQSREAGAGNDPDISIISTLPSQIPSSKSAA  220 (924)
+Confidence            45677899999999999999999999999999998 89999999999884      567889999999999999999999
+
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus        78 r~~~~~~~ks~~~~i~r~~~s~~~~~~~~is~p~~~~p~p~~v~---~~~~~~~g-g~~~gi~m--S~~sq~P~Sast~~  151 (412)
+                      |++.||+|+|+.+.|+|++.++.+          .++|+.+|++   +.++.++| |.++.|++  ..++|.|+-+....
+T Consensus       221 rgsahkrkrsegvniqrkklsias----------llqpvdrftenvrdvqseeagdgsdprisiistlpsqippptnsgn  290 (924)
+T UniRef100_A0A0  221 RGSAHKRKRSEGVNIQRKKLSIAS----------LLQPVDRFTENVRDVQSEEAGDGSDPRISIISTLPSQIPPPTNSGN  290 (924)
+Confidence            999999999999999999999887          7999999987   57888889 88998874  34478888776644
+
+
+Q KIL65314.1        1 --    0 (110)
+Q Consensus       152 g~  153 (412)
+                      |.
+T Consensus       291 gd  292 (924)
+T UniRef100_A0A0  291 GD  292 (924)
+Confidence            43
+
+
+No 20
+>UniRef100_A0A0C2X6R7 Uncharacterized protein (Fragment) n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2X6R7_AMAMU
+Probab=99.52  E-value=2.8e-17  Score=150.77  Aligned_cols=126  Identities=7%  Similarity=0.093  Sum_probs=113.9  Template_Neff=1.000
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus       153 ~~~~rdkr~~dI~Ip~qaStt~rpq~~~~~~~agd~~dpgIsv~s~~P~q~~~~~~~~~~~a~~~~~~~iss~~~~~epp  232 (412)
+                      +.|| +|.+++++|+++.....|-...++++.+..+.||||+-..+-|+|++                     +.++|.|
+T Consensus         4 sshk-rknseevdiqrkrplvdrvteeaqsrkaangddpgisniltppsqvp---------------------lvipesp   61 (162)
+T UniRef100_A0A0    4 SSHK-RKNSEEVDIQRKRPLVDRVTEEAQSRKAANGDDPGISNILTPPSQVP---------------------LVIPESP   61 (162)
+Confidence            3576 88999999999998888888899999999999999997777777777                     8889999
+
+
+Q KIL65314.1        1 ----------------------------------------------------------------meshviKIGSnADFAG   16 (110)
+Q Consensus       233 smnrG~~d~qsre~~~g~d~d~sIpt~a~sia~~~~s~~~~d~~~~~~~~Ps~S~~~~as~~n~......~f~~.t~fqG  305 (412)
+                      ||+.|.+++|++|+++.++.|+..-++..+++.+.               |+                     + ++|||
+T Consensus        62 smnhgtgdaqsreagdpvdsdlttrteiptiaies---------------ps------------......---m.tlfqg  104 (162)
+T UniRef100_A0A0   62 SMNHGTGDAQSREAGDPVDSDLTTRTEIPTIAIES---------------PS------------......---M.TLFQG  104 (162)
+Confidence            99999999999999999999999888888777643               88                     9 99999
+
+
+Q KIL65314.1       17 atGIAFGTNNTV------NLYNIRLGD   37 (110)
+Q Consensus       306 ..sSNf~isnt~~nt~~~natIIRfGD  330 (412)
+                        ++||+++|+++..+++|++|||||.
+T Consensus       105 ..ssnfqisntnisaiggnatiirfge  129 (162)
+T UniRef100_A0A0  105 ..SSNFQISNTNISAIGGNATIIRFGE  129 (162)
+Confidence              9999999999999999999999994
+
+
+No 21
+>UniRef100_A0A0C2W324 NACHT domain-containing protein n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2W324_AMAMU
+Probab=99.51  E-value=3e-17  Score=175.76  Aligned_cols=176  Identities=0%  Similarity=0.000  Sum_probs=142.0  Template_Neff=1.000
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus        69 ~i~~s~~~~r~~~~~~~ks~~~~i~r~~~s~~~~~~~~is~p~~~~p~p~~v~~---~~~~~-~g-g~~~gi~m-S~~-s  141 (412)
+                      ....|+...|++.||+|||+|++|+|++.++.+          .++|+.+|+++   ++++. +| |+++||.+ |+. +
+T Consensus         6 ssspskspprgsshkrkkseevdiqrkklsias----------llqpvnrftedvrdaqsrfeagdgndlgifiisalss   75 (924)
+T UniRef100_A0A0    6 SSSPSKSPPRGSSHKRKKSEEVDIQRKKLSIAS----------LLQPVNRFTEDVRDAQSRFEAGDGNDLGIFIISALSS   75 (924)
+Confidence            345678899999999999999999999999887          79999998875   67776 45 88999974 544 8
+
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus       142 q~P~Sast~~g~~~~rdkr~~dI~Ip~q-aStt--~rpq~----~~~~~~agd~~dpgIsv~s~~P~q~~~~~~~~~~~a  214 (412)
+                      |.|+++.+.+.+.|| +|++++++|+++ .|..  ++|++    +++++++|.|++|||+|.+++|+|+|++.+++++.+
+T Consensus        76 qipsstftaresahk-rkkseevdiqrkklsigsllqpvdrftedaqsreagagndpgisiistlpsqipssksaargsa  154 (924)
+T UniRef100_A0A0   76 QIPSSTFTARESAHK-RKKSEEVDIQRKKLSIGSLLQPVDRFTEDAQSREAGAGNDPGISIISTLPSQIPSSKSAARGSA  154 (924)
+Confidence            999999999999998 899999999994 3332  45655    999999999999999999999999999999999999
+
+
+Q KIL65314.1        1 --------------------------------------------------------    0 (110)
+Q Consensus       215 ~~~~--~~~-is------s~~~~~eppsmnrG~~---d~qsre~~~g~d~d~sIpt  258 (412)
+                      |...  ++. |+      ..+.. .|  ++|..+   ++|++|++.|.++|++|-+
+T Consensus       155 hkrkkseevdiqrkelsiaslvl-kp--vdrftedvldaqsreagagndpdisiis  207 (924)
+T UniRef100_A0A0  155 HKRKKSEEVDIQRKELSIASLVL-KP--VDRFTEDVLDAQSREAGAGNDPDISIIS  207 (924)
+Confidence            9554  222 33      22222 22  455444   4789999999999988743
+
+
+No 22
+>UniRef100_A0A0C2RZ82 Uncharacterized protein (Fragment) n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2RZ82_AMAMU
+Probab=99.48  E-value=9.6e-17  Score=153.04  Aligned_cols=130  Identities=0%  Similarity=0.000  Sum_probs=105.6  Template_Neff=1.000
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus         1 ~~~s~~~~~s~~--~~~gs~~~~k~~~-e~~i~rk~~s~~s~~qsv~~~t~~~rs~~s~~~gi~~~~~~~~~i~~s~~~~   77 (412)
+                      |+.+++++|+++  ++||++||.|++| ||||||||+++++|+|+|.  ..+|.++...               .....+
+T Consensus         1 mstsssnspsksksttcgsshkgkdseeevdiqrkrpstasrpqpve--skmpasaskp---------------pvtsvi   63 (223)
+T UniRef100_A0A0    1 MSTSSSNSPSKSKSTTCGSSHKGKDSEEEVDIQRKRPSTASRPQPVE--SKMPASASKP---------------PVTSVI   63 (223)
+Confidence            788888887654  9999999999997 9999999999999999988  7777776655               334567
+
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus        78 r~~~~~~~ks~~~~i~r~~~s~~~~~~~~is~p~~~~p~p~~v~~~~~~~~gg~~~gi~mS~~sq~P~Sast~~g~~~~r  157 (412)
+                      |++.||+|.++|++|+|++++              +..+|+||+.             ||++.....+-.+.++|+..+ 
+T Consensus        64 rgsshkgkiseevgiqrkrps--------------tasrpqpves-------------nmsasasksplksiirgsadk-  115 (223)
+T UniRef100_A0A0   64 RGSSHKGKISEEVGIQRKRPS--------------TASRPQPVES-------------NMSASASKSPLKSIIRGSADK-  115 (223)
+Confidence            999999999999999999998              4456888876             788776666777888888654 
+
+
+Q KIL65314.1        1 -------------------------    0 (110)
+Q Consensus       158 dkr~~dI~Ip~----qaStt~rpq~  178 (412)
+                         ..+++|.+    .+|++.|||.
+T Consensus       116 ---gkevdierkgpssasttsrpqp  137 (223)
+T UniRef100_A0A0  116 ---GKEVDIERKGPSSASTTSRPQP  137 (223)
+Confidence               33566765    6888889983
+
+
+No 23
+>UniRef100_A0A0C2WHI4 Uncharacterized protein (Fragment) n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2WHI4_AMAMU
+Probab=99.31  E-value=6.9e-15  Score=134.46  Aligned_cols=62  Identities=34%  Similarity=0.607  Sum_probs=54.2  Template_Neff=1.000
+
+Q KIL65314.1       54 ALPDKMEK----L-VSSRTNLPRAMAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGTS-  110 (110)
+Q Consensus       350 ~LPDin~~l~~h~l~q~i~~LPRA~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~sr  412 (412)
+                      .|||-.. ++..+....|+.||||+|.||.|.-.||+||||+|||+||||||++|.++|++||
+T Consensus        22 tlpdetp-fnnflynapiidlpraeaefnhyrvekksgpcfkgtrvallremadwitgpdgsr   83 (150)
+T UniRef100_A0A0   22 TLPDETP-FNNFLYNAPIIDLPRAEAEFNHYRVEKKSGPCFKGTRVALLREMADWITGPDGSR   83 (150)
+Confidence            3677544 2334557889999999999999999999999999999999999999999999987
+
+
+No 24
+>UniRef100_A0A0C2S0Y0 Uncharacterized protein n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2S0Y0_AMAMU
+Probab=99.10  E-value=3.8e-13  Score=120.54  Aligned_cols=61  Identities=23%  Similarity=0.328  Sum_probs=52.6  Template_Neff=1.140
+
+Q KIL65314.1        7 KIGSnADFAGatGIAFGTNNTV------NLYNIRLGDQILTET---QVEEFMAGLLALPDKMEK----L-V   63 (110)
+Q Consensus       297 ~f~~-t~fqG..sSNf~isnt~~nt~~~natIIRfGDGQFTE~QRNLIcd~ian~~~LPDin~~l~~h~l~  364 (412)
+                      ||.. +|.+|  +++|++.+..+|       .+..||||||+++||||||||.++++||||...|+|..|.
+T Consensus        56 h~esahftgg..ghafgn~~v~nn-------tfm~gdgqftkiernlicd~ie~lavlpditv~lkknalv  117 (121)
+T UniRef100_A0A0   56 HFESAHFTGG..GHAFGNHSVINN-------TFMSGDGQFTKIERNLICDHIEKLAVLPDITVHLKKNALV  117 (121)
+Confidence            7877 78888  999988644433       5889999999999999999999999999999999987764
+
+
+No 25
+>UniRef100_A0A0C2RWH7 NACHT domain-containing protein (Fragment) n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2RWH7_AMAMU
+Probab=99.07  E-value=5.9e-13  Score=125.37  Aligned_cols=44  Identities=43%  Similarity=0.695  Sum_probs=42.7  Template_Neff=1.252
+
+Q KIL65314.1       68 NLPRAMAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGTS-  110 (110)
+Q Consensus       369 ~LPRA~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~sr  412 (412)
+                      -||||+|+|||+|+||.+|.||+|||+||||||+.|++++++||
+T Consensus         2 ilprakavfndhqtkknsgscf~gt~vallrem~~wvt~~d~sr   45 (174)
+T UniRef100_A0A0    2 ILPRAKAVFNDHQTKKNSGPCFDGTRVALLREMAHWVTSPDESR   45 (174)
+Confidence            38999999999999999999999999999999999999999997
+
+
+No 26
+>UniRef100_A0A0C2T358 Uncharacterized protein (Fragment) n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2T358_AMAMU
+Probab=98.99  E-value=2.5e-12  Score=129.73  Aligned_cols=131  Identities=0%  Similarity=0.000  Sum_probs=104.1  Template_Neff=1.000
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus       137 mS~~sq~P~Sast~~g~~~~rd--kr~~dI-~Ip~qaStt~rpq~---------~~~~~~agd~~dpgIsv~s~~P~q~~  204 (412)
+                      ||+++...++.+.++|+.|. .  .+...| .-|++.|++.|||+         |.+.+++||+.||||.|.++||+|.+
+T Consensus         1 msasssnspsdsitcgclhf-piftrarriakkpkkpstasrpqsaehfpedvrdvqnreagdgsdpgipiistlpsqlp   79 (338)
+T UniRef100_A0A0    1 MSASSSNSPSDSITCGCLHF-PIFTRARRIAKKPKKPSTASRPQSAEHFPEDVRDVQNREAGDGSDPGIPIISTLPSQLP   79 (338)
+Confidence            66677788899999999987 1  111122 45778999999998         88999999999999999999998877
+
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus       205 ~~~~~~~~~a~~~~~~~iss~~~~~eppsmnrG~~d~qsre~~~g~d~d~sIpt~a~sia~~~~s~~--~---~d~~~~~  279 (412)
+                                           ...+|.|||+||++++|+|.+++|+++.|+|+++-.+++.|+....  .   ..+..+.
+T Consensus        80 ---------------------pvvseapsmdrgngdaqsraarggvdpgfpipteiqtvaietvehtedvrdtqnreagd  138 (338)
+T UniRef100_A0A0   80 ---------------------PVVSEAPSMDRGNGDAQSRAARGGVDPGFPIPTEIQTVAIETVEHTEDVRDTQNREAGD  138 (338)
+Confidence                                 5778999999999999999999999999999999999888764321  1   1233445
+
+
+Q KIL65314.1        1 ----------    0 (110)
+Q Consensus       280 ~~~Ps~S~~~  289 (412)
+                      +.+|.+|+..
+T Consensus       139 gsdpgisiis  148 (338)
+T UniRef100_A0A0  139 GSDPGISIIS  148 (338)
+Confidence            6667766653
+
+
+No 27
+>UniRef100_A0A0C2WJ71 Uncharacterized protein n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2WJ71_AMAMU
+Probab=98.94  E-value=5.4e-12  Score=117.19  Aligned_cols=130  Identities=0%  Similarity=0.000  Sum_probs=108.8  Template_Neff=1.000
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus       141 sq~P~Sast~~g~~~~rdkr~~dI~Ip~qaStt~rpq~~~~~~~agd~~dpgIsv~s~~P~q~~~~~~~~~~~a~---~~  217 (412)
+                      +|+|.+++..+|++.+ +|.+++++||.|+|+.+||...         ++.||.|++..|+++..+..++..+-.   +.
+T Consensus         3 sqvprsatsldgavfd-dkhdpdlsipsqastslrprli---------nhlgiavpskapsttsvsfglatinhsnrear   72 (157)
+T UniRef100_A0A0    3 SQVPRSATSLDGAVFD-DKHDPDLSIPSQASTSLRPRLI---------NHLGIAVPSKAPSTTSVSFGLATINHSNREAR   72 (157)
+Confidence            8999999999999998 9999999999999999999832         468999999999888877766654322   33
+
+
+Q KIL65314.1        1 -------------------------------------------------------------------------    0 (110)
+Q Consensus       218 ~~~---~-is--s~~~~~eppsmnrG~~d~qsre~~~g~d~d~sIpt~a~sia~~~~s~~~~d~~~~~~~~Ps  284 (412)
+                      .++   + |+  .++.++++|+++||.+.+|.+|+++|+++||+-+..+.++++|+    ..|+.++++++-+
+T Consensus        73 nednhgnpiqteiplvtprhpsidrgygtvqrreagggvdpdfsspkgapsittel----tvdrvvqrgeans  141 (157)
+T UniRef100_A0A0   73 NEDNHGNPIQTEIPLVTPRHPSIDRGYGTVQRREAGGGVDPDFSSPKGAPSITTEL----TVDRVVQRGEANS  141 (157)
+Confidence            322   3 66  78899999999999999999999999999999999999998875    3566777776654
+
+
+No 28
+>UniRef100_A0A0C2S3K4 Uncharacterized protein n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2S3K4_AMAMU
+Probab=98.80  E-value=3.3e-11  Score=104.88  Aligned_cols=72  Identities=15%  Similarity=0.172  Sum_probs=61.7  Template_Neff=1.000
+
+Q KIL65314.1        1 ---------------------------------------------------meshviKIGSnADFAGatGIAFGTNNTV-   28 (110)
+Q Consensus       246 ~~~g~d~d~sIpt~a~sia~~~~s~~~~d~~~~~~~~Ps~S~~~~as~~n~......~f~~.t~fqG..sSNf~isnt~~  316 (412)
+                      ..+|++.|+..|-++.+++..+               |+                     . ++|||  ++||-++|+++
+T Consensus        12 deggvdsdlttpletptvaitt---------------ps------------......---i.tlfqg..ssnfrisntni   52 (95)
+T UniRef100_A0A0   12 DEGGVDSDLTTPLETPTVAITT---------------PS------------......---I.TLFQG..SSNFRISNTNI   52 (95)
+Confidence            3456788888888887776644               77                     8 99999  99999999999
+
+
+Q KIL65314.1       29 -----NLYNIRLGDQILTET---QVEEFMAG   51 (110)
+Q Consensus       317 nt~~~natIIRfGDGQFTE~QRNLIcd~ian  347 (412)
+                      .+++++++||||||||||.+||+|++....-
+T Consensus        53 taiggdatiirfgdgqftavqrdlvrqiytf   83 (95)
+T UniRef100_A0A0   53 TAIGGDATIIRFGDGQFTAVQRDLVRQIYTF   83 (95)
+Confidence            9999999999999999999999999765443
+
+
+No 29
+>UniRef100_A0A0C2SKG0 Uncharacterized protein n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2SKG0_AMAMU
+Probab=98.42  E-value=2.5e-09  Score=97.90  Aligned_cols=46  Identities=26%  Similarity=0.232  Sum_probs=43.0  Template_Neff=1.000
+
+Q KIL65314.1       10 SnADFAGatGIAFGTNNTV------NLYNIRLGDQILTET---QVEEFM   49 (110)
+Q Consensus       300 ~.t~fqG..sSNf~isnt~~nt~~~natIIRfGDGQFTE~QRNLIcd~i  345 (412)
+                      . ++|.|  ++||.++.+.+|-.++||+|||||||||||.||||+|-..
+T Consensus        81 i.tlfeg..ssnfkisdtdinvvggnatiirfgdgqftelqrnlvccty  126 (128)
+T UniRef100_A0A0   81 I.TLFEG..SSNFKISDTDINVVGGNATIIRFGDGQFTELQRNLVCCTY  126 (128)
+Confidence            7 89999  9999999999998999999999999999999999998643
+
+
+No 30
+>UniRef100_A0A0C2SN86 Uncharacterized protein n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2SN86_AMAMU
+Probab=98.37  E-value=3.9e-09  Score=99.06  Aligned_cols=79  Identities=10%  Similarity=0.153  Sum_probs=71.5  Template_Neff=1.335
+
+Q KIL65314.1        1 -------------------------------------------meshviKIGSnADFAGatGIAFGTNNTV------NLY   31 (110)
+Q Consensus       254 ~sIpt~a~sia~~~~s~~~~d~~~~~~~~Ps~S~~~~as~~n~......~f~~.t~fqG..sSNf~isnt~~nt~~~nat  324 (412)
+                      .+.+++..+++...|||+++|..++.+++|+                     | +||||  ++|+.+.|+.||.+.|+||
+T Consensus        60 estsse~fs~a~d~hsvdhgd~a~q~~e~ps------------......---m.sffqg..ssnvkninpifnq~hgdat  115 (146)
+T UniRef100_A0A0   60 ESTSSEYFSVAEDVHSVDHGDSAVQGREVPS------------......---M.SFFQG..SSNVKNINPIFNQIHGDAT  115 (146)
+Confidence            4566677788889999999999999999999                     9 99999  9999999999999999999
+
+
+Q KIL65314.1       32 NIRLGDQILTET---QVEEFMAG   51 (110)
+Q Consensus       325 IIRfGDGQFTE~QRNLIcd~ian  347 (412)
+                      .||||||+|+..|++++......
+T Consensus       116 firfg~~~~~~~~~~~~~~~~~~  138 (146)
+T UniRef100_A0A0  116 FIRFGDEQFRDVQRNQQRHIYPD  138 (146)
+Confidence            99999999999999998665443
+
+
+No 31
+>UniRef100_A0A0C2WDF2 Uncharacterized protein n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2WDF2_AMAMU
+Probab=98.35  E-value=4.6e-09  Score=98.03  Aligned_cols=85  Identities=0%  Similarity=0.000  Sum_probs=72.1  Template_Neff=1.000
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus       141 sq~P~Sast~~g~~~~rdkr~~dI~Ip~-qaStt~rpq~----~~~~~~agd~~dpgIsv~s~~P~q~~~~~~~~~~~a~  215 (412)
+                      ...|+-.++++|+.|||.|..++.+|++ ..|+..+||+    ..+++++||+|||.|+|.-+||+|+            
+T Consensus        13 asnpplksttcgsshkrekskeeadiqrkrpstisqpqsvdrfieqsreagdegdprisinmplpsqv------------   80 (147)
+T UniRef100_A0A0   13 ASNPPLKSTTCGSSHKREKSKEEADIQRKRPSTISQPQSVDRFIEQSREAGDEGDPRISINMPLPSQV------------   80 (147)
+Confidence            4578888899999999777778899998 5677778888    7899999999999999999998755            
+
+
+Q KIL65314.1        1 --------------------------------------    0 (110)
+Q Consensus       216 ~~~~~~iss~~~~~eppsmnrG~~d~qsre~~~g~d~d  253 (412)
+                                     ||+|+.|++++++ |+++|+++|
+T Consensus        81 ---------------ppfmnpgngdahs-earggvdpd  102 (147)
+T UniRef100_A0A0   81 ---------------PPFMNPGNGDAHS-EARGGVDPD  102 (147)
+Confidence                           5799999999888 467788775
+
+
+No 32
+>UniRef100_A0A0C2X6R7 Uncharacterized protein (Fragment) n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2X6R7_AMAMU
+Probab=98.11  E-value=4e-08  Score=93.39  Aligned_cols=148  Identities=0%  Similarity=0.000  Sum_probs=80.1  Template_Neff=1.000
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus        16 gs~~~~k~~~e~~i~rk~~s~~s~~qsv~~~t~~~rs---~~s~~~gi~~~~~~~~~i~~s~~~~r~~~~~--~~ks~~~   90 (412)
+                      .|+||||.+||+||||||+-       ||+.+|+..+   +.+-++||.-+..-+++.+..+----...|.  -..|+|.
+T Consensus         3 asshkrknseevdiqrkrpl-------vdrvteeaqsrkaangddpgisniltppsqvplvipespsmnhgtgdaqsrea   75 (162)
+T UniRef100_A0A0    3 ASSHKRKNSEEVDIQRKRPL-------VDRVTEEAQSRKAANGDDPGISNILTPPSQVPLVIPESPSMNHGTGDAQSREA   75 (162)
+Confidence            47899999999999999974       6688888777   6777888887655555544432211111110  0112111
+
+
+Q KIL65314.1        1 --------------------------------------------------------------------------------    0 (110)
+Q Consensus        91 ~i~r~~~s~~~~~~~~----is~p~~~~p~p~~v~~~~--~~~~gg~~~gi~mS~~sq~P~Sast~~g~~~~rdkr~~dI  164 (412)
+                      +         +-.+.|    -.||.-.      + .++  .-..|....-|+-..-+.....++    +... .++++.|
+T Consensus        76 g---------dpvdsdlttrteiptia------i-espsmtlfqgssnfqisntnisaiggnat----iirf-gernpni  134 (162)
+T UniRef100_A0A0   76 G---------DPVDSDLTTRTEIPTIA------I-ESPSMTLFQGSSNFQISNTNISAIGGNAT----IIRF-GERNPNI  134 (162)
+Confidence            1         111111    1121100      0 001  000110011111000011111111    1222 4778999
+
+
+Q KIL65314.1        1 -----------------------------    0 (110)
+Q Consensus       165 ~Ip~qaStt~rpq~~~~~~~agd~~dpgI  193 (412)
+                      +||+|+|+++|||  +++|--||+++||+
+T Consensus       135 sipaqasttprpq--pvdhfpgdeghpgv  161 (162)
+T UniRef100_A0A0  135 SIPAQASTTPRPQ--PVDHFPGDEGHPGV  161 (162)
+Confidence            9999999999999  99999999999997
+
+
+No 33
+>UniRef100_A0A0C2SQE4 Uncharacterized protein n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2SQE4_AMAMU
+Probab=97.86  E-value=2.7e-07  Score=85.54  Aligned_cols=32  Identities=38%  Similarity=0.700  Sum_probs=31.3  Template_Neff=1.000
+
+Q KIL65314.1       70 PRAMAAHNDFKTQKVLDACFQGTREAVLKEIG  101 (110)
+Q Consensus       371 PRA~A~~ndyq~kkksgpCf~GTR~alL~em~  402 (412)
+                      ||||.+|+|||+|||.|.||+.||.||||||.
+T Consensus         8 praevvfddyqnkkkgglcfestrmallremd   39 (128)
+T UniRef100_A0A0    8 PRAEVVFDDYQNKKKGGLCFESTRMALLREMD   39 (128)
+Confidence            99999999999999999999999999999996
+
+
+No 34
+>UniRef100_A0A0C2XLS8 Uncharacterized protein (Fragment) n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2XLS8_AMAMU
+Probab=97.83  E-value=3.4e-07  Score=97.77  Aligned_cols=43  Identities=44%  Similarity=0.787  Sum_probs=41.4  Template_Neff=1.000
+
+Q KIL65314.1       69 LPRAMAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGTS-  110 (110)
+Q Consensus       370 LPRA~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~sr  412 (412)
+                      ||||||+|+|||.+||.|.|++|||+.||.|+..|..+|..||
+T Consensus         1 lpraeaafddyqsqkknglclkgtretllgelgswlvdptrsr   43 (470)
+T UniRef100_A0A0    1 LPRAEAAFDDYQSQKKNGLCLKGTRETLLGELGSWLVDPTRSR   43 (470)
+Confidence            7999999999999999999999999999999999999998776
+
+
+No 35
+>UniRef100_A0A0C2WU07 NACHT domain-containing protein (Fragment) n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2WU07_AMAMU
+Probab=97.75  E-value=4.7e-07  Score=96.17  Aligned_cols=45  Identities=31%  Similarity=0.493  Sum_probs=40.8  Template_Neff=2.473
+
+Q KIL65314.1       64 SSRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       365 q~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      ..+.+|||+ .|.||.|++|+ .+.||+|||++||+||++|++++++
+T Consensus        12 ~~l~~~p~~~~a~~n~~~r~~-~~~Cl~gTR~~lL~~i~~W~~~~~~   57 (333)
+T UniRef100_A0A0   12 SMLCHLPWAKDAPFNSYERKH-DPTCLPGTRQDLLREIYDWADGPNS   57 (333)
+Confidence            468899998 69999999998 4669999999999999999999875
+
+
+No 36
+>UniRef100_A0A4Q4N9U7 Uncharacterized protein (Fragment) n=1 Tax=Alternaria tenuissima TaxID=119927 RepID=A0A4Q4N9U7_9PLEO
+Probab=97.72  E-value=6.6e-07  Score=80.26  Aligned_cols=48  Identities=29%  Similarity=0.431  Sum_probs=41.9  Template_Neff=1.515
+
+Q KIL65314.1       62 L-VSSRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       362 ~l~q~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      +|.--+..||-| +|.||.||+|+ ...|+++|||.|||||++|+.+.+.
+T Consensus        42 ~l~~tl~alptatdapfnafqrqh-dpt~lpdtrvdllrei~dwa~gdds   90 (94)
+T UniRef100_A0A4   42 FLNDTLNALPTATDAPFNAFQRQH-DPTCLPDTRVDLLREIHDWADGDDS   90 (94)
+Confidence            345567789998 79999999999 6889999999999999999998663
+
+
+No 37
+>UniRef100_A0A0C2WH04 Uncharacterized protein n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2WH04_AMAMU
+Probab=97.67  E-value=1e-06  Score=83.41  Aligned_cols=40  Identities=33%  Similarity=0.571  Sum_probs=37.1  Template_Neff=1.000
+
+Q KIL65314.1       72 AMAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGTS-  110 (110)
+Q Consensus       373 A~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~sr  412 (412)
+                      ...+|||+|+|..+||||.|.|+|+|+||+.|+..|++|.
+T Consensus        83 crdvfndhqtktnsgpcfggarvailqeiaywvispdgsk  122 (146)
+T UniRef100_A0A0   83 CRDVFNDHQTKTNSGPCFGGARVAILQEIAYWVISPDGSK  122 (146)
+Confidence            3578999999999999999999999999999999998863
+
+
+No 38
+>UniRef100_A0A0C2XI76 Uncharacterized protein (Fragment) n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2XI76_AMAMU
+Probab=97.56  E-value=2e-06  Score=73.21  Aligned_cols=26  Identities=42%  Similarity=0.879  Sum_probs=23.9  Template_Neff=1.000
+
+Q KIL65314.1       77 NDFKTQKVLDACFQGTREAVLKEIGN  102 (110)
+Q Consensus       378 ndyq~kkksgpCf~GTR~alL~em~~  403 (412)
+                      .|||+|||+||||.|||+||||.+..
+T Consensus         4 adyqtkkksgpcfrgtrvallrrlgh   29 (69)
+T UniRef100_A0A0    4 ADYQTKKKSGPCFRGTRVALLRRLGH   29 (69)
+Confidence            48999999999999999999998764
+
+
+No 39
+>UniRef100_A0A1Y2A792 NACHT domain-containing protein n=1 Tax=Clohesyomyces aquaticus TaxID=1231657 RepID=A0A1Y2A792_9PLEO
+Probab=97.53  E-value=2.4e-06  Score=88.14  Aligned_cols=44  Identities=27%  Similarity=0.395  Sum_probs=40.6  Template_Neff=1.306
+
+Q KIL65314.1       65 SRTNLPRAM-AAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       366 ~i~~LPRA~-A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      ++..||||| |+||.|.++++ +.||++||+.||+||+.|+.+|++
+T Consensus        40 ~l~~l~raeda~fnsy~k~he-p~c~~~trvdll~ei~~wa~gpd~   84 (280)
+T UniRef100_A0A1   40 PLAQLHRAEDAPFNSYTKRHE-PTCLANTRVDLLDEIYGWAEGPDE   84 (280)
+Confidence            678899995 99999999985 679999999999999999999987
+
+
+No 40
+>UniRef100_A0A4V1Q3J3 NACHT domain-containing protein n=1 Tax=Psathyrella aberdarensis TaxID=2316362 RepID=A0A4V1Q3J3_9AGAR
+Probab=97.39  E-value=5.7e-06  Score=92.82  Aligned_cols=74  Identities=30%  Similarity=0.472  Sum_probs=63.1  Template_Neff=1.000
+
+Q KIL65314.1       44 ---QVEEFMAGLLALPDKMEK----L-V--------------SSRTNLPRAMAAHNDFKTQKVLDACFQGTREAVLKEIG  101 (110)
+Q Consensus       337 QRNLIcd~ian~~~LPDin~~l~~h~l~--------------q~i~~LPRA~A~~ndyq~kkksgpCf~GTR~alL~em~  402 (412)
+                      +|-++.++|+...+|.||-.|.+.|..+              ..+..||||.|+|+..+--..-.|||+|||+|||..|.
+T Consensus       256 erfwlenhiagrivltdiltnvqdheatmkekfialereaqdarldrlpraaaaydsqevldtvspcfegtreallggig  335 (795)
+T UniRef100_A0A4  256 ERFWLENHIAGRIVLTDILTNVQDHEATMKEKFIALEREAQDARLDRLPRAAAAYDSQEVLDTVSPCFEGTREALLGGIG  335 (795)
+Confidence            4557778899888899998887777544              35678999999999998888889999999999999999
+
+
+Q KIL65314.1      102 NWFLVIGT  109 (110)
+Q Consensus       403 ~W~~~~~~  410 (412)
+                      +|+..|.+
+T Consensus       336 ewassphg  343 (795)
+T UniRef100_A0A4  336 EWASSPHG  343 (795)
+Confidence            99998865
+
+
+No 41
+>UniRef100_A0A0D2DCQ5 WD_REPEATS_REGION domain-containing protein n=1 Tax=Cladophialophora immunda TaxID=569365 RepID=A0A0D2DCQ5_9EURO
+Probab=97.07  E-value=2.5e-05  Score=94.63  Aligned_cols=46  Identities=30%  Similarity=0.439  Sum_probs=42.7  Template_Neff=2.600
+
+Q KIL65314.1       63 VSSRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       364 ~q~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      .|.+..||+| +|+||.|-++++ ..|+++||+.||+||++|+.++||
+T Consensus       246 en~L~rLP~AedApFNSyakQHE-p~CLpnTRVdLL~EI~~WADGqDE  292 (1342)
+T UniRef100_A0A0  246 ENTLDRLPRAEDAPFNSYAKQHE-PTCLPNTRVDLLQEIYSWADGQDE  292 (1342)
+Confidence            4789999999 599999999996 779999999999999999999987
+
+
+No 42
+>UniRef100_A0A0C3GKR0 NACHT domain-containing protein n=1 Tax=Piloderma croceum (strain F 1598) TaxID=765440 RepID=A0A0C3GKR0_PILCF
+Probab=97.04  E-value=3.7e-05  Score=82.77  Aligned_cols=60  Identities=30%  Similarity=0.451  Sum_probs=53.0  Template_Neff=1.000
+
+Q KIL65314.1       56 PDKMEK----L-VSSRTNLPRAMAAHNDFKTQ-KVLDACFQGTREAVLKEIGNWFLVIGTS  110 (110)
+Q Consensus       352 PDin~~l~~h~l~q~i~~LPRA~A~~ndyq~k-kksgpCf~GTR~alL~em~~W~~~~~~s  411 (412)
+                      -||-...+||.|.|.|..||.|.|+||.|-.. .|...||.|||+.+|.+|+.|.-..++-
+T Consensus        67 ediigtvnkhtlnqriqslphanaaynsyvsgnnkrqacfqgtretilskiagwigsedgq  127 (421)
+T UniRef100_A0A0   67 EDIIGTVNKHTLNQRIQSLPHANAAYNSYVSGNNKRQACFQGTRETILSKIAGWIGSEDGQ  127 (421)
+Confidence            57788889999999999999999999999765 4567899999999999999998776653
+
+
+No 43
+>UniRef100_A0A6G1G0E6 uncharacterized protein n=1 Tax=Eremomyces bilateralis CBS 781.70 TaxID=1392243 RepID=A0A6G1G0E6_9PEZI
+Probab=97.01  E-value=4e-05  Score=83.28  Aligned_cols=44  Identities=32%  Similarity=0.433  Sum_probs=40.2  Template_Neff=1.364
+
+Q KIL65314.1       65 SRTNLPRAM-AAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       366 ~i~~LPRA~-A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      ....|||++ |.||.|++++ .+.|+++||+.||+||+.|+.+.+|
+T Consensus        34 ifdrlp~~~~apfn~y~~qh-~ptclpdt~vdllqeiy~wadgqde   78 (420)
+T UniRef100_A0A6   34 IFDRLPRAEDAPFNSYAKQH-EPTCLPDTRVDLLQEIYSWADGQDE   78 (420)
+Confidence            456799995 9999999999 4889999999999999999999987
+
+
+No 44
+>UniRef100_A0A4Q4N2E2 NACHT domain-containing protein (Fragment) n=1 Tax=Alternaria tenuissima TaxID=119927 RepID=A0A4Q4N2E2_9PLEO
+Probab=96.97  E-value=4.5e-05  Score=79.28  Aligned_cols=44  Identities=36%  Similarity=0.413  Sum_probs=39.7  Template_Neff=1.737
+
+Q KIL65314.1       65 SRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       366 ~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      .+..||-| +|.||.|+++. .+.|+++||+.||+||.+|+.+.++
+T Consensus        48 pl~~lp~a~da~fna~~~q~-dp~clpdtrvdll~ei~~wadg~d~   92 (252)
+T UniRef100_A0A4   48 PLNRLPVARDAPFNASKKQD-DPTCLPDTRVDLLKEIRNWADGSDE   92 (252)
+Confidence            46678999 59999999998 5889999999999999999988776
+
+
+No 45
+>UniRef100_A0A6A5UT08 Uncharacterized protein n=1 Tax=Bimuria novae-zelandiae CBS 107.79 TaxID=1447943 RepID=A0A6A5UT08_9PLEO
+Probab=96.94  E-value=6e-05  Score=73.31  Aligned_cols=46  Identities=30%  Similarity=0.427  Sum_probs=41.8  Template_Neff=1.000
+
+Q KIL65314.1       63 VSSRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       364 ~q~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      --++-.||.| +|.||.|..+++ .-|+++||+.|||||..|+-+|+|
+T Consensus        35 enslgrlphatdapfnsyaaqhe-rvclpdtrvdllreihswaggpde   81 (160)
+T UniRef100_A0A6   35 ENSLGRLPHATDAPFNSYAAQHE-RVCLPDTRVDLLREIHSWAGGPDE   81 (160)
+Confidence            3578889998 799999999996 669999999999999999999987
+
+
+No 46
+>UniRef100_A0A4Q4X4U8 Uncharacterized protein n=1 Tax=Monosporascus sp. CRB-9-2 TaxID=2211643 RepID=A0A4Q4X4U8_9PEZI
+Probab=96.92  E-value=6.4e-05  Score=77.93  Aligned_cols=56  Identities=29%  Similarity=0.323  Sum_probs=47.3  Template_Neff=1.000
+
+Q KIL65314.1       58 KMEK----L-VSSRTNLPRAM-AAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       354 in~~l~~h~l~q~i~~LPRA~-A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      ..+.++++.|--.+..||-|+ |.||.|.++++ +.|+.+||+.||+||++|+.+.+|
+T Consensus       121 adeimrenaleiilnrlpnaedapfnsyskqhq-ptclsdtrvdllkeiynwadgqde  177 (277)
+T UniRef100_A0A4  121 ADEIMRENALEIILNRLPNAEDAPFNSYSKQHQ-PTCLSDTRVDLLKEIYNWADGQDE  177 (277)
+Confidence            344556666666677899995 99999999985 889999999999999999999887
+
+
+No 47
+>UniRef100_A0A117NKE0 Uncharacterized protein n=1 Tax=Penicillium freii TaxID=48697 RepID=A0A117NKE0_9EURO
+Probab=96.87  E-value=8.3e-05  Score=63.75  Aligned_cols=39  Identities=33%  Similarity=0.538  Sum_probs=33.2  Template_Neff=1.000
+
+Q KIL65314.1       69 LPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       370 LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      |--| +|+|+.|.+++  --|++|||..|||||.+|+..|.+
+T Consensus         9 lqtakqaafdsydnqh--ieclpgtridllreidewaksphg   48 (66)
+T UniRef100_A0A1    9 LQTAKQAAFDSYDNQH--IECLPGTRIDLLREIDEWAKSPHG   48 (66)
+Confidence            3334 69999999997  469999999999999999988754
+
+
+No 48
+>UniRef100_A0A6A6EDY7 Uncharacterized protein n=1 Tax=Zopfia rhizophila CBS 207.26 TaxID=1314779 RepID=A0A6A6EDY7_9PEZI
+Probab=96.85  E-value=9.1e-05  Score=77.98  Aligned_cols=45  Identities=31%  Similarity=0.496  Sum_probs=40.4  Template_Neff=1.000
+
+Q KIL65314.1       64 SSRTNLPRAM-AAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       365 q~i~~LPRA~-A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      -.+..||-|| |.||.|.++++ ..|+++||+.||+||++|+.+.+|
+T Consensus       197 ntlsrlpnaedapfnsyrrqhe-ptclpdtrvdllqeiynwangqde  242 (318)
+T UniRef100_A0A6  197 NTLSRLPNAEDAPFNSYRRQHE-PTCLPDTRVDLLQEIYNWANGQDE  242 (318)
+Confidence            3467899995 99999999995 789999999999999999999887
+
+
+No 49
+>UniRef100_E3S9B5 Uncharacterized protein n=1 Tax=Pyrenophora teres f. teres (strain 0-1) TaxID=861557 RepID=E3S9B5_PYRTT
+Probab=96.79  E-value=0.00011  Score=66.00  Aligned_cols=42  Identities=31%  Similarity=0.490  Sum_probs=36.9  Template_Neff=1.278
+
+Q KIL65314.1       63 VSSRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFL  105 (110)
+Q Consensus       364 ~q~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~  406 (412)
+                      --.+..||-| +|.||.|.++.+ ..|+++||+.|||||+.|+.
+T Consensus        44 ~n~l~rlp~a~dapfns~ak~~e-~~cl~ntr~dllrei~swad   86 (86)
+T UniRef100_E3S9   44 DNPLSRLPYAQDAPFNSFAKRHE-STCLPNTRVDLLREIYSWAD   86 (86)
+Confidence            3467889999 499999999986 67999999999999999973
+
+
+No 50
+>UniRef100_A0A6A5UWB3 Uncharacterized protein n=1 Tax=Bimuria novae-zelandiae CBS 107.79 TaxID=1447943 RepID=A0A6A5UWB3_9PLEO
+Probab=96.78  E-value=0.00012  Score=69.00  Aligned_cols=45  Identities=29%  Similarity=0.426  Sum_probs=40.5  Template_Neff=1.000
+
+Q KIL65314.1       64 SSRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       365 q~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      ..+.-||.| +|.||.|.+++ .+||+.+||+.||.||+.|+.+.+|
+T Consensus        45 ntlsclphakdapfntyakqh-dppclantridlldeihgwaqgkde   90 (123)
+T UniRef100_A0A6   45 NTLSCLPHAKDAPFNTYAKQH-DPPCLANTRIDLLDEIHGWAQGKDE   90 (123)
+Confidence            346678999 69999999998 6999999999999999999999887
+
+
+No 51
+>UniRef100_A0A150VCZ0 Uncharacterized protein n=1 Tax=Acidomyces richmondensis BFW TaxID=766039 RepID=A0A150VCZ0_9PEZI
+Probab=96.78  E-value=0.00012  Score=66.85  Aligned_cols=45  Identities=27%  Similarity=0.388  Sum_probs=38.4  Template_Neff=1.000
+
+Q KIL65314.1       63 -VSSRTNLPRAM-AAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVI  107 (110)
+Q Consensus       363 l~q~i~~LPRA~-A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~  408 (412)
+                      |...+..||-|+ |.|-..|+.+| ..|++|||..||+||++|+...
+T Consensus        34 lnevlrslptaksapfysnqrrhk-ptclpgtradllqeiydwadse   79 (99)
+T UniRef100_A0A1   34 LNEVLRSLPTAKSAPFYSNQRRHK-PTCLPGTRADLLQEIYDWADSE   79 (99)
+Confidence            445678899995 88988888885 7899999999999999999764
+
+
+No 52
+>UniRef100_A0A178A9V2 Putative WD-repeat protein n=1 Tax=Stagonospora sp. SRC1lsM3a TaxID=765868 RepID=A0A178A9V2_9PLEO
+Probab=96.77  E-value=8.7e-05  Score=92.41  Aligned_cols=46  Identities=30%  Similarity=0.405  Sum_probs=41.6  Template_Neff=3.454
+
+Q KIL65314.1       64 SSRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGTS  110 (110)
+Q Consensus       365 q~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~s  411 (412)
+                      -.|..||.| +|.||.|++++ .+.|+++||++||+||++|+.+.+|.
+T Consensus       229 ~~l~~LP~A~dA~FNa~~kqh-ep~Cl~~TRv~lL~eIy~WadG~d~~  275 (1588)
+T UniRef100_A0A1  229 DVLNQLPYAKDAPFNSYAKQH-EPTCLPNTRVDLLQEIYNWADGQDER  275 (1588)
+Confidence            457789998 69999999999 48899999999999999999998874
+
+
+No 53
+>UniRef100_A0A6G1HLE3 Uncharacterized protein n=1 Tax=Trichodelitschia bisporula TaxID=703511 RepID=A0A6G1HLE3_9PEZI
+Probab=96.75  E-value=0.00014  Score=66.01  Aligned_cols=44  Identities=32%  Similarity=0.506  Sum_probs=37.7  Template_Neff=1.000
+
+Q KIL65314.1       64 SSRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIG  108 (110)
+Q Consensus       365 q~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~  409 (412)
+                      -.+.-||-| +|.||.|.-+. .+.|++|||+.||+||+.|+...+
+T Consensus        10 tvlkilptaeeapfnayrcqd-aptclpgtrvnllqeihswaneen   54 (93)
+T UniRef100_A0A6   10 TVLKILPTAEEAPFNAYRCQD-APTCLPGTRVNLLQEIHSWANEEN   54 (93)
+Confidence            345668998 69999999887 588999999999999999997654
+
+
+No 54
+>UniRef100_A0A2B7WE88 NACHT domain-containing protein (Fragment) n=1 Tax=Helicocarpus griseus UAMH5409 TaxID=1447875 RepID=A0A2B7WE88_9EURO
+Probab=96.73  E-value=0.00013  Score=85.72  Aligned_cols=42  Identities=33%  Similarity=0.579  Sum_probs=38.0  Template_Neff=2.181
+
+Q KIL65314.1       66 RTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       367 i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      +.+||+| .|+||.|++++.  +|++|||+.||+||.+|+++++.
+T Consensus       158 l~~lp~A~~a~f~~~~~q~~--~CL~gTrvelL~~I~~W~~~~ns  200 (829)
+T UniRef100_A0A2  158 LKNLPIAAGAPFDSYERQHE--ECLPGTRVELLQEIEEWAYSENS  200 (829)
+Confidence            7789998 599999999995  39999999999999999998764
+
+
+No 55
+>UniRef100_A0A0F9XRD4 NACHT domain-containing protein n=1 Tax=Trichoderma harzianum TaxID=5544 RepID=A0A0F9XRD4_TRIHA
+Probab=96.73  E-value=0.00011  Score=86.01  Aligned_cols=47  Identities=30%  Similarity=0.413  Sum_probs=42.8  Template_Neff=3.100
+
+Q KIL65314.1       63 VSSRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGTS  110 (110)
+Q Consensus       364 ~q~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~s  411 (412)
+                      .|.+.+||-| +|.||.|++++ ..-|++|||+.||++|++|+.++++.
+T Consensus        80 ~~~l~sL~~a~~A~FNa~eReH-dp~CLegTRvdiLk~I~eWaD~d~~~  127 (713)
+T UniRef100_A0A0   80 VQVLSSLPFAKSACFNSREREH-DPFCLEGTRVDLLKDIAEWADSDHEE  127 (713)
+Confidence            4678899999 69999999999 58899999999999999999998875
+
+
+No 56
+>UniRef100_A0A6A5TTM9 WD_REPEATS_REGION domain-containing protein n=1 Tax=Byssothecium circinans TaxID=147558 RepID=A0A6A5TTM9_9PLEO
+Probab=96.66  E-value=0.0002  Score=78.14  Aligned_cols=45  Identities=31%  Similarity=0.520  Sum_probs=40.5  Template_Neff=1.000
+
+Q KIL65314.1       64 SSRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       365 q~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      ..+..||.| +|.||.|.++++ ..|+.+||+.|||||++|+.+|+|
+T Consensus        48 ntlsrlphakdapfnsyakqhe-stclrdtrvdllreiynwvkgpde   93 (451)
+T UniRef100_A0A6   48 NTLSRLPHAKDAPFNSYAKQHE-STCLRDTRVDLLREIYNWVKGPDE   93 (451)
+Confidence            356789999 599999999996 569999999999999999999987
+
+
+No 57
+>UniRef100_A0A093YJQ3 WD_REPEATS_REGION domain-containing protein (Fragment) n=1 Tax=Pseudogymnoascus sp. VKM F-3808 TaxID=1391699 RepID=A0A093YJQ3_9PEZI
+Probab=96.62  E-value=0.00017  Score=86.03  Aligned_cols=46  Identities=28%  Similarity=0.392  Sum_probs=41.2  Template_Neff=3.200
+
+Q KIL65314.1       63 VSSRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       364 ~q~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      ...+..||-| +|+||.|++++ ...|++|||+.||+||++|+.+.++
+T Consensus        74 n~~L~~LP~A~~ApFNs~~rqh-ep~CLp~TRvdlL~~Iy~Wadg~d~  120 (854)
+T UniRef100_A0A0   74 NDVLSSLPIAADAPFNSYQRQH-EPTCLPDTRVDLLQEIYDWADGQDE  120 (854)
+Confidence            4567889987 69999999988 5889999999999999999999776
+
+
+No 58
+>UniRef100_UPI00144A79F6 uncharacterized protein n=1 Tax=Macroventuria anomochaeta TaxID=301207 RepID=UPI00144A79F6
+Probab=96.54  E-value=0.00033  Score=73.64  Aligned_cols=47  Identities=30%  Similarity=0.423  Sum_probs=42.0  Template_Neff=1.000
+
+Q KIL65314.1       63 -VSSRTNLPRAM-AAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       363 l~q~i~~LPRA~-A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      |.-.+-.||.|+ |.||.|.++++ +.|+++||+.||.||+.|+.+.+|
+T Consensus        25 lndtlgrlphaedapfnsytkqhe-paclpdtrvdllneihswadgqde   72 (293)
+T UniRef100_UPI0   25 LNDTLGRLPHAEDAPFNSYTKQHE-PACLPDTRVDLLNEIHSWADGQDE   72 (293)
+Confidence            445678899995 99999999985 789999999999999999999887
+
+
+No 59
+>UniRef100_A0A0C3GWU2 Uncharacterized protein n=1 Tax=Oidiodendron maius Zn TaxID=913774 RepID=A0A0C3GWU2_9PEZI
+Probab=96.54  E-value=0.00033  Score=65.61  Aligned_cols=44  Identities=30%  Similarity=0.376  Sum_probs=40.2  Template_Neff=1.000
+
+Q KIL65314.1       65 SRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       366 ~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      ++..||.| ||.||.|.++++ ..|+++|.+.||+.|+.|+.+.+|
+T Consensus        41 lltrlpyaaeapfnsyakqhe-ptclpdtnvdllqtiynwadgqde   85 (113)
+T UniRef100_A0A0   41 LLTRLPYAAEAPFNSYAKQHE-PTCLPDTNVDLLQTIYNWADGQDE   85 (113)
+Confidence            46789986 899999999985 889999999999999999999887
+
+
+No 60
+>UniRef100_A0A0C9XXK5 Unplaced genomic scaffold scaffold_151, whole genome shotgun sequence (Fragment) n=1 Tax=Pisolithus microcarpus 441 TaxID=765257 RepID=A0A0C9XXK5_9AGAM
+Probab=96.51  E-value=0.00028  Score=86.10  Aligned_cols=47  Identities=28%  Similarity=0.445  Sum_probs=41.1  Template_Neff=2.748
+
+Q KIL65314.1       63 -VSSRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       363 l~q~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      |+-.|..||-| +|.||.||++++ +.||+|||++||++|++|+.+.+.
+T Consensus        43 ln~vl~~Lp~a~~A~F~ayqRqhe-p~Cl~~TR~dLL~~I~~W~d~~~s   90 (1187)
+T UniRef100_A0A0   43 LNEVLKSLPTAKDAPFNAYQRQHE-PTCLPGTRVDLLRDIYDWADDEDS   90 (1187)
+Confidence            45567889998 599999999995 669999999999999999988654
+
+
+No 61
+>UniRef100_A0A3M7NZ79 NACHT domain-containing protein (Fragment) n=1 Tax=Chaetothyriales sp. CBS 134916 TaxID=2249418 RepID=A0A3M7NZ79_9EURO
+Probab=96.43  E-value=0.0004  Score=76.50  Aligned_cols=44  Identities=30%  Similarity=0.310  Sum_probs=39.9  Template_Neff=2.212
+
+Q KIL65314.1       65 SRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       366 ~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      .+..||.+ .|.|+.|++++ ...|+++||+.||+||+.|+.+++|
+T Consensus        40 ~~~~l~y~~~a~f~~~~rqh-~p~Cl~~TrvdlL~~Iy~Wadg~De   84 (372)
+T UniRef100_A0A3   40 MLERLVYAKDAHFNSYYRQH-DPTCLSNTRVDLLQEIYNWADGQDE   84 (372)
+Confidence            46678887 69999999999 5889999999999999999999987
+
+
+No 62
+>UniRef100_A0A084QXR4 NACHT domain-containing protein (Fragment) n=1 Tax=Stachybotrys chlorohalonata (strain IBT 40285) TaxID=1283841 RepID=A0A084QXR4_STAC4
+Probab=96.36  E-value=0.0005  Score=83.34  Aligned_cols=46  Identities=28%  Similarity=0.398  Sum_probs=41.0  Template_Neff=2.600
+
+Q KIL65314.1       64 SSRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGTS  110 (110)
+Q Consensus       365 q~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~s  411 (412)
+                      -.+..||-| .|.||.|.++++ ..|+++||++||+||.+|+.++++-
+T Consensus       150 ~~L~~LP~A~dA~FnS~aeqH~-~~CLpdTRvdLL~eI~~WAd~~d~~  196 (1063)
+T UniRef100_A0A0  150 NTLDRLPIAEDAPFNSYAEQHN-PTCLPDTRVDLLREIYSWADGPDER  196 (1063)
+Confidence            357789999 599999999985 7899999999999999999999873
+
+
+No 63
+>UniRef100_A0A2J6QZE7 Uncharacterized protein n=1 Tax=Hyaloscypha variabilis F TaxID=1149755 RepID=A0A2J6QZE7_9HELO
+Probab=96.35  E-value=0.00065  Score=60.05  Aligned_cols=37  Identities=35%  Similarity=0.504  Sum_probs=32.5  Template_Neff=1.000
+
+Q KIL65314.1       65 SRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGN  102 (110)
+Q Consensus       366 ~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~  403 (412)
+                      .+..||-| ||.||.|.++.| +.|+++||+.||+||.+
+T Consensus        38 vlkslpvakeapfnaydrqyk-paclpdtrvdllqeind   75 (75)
+T UniRef100_A0A2   38 VLKSLPVAKEAPFNAYDRQYK-PACLPDTRVDLLQEIND   75 (75)
+Confidence            45688998 799999999986 77999999999999864
+
+
+No 64
+>UniRef100_A0A0A2LGE8 NACHT nucleoside triphosphatase n=1 Tax=Penicillium italicum TaxID=40296 RepID=A0A0A2LGE8_PENIT
+Probab=96.33  E-value=0.00044  Score=87.48  Aligned_cols=60  Identities=28%  Similarity=0.390  Sum_probs=48.9  Template_Neff=4.000
+
+Q KIL65314.1       55 LPDKMEK----L-VSSRTNLPRAM-AAHNDFKTQKVL-DACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       351 LPDin~~l~~h~l~q~i~~LPRA~-A~~ndyq~kkks-gpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      |-++++.+++-.-.|.|..||||+ |+||.|.+.... ..|.+|||+.+|+||..|..+.++
+T Consensus       414 l~~~~~~v~~~~Q~~ll~~LprA~yAAFnt~~k~~~~Pp~ChegTR~eIL~eIq~Wg~g~~~  475 (1662)
+T UniRef100_A0A0  414 LRETKEEVKKINQDQLLGKLPRAEYAAFNTYRKDMPPPPYCHEGTRKEILREIQRWGEGHDE  475 (1662)
+Confidence            345555555444568899999996 999999998754 359999999999999999998876
+
+
+No 65
+>UniRef100_A0A094AMX2 Uncharacterized protein n=1 Tax=Pseudogymnoascus sp. VKM F-4281 (FW-2241) TaxID=1420906 RepID=A0A094AMX2_9PEZI
+Probab=96.33  E-value=0.00053  Score=85.27  Aligned_cols=43  Identities=35%  Similarity=0.483  Sum_probs=38.8  Template_Neff=2.766
+
+Q KIL65314.1       65 SRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIG  108 (110)
+Q Consensus       366 ~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~  409 (412)
+                      .+..||.| +|.||.|.+++. +.|++|||+.||+||++|+.+.+
+T Consensus       256 ~l~~Lp~a~~a~Fnsy~rQhe-p~CLp~TRvdlLq~Iy~Wad~kd  299 (1500)
+T UniRef100_A0A0  256 PLSLLPFATHAPFNSYDRQHE-PACLPGTRVDLLQEIYDWADGKD  299 (1500)
+Confidence            57889999 799999999995 67999999999999999999544
+
+
+No 66
+>UniRef100_A0A0C3C2P1 WD_REPEATS_REGION domain-containing protein n=1 Tax=Oidiodendron maius Zn TaxID=913774 RepID=A0A0C3C2P1_9PEZI
+Probab=96.28  E-value=0.00064  Score=83.33  Aligned_cols=44  Identities=32%  Similarity=0.410  Sum_probs=40.6  Template_Neff=2.604
+
+Q KIL65314.1       65 SRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       366 ~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      .+..||-| +|+||.|.+++ .+.|+++||+.||+||++|+.+.+|
+T Consensus       403 ~L~~LpyA~dApFns~~~Qh-eptCLpdTRvdLlqeI~~Wadg~De  447 (1234)
+T UniRef100_A0A0  403 LLDRLPYAVDAPFNSYDKQH-EPTCLPDTRVDLLQEIYNWADGQDE  447 (1234)
+Confidence            57789998 79999999999 4889999999999999999999876
+
+
+No 67
+>UniRef100_A0A0K8L406 Vegetative incompatibility protein HET-E-1 n=1 Tax=Aspergillus udagawae TaxID=91492 RepID=A0A0K8L406_9EURO
+Probab=96.26  E-value=0.00066  Score=83.95  Aligned_cols=41  Identities=32%  Similarity=0.524  Sum_probs=34.9  Template_Neff=2.932
+
+Q KIL65314.1       67 TNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       368 ~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      ..|--| .|+||+|++++  .-|++|||+.||+||.+|++.+++
+T Consensus       152 ~~L~~akgAafdsyeN~h--~ECLpgTRveLL~eI~~WA~s~~G  193 (1313)
+T UniRef100_A0A0  152 GRLQTAKGAAFDSYENQH--TECLPGTRVELLREIEEWAKSPHG  193 (1313)
+Confidence            344456 59999999998  469999999999999999998764
+
+
+No 68
+>UniRef100_A0A094A4V4 WD_REPEATS_REGION domain-containing protein n=1 Tax=Pseudogymnoascus sp. VKM F-4246 TaxID=1420902 RepID=A0A094A4V4_9PEZI
+Probab=96.22  E-value=0.00096  Score=81.27  Aligned_cols=50  Identities=30%  Similarity=0.370  Sum_probs=43.9  Template_Neff=1.219
+
+Q KIL65314.1       62 --L-VSSRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       360 ~h~l~q~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      .|.|.-.+.-||-| .|.||.|..+++ +.|++|||+.||+||++|+.+.++
+T Consensus        29 ~~~~~dpl~llp~a~ha~fnsy~~qhe-paclpgtrvdllqeiy~wadgkd~   79 (1836)
+T UniRef100_A0A0   29 GPTLEDPLRLLPFAPHAPFNSYDHQHE-PACLPGTRVDLLQEIYEWADGKDG   79 (1836)
+Confidence            45566778889998 699999999995 789999999999999999998775
+
+
+No 69
+>UniRef100_A0A6A5T5E0 Uncharacterized protein n=1 Tax=Clathrospora elynae TaxID=706981 RepID=A0A6A5T5E0_9PLEO
+Probab=96.16  E-value=0.0012  Score=61.73  Aligned_cols=43  Identities=30%  Similarity=0.425  Sum_probs=38.9  Template_Neff=1.000
+
+Q KIL65314.1       66 RTNLPRAM-AAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       367 i~~LPRA~-A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      -+-||||| |.||.|.++++ +.|+-+||+-+|+.|+.|+.+.+|
+T Consensus        27 sivlpraedapfnsyakqhe-pnclvntrvgflegihswadgqde   70 (107)
+T UniRef100_A0A6   27 SIVLPRAEDAPFNSYAKQHE-PNCLVNTRVGFLEGIHSWADGQDE   70 (107)
+Confidence            45589995 99999999985 779999999999999999999887
+
+
+No 70
+>UniRef100_A0A1W5CSD4 p-loop containing nucleoside triphosphate hydrolase n=1 Tax=Lasallia pustulata TaxID=136370 RepID=A0A1W5CSD4_9LECA
+Probab=96.10  E-value=0.0014  Score=77.49  Aligned_cols=45  Identities=31%  Similarity=0.393  Sum_probs=40.5  Template_Neff=1.424
+
+Q KIL65314.1       64 SSRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       365 q~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      .++..||.| +|.||.|.+++ .+.|+++||+.|||||+.|+.+.++
+T Consensus       458 sllshlpyavdapfn~ysrqh-dptclpdtrvdllreiytwadgkdg  503 (929)
+T UniRef100_A0A1  458 SLLSHLPYAVDAPFNTYSRQH-DPTCLPDTRVDLLREIYTWADGKDG  503 (929)
+Confidence            456779999 79999999999 6889999999999999999998764
+
+
+No 71
+>UniRef100_A0A384JEN4 WD_REPEATS_REGION domain-containing protein n=1 Tax=Botryotinia fuckeliana (strain B05.10) TaxID=332648 RepID=A0A384JEN4_BOTFB
+Probab=96.09  E-value=0.0012  Score=81.03  Aligned_cols=43  Identities=28%  Similarity=0.491  Sum_probs=38.9  Template_Neff=2.282
+
+Q KIL65314.1       66 RTNLPRAM-AAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       367 i~~LPRA~-A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      |..||+|+ |+|+.|+..++++ |+.|||+.||+.|.+|+.++++
+T Consensus       370 l~~Lp~a~~AtFds~~~~~~~~-Cl~GTRv~ll~~I~~W~~d~~G  413 (1287)
+T UniRef100_A0A3  370 LEKLPIAKGATFDSYQDEHKSG-CLLGTRVELLKQISDWAEDPDG  413 (1287)
+Confidence            66799995 9999999999866 9999999999999999988764
+
+
+No 72
+>UniRef100_A0A0U5GIB8 NACHT domain-containing protein n=1 Tax=Aspergillus calidoustus TaxID=454130 RepID=A0A0U5GIB8_9EURO
+Probab=96.09  E-value=0.0011  Score=81.25  Aligned_cols=46  Identities=33%  Similarity=0.433  Sum_probs=40.6  Template_Neff=3.044
+
+Q KIL65314.1       63 VSSRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       364 ~q~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      ...+.+||+| +|.||-|++++ ...|++|||+.||+||++|+.+.++
+T Consensus       386 ~~~l~~lp~aada~~N~~~r~~-~p~cl~~trV~ll~~iy~W~~~~~~  432 (1095)
+T UniRef100_A0A0  386 QEMLKNLPYAADAPFNPYQRQH-DPTCLPGTRVELLEEIYAWADGQNS  432 (1095)
+Confidence            3567789997 89999999999 4579999999999999999998765
+
+
+No 73
+>UniRef100_A0A0U5CBQ5 Uncharacterized protein n=1 Tax=Aspergillus calidoustus TaxID=454130 RepID=A0A0U5CBQ5_9EURO
+Probab=96.05  E-value=0.0012  Score=83.51  Aligned_cols=81  Identities=28%  Similarity=0.275  Sum_probs=55.4  Template_Neff=3.209
+
+Q KIL65314.1       36 GDQILTET---QVEEFMAGLLALPDKMEK-------------L-VSSRTNLPRAM-AAHNDFKTQKVLDACFQGTREAVL   97 (110)
+Q Consensus       329 GDGQFTE~QRNLIcd~ian~~~LPDin~~l---------~~h~l~q~i~~LPRA~-A~~ndyq~kkksgpCf~GTR~alL  398 (412)
+                      |==-|.+.++|-++...|.+++--=....+         +....-+.+.+||++| |.|.+|..+.+ +.|++|||++||
+T Consensus       444 GiCDYaDSHKNk~Wq~YaA~~AAA~aK~lv~~~~~~~~~~~~~~~~~~~~lp~~e~A~f~s~~~q~~-~eCL~gTR~~Ll  522 (1688)
+T UniRef100_A0A0  444 GICDYSDSHKNKVWQPYAALSAAAFAKELLLRLPHRVVQETNRIEKCIINLPRAEGAAFGSAADQHE-PECLQGTRTDLL  522 (1688)
+Confidence            334466677777776666633100011110         1112235689999995 99999999985 779999999999
+
+
+Q KIL65314.1       98 KEIGNWFLVIGT  109 (110)
+Q Consensus       399 ~em~~W~~~~~~  410 (412)
+                      +||.+|+..+.+
+T Consensus       523 e~i~~W~~~p~g  534 (1688)
+T UniRef100_A0A0  523 EEIYQWIEDPSG  534 (1688)
+Confidence            999999988764
+
+
+No 74
+>UniRef100_A0A093V5Z6 Vegetative incompatibility protein HET-E-1 n=1 Tax=Talaromyces marneffei PM1 TaxID=1077442 RepID=A0A093V5Z6_TALMA
+Probab=96.04  E-value=0.0012  Score=82.85  Aligned_cols=43  Identities=30%  Similarity=0.505  Sum_probs=38.8  Template_Neff=3.200
+
+Q KIL65314.1       66 RTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       367 i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      +..||.| .|.|+.|.++++ .-||+|||.+||++|.+|+..|++
+T Consensus       282 L~kLp~A~gA~FDSy~~qhe-d~CLpGTR~elL~qI~~Wa~sp~g  325 (1509)
+T UniRef100_A0A0  282 LDKLPIAHGAEFDSYMDQHE-DECLPGTRTELLEQIKEWARSPQG  325 (1509)
+Confidence            5589999 599999999985 669999999999999999998865
+
+
+No 75
+>UniRef100_A0A0H2R7G6 Uncharacterized protein (Fragment) n=1 Tax=Schizopora paradoxa TaxID=27342 RepID=A0A0H2R7G6_9AGAM
+Probab=96.03  E-value=0.0017  Score=56.31  Aligned_cols=22  Identities=55%  Similarity=0.903  Sum_probs=20.3  Template_Neff=1.367
+
+Q KIL65314.1       88 CFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       389 Cf~GTR~alL~em~~W~~~~~~  410 (412)
+                      ||+|||+|+|+||.+|++++..
+T Consensus         1 c~~gtrvavl~ei~ew~~~~~t   22 (62)
+T UniRef100_A0A0    1 CFPGTRVAILKEIQEWTSSPNT   22 (62)
+Confidence            9999999999999999998753
+
+
+No 76
+>UniRef100_A0A4Q2CZZ1 Reverse transcriptase domain-containing protein n=1 Tax=Psathyrella aberdarensis TaxID=2316362 RepID=A0A4Q2CZZ1_9AGAR
+Probab=96.00  E-value=0.0015  Score=79.81  Aligned_cols=71  Identities=24%  Similarity=0.453  Sum_probs=58.0  Template_Neff=2.720
+
+Q KIL65314.1       44 ---QVEEFMAGLLALPDKMEK------------------L-VSSRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEI  100 (110)
+Q Consensus       337 QRNLIcd~ian~~~LPDin~~l--------------~~h~l~q~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em  401 (412)
+                      |+-+|.++|+..-+|-||...+              .+|+-.-.+..|-+- -|+|+..+-- |-.+||+|||++||-.+
+T Consensus       440 QcFwIEN~IAGtlVLSdi~~tV~DQ~~WM~~L~~t~d~hf~naaL~~LK~VpGAAYDSQevA-KV~~CFEGTR~kLLAgv  518 (1068)
+T UniRef100_A0A4  440 QCFWIENLIAGALVLSDILQTVQDQEGWMQGLCATLDKHFENAALDKLKHVPGAAYDSQELA-KVNPCFEGTRVKLLAGV  518 (1068)
+Confidence            5557889999977888887665              367777778888775 5888887777 57999999999999999
+
+
+Q KIL65314.1      101 GNWFLVI  107 (110)
+Q Consensus       402 ~~W~~~~  408 (412)
+                      ..|+.++
+T Consensus       519 GRWMS~~  525 (1068)
+T UniRef100_A0A4  519 GRWMSNT  525 (1068)
+Confidence            9999875
+
+
+No 77
+>UniRef100_G2YHM7 NACHT domain-containing protein n=1 Tax=Botryotinia fuckeliana (strain T4) TaxID=999810 RepID=G2YHM7_BOTF4
+Probab=95.97  E-value=0.0021  Score=72.23  Aligned_cols=69  Identities=25%  Similarity=0.273  Sum_probs=47.7  Template_Neff=1.000
+
+Q KIL65314.1       45 VEEFMAGLLALPDKMEK----L-VSSRTNLPRAM-AAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       341 Icd~ian~~~LPDin~~l~~h~l~q~i~~LPRA~-A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      |+..+-.+..|.||..-++-..-.--+..||-|+ |+|+.|+.+|++ -|++|||..|-+.|.+|+.+|++
+T Consensus       117 ireslkkldklqdiqgcielisekidlnrlpiaegaafdsyedqkes-kclpgtrielqqqildwaddpdg  186 (540)
+T UniRef100_G2YH  117 IRESLKKLDKLQDIQGCIELISEKIDLNRLPIAEGAAFDSYEDQKES-KCLPGTRIELQQQILDWADDPDG  186 (540)
+Confidence            3333444444566655433000001244688886 999999999964 59999999999999999999875
+
+
+No 78
+>UniRef100_A0A0C3HAN0 WD_REPEATS_REGION domain-containing protein n=1 Tax=Oidiodendron maius Zn TaxID=913774 RepID=A0A0C3HAN0_9PEZI
+Probab=95.96  E-value=0.0016  Score=81.83  Aligned_cols=50  Identities=30%  Similarity=0.345  Sum_probs=43.1  Template_Neff=2.893
+
+Q KIL65314.1       62 --L-VSSRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       360 ~h~l~q~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      +..+-..+..||.| +|.||.|.++++ ..|++||||.||+||.+|+.+.++
+T Consensus       331 ~~~~~~~L~~lP~A~~a~fnsy~~qhe-~~Cl~~TRVdvL~eI~~Wa~~~d~  381 (1568)
+T UniRef100_A0A0  331 KQELEELLNRLPYAEDAPFNSYDRQHE-PTCLPDTRVDVLNEIYNWADGQDE  381 (1568)
+Confidence            34444567889999 699999999996 779999999999999999998765
+
+
+No 79
+>UniRef100_A0A094FVA1 WD_REPEATS_REGION domain-containing protein n=3 Tax=unclassified Pseudogymnoascus TaxID=2637121 RepID=A0A094FVA1_9PEZI
+Probab=95.89  E-value=0.0019  Score=81.59  Aligned_cols=43  Identities=30%  Similarity=0.412  Sum_probs=39.1  Template_Neff=2.900
+
+Q KIL65314.1       66 RTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       367 i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      +..||-+ .|+||+|.+++ .+.|++|||+.||+||.+|+.+|+.
+T Consensus       338 ls~Lp~v~~A~Fds~~~qH-e~~CL~~TR~eLL~eI~~Wa~~p~~  381 (1680)
+T UniRef100_A0A0  338 LSHLPYVVGAAFNSYSRQH-DPTCLPDTRVDLLREIYTWADGPDR  381 (1680)
+Confidence            5689998 69999999999 5889999999999999999999864
+
+
+No 80
+>UniRef100_A0A090CEU4 NWD2 protein n=3 Tax=Podospora anserina (strain S / ATCC MYA-4624 / DSM 980 / FGSC 10383) TaxID=515849 RepID=A0A090CEU4_PODAN
+Probab=95.89  E-value=0.0016  Score=82.65  Aligned_cols=43  Identities=28%  Similarity=0.493  Sum_probs=39.0  Template_Neff=4.100
+
+Q KIL65314.1       66 RTNLPRAM-AAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       367 i~~LPRA~-A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      +.+||-|+ |.||.|.++++ .-|.+|||+.||++|.+|+.+|++
+T Consensus       383 l~~LP~AeGAsFDS~~nEhe-~~Chp~TRvdLL~qI~~Wa~dP~G  426 (1590)
+T UniRef100_A0A0  383 LDNLPIAEGASFDSYANEHE-PRCLPGTRVDLLQQISDWADDPDG  426 (1590)
+Confidence            44899997 99999999996 569999999999999999999864
+
+
+No 81
+>UniRef100_A0A1W5CRG5 p-loop containing nucleoside triphosphate hydrolase n=1 Tax=Lasallia pustulata TaxID=136370 RepID=A0A1W5CRG5_9LECA
+Probab=95.88  E-value=0.0025  Score=73.92  Aligned_cols=45  Identities=31%  Similarity=0.393  Sum_probs=40.6  Template_Neff=1.342
+
+Q KIL65314.1       64 SSRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       365 q~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      .++..||.| +|.||.|.+++ .+.|+++||+.|||||..|+.+.++
+T Consensus       354 sllshlpyavdapfntysrqh-dptclpdt~vdllrei~twadgkdg  399 (710)
+T UniRef100_A0A1  354 SLLSHLPYAVDAPFNTYSRQH-DPTCLPDTRVDLLREIYTWADGKDG  399 (710)
+Confidence            456779999 79999999999 6889999999999999999998764
+
+
+No 82
+>UniRef100_A0A0B4G8J4 Nucleoside phosphorylase domain protein (Fragment) n=1 Tax=Metarhizium brunneum (strain ARSEF 3297) TaxID=1276141 RepID=A0A0B4G8J4_METBS
+Probab=95.86  E-value=0.0024  Score=78.81  Aligned_cols=47  Identities=23%  Similarity=0.359  Sum_probs=42.0  Template_Neff=2.100
+
+Q KIL65314.1       62 L-VSSRTNLPRAM-AAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIG  108 (110)
+Q Consensus       362 ~l~q~i~~LPRA~-A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~  409 (412)
+                      -..+.+..||.|+ |.|+.|...+ +..|+++||+.||+||..|+.+++
+T Consensus       514 d~~~~Ln~LP~AegAsfDS~aEEH-nptCLp~TRvELL~~I~~Wi~dp~  561 (1358)
+T UniRef100_A0A0  514 DYRTALDQLPIAEGASFDSHAEEH-NPTCLPDTRVELLREIDRWIDDPD  561 (1358)
+Confidence            3457888999995 9999999998 588999999999999999999875
+
+
+No 83
+>UniRef100_A0A194XL69 HET-domain-containing protein n=1 Tax=Phialocephala scopiformis TaxID=149040 RepID=A0A194XL69_9HELO
+Probab=95.83  E-value=0.0028  Score=75.64  Aligned_cols=44  Identities=30%  Similarity=0.403  Sum_probs=40.5  Template_Neff=1.645
+
+Q KIL65314.1       65 SRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       366 ~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      .|..||-| +|.||.|..+.+ ..|+++||+.||+||++|+.|.+|
+T Consensus       261 ~l~~lp~a~~apfn~~~~q~e-~~clpntrvdll~eiy~w~dg~~e  305 (930)
+T UniRef100_A0A1  261 LLRRLPYAPDAPFNSYDRQDE-PTCLPNTRVDLLQEIYDWADGQDE  305 (930)
+Confidence            57889998 699999999984 789999999999999999999876
+
+
+No 84
+>UniRef100_A0A067P5M0 AAA_16 domain-containing protein (Fragment) n=1 Tax=Jaapia argillacea MUCL 33604 TaxID=933084 RepID=A0A067P5M0_9AGAM
+Probab=95.80  E-value=0.0025  Score=65.85  Aligned_cols=43  Identities=30%  Similarity=0.435  Sum_probs=38.0  Template_Neff=3.000
+
+Q KIL65314.1       66 RTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       367 i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      |..+||. .|+||.-|++.+++ |++|||++||+++.+|+..++.
+T Consensus         4 ~~~~~~~~~~~~~~~~~~~~~~-cl~~tr~~~l~~~~~w~~~~~~   47 (187)
+T UniRef100_A0A0    4 INQIPRDDGAAYNSSQRDFPTG-CLPGTRVALLDAIETWAQSPDS   47 (187)
+Confidence            5668997 69999999998766 9999999999999999998853
+
+
+No 85
+>UniRef100_A0A084BCJ3 Uncharacterized protein n=1 Tax=Stachybotrys chartarum (strain CBS 109288 / IBT 7711) TaxID=1280523 RepID=A0A084BCJ3_STACB
+Probab=95.76  E-value=0.003  Score=78.03  Aligned_cols=44  Identities=30%  Similarity=0.419  Sum_probs=39.6  Template_Neff=2.231
+
+Q KIL65314.1       65 SRTNLPRAM-AAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       366 ~i~~LPRA~-A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      -+..||.|| |.||.|-++++ .+|+.|||+.||+||..|+.++++
+T Consensus       150 ~l~rLp~Ae~A~FnS~ak~h~-~~CLa~TRvdLL~ei~~Wa~g~n~  194 (1307)
+T UniRef100_A0A0  150 TLARLPYAEDAPFNSYAKQHE-FTCLANTRVDLLEEIHQWADGPNA  194 (1307)
+Confidence            367899995 99999999984 789999999999999999999875
+
+
+No 86
+>UniRef100_A0A6A6DH00 Uncharacterized protein (Fragment) n=1 Tax=Zopfia rhizophila CBS 207.26 TaxID=1314779 RepID=A0A6A6DH00_9PEZI
+Probab=95.74  E-value=0.0038  Score=53.11  Aligned_cols=37  Identities=38%  Similarity=0.521  Sum_probs=32.8  Template_Neff=1.000
+
+Q KIL65314.1       68 NLPRAM-AAHNDFKTQKVLDACFQGTREAVLKEIGNWFL  105 (110)
+Q Consensus       369 ~LPRA~-A~~ndyq~kkksgpCf~GTR~alL~em~~W~~  406 (412)
+                      -||.|+ |.||...++++ ..|+.+||+.||+.|+.|+.
+T Consensus        19 vlpyaenasfnscskqhe-saclrdtrvdllqgiynwad   56 (56)
+T UniRef100_A0A6   19 VLPYAENASFNSCSKQHE-SACLRDTRVDLLQGIYNWAD   56 (56)
+Confidence            379986 99999999996 56999999999999999973
+
+
+No 87
+>UniRef100_A0A4Q4SUN2 NACHT domain-containing protein n=1 Tax=Monosporascus ibericus TaxID=155417 RepID=A0A4Q4SUN2_9PEZI
+Probab=95.72  E-value=0.0036  Score=68.83  Aligned_cols=42  Identities=29%  Similarity=0.439  Sum_probs=38.1  Template_Neff=1.741
+
+Q KIL65314.1       66 RTNLPRAM-AAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIG  108 (110)
+Q Consensus       367 i~~LPRA~-A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~  409 (412)
+                      +..||-++ |+|+.|...+ ...|.+|||+.|||+|.+|+.+|.
+T Consensus       160 ldkl~~a~gaafds~aeeh-nptc~qdtr~ellr~i~~wa~np~  202 (342)
+T UniRef100_A0A4  160 LDKLPVAKGAAFDSHAEEH-NPTCHQDTRVELLRDISSWASNPQ  202 (342)
+Confidence            66799996 9999999998 588999999999999999998874
+
+
+No 88
+>UniRef100_A0A4Q2D4H8 Uncharacterized protein n=1 Tax=Psathyrella aberdarensis TaxID=2316362 RepID=A0A4Q2D4H8_9AGAR
+Probab=95.70  E-value=0.0038  Score=72.98  Aligned_cols=72  Identities=25%  Similarity=0.452  Sum_probs=60.9  Template_Neff=1.636
+
+Q KIL65314.1       44 ---QVEEFMAGLLALPDKME--------------K----L-VSSRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEI  100 (110)
+Q Consensus       337 QRNLIcd~ian~~~LPDin~--------------~l~~h~l~q~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em  401 (412)
+                      |.-+|.+||+...+|-||-.              .|.||+-+..+..|-|- -|+|+..+-..|-.+||+|||-.||-.+
+T Consensus       456 qcfwienhiagtivlsdilatvqdq~~wmqglsa~ldkh~enstl~qlkrvpgaaydsqev~~kiv~cfegtrs~ll~nv  535 (693)
+T UniRef100_A0A4  456 QCFWIENHIAGTIVLSDILATVQDQEGWMQGLSATLDKHIENSTLGQLKRVPGAAYDSQEVADKIVSCFEGTRSTLLANV  535 (693)
+Confidence            55578888888777777753              46788888888999996 6999999888889999999999999999
+
+
+Q KIL65314.1      101 GNWFLVI  107 (110)
+Q Consensus       402 ~~W~~~~  408 (412)
+                      ..|+.++
+T Consensus       536 grwmsgs  542 (693)
+T UniRef100_A0A4  536 GRWMSGS  542 (693)
+Confidence            9999875
+
+
+No 89
+>UniRef100_A0A1W5CS20 Uncharacterized protein (Fragment) n=1 Tax=Lasallia pustulata TaxID=136370 RepID=A0A1W5CS20_9LECA
+Probab=95.68  E-value=0.0043  Score=72.21  Aligned_cols=45  Identities=31%  Similarity=0.393  Sum_probs=40.7  Template_Neff=1.171
+
+Q KIL65314.1       64 SSRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       365 q~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      ..+..||.| +|.||.|.+++ .+.|++.||+.|||||+.|+.+.++
+T Consensus       355 s~~shlpyavda~fntysrqh-dp~clp~t~vdllreiytwa~gkdg  400 (751)
+T UniRef100_A0A1  355 SLLSHLPYAVDAPFNTYSRQH-DPTCLPDTRVDLLREIYTWADGKDG  400 (751)
+Confidence            456789999 79999999999 6889999999999999999998764
+
+
+No 90
+>UniRef100_A0A0U1M7E4 Vegetative incompatibility protein HET-E-1 n=1 Tax=Talaromyces islandicus TaxID=28573 RepID=A0A0U1M7E4_TALIS
+Probab=95.66  E-value=0.0034  Score=78.19  Aligned_cols=52  Identities=19%  Similarity=0.366  Sum_probs=45.0  Template_Neff=3.088
+
+Q KIL65314.1       62 ----L-VSSRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       358 l~~h~l~q~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      ++.|.-...|..||-+ +|.|+.|++++ .+.|.++||++||++|..|+.++++
+T Consensus       371 i~~~~~~~~l~kL~~~~~A~fDS~~~e~-~P~Cl~~TRVdlL~~I~~Wa~d~~~  423 (1224)
+T UniRef100_A0A0  371 IKDHIDRDILDKLPYVKGATFDSYDNEH-EPRCLEDTRVDLLREISRWAEDPNS  423 (1224)
+Confidence            3455556778899998 59999999999 5889999999999999999988775
+
+
+No 91
+>UniRef100_A0A2S7NTH7 Vegetative incompatibility het-e-1 protein n=1 Tax=Rutstroemia sp. NJR-2017a BVV2 TaxID=2070413 RepID=A0A2S7NTH7_9HELO
+Probab=95.55  E-value=0.0054  Score=74.11  Aligned_cols=45  Identities=29%  Similarity=0.397  Sum_probs=40.7  Template_Neff=1.552
+
+Q KIL65314.1       65 SRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGTS  110 (110)
+Q Consensus       366 ~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~s  411 (412)
+                      ++..||-| .|+||.|..+++ +.|++.||+.||+||++|+.+.+|-
+T Consensus       389 llsrlpiatna~fns~n~qhe-ptclp~trvdllqeiy~wad~qd~r  434 (1085)
+T UniRef100_A0A2  389 LLSRLPIATNAPFNSYNRQHE-PTCLPDTRVDLLQEIYKWADGQDER  434 (1085)
+Confidence            46778998 699999999995 8899999999999999999998873
+
+
+No 92
+>UniRef100_A0A0U5GB33 NACHT domain-containing protein n=1 Tax=Aspergillus calidoustus TaxID=454130 RepID=A0A0U5GB33_9EURO
+Probab=95.53  E-value=0.0042  Score=76.82  Aligned_cols=45  Identities=24%  Similarity=0.419  Sum_probs=40.7  Template_Neff=3.531
+
+Q KIL65314.1       64 SSRTNLPRAM-AAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       365 q~i~~LPRA~-A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      +-+..||-|+ |+|++|.+.++ .-|.+.||++||+.|++|+.+|++
+T Consensus       276 ~dls~LP~A~gAaFDs~~nE~e-~~CHpdTR~dLlr~I~~WaddP~G  321 (1057)
+T UniRef100_A0A0  276 IDLSKLPIAKGAAFDSYDNEHE-PRCHPDTRVDLLRQINDWADDPNG  321 (1057)
+Confidence            4588999995 99999999995 779999999999999999999874
+
+
+No 93
+>UniRef100_A0A017S3Q2 WD_REPEATS_REGION domain-containing protein n=1 Tax=Aspergillus ruber CBS 135680 TaxID=1388766 RepID=A0A017S3Q2_9EURO
+Probab=95.49  E-value=0.005  Score=78.14  Aligned_cols=43  Identities=30%  Similarity=0.461  Sum_probs=38.2  Template_Neff=3.000
+
+Q KIL65314.1       66 RTNLPRAM-AAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       367 i~~LPRA~-A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      +.+|+-|| |+|+.|.++++ .-|++|||+.||++|.+|.+..++
+T Consensus       345 l~kL~~AeGAaFDSy~nqhe-~~CLPgTR~dlL~qI~~Ws~ssdg  388 (1582)
+T UniRef100_A0A0  345 LCKLTIAEGAAFDSYSNQHE-VECLPGTRTDLLKQITEWSTSSDG  388 (1582)
+Confidence            67899997 99999999996 559999999999999999976553
+
+
+No 94
+>UniRef100_A0A093UPA4 Vegetative incompatibility protein HET-E-1 n=1 Tax=Talaromyces marneffei PM1 TaxID=1077442 RepID=A0A093UPA4_TALMA
+Probab=95.47  E-value=0.0045  Score=79.31  Aligned_cols=43  Identities=28%  Similarity=0.491  Sum_probs=38.5  Template_Neff=4.000
+
+Q KIL65314.1       66 RTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       367 i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      +..||.| .|.|+.|..++. .-|++|||+.||++|.+|+.+++.
+T Consensus       417 L~kLP~A~gA~FdS~~dqhe-~~CLpgTRveLL~qI~~Wa~~p~g  460 (1650)
+T UniRef100_A0A0  417 LSKLPVAEGAEFDSYEDQHE-PECLPGTRVELLRQIQEWADSPDG  460 (1650)
+Confidence            5689999 599999999995 469999999999999999998864
+
+
+No 95
+>UniRef100_A0A0J9VV77 NACHT domain-containing protein n=1 Tax=Fusarium oxysporum f. sp. lycopersici (strain 4287 / CBS 123668 / FGSC 9935 / NRRL 34936) TaxID=426428 RepID=A0A0J9VV77_FUSO4
+Probab=95.46  E-value=0.0063  Score=72.16  Aligned_cols=53  Identities=26%  Similarity=0.350  Sum_probs=44.6  Template_Neff=1.800
+
+Q KIL65314.1       61 K----L-VSSRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       357 ~l~~h~l~q~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      .++|--+.-.+..||-| +|.||+|.+.+ +.-|.++||++||.||..|++++..
+T Consensus       207 ~~~ki~~d~~~~~lpta~ga~fd~~a~eh-~p~chp~trv~ll~~i~~w~~~~~~  260 (761)
+T UniRef100_A0A0  207 KIEKINRDIALDKLPTANGATFDDHANEH-DPACHPDTRVQLLDEIDEWVSNSES  260 (761)
+Confidence            34444456678889998 79999999998 6889999999999999999998764
+
+
+No 96
+>UniRef100_A0A1B8GWK5 WD_REPEATS_REGION domain-containing protein n=1 Tax=Pseudogymnoascus verrucosus TaxID=342668 RepID=A0A1B8GWK5_9PEZI
+Probab=95.43  E-value=0.0071  Score=74.82  Aligned_cols=44  Identities=27%  Similarity=0.381  Sum_probs=40.1  Template_Neff=1.478
+
+Q KIL65314.1       65 SRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       366 ~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      .+..||-| .|.||.|..+++ +.|+++||+.||+||++|+.+.+|
+T Consensus        38 ~~~~lp~a~~apfnsy~~qhe-ptcl~~trvdllq~iy~wa~~qde   82 (1607)
+T UniRef100_A0A1   38 PLDLLPFATNAPFNSYDGQHE-PTCLPDTRVDLLQQIYDWADRQDE   82 (1607)
+Confidence            46779999 599999999995 889999999999999999999887
+
+
+No 97
+>UniRef100_A0A0D1ZMB8 Uncharacterized protein n=1 Tax=Cladophialophora immunda TaxID=569365 RepID=A0A0D1ZMB8_9EURO
+Probab=95.40  E-value=0.0056  Score=77.04  Aligned_cols=42  Identities=31%  Similarity=0.510  Sum_probs=37.8  Template_Neff=3.400
+
+Q KIL65314.1       66 RTNLPRAM-AAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIG  108 (110)
+Q Consensus       367 i~~LPRA~-A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~  409 (412)
+                      +..||-|+ |+||.|+.... .-|.+|||+.||++|.+|+..++
+T Consensus       319 l~kLP~A~GA~Fnsy~d~~~-~~C~p~TRvdLL~~I~~Wa~~~~  361 (1309)
+T UniRef100_A0A0  319 LSKLPVAKGAAFNSYEDEHD-ARCHPDTRVDLLRQIYDWARDID  361 (1309)
+Confidence            45799996 99999999984 66999999999999999999876
+
+
+No 98
+>UniRef100_A0A3M7N009 NACHT domain-containing protein (Fragment) n=1 Tax=Chaetothyriales sp. CBS 135597 TaxID=2249420 RepID=A0A3M7N009_9EURO
+Probab=95.39  E-value=0.0082  Score=66.56  Aligned_cols=45  Identities=33%  Similarity=0.450  Sum_probs=40.4  Template_Neff=1.000
+
+Q KIL65314.1       64 SSRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       365 q~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      -.+-.||.| +|.||.|.+++ .+.|+++||+.||++|-+|+.+.+.
+T Consensus        72 dvlgslpyaidapfnayrrqh-dptclpdtrvdllkqicnwadgggr  117 (421)
+T UniRef100_A0A3   72 DVLGSLPYAIDAPFNAYRRQH-DPTCLPDTRVDLLKQICNWADGGGR  117 (421)
+Confidence            457889999 79999999998 5889999999999999999987654
+
+
+No 99
+>UniRef100_A0A4Q2D0D1 NACHT domain-containing protein (Fragment) n=1 Tax=Psathyrella aberdarensis TaxID=2316362 RepID=A0A4Q2D0D1_9AGAR
+Probab=95.36  E-value=0.0076  Score=72.08  Aligned_cols=68  Identities=24%  Similarity=0.441  Sum_probs=52.6  Template_Neff=1.945
+
+Q KIL65314.1       44 ---QVEEFMAGLLALPDKMEK----L-VSSRTNLPRAMAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVI  107 (110)
+Q Consensus       337 QRNLIcd~ian~~~LPDin~~l~~h~l~q~i~~LPRA~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~  408 (412)
+                      |+-+|.+|||...+|-||-...+.|.-  -+..||  -|+|+..+---|--|||+|||.+||-.+..|+.+.
+T Consensus       251 ~cFWiENHIAGtIVLadiL~~vqdqag--~~~r~~--~aay~sq~Vaakim~CFeGTrs~LLanvG~Wm~g~  318 (808)
+T UniRef100_A0A4  251 HCFWIENHIAGTIVLADILSTVQDQAG--HFERVP--GAAYDSQEVAAKVMPCFEGTRSTLLANVGRWMSGS  318 (808)
+Confidence            566788999998889999888765432  233566  56666666666789999999999999999997653
+
+
+No 100
+>UniRef100_A0A1W5CYV6 WD40/YVTN repeat-like-containing domain n=1 Tax=Lasallia pustulata TaxID=136370 RepID=A0A1W5CYV6_9LECA
+Probab=95.36  E-value=0.0076  Score=74.87  Aligned_cols=45  Identities=31%  Similarity=0.393  Sum_probs=39.8  Template_Neff=1.973
+
+Q KIL65314.1       64 SSRTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       365 q~i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      ..+..||-| +|+||.|..++ ..-|+++||+.|||||+.|+.|.+.
+T Consensus       382 ~lls~Lp~A~~A~Fnsys~qH-~p~CL~dTR~~~l~eiytwa~g~~~  427 (1383)
+T UniRef100_A0A1  382 SLLSHLPYAVDAPFNTYSRQH-DPTCLPDTRVDLLREIYTWADGKDG  427 (1383)
+Confidence            346679998 89999999999 5889999999999999999998764
+
+
+No 101
+>UniRef100_A0A179F3T2 Pfs, NACHT and WD domain-containingprotein n=1 Tax=Purpureocillium lilacinum TaxID=33203 RepID=A0A179F3T2_PURLI
+Probab=95.35  E-value=0.0076  Score=73.59  Aligned_cols=51  Identities=31%  Similarity=0.390  Sum_probs=43.8  Template_Neff=2.037
+
+Q KIL65314.1       55 LPDKMEK----L-VSSRTNLPRAM-AAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIG  108 (110)
+Q Consensus       351 LPDin~~l~~h~l~q~i~~LPRA~-A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~  409 (412)
+                      |-|++.+.       .+..||-|+ |+|+.|-..+ .+.|.++||+.|||||.+|+.+|.
+T Consensus       203 l~d~d~~~-------vldklpiA~GAaFDS~AeeH-~PTC~~dTRvdLL~~i~~Wa~~P~  254 (1045)
+T UniRef100_A0A1  203 LVDIDRKT-------VLDKLPIAKGAAFDSHAEEH-NPTCHQDTRVDLLREIFEWAVNPS  254 (1045)
+Confidence            55666654       477899996 9999999998 689999999999999999999875
+
+
+No 102
+>UniRef100_A0A0F7VJ36 NACHT domain-containing protein n=1 Tax=Penicillium brasilianum TaxID=104259 RepID=A0A0F7VJ36_PENBI
+Probab=95.29  E-value=0.0074  Score=71.51  Aligned_cols=44  Identities=27%  Similarity=0.433  Sum_probs=39.2  Template_Neff=3.027
+
+Q KIL65314.1       65 SRTNLPRAM-AAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGT  109 (110)
+Q Consensus       366 ~i~~LPRA~-A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~  410 (412)
+                      .+..||-|+ |+|+.|-..+ ..-|++|||+.||+||.+|+.+++.
+T Consensus       169 ~l~~Lp~A~gAafdS~~eeh-n~~Clp~TR~ell~eI~~Wa~~~~~  213 (623)
+T UniRef100_A0A0  169 DLDKLPVAEGAAFDSHAEEH-NARCLPNTRTELLREIDEWASDPQS  213 (623)
+Confidence            578899995 9999999888 4779999999999999999998753
+
+
+No 103
+>UniRef100_A0A1V6S4Q6 NACHT domain-containing protein n=1 Tax=Penicillium vulpinum TaxID=29845 RepID=A0A1V6S4Q6_9EURO
+Probab=95.23  E-value=0.0096  Score=67.32  Aligned_cols=45  Identities=31%  Similarity=0.406  Sum_probs=39.0  Template_Neff=2.078
+
+Q KIL65314.1       66 RTNLPRA-MAAHNDFKTQKVLDACFQGTREAVLKEIGNWFLVIGTS-  110 (110)
+Q Consensus       367 i~~LPRA-~A~~ndyq~kkksgpCf~GTR~alL~em~~W~~~~~~sr  412 (412)
+                      ...||-+ ||+||.|.++++ ..|+++||.+||++|..|+.+.+|-|
+T Consensus        46 ~e~l~~~~EA~FNa~~rQH~-p~CL~~TR~~~L~~i~~W~D~~~ek~   91 (407)
+T UniRef100_A0A1   46 VEFLPYAPEAAFNAASRQHT-PSCLPDTRRNLLEQIYEWVDGDGEKR   91 (407)
+Confidence            4456775 899999999995 78999999999999999999988743
+
+

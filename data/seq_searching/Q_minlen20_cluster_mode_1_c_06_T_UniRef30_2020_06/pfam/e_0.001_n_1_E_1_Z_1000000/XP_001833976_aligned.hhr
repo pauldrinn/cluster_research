@@ -1,0 +1,177 @@
+Query         XP_001833976.1
+Match_columns 478
+No_of_seqs    1246 out of 1295
+Neff          7.09032
+Searched_HMMs 841
+Date          Sat Feb  6 20:06:58 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/XP_001833976_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_001833976_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/XP_001833976_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17109.5 ; Goodbye ; fungal S  74.8    0.12 2.6E-05   38.3   0.0   67  283-350    55-121 (123)
+  2 PF17111.5 ; Helo_like_N ; Fung  70.8    0.17 3.8E-05   39.5   0.0  111  313-423    16-134 (209)
+  3 PF17100.5 ; NACHT_N ; N-termin  62.7    0.33 7.2E-05   39.1   0.0  123  289-413    88-221 (229)
+  4 PF05659.11 ; RPW8 ; Arabidopsi  57.7    0.49  0.0001   36.0   0.0  104  311-416     9-113 (140)
+  5 PF15967.5 ; Nucleoporin_FG2 ;   36.4     1.9 0.00037   40.6   0.0   24  364-387   394-417 (605)
+  6 PF17107.5 ; SesA ; N-terminal   33.0     2.1 0.00046   30.3   0.0   31  321-351    14-44  (133)
+  7 PF17552.2 ; DUF5464 ; Family o   6.4      32  0.0057   19.9   0.0   17  165-181    12-28  (51)
+  8 PF14812.6 ; PBP1_TM ; Transmem   6.0      34  0.0063   22.2   0.0   13   52-64     37-49  (79)
+  9 PF15967.5 ; Nucleoporin_FG2 ;    5.8      33  0.0065   30.9   0.0    8  337-344   400-407 (605)
+ 10 PF15967.5 ; Nucleoporin_FG2 ;    5.6      34  0.0068   30.7   0.0   20  365-384   349-368 (605)
+
+No 1
+>PF17109.5 ; Goodbye ; fungal STAND N-terminal Goodbye domain
+Probab=74.77  E-value=0.12  Score=38.32  Aligned_cols=67  Identities=18%  Similarity=0.162  Sum_probs=50.8  Template_Neff=8.800
+
+Q XP_001833976.1  173 PIWKAVLAAGITVLDILKEASEAADVPVLKGVVGSVLSLFKAVQQTQFNYNDMYALACQAGELVINVA  240 (351)
+Q Consensus       283 ~~~~~al~~l~~~L~il~~~Ad~~pvP~Lk~A~~vll~Ile~ve~vk~Nke~~~~La~ri~~Ll~~L~  350 (478)
+                      ......+..+..+.+++..+++.. +|+.+.+++++..++++++++...-+.+.++.+++..++..+.
+T Consensus        55 ~~l~~~l~~i~~~~~~~~~~~s~~-~~pa~~i~~av~~ll~~~~~~~~~~d~i~~lf~~l~~~l~rl~  121 (123)
+T S8AD61_DACHA/1   55 DSISKFLRPALLFSDIIGTAVSIA-YPPAQAIFAATSFLIKAADGLSSIYDAIAELLMEMSYSSQRLA  121 (123)
+T ss_pred             HHHHHhhHHHHHHHHHHHHHhhcc-CchHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHHhh
+Confidence            344555556666666666655544 6889999999999999999999999888888888887776553
+
+
+No 2
+>PF17111.5 ; Helo_like_N ; Fungal N-terminal domain of STAND proteins
+Probab=70.83  E-value=0.17  Score=39.46  Aligned_cols=111  Identities=10%  Similarity=0.041  Sum_probs=59.0  Template_Neff=11.200
+
+Q XP_001833976.1  203 GVVGSVLSLFKAVQQTQFNYNDMYALACQAGELVINVAEACS---SMGNIPEEVerL---VLRFEANLRPVVQRCQELSQ  276 (351)
+Q Consensus       313 ~A~~vll~Ile~ve~vk~Nke~~~~La~ri~~Ll~~L~~~~~---~~~~~~s~~..L~~~L~~L~~~L~eI~~~I~k~~~  387 (478)
+                      .+..++..+++.++.+++-.+++..|...+..+...+.....   .........  +...+..+...+.++...+.++..
+T Consensus        16 ~~~~~~~~~~~~~~~~~~a~~~~~~l~~~l~~l~~~l~~l~~~~~~~~~~~~~~..l~~~~~~c~~~l~~l~~~l~~~~~   93 (209)
+T Q5B3N2_EMENI/2   16 FAFQSSVSLYDTVKSFHSHPTRVRQLIEELEALSGVLGPLVDRVQATNDTDLSA..LNLPLLSCGKACKLFQKEIMKCAG   93 (209)
+T ss_pred             HHHHHHHHHHHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCChHH..hHHHHHHHHHHHHHHHHHHHHHhc
+Confidence            334445556666667777777888888777776665543322   111111223  444555555555555555555432
+
+
+Q XP_001833976.1  277 KN-----VFWCFLQNSNHKQELDKLAGDVTAAVQLFQNSNL  312 (351)
+Q Consensus       388 rs-----~lkR~l~~~~d~e~I~~~~~~Ld~al~~Fql~~~  423 (478)
+                      ..     .++...+..-..+.|..+..+|..+...++....
+T Consensus        94 ~~~~~~~~~~~~~~~~~~~~~i~~l~~~l~~~~~~l~~~l~  134 (209)
+T Q5B3N2_EMENI/2   94 RSSATRTSFRDWAKLKYMGDDVDGFRRVLAAYKSTITIALT  134 (209)
+T ss_pred             CCCCCCCcHHHHHhHhhchhhHHHHHHHHHHHHHHHHHHHH
+Confidence            11     1111111111336788888888887776665433
+
+
+No 3
+>PF17100.5 ; NACHT_N ; N-terminal domain of NWD NACHT-NTPase
+Probab=62.74  E-value=0.33  Score=39.06  Aligned_cols=123  Identities=9%  Similarity=-0.004  Sum_probs=56.9  Template_Neff=10.000
+
+Q XP_001833976.1  179 LAAGITVLDILKEASEAADVPVLKGVVGSVLSLFKAVQQTQFNYNDMYALACQAGELVINVAEA---C-SSMGNI-----  249 (351)
+Q Consensus       289 l~~l~~~L~il~~~Ad~~pvP~Lk~A~~vll~Ile~ve~vk~Nke~~~~La~ri~~Ll~~L~~~---~-~~~~~~-----  359 (478)
+                      ...+..+-.++..+...  .|+...+|+++..++..+.+.....+.+..-...+...+......   . ......     
+T Consensus        88 ~~~i~~~~~~i~~~~~~--~P~aal~W~~v~~~l~~~~~~~~~~~~~~~~l~~i~~~l~~y~~~~~~~~~~~~~~~~~~~  165 (229)
+T B8NEA4_ASPFN/5   88 FGVVQNLKPIFNAVLSN--TPHTALPWAIVSSTLDILANPVRSTKALYDGVSHVVGRMQWYSKITDNLLQTGSENGHQKL  165 (229)
+T ss_pred             HHHHHHHHHHHHHHHhc--CcccHHHHHHHHHHHHHHhChHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccCCcCCchhH
+Confidence            33333333444444443  356888888888888776655444444433333333333222111   1 110000     
+
+
+Q XP_001833976.1  250 P--EEVerL---VLRFEANLRPVVQRCQELSQKNVFWCFLQNSNHKQELDKLAGDVTA  302 (351)
+Q Consensus       360 ~--s~~..L~~~L~~L~~~L~eI~~~I~k~~~rs~lkR~l~~~~d~e~I~~~~~~Ld~  413 (478)
+                      .  .+.  +.+.+.+|...+-.....+..+..++.+.++++.--..+..+.+.++|..
+T Consensus       166 ~~~~~~..l~~~l~~LY~~iL~f~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~  221 (229)
+T B8NEA4_ASPFN/5  166 EEVRKQ..LETGMLDMYKCMLFYEIKSVCFYHKNQLAVFVRGLFNIDDWDGGLTKLNE  221 (229)
+T ss_pred             HHHHHH..HHHHHHHHHHHHHHHHHHHHHHHhhchHHHHHHHhhccCChhHHHHHHHH
+Confidence            0  134  55555555555554444444444555666666543322334444444433
+
+
+No 4
+>PF05659.11 ; RPW8 ; Arabidopsis broad-spectrum mildew resistance protein RPW8
+Probab=57.70  E-value=0.49  Score=35.99  Aligned_cols=104  Identities=14%  Similarity=0.115  Sum_probs=55.9  Template_Neff=7.400
+
+Q XP_001833976.1  201 LKGVVGSVLS-LFKAVQQTQFNYNDMYALACQAGELVINVAEACSSMGNIPEEVerL---VLRFEANLRPVVQRCQELSQ  276 (351)
+Q Consensus       311 Lk~A~~vll~-Ile~ve~vk~Nke~~~~La~ri~~Ll~~L~~~~~~~~~~~s~~..L~~~L~~L~~~L~eI~~~I~k~~~  387 (478)
+                      ++.+++.+.. +.++.+.....+..+++|...+..+.-.+.+....... . ..  -.+-++.|...+++-.+.+.+..+
+T Consensus         9 lg~~~~~L~~~v~~~~~k~~~fk~~l~~L~sTL~~l~P~i~eI~~ln~~-l-~~..~~ee~~~l~~~l~~G~~LV~kcsk   84 (140)
+T B9S8L2_RICCO/3    9 LGAILGELLEAVLRAKNRTFMFKSILKRMECTLETVTPIVKEIEELNKV-L-DR..RNEEMGIIMKEIRKGKKLVLECSG   84 (140)
+T ss_pred             HHHHHHHHHHHHHHHHHHHhccHHHHHHHHHHHHHHHHHHHHHHHHHhh-h-cc..hHHHHHHHHHHHHHHHHHHHHHhc
+Confidence            4444444443 23334445555555666666665555555443221110 1 11  234477888888888888888775
+
+
+Q XP_001833976.1  277 KNVFWCFLQNSNHKQELDKLAGDVTAAVQ  305 (351)
+Q Consensus       388 rs~lkR~l~~~~d~e~I~~~~~~Ld~al~  416 (478)
+                      -+++..+++.......+.++.+.|...++
+T Consensus        85 i~~~~n~~kk~~y~~kL~~Ld~sl~~f~~  113 (140)
+T B9S8L2_RICCO/3   85 MQWYYACWRTPKYAGKLIKLEKSLKLFFQ  113 (140)
+T ss_pred             CHHHhhHhcCHHHHHHHHHHHHHHHHHHH
+Confidence            44122233334466677777777776655
+
+
+No 5
+>PF15967.5 ; Nucleoporin_FG2 ; Nucleoporin FG repeated region
+Probab=36.35  E-value=1.9  Score=40.58  Aligned_cols=24  Identities=25%  Similarity=0.289  Sum_probs=13.8  Template_Neff=6.100
+
+Q XP_001833976.1  256 L---VLRFEANLRPVVQRCQELSQ  276 (351)
+Q Consensus       364 L~~~L~~L~~~L~eI~~~I~k~~~  387 (478)
+                      +.+.+..+...|.++++.|++++.
+T Consensus       394 ~~etF~aLAaqL~~LHe~Ve~LKe  417 (605)
+T H2LRF1_ORYLA/3  394 LYQTFVAQAAQLQSVHENVKILKQ  417 (605)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            344455555666666666666554
+
+
+No 6
+>PF17107.5 ; SesA ; N-terminal domain on NACHT_NTPase and P-loop NTPases
+Probab=33.01  E-value=2.1  Score=30.25  Aligned_cols=31  Identities=0%  Similarity=-0.013  Sum_probs=19.5  Template_Neff=10.000
+
+Q XP_001833976.1  211 LFKAVQQTQFNYNDMYALACQAGELVINVAE  241 (351)
+Q Consensus       321 Ile~ve~vk~Nke~~~~La~ri~~Ll~~L~~  351 (478)
+                      ++..+..+++..+++.++..++..+...+..
+T Consensus        14 ~~~~~~~~~~~p~~~~~l~~~l~~l~~~l~~   44 (133)
+T U7PRR7_SPOS1/7   14 TYTTIHTIKGRPEAFDRINKSLQLIQLALWK   44 (133)
+T ss_pred             HHHHHHhhcCCCHHHHHHHHHHHHHHHHHHH
+Confidence            3344455666667777777777776666644
+
+
+No 7
+>PF17552.2 ; DUF5464 ; Family of unknown function (DUF5464)
+Probab=6.44  E-value=32  Score=19.91  Aligned_cols=17  Identities=12%  Similarity=0.045  Sum_probs=14.3  Template_Neff=1.200
+
+Q XP_001833976.1   49 DMVLLSAIGLLQESGRL   65 (351)
+Q Consensus       165 d~a~l~~~~~l~~~~~l  181 (478)
+                      =.|+|..+|+|.-+|+.
+T Consensus        12 ~~ailt~ay~lav~pq~   28 (51)
+T Y14_BPT7/1-51    12 LAAILTLAYILAVYPQV   28 (51)
+T ss_pred             HHHHHHHHHHHHHCchH
+Confidence            36899999999988874
+
+
+No 8
+>PF14812.6 ; PBP1_TM ; Transmembrane domain of transglycosylase PBP1 at N-terminal
+Probab=5.97  E-value=34  Score=22.25  Aligned_cols=13  Identities=0%  Similarity=0.000  Sum_probs=7.5  Template_Neff=2.600
+
+Q XP_001833976.1    1 -------------    0 (351)
+Q Consensus        52 ~~~~~~~~~~~~~   64 (478)
+                      |+++|++||.|+|
+T Consensus        37 ~~d~dddeee~~~   49 (79)
+T A6T4V3_KLEP7/1   37 YDDDDYEDEKPVP   49 (79)
+T ss_pred             cCCCCCCcCCcCC
+Confidence            3444666666665
+
+
+No 9
+>PF15967.5 ; Nucleoporin_FG2 ; Nucleoporin FG repeated region
+Probab=5.84  E-value=33  Score=30.90  Aligned_cols=8  Identities=38%  Similarity=0.185  Sum_probs=2.9  Template_Neff=6.100
+
+Q XP_001833976.1  227 ALACQAGE  234 (351)
+Q Consensus       337 ~La~ri~~  344 (478)
+                      .|+.++..
+T Consensus       400 aLAaqL~~  407 (605)
+T H2LRF1_ORYLA/3  400 AQAAQLQS  407 (605)
+T ss_pred             HHHHHHHH
+Confidence            33333333
+
+
+No 10
+>PF15967.5 ; Nucleoporin_FG2 ; Nucleoporin FG repeated region
+Probab=5.64  E-value=34  Score=30.75  Aligned_cols=20  Identities=30%  Similarity=0.403  Sum_probs=8.2  Template_Neff=6.100
+
+Q XP_001833976.1  257 ---VLRFEANLRPVVQRCQE  273 (351)
+Q Consensus       365 ~~~L~~L~~~L~eI~~~I~k  384 (478)
+                      .+.++++...|+.+.+.|++
+T Consensus       349 ~~LveefE~rL~~yrqqIee  368 (605)
+T H2LRF1_ORYLA/3  349 RSLVEQFEVQLQQYRQQIEE  368 (605)
+T ss_pred             HHHHHHHHHHHHHHHHHHHH
+Confidence            33444444444444444433
+
+

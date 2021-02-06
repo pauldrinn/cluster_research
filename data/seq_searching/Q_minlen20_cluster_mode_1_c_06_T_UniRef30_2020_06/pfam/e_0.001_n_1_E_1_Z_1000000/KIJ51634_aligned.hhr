@@ -1,0 +1,186 @@
+Query         KIJ51634.1
+Match_columns 467
+No_of_seqs    1596 out of 1645
+Neff          8.74396
+Searched_HMMs 572
+Date          Sat Feb  6 20:03:38 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/KIJ51634_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KIJ51634_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/KIJ51634_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17100.5 ; NACHT_N ; N-termin  95.3  0.0001 2.1E-08   62.3   0.0  135  269-404    79-227 (229)
+  2 PF17109.5 ; Goodbye ; fungal S  90.8  0.0061 1.2E-06   45.2   0.0   69  269-337    52-121 (123)
+  3 PF11618.8 ; C2-C2_1 ; First C2  88.2   0.015   3E-06   43.3   0.0   66  144-218    36-110 (142)
+  4 PF17111.5 ; Helo_like_N ; Fung  83.6    0.04 8.2E-06   43.2   0.0  118  291-409     7-135 (209)
+  5 PF15729.5 ; ALS2CR11 ; Amyotro  69.8    0.22 4.1E-05   44.0   0.0   67  144-218    49-134 (420)
+  6 PF17107.5 ; SesA ; N-terminal   27.8     3.2 0.00064   28.5   0.0   23  317-339    23-45  (133)
+  7 PF08580.10 ; KAR9 ; Yeast cort  18.2       7  0.0013   35.7   0.0   23  350-372   153-175 (696)
+  8 PF05659.11 ; RPW8 ; Arabidopsi  17.5     7.3  0.0014   27.4   0.0   54  318-371    30-84  (140)
+  9 PF10805.8 ; DUF2730 ; Protein   13.8      10   0.002   24.3   0.0   14  317-330    30-43  (95)
+ 10 PF15212.6 ; SPATA19 ; Spermato  13.5      12  0.0021   25.4   0.0   25   63-87      8-32  (129)
+
+No 1
+>PF17100.5 ; NACHT_N ; N-terminal domain of NWD NACHT-NTPase
+Probab=95.34  E-value=0.0001  Score=62.28  Aligned_cols=135  Identities=8%  Similarity=0.022  Sum_probs=112.4  Template_Neff=10.000
+
+Q KIJ51634.1      104 ALMNFIGDKSEILDSFIEFTKTTVQIHPIAQAAALVITIPYMILKNMQEFNESLKALAKQMREIFPVLENINGLLK----  179 (293)
+Q Consensus       269 ~~~~~l~~~~~~L~~~l~~vd~vaevhP~ak~A~~vls~~~~~i~~q~~~d~~i~~L~~~m~~l~~~l~~~~~~~~----  344 (467)
+                      .+.+.+++++..+..|.++++.+.+..|++.++|++++.++.++.+..+..+.+.+.+..+...+.++..+..+..    
+T Consensus        79 ~~~~~~~~~~~~i~~~~~~i~~~~~~~P~aal~W~~v~~~l~~~~~~~~~~~~~~~~l~~i~~~l~~y~~~~~~~~~~~~  158 (229)
+T B8NEA4_ASPFN/5   79 KRIDSASEVFGVVQNLKPIFNAVLSNTPHTALPWAIVSSTLDILANPVRSTKALYDGVSHVVGRMQWYSKITDNLLQTGS  158 (229)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHhcCcccHHHHHHHHHHHHHHhChHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccCC
+Confidence            4556777888889999999999999999999999999999999999999889898888888888877776654321    
+
+
+Q KIJ51634.1      180 ----------EQMLREHLTAIVKLIIQVVQFIGKCNKENMMNT-INLQH----KLGDFQKSFAREKDLLF  234 (293)
+Q Consensus       345 ----------~~~l~~~i~~i~~~i~e~~~fI~~y~~~~~~~R~l~~~~~~~~~I~~~~~~~~~l~~~f~  404 (467)
+                                .+.+++.+.++|..|.++...+..++.++.+.|++++.+ ..+++..+.+.|+...+.++
+T Consensus       159 ~~~~~~~~~~~~~l~~~l~~LY~~iL~f~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~i~~~e~~~~  227 (229)
+T B8NEA4_ASPFN/5  159 ENGHQKLEEVRKQLETGMLDMYKCMLFYEIKSVCFYHKNQLAVFVRGLF-NIDDWDGGLTKLNEQENALR  227 (229)
+T ss_pred             cCCchhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhchHHHHHHHhh-ccCChhHHHHHHHHHHHHHh
+Confidence                      267889999999999999999999998888888888777 55778888887777665553
+
+
+No 2
+>PF17109.5 ; Goodbye ; fungal STAND N-terminal Goodbye domain
+Probab=90.81  E-value=0.0061  Score=45.24  Aligned_cols=69  Identities=16%  Similarity=0.080  Sum_probs=57.9  Template_Neff=8.800
+
+Q KIJ51634.1      104 ALMNFIGDKSEILDSFIEFTKTTVQ-IHPIAQAAALVITIPYMILKNMQEFNESLKALAKQMREIFPVLE  172 (293)
+Q Consensus       269 ~~~~~l~~~~~~L~~~l~~vd~vae-vhP~ak~A~~vls~~~~~i~~q~~~d~~i~~L~~~m~~l~~~l~  337 (467)
+                      .+.+.+.++++.++.+.++++.+++ .+|++++.|+++..+++..++..+.-+.+.++++.|...+..+.
+T Consensus        52 ~~~~~l~~~l~~i~~~~~~~~~~~s~~~~pa~~i~~av~~ll~~~~~~~~~~d~i~~lf~~l~~~l~rl~  121 (123)
+T S8AD61_DACHA/1   52 HMRDSISKFLRPALLFSDIIGTAVSIAYPPAQAIFAATSFLIKAADGLSSIYDAIAELLMEMSYSSQRLA  121 (123)
+T ss_pred             HHHHHHHHhhHHHHHHHHHHHHHhhccCchHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHHhh
+Confidence            4556777788888888888887766 56789999999999999999999999999999999988776654
+
+
+No 3
+>PF11618.8 ; C2-C2_1 ; First C2 domain of RPGR-interacting protein 1
+Probab=88.15  E-value=0.015  Score=43.27  Aligned_cols=66  Identities=6%  Similarity=0.032  Sum_probs=45.9  Template_Neff=10.500
+
+Q KIJ51634.1        1 ----------------MTAIEEAVLSKLCQHLLFGT---------DEICVTPEIFKV--fKC---LKPQITLDTLTFKTV   50 (293)
+Q Consensus       144 ~V~i~vd~~~~~~s~~~~~~~~~~W~~~~~~~~~~s---------S~l~i~l~~~~~~~.~~~~~~~~~~~~g~~e~~~~  213 (467)
+                      |+.+.+.+....+++..++ ..|.|++.+.|.+...         ..|.|.++....         ..+..+|.+.+.+.
+T Consensus        36 yv~~~~~~~~~~~T~~~~~-~~p~~~~~~~~~i~~~~~~~~~~~~~~l~v~v~~~~~--.------~~~~~iG~~~i~l~  105 (142)
+T W5MJV6_LEPOC/5   36 FCTYAFYDFELQATPVVRG-SQPAYDFTSQYVVRVDDFFLQYLQTGAVTLEVQLASG--.------MDYQTAAAGQLQLR  105 (142)
+T ss_pred             EEEEEecCCcceeccceee-cCCcceeEEEEEEEeCHHHHHHHHhCcEEEEEEEEcC--.------CCcEEEEEEEEEHH
+Confidence            5777764333345566666 8899999888875432         577888876553         13567899999999
+
+
+Q KIJ51634.1       51 ELLQR   55 (293)
+Q Consensus       214 ~ll~~  218 (467)
+                      ++++.
+T Consensus       106 ~l~~~  110 (142)
+T W5MJV6_LEPOC/5  106 EILEK  110 (142)
+T ss_pred             HHHhh
+Confidence            99853
+
+
+No 4
+>PF17111.5 ; Helo_like_N ; Fungal N-terminal domain of STAND proteins
+Probab=83.61  E-value=0.04  Score=43.20  Aligned_cols=118  Identities=16%  Similarity=0.145  Sum_probs=64.4  Template_Neff=11.200
+
+Q KIJ51634.1      126 TVQIHPIAQAAALVITIPYMILKNMQEFNESLKALAKQMREIFPVLENINGLL------KEQMLREHLTAIVKLIIQVVQ  199 (293)
+Q Consensus       291 vaevhP~ak~A~~vls~~~~~i~~q~~~d~~i~~L~~~m~~l~~~l~~~~~~~------~~~~l~~~i~~i~~~i~e~~~  364 (467)
+                      ++.+...+..++.++..+++++....+..+++..+...+..+...+..+....      ....+...+..+...+.++..
+T Consensus         7 ~asii~l~~~~~~~~~~~~~~~~~~~~a~~~~~~l~~~l~~l~~~l~~l~~~~~~~~~~~~~~l~~~~~~c~~~l~~l~~   86 (209)
+T Q5B3N2_EMENI/2    7 ASGLLALATFAFQSSVSLYDTVKSFHSHPTRVRQLIEELEALSGVLGPLVDRVQATNDTDLSALNLPLLSCGKACKLFQK   86 (209)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCChHHhHHHHHHHHHHHHHHHH
+Confidence            33444445555556666666666666677777777777776666555443321      112334444444444444444
+
+
+Q KIJ51634.1      200 FIGKCNKEN-----MMNT-INLQH----KLGDFQKSFAREKDLLFKALDL  239 (293)
+Q Consensus       365 fI~~y~~~~-----~~~R~l~~~~~~~~~I~~~~~~~~~l~~~f~~~~~~  409 (467)
+                      .+..+....     .+....++.+ ..++++++..++..++..+...+..
+T Consensus        87 ~l~~~~~~~~~~~~~~~~~~~~~~-~~~~i~~l~~~l~~~~~~l~~~l~~  135 (209)
+T Q5B3N2_EMENI/2   87 EIMKCAGRSSATRTSFRDWAKLKY-MGDDVDGFRRVLAAYKSTITIALTD  135 (209)
+T ss_pred             HHHHHhcCCCCCCCcHHHHHhHhh-chhhHHHHHHHHHHHHHHHHHHHHH
+Confidence            444443221     1122233333 4477888888888888777655443
+
+
+No 5
+>PF15729.5 ; ALS2CR11 ; Amyotrophic lateral sclerosis 2 candidate 11
+Probab=69.84  E-value=0.22  Score=44.05  Aligned_cols=67  Identities=9%  Similarity=0.070  Sum_probs=48.3  Template_Neff=5.500
+
+Q KIJ51634.1        1 ----------------M------------TAIEEAVLSKLCQHLLFG-------TDEICVTPEIFKV--fKC---LKPQI   40 (293)
+Q Consensus       144 ~V~i~vd~~~~~~s~~~------------~~~~~~~W~~~~~~~~~~-------sS~l~i~l~~~~~~~.~~~~~~~~~~  203 (467)
+                      ||+|.+++...+ ++..            .++..|.|++.+.|.+..       ...+.|.|+......        .+.
+T Consensus        49 YVrIsIg~~~k~-Tkvis~~~~~~~~~~~~kt~nP~WdE~f~FsV~vp~~~~~~~n~l~LeV~~~D~~~.-------kdd  119 (420)
+T G1PX56_MYOLU/1   49 FIRISINNIVKY-TKLCSLLPQNIPFVINERKTLIKFDEVKYFSVQVPRRQNDARNNIYLDLMQFDNKE.-------KHI  119 (420)
+T ss_pred             EEEEEECCEEEE-eceEecCCCCCCceecCCCCCceecceEEEEEeCCccccCCCCcEEEEEEEeeCCC.-------Ccc
+Confidence            699999987644 4443            567899999999988653       356777776544321        236
+
+
+Q KIJ51634.1       41 TLDTLTFKTVELLQR   55 (293)
+Q Consensus       204 ~~g~~e~~~~~ll~~  218 (467)
+                      .+|.+.+.+.+++..
+T Consensus       120 lIGsv~I~L~dliq~  134 (420)
+T G1PX56_MYOLU/1  120 LLGRVQVHLYEVIQK  134 (420)
+T ss_pred             EEEEEEEEHHHHHhc
+Confidence            689999999999865
+
+
+No 6
+>PF17107.5 ; SesA ; N-terminal domain on NACHT_NTPase and P-loop NTPases
+Probab=27.84  E-value=3.2  Score=28.46  Aligned_cols=23  Identities=22%  Similarity=0.188  Sum_probs=11.6  Template_Neff=10.000
+
+Q KIJ51634.1      152 EFNESLKALAKQMREIFPVLENI  174 (293)
+Q Consensus       317 ~~d~~i~~L~~~m~~l~~~l~~~  339 (467)
+                      +..+.+.++...+..+...+..+
+T Consensus        23 ~~p~~~~~l~~~l~~l~~~l~~~   45 (133)
+T U7PRR7_SPOS1/7   23 GRPEAFDRINKSLQLIQLALWKI   45 (133)
+T ss_pred             CCCHHHHHHHHHHHHHHHHHHHH
+Confidence            34445555555555555544433
+
+
+No 7
+>PF08580.10 ; KAR9 ; Yeast cortical protein KAR9
+Probab=18.23  E-value=7  Score=35.67  Aligned_cols=23  Identities=9%  Similarity=-0.044  Sum_probs=14.5  Template_Neff=5.600
+
+Q KIJ51634.1      185 EHLTAIVKLIIQVVQFIGKCNKE  207 (293)
+Q Consensus       350 ~~i~~i~~~i~e~~~fI~~y~~~  372 (467)
+                      ..|.+|...|.+|...|.++..+
+T Consensus       153 ~vLgdI~~EId~l~~liFEmeE~  175 (696)
+T V5HV84_BYSSN/4  153 VVLGDVGLEVEDLGRVIFELEEK  175 (696)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHH
+Confidence            45666666677776666655544
+
+
+No 8
+>PF05659.11 ; RPW8 ; Arabidopsis broad-spectrum mildew resistance protein RPW8
+Probab=17.49  E-value=7.3  Score=27.42  Aligned_cols=54  Identities=22%  Similarity=0.359  Sum_probs=25.5  Template_Neff=7.400
+
+Q KIJ51634.1      153 FNESLKALAKQMREIFPVLENINGLLK-EQMLREHLTAIVKLIIQVVQFIGKCNK  206 (293)
+Q Consensus       318 ~d~~i~~L~~~m~~l~~~l~~~~~~~~-~~~l~~~i~~i~~~i~e~~~fI~~y~~  371 (467)
+                      .......|-..+..+...+.+...+.. ...-.+-+..+..++.+....+.++.+
+T Consensus        30 fk~~l~~L~sTL~~l~P~i~eI~~ln~~l~~~~ee~~~l~~~l~~G~~LV~kcsk   84 (140)
+T B9S8L2_RICCO/3   30 FKSILKRMECTLETVTPIVKEIEELNKVLDRRNEEMGIIMKEIRKGKKLVLECSG   84 (140)
+T ss_pred             cHHHHHHHHHHHHHHHHHHHHHHHHHhhhcchHHHHHHHHHHHHHHHHHHHHHhc
+Confidence            334444444455555555544433321 112223455566666666666655553
+
+
+No 9
+>PF10805.8 ; DUF2730 ; Protein of unknown function (DUF2730)
+Probab=13.80  E-value=10  Score=24.28  Aligned_cols=14  Identities=21%  Similarity=0.235  Sum_probs=6.0  Template_Neff=7.900
+
+Q KIJ51634.1      152 EFNESLKALAKQMR  165 (293)
+Q Consensus       317 ~~d~~i~~L~~~m~  330 (467)
+                      .+.+++.++-..+.
+T Consensus        30 ~~~~~~~~l~~Rv~   43 (95)
+T C4LBC8_TOLAT/3   30 AKREDVILLQNRMT   43 (95)
+T ss_pred             CCHHHHHHHHHHHH
+Confidence            34444444433333
+
+
+No 10
+>PF15212.6 ; SPATA19 ; Spermatogenesis-associated protein 19, mitochondrial
+Probab=13.51  E-value=12  Score=25.39  Aligned_cols=25  Identities=0%  Similarity=0.000  Sum_probs=20.7  Template_Neff=2.100
+
+Q KIJ51634.1        1 -------------------------    0 (293)
+Q Consensus        63 ~~~~~~~~~~~~~~~~~~~~~~~~~   87 (467)
+                      .++-.-|++||..|.-..++..|+.
+T Consensus         8 EsEavSVvqHWLkKteeeASq~iKe   32 (129)
+T G1PJB4_MYOLU/2    8 ETEAASVLEHWLKKTEEEASQDIKE   32 (129)
+T ss_pred             hHHHHHHHHHHHHHcHHHHHHHHHH
+Confidence            4566789999999998888888864
+
+

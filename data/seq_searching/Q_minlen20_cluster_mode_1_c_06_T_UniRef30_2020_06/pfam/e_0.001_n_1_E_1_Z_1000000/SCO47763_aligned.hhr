@@ -1,0 +1,168 @@
+Query         SCO47763.1
+Match_columns 128
+No_of_seqs    1380 out of 1441
+Neff          7.99919
+Searched_HMMs 100
+Date          Sat Feb  6 20:06:54 2021
+Command       hhblits -i /home/paul/nterm_annot_project/data/seq_searching/minlen20_cluster_mode_1_c_06/UniRef30_2020_06/e_0.001_n_2_E_0.01_Z_1000000_M_50/SCO47763_aligned.a3m -o /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/SCO47763_aligned.hhr -oa3m /home/paul/nterm_annot_project/data/seq_searching/Q_minlen20_cluster_mode_1_c_06_T_UniRef30_2020_06/pfam/e_0.001_n_1_E_1_Z_1000000/SCO47763_aligned.a3m -d /mnt/c/hhsuite_databases/pfam -cpu 12 -e 0.001 -n 1 -E 1 -Z 1000000 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF06516.11 ; NUP ; Purine nucl  98.6 6.1E-12 1.2E-15   91.6   0.0   86    6-91    201-321 (329)
+  2 PF01048.20 ; PNP_UDP_1 ; Phosp  97.9 1.5E-09 3.1E-13   72.2   0.0   80    8-87    126-214 (215)
+  3 PF07808.13 ; RED_N ; RED-like    5.6      35  0.0068   20.4   0.0   28   37-64    171-198 (234)
+  4 PF08515.12 ; TGF_beta_GS ; Tra   4.6      45  0.0087   12.4   0.0   12   49-60     16-27  (28)
+  5 PF12112.8 ; DUF3579 ; Protein    3.0      80   0.015   15.7   0.0   28   53-80      4-31  (92)
+  6 PF09772.9 ; Tmem26 ; Transmemb   2.9      82   0.016   19.1   0.0   24   37-60    225-253 (281)
+  7 PF12054.8 ; DUF3535 ; Domain o   2.4      98   0.019   19.7   0.0   33   54-86    345-377 (480)
+  8 PF12261.8 ; T_hemolysin ; Ther   2.3   1E+02    0.02   16.8   0.0   27   97-123   143-169 (173)
+  9 PF07759.12 ; DUF1615 ; Protein   2.3 1.1E+02   0.021   18.9   0.0   11  112-122   124-134 (315)
+ 10 PF17858.1 ; Defensin_int ; Pla   2.2 1.2E+02   0.022   12.5   0.0   14   48-61     18-31  (44)
+
+No 1
+>PF06516.11 ; NUP ; Purine nucleoside permease (NUP)
+Probab=98.56  E-value=6.1e-12  Score=91.62  Aligned_cols=86  Identities=5%  Similarity=0.014  Sum_probs=67.8  Template_Neff=8.900
+
+Q SCO47763.1        1 ----------------MKSGEDRNRIAAAEG--------IIAFKIEGAGVW-----DVF-------PSIVIKGACNYADS   44 (65)
+Q Consensus         6 ~~~~v~~G~iaSgd~~i~~~~~~~~l~~~~~--------~~~~dMEsaav~-----~~i-------p~l~iR~ISD~ad~   65 (128)
+                      ..++++.|.++|++.++.+...++.+.+..+        +.++|||+++++     .++       |+++||+|||+++.
+T Consensus       201 ~~~~v~~g~i~Sg~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~dME~~av~~~~~~~~~~~~~~~~p~~~ir~ISD~~~~  280 (329)
+T A7EFM5_SCLS1/6  201 HAPTIITCDTATSDVYYSGTLLGEAFENTTTLLTNGSGVYCMTAQEDNATLSALMRAALFKLVDFSRIIIMRTASDFDRP  280 (329)
+T ss_pred             CCCEEEEcCccccceeecChHHHHHHHHHhhhhcCCCCceEEEccHHHHHHHHHHHHHHcCCCCCceEEEEEecCCCCCC
+Confidence            4578999999999999999988888876654        489999999996     467       99999999999987
+
+
+Q SCO47763.1       45 HKSK-AWQR----------YSAAT----AAACAKAF-----   65 (65)
+Q Consensus        66 ~~~~-~~~~----------~aa~~----aa~~~~~ll~~l~   91 (128)
+                      .... .|..          +|+.+    ++.++..+|+.+.
+T Consensus       281 ~~~~~~~~~~~~~~~~~~~~A~~~~~~~a~~~i~~ll~~~~  321 (329)
+T A7EFM5_SCLS1/6  281 YPGASVEYNLLYSNQGGFEPAIQNIYLAGTEVIKGLLEGWN  321 (329)
+T ss_pred             CCCCCHHHHhhcccCCCcHHHHHHHHHHHHHHHHHHHhhHH
+Confidence            7653 4554          35566    6666677766653
+
+
+No 2
+>PF01048.20 ; PNP_UDP_1 ; Phosphorylase superfamily
+Probab=97.95  E-value=1.5e-09  Score=72.20  Aligned_cols=80  Identities=6%  Similarity=-0.011  Sum_probs=60.1  Template_Neff=10.700
+
+Q SCO47763.1        1 --------------MKSGEDRNRIAAAEGIIAFKIEGAGVW-----DVFPSIVIKGACNYADSHKS-KAWQRY---SAAT   57 (65)
+Q Consensus         8 ~~v~~G~iaSgd~~i~~~~~~~~l~~~~~~~~~dMEsaav~-----~~ip~l~iR~ISD~ad~~~~-~~~~~~---aa~~   78 (128)
+                      ++++.|.+++++.++.+......+.+..++.++|||+++++     .++||++||+|+|+.+.+.. ..|+.+   ++..
+T Consensus       126 ~~~~~g~~~s~~~~~~~~~~~~~~~~~~~~~~~dme~~~~~~~~~~~~~~~~~i~~vsd~~~~~~~~~~~~~~~~~~~~~  205 (215)
+T B3E1J7_GEOLS/6  126 LRTWQGSFITTGRIVTKSACAGTLPDNLPTPVLEMESAAVAQAATAAGIPFLGLRAISDDAAEELGFSLDELTDEQLRIS  205 (215)
+T ss_pred             CCeeEEeEEeccchhcCHHHhccCchhCCCCEEecChHHHHHHHHHhCCCEEEEEEEecccchhcCccchHHHHHHHHHH
+Confidence            56889999999999988866666666678889999999996     68999999999998876654 445444   3344
+
+
+Q SCO47763.1       58 AAACAKAF-   65 (65)
+Q Consensus        79 aa~~~~~ll   87 (128)
+                      +..++..+|
+T Consensus       206 ~~~~~~~~l  214 (215)
+T B3E1J7_GEOLS/6  206 IPRVLFTCL  214 (215)
+T ss_pred             HHHHHHHhc
+Confidence            444444443
+
+
+No 3
+>PF07808.13 ; RED_N ; RED-like protein N-terminal region
+Probab=5.61  E-value=35  Score=20.41  Aligned_cols=28  Identities=7%  Similarity=0.190  Sum_probs=21.0  Template_Neff=6.000
+
+Q SCO47763.1       16 IIAFKIEGAGVWDVFPSIVIKGACNYAD   43 (65)
+Q Consensus        37 ~~~~dMEsaav~~~ip~l~iR~ISD~ad   64 (128)
+                      +.++|++.......||-.+||+..|...
+T Consensus       171 aYvfdL~~~~~~~dIPTTviRSK~D~p~  198 (234)
+T A0A158NPV2_ATT  171 AYVIELDDENADVDIPTTLIRSKADVPT  198 (234)
+T ss_pred             EEEEECCCCccccCCCeEEEeccccCCC
+Confidence            4567777654457899999999988754
+
+
+No 4
+>PF08515.12 ; TGF_beta_GS ; Transforming growth factor beta type I GS-motif
+Probab=4.62  E-value=45  Score=12.36  Aligned_cols=12  Identities=17%  Similarity=0.288  Sum_probs=7.8  Template_Neff=6.400
+
+Q SCO47763.1       28 DVFPSIVIKGAC   39 (65)
+Q Consensus        49 ~~ip~l~iR~IS   60 (128)
+                      .++|+++-|.|.
+T Consensus        16 sGlp~lvqRTiA   27 (28)
+T W4YKG0_STRPU/1   16 SGLPLLVQRTIA   27 (28)
+T ss_pred             CchhhhhhhhcC
+Confidence            566777776653
+
+
+No 5
+>PF12112.8 ; DUF3579 ; Protein of unknown function (DUF3579)
+Probab=2.95  E-value=80  Score=15.74  Aligned_cols=28  Identities=14%  Similarity=0.338  Sum_probs=13.4  Template_Neff=5.200
+
+Q SCO47763.1       32 SIVIKGACNYADSHKSKAWQRYSAATAA   59 (65)
+Q Consensus        53 ~l~iR~ISD~ad~~~~~~~~~~aa~~aa   80 (128)
+                      .++|.|+......-...+|.+..+...+
+T Consensus         4 ~~iI~G~T~~G~~FRPSDWaERL~g~la   31 (92)
+T Q8XWB9_RALSO/1    4 QFFIQGVTRDGKTFRPSDWADRLCGVMA   31 (92)
+T ss_pred             eEEEEEEcCCCCeeChhhHHHHHhhhhh
+Confidence            3567776443332234556555443333
+
+
+No 6
+>PF09772.9 ; Tmem26 ; Transmembrane protein 26
+Probab=2.87  E-value=82  Score=19.10  Aligned_cols=24  Identities=4%  Similarity=0.148  Sum_probs=17.0  Template_Neff=5.700
+
+Q SCO47763.1       16 IIAFKIEGAGVW-----DVFPSIVIKGAC   39 (65)
+Q Consensus        37 ~~~~dMEsaav~-----~~ip~l~iR~IS   60 (128)
+                      ..+++.|-.++.     .+.||+++|-..
+T Consensus       225 ~~~~~~eiw~i~~sl~mQDgPFLv~RL~l  253 (281)
+T Q65XY1_CAEEL/3  225 KAFYDVDIWAIFLANVLQDVPFLLVRLYL  253 (281)
+T ss_pred             heeccHHHHHHHHHHHhcchhHHHHHHHH
+Confidence            346666766663     678999999753
+
+
+No 7
+>PF12054.8 ; DUF3535 ; Domain of unknown function (DUF3535)
+Probab=2.40  E-value=98  Score=19.69  Aligned_cols=33  Identities=24%  Similarity=0.111  Sum_probs=22.1  Template_Neff=7.900
+
+Q SCO47763.1       33 IVIKGACNYADSHKSKAWQRYSAATAAACAKAF   65 (65)
+Q Consensus        54 l~iR~ISD~ad~~~~~~~~~~aa~~aa~~~~~l   86 (128)
+                      -+||.+.|......+...|..++...+.++...
+T Consensus       345 PiIrpLM~sIK~E~n~~LQ~~sA~ala~Li~~c  377 (480)
+T S2J4A9_MUCC1/6  345 PVIRSVMNSIKFEENLELQERSAATLTDLIALC  377 (480)
+T ss_pred             HHHHHHHHHhhccccHHHHHHHHHHHHHHHHHH
+Confidence            478999988766666667776665555555443
+
+
+No 8
+>PF12261.8 ; T_hemolysin ; Thermostable hemolysin
+Probab=2.32  E-value=1e+02  Score=16.84  Aligned_cols=27  Identities=0%  Similarity=0.000  Sum_probs=20.0  Template_Neff=6.400
+
+Q SCO47763.1       66 ---------------------------   65 (65)
+Q Consensus        97 ~~~~~~~~~~~~~~~~~~~~~~~~~~~  123 (128)
+                      ....+.+....|.+++.+.+....+|-
+T Consensus       143 ~~~rL~~~~~~WGsYY~~~P~V~a~~l  169 (173)
+T F5ZCD8_ALTNA/3  143 DARKLISSQDNWGTYYDTAPQVIALSL  169 (173)
+T ss_pred             CHHHcccchhcccchhhhCCEEEEEEc
+Confidence            344444457899999999998877663
+
+
+No 9
+>PF07759.12 ; DUF1615 ; Protein of unknown function (DUF1615)
+Probab=2.25  E-value=1.1e+02  Score=18.93  Aligned_cols=11  Identities=0%  Similarity=0.000  Sum_probs=6.3  Template_Neff=4.300
+
+Q SCO47763.1       66 -----------   65 (65)
+Q Consensus       112 ~~~~~~~~~~~  122 (128)
+                      -+-++||.||+
+T Consensus       124 ~TgGpMQVsv~  134 (315)
+T Q882Y3_PSESM/3  124 KTGGPMQVSIA  134 (315)
+T ss_pred             ccCCceeEeHH
+Confidence            34456666664
+
+
+No 10
+>PF17858.1 ; Defensin_int ; Platypus intermediate defensin-like peptide
+Probab=2.17  E-value=1.2e+02  Score=12.54  Aligned_cols=14  Identities=29%  Similarity=0.522  Sum_probs=9.2  Template_Neff=1.000
+
+Q SCO47763.1       27 WDVFPSIVIKGACN   40 (65)
+Q Consensus        48 ~~~ip~l~iR~ISD   61 (128)
+                      ..+-|++-+|+.+-
+T Consensus        18 prgnpclrlrgacp   31 (44)
+T DEFBL_ORNAN/25   18 PRGNPCLRLRGACP   31 (44)
+T ss_pred             CCCCcceeecccCC
+Confidence            35567777777654
+
+
