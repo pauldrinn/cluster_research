@@ -75,7 +75,7 @@ def tabulate_clusters():
 
 	all_clusters_nterm_gdt = gdt_file.drop(['nod_gdt', 'cterm_gdt'], axis=1).drop_duplicates().reset_index(drop=True)
 	all_clusters_nterm_gdt = clu_file.merge(all_clusters_nterm_gdt).drop(['identifier'], axis=1).drop_duplicates()
-	all_clusters_nterm_gdt = all_clusters_nterm_gdt.groupby('cluster_no')['nterm_gdt'].apply(' '.join).reset_index()
+	all_clusters_nterm_gdt = all_clusters_nterm_gdt.groupby('cluster_no')['nterm_gdt'].apply(list).reset_index()
 
 	architectures = clu_file.merge(gdt_file).drop(['identifier'], axis=1).drop_duplicates().reset_index(drop=True)
 	architectures['arch_gdt'] = architectures[['nterm_gdt', 'nod_gdt', 'cterm_gdt']].agg(list, axis=1)
@@ -133,7 +133,7 @@ if __name__ == '__main__':
 	b, a = tabulate_clusters()
 	#tabulate_to_bins(b, a, 'test.tsv')
 
-	#b.to_csv('/home/paul/nterm_annot_project/data/before_annotation.tsv', sep='\t')
-	#a.to_csv('/home/paul/nterm_annot_project/data/after_annotation.tsv', sep='\t')
+	b.to_csv('/home/paul/nterm_annot_project/data/before_annotation.tsv', sep='\t')
+	a.to_csv('/home/paul/nterm_annot_project/data/after_annotation.tsv', sep='\t')
 
 	print(b); print(a)
